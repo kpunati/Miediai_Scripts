@@ -35,27 +35,52 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "A case study on retirement planning for a 60 and 54-year-old couple with $650k in savings. Demonstrates a five-step financial planning process including assessment, plan construction, implementation, monitoring, and contingency planning. Key strategies include guard rails distribution, Social Security optimization, and portfolio adjustments to improve their retirement probability from 40% to 84% success."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "case-study", "financial-assessment", "portfolio-strategy", "social-security", "distribution-strategy"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Steve Doe"
+      role: "commercial pilot"
+    - name: "Jane Doe"
+      role: "business owner"
+    - name: "Eric Amzalag"
+      role: "CFP, financial planner"
+  companies:
+    - name: "Peak Financial Planning"
+      ticker: null
+    - name: "Vanguard"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["RightCapital", "Guard rails withdrawal strategy"]
+  concepts: ["Monte Carlo analysis", "distribution rate", "sequence of returns risk", "reverse glide path", "Roth conversion", "military pension"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Couple currently has $800,000 in total retirement savings, with $700,000 in pre-tax accounts and $100,000 in 529 college savings plans"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Initial retirement plan shows 40% probability of success, improved to 84% with recommended adjustments"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Recommended $600/month spending reduction ($7,200 annually) in both pre and post-retirement periods"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Couple is currently underspending by approximately $1,800 per month ($21,600 annually) compared to their actual tracked spending"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -65,6 +90,45 @@ notes: ""
 **Published:** 2024-09-07
 **URL:** https://youtube.com/watch?v=-mqHq17KWUY
 **Duration:** 25:44
+
+## Summary
+
+This video presents a detailed case study of a 60/54-year-old couple (Steve and Jane) working with a financial planner to build a comprehensive retirement strategy. Despite having saved $800,000, they initially had only a 40% probability of success in retirement due to excessive portfolio reliance. By implementing five key recommendations—guard rails distribution strategy, optimized Social Security timing, spending adjustments, Roth conversion analysis, and portfolio reallocation—the couple improves their success probability to 84%, positioning them to retire comfortably.
+
+## Key Takeaways
+
+- Financial planning extends far beyond investment recommendations; it requires comprehensive assessment of income, expenses, and timing of various income sources.
+- Guard rails withdrawal strategy provides a rules-based framework for managing portfolio distributions and reduces the need for reactive spending decisions.
+- Early retirement success depends heavily on bridging the years before Social Security and pension income kick in, making spending adjustments in early retirement particularly impactful.
+- Social Security claiming strategy and coordination with spouse creates significant value; delaying claims often provides larger lifetime household benefits.
+- Portfolio diversification and rebalancing matter less than understanding and managing sequence-of-returns risk during early retirement years.
+- Roth conversions are not always beneficial; in this couple's case, the high distribution rates and tax costs created more risk than potential benefit.
+
+## Detailed Notes
+
+### Financial Assessment and Current Situation [00:00:00]
+
+Steve earns $175,000 as a commercial pilot plus $45,000 military pension; Jane earns $20,000 from self-employment. They have $800,000 in retirement savings (mostly pre-tax), $100,000 in 529 plans for three college-age children, and a $645,000 home with $243,000 mortgage. Initial Monte Carlo analysis shows 40% success probability.
+
+### Key Assessment Findings [00:00:00]
+
+Analysis revealed the couple is actually saving $88,000 annually to post-tax accounts (not the $30,000 they believed), but their stated savings goals may be unrealistic. The plan relies too heavily on portfolio performance to compensate for the savings gap.
+
+### Optimal Retirement Scenario (Scenario 1) [00:00:00]
+
+Recommended spending reductions of $600/month pre-retirement and post-retirement, enabling Steve to retire at 65. With these adjustments and other recommendations, success probability improves from 40% to 84%. The couple must make committed spending adjustments for this optimal path.
+
+### Guard Rails Distribution Approach [00:00:00]
+
+Guard rails strategy projects the couple arriving at retirement with approximately $1.3 million in assets. Starting distribution would be roughly $102,000 annually (7.7% rate). Portfolio rebalances occur only when upper or lower guard rails are triggered, reducing the need for emotional decision-making.
+
+### Social Security and Roth Conversion Strategy [00:00:00]
+
+Recommended claiming strategy: Steve claims at 70, Jane at 67. This ensures nearly 90% of desired retirement spending is covered by guaranteed income by 2036 when the home is paid off. Roth conversions are not recommended because early retirement distribution rates would become excessively high (51-56% increases), introducing more risk.
+
+### Portfolio Construction and Risk Management [00:00:00]
+
+Recommended changes include reverse glide path (65% to 55% stock allocation), more diversified holdings with individual stocks/bonds plus ETFs, and active rebalancing using absolute tolerance bands. Backtesting shows modest improvements of 1-3% in success probability with new allocation vs. original 65/35 portfolio.
 
 ## Transcript
 

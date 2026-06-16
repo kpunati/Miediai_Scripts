@@ -35,27 +35,54 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Comprehensive guide to health insurance planning for early retirees (before age 65). Covers COBRA, spousal employer plans, short-term plans, and ACA marketplace options. Emphasizes that Modified Adjusted Gross Income (MAGI) is the critical control variable for ACA premium costs, with major income thresholds ($62,600 single / $84,600 married in 2026) that create dramatic subsidy cliffs."
 topics: []
-topics_proposed: []
+topics_proposed: ["early-retirement", "healthcare-planning", "aca-marketplace", "modified-adjusted-gross-income", "health-insurance-subsidy", "tax-planning", "withdrawal-strategy"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, RICP, financial advisor"
+  companies:
+    - name: "The Peak FP"
+      ticker: null
+    - name: "Congress"
+      ticker: null
+    - name: "Peak Financial Planning Inc"
+      ticker: null
+  tickers: ["META"]
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["COBRA", "ACA Marketplace", "Medicare", "Roth IRA", "Traditional IRA", "Health Savings Account", "Taxable Brokerage Accounts"]
+  concepts: ["Modified Adjusted Gross Income (MAGI)", "ACA Subsidies", "Subsidy Cliff", "Health Insurance Marketplace", "Pre-existing conditions", "Medical underwriting", "Bronze/Silver/Gold plans", "Roth conversions", "Tax-loss harvesting", "Income blending", "Qualified medical expenses", "Non-taxable Social Security benefits", "Cost basis withdrawal", "Dividend income", "Rental property income", "Savings account interest", "Medicare eligibility age", "Early retirement", "IRMA surcharges"]
+content_type: "educational"
+audience_level: "advanced"
+key_claims: 
+  - claim: "In 2026, Congress let ACA subsidy enhancements expire, creating a cliff system where married couples earning $84,600 in MAGI get subsidies, but those earning $84,601 become ineligible, losing approximately $24,000/year in subsidies"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "For a married couple ages 60-61, the average ACA marketplace silver plan costs approximately $2,700/month ($32,388 annually) without subsidies, but can drop to $331/month with MAGI of $50,000"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Single individuals with MAGI of $62,600 are the income threshold for ACA subsidies; above that becomes full-price premiums"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Over a five-year period before Medicare, the cost difference between being above the MAGI cliff (no subsidies) versus below it could exceed $120,000 for a married couple"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Roth IRA withdrawals, taxable brokerage cost basis withdrawals, and cash spending do not count toward Modified Adjusted Gross Income"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -65,6 +92,53 @@ notes: ""
 **Published:** 2026-03-24
 **URL:** https://youtube.com/watch?v=Hr4uV9axw8o
 **Duration:** 29:41
+
+## Summary
+
+Eric Amzalag provides a detailed strategy guide for retirees retiring before age 65 to navigate health insurance costs and tax planning. The core insight is that Modified Adjusted Gross Income (MAGI) is the single variable controlling ACA marketplace health insurance costs. With the 2026 expiration of enhanced subsidies, a dramatic cliff system emerged: married couples earning $84,600 or less in MAGI can access subsidies reducing family premiums from $32,000+ annually to under $4,000, while earning $84,601 means full-price premiums. The key strategy is 'blended withdrawals'—strategically drawing from Roth IRAs, taxable brokerage cost basis, and cash savings to meet spending needs while keeping MAGI below cliff thresholds. The video also challenges conventional wisdom about Roth conversions and Social Security claiming, arguing that maximizing health insurance subsidies pre-Medicare is more valuable than building future tax-deferred assets.
+
+## Key Takeaways
+
+- Health insurance is the single largest cost barrier to early retirement, but has become controllable through MAGI management; the 2026 policy change makes ACA subsidy planning critical for anyone retiring before 65 with less than $84,600 (married) annual spending
+- MAGI is not the same as spending; you can spend $120,000 annually while keeping MAGI at $75,000 by sourcing money from Roth IRAs, cash, and taxable brokerage cost basis—each of which doesn't count toward MAGI
+- The MAGI subsidy cliff creates a discontinuity where earning one extra dollar ($84,601 vs $84,600) results in losing ~$24,000 in annual subsidies, making income control strategically crucial in the early retirement window
+- Non-spending sources of income (dividends, interest, rental property income) still count toward MAGI and can unexpectedly push retirees above subsidy thresholds; tracking these is essential for accurate MAGI planning
+- Roth IRAs should be strategically deployed to stay under MAGI cliffs during early retirement years (ages 59-65) rather than preserved for heirs; the guaranteed $20,000-$25,000/year in subsidy savings far exceeds hypothetical future tax benefits
+- Early claiming of Social Security creates challenges because it adds non-controllable income to MAGI; consider the strategic interaction between Social Security timing and health insurance subsidy eligibility when planning early retirement
+
+## Detailed Notes
+
+### Understanding Your Health Insurance Options Before 65 [00:00:00]
+
+Four main options exist: COBRA (18-month bridge at full premium cost of $600-$2,000/month), spousal employer coverage (if partner still working), short-term/temporary plans (cheaper but limited coverage, medical underwriting required), and ACA marketplace (available to all regardless of health status). Most early retirees eventually land on ACA marketplace. The path chosen depends on retirement age, income, health status, and whether other bridge options exist.
+
+### The Critical Change: 2026 ACA Subsidy Cliff [00:00:00]
+
+From 2021-2025, Congress enhanced ACA subsidies by removing income caps. This ended December 31, 2025. In 2026, a cliff system took effect: married couples must keep MAGI below $84,600 to access subsidies; singles must stay below $62,600. Crossing these thresholds by even $1 eliminates subsidies entirely, jumping premiums $24,000/year for silver plans. Above the threshold, no stratification exists—earning $85,000 or $500,000 costs the same.
+
+### MAGI: The Control Variable [00:00:00]
+
+Modified Adjusted Gross Income equals AGI plus tax-exempt interest, non-taxable Social Security, and excluded foreign income. Critically, MAGI excludes Roth withdrawals, cash spending, taxable brokerage cost-basis withdrawals, HSA qualified expenses, loan proceeds, gifts, and life insurance. Spending $120,000/year can result in $0 income if sourced from these vehicles. This creates planning flexibility by divorcing spending from taxable income.
+
+### Real Numbers: Premium Impact of MAGI Control [00:00:00]
+
+A married couple ages 60-61 faces $2,700/month ($32,388 annually) for silver plan without subsidies. At $50,000 MAGI, subsidies reduce cost to $331/month ($3,972/year). At $75,000 MAGI, premiums cap at 9.96% of income ($7,476/year). At $84,000 MAGI, still 9.96% (~$8,400/year). But at $84,601 MAGI, all subsidies vanish and cost jumps to $24,768/year. Over five years before Medicare, staying below the cliff saves up to $120,000 for couples; ten years doubles this.
+
+### Strategic Withdrawal Blending [00:00:00]
+
+To spend $120,000 while keeping MAGI at $75,000 (below the cliff), blend withdrawals: $55,000 from traditional IRA (counts toward MAGI), $20,000 long-term capital gains from taxable account (counts), $20,000 from Roth IRA (doesn't count), $15,000 from cash savings (doesn't count), and $10,000 cost-basis from brokerage (doesn't count). The math requires simulation tools like Holistiplan or careful spreadsheet modeling to ensure MAGI stays below thresholds.
+
+### Hidden Income Traps [00:00:00]
+
+Dividends reinvested in taxable accounts are taxable in the year accrued, even if not withdrawn—adding to MAGI. Similarly, savings account interest accrues as taxable income regardless of whether the money is spent. Rental property income shows as tax return profit and counts toward MAGI even if retained in a property capital account. These 'invisible' income sources can push retirees above MAGI cliffs without realizing it.
+
+### Roth Conversions vs. Health Insurance Subsidies [00:00:00]
+
+Conventional wisdom advocates Roth conversions even at high tax brackets. However, in the 2026 subsidy environment, this logic flips. A $50,000 Roth conversion might save $6,000-$7,000 in future taxes (30 years hence) but costs $25,000 in current-year health insurance subsidy loss. The math doesn't work. Additionally, time value of money: saving $25,000 today on insurance is worth more than hypothetical future tax savings. Roth accounts should be tactical spending vehicles for early retirees, then rebuilt post-Medicare.
+
+### Social Security Claiming Complexity [00:00:00]
+
+While early Social Security claiming may maximize lifetime benefits, it creates non-controllable MAGI income. Unlike investment account withdrawals (where you can choose which account to draw from), Social Security income adds fixed income regardless of need. For early retirees trying to stay below MAGI cliffs, Social Security claiming adds complexity. Strategy requires careful analysis of whether lower MAGI-driven insurance savings outweigh lifetime benefit reductions from delayed claiming.
 
 ## Transcript
 

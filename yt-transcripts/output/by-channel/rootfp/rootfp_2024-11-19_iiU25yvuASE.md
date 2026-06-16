@@ -60,27 +60,54 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "James Conole explains when to transition from growth-oriented stock portfolios to conservative allocations as retirement nears, emphasizing that timing depends on when funds will be needed rather than retirement date alone, and considering both financial capacity and psychological tolerance for volatility."
 topics: []
-topics_proposed: []
+topics_proposed: ["portfolio-allocation", "retirement-planning", "stock-bond-mix", "risk-capacity", "asset-allocation"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "James Conole"
+      role: "CFP, Financial Advisor"
+  companies:
+    - name: "Root Financial Partners"
+      ticker: null
+    - name: "Charles Schwab"
+      ticker: null
+    - name: "Fidelity"
+      ticker: null
+  tickers: ["SPY"]
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["asset allocation", "risk capacity", "risk tolerance", "bond ladder", "dividend yield", "rebalancing", "stock market volatility"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "S&P 500 has averaged about 10% per year over time and is positive 94% of the time over 10-year rolling periods"
+    timestamp: "00:02:05"
+    confidence: "high"
+    flagged: false
+  - claim: "Over 20-year rolling time periods, there has never been an instance in the last 90+ years that the S&P 500 has not had a positive outcome"
+    timestamp: "00:05:13"
+    confidence: "medium"
+    flagged: false
+  - claim: "On a daily basis, the S&P 500 is positive about 53% of the time, negative 47% of the time"
+    timestamp: "00:03:08"
+    confidence: "high"
+    flagged: false
+  - claim: "In 2020, stock market lost about half its value while dividends only dropped 1-2%"
+    timestamp: "00:12:35"
+    confidence: "medium"
+    flagged: true
+  - claim: "For a $4 million portfolio generating 2% dividend yield, annual cash income would be $80,000"
+    timestamp: "00:11:33"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -90,6 +117,40 @@ notes: ""
 **Published:** 2024-11-19
 **URL:** https://youtube.com/watch?v=iiU25yvuASE
 **Duration:** 26:19
+
+## Summary
+
+James Conole provides a comprehensive framework for deciding when to shift from stock-heavy portfolios to more conservative allocations ahead of retirement. The timing decision depends not on retirement date but on when funds will actually be withdrawn, requiring analysis of Social Security, pensions, and spouse income. The allocation should balance financial needs (holding enough bonds to cover expenses during downturns) with psychological comfort with volatility. Practical implementation typically starts 10 years before needed withdrawals and intensifies 5 years before.
+
+## Key Takeaways
+
+- Protect against market decline by determining when you will actually need funds from your portfolio, not just when you plan to retire.
+- Calculate required bond/cash holdings based on years of expenses needed in conservative assets; a $4M portfolio needing $40K annually supports a 90/10 allocation, while a $1M portfolio with same need requires 60/40.
+- Understand the difference between risk capacity (what you can afford) and risk tolerance (what you can emotionally handle); both should inform your allocation.
+- Dividends and bond interest provide stability and flexibility; in 2008-2009, dividends fell only 25% while stocks fell much more, and in 2022, dividends rose despite 25% stock declines.
+- Start rebalancing conversations 10 years before needing funds; implement actual allocation shifts 5 years before to smoothly transition without forced selling at market bottoms.
+
+## Detailed Notes
+
+### Market Volatility and Time Horizon [00:01:03]
+
+The stock market's short-term volatility (53% positive daily, 73% positive annually) contrasts with its reliable long-term performance (94% positive over 10-year periods, 100% positive over 20-year periods). Near retirees are vulnerable to downturns because they lack time to recover, while young investors can buy at lower prices. This time-horizon distinction drives allocation decisions.
+
+### When to Need Funds vs. Retirement Date [00:06:16]
+
+A 55-year-old retiring at 65 may not need portfolio withdrawals for 15 years if a pension and spouse income cover early retirement expenses. This 15-year timeline, not the 10-year retirement date, should drive allocation decisions. Withdrawing from the portfolio is the trigger point, not hitting a specific age.
+
+### Calculating Conservative Asset Allocation [00:08:22]
+
+A $1M portfolio requiring $40K annually with 10 years of expenses in bonds/cash requires $400K in conservative assets (40%), leaving 60% stocks. A $4M portfolio with same $40K need requires only $400K (10%), supporting 90% stocks. The dollar need is fixed, but the percentage varies with total portfolio size.
+
+### Dividends and Bond Interest as Stability [00:12:35]
+
+A $4M portfolio with 2% dividend yield generates $80,000 annually. Dividends proved resilient during 2008-2009 (dropping only 25% despite 50% stock decline) and in 2022 (actually increased despite 25% stock losses). This stability allows retirees to take income from dividends without selling depressed stock positions.
+
+### Psychological Tolerance and Implementation Timeline [00:20:51]
+
+James typically begins allocation conversations 10 years before needed withdrawals to establish flexibility if retirement timing changes. Implementation of actual shifts usually occurs 5 years before, using gradual rebalancing (dividends reinvested to conservative assets or new contributions directed to bonds) rather than sudden shifts that lock in losses during downturns.
 
 ## Transcript
 

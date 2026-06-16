@@ -59,27 +59,54 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "James Conole walks through retirement planning for age-gap couples using Daniel (53) and Dione (64) as a case study, identifying three critical planning changes: accounting for the younger spouse's extended longevity, planning for premature death of the higher-earning spouse, and stress-testing for long-term care events that could deplete assets available to the surviving spouse."
 topics: []
-topics_proposed: []
+topics_proposed: ["age-gap-couples", "retirement-planning", "longevity-risk", "life-insurance", "long-term-care-planning"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "CFP, founder of Root Financial"
+    - name: "Daniel"
+      role: "age 53, hypothetical client"
+    - name: "Dione"
+      role: "age 64, hypothetical client"
+  companies:
+    - name: "Root Financial Partners, LLC"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["401k", "health savings account (HSA)", "brokerage account", "deferred compensation plan", "life insurance", "long-term care insurance"]
+  concepts: ["age gap planning", "longevity risk", "younger spouse retirement horizon", "premature death risk", "surviving spouse income", "long-term care sequencing", "probability of success", "portfolio longevity", "sequence of returns risk", "survivor income ratio", "Social Security strategy", "mortgage planning"]
+content_type: "case-study"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Daniel and Dione have an 11-year age gap; if Dione retires at 69 with 30-year planning horizon, Daniel (age 58 at retirement) has 40+ year horizon, requiring different asset longevity assumptions"
+    timestamp: "00:06:13"
+    confidence: "high"
+    flagged: false
+  - claim: "Base case scenario shows 85% probability of success; if Dione (higher earner) dies today at age 64, the probability drops to near 0%"
+    timestamp: "00:07:14"
+    confidence: "high"
+    flagged: true
+  - claim: "If Daniel works until age 65 earning $200,000 per year after Dione's premature death and sells the vacation property, probability of success improves from near 0%"
+    timestamp: "00:09:18"
+    confidence: "medium"
+    flagged: true
+  - claim: "If Dione retires early at age 67 (probability of success 60%) and experiences a 3-year long-term care event costing $150,000 per year, probability of success drops to 49%, falling to 31% if she had retired one year earlier"
+    timestamp: "00:12:25"
+    confidence: "high"
+    flagged: true
+  - claim: "If Dione works until age 68 instead of retiring early, even a $150,000/year three-year long-term care event leaves Daniel in a position where he will not face portfolio depletion"
+    timestamp: "00:14:30"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -89,6 +116,53 @@ notes: ""
 **Published:** 2024-11-30
 **URL:** https://youtube.com/watch?v=_e_PbQ4bQik
 **Duration:** 17:47
+
+## Summary
+
+James Conole presents retirement planning for age-gap couples through the case of Daniel (53) and Dione (64), who have built substantial wealth but face unique retirement planning challenges. The base case scenario (Dione retires at 69, both live to 95) shows 85% probability of success. However, three critical dimensions shift the planning: (1) the younger spouse's extended retirement horizon (40+ years vs. 30 years), (2) premature death of the higher-earning spouse (which collapses the plan), and (3) long-term care events that deplete resources needed for the surviving younger spouse. Conole demonstrates through scenario analysis how working one extra year, earning income in retirement, reducing expenses, or selling assets can address these risks.
+
+## Key Takeaways
+
+- Age-gap couples cannot use standard 30-year retirement planning horizons; the younger spouse's longevity means planning for 40+ years, requiring higher asset reserves and conservative spending rates to ensure resources last into the surviving spouse's 80s or 90s.
+- In age-gap couples where the older spouse is the primary earner, premature death of that spouse is catastrophic; Dione's death today would collapse the probability of success from 85% to near 0%, requiring either substantial life insurance or backup income from the younger spouse.
+- Backup plans for premature death might include: (1) life insurance on the higher earner, (2) the younger spouse continuing to work until a later age (e.g., Daniel earning $200k/year until 65), (3) selling assets like vacation property to pay off mortgages, or (4) reducing expenses by $1,000+/month.
+- Long-term care events for the older spouse directly threaten the surviving younger spouse's security; a 3-year, $150,000/year care event can reduce probability of success from 60% to 49%, forcing difficult trade-offs (work longer, reduce spending, buy insurance).
+- Working one additional year (Dione to age 68 instead of 67) can be the difference between a portfolio-depletion scenario for Daniel and financial security; the accumulated savings and reduced withdrawal period buffer long-term care risks.
+- Planning for age-gap couples requires scenario testing: 'what if' the higher earner dies early, 'what if' a long-term care event occurs, 'what if' markets drop, 'what if' early retirement happens; each scenario may require different solutions (work longer, sell property, reduce spending, buy insurance).
+
+## Detailed Notes
+
+### Meet Daniel and Dione: An 11-Year Age Gap [00:00:00]
+
+Dione is 64, earning over $700k/year; Daniel is 53 with no current income. They have multiple properties (primary and vacation home), maxing 401k and HSA contributions, with several million in assets. Dione plans to work until age 69 (5 more years); Daniel has 16 years until his full retirement age. The age gap creates a unique planning challenge: if Dione retires at 69, Daniel is only 58—he may need retirement income for 35+ years vs. Dione's 26 years.
+
+### Base Case Scenario: 85% Probability of Success [00:03:06]
+
+Under assumptions of 5 more years of work, continued saving to retirement accounts, portfolio growth, they have an 85% probability of success. This is calculated across 1,000 different market scenarios and sequence-of-returns combinations. However, this assumes Dione continues working until 69 and no major life events occur. The projection shows assets will continue growing even after retirement, meaning portfolio distributions are covered by investment returns.
+
+### What If Dione Retires Early? Longevity of the Younger Spouse [00:04:08]
+
+If Dione retires at 66 (3 years earlier) and they increase spending to $100k/month, assets still last through Dione's life expectancy (age 95). However, at that point Daniel is only 85. If he lives another 10-15 years (to 95-100), assets are depleted and he faces dramatic lifestyle reduction relying only on Social Security. The critical principle: with an 11-year gap, you cannot use standard 30-year retirement horizon; you must plan for the younger spouse's 40+ year horizon.
+
+### Premature Death of the Higher-Earning Spouse [00:07:14]
+
+If Dione dies today at 64, the plan collapses: no more $700k income, no more 401k/HSA contributions, no more savings accumulation. The surviving Daniel faces 32 years (to age 85 in the life expectancy assumption) with no salary and dwindling assets. Probability of success drops from 85% to near 0%. This is why life insurance on the higher earner is critical; without it, the younger spouse must have backup plans: work longer, reduce spending, sell assets.
+
+### Backup Plans if Primary Earner Dies: Work, Spend, Sell [00:09:18]
+
+To address Dione's premature death risk, Conole models scenarios: (1) Daniel works until 65 earning $200k/year—helps but not sufficient alone; (2) Daniel reduces living expenses by $1,000/month—makes a dent; (3) Daniel sells vacation property, paying off mortgage and freeing cash—starts moving the probability back to acceptable levels. The point: there is no single solution; couples need multiple contingencies in case the worst happens.
+
+### Long-Term Care: The Sequencing Problem for Couples [00:11:24]
+
+A long-term care event for the older spouse (Dione) affects not just her costs but the surviving spouse's (Daniel's) security. Assuming Dione retires at 67 (60% probability of success) and has a 3-year long-term care event costing $150k/year, the probability drops to 49%. If she had retired at 66 (worse baseline), the same care event brings probability to 31%. The key risk: depleting assets meant to sustain the younger spouse for 10-15 more years of life.
+
+### The Power of One More Year: Working Until 68 vs. 67 [00:14:30]
+
+By having Dione work until 68 instead of 67, the accumulated extra savings buffer the long-term care risk enough that even a $150k/year three-year care event does not deplete assets to the point of threatening Daniel's security. This illustrates a key principle: small delays in retirement can dramatically improve resilience to unexpected shocks. The difference between comfortable and desperate may be 12 months of additional income.
+
+### Scenario Planning: The Importance of 'What If?' [00:15:34]
+
+Conole emphasizes that planning for age-gap couples requires asking many 'what if?' questions: What if markets drop 30%? What if Dione dies at 64? What if a long-term care event costs $150k/year? What if inflation is higher than expected? By running scenarios upfront, couples can identify which decisions are robust (work to 68) and which are fragile (retire at 66 with minimal buffer). Having a contingency plan for each scenario means you can adjust when reality hits rather than facing panic.
 
 ## Transcript
 

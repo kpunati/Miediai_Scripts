@@ -39,27 +39,42 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Demonstrates how tax-efficient withdrawal sequencing in retirement can save $250,000-$500,000+ in taxes over 30 years by strategically using pre-tax, after-tax, and Roth accounts. Details five phases of retirement tax planning from pre-retirement through RMDs."
 topics: []
-topics_proposed: []
+topics_proposed: ["tax-planning", "roth-conversion", "withdrawal-strategy", "retirement-income", "aca-subsidies"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, RICP, host"
+  companies:
+    - name: "Peak Financial Planning"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["withdrawal sequencing", "tax-efficient spending", "Roth conversion", "ACA subsidies", "Medicare IRMAA", "required minimum distributions", "pre-tax accounts", "brokerage accounts"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "A couple starting with $3.13 million in pre-tax accounts can save $492,000 in after-tax wealth through strategic withdrawal sequencing versus a 1% higher return with poor sequencing"
+    timestamp: "00:00:42"
+    confidence: "high"
+    flagged: true
+  - claim: "Building $200,000 in high-basis brokerage money during working years enables access to ACA subsidies worth $58,000 over a 5-year pre-Medicare period"
+    timestamp: "00:05:30"
+    confidence: "high"
+    flagged: true
+  - claim: "Roth conversions from age 65-70 costing $123,000 in taxes can reduce RMD-phase taxes by $176,000 from age 75-90, a net lifetime federal tax savings of $104,000"
+    timestamp: "00:13:29"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -69,6 +84,41 @@ notes: ""
 **Published:** 2026-05-17
 **URL:** https://youtube.com/watch?v=CzhEq4qZuE0
 **Duration:** 21:08
+
+## Summary
+
+This video breaks down five critical tax decision phases spanning 35 years of retirement planning. Phase 1 occurs before retirement when high earners can strategically shift some savings to after-tax accounts. Phase 2 (pre-Medicare) leverages low-income years to capture ACA premium subsidies. Phase 3 (Medicare to Social Security) creates a tax-planning window for aggressive Roth conversions. Phase 4 (Social Security on) changes conversion math due to benefit taxation. Phase 5 (RMD phase) benefits from earlier conversions through lower forced distributions. The case study shows a couple saving over $250,000 in federal taxes and controlling account composition to avoid the tax drag of forced RMDs.
+
+## Key Takeaways
+
+- Pre-tax account balances are not equivalent to after-tax wealth—every dollar has a hidden tax liability that reduces spending capacity
+- Building brokerage basis during high-earning years enables tax-free spending in early retirement without triggering income-based penalties
+- ACA premium subsidies (up to $58,000 over 5 years) are available to those who manage taxable income below $218,001 for married couples
+- The 'golden window' ages 63-64 (before Medicare) offer favorable tax brackets for Roth conversions without IRMAA surcharges
+- Roth conversions have counterintuitive value—they cost more in taxes initially but reduce future RMDs and lifetime tax bills
+- Required minimum distributions forced at age 73 create the largest tax planning challenge; strategic conversions 8-10 years earlier are a primary defense
+
+## Detailed Notes
+
+### Phase 1: Working Years (Age 55-60) [00:02:45]
+
+High earners naturally max 401k contributions, reducing current taxes at rates of 32-37%. However, doing so leaves all retirement money in pre-tax buckets, creating taxation on every dollar spent. A better approach splits savings: max employer match in 401k, redirect remainder to after-tax brokerage (costing 46,000 more in current taxes). This builds high-basis brokerage money for tax-free early retirement spending, setting up future phases.
+
+### Phase 2: Pre-Medicare (Age 60-65) [00:06:22]
+
+Before age 65, income determines eligibility for ACA premium tax credits on private health insurance, worth $10,000-$25,000 annually. A couple with all pre-tax money must withdraw $120,000+ yearly, pushing income above subsidies and forcing full-cost premiums (~$32,000/year). Using brokerage money instead keeps taxable income low, capturing subsidies worth $58,000 over 5 years. Net benefit exceeds earlier tax costs by $11,000.
+
+### Phase 3: Medicare to Social Security (Age 65-70) [00:10:57]
+
+With ACA subsidies gone and Social Security not yet active, this phase offers a unique tax-planning window. Converting $495,000 from pre-tax to Roth over 5 years costs $123,000 in taxes but reduces pre-tax balance from $3.4M to $2.7M. Large RMDs are triggered by large pre-tax balances, so this conversion reduces future forced income. The short-term tax cost yields long-term benefits in the RMD phase.
+
+### Phase 4: Social Security (Age 70-75) [00:14:30]
+
+Once Social Security begins, additional IRA withdrawals push more of the Social Security benefit into taxation (up to 85% becomes taxable). The marginal tax cost of conversions is higher than it appears. Additionally, IRMAA surcharges kick in based on MAGI, creating a Medicare cost above standard premiums. This phase requires shifting to defensive spending from existing accounts rather than aggressive conversions.
+
+### Phase 5: RMD Phase (Age 75+) [00:16:07]
+
+Required minimum distributions are mandatory, forcing withdrawals whether needed or not. A couple who converted $500,000 in Phase 3 faces RMDs $37,000-$75,000 lower annually than no-conversion couples. Over 15 years of RMDs, this difference compounds to $176,000 in federal tax savings, paying back Phase 3's $123,000 tax cost and creating $104,000 additional lifetime savings. Account composition (pre-tax vs Roth) becomes highly valuable.
 
 ## Transcript
 

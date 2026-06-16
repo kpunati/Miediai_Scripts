@@ -63,27 +63,52 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Kevin Lum, CFP®, outlines seven essential tax-planning strategies for 2025 to reduce tax liability. Key approaches include creating a base-case analysis, maximizing retirement contributions, tax loss and gain harvesting, strategic income deferral, HSA utilization, estimated tax payments, and Roth conversions. The video emphasizes holistic long-term tax planning over short-term tax reduction, with attention to new senior deduction phase-outs and other 2025 tax law changes."
 topics: []
-topics_proposed: []
+topics_proposed: ["tax-planning", "roth-conversions", "retirement-contributions", "tax-loss-harvesting", "estimated-taxes"]
 entities:
-  people: []
-  companies: []
-  tickers: []
-  funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  people:
+    - name: "Kevin Lum"
+      role: "CFP, Founder of Foundry Financial"
+  companies:
+    - name: "Foundry Financial LLC"
+      ticker: null
+  tickers: ["NVIDIA", "TSLA"]
+  funds:
+    - name: "IGV"
+      ticker: "IGV"
+  products: ["Donor-Advised Fund", "Health Savings Account (HSA)", "Traditional IRA", "Roth IRA", "401k", "Roth 401k"]
+  concepts: ["Marginal Tax Rate", "Tax Loss Harvesting", "Tax Gain Harvesting", "Wash Sale Rule", "Standard Deduction", "Senior Federal Deduction", "Base Case Tax Planning", "Estimated Tax Payments", "Long-term Capital Gains"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "2025 standard deduction for married filing jointly is 34700, and 15750 for single filers"
+    timestamp: "00:02:55"
+    confidence: "high"
+    flagged: true
+  - claim: "New federal senior deduction in 2025 can be up to 6000 per person"
+    timestamp: "00:02:55"
+    confidence: "high"
+    flagged: true
+  - claim: "For married couples, long-term capital gains may be 0% tax bracket if taxable income stays under 96700; for single filers it's 48350"
+    timestamp: "00:16:57"
+    confidence: "high"
+    flagged: true
+  - claim: "Tax loss harvesting allows up to 3000 deduction from ordinary income in a given year if losses exceed gains"
+    timestamp: "00:14:50"
+    confidence: "high"
+    flagged: true
+  - claim: "When a Roth conversion causes loss of senior deduction at higher conversion amounts, the effective tax rate can jump almost 3%"
+    timestamp: "00:09:14"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -93,6 +118,54 @@ notes: ""
 **Published:** 2025-11-22
 **URL:** https://youtube.com/watch?v=CP9Iy2dzrIw
 **Duration:** 29:08
+
+## Summary
+
+Kevin Lum presents a comprehensive tax-planning video for 2025, designed to help both working professionals and retirees strategically reduce tax liability over time. Rather than focusing solely on immediate tax savings, he advocates for holistic tax planning that considers long-term implications. The core strategy involves creating a 'base case' to understand your current tax situation, then applying seven specific tactics: maximizing retirement account contributions, harvesting investment losses (and gains), deferring income, accelerating deductions, utilizing Health Savings Accounts, making estimated tax payments, and considering Roth conversions. Notably, he demonstrates how the new 2025 senior federal deduction can interact with Roth conversions in sometimes counterintuitive ways, with real examples using sample tax returns.
+
+## Key Takeaways
+
+- Create a 'base case' by analyzing your current year's income, deductions, major financial events, and marginal tax rate to identify planning opportunities and phase-outs.
+- Maximize retirement contributions (traditional 401k/IRA) to reduce taxable income, but understand this may create future tax liabilities requiring long-term planning.
+- For those in 22% marginal tax bracket or lower, consider Roth contributions over traditional deductions; above 24%, traditional deductions may be preferable.
+- Tax loss harvesting allows deduction of up to 3000 from ordinary income when losses exceed gains, with excess losses carried forward; avoid wash sale rules when rebuying.
+- Tax gain harvesting at 0% long-term capital gains rates (married under 96,700 taxable income) allows significant gains to be taken tax-free by resetting cost basis.
+- The 2025 senior federal deduction (up to 6000 per person) can be lost if income exceeds thresholds, making Roth conversions more expensive than they appear.
+- Make estimated quarterly tax payments (Jan 15, Apr 15, Jun 15, Sep 15) to avoid penalties; critical for retirees doing Roth conversions and small business owners.
+
+## Detailed Notes
+
+### Building Your Tax Planning Base Case [00:01:02]
+
+The foundation of tax planning is understanding your current tax situation. Gather your last year's tax return and identify all income sources (wages, dividends, interest, capital gains, bonuses, RSUs, Social Security), major financial events (asset sales, home sales, large medical expenses, charitable donations), and current deductions. Calculate your marginal tax rate—the tax on your next dollar of income. This base case reveals planning opportunities and helps identify phase-outs (like the new 2025 senior deduction) that could silently reduce benefits if income creeps too high.
+
+### 2025 Tax Bracket and Deduction Updates [00:02:55]
+
+Key 2025 figures: married filing jointly standard deduction is 34,700; single filer is 15,750; those 65+ get an extra standard deduction. New for 2025: federal senior deduction up to 6,000 per person, phasing out as income increases. These annual inflation adjustments must be factored into planning. The base case example of Jim and Pam Halpert (both 65, retired, 50,000 IRA distribution, 57,000 Social Security) shows how they save approximately 1,500 in taxes in 2025 vs 2024 despite slightly higher income—entirely due to the senior deduction bump.
+
+### Roth Conversions and Senior Deduction Interaction [00:07:28]
+
+When doing Roth conversions, increasing income can trigger loss of the senior deduction. In the example, a 26,000 conversion costs about 3,000 in taxes (at 12% bracket). But a 50,000 conversion into the 22% bracket actually costs more effective tax due to losing 2,000 of the senior deduction—making each dollar effectively taxed at 25% rather than 22%. This requires running detailed scenarios and understanding that conversions have hidden costs beyond the obvious bracket rate.
+
+### Maximizing Retirement Contributions [00:10:55]
+
+Contributing maximum amounts to 401k or IRA reduces current taxable income and saves taxes today. However, this creates future tax liability on all that deferred money. General rule: if in 22% bracket or lower, lean toward Roth contributions; if 24%+, traditional deduction is preferable (with caveats). This depends heavily on future plans—if planning to do large Roth conversions in retirement, contributions to traditional accounts may create unnecessary future tax bills. The decision requires holistic planning, not just immediate tax savings.
+
+### Tax Loss and Gain Harvesting Tactics [00:13:46]
+
+Tax loss harvesting: if investments have lost value, sell them to harvest losses. Use losses to offset capital gains (dollar-for-dollar) or ordinary income (up to 3,000 per year). Excess losses carry forward indefinitely. Example: 30,000 loss with no gains allows 3,000 deduction this year, then 3,000 in each following year until gains occur. CRITICAL: watch out for wash sale rules—if you repurchase the same or substantially identical investment within 30 days, you lose the loss deduction. Tax gain harvesting (less common): if below 0% long-term capital gains threshold (married under 96,700 taxable income), sell appreciated positions, harvest gains tax-free, reset cost basis, and optionally repurchase.
+
+### Income Deferral, Deduction Bunching, and Donor-Advised Funds [00:19:04]
+
+If you have a high-income year with itemizable deductions, accelerate deductions into this year and defer income to next year. Example: pay January property tax in December to add to current-year itemized deductions. 'Bunching' charitable donations: if normally giving 10,000/year but not reaching itemization threshold, donate 100,000 of appreciated stock to a donor-advised fund in one year, claim the full 100,000 deduction (no taxable gain on the stock), then distribute 10,000/year to charities over the next decade. The fund can invest the balance, growing tax-free, allowing larger ultimate donations.
+
+### HSAs and Estimated Tax Payments [00:22:37]
+
+Health Savings Accounts (HSAs) offer triple tax benefits: contributions are tax-deductible (above-the-line, no itemization required), growth is tax-free, and withdrawals for qualified medical expenses are tax-free. This makes them one of the best tax-reduction tools. Estimated tax payments are required quarterly (approximately Jan 15, Apr 15, Jun 15, Sep 15) for those without sufficient withholding (retirees, small business owners, RSU holders). Retirees doing Roth conversions must make estimated payments in the quarter the conversion occurs to avoid penalties and interest. Calculate estimated payments carefully or use professional guidance.
+
+### Strategic Roth Conversions and Future Tax Planning [00:26:31]
+
+Even those still working may benefit from Roth conversions if they have room in a lower tax bracket. If earning 100,000/year with 20,000 room to 22% bracket but sitting on 1,000,000 in traditional IRA, converting gradually to 22% each year while working is often smarter than waiting for retirement with larger RMDs. This requires professional advice considering Medicare premiums (IRMAA), Social Security taxation, senior deduction phase-outs, and SALT cap impacts. Higher anticipated future tax rates or required minimum distributions later make early conversion attractive.
 
 ## Transcript
 

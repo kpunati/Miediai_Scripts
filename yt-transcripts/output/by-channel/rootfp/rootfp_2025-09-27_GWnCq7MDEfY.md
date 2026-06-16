@@ -60,27 +60,40 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "James Conole shares insights from his clients in their 70s and 80s about their biggest regrets and lessons learned, emphasizing the importance of treating wealth holistically (financial, time, and health), establishing a financial independence plan, prioritizing non-monetary values, and maintaining cognitive health through continuous learning and relationships."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-advice", "life-planning", "financial-independence", "cognitive-health", "lifestyle-priorities"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "CFP, financial advisor"
+    - name: "Warren Buffett"
+    - name: "Naval"
+  companies:
+    - name: "Root Financial"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: [{"name": "Retirement Planning Academy"}]
+  concepts: ["financial independence number", "neuroplasticity", "time wealth", "health wealth", "financial wealth", "lifestyle priorities"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Warren Buffett is 95 years old with a net worth of $150 billion"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Studies show clear relationship between quality of relationships and social connections to longevity and retirement enjoyment"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -90,6 +103,44 @@ notes: ""
 **Published:** 2025-09-27
 **URL:** https://youtube.com/watch?v=GWnCq7MDEfY
 **Duration:** 18:40
+
+## Summary
+
+Financial advisor James Conole distills wisdom from elderly clients into three core lessons for people in their 50s and 60s: recognize that wealth encompasses financial resources, time, and health simultaneously; develop a clear financial independence plan to gain freedom and reduce stress; and pursue non-monetary goals like relationships, health, and personal growth. He emphasizes that the 50s-60s represent a critical window where financial security, available time, and physical health can overlap, and that investing in relationships and cognitive stimulation through learning compounds throughout retirement.
+
+## Key Takeaways
+
+- Most people in their 50s-60s have a unique opportunity to possess all three types of wealth simultaneously: financial security, time freedom, and good health—a sweet spot that rarely lasts and should not be squandered
+- Establishing a concrete financial independence number removes the psychological burden of perceived scarcity and allows workers to shift perspective from mandatory employment to voluntary engagement with work
+- The three things money cannot directly buy—a fit body, a calm mind, and a house full of love—require dedicated time and intention to develop and become increasingly valuable as you age
+- Neuroplasticity continues throughout life; consistent mental challenges, physical activity, and social engagement strengthen cognitive flexibility and expand your vision of what retirement can be
+- Chronic stress, lack of stimulation, and negative self-beliefs actively inhibit your brain's ability to adapt and grow; conversely, continuous learning and trying new things compounds cognitive health similar to how financial investments compound
+
+## Detailed Notes
+
+### Three Types of Wealth [00:00:00]
+
+Financial wealth (401k, net worth, liquid assets) is what most people focus on, but time wealth and health wealth are equally critical. Warren Buffett at 95 with $150 billion illustrates that extreme financial wealth cannot substitute for remaining time or health. The retirees' key insight is recognizing these three dimensions intersect in your 50s-60s, often for the last time.
+
+### The Sweet Spot of Your 50s-60s [00:00:00]
+
+Early life offers time and health but limited money; middle age brings money and health but limited time; in your 50s-60s you potentially have all three before aging and chronic disease onset. Many people sacrifice this window by continuing to chase additional financial gains when they're already financially independent, missing the only period where all three wealth forms align.
+
+### Financial Independence Plan as Psychological Tool [00:00:00]
+
+A concrete financial independence number transforms how people approach work. Burned-out employees who discover they've already hit their FI target often experience an immediate psychological shift—work becomes optional rather than necessary, reducing stress and enabling them to prioritize time and health. The plan itself matters even if FI isn't reached immediately, as it provides a clear roadmap.
+
+### Pursuing Non-Monetary Goals [00:00:00]
+
+A fit body, calm mind, and house full of love cannot be purchased but require earned effort over time. Financial security enables time freedom to pursue these things, but they must be practiced throughout life, not deferred until retirement. Relationships, health, and purpose are compounding assets like financial investments but have longer development horizons.
+
+### Neuroplasticity and Continuous Learning [00:00:00]
+
+The brain's ability to adapt and form new connections continues throughout life, not just in youth. Mental challenges (learning languages, puzzles), physical activity (exercise, dancing), and social connections all strengthen neuroplasticity. This creates a virtuous cycle where each new experience expands your vision of what retirement can be, preventing the 'too old for new things' mindset.
+
+### Brain Inhibitors and Practical Strategies [00:00:00]
+
+Chronic stress, lack of stimulation, and negative self-beliefs actively inhibit brain adaptation. Practical ways to build neuroplasticity include joining classes, volunteering, traveling to unfamiliar places, learning new skills, and practicing meditation. Even activities you don't initially enjoy contribute to brain flexibility by developing the identity of 'someone who tries new things.'
 
 ## Transcript
 

@@ -63,27 +63,46 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "CFP James Conole explains when to withdraw from Roth IRAs in retirement, presenting a framework that compares current tax brackets against future projected income including Social Security and Required Minimum Distributions to optimize tax-free withdrawals."
 topics: []
-topics_proposed: []
+topics_proposed: ["roth-ira", "retirement-planning", "tax-planning", "required-minimum-distributions", "qualified-charitable-distributions"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "CFP, founder of Root Financial"
+  companies:
+    - name: "Root Financial Partners, LLC"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Roth IRA", "Traditional IRA", "Brokerage accounts"]
+  concepts: ["tax-planning-window", "required-minimum-distributions", "qualified-charitable-distributions", "roth-conversions", "tax-insurance"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "If you have $1 million in Traditional IRA at age 75, Required Minimum Distribution starts at just under $40,000"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Qualified charitable distributions allow gifting over $100,000 per year from IRA directly to charity without counting as required distribution"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Standard deduction for single filers in 2025 is $15,000"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "22% tax bracket threshold for single filers is taxable income over $48,475 in 2025"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -93,6 +112,49 @@ notes: ""
 **Published:** 2025-05-03
 **URL:** https://youtube.com/watch?v=_Vplj_FC1Tw
 **Duration:** 21:58
+
+## Summary
+
+James Conole, CFP and founder of Root Financial Partners, explores the strategic decision of when to withdraw funds from Roth IRAs during retirement. He emphasizes that this decision should be based on a long-term tax projection comparing current tax brackets with anticipated future tax situations, particularly accounting for Social Security inception and Required Minimum Distributions. The video walks through a tax-planning framework that identifies a "tax-planning window"—a lower-tax period in early retirement before RMDs and Social Security push income higher—when Roth withdrawals may be most advantageous. Conole frames Roth accounts as "tax insurance" against future tax rate uncertainty rather than seeking perfect tax optimization.
+
+## Key Takeaways
+
+- Evaluate Roth withdrawals by comparing your current tax bracket against your projected future tax bracket when Social Security and RMDs begin.
+- The tax-planning window in early retirement (before RMDs and Social Security increase taxable income) offers an opportunity to strategically use Roth funds.
+- Find your personal tax threshold—the bracket level you're willing to pay taxes up to today—to guide annual withdrawal decisions between IRA and Roth accounts.
+- Roth accounts should be viewed as tax insurance; if rates stay low, the conversions may not save taxes but provide peace of mind; if rates rise, they offer protection.
+- Qualified Charitable Distributions allow those 70.5+ to gift up to $100,000 annually from IRAs directly to charity without triggering taxes or RMD counting.
+- Legacy planning and charitable goals affect Roth prioritization; if heirs are in lower brackets or charities benefit, preserve Roth for your own higher-bracket years.
+
+## Detailed Notes
+
+### The Tax Planning Window [00:00:00]
+
+Retirees often experience a "tax planning valley" where working years have high tax brackets, early retirement has lower brackets due to reduced spending and pre-tax asset drawdown, but future years see brackets rise again due to Social Security, Required Minimum Distributions, and spouse's distributions. This window presents an opportunity to deploy Roth funds strategically.
+
+### Long-Term Tax Projection Framework [00:00:00]
+
+Conole emphasizes comparing only this year's tax bracket is insufficient. Instead, project forward to ages 75, 80, 85 by stacking expected taxable income (Social Security, RMDs, dividends, interest, pensions) to see future tax rates and determine if current-year Roth use is optimal or if more pre-tax withdrawals today are preferable.
+
+### Setting Your Tax Threshold [00:00:00]
+
+Identify the tax bracket level you're comfortable paying taxes on today (e.g., 22%). Up to that threshold, pull from Traditional IRA or convert; once you exceed it in a given year, switch to Roth. This binary approach simplifies decision-making without requiring perfect tax rate predictions.
+
+### Smoothing Tax Liability Across Accounts [00:00:00]
+
+Example: A single retiree needing $80,000 annually can pull $63,000 from Traditional IRA (filling 12% bracket) and $17,000 from Roth (avoiding the 22% bracket). This blended approach fills lower brackets fully before triggering higher marginal rates, more efficient than pulling entirely from one account.
+
+### RMDs and Their Tax Impact [00:00:00]
+
+If projected RMDs won't push you into a higher bracket or exceed your spending needs, Roth withdrawals today may be more advantageous since RMDs won't force taxable income higher in future years. Conversely, if RMDs are substantial, continue pre-tax distributions today to reduce the future RMD tax hit.
+
+### Qualified Charitable Distributions (QCDs) [00:00:00]
+
+Individuals 70.5+ can gift up to $100,000 annually directly from IRAs to charities, bypassing income recognition and RMD counting. This strategy is powerful when large RMDs and charitable intent coincide; the full amount benefits the charity without tax to the donor or triggering higher taxable income.
+
+### Roth as Tax Insurance [00:00:00]
+
+Conole reframes Roth conversions and contributions as tax insurance: if future tax rates are lower than expected, the strategy may not save taxes but protects against the worst-case scenario of rising rates. If rates do increase significantly, Roth funds provide tax-free withdrawals, insulating the plan from fiscal uncertainty.
 
 ## Transcript
 

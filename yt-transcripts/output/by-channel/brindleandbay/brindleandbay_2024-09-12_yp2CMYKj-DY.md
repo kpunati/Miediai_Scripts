@@ -58,27 +58,48 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Nick Davis and Tory discuss managing family financial obligations during retirement, including adult children still supported by parents, college funding, grandchild education costs, aging parents, legacy planning, and loans to children. The emphasis is on planning for these goals within realistic retirement budgets."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "family-finances", "college-funding", "legacy-planning", "long-term-care", "financial-independence"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP"
+    - name: "Tory Tenhagen"
+      role: "Financial advisor"
+    - name: "Connie Davis"
+      role: "Host"
+  companies:
+    - name: "Brindle and Bay"
+      ticker: null
+    - name: "Genworth"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["529 plans", "UTMA accounts", "whole life insurance", "Roth IRA"]
+  concepts: ["fiduciary duty", "long-term care planning", "legacy planning", "tax-deferred growth", "custodial care", "Monte Carlo simulations"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Approximately 70% of people who need custodial care have a family member who takes care of them"
+    timestamp: "00:12:45"
+    confidence: "medium"
+    flagged: true
+  - claim: "Medicare does not cover custodial care, only skilled care for short periods"
+    timestamp: "00:12:45"
+    confidence: "high"
+    flagged: false
+  - claim: "State college costs approximately $28,000-$30,000 per year now, projected to be $60,000-$80,000 in 10+ years"
+    timestamp: "00:08:30"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -88,6 +109,46 @@ notes: ""
 **Published:** 2024-09-12
 **URL:** https://youtube.com/watch?v=yp2CMYKj-DY
 **Duration:** 22:33
+
+## Summary
+
+This episode addresses how financial responsibilities to family members continue or even increase during retirement. The hosts walk through scenarios including supporting adult children, funding college education, helping grandchildren, caring for aging parents, planning legacies, and lending money to children. The key takeaway is that these goals need to be explicitly planned for in retirement budgets rather than assumed away.
+
+## Key Takeaways
+
+- Adult children on payroll (phone, insurance, etc.) must be budgeted explicitly or conversational cutoffs established before retirement
+- College funding for children or grandchildren should be planned and may require life adjustments elsewhere in the budget to accommodate
+- Tax-advantaged vehicles like 529 plans or UTMA accounts are preferable to direct gifts for education funding due to tax implications
+- Long-term care planning is critical since most custodial care is unpaid family labor and Medicare doesn't cover it
+- Legacy planning should be intentional and discussed between spouses, using tools like life insurance if needed
+- Partial gifts for major expenses (down payments) are often more sustainable than large loans that could strain finances
+- Lifetime giving of trips and experiences often creates more value than posthumous inheritance
+
+## Detailed Notes
+
+### Supporting Adult Children in Early Retirement [00:02:08]
+
+Parents often continue paying for adult children's cell phone, auto insurance, or health insurance. The advisors emphasize this must be explicitly budgeted or addressed conversationally before retirement begins. Human behavior suggests if the money is available, children will let parents continue paying.
+
+### College Funding as Retirement Approaches [00:05:19]
+
+Families with children still in college heading into retirement should plan for the cost or make adjustments elsewhere. The advisors note that most clients do not change their college funding goal even when presented with its impact on retirement; instead they adjust other areas of spending.
+
+### Education Savings for Grandchildren [00:07:24]
+
+Grandparents wanting to help with grandchild education should consider 529 plans (which grow tax-deferred and withdraw tax-free for education) or UTMA accounts ($25 monthly options available). Tax implications are significant; using tax-advantaged vehicles prevents taxes on growth.
+
+### Long-Term Care and Aging Parents [00:10:36]
+
+About 70% of people needing custodial care rely on family members. Medicare covers only skilled care briefly, not custodial care. Advisors recommend budgeting explicitly for potential in-home health care costs (e.g., 30 hours/week) to give clients peace of mind, or planning for facility-based care.
+
+### Intentional Legacy Planning [00:13:47]
+
+Couples often have different legacy goals; they should align on amounts and timing. Life insurance can guarantee funds for heirs. Lifetime giving (trips, experiences) creates memories and can be more valuable than posthumous inheritance.
+
+### Lending Money to Children [00:16:56]
+
+Advisors favor partial gifts for major expenses (down payments, business startup) over large loans that could strain parents' finances. Gifts are typically more sustainable and create less family tension than formal loans.
 
 ## Transcript
 

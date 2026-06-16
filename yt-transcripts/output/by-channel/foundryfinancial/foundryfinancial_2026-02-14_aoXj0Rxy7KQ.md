@@ -66,27 +66,54 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Kevin Lum, CFP, identifies five critical red flags for firing your financial advisor: selling products before planning, lack of fiduciary duty with unclear compensation, avoiding tax planning, using jargon to create confusion, and never challenging assumptions. He covers the evolution of advisor compensation models and provides practical steps for switching advisors."
 topics: []
-topics_proposed: []
+topics_proposed: ["financial-advisor-selection", "fiduciary-standards", "investment-fees", "tax-planning", "retirement-planning", "advisor-compensation"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Kevin Lum"
+      role: "CFP, Financial Advisor"
+  companies:
+    - name: "Foundry Financial"
+      ticker: null
+    - name: "Charles Schwab"
+      ticker: null
+    - name: "Fidelity"
+      ticker: null
+    - name: "RightCapital"
+      ticker: null
+    - name: "Boldin"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["annuities", "whole life insurance", "variable annuities", "Roth IRA", "401k"]
+  concepts: ["fiduciary standard", "suitability standard", "asset allocation", "asset location", "Roth conversions", "tax-aware distributions", "social security planning", "ACA subsidies", "SEC violations", "fee transparency"]
+content_type: "educational"
+audience_level: "beginner"
+key_claims: 
+  - claim: "The financial advice industry has gone through three major phases: stock broker era (1792-1970s), product sales era (1980s), and fee-based models (today)"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Fiduciary standard requires recommendations be in client's best interest, while suitability standard only requires recommendations be reasonable"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "S&P 500 has been up about 15% compounded over the past 15 years"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Advisor compensation complexity is sometimes intentional to prevent clients from questioning advice"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -96,6 +123,50 @@ notes: ""
 **Published:** 2026-02-14
 **URL:** https://youtube.com/watch?v=aoXj0Rxy7KQ
 **Duration:** 22:34
+
+## Summary
+
+Kevin Lum critiques the financial advisory industry, explaining how advisor compensation models have evolved from transaction-based to product-based to fee-based systems. He identifies five concrete reasons to fire your advisor: leading with product sales instead of comprehensive planning, lacking fiduciary duty with opaque compensation, avoiding tax planning, using jargon to confuse rather than clarify, and never challenging client assumptions. The video emphasizes that the best advisors provide transparent compensation, comprehensive planning across taxes and income, clear communication, and the willingness to tell uncomfortable truths.
+
+## Key Takeaways
+
+- Red Flag 1: Advisors who lead with products (annuities, insurance) instead of building a comprehensive plan first
+- Red Flag 2: Non-fiduciary advisors with opaque compensation structures that cannot be explained in two sentences
+- Red Flag 3: Advisors who avoid tax planning or defer all tax questions to CPAs, missing critical planning opportunities
+- Red Flag 4: Using jargon and complexity intentionally to prevent clients from understanding or questioning their plan
+- Red Flag 5: Advisors who never challenge assumptions or tell you uncomfortable truths you need to hear
+- Switching advisors is straightforward: open a new account, transfer assets in-kind, and send a brief respectful email
+- Use tools like RightCapital (free 90-day trial) or Boldin to understand your own numbers and ask informed questions
+
+## Detailed Notes
+
+### Industry Evolution: Three Phases [00:00:00]
+
+Phase 1 (1792-1970s): Stock brokers made money on transaction commissions, incentivizing frequent trading. Phase 2 (1980s-2000s): SEC deregulation led advisors to shift toward product sales (mutual funds, annuities, insurance). Phase 3 (2000s-present): Increasing move toward fee-based models, offering more transparency but problems persist.
+
+### Red Flag 1: Product-First Selling [00:00:00]
+
+Ask your advisor 'What is my plan?' If every answer involves purchasing a product, you have a salesperson, not a planner. True financial planning addresses when to claim Social Security, Roth conversion timing, withdrawal sequencing, and risk capacity based on spending—not age or risk questionnaires.
+
+### Red Flag 2: Non-Fiduciary Status and Opaque Compensation [00:00:00]
+
+Fiduciary advisors must act in your best interest; non-fiduciary advisors only meet a suitability standard (reasonable, not optimal). If explaining compensation takes more than two sentences or includes vague phrases like 'we may receive commissions,' that's a red flag. Avoid advisors paid by third parties; ensure they are compensated solely by you.
+
+### Red Flag 3: Avoidance of Tax Planning [00:00:00]
+
+If your advisor focuses only on portfolio allocation and asset allocation, you're missing critical value. True planning includes tax-aware distributions, bracket management, Roth conversion timing, choosing which account to withdraw from, Social Security and ACA subsidy planning. Don't be a ping-pong ball between advisor and CPA.
+
+### Red Flag 4: Unnecessary Complexity and Jargon [00:00:00]
+
+If you leave meetings unable to explain your plan in plain English, that's a communication problem, not a complexity problem. Sometimes complexity is intentional to prevent clients from questioning advice. A great plan should be explainable over coffee in a few sentences.
+
+### Red Flag 5: Never Challenging Assumptions [00:00:00]
+
+A good advisor occasionally makes you uncomfortable by disagreeing with you. They should recommend delaying Social Security even if you want to file early, or challenge unnecessary large Roth conversions. Advisors who never disagree may just be trying to keep you as a client rather than truly managing your money.
+
+### How to Switch Advisors [00:00:00]
+
+You don't need your old advisor's permission to transfer assets. Move money in-kind to avoid tax consequences. If your custodian is Fidelity or Schwab, you can often switch advisors without moving accounts. Send a brief, respectful email explaining you need more comprehensive planning. No long meeting or explanation needed.
 
 ## Transcript
 

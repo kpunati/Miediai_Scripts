@@ -69,27 +69,54 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Kevin Lum outlines 9 signs indicating you're performing better than most American retirees, including knowing your spending, having guaranteed income, carrying no debt, maintaining multiple income streams, holding retirement savings, having emergency reserves, delaying social security, having estate planning, and practicing lifestyle discipline."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "financial-security", "income-streams", "debt-management", "social-security"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Kevin Lum"
+      role: "CFP, financial advisor"
+  companies:
+    - name: "Foundry Financial"
+      ticker: null
+    - name: "Schwab"
+      ticker: null
+    - name: "Fidelity"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: [{"name": "RightCapital"}]
+  concepts: ["guaranteed income", "sequence of return risk", "lifestyle inflation", "safe withdrawal rate"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Nearly 40% of Americans aged 65 and older have no retirement savings"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Nearly 40% of people cannot cover a $400 emergency without borrowing"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "25% of retirees are living solely off their social security; 67% get more than half their income from social security"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Only 31% of Americans have a formal will; 55% have no estate plan"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Senior debt has tripled in the last 30 years"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -99,6 +126,44 @@ notes: ""
 **Published:** 2026-03-14
 **URL:** https://youtube.com/watch?v=LZ6Oy0sjP6U
 **Duration:** 18:46
+
+## Summary
+
+CFP Kevin Lum identifies nine key indicators that you're likely in a better financial position than most American retirees. These signs include knowing your exact monthly spending, having guaranteed income cover core expenses, being debt-free, holding multiple income streams, maintaining retirement savings, keeping emergency reserves, delaying social security claiming, having estate planning documents, and practicing lifestyle discipline. The video emphasizes that well-prepared retirees often underestimate their financial security due to psychological factors and may be under-spending in retirement despite having sufficient resources.
+
+## Key Takeaways
+
+- Knowing your exact monthly spending is foundational to retirement planning and puts you ahead of most retirees who lack spending clarity
+- Guaranteed income from social security or pensions covering core expenses allows greater portfolio flexibility and reduces forced selling during market downturns
+- Being debt-free, especially credit card debt, gives you significantly more control and options in retirement compared to the majority of American retirees
+- Multiple income streams provide structural advantages and security over relying on a single source like social security alone
+- The biggest risk for well-prepared retirees is often under-spending due to psychological anxiety rather than insufficient funds
+
+## Detailed Notes
+
+### The Paradox of Well-Prepared Retirees [00:00:00]
+
+The most financially secure retirees often convince themselves they're behind due to overthinking and analytical tendencies. This psychological pattern leads to over-saving and under-spending despite having adequate resources, creating unnecessary anxiety during retirement years.
+
+### Sign 1-2: Spending Clarity and Guaranteed Income [00:00:00]
+
+Knowing exact monthly spending provides essential retirement planning foundation, while guaranteed income covering core expenses eliminates forced portfolio withdrawals during market downturns. These two factors work together to create a more secure retirement structure and reduce sequence-of-return risk.
+
+### Sign 3-4: Debt Freedom and Income Diversification [00:00:00]
+
+Being free from credit card, car, and personal loans provides flexibility in core spending; nearly all retirees carry some debt. Multiple income streams significantly reduce dependence on social security alone, which 67% of retirees rely on for over half their income.
+
+### Sign 5-6: Retirement Savings and Emergency Funds [00:00:00]
+
+Even modest retirement account balances demonstrate discipline in building wealth over time. Emergency reserves of 3-6 months expenses serve both practical and behavioral purposes, especially in married couples where one spouse may experience scarcity mindset despite adequate resources.
+
+### Sign 7-9: Social Security Strategy, Estate Planning, and Lifestyle Discipline [00:00:00]
+
+Delaying social security claiming increases guaranteed income floor. Having formal estate planning documents shows intentionality about financial life. Practicing lifestyle discipline by not inflating spending with rising income creates the wealth gap that funds retirement.
+
+### Permission to Spend and Behavioral Shifts [00:00:00]
+
+The critical challenge for successful retirees is transitioning from saver to spender mindset. Money should serve specific goals and purposes rather than be treated as a scorecard; without intentional planning, retirees may forgo desired experiences despite having sufficient resources.
 
 ## Transcript
 

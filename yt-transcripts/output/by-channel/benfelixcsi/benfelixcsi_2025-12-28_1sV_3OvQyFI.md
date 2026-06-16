@@ -28,27 +28,75 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Ben Felix reviews 2025 market performance and key investment lessons, covering unexpected Canadian market strength, international diversification importance, gold and Bitcoin outcomes, real estate trends, and warnings about low-quality ETF products gaining traction with retail investors."
 topics: []
-topics_proposed: []
+topics_proposed: ["market-review", "diversification", "real-estate", "gold-bitcoin", "etf-critique"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Ben Felix"
+      role: "Chief Investment Officer at PWL Capital"
+    - name: "Warren Buffett"
+  companies:
+    - name: "PWL Capital"
+      ticker: null
+    - name: "OneDigital"
+      ticker: null
+    - name: "Avantis Investors"
+      ticker: null
+    - name: "CIBC"
+      ticker: null
+    - name: "Dimensional Fund Advisors"
+      ticker: null
+    - name: "iShares"
+      ticker: null
+    - name: "Fidelity"
+      ticker: null
   tickers: []
-  funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  funds:
+    - name: "S&P TSX Small Cap Index ETF"
+      ticker: null
+    - name: "Canadian Value Index ETF"
+      ticker: null
+    - name: "iShares Gold Bullion ETF"
+      ticker: null
+    - name: "Purpose Bitcoin ETF"
+      ticker: null
+    - name: "XEQT"
+      ticker: null
+    - name: "VEQT"
+      ticker: null
+  products: [{"name": "Avantis CIBC All Equity Asset Allocation ETF"}]
+  concepts: ["international diversification", "market concentration", "valuation risk", "real estate vs renting", "gold expected returns"]
+content_type: "analysis"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Canadian stock market index fund returned 29.46% from January to December 17, 2025"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "iShares S&P TSX Small Cap Index ETF returned 47.94% from January 1 through December 17, 2025"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "iShares Gold Bullion ETF returned 57.53% in Canadian dollar terms from January 1 through December 17, 2025"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Purpose Bitcoin ETF dropped 13.09% in Canadian dollar terms from January through December 17, 2025"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Toronto composite real estate prices fell nearly 26% from 2022 peak through November 2025"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -58,6 +106,44 @@ notes: ""
 **Published:** 2025-12-28
 **URL:** https://youtube.com/watch?v=1sV_3OvQyFI
 **Duration:** 18:42
+
+## Summary
+
+CIO Ben Felix discusses 2025 market outcomes and their implications for long-term investors. Despite early-year pessimism about Canadian markets and economy, surprising strength emerged across equities, gold, and international markets. The analysis emphasizes critical lessons: stock prices are forward-looking and separate from economic conditions, international diversification remains essential despite historical US outperformance, and investors should avoid chasing recent performance in assets like gold while ignoring fundamentals.
+
+## Key Takeaways
+
+- Canadian equities significantly outperformed expectations in 2025 with small-cap and value stocks delivering exceptional returns, demonstrating the importance of staying invested despite past underperformance
+- Stock markets price forward-looking information about future cash flows; economic data is backward-looking, making investment decisions based on economic headlines frequently misguided
+- International diversification proved valuable in 2025 after years of underperformance to US markets, supporting its importance despite extended periods of trailing returns
+- Gold's 57% return reflects short-term price momentum rather than justified valuation; long-term academic evidence suggests expected returns around 1% above inflation
+- Real estate prices declined significantly in major Canadian cities while stock market gains benefited renters who invested diligently, narrowing the historical wealth gap between owners and renters
+
+## Detailed Notes
+
+### Stock Markets vs. Economic Narratives [00:00:00]
+
+Early 2025 featured pessimistic headlines about Canada's productivity crisis, capital gains taxation, and tariff threats from Trump administration. Yet the Canadian stock market index returned 29.46% through mid-December, tripling US market returns in Canadian dollar terms. This disconnect illustrates that markets price forward-looking expectations; economic data is backward-looking and often already incorporated into prices.
+
+### Small-Cap and Value Reversal [00:00:00]
+
+Canadian small-cap index returned 47.94% and value index returned 33.63% in 2025. These outperformance streaks shifted returns over 11-year periods where trailing underperformance lasted a decade. This emphasizes staying committed to diversified strategies despite extended periods of poor relative performance, as returns often come in concentrated bursts.
+
+### Dimensional vs. Index Fund Approaches [00:00:00]
+
+While advocating total market index funds, Felix uses Dimensional Fund Advisors funds that tilt toward small-cap, value, and profitable stocks. Avantis Investors partnership with CIBC will offer similar Canadian-listed ETFs with 0.28% management fee, providing retail access to evidence-based tilting strategies previously available only through advisors.
+
+### Gold: Momentum vs. Fundamentals [00:00:00]
+
+Despite gold returning 57.53% in Canadian dollars, Felix maintains skeptical view based on academic research suggesting ~1% real annual returns long-term. Recent price jumps are part of historical pattern where high prices attract retail investors after the fact, typically followed by reversion to long-term real values. Cautions against buying based on recent performance rather than economic rationale.
+
+### Real Estate Market Normalization [00:00:00]
+
+Toronto composite prices fell 26% from 2022 peak through November 2025. Single-family home declines exceeded shoebox apartment declines, contradicting common narrative. Updated renter-vs-owner analysis shows renters investing in stocks now outperform owners in average wealth across 12 cities, with formerly owner-favorable cities like Victoria narrowing to near-parity.
+
+### Market Concentration and Valuation Concerns [00:00:00]
+
+Top seven US stocks comprise 32% of market value, highest concentration since 1927. Historically, concentrated markets elsewhere didn't predict poor returns, and the statistical relationship between concentration and future US returns is insignificant. High valuations show historical correlation with lower future returns but don't predict outcomes reliably; valuation alone should not drive market timing decisions.
 
 ## Transcript
 

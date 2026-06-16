@@ -82,27 +82,58 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Kevin Lum explains how the bond market has fundamentally changed in 2026, addressing the widespread \"bonds are dead\" narrative from 2022. He covers the 40-year tailwind in bond prices (1982-2021), why 2022 was catastrophic for bonds, and why 2026 presents opportunities: yields around 4-4.6% on 10-year Treasuries, return of term premiums, and importance of understanding bond duration, credit quality, and purpose in retirement portfolios."
 topics: []
-topics_proposed: []
+topics_proposed: ["bond-investing", "fixed-income-strategy", "retirement-planning", "portfolio-construction", "interest-rates", "market-dynamics"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Kevin Lum"
+      role: "CFP, financial advisor"
+    - name: "Paul Volcker"
+      role: "Federal Reserve chair"
+  companies:
+    - name: "PIMCO"
+      ticker: null
+    - name: "Charles Schwab"
+      ticker: null
+    - name: "Fidelity"
+      ticker: null
+    - name: "Vanguard"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Bloomberg US Aggregate Bond Index"]
+  concepts: ["interest rates", "bond duration", "credit quality", "term premium", "60/40 portfolio", "yield curve", "Treasury yields", "Roth conversions", "required minimum distributions", "liquidity bucket strategy"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "In 2022, the Bloomberg US Aggregate Bond Index lost 13%, its worst calendar year in the index's 50-year history"
+    timestamp: "00:05:06"
+    confidence: "high"
+    flagged: true
+  - claim: "The 60/40 portfolio fell 17.5% in 2022, its worst performance since 1937"
+    timestamp: "00:06:10"
+    confidence: "high"
+    flagged: true
+  - claim: "After three years of recovery, the 60/40 portfolio compounded at roughly 16% per year from 2023 through 2025"
+    timestamp: "00:07:47"
+    confidence: "medium"
+    flagged: true
+  - claim: "The 10-year Treasury yield in 1981 was 15.7%, with Fed funds rate hitting almost 20% under Paul Volcker"
+    timestamp: "00:02:47"
+    confidence: "high"
+    flagged: true
+  - claim: "Vanguard's chief economist found a 60/40 portfolio returned 8.8% annualized from 1926 through 2021"
+    timestamp: "00:20:09"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -112,6 +143,46 @@ notes: ""
 **Published:** 2026-05-27
 **URL:** https://youtube.com/watch?v=Vlk9jIiLq2g
 **Duration:** 22:18
+
+## Summary
+
+Kevin Lum debunks the "bonds are dead" narrative that dominated financial media after 2022's historic bond losses. He traces the 40-year decline in interest rates from Volcker's 15.7% yields in 1981 to near-zero in 2020, which created price appreciation for bondholders. The 2022 collapse—when the Bloomberg Aggregate lost 13% and the 60/40 portfolio fell 17.5%—was shocking precisely because bonds had moved in one direction for decades. However, 2026 presents a different environment: 10-year Treasuries around 4-4.6%, term premiums returning, and the restoration of meaningful income from bond yields. Lum emphasizes that bonds are not dead; rather, investors must understand bond mechanics (duration, credit quality, and purpose) to deploy them effectively in retirement portfolios.
+
+## Key Takeaways
+
+- Bond prices and interest rates move like a seesaw: when rates rise, bond prices fall; when rates fall, bond prices rise, creating price appreciation that powered bond returns for 40 years until 2021.
+- The 2022 bond disaster occurred because three decades of declining rates had ended, forcing a rapid rate reset; this was rare but not unprecedented historically.
+- The 60/40 portfolio's 17.5% loss in 2022 shocked investors trained by decades of stable, diversified returns, but the same portfolio recovered to double-digit returns in 2023-2025.
+- Financial media profit from fear and sensationalism, not corrections; articles declaring bonds dead received millions of views while quiet retractions went unread.
+- Bond duration determines interest-rate sensitivity: short-duration bonds (2-4 years) have minimal rate risk; long-duration bonds (20+ years) swing hard in value but historically protect against stock crashes.
+- Bonds in 2026 serve income and volatility protection, not price appreciation; a bucket strategy allocating 6-8 years of expenses to ultrashort, short, and intermediate bonds prevents forced selling during market crashes.
+- The 60/40 portfolio is not dead; it returned 8.8% annualized from 1926-2021 through multiple crises, but investors must match bonds to their withdrawal timeline and understand that correlation risk (stocks and bonds falling together) is real.
+
+## Detailed Notes
+
+### The 40-Year Bond Tailwind and the 2022 Collapse [00:01:09]
+
+Lum explains that from 1982 to 2021, interest rates declined from Volcker's peak of 15.7% in 1981 to near-zero by 2020. This 40-year decline created a 'seesaw' effect where falling rates pushed bond prices up, generating total returns beyond coupon payments alone. By 2022, when the Fed reversed course and raised rates rapidly, the seesaw tilted the opposite direction; bond prices collapsed. The Bloomberg Aggregate lost 13% (worst year in 50 years), and the 60/40 portfolio fell 17.5% (worst since 1937), shocking investors conditioned to bonds as 'safe.'
+
+### Why Financial Media Misled on Bonds [00:07:14]
+
+Lum critiques the financial media's incentive structure: CNBC, Barron's, and similar outlets profit from fear-driven clicks, not accuracy. Articles declaring bonds dead received millions of views and drove asset flows into expensive alternatives (private credit, hedge funds with 2-3% fees). Few publications wrote corrections when the same 60/40 portfolio returned 17% in 2023, 17% in 2024, and roughly 15% in 2025. This illustrates why long-term investors should distrust short-term narratives.
+
+### The 2026 Bond Environment and Restored Yields [00:09:33]
+
+The 10-year Treasury now yields 4.6% (up from 4% earlier in 2026 due to sticky inflation). Charles Schwab's Kathy Jones expects the Fed to cut short-term rates a couple more times to 3-3.5%, but long-term yields will likely hold above 4% because of persistent inflation, rising Treasury supply, and a return of the 'term premium' (investors demanding compensation for holding longer-dated bonds). This restores real income to bond portfolios, shifting the case for bonds from price appreciation to yield and volatility protection.
+
+### Bond Duration, Credit Quality, and Portfolio Purpose [00:11:37]
+
+Lum emphasizes three critical concepts often ignored by retail investors. Duration measures interest-rate sensitivity: a 30-year Treasury paying 3% loses value if rates rise to 6%, forcing sellers to accept discounts. Short-duration bonds (2-4 years) carry minimal rate risk if held to maturity. Credit quality ranges from Treasury (safest, lowest yield) to corporate (moderate risk) to high-yield/junk (risky, higher default rates). Purpose determines allocation: bonds should provide income, reduce volatility, and prevent forced selling during crashes—not generate large price gains.
+
+### Bucket Strategy for Retirement Portfolios [00:16:47]
+
+For a $2 million portfolio with $100,000 annual spending, Lum illustrates a 6-8 year liquidity ladder: $200,000 in ultrashort Treasury (30-90 days, near-zero rate risk), $200,000 in short-duration bonds (2-4 years), and $200-400,000 in intermediate bonds (4-8 years). The remaining $1.2 million invests in equities. This structure ensures clients never need to sell stocks into a crash to fund living expenses. While mathematically similar to a 60/40, the bucket approach is psychologically superior because investors understand the payoff structure.
+
+### Conclusion: Is the 60/40 Portfolio Dead? [00:19:25]
+
+Lum concludes the 60/40 is not dead. Vanguard data shows it returned 8.8% annualized from 1926-2021 through depressions, wars, and crises. However, the "old" bonds that worked for 40 years (buy and hold for price appreciation as rates fell) are gone. The new case for bonds is income and volatility dampening, not capital appreciation. Investors must carefully match duration, quality, and purpose to their withdrawal timeline; those near or in retirement should not blindly adopt 60/40 but must understand their specific bond holdings and withdrawal strategy.
 
 ## Transcript
 

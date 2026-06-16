@@ -70,27 +70,54 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Financial planner James Conole addresses pre-retirement tax planning strategies, analyzing a listener's situation with diverse accounts ($2.3M net worth). Explores often-overlooked tax tactics including home equity strategy, tax threshold inflation adjustments, and withdrawal sequencing to help retirees stay in lower tax brackets."
 topics: []
-topics_proposed: []
+topics_proposed: ["tax-planning", "retirement-income", "withdrawal-strategy", "roth-conversions", "account-types"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "CFP, financial planner"
+    - name: "Jodie"
+      role: "listener/case study"
+  companies:
+    - name: "Root Financial Partners"
+      ticker: null
   tickers: []
-  funds: []
+  funds:
+    - name: "Roth IRA"
+      ticker: null
+    - name: "401k"
+      ticker: null
+    - name: "Health Savings Account"
+      ticker: null
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["standard deduction", "tax brackets", "taxable income vs cash flow", "Social Security taxation", "qualified dividends", "long-term capital gains", "mortgage interest deduction"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Tax thresholds increase each year with inflation while tax rates remain constant. From 2023 to 2024, the 12% bracket threshold increased 5.4%"
+    timestamp: "00:09:19"
+    confidence: "high"
+    flagged: false
+  - claim: "Home equity alone doesn't impact tax strategy unless you plan to sell, refinance, or take a reverse mortgage to generate cash"
+    timestamp: "00:04:08"
+    confidence: "high"
+    flagged: false
+  - claim: "Spreading IRA and Roth IRA withdrawals equally ($87,500 each source annually) instead of drawing all IRA then all Roth saved $9,100 in taxes over two years ($21,500 vs $2,320)"
+    timestamp: "00:17:42"
+    confidence: "medium"
+    flagged: true
+  - claim: "Less than half of Jodie's assets are in fully taxable accounts (traditional IRA/401k), providing significant flexibility for tax planning"
+    timestamp: "00:13:28"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -100,6 +127,41 @@ notes: ""
 **Published:** 2024-07-23
 **URL:** https://youtube.com/watch?v=9rr-JYQl7jw
 **Duration:** 21:04
+
+## Summary
+
+This episode tackles pre-retirement tax planning through a detailed listener case study. Jodie, with $2.3 million in assets across multiple account types, feared her $165,000 salary would force her into high tax brackets in retirement. James Conole reframes common tax planning misconceptions, showing how understanding account diversification, inflation-adjusted tax thresholds, and strategic withdrawal sequencing can help retirees significantly reduce tax liability even with substantial income needs.
+
+## Key Takeaways
+
+- Home equity's tax impact depends on concrete actions (selling, refinancing, reverse mortgage), not absolute value
+- Tax thresholds rise annually with inflation; compare retirement income to future-year thresholds, not today's
+- Taxable income differs from cash flow due to Roth distributions, Social Security taxability, and qualified dividends
+- Diversified account types (Roth, Traditional IRA, HSA, taxable brokerage) enable flexible tax planning in retirement
+- Coordinated withdrawal strategy can dramatically reduce lifetime tax burden compared to sequential drawdown approaches
+- Standard deduction increases after age 65, further lowering taxable income from same cash outflows
+
+## Detailed Notes
+
+### Home Equity and Tax Strategy [00:04:08]
+
+Home equity only impacts taxes if converted to cash through sale, refinance, or reverse mortgage. Property tax deductions capped at $10,000 annually under current law; mortgage interest may not exceed standard deduction for most retirees with paid-off homes. Jodie's $610k home equity is a planning asset only if she plans to use it.
+
+### Tax Thresholds vs Tax Rates [00:09:19]
+
+A critical planning error: projecting retirement income at today's tax thresholds. Tax rates (10%, 12%, 22%) stay constant, but thresholds adjust annually for inflation. The 12% bracket ended at $94,300 in 2024 vs $89,450 in 2023 (5.4% increase). Failing to inflation-adjust thresholds overstates retirement tax liability.
+
+### Cash Flow vs Taxable Income [00:11:22]
+
+Key distinction: $175,000 in retirement cash flow does not equal $175,000 in taxable income. Roth distributions ($0 tax), Social Security (50-85% taxable), qualified dividends/capital gains (favorable rates), and expanded standard deduction after 65 all lower taxable income relative to spending. Makes withdrawal timing flexible.
+
+### Withdrawal Strategy Impact [00:15:33]
+
+Example: taking all $175k from traditional IRA Year 1 (22% bracket, $21,500 tax) then all Roth Year 2 ($0 tax) totals $21,500. Splitting 50/50 ($87.5k IRA/$87.5k Roth both years) keeps couple in 12% bracket at $6,160 annually, saving $9,100 over two years. Sequencing matters more than asset allocation.
+
+### Account Diversification Advantage [00:13:28]
+
+Jodie's portfolio: $188k taxable brokerage, $1.1M traditional accounts, $860k Roth, $155k HSA, $69k cash. Less than 50% in fully taxable accounts provides significant planning flexibility. Contrast with all-IRA situation: limited room to keep post-retirement taxable income below working-years levels.
 
 ## Transcript
 

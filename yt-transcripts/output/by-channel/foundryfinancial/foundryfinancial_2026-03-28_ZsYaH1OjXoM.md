@@ -64,27 +64,50 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Kevin Lum presents six critical questions to assess retirement readiness: health impact from work, postponed life goals, identity beyond career, financial sufficiency, daily activity planning, and genuine motivation. He emphasizes the importance of guaranteed income, sustainable withdrawals, meaningful activities, and social connections in successful retirement, countering common fears and analysis paralysis."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "financial-readiness", "work-life-balance", "retirement-psychology", "income-planning", "retirement-lifestyle"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Kevin Lum"
+      role: "CFP, retirement planner"
+  companies:
+    - name: "Foundry Financial"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Right Capital"]
+  concepts: ["portfolio withdrawal strategy", "social security", "essential expenses", "retirement identity", "spending smile curve", "dynamic income strategy", "analysis paralysis"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Work-based relationships account for nearly 50% of most adults' social interactions"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "41% of retirees experience moderate to severe identity disruption within the first year of retirement"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Median amount saved for retirement among workers age 55-64 is $30,000"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Average retiree faces approximately 2,500 additional leisure hours per year compared to working life"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "One in three retirees feel depressed or down after retiring"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -94,6 +117,45 @@ notes: ""
 **Published:** 2026-03-28
 **URL:** https://youtube.com/watch?v=ZsYaH1OjXoM
 **Duration:** 20:06
+
+## Summary
+
+Kevin Lum, CFP at Foundry Financial, walks through six essential questions to determine retirement readiness. Rather than focusing solely on financial preparedness, he emphasizes the psychological, social, and lifestyle dimensions of retirement. The video addresses how health impacts from work stress, postponed life aspirations, identity beyond career, financial sustainability, structured daily activities, and genuine motivation all influence successful retirement decisions.
+
+## Key Takeaways
+
+- Health suffering from work stress is a legitimate reason to retire and should be weighed against continued earning potential.
+- Postponed life goals and bucket list items become increasingly time-sensitive as physical capacity for active pursuits declines in later years.
+- Identity and social connections outside work are critical; retirees face significant depression risks when lacking community and non-work identity.
+- Financial readiness requires comparing essential expenses to guaranteed income sources (Social Security, pensions) and sustainable portfolio withdrawals, not arbitrary savings targets.
+- Lack of daily structure and planned activities is a major source of retirement dissatisfaction; planning is as important as financial preparation.
+- Fear-based decision-making, including analysis paralysis, often causes people to work longer than their financial situation actually requires.
+
+## Detailed Notes
+
+### Question 1: Health Impact from Work [00:00:00]
+
+Chronic stress-related health issues like shoulder pain, high blood pressure, and medication dependencies may indicate readiness to retire. A February 2026 Psychology Today article links work stress to physical symptoms. When healthcare costs exceed the value of additional savings, the financial math often favors retirement.
+
+### Question 2: Postponed Life Goals [00:00:00]
+
+Many people defer meaningful activities (travel, learning skills, family time) for decades due to work commitments. Lum emphasizes that truly active retirement years are finite—estimated 15-25 years of capacity for energy-intensive activities like hiking and international travel. Job obligations should not be the primary barrier to pursuing important life aspirations.
+
+### Question 3: Identity Beyond Work [00:00:00]
+
+A 2025 American Sociological Association report found work-based relationships comprise nearly 50% of most adults' social interactions. Harvard's 85-year happiness study identified loss of work social connections as the #1 retirement challenge, exceeding financial and health concerns. 41% of retirees experience moderate to severe identity disruption in year one. Building hobbies, community involvement, and relationships outside work before retirement is essential.
+
+### Question 4: Financial Affordability [00:00:00]
+
+A 2026 National Institute on Retirement Security report found median retirement savings for ages 55-64 is $30,000; overall working population median is $955. Lum emphasizes that sufficiency depends on personal situation. Key calculation: essential monthly expenses minus guaranteed income (Social Security, pensions, annuities) equals required portfolio withdrawal. Most people are working longer than financially necessary due to fear or inadequate planning.
+
+### Question 5: Daily Structure and Activities [00:00:00]
+
+Retirees gain approximately 2,500 additional leisure hours annually. Health Partners research shows one in three retirees become depressed post-retirement, often confusing 'not wanting to work' with retirement readiness. A MassMutual 2024 study found retirees with structure (social activities, exercise, hobbies, travel) report higher happiness; 31% lacking structure feel forlorn. Creating weekly routines and goals is essential.
+
+### Question 6: Motivation Check [00:00:00]
+
+Fear is a poor reason to continue working. Lum identifies 'analysis paralysis' as common among his audience—checking spreadsheets and advisor consultations repeatedly without making a decision. The gut-check question: if money were no object, would you keep working? If no, fear is likely the barrier. Working with a fiduciary advisor or retirement planning software can validate whether financial concerns are rational.
 
 ## Transcript
 

@@ -72,27 +72,56 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Kevin Lum, CFP, explores AI's role in retirement planning based on MIT research. Finds AI provides sound long-term advice and raises unconsidered topics, but fails consistently at math, tax optimization, Social Security calculations, and multi-variable scenarios. Discusses gender bias in AI recommendations and provides techniques to improve AI-assisted planning."
 topics: []
-topics_proposed: []
+topics_proposed: ["artificial-intelligence", "retirement-planning", "ai-limitations", "behavioral-finance", "tax-optimization"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Kevin Lum"
+      role: "CFP, founder of Foundry Financial"
+    - name: "MIT researchers"
+      role: "researchers studying AI for financial planning"
+  companies:
+    - name: "Foundry Financial LLC"
+      ticker: null
+    - name: "MIT Sloan School of Management"
+      ticker: null
+    - name: "OpenAI"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["ChatGPT", "Gemini", "Claude", "Right Capital", "Boldin"]
+  concepts: ["IRMAA surcharges", "Roth conversion", "backdoor Roth", "behavioral bias", "AI hallucination", "fiduciary responsibility", "liquidity planning", "meant testing"]
+content_type: "analysis"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "MIT research shows AI gives sound retirement advice—consistent guidance to save more during working years, diversify in stocks when young, reduce risk with age. Most simulated lifetimes increased real wealth"
+    timestamp: "00:01:57"
+    confidence: "high"
+    flagged: false
+  - claim: "Only 6% of people asked ChatGPT about liquidity, but AI proactively raised the topic in 60% of its answers"
+    timestamp: "00:02:59"
+    confidence: "medium"
+    flagged: true
+  - claim: "ChatGPT incorrectly counted four e's in '17' and contradicted itself multiple times even when corrected"
+    timestamp: "00:05:20"
+    confidence: "medium"
+    flagged: false
+  - claim: "When identical prompts were altered only by adding 'I am a woman,' AI recommended less money in stocks, suggesting AI amplifies gender-based financial stereotypes"
+    timestamp: "00:11:57"
+    confidence: "medium"
+    flagged: true
+  - claim: "AI struggles with tax withdrawal sequencing, IRMAA calculations, Social Security projections (22,000 pages of rules), and multi-variable retirement scenarios"
+    timestamp: "00:06:57"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -102,6 +131,41 @@ notes: ""
 **Published:** 2026-06-13
 **URL:** https://youtube.com/watch?v=rJMF7QTmtTg
 **Duration:** 21:04
+
+## Summary
+
+Half of American adults have already consulted AI for financial advice. Kevin Lum's analysis of MIT research reveals an paradox: AI excels at general retirement principles and raises overlooked topics with surprising emotional intelligence, yet systematically fails at math-intensive tasks, tax optimization, and scenario modeling. Gender bias in AI recommendations highlights deeper concerns about algorithmic amplification of blind spots rather than objective guidance.
+
+## Key Takeaways
+
+- AI provides high-quality long-term advice (diversification, risk adjustment by age) and raises important unconsidered topics like emergency liquidity
+- AI fundamentally cannot perform accurate calculations—it predicts word sequences, not mathematical operations, causing repeated errors in tax and Social Security planning
+- Complex multi-variable retirement scenarios overwhelm AI; it makes unsupported assumptions and revises contradictory answers when pressed
+- AI recommendations vary based on demographic keywords (gender, wealth); identical prompts with 'I am a woman' led to less aggressive stock allocations
+- AI lacks fiduciary responsibility and emotional guardrails; it will tell you what you want to hear rather than what you need to hear like a good advisor
+- Effective AI use requires financial literacy baseline; low-literacy prompts yielded worse simulated outcomes than high-literacy ones in MIT study
+
+## Detailed Notes
+
+### The Good: Sound Strategic Advice & Proactive Topic Raising [00:01:57]
+
+MIT simulated 68-year lifetimes with earnings, savings, taxes, and life shocks. ChatGPT and Gemini consistently advised higher savings, stock diversification when young, and risk reduction with age. Surprisingly, only 6% of users prompted about liquidity, but AI brought it up in 60% of responses, demonstrating ability to identify gaps in user thinking.
+
+### The Bad: Mathematical Incompetence at Core Planning Tasks [00:05:20]
+
+ChatGPT cannot count e's in '17' correctly (claimed 5, then 3, then 3 again—correct answer is 4). Retirement math requires thousands of integrated calculations: tax brackets interacting with IRMAA cliff levels, Roth conversion impact on Social Security taxation, long-term-care costs. AI struggles here because it's guessing word patterns, not solving equations.
+
+### The Ugly: Demographic Bias Amplification [00:11:57]
+
+Identical retirement scenarios with only 'I am a woman' added led to different (less aggressive) investment advice. Women's prompts used language like 'family' and 'groceries'; men's used 'strategy' and 'growth.' AI didn't just reflect but amplified these biases, leaning harder into whatever assumption matched the demographic input.
+
+### Using AI Well: Three Techniques [00:13:45]
+
+Ask 'Why am I wrong?' instead of 'Am I right?'—forces AI to find holes rather than flatter. Make AI state assumptions explicitly; one reporter found it had assumed lifespan, ignored taxes, missed long-term care before correcting. Run adversarial review: ask it to critique its own plan, then cross-compare outputs from multiple models to catch self-contradictions.
+
+### Behavioral Reality vs Technical Limitations [00:17:16]
+
+Even perfect AI math won't solve retirement's real problem: behavioral paralysis. Wealthiest retirees underspend due to fear. AI can hand perfect spreadsheets but cannot overcome anxiety driving financial decisions. Tool limitations matter less than behavioral coaching—area where human advisors remain irreplaceable.
 
 ## Transcript
 

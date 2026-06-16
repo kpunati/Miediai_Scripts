@@ -54,27 +54,66 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Comprehensive explanation of the 1993 Fama-French three-factor asset pricing model that fundamentally changed portfolio management and financial economics. Demonstrates how adding size and value factors to the traditional CAPM model explains 90% of diversified portfolio return differences versus CAPM's 60%, with implications for active fund management efficiency and factor-based investing strategies."
 topics: []
-topics_proposed: []
+topics_proposed: ["factor-investing", "asset-pricing", "portfolio-construction", "fama-french-model", "academic-research", "investment-theory"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Eugene Fama"
+      role: "economist, researcher"
+    - name: "Kenneth French"
+      role: "economist, researcher"
+    - name: "Bill Sharpe"
+      role: "economist, Nobel Prize winner"
+    - name: "Robert Merton"
+      role: "economist, researcher"
+    - name: "John Cochrane"
+      role: "economist"
+    - name: "Ben Felix"
+      role: "Chief Investment Officer, PWL Capital"
+  companies:
+    - name: "PWL Capital"
+      ticker: null
+    - name: "Dimensional Fund Advisors"
+      ticker: null
+    - name: "Avantis Investors"
+      ticker: null
+    - name: "CIBC"
+      ticker: null
+  tickers: ["S&P 500"]
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["three-factor model", "five-factor model", "ETFs"]
+  concepts: ["capital asset pricing model", "CAPM", "market beta", "size factor", "value factor", "SMB", "HML", "profitability factor", "investment factor", "time series regression", "alpha", "R-squared", "asset pricing anomalies", "factor zoo"]
+content_type: "educational"
+audience_level: "advanced"
+key_claims: 
+  - claim: "The 1993 Fama-French paper has nearly 15,000 citations and fundamentally changed financial economics and portfolio management"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "The three-factor model explains 90% of return differences across diversified portfolios versus CAPM's 60%"
+    timestamp: "00:11:38"
+    confidence: "high"
+    flagged: true
+  - claim: "21 of 25 test portfolios had R-squared values over 0.9 in the Fama-French analysis"
+    timestamp: "00:11:06"
+    confidence: "high"
+    flagged: false
+  - claim: "By 2016, 316 distinct asset pricing factors had been published in academic journals (factor zoo problem)"
+    timestamp: "00:15:19"
+    confidence: "medium"
+    flagged: false
+  - claim: "The 2015 Fama-French five-factor model further improved explanatory power to nearly 95% of return differences"
+    timestamp: "00:16:01"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -84,6 +123,50 @@ notes: ""
 **Published:** 2026-03-22
 **URL:** https://youtube.com/watch?v=N5v2b42i_2g
 **Duration:** 19:17
+
+## Summary
+
+Ben Felix explains the landmark 1993 Fama and French paper on multi-factor asset pricing and its profound impact on investment management. The paper introduced the three-factor model, which added size and value factors to the single-factor CAPM framework, dramatically improving the ability to explain returns across diversified portfolios. Felix covers the methodology (how factors are constructed and tested via time series regression), results (90% explanatory power with minimal unexplained alphas), and real-world applications through factor-investing firms like Dimensional Fund Advisors. The discussion extends to the subsequent five-factor model and the broader implications for active management evaluation and portfolio construction.
+
+## Key Takeaways
+
+- The original CAPM single-factor model explained only 60% of return differences across diversified portfolios, leaving significant unexplained anomalies in size and value premiums.
+- Fama and French identified that size (SMB: small minus big) and value (HML: high minus low) factors, when combined with market risk, can explain 90%+ of return variation.
+- The three-factor model was validated by R-squared values ranging from 0.83 to 0.97 (averaging 0.93) across 25 test portfolios, with near-zero unexplained alphas.
+- Market beta alone cannot explain why small-cap and value stocks systematically outperform large-cap and growth stocks.
+- The proliferation of factors since 1993 created a 'factor zoo' with 316+ factors published by 2016, prompting Fama and French to add profitability and investment factors in 2015.
+- The five-factor model further improved explanatory power to ~95%, and is now the standard framework in academic finance for evaluating portfolio performance.
+- Active managers' outperformance is often attributable to factor exposure rather than skill; passive factor-tilting strategies can replicate similar returns at lower cost.
+
+## Detailed Notes
+
+### Evolution from CAPM to Multi-Factor Models [00:02:03]
+
+Prior to the three-factor model, the Capital Asset Pricing Model (CAPM) developed in 1964-1965 was the dominant framework, relating stock returns to market beta. However, research consistently showed CAPM anomalies: small stocks outperformed, value stocks outperformed, and the relationship between beta and returns was weaker than predicted. These anomalies either implied market inefficiency or that CAPM was incomplete in capturing relevant risk factors.
+
+### The Fama-French Three-Factor Model [00:05:31]
+
+Fama and French proposed that systematic stock returns are driven by three factors: (1) market risk (beta), (2) size factor (SMB: returns of small versus large caps), and (3) value factor (HML: returns of high versus low book-to-market stocks). Each factor represents a long-short portfolio capturing return premiums associated with company size and valuation characteristics, both previously documented as anomalies.
+
+### Methodology: Time Series Regression Testing [00:09:00]
+
+Fama and French created 25 diversified portfolios by sorting stocks on size and value characteristics, then used time series regression to test explanatory power. Each regression estimated factor loadings (how portfolio returns co-move with each factor) and alpha (unexplained returns). R-squared measured the percentage of portfolio return variation explained by the model, and alpha captured any persistent excess returns not accounted for.
+
+### Results: 90% Explanatory Power [00:11:38]
+
+The three-factor model achieved R-squared values averaging 0.93 across test portfolios, with 21 of 25 portfolios above 0.90. This represented a dramatic improvement from CAPM's 60% explanatory power. Nearly all alphas were near zero (excess returns were minimal), validating the model. The one exception was small-cap growth stocks, which had lower returns than predicted, indicating room for additional factors.
+
+### Implications for Active Management [00:14:16]
+
+The findings suggested that active manager outperformance typically resulted from factor exposure rather than skill. This insight combined with research showing that 1968 active managers failed to outperform on a risk-adjusted basis implies investors could replicate fund performance using low-cost factor strategies. This challenged the traditional active management industry and elevated interest in factor-based investing.
+
+### The Factor Zoo and Evolution to Five-Factor Model [00:15:19]
+
+Post-1993 research led to publication of 316 distinct factors by 2016, creating the 'factor zoo' problem. In response, Fama and French introduced two new factors in 2015: profitability (RMW: robust minus weak) and investment (conservative minus aggressive). The five-factor model improved explanatory power to ~95% and became the workhorse model in academic finance for portfolio evaluation and construction.
+
+### Practical Applications: Factor-Based Funds [00:17:28]
+
+Dimensional Fund Advisors, co-founded by Eugene Fama, and competing firm Avantis Investors built investment products implementing three and five-factor research. These funds provide tilted exposure to size and value factors while maintaining low costs and broad diversification. Factor-based investing allows retail investors to access decades of academic research through actively managed yet systematic, rules-based funds.
 
 ## Transcript
 

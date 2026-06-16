@@ -60,27 +60,46 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Comprehensive guide to tax optimization strategies for different retirement account types. Covers brokerage accounts with 0% capital gains brackets, 401(k)s and Roth options, HSAs triple tax benefits, inheritance step-up basis, inherited IRA distributions, and Social Security taxation. Demonstrates how strategic withdrawal sequencing can minimize lifetime tax liability."
 topics: []
-topics_proposed: []
+topics_proposed: ["tax-planning", "retirement-accounts", "401k", "roth-ira", "hsa", "capital-gains", "social-security"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "CFP"
+  companies:
+    - name: "Root Financial Partners"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: [{"name": "401(k)"}, {"name": "Roth IRA"}, {"name": "HSA"}, {"name": "Brokerage account"}]
+  concepts: ["0%-capital-gains-bracket", "step-up-in-basis", "roth-conversions", "tax-bracket-management", "qualified-charitable-distribution"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "For 2025, married filers can realize long-term gains and qualified dividends in a brokerage account at 0% federal rate up to $96,700 of taxable income"
+    timestamp: "00:01:03"
+    confidence: "high"
+    flagged: true
+  - claim: "A step-up in basis on inheritance resets the cost basis to fair market value at death, allowing heirs to avoid paying taxes on unrealized gains"
+    timestamp: "00:11:29"
+    confidence: "high"
+    flagged: false
+  - claim: "Inherited traditional IRAs must be fully distributed within 10 years, and improper timing can cause unintended tax bracket creep"
+    timestamp: "00:13:34"
+    confidence: "medium"
+    flagged: false
+  - claim: "Social Security taxation ranges from 0% to 85% of benefits depending on provisional income, not on a flat tax rate"
+    timestamp: "00:15:39"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -90,6 +109,41 @@ notes: ""
 **Published:** 2025-04-08
 **URL:** https://youtube.com/watch?v=mqc2A6vQFV8
 **Duration:** 18:17
+
+## Summary
+
+James Conole explains how to optimize retirement taxes by understanding the tax treatment of different account types. He demonstrates that most retirement income optimization comes not from beating the market, but from strategically choosing which accounts to withdraw from and when. The video walks through brokerage accounts, 401(k)s, Roth accounts, HSAs, inheritances, inherited IRAs, and Social Security, showing specific dollar thresholds and strategies.
+
+## Key Takeaways
+
+- One of the biggest controls you have in retirement is your tax rate through strategic withdrawal ordering from different account types.
+- Brokerage accounts contain a 0% federal capital gains bracket based on standard deduction—understand your taxable income threshold.
+- HSAs offer triple tax benefits (deductible in, tax-free growth, tax-free withdrawal for medical) and become like Roth IRAs after age 65.
+- Inherited non-retirement assets get a step-up in basis at death, eliminating taxes on unrealized gains if heirs sell immediately.
+- Inherited IRAs have a 10-year distribution requirement that must be managed carefully to avoid tax bracket creep.
+- Social Security benefits have complex provisional income taxation rules that should inform claiming age decisions beyond just maximizing lifetime benefits.
+
+## Detailed Notes
+
+### Brokerage Account 0% Capital Gains Strategy [00:01:03]
+
+Married filers with taxable income under $96,700 (2025) can realize long-term gains and qualified dividends at 0% federal rate. Singles have a $48,350 threshold. By realizing gains within this bracket each year and reinvesting, you step up cost basis without wash-sale restrictions, reducing future tax liability. This is particularly valuable in retirement years when income drops.
+
+### 401(k) and Roth 401(k) Strategy [00:04:09]
+
+Pre-tax 401(k) contributions reduce current taxable income; Roth contributions are made with after-tax money but grow tax-free. The decision depends on comparing your current marginal tax bracket to expected retirement bracket. Employer matches are typically pre-tax even on Roth 401(k) elections, creating a tax planning opportunity.
+
+### HSA as Triple Tax Benefit Account [00:06:15]
+
+Health savings accounts offer tax deduction on contributions, tax-free growth, and tax-free withdrawal for qualified medical expenses. Notably, you can pay medical expenses out of pocket, save receipts, and retroactively withdraw from HSA tax-free years later. After age 65, HSAs become like traditional IRAs but still allow tax-free withdrawals for medical expenses.
+
+### Inheritance Step-Up in Basis [00:11:29]
+
+When inheriting non-retirement assets (stocks, real estate, business interests), the basis resets to fair market value on the date of death. Example: inherited stock bought for $1 now worth $1 million gets new $1 million basis, eliminating capital gains taxes. This is different from retirement account inheritance, which triggers RMD requirements.
+
+### Inherited IRA 10-Year Distribution Rule [00:13:34]
+
+Inherited traditional IRAs must be fully distributed within 10 years. Improper timing can cause tax bracket creep when large distributions coincide with other income. Strategic planning involves looking at projected income across all years to smooth tax liability and coordinate with other income sources.
 
 ## Transcript
 

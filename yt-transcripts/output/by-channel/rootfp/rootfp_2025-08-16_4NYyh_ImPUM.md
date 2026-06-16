@@ -61,24 +61,43 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Educational episode on five types of wealth beyond financial assets—time, social, mental, and physical wealth—and their importance in retirement planning. Discusses how focusing solely on financial optimization can erode other crucial forms of wealth, and offers practical strategies for balancing multiple dimensions of well-being during the transition to retirement."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "holistic-wealth", "financial-wellbeing", "life-planning", "personal-growth"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "CFP, host"
+    - name: "Aaron"
+      role: "Co-host"
+    - name: "Sahil Bloom"
+      role: "Author, Five Types of Wealth"
+  companies:
+    - name: "Root Financial Partners, LLC"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Five Types of Wealth (book by Sahil Bloom)", "Retirement Planning Academy", "Monte Carlo simulation tools"]
+  concepts: ["financial wealth", "time wealth", "social wealth", "mental wealth", "physical wealth", "life planning", "retirement readiness", "personal identity", "sequence of returns", "delayed gratification", "life-work balance"]
+content_type: "educational"
+audience_level: "beginner"
+key_claims: 
+  - claim: "Historical client who could retire kept working due to focus on financial scorecard alone, missing other wealth dimensions"
+    timestamp: "00:00:57"
+    confidence: "high"
+    flagged: false
+  - claim: "Monte Carlo probability of success improved from 95% to higher percentage with additional work, but other wealth scorecards declined"
+    timestamp: "00:06:46"
+    confidence: "medium"
+    flagged: false
+  - claim: "Neglecting relationships in first 15 years cannot be fully recovered through lavish vacations later in life"
+    timestamp: "00:13:36"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: []
@@ -91,6 +110,58 @@ notes: ""
 **Published:** 2025-08-16
 **URL:** https://youtube.com/watch?v=4NYyh_ImPUM
 **Duration:** 21:24
+
+## Summary
+
+This episode addresses a paradox many pre-retirees face: having sufficient financial assets to retire yet feeling unable to leave work. The hosts explore why financial wealth becomes the dominant focus while other forms of wealth—time, social connections, mental health, physical health—are deprioritized. Using the framework of five types of wealth from Sahil Bloom's book, the episode explains how optimizing for one dimension of wealth can undermine others. Through client stories and personal examples, the hosts demonstrate practical boundary-setting strategies (like a hard 5pm work stop) and reflective practices (journaling, meditation, long runs) that help people recognize what they truly value. The core message: financial planning is a tool to enable a well-lived life, not an end in itself.
+
+## Key Takeaways
+
+- Financial wealth is a prerequisite for retirement security but should enable, not dominate, decisions about time, relationships, health, and mental well-being.
+- Monte Carlo success rates and portfolio metrics can mislead when they ignore the costs of continued work on other dimensions of wealth.
+- The five types of wealth (financial, time, social, mental, physical) are equally important for a balanced, fulfilling retirement.
+- Immediate feedback loops on financial gains create overemphasis on money; other forms of wealth show delayed effects, making them easier to neglect.
+- Relationships and skills in social connection, health, and purpose-finding cannot be developed quickly at retirement; they require consistent investment over decades.
+- Practical boundaries (e.g., no work after 5pm, scheduled family vacations) are essential for protecting non-financial forms of wealth.
+- Self-awareness through journaling, meditation, and reflection is the foundation for identifying true priorities and breaking free from optimizing solely for financial metrics.
+
+## Detailed Notes
+
+### The Good Pickle: Financial Success Trap [00:00:57]
+
+A client in peak earning years with six-figure bonuses, vesting equity compensation, and 401k contributions could retire but kept working because the financial models always showed one more year beneficial. Despite wanting to retire, they remained trapped in a cycle where the financial scorecard always favored continued employment, unable to assess trade-offs against time and relationship wealth.
+
+### The Scorecard Problem [00:02:50]
+
+Western culture emphasizes financial scorecard because it is quantifiable and provides immediate feedback. Relationship quality, time freedom, mental health, and physical health are harder to measure, lack immediate rewards, and therefore receive less attention despite being equally important for life satisfaction.
+
+### Five Types of Wealth Framework [00:05:06]
+
+Based on Sahil Bloom's concept, wealth encompasses financial (money, assets), time (control over schedule), social (relationships, connections), mental (peace, purpose), and physical (health, vitality) dimensions. All five are critical; neglecting non-financial types while optimizing financial wealth creates imbalance.
+
+### The Trade-off Illusion [00:07:49]
+
+People often justify financial choices as enabling future enjoyment (work now, vacation later). But working late sacrifices immediate relationship and wellness opportunities. An extra year of work might fund a nicer vacation, but that same year might damage the family relationships that make the vacation meaningful.
+
+### Practical Boundary Setting [00:08:53]
+
+James shares personal strategy: hard stop at 5pm, phone locked away during family time, scheduled vacations despite temptation to defer. These boundaries initially feel difficult but become second nature. The payoff is immediate presence and connection with family, demonstrating that protecting time wealth yields tangible rewards.
+
+### The Identity Barrier to Retirement [00:10:36]
+
+Many struggle to retire not just for financial reasons but because identity is tied to work. Fears include 'who am I without my job?' and unclear sense of what retirement looks like. Financial planning alone cannot resolve this; deeper self-examination is required.
+
+### Delayed Effects and Neglect [00:12:19]
+
+Skipping the gym one week shows no impact; doing so for 20 years shows significant decline. Skipping dinner with family one night seems inconsequential; doing so for 15 years damages relationships irreparably. Delayed feedback creates false belief that non-financial forms of wealth can be deferred.
+
+### Self-Awareness Practices [00:16:13]
+
+Journaling and meditation create silence to discover true values. Aaron practices early morning journaling asking 'What do I actually want?' James uses the 'future self' perspective: What will older me be grateful I did today? These practices counter constant external stimulation and help clarify authentic priorities.
+
+### Practical Implementation [00:19:29]
+
+Both hosts use personal strategies: James maintains phone-free time with young children and schedules family vacations; Aaron takes hour-long runs for reflection and mental clarity. Shared framework: score yourself 1-10 in each wealth category, identify gaps, and redirect effort accordingly. This gives measurement without losing sight of non-financial dimensions.
 
 ## Transcript
 

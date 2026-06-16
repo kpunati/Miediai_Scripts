@@ -44,24 +44,47 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Nick Davis, CFP from Brindle and Bay, discusses five key questions financial planners ask to uncover clients' unique financial stories. Rather than starting with numbers, the framework prioritizes qualitative understanding of values, mindset, goals, and life circumstances before quantitative planning, recognizing that psychology and personal context drive retirement decisions as much as mathematics."
 topics: []
-topics_proposed: []
+topics_proposed: ["financial-planning-process", "retirement-planning", "client-discovery", "financial-goals", "values-based-planning", "behavioral-finance", "planning-questionnaire"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Davis"
+      role: "Certified Financial Planner"
+    - name: "Connie"
+      role: "Podcast host"
+    - name: "Tory"
+      role: "Podcast host"
+  companies:
+    - name: "Brindle and Bay Wealth Management"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["401k", "Donor Advised Fund"]
+  concepts: ["Values-based financial planning", "Mission statement", "One-page financial plan", "Goal setting", "Legacy planning", "Tax planning", "Behavioral finance", "Retirement mindset", "Work-life balance"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "The first question—what's important about money to you—often takes five or six iterations before people uncover their core values"
+    timestamp: "00:06:24"
+    confidence: "high"
+    flagged: false
+  - claim: "A couple recently reconsidered working an extra year because the spouse, who had retired 1.5 years prior, was experiencing retirement dissatisfaction unrelated to financial needs"
+    timestamp: "00:01:04"
+    confidence: "medium"
+    flagged: false
+  - claim: "Financial planning involves both quantitative questions about numbers and qualitative questions about psychology, values, and life satisfaction"
+    timestamp: "00:04:15"
+    confidence: "high"
+    flagged: false
+  - claim: "Journal prompts include imagining living healthy for 5 years then dying (to identify bucket list items) and learning of terminal illness in 30 days (to identify regrets)"
+    timestamp: "00:12:42"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: ["unpunctuated_captions"]
@@ -74,6 +97,40 @@ notes: ""
 **Published:** 2024-10-03
 **URL:** https://youtube.com/watch?v=CFSL4Tu8h38
 **Duration:** 25:26
+
+## Summary
+
+The Money Master podcast explores how Brindle and Bay's financial planning process begins not with spreadsheets but with deep discovery questions designed to uncover clients' true financial story. By combining qualitative questions about values and mindset with quantitative questions about goals and spending, advisors create personalized plans aligned with clients' actual priorities. The episode emphasizes that retirement decisions—like timing, work satisfaction, and legacy goals—are fundamentally human decisions, not purely mathematical ones.
+
+## Key Takeaways
+
+- Start financial planning with qualitative discovery about values and psychology before quantitative analysis, since emotions and mindset drive decisions as much as numbers
+- The core question 'What's important about money to you?' requires multiple iterations to peel back surface answers to identify underlying values like independence, security, or generosity
+- One-page financial plans should serve as a guiding mission statement, helping clients evaluate whether spending decisions and withdrawal strategies align with their stated purpose
+- Journal prompts exploring extreme scenarios (5 years to live vs 30 days to live) reveal meaningful priorities that traditional goal-setting worksheets often miss
+- Legacy planning is not one-size-fits-all; some clients seek to spend down assets completely while others prioritize leaving substantial inheritances or making strategic lifetime gifts to family
+
+## Detailed Notes
+
+### The Psychology vs Numbers Paradox [00:01:04]
+
+A client couple experiencing different retirement preferences illustrates why financial planning cannot be purely mathematical. The husband wanted to work an extra year to save more; the wife, retired 1.5 years earlier, was struggling with inactivity and social isolation. The resolution required psychological counseling, not financial modeling, demonstrating that decisions about retirement age are fundamentally about life satisfaction and personal fulfillment.
+
+### Core Discovery Question: What's Important About Money? [00:06:24]
+
+The first question in Brindle and Bay's framework asks clients to define what money matters to them, sourced from values-based financial planning literature. This question frequently stymies clients; advisors must repeat it 5-6 times, peeling back layers of answers (e.g., 'I don't want to burden my kids' → 'I don't want to be a burden' → 'I value independence') to uncover core values driving their financial decisions.
+
+### Journal Prompts: Exploring Extreme Scenarios [00:12:42]
+
+Two journal prompts accompany discovery: (1) 'You'll live completely healthy for 5 years then meet your end—what experiences do you want?' elicits bucket-list goals; (2) 'You're diagnosed with 30 days to live—what regrets do you have?' typically surfaces emotional priorities like family time rather than material purchases, helping differentiate true vs aspirational goals.
+
+### Legacy and Lifetime Giving Goals [00:14:46]
+
+Legacy planning reveals vast diversity in client intentions: some want to spend to nearly zero in old age while others prioritize substantial inheritances. A recent client discovered the couple had diverging legacy expectations ($500K each child vs $100-200K total), creating an impossible plan until explicit discussion clarified intent and allowed realistic goal-setting or spending adjustments.
+
+### Quantitative Planning: Goals, Expenses, and Unique Circumstances [00:17:54]
+
+After qualitative discovery, advisors document major purchases and life events (vacations, car replacements, renovations) anticipated in next 5-10 years with cost estimates. Crucially, advisors verify pension survivor benefits, Social Security claiming strategies, inheritance likelihood, and actual 401k contributions are accurate, since planning success depends on detailed, verified information about each client's unique circumstances.
 
 ## Transcript
 

@@ -48,12 +48,16 @@ ingest_version: 1
 enriched: true
 enrichment_date: 2026-06-16
 enrichment_version: 1
-summary: "Details how retirees with pensions can maximize retirement income through strategic sequencing of income sources, Roth conversions, and Social Security timing. Uses a hypothetical couple case study comparing early vs. delayed pension starts to quantify the tax and income impact, and explains how pension income serves as a stable foundation for broader retirement income planning."
+summary: "Explains how retirees with pensions can strategically coordinate pension start dates with Social Security timing and Roth conversions to maximize lifetime income and minimize taxes. Demonstrates via case study how early pension claiming combined with delayed Social Security and tactical Roth conversions can increase average monthly income and reduce lifetime effective tax rates."
 topics: []
-topics_proposed: ["pension-income-strategy", "retirement-income-planning", "social-security-timing", "roth-conversion", "tax-efficient-withdrawal", "longevity-risk"]
+topics_proposed: ["pension-withdrawal-strategy", "retirement-income-planning", "social-security-timing", "roth-conversion", "tax-efficient-withdrawal", "longevity-risk"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, presenter"
+  companies:
+    - name: "Brindle and Bay"
+      ticker: null
   tickers: []
   funds: []
   products: []
@@ -62,14 +66,14 @@ content_type: "educational"
 audience_level: "intermediate"
 key_claims: 
   - claim: "Starting in 2025, the IRS raised the maximum annual pension benefit from $275,000 to $280,000"
-    timestamp: "00:00:00"
+    timestamp: "00:00:55"
     confidence: "high"
     flagged: true
-  - claim: "In a hypothetical case study, taking pension at 62 and delaying Social Security until 70 resulted in average monthly income of $11,272 vs. $10,940 for taking pension at 67—a difference of $332/month or ~$39,840/year over 33 years"
+  - claim: "Taking pension at 62 and delaying Social Security resulted in average monthly income of $11,272 versus $10,940 for taking pension at 67, a difference of $332/month or ~$39,840/year over 33 years"
     timestamp: "00:10:36"
     confidence: "medium"
     flagged: true
-  - claim: "Taking pension at 62 with Roth conversions resulted in a lifetime effective tax rate of around 5-6% vs. default plan rate of 9.19%, saving hundreds of thousands in taxes"
+  - claim: "Early pension scenario with Roth conversions resulted in lifetime effective tax rate of 5.35% versus 9.19% on default withdrawal plan"
     timestamp: "00:12:02"
     confidence: "medium"
     flagged: true
@@ -93,7 +97,7 @@ notes: ""
 
 ## Summary
 
-This video explains how pension income can serve as the cornerstone of a tax-efficient retirement income plan by enabling strategic sequencing of withdrawals from different account types. The presenter argues that coordinating pension start dates with Social Security timing and IRA/Roth conversion strategies can add tens or even hundreds of thousands of dollars in lifetime spendable income. A detailed hypothetical case study of a couple named Mike and Sally compares two pension-start scenarios, demonstrating meaningful differences in both income and lifetime taxes. The video emphasizes that pension size matters less than how intentionally it is used alongside other income sources.
+This video explains how pension income can serve as the cornerstone of a tax-efficient retirement income plan by enabling strategic sequencing of withdrawals from different account types. The presenter argues that coordinating pension start dates with Social Security timing and IRA/Roth conversion strategies can add tens or even hundreds of thousands of dollars in lifetime spendable income. A detailed hypothetical case study compares two pension-start scenarios, demonstrating meaningful differences in both income and lifetime taxes.
 
 ## Key Takeaways
 
@@ -101,8 +105,8 @@ This video explains how pension income can serve as the cornerstone of a tax-eff
 - Starting pension income early can allow a retiree to delay Social Security, potentially increasing monthly Social Security benefits significantly.
 - Early retirement years with low taxable income create an optimal window for Roth conversions before required minimum distributions and Social Security inflate the tax bracket.
 - The sequencing of income sources—pension first, IRA later—can reduce total lifetime taxes by keeping the retiree in a lower tax bracket longer.
-- The pension decision is not one-size-fits-all; it depends on overall income needs, tax bracket, other asset types, and coordination with Social Security.
 - Early implementation of a coordinated income strategy provides more flexibility and control later, particularly when RMDs and Medicare premiums become factors.
+- The pension decision is not one-size-fits-all; it depends on overall income needs, tax bracket, other asset types, and coordination with Social Security.
 
 ## Detailed Notes
 
@@ -118,7 +122,7 @@ When a pension covers most living expenses early in retirement, a retiree can de
 
 Starting with pension income and delaying pre-tax IRA withdrawals keeps the retiree in a lower tax bracket, opening the door for Roth conversions at favorable rates. A hypothetical example shows how modest annual Roth conversions of $20,000-$30,000 during low-income years can build a substantial Roth balance while avoiding future RMDs and tax spikes.
 
-### Case Study: Mike and Sally [00:09:32]
+### Case Study: Mike and Sally Pension Comparison [00:09:32]
 
 Two pension-start scenarios are compared for a hypothetical couple: taking pension at 62 vs. age 67, with Social Security sequenced accordingly. The early pension scenario produced higher average monthly income ($11,272 vs. $10,940) and better tax outcomes, with lifetime effective tax rates potentially as low as 5.35% with Roth conversions versus 9.19% on the default withdrawal plan.
 

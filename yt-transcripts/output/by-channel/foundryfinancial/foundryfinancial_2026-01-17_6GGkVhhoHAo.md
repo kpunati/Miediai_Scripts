@@ -60,24 +60,33 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "CFP Kevin Lum shares seven key regrets expressed by older retirees, offering practical lessons for those in their 50s and 60s planning retirement, including timing decisions, spending psychology, health prioritization, social connections, and purpose."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "regret-avoidance", "retirement-psychology", "healthcare", "social-isolation"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Kevin Lum"
+      role: "CFP, founder of Foundry Financial"
+  companies:
+    - name: "Foundry Financial"
+      ticker: null
+    - name: "Habitat for Humanity"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Bolden (retirement planning software)", "Right Capital (planning software)"]
+  concepts: ["retirement-timing", "go-go-years", "slow-go-years", "no-go-years", "retirement-identity-crisis", "social-isolation"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Social isolation is as dangerous to health as smoking 15 cigarettes a day"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: []
@@ -90,6 +99,50 @@ notes: ""
 **Published:** 2026-01-17
 **URL:** https://youtube.com/watch?v=6GGkVhhoHAo
 **Duration:** 21:50
+
+## Summary
+
+Kevin Lum, a CFP and founder of Foundry Financial specializing in retirement planning without worry, shares insights from conversations with retirees who are far into retirement. Rather than focusing on financial mechanics, Lum highlights seven common regrets that transcend different backgrounds, net worth levels, and demographics—regrets that no amount of money can fix. These include retiring too late, excessive fear-driven spending restrictions, neglected health, lost friendships, unspoken family communications about estate plans, missing sense of purpose post-career, and postponed adventures due to time uncertainty. Lum frames these as preventable regrets for those in their 50s and 60s now, offering practical advice on retirement timing confidence, spending psychology, health investment, social infrastructure, family communication, purpose-finding, and seizing time.
+
+## Key Takeaways
+
+- Many retirees delay retirement due to fear (not math), missing years of freedom; those who waited longer rarely feel they made the right choice when in their late 70s or 80s.
+- The hardest retirement transition is shifting from accumulation/scorecard mentality to spending/tool mentality; fear of overspending (unlikely) often outweighs the real risk: underspending in your most active go-go years.
+- Health is your retirement plan more than money; neglect during career years compounds, and investments in physical therapy, weight loss, exercise, and preventative care in your 50s-60s pay dividends in freedom and enjoyment.
+- Friendships don't magically transfer from work to retirement; build social infrastructure and hobbies before retiring so you have built-in community and purpose.
+- Estate planning documents hidden in drawers cause post-mortem family conflict; transparent conversations about why decisions were made protect family relationships and prevent decades of bitterness.
+- Post-retirement purpose requires intentional planning (volunteering, part-time work, mentoring, hobbies) because the novelty of freedom wears off in 18 months and depression can set in without meaningful activity.
+- Time is the only truly non-renewable resource; postponing adventures until you feel more secure often means missing the window when health and energy permit; build a plan to psychologically permit spending now.
+
+## Detailed Notes
+
+### Regret #1: Retiring Too Late [00:00:00]
+
+Clients hit 62-63, meet their numbers, but delay retirement 'one more year' repeatedly, losing 5+ years of freedom. Fear drives delays, not math. Lum heard: "I spent five years extra at a job I didn't love saving money I didn't need for retirement I now can't fully enjoy." Late retirees rarely claim they wish they'd worked longer.
+
+### Regret #2: Fear-Driven Underspending [00:00:00]
+
+Savers with large nest eggs retire terrified to spend. They see money as a scorecard of success, not a tool for life. This anxiety causes them to skip Europe trips, family reunions, home repairs, and helping kids with down payments. They white-knuckle portfolios through market dips, only to realize later they had more money than when retiring and could have done everything sooner.
+
+### Regret #3: Neglected Health [00:00:00]
+
+Decades of ignoring diet, exercise, and preventative care compound during retirement; mobility lost to postponed surgeries, heart disease from sedentary careers can't be undone. Lum frames health as the retirement plan: no money matters if you can't move. Ages 60-75 are golden years of retirement (old enough for freedom, young enough for health/activity). Investment in checkups, physical therapy, weight loss, movement in 50s-60s determines mobility and joy 70+ years.
+
+### Regret #4: Lost Friendships [00:00:00]
+
+Work provides built-in social structure. Upon retirement, work friendships fade because they lacked organic commonality. Lonely retirees who outsourced their entire social life to their job find themselves isolated, sometimes only connected to their spouse (too much pressure). Lum recommends building social infrastructure, joining groups, finding hobbies, and making standing plans before retirement.
+
+### Regret #5: Unspoken Estate Plans [00:00:00]
+
+Parents create wills/trusts, make decisions about who inherits what, put it in a drawer, never discuss. They think they're being private or avoiding conflict. Instead, children are blindsided, siblings fight over perceived favoritism, and family fractures. Even great decisions cause chaos without explanation. Transparent conversations about reasoning protect relationships. Lum cites example of client who said 'I don't want to burden kids' but silence created bigger burden post-stroke when kids couldn't agree on her wishes.
+
+### Regret #6: Loss of Purpose Beyond Work [00:00:00]
+
+Retirees count down years to freedom, retire into what feels like endless vacation, but 18 months in novelty wears off, days blur, and depression creeps in. Work gave structure, purpose, sense of being needed. Happiest retirees found something bigger than themselves: volunteering, part-time work, mentoring, creating. Without intentional planning ("retiring to something, not just from something"), people spiral into couch-watching TV.
+
+### Regret #7: Postponed Adventures (Time Is Finite) [00:00:00]
+
+Couple planned a four-generation family cruise for years, kept delaying until they 'felt secure,' finally took it at 75. Wife said: 'That trip was the highlight of our retirement. I wish we'd done it 10 years ago.' Money was there; courage wasn't. Lum emphasizes time is the only non-renewable resource. Build a plan (software, advisor, spreadsheet) that gives psychological permission to spend and live today, not someday.
 
 ## Transcript
 

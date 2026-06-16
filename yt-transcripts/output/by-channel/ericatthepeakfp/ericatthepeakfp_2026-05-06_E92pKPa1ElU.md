@@ -37,24 +37,47 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Eric Amzalag outlines seven critical planning issues married couples face in retirement: the widow's penalty (tax bracket cliff for surviving spouse), survivor income optimization (Social Security and pension claiming), strategic Roth conversion timing, healthcare bridge gaps before Medicare, long-term care sequencing, step-up-in-basis and asset titling, and creating an operational system the surviving spouse can manage."
 topics: []
-topics_proposed: []
+topics_proposed: ["married-retirement-planning", "survivor-tax-planning", "estate-planning", "social-security-strategy", "healthcare-planning"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, RICP, financial planner"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Roth conversion", "traditional IRA", "pension plans", "Social Security benefits", "Medicare", "ACA health insurance"]
+  concepts: ["widow's penalty", "surviving spouse tax bracket", "survivor income ratio", "required minimum distributions (RMDs)", "Roth conversion window", "Medicare bridge insurance", "Affordable Care Act (ACA) subsidies", "long-term care sequencing", "step-up-in-basis", "community property states", "capital gains taxation", "financial driver and passenger model"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "When one spouse dies, the surviving spouse moves from married filing jointly brackets to single filer brackets, often creating meaningfully higher taxes despite lower overall household income"
+    timestamp: "00:01:02"
+    confidence: "high"
+    flagged: false
+  - claim: "For pension elections, a survivor income ratio below 65% should prompt consideration of a joint life option; above 90% allows safe single life election, but the decision is permanent once made"
+    timestamp: "00:04:53"
+    confidence: "medium"
+    flagged: false
+  - claim: "The majority of retirees retire before age 65 (Medicare eligibility), requiring healthcare bridge planning if the younger spouse is not eligible for employer coverage"
+    timestamp: "00:08:44"
+    confidence: "high"
+    flagged: false
+  - claim: "In some community property states, certain assets receive a full step-up-in-basis at the first spouse's death, while common law states have different outcomes, creating significant tax differences"
+    timestamp: "00:12:59"
+    confidence: "medium"
+    flagged: false
+  - claim: "Long-term care for married couples is a sequencing problem: if the first spouse's care is expensive and early, it depletes assets available for the healthy spouse's later care or living needs"
+    timestamp: "00:11:17"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: []
@@ -67,6 +90,51 @@ notes: ""
 **Published:** 2026-05-06
 **URL:** https://youtube.com/watch?v=E92pKPa1ElU
 **Duration:** 17:49
+
+## Summary
+
+Eric Amzalag presents a comprehensive framework for married couples approaching retirement, arguing that standard planning (asking 'Can we retire?') is insufficient. The surviving spouse often faces a radically different financial reality: higher tax brackets (widow's penalty), lower combined income, large RMDs, and complex decisions at a vulnerable time. Amzalag walks through seven interconnected planning areas—widow's tax optimization, survivor income management, Roth conversion timing, healthcare gaps, long-term care sequencing, asset titling, and operational handoff—concluding that married retirement planning must ensure the plan works for the spouse who lives longer, not just while both are alive.
+
+## Key Takeaways
+
+- The 'widow's penalty' occurs when a surviving spouse transitions to single filer tax brackets while still receiving substantial income (pensions, RMDs, Social Security, brokerage distributions), often resulting in tens or hundreds of thousands in extra taxes over their lifetime.
+- Social Security and pension claiming decisions must account for the surviving spouse's benefit, not just the individual's break-even age; the higher earner's Social Security decision directly sets the survivor benefit.
+- For pension elections, calculate the survivor income ratio: <65% suggests joint life option; >90% allows safe single life; >50% of people fail to survive one of these elections once made, so data should guide the decision, not 'vibes.'
+- Roth conversions during the 'married window' (before one spouse dies) may have strategic value in reducing the survivor's future tax burden, but only if they address a specific problem; aggressive conversion without analysis of the survivor tax picture can waste the joint bracket advantage.
+- Healthcare bridge gaps (age gap before Medicare eligibility) create both coverage complexity and subsidy implications for ACA; mapping coverage before retirement and understanding how income floors affect subsidies prevents post-retirement surprises.
+- Long-term care for couples is not one budget item but a sequencing problem: an early, expensive care event for one spouse can deplete resources needed for the other spouse's eventual care or living expenses decades later.
+- Asset titling and step-up-in-basis treatment depend on state law (community property vs. common law); appreciated assets should be inventoried and titled strategically to minimize the survivor's tax burden.
+- The 'financial driver and passenger' model requires creating a system the surviving spouse can operate (Loved One's Checklist): accounts, bill payments, income sources, advisor contacts, and decision protocols must be documented so the surviving spouse can make 30-day decisions without a scavenger hunt.
+
+## Detailed Notes
+
+### The Widow's Penalty: Tax Bracket Cliff for Surviving Spouse [00:01:02]
+
+When one spouse dies, household income often declines but not by the percentage needed to offset the shift from married-filing-jointly brackets to single-filer brackets. The survivor may have larger Social Security (getting the higher of the two benefits), substantial RMDs, pensions, and investment income, resulting in a higher effective tax rate on lower absolute income. Amzalag identifies this as the starting point: model the surviving spouse's tax return to see if the 'widow's penalty' exists and if so, whether it's 'meaningful' enough to warrant planning solutions during the married years.
+
+### Survivor Income: Social Security and Pension Claiming Strategy [00:04:09]
+
+Couples sometimes decide Social Security and pension claiming independently, treating each spouse's decision as isolated. This is 'extremely dangerous' in retirement because the higher earner's Social Security decision sets the survivor benefit. Similarly, pension elections (single life vs. joint life) are permanent after made. Amzalag introduces the 'survivor income ratio': the percentage of current household income that continues if a spouse dies. A ratio <65% suggests considering joint-life pension options; >90% allows single-life election. Without this data, couples choose based on vibes (higher monthly payment) rather than survivor security.
+
+### Strategic Roth Conversions During the Married Window [00:06:32]
+
+Standard advice focuses on converting during 'gap years' (retirement before RMDs). Amzalag adds a layer: the married-filing-jointly bracket may be a unique conversion window that closes at the first spouse's death. If the survivor tax return looks ugly (widow's penalty), using joint brackets now to convert pre-tax dollars can reduce future RMDs and the survivor's tax problem. However, Roth conversions have a 'job'—not just being done because Roth sounds better. The test: compare the married conversion years against the survivor years; does reducing pressure later outweigh costs today (e.g., losing ACA subsidies)?
+
+### Healthcare Age Gap and ACA Complexity [00:08:44]
+
+Most retirees retire before 65 (Medicare eligibility), creating coverage gaps. If one spouse retires and the other is on the partner's employer health plan, losing that employer plan leaves them uninsured until 65 unless alternatives exist. If one spouse is part-time without benefits, that spouse becomes uninsured when the full-time spouse retires. ACA subsidies depend on tax return income, so managed withdrawals can preserve subsidies. The practical risk: retirement looks fine at a high level but becomes 'very messy' once real premium costs and subsidy implications are calculated. Solution: map coverage and income scenarios before giving notice to employer.
+
+### Long-Term Care as a Sequencing Problem [00:11:17]
+
+For couples, long-term care is not a single expense but a sequencing issue: if the first spouse needs expensive care early, those funds come from the same household pool. The healthy spouse may live 10-15 years after the first spouse's care event. The risk is funding the first care episode while inadvertently weakening the plan for the surviving spouse's remaining lifetime. Solution: stress-test both the first care event and the survivor runway together; don't optimize for one spouse's care at the cost of the other's long-term security.
+
+### Step-Up-in-Basis and Asset Titling Across State Lines [00:12:59]
+
+When someone dies, inherited assets may receive a 'step-up-in-basis,' resetting their tax basis and reducing future capital gains taxes. In community property states, both spouses' assets may receive a full step-up at the first death; in common law states, outcomes differ. Couples often assume 'just let the spouse inherit it,' missing the tax dimension. Appreciated brokerage accounts, rental properties, concentrated stock, and real estate need to be inventoried and titled strategically. Working with estate and tax professionals upfront to align state rules, titling, and estate planning can prevent the surviving spouse from inheriting a large hidden tax liability.
+
+### The Loved One's Checklist: Creating an Operational System for the Survivor [00:14:27]
+
+The most important but least technical issue: the surviving spouse must inherit a working system, not just accounts and paperwork. Using the 'financial driver and passenger' model, one spouse often manages finances while the other provides oversight. If the financial driver dies first, the passenger faces massive complexity—account locations, auto-pay bills, income sources, CPA contact, advisor identity, decision protocols—at the worst possible time. Solution: use a simple one-page Loved One's Checklist (provided by Amzalag) that documents accounts, bill schedules, income flows, contacts, and decision guardrails. Test: could the surviving spouse make 30 days of decisions without a scavenger hunt?
 
 ## Transcript
 

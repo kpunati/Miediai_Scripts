@@ -46,27 +46,50 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Comprehensive guide to seven distinct wealth levels in retirement ($300K to $7.5M+), explaining how tax implications and optimization strategies differ significantly at each level and why a one-size-fits-all approach fails."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "tax-optimization", "roth-conversions", "required-minimum-distributions", "estate-planning", "income-sequencing"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP"
+  companies:
+    - name: "Brindle and Bay"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["Social Security timing", "Tax brackets", "Medicare IRMAA", "Qualified charitable distributions", "Dynasty Roth planning"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "At Level 2 ($500K-$1M), retirees can achieve 88-92 cents of every dollar in after-tax income efficiency, higher than many higher wealth levels"
+    timestamp: "00:04:29"
+    confidence: "high"
+    flagged: false
+  - claim: "At Level 3 ($1-2M), RMDs at 75 from $1.5M traditional balance force roughly $55,000 in RMDs, pushing into 22% bracket with potential IRMAA triggers"
+    timestamp: "00:08:12"
+    confidence: "high"
+    flagged: true
+  - claim: "Level 6 retirees ($5-7.5M) can preserve $1-2M more through coordinating income, estate, charitable and heir planning vs those tackling each separately"
+    timestamp: "00:19:25"
+    confidence: "medium"
+    flagged: false
+  - claim: "Level 7 retirees ($7.5M+) can preserve 30-40% more wealth through comprehensive planning vs those using generic level 3-4 strategies"
+    timestamp: "00:23:04"
+    confidence: "medium"
+    flagged: false
+  - claim: "A $5M pre-tax traditional IRA may result in 50% or more of balance disappearing to federal, state and estate taxes by the time heirs distribute it"
+    timestamp: "00:21:31"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -76,6 +99,36 @@ notes: ""
 **Published:** 2026-05-31
 **URL:** https://youtube.com/watch?v=gYfIUEjSwd0
 **Duration:** 26:04
+
+## Summary
+
+Nick Davis, a CFP, breaks down seven distinct retirement wealth levels and explains why strategies that work at one level can hurt you at another. From Level 1 ($300K) where Social Security is the primary income source, to Level 7 ($7.5M+) requiring comprehensive multi-generational tax engineering, each level faces different challenges with tax brackets, Medicare IRMAA penalties, and required minimum distributions. The video emphasizes that understanding your specific balance and implementing appropriate Roth conversions, strategic Social Security timing, and account structure during the conversion runway years can preserve hundreds of thousands to over a million dollars in lifetime wealth.
+
+## Key Takeaways
+
+- Strategies that work at Level 2 ($500-1M) can leave hundreds of thousands on the table if applied at Level 5, while Level 5 strategies create unnecessary complexity for Level 2 retirees.
+- The conversion window between retirement and age 75 is the most valuable planning lever, with every dollar converted preventing cascading tax penalties that worsen at higher wealth levels.
+- At higher levels, the question shifts from 'will I have enough' (Level 1-2) to 'how much will government take' (Level 4-7), requiring three-tiered account structures and coordination of income, estate, charitable and heir strategies.
+- Medicare IRMAA thresholds act as hidden penalties where crossing by even $1 adds $1-2K per person annually, making conversion precision critical at Levels 3-5.
+- Qualified charitable distributions, dynasty Roth conversions, and strategic gifting become essential tools at higher levels, but are inappropriate or ineffective for lower wealth tiers.
+
+## Detailed Notes
+
+### Levels 1-2: Foundation Planning ($300K-$1M) [00:01:39]
+
+Level 1 ($300K-500K) relies on Social Security as primary income with modest portfolio withdrawal. Key strategy is delaying Social Security to build largest benefit and considering modest Roth conversions to fill the 12% bracket. Level 2 ($500K-1M) is identified as the most tax-efficient range overall; couples can generate $75-105K annual income while keeping effective rates at 8-12% through conversion windows that move $300-500K to Roth over a decade.
+
+### Level 3: Where Penalties Begin ($1-2M) [00:08:12]
+
+At $1.5M traditional balance, RMDs of $55K plus $55-70K Social Security totals $110-125K, firmly in 22% bracket with IRMAA triggered. The structural cascade begins with 85% of Social Security becoming taxable. Strategy shifts to aggressive Roth conversions filling 12% and lower 22% brackets, moving $500-700K over a decade. Conversion precision matters because crossing IRMAA thresholds even by $1 costs $1-2K annually per person.
+
+### Level 4: Government's Share Emerges ($2-3M) [00:11:19]
+
+At $2.5M traditional balance, RMDs force $91K plus Social Security pushes total income to $146-160K, entering 22-24% bracket with first or second IRMAA tier triggered. Three-tiered account structure becomes essential: traditional (controlled taxable income), Roth (invisible income), and taxable brokerage (capital gains rates). Conversions of $80-120K annually in 22% bracket necessary; blowing through IRMAA tier by $15K can cost more in Medicare charges than the conversion saves.
+
+### Level 5-7: Structural Engineering ($3M+) [00:14:05]
+
+Level 5 ($3-5M) requires treating planning as structural engineering because RMDs interact with Social Security and IRMAA. QCDs become powerful, eliminating up to $111K per person annually of taxable RMD income for charitably inclined. Level 6-7 requires coordinating four systems simultaneously: income planning, estate planning, charitable planning, and heir planning. Level 7 involves irrevocable life insurance trusts, charitable remainder/lead trusts, and dynasty Roth conversions at 32-35% to save heirs from 37% rates.
 
 ## Transcript
 

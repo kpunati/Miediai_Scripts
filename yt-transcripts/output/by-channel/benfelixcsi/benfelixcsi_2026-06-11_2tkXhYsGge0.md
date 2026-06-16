@@ -55,27 +55,72 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Analysis of major stock index rule changes ahead of SpaceX IPO, examining how different indices changed inclusion criteria for mega-cap IPOs and implications for index fund investors and retail IPO accessibility."
 topics: []
-topics_proposed: []
+topics_proposed: ["ipo-inclusion-rules", "index-methodology", "spacex-ipo", "market-indexing", "retail-investors", "passive-investing"]
 entities:
-  people: []
-  companies: []
-  tickers: []
-  funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  people:
+    - name: "Ben Felix"
+      role: "Chief Investment Officer"
+  companies:
+    - name: "SpaceX"
+      ticker: null
+    - name: "PWL Capital"
+      ticker: null
+    - name: "Vanguard"
+      ticker: null
+    - name: "NASDAQ"
+      ticker: null
+    - name: "S&P"
+      ticker: null
+  tickers: ["VTI", "VEQT"]
+  funds:
+    - name: "Vanguard Total Stock Market ETF"
+      ticker: "VTI"
+  products: ["NASDAQ 100 index", "S&P 500"]
+  concepts: ["free float", "index inclusion", "mega-cap IPO", "retail allocation", "market cap weighting"]
+content_type: "analysis"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "SpaceX IPO expected to be largest in history by capital raised, with Saudi Aramco only comparable"
+    timestamp: "00:00:40"
+    confidence: "medium"
+    flagged: false
+  - claim: "SpaceX seeking 30% retail allocation versus typical 5-10% in IPOs"
+    timestamp: "00:00:40"
+    confidence: "medium"
+    flagged: false
+  - claim: "NASDAQ can now include stocks after 15th trading day if in top 40 by market cap"
+    timestamp: "00:05:03"
+    confidence: "high"
+    flagged: false
+  - claim: "SpaceX initial free float estimated at 4%"
+    timestamp: "00:05:03"
+    confidence: "medium"
+    flagged: true
+  - claim: "NASDAQ 100 would weight SpaceX at approximately $1.8 trillion total market cap"
+    timestamp: "00:06:07"
+    confidence: "high"
+    flagged: true
+  - claim: "SpaceX would comprise 0.12% of Crisp US Total Market Index"
+    timestamp: "00:08:12"
+    confidence: "medium"
+    flagged: true
+  - claim: "Retail IPO stocks in 2025 study declined average 60% from offer price after one year"
+    timestamp: "00:15:52"
+    confidence: "medium"
+    flagged: true
+  - claim: "S&P 500 requires 12-month seasoning for SpaceX, earliest inclusion mid-2027"
+    timestamp: "00:12:22"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -85,6 +130,45 @@ notes: ""
 **Published:** 2026-06-11
 **URL:** https://youtube.com/watch?v=2tkXhYsGge0
 **Duration:** 20:11
+
+## Summary
+
+Ben Felix examines significant rule changes made by major stock indices in advance of SpaceX's historic IPO. Different index providers adopted varying approaches: NASDAQ and Crisp expedited inclusion after 15 or 5 trading days respectively, while S&P maintained 12-month seasoning for S&P 500. Index fund investors may find themselves owning SpaceX shares automatically within days of IPO. Research on retail-allocated IPOs shows returns typically underperform by 20 percentage points over one year.
+
+## Key Takeaways
+
+- Index rule changes directly affect how trillions of dollars in index fund assets are invested and can support IPO prices.
+- Free float (proportion of freely tradable shares) is critical for large IPOs; SpaceX's 4% initial float created indexing challenges different providers addressed differently.
+- Passive index funds do not retain discretion on IPO investment decisions; if a stock is added, funds must buy regardless of valuation.
+- NASDAQ 100 weights by total market cap rather than free float, creating outsized weights for mega-cap, low-float companies like SpaceX.
+- Retail IPO access has historically underperformed due to adverse selection and attention-driven trading dynamics.
+- S&P 500, tracking the most assets, rejected fast-track inclusion for SpaceX, creating potential performance divergence versus other indices.
+
+## Detailed Notes
+
+### SpaceX IPO Scale and Retail Strategy [00:00:40]
+
+SpaceX IPO expected to be largest in history by capital raised. Company seeking 30% retail allocation versus typical 5-10%, and pushing for rule changes allowing near-immediate index inclusion.
+
+### NASDAQ Rule Changes for Inclusion [00:04:27]
+
+NASDAQ eliminated 3-month seasoning requirement for top 40 companies by market cap, allowing inclusion after 15th trading day. Removed 10% free float requirement. Uses 3x free float cap for weighting.
+
+### Crisp Fast-Track Inclusion [00:07:09]
+
+Crisp changed free float threshold allowing mega-cap, low-float IPOs. SpaceX estimated at 0.12% of VTI index. Crisp recognized float becomes less informative for very large companies.
+
+### Footsie Russell and MSCI Rules [00:10:18]
+
+Footsie Russell adopted fast entry rule for top 500 securities after 5th trading day close. MSCI already had existing fast-track rules for large IPOs.
+
+### S&P 500 Standout Rejection [00:12:22]
+
+S&P rejected all proposed changes including seasoning period reduction. SpaceX cannot enter S&P 500 until mid-2027 earliest.
+
+### Retail IPO Underperformance Research [00:15:52]
+
+2025 paper examining retail-allocated IPOs found average 60% decline from offer price after one year versus comparable non-retail IPOs. Adverse selection and attention-driven trading explain underperformance.
 
 ## Transcript
 

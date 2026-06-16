@@ -37,27 +37,52 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Retirement planning expert Eric Amzalag examines whether retirees can afford Roth conversions by analyzing spending capacity versus spending needs. The video demonstrates that affordability depends on having surplus spending capacity after retirement expenses are met, not simply on the size of retirement assets. Case studies show one household of $1."
 topics: []
-topics_proposed: []
+topics_proposed: ["roth-conversions", "retirement-planning", "tax-strategy", "spending-capacity", "financial-planning"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, retirement planning expert"
+  companies:
+    - name: "Income Labs"
+      ticker: null
+    - name: "Vanguard"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Income Labs Modern Guardrails software"]
+  concepts: ["spending capacity", "spending surplus", "Roth conversion math", "tax consequences", "healthcare subsidies", "Medicare surcharges"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Most Roth conversion advice ignores whether retirees can actually afford to pay the conversion taxes today"
+    timestamp: "00:00:57"
+    confidence: "high"
+    flagged: false
+  - claim: "A couple with $1.5M in pre-tax retirement savings earning $115K annually cannot afford Roth conversions because they have no spending surplus"
+    timestamp: "00:05:36"
+    confidence: "high"
+    flagged: true
+  - claim: "A couple with $3M in retirement savings can afford $187K in Roth conversions with a $42K spending surplus"
+    timestamp: "00:13:02"
+    confidence: "medium"
+    flagged: true
+  - claim: "Roth conversions can cause up to $10,725 in additional taxes by pushing couples over ACA healthcare subsidy cliffs and triggering Medicare IRMAA surcharges"
+    timestamp: "00:15:44"
+    confidence: "high"
+    flagged: true
+  - claim: "Vanguard research shows the best way to pay Roth conversion taxes is from taxable brokerage accounts, not from IRAs or cash"
+    timestamp: "00:20:16"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -67,6 +92,40 @@ notes: ""
 **Published:** 2026-03-18
 **URL:** https://youtube.com/watch?v=2KZru8YeUvc
 **Duration:** 28:03
+
+## Summary
+
+Eric Amzalag presents a comprehensive framework for determining Roth conversion affordability that goes beyond simple tax rate comparisons. He introduces the concept of spending capacity (what you can afford to spend) versus spending need (what you want to spend), with the gap being spending surplus. He demonstrates with two detailed case studies how affordability is calculated and why even wealthy households with all pre-tax assets may not be able to afford conversions. The video emphasizes that affording a conversion is necessary but not sufficient—advisors must also evaluate how conversions affect healthcare costs, Medicare premiums, capital gains taxation, and investment diversification.
+
+## Key Takeaways
+
+- Roth conversion affordability depends on having spending surplus after meeting desired retirement expenses, not the size of assets alone.
+- A household with $1.5M in pre-tax savings earning sufficient income but with zero surplus cannot afford conversions without reducing retirement lifestyle quality.
+- A household with $3M earning sufficient surplus can technically afford conversions but must account for unintended consequences like healthcare subsidy cliffs and IRMAA surcharges.
+- Vanguard research recommends paying conversion taxes from taxable brokerage accounts first, then cash savings, and recommends against withholding from the IRA itself.
+- Roth conversions interact with multiple tax-planning dimensions including ACA subsidies, Medicare premiums, capital gains harvesting, and concentrated stock positions, requiring holistic analysis.
+
+## Detailed Notes
+
+### The Affordability Framework [00:00:00]
+
+Amzalag introduces the concept that Roth conversions must be evaluated like any purchase—you must check both the sale price (tax rate) and your bank account (spending capacity). He defines spending capacity as the maximum sustainable spending your financial plan supports, versus spending need or desired spending. The gap between these is spending surplus, which determines conversion affordability.
+
+### Case Study 1: $1.5M Pre-Tax Household [00:04:53]
+
+A married couple at age 63, retired with $1.5M in traditional IRAs and Social Security of $50K annually wants to spend $8,500 monthly ($102K annually). Income Labs shows they can earn $115K with $114K expenses, leaving no surplus after $11.5K taxes. Amzalag concludes they cannot afford Roth conversions without reducing their desired lifestyle.
+
+### Case Study 2: $3M Mixed Portfolio Household [00:11:47]
+
+A married couple at 63 with $3M ($2.25M pre-tax, $750K taxable) and $50K Social Security wants to spend $12,500 monthly ($150K annually). Their spending capacity is $192K, creating a $42K surplus. The free calculator shows they could convert $187K of pre-tax funds, but Amzalag warns that this conversion will trigger cascading tax consequences including $10,725 in additional taxes via capital gains taxation and IRMAA surcharges.
+
+### Vanguard Hierarchy for Paying Taxes [00:20:16]
+
+Vanguard research shows that paying conversion taxes should follow this order: first from taxable brokerage (most efficient), second from cash/savings, and last from the IRA itself (creates recursive taxing). Amzalag emphasizes that the source of payment dramatically affects the net benefit of the conversion.
+
+### Hidden Consequences of Conversions [00:22:44]
+
+Beyond the immediate tax on the conversion, Roth conversions trigger cascading consequences. ACA healthcare subsidies have a cliff around $84,600 modified adjusted gross income; large conversions push couples past this threshold. Medicare IRMAA surcharges also increase with income, lasting multiple years. Capital gains harvesting opportunities vanish as ordinary income pushes people into higher capital gains brackets.
 
 ## Transcript
 

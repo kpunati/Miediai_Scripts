@@ -59,27 +59,44 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Examines how retirement spending patterns change over 30+ years, with research showing retirees spend 20-25% less in real terms during later retirement years. Discusses income planning, portfolio sequencing, and how social security timing affects withdrawal strategies."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-spending-patterns", "withdrawal-strategy", "social-security-planning", "portfolio-management", "retirement-risk"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "CFP, host"
+    - name: "Erin"
+      role: "guest expert"
+  companies:
+    - name: "Root Financial"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: [{"name": "Retirement Planning Academy"}]
+  concepts: ["retirement spending smile", "go-go years", "4% rule", "tax-efficient withdrawal", "mortality risk", "inflation protection"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Research from Chase analyzing 5 million households shows retirees in early retirement increase spending at 2% annually, mid-retirement at 0.5%, and late retirement declines significantly"
+    timestamp: "00:05:28"
+    confidence: "high"
+    flagged: true
+  - claim: "By age 84, retirees spend approximately 25% less in real terms than they did at retirement despite inflation"
+    timestamp: "00:04:25"
+    confidence: "high"
+    flagged: false
+  - claim: "Using dynamic spending models rather than inflation-adjusted withdrawal can increase probability of success from 70% to 82%"
+    timestamp: "00:08:07"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -89,6 +106,41 @@ notes: ""
 **Published:** 2025-03-29
 **URL:** https://youtube.com/watch?v=9cyRD7MEWmE
 **Duration:** 21:10
+
+## Summary
+
+This video reveals that retirement spending doesn't follow inflation lockstep. Research from Chase on 5 million households shows most retirees spend more in early years (go-go phase), less in middle years, and significantly less in late retirement. The 'retirement spending smile' research demonstrates that while a $100,000 budget might be set at retirement, real spending falls to around $75,000 by age 84. Understanding these patterns allows for better portfolio management and can improve retirement success rates by 10-15% compared to rigid inflation-adjusted budgets. The key insight is that social security timing, portfolio demands, and flexible spending all interact to create very different outcomes.
+
+## Key Takeaways
+
+- Spending patterns naturally decline in later retirement as travel and activity levels decrease, even without intentional cuts
+- Early retirement years (60-75) face the highest portfolio demands due to lower social security and higher lifestyle spending
+- Using dynamic spending models accounting for natural decline can improve plan success by 10-15 percentage points
+- Social security timing dramatically affects portfolio withdrawal needs—delayed claiming reduces early portfolio stress
+- A 5-year cash buffer protects against market downturns and enables tax-efficient withdrawals during market peaks
+- Maintaining 50%+ equity exposure is crucial to combat inflation's long-term impact on purchasing power
+
+## Detailed Notes
+
+### Understanding Real Spending Patterns [00:02:40]
+
+Spending doesn't increase lockstep with inflation because major costs like mortgages (when paid off) grow at rates below inflation. Housing, property taxes, and insurance don't increase at the full inflation rate. Retirees can adjust lifestyle variables like travel class, dining frequency, and vacation destinations to manage costs more flexibly than working professionals.
+
+### The Retirement Spending Smile Research [00:04:25]
+
+Chase data on 5 million households shows three distinct phases: go-go years with 2% annual real spending increases, middle years with 0.5% increases, and late years with significant declines. By age 84, real spending averages 25% below initial retirement spending. This pattern is driven by natural decreases in travel, entertainment, and active pursuits rather than forced budget cuts.
+
+### Portfolio Withdrawal Sequencing [00:08:07]
+
+Modeling spending as dynamic rather than inflation-adjusted can shift success probability from 70% to 82%. Higher withdrawal rates in early years (when spending is highest and social security hasn't started) are sustainable because spending naturally declines. A 5-year cash buffer tied to market conditions—drawing from investments during peaks and cash during downturns—protects long-term portfolio viability.
+
+### Social Security and Portfolio Balance [00:12:45]
+
+Delayed social security filing (to age 70) significantly reduces portfolio stress in early retirement. When both spouses delay, the couple moves from high portfolio demand with low income sources in early years to manageable withdrawals once social security begins. Combining this with declining spending creates a powerful three-part effect: lower expenses, higher guaranteed income, and lower withdrawal rates.
+
+### Equity Allocation in Retirement [00:11:06]
+
+Maintaining at least 50% equity exposure throughout retirement is necessary to maintain purchasing power against inflation over 20-30+ year horizons. Bonds and cash serve as volatility buffers, not primary return engines. The optimal approach treats equities as growth drivers and fixed income as protection, enabling flexibility rather than forcing conservative static allocations.
 
 ## Transcript
 

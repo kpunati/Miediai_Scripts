@@ -43,27 +43,48 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Financial planner Nick Davis shares the top five retirement regrets from his clients and how to avoid them. He emphasizes that successful retirement planning requires balancing financial security with current life enjoyment, addressing health, relationships, and purpose alongside wealth accumulation. The video features a case study of Tom and Jenny who shifted from anxiety-driven wealth accumulation to confident retirement anticipation."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-regrets", "financial-planning", "life-portfolio", "retirement-happiness", "social-connections", "healthcare-planning"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Davis"
+      role: "Certified Financial Planner"
+    - name: "Tom and Jenny"
+      role: "retirement planning clients"
+  companies:
+    - name: "Brindle and Bay"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["retirement regrets", "life portfolio planning", "sequence of returns risk", "Medicare limitations", "compound interest", "multiple income streams", "lifestyle downgrade", "social isolation in retirement", "work-life balance"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "The average American has less than $150,000 saved by retirement age"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Social Security typically replaces only about 40% of pre-retirement income"
+    timestamp: "00:02:04"
+    confidence: "high"
+    flagged: false
+  - claim: "Many retirees spend more in early retirement years compared to working years due to travel and hobbies"
+    timestamp: "00:03:08"
+    confidence: "medium"
+    flagged: false
+  - claim: "Tom and Jenny had accumulated $1.2 million in 401K balances with combined income around $190,000"
+    timestamp: "00:08:21"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -73,6 +94,40 @@ notes: ""
 **Published:** 2025-03-17
 **URL:** https://youtube.com/watch?v=eqEhcHlDTw8
 **Duration:** 15:37
+
+## Summary
+
+Nick Davis, a Certified Financial Planner, reveals the five most common retirement regrets reported by his clients and provides strategies to overcome them. He stresses that retirement satisfaction extends far beyond financial metrics and requires intentional planning in areas like health, relationships, social connections, and life purpose. Through the example of Tom and Jenny, he demonstrates how a comprehensive life portfolio approach transformed their retirement outlook from anxiety-driven to purpose-driven.
+
+## Key Takeaways
+
+- Five common retirement regrets stem from poor planning timing, underestimating healthcare costs, failing to build multiple income streams, not addressing lifestyle downgrade risks, and sacrificing current life satisfaction for future accumulation
+- Financially secure retirees build multiple income streams and regularly assess their strategy, while most people rely solely on 401(k) and Social Security and wait until the last minute to plan seriously
+- False beliefs about retirement such as 'Social Security covers living expenses' or 'I can work longer if needed' lead to inadequate preparation and forced lifestyle changes
+- Retirement happiness requires equal investment in financial planning, health optimization, social connections, and identifying personal meaning and purpose beyond work
+- Implementing a life portfolio alongside financial planning—including health goals, social connection targets, and hobby exploration—reduces retirement anxiety and increases overall satisfaction
+
+## Detailed Notes
+
+### The Timing Problem and Common Misconceptions [00:00:00]
+
+Nick identifies that many people fail to plan for retirement effectively due to procrastination. False beliefs such as 'Social Security will be enough' (which typically replaces only 40% of income) or 'I can always work longer' cause inadequate financial preparation. People also underestimate healthcare costs and overestimate their ability to catch up through bigger contributions later.
+
+### The Decade of Your 50s and Life Circumstances [00:02:04]
+
+The 50s represent a critical decade to reassess retirement strategy, especially as life circumstances change. People often harbor unrealistic expectations about retirement lifestyle versus financial reality, including overlooking sequence of returns risk and the true costs of Medicare. Regular assessment and course corrections early in one's career are far more effective than last-minute adjustments.
+
+### Beyond Financial Planning: The Life Portfolio [00:05:12]
+
+Nick emphasizes that retirement satisfaction depends on balanced planning across financial, health, relationship, and purpose dimensions. Many retirees struggle with loss of identity from work and social isolation. Successfully retired individuals invest equal energy in building social connections, identifying meaningful purpose, and maintaining health to avoid becoming 'wealthy but unhappy.'
+
+### Case Study: Tom and Jenny's Transformation [00:08:21]
+
+Tom and Jenny, despite having $1.2 million in retirement savings, faced regret risk because they focused exclusively on wealth accumulation while neglecting relationships, health, and purpose. After implementing a life portfolio plan with goals for social connections, health optimization, and hobby exploration alongside financial goals, they shifted from retirement anxiety to confident anticipation, improved their marriage, and even lost weight due to reduced stress.
+
+### Implementing Life Portfolio Planning and Testing Retirement [00:11:29]
+
+The solution involved creating a one-page plan that tracked life goals alongside financial goals, including new hobbies, social connections, and volunteer opportunities. Tom and Jenny adjusted work schedules to rehearse retirement activities and discovered shared interests like road cycling through a community group. This allowed them to test retirement experiences while maintaining financial security and discover what truly brings fulfillment.
 
 ## Transcript
 

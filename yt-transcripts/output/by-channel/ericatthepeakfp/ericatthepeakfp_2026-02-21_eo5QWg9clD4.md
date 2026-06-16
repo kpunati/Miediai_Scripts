@@ -35,27 +35,54 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Details a four-season withdrawal strategy for retirees with significant pre-tax accounts (IRAs/401ks), optimizing for ACA subsidies, Medicare penalties, and required minimum distributions to potentially save over 200K in taxes versus conventional approaches."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-withdrawals", "tax-optimization", "aca-subsidies", "rmd-planning", "medicare-premiums", "pre-tax-accounts"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, financial advisor"
+    - name: "Mike"
+      role: "fictional example retiree"
+    - name: "Laura"
+      role: "fictional example retiree"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Traditional IRA", "401(k)", "Roth IRA"]
+  concepts: ["modified adjusted gross income", "ACA subsidy cliff", "IRMA penalties", "required minimum distributions", "Roth conversions", "Cobra coverage"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "ACA subsidy threshold for married couples is 400% federal poverty level, approximately 84,600 in modified adjusted gross income"
+    timestamp: "00:08:59"
+    confidence: "high"
+    flagged: true
+  - claim: "Going one dollar over ACA subsidy cliff eliminates all subsidies, potentially costing 15 to 20K per year in health insurance premiums"
+    timestamp: "00:08:59"
+    confidence: "medium"
+    flagged: true
+  - claim: "Medicare IRMA penalty threshold for married couples is 218K in modified adjusted gross income"
+    timestamp: "00:14:07"
+    confidence: "high"
+    flagged: true
+  - claim: "Strategic Mike and Laura scenario results in over 200K additional after-tax wealth compared to wing-it approach over a 25-year retirement"
+    timestamp: "00:03:19"
+    confidence: "medium"
+    flagged: true
+  - claim: "Strategic approach moves over 700K from pre-tax to Roth accounts before RMDs begin at age 73"
+    timestamp: "00:17:26"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -65,6 +92,44 @@ notes: ""
 **Published:** 2026-02-21
 **URL:** https://youtube.com/watch?v=eo5QWg9clD4
 **Duration:** 20:33
+
+## Summary
+
+This video presents a strategic four-season withdrawal framework for retirees with 80% or more assets in pre-tax accounts. Each season has distinct tax rules and opportunities: Cobra years for aggressive conversions, ACA years for staying below subsidy cliffs, Medicare years for micro-conversions below IRMA thresholds, and RMD years where strategic planning dramatically reduces required withdrawals. The example couple increases after-tax wealth by over 200K through proper sequencing versus conventional withdrawal approaches.
+
+## Key Takeaways
+
+- The order, timing, and source of retirement withdrawals create massive tax and subsidy implications beyond simple tax-bracket analysis, potentially costing or saving 200K+ over a 25-year retirement.
+- Season one (Cobra period) offers the best opportunity for aggressive Roth conversions without ACA subsidy or Medicare penalty consequences.
+- Season two (ACA years before Medicare) requires staying below the 84,600 MAGI threshold to preserve 15-20K annual subsidy, often making Roth conversions uneconomical despite low tax brackets.
+- Season three (Medicare years) provides room for micro-conversions up to the 218K IRMA threshold, allowing significant pre-tax to Roth movement before RMDs begin.
+- Season four (RMD years) shows dramatic differences in forced withdrawals: strategic couples face ~41K RMDs versus wing-it couples facing ~66K, creating compounding tax disadvantages.
+
+## Detailed Notes
+
+### The Hidden Cliff Problem in Retirement Withdrawals [00:00:00]
+
+Withdrawal decisions affect not just income tax brackets but health insurance subsidies and Medicare premiums. A 125K withdrawal might cost 11K in federal taxes, but crossing subsidy cliffs costs an additional 15-20K in lost ACA support, creating a triple whammy of taxes, lost subsidies, and penalties.
+
+### Season One: Cobra Window for Conversion Opportunities [00:04:40]
+
+During 18-month Cobra continuation, retirees face no ACA subsidy cliffs or Medicare penalties. Mike and Laura can take 125K for living expenses, use the 30K surplus to fund Roth conversions of approximately 70K at 22% rates, all while preserving their taxable account for future seasons.
+
+### Season Two: The ACA Subsidy Cliff at 84,600 MAGI [00:08:59]
+
+Once on private marketplace insurance, married couples face a hard cliff at exactly 84,600 MAGI. Crossing it by one dollar eliminates all subsidies worth 15-20K annually. Mike and Laura should withdraw only 75K from pre-tax accounts and 50K from taxable to stay safely below the cliff, avoiding expensive marketplace premiums.
+
+### Season Three: Medicare and Micro-Conversions [00:14:07]
+
+After Medicare eligibility, the IRMA penalty threshold at 218K MAGI provides more room. With Social Security covering 92.4K of their 125K spending need, Mike and Laura can convert 87-100K annually to Roth while staying under the 218K threshold, moving 700K from pre-tax to Roth over seven years.
+
+### Season Four: RMD Consequences and Account Composition Impact [00:17:26]
+
+At age 73, strategic Mike and Laura face 41K RMDs with 1.8M in tax-free Roth accounts, while wing-it Mike and Laura face 66K RMDs with everything in pre-tax and taxable accounts. Over the RMD period, this creates 112K in additional federal taxes plus state taxes and compounds the effects of higher forced withdrawals.
+
+### Long-term Wealth Gap from Strategic Sequencing [00:20:02]
+
+By 2050, both couples have similar 3M portfolios, but strategic Mike and Laura have 1.8M in tax-free Roth, while wing-it couple has zero. When accounting for taxes owed on pre-tax balances, the after-tax wealth gap exceeds 200K, and this excludes state taxes and compounding benefits beyond 2050.
 
 ## Transcript
 

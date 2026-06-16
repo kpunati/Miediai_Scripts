@@ -49,27 +49,46 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Nick Davis, CFP, presents seven tax strategies for retirees to maximize after-tax wealth: intentional Roth bracket filling, capital gains harvesting, delaying Social Security while drawing IRAs, IRMA management, spousal Roth coordination, inherited IRA compression planning, and tax diversification across account types."
 topics: []
-topics_proposed: []
+topics_proposed: ["roth-conversion", "tax-planning-retirement", "social-security-strategy", "capital-gains-harvesting", "ira-management", "medicare-premiums", "tax-diversification"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP (Certified Financial Planner), Brindle and Bay"
+  companies:
+    - name: "Brindle and Bay"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["Roth conversion", "bracket filling", "capital gains harvesting", "required minimum distributions", "IRMA", "tax diversification", "tax-deferred accounts", "tax-free accounts", "taxable accounts", "inherited IRA", "spousal coordination"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "For single filers, the 0% capital gains bracket applies when taxable income stays roughly below $49,000; for married couples filing jointly, it applies around $98,000."
+    timestamp: "00:05:48"
+    confidence: "high"
+    flagged: true
+  - claim: "Every year you delay Social Security beyond full retirement age, your benefit grows by about 8% per year, or roughly 24 to 32% higher by age 70."
+    timestamp: "00:07:53"
+    confidence: "high"
+    flagged: false
+  - claim: "For individuals, the first IRMA surcharge starts roughly at $109,000 of income; for married couples, it is about double that."
+    timestamp: "00:10:01"
+    confidence: "medium"
+    flagged: true
+  - claim: "Intentional bracket filling strategies can save retirees between $100,000 to $300,000 or more in lifetime taxes compared to waiting and reacting once RMDs begin."
+    timestamp: "00:03:12"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -79,6 +98,50 @@ notes: ""
 **Published:** 2026-01-25
 **URL:** https://youtube.com/watch?v=WoVHxgMqGmY
 **Duration:** 20:53
+
+## Summary
+
+Nick Davis walks through seven practical tax strategies designed to help retirees keep more of their wealth. Rather than focusing on investment returns or market timing, these strategies emphasize controlling the timing and sources of retirement income to minimize tax impact. The strategies work together—from initial Roth conversions during low-income years to managing Social Security timing and coordinating withdrawals to avoid Medicare surcharges.
+
+## Key Takeaways
+
+- Intentional Roth bracket filling means converting just enough from traditional IRAs to Roth IRAs to fill your current tax bracket without spilling into the next one—often the 12% or 22% bracket.
+- Capital gains harvesting allows you to sell appreciated investments during low-income retirement years and lock in gains at 0% tax rates, permanently lowering your tax burden.
+- Delaying Social Security while drawing down IRAs sequences income optimally: you shrink pre-tax balances before RMDs kick in, reduce future tax liability, and let benefits grow 8% annually.
+- IRMA management keeps income below Medicare surcharge thresholds (roughly $109,000 for individuals, $218,000 for couples), potentially saving thousands per year in premium increases.
+- Spousal Roth coordination prioritizes conversions from whichever spouse holds the larger pre-tax balance, reducing future RMDs for the surviving spouse and preventing tax-bracket shock.
+- Inherited IRA compression means converting portions of your IRA to Roth during your lower-tax retirement years to spare beneficiaries from inheriting large tax bombs.
+- Tax diversification spreads retirement income across tax-deferred (401ks, traditional IRAs), taxable, and tax-free (Roth) accounts, giving you flexibility to respond to tax law changes without disrupting lifestyle.
+
+## Detailed Notes
+
+### Intentional Roth Bracket Filling [00:01:05]
+
+Each year, convert just enough from traditional IRA to Roth to fully utilize your current tax bracket without spilling into the next. This works best before Social Security and RMDs begin, when your income is lowest. Properly executed over many years, this strategy can save retirees $100,000 to $300,000 or more in lifetime taxes by locking in lower rates now rather than facing forced withdrawals at higher brackets later.
+
+### Capital Gains Harvesting [00:03:57]
+
+Intentionally sell appreciated investments in taxable accounts during years when your tax rate on those gains is 0% or 15%. By resetting the cost basis at little or no tax cost, you reduce future taxes when the money is spent. Single filers with taxable income below ~$49,000 and married couples below ~$98,000 fall into the 0% bracket and can lock in permanent tax savings rather than deferring taxes.
+
+### Delay Social Security While Drawing Down IRAs [00:07:53]
+
+Instead of claiming Social Security immediately, delay it as long as age 70, growing benefits by ~8% annually. Fund early retirement years from IRAs, which shrinks your pre-tax balance before RMDs begin, reducing forced income and future taxes. This coordination between income sources yields higher lifetime income and lower lifetime taxes.
+
+### IRMA Management (Medicare Surcharges) [00:10:01]
+
+IRMA stands for Income-Related Monthly Adjustment Amount—a Medicare premium surcharge triggered at ~$109,000 income (individuals) or ~$218,000 (couples). Each threshold crossed adds $1,000 to $3,000 annually per person. By carefully coordinating withdrawals and conversions, retirees can stay below these cliff thresholds and save thousands each year without lifestyle changes.
+
+### Spousal Roth Coordination [00:12:47]
+
+When one spouse has significantly more pre-tax savings than the other, prioritize Roth conversions from the larger account. This shrinks the balance that will create the biggest forced-income problem later. When a spouse dies, filing status shifts from joint (wider brackets) to single (narrower brackets), so reducing pre-tax concentrations while both are alive prevents the survivor from being pushed into higher brackets.
+
+### Inherited IRA Compression Planning [00:15:23]
+
+Non-spouse beneficiaries must empty an inherited IRA within 10 years, often during their peak earning years, causing inherited distributions to land on top of work income at high marginal rates (32–37%). By converting portions of your IRA to Roth now at lower rates (22–24%), you reduce the tax burden your heirs face and give them more flexibility in managing inherited funds.
+
+### Tax Diversification Across Account Types [00:17:29]
+
+Build retirement income across three buckets: tax-deferred (401ks, traditional IRAs), taxable, and tax-free (Roth accounts). This diversification prevents concentration risk if tax laws change. With multiple sources, you can adjust withdrawals, manage brackets, and respond to legal changes without disrupting your lifestyle, gaining flexibility that single-bucket retirees lack.
 
 ## Transcript
 

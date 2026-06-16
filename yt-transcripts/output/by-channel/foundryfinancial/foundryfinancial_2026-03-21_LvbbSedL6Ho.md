@@ -62,27 +62,52 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Comprehensive explanation of how Social Security benefits are calculated through a six-step process involving income indexing, highest 35 earning years, and bend point formula. Presents five actionable strategies to increase benefits: delaying claims, working at least 35 years, increasing earnings, coordinating spousal benefits, and verifying earnings records for errors. Emphasizes Social Security as inflation-protected guaranteed income critical for retirement planning."
 topics: []
-topics_proposed: []
+topics_proposed: ["social-security", "retirement-income", "benefit-optimization", "claiming-strategy", "spousal-benefits"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Kevin Lum"
+      role: "CFP, financial planner"
+  companies:
+    - name: "Foundry Financial"
+      ticker: null
+    - name: "Social Security Administration"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["RightCapital"]
+  concepts: ["social security calculation", "bend point formula", "averaged indexed monthly earnings", "primary insurance amount", "cost of living adjustment", "spousal benefit", "survivor benefit"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "In 2026, the Social Security income cap is $184,500; in 2025 it was $176,000"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Claiming at 62 (earliest) results in approximately 30% permanent reduction in benefits; delaying to 70 increases benefit by 8% annually"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Social Security uses highest 35 earning years; earnings before age 60 are indexed for inflation, earnings at 60+ are not"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Spousal benefit is up to 50% of the higher-earning spouse's primary insurance amount if claimed at full retirement age"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "The Social Security Administration acknowledges billions of dollars in wages have been reported but not properly matched to individuals' earning records"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -92,6 +117,49 @@ notes: ""
 **Published:** 2026-03-21
 **URL:** https://youtube.com/watch?v=LvbbSedL6Ho
 **Duration:** 25:42
+
+## Summary
+
+Kevin Lum, CFP, provides an in-depth educational video on Social Security benefit calculation and optimization. The video first explains the mechanics of how benefits are calculated—a complex six-step process involving income caps, historical indexing, selection of highest 35 earning years, and application of a progressive bend-point formula. The second half presents five practical strategies to increase benefits: delaying claims until 70, maintaining at least 35 years of earnings, increasing income during working years, coordinating with spouse, and correcting earnings record errors.
+
+## Key Takeaways
+
+- Social Security benefits are calculated using only indexed earnings from your highest 35 working years; gaps in earnings or low-earning years significantly reduce total benefits.
+- Delaying benefits from age 62 to 70 results in approximately 62% higher monthly payments and creates inflation-protected lifetime income, making it valuable for healthy individuals.
+- The progressive bend-point formula intentionally replaces higher percentages of lower earners' income (90%) compared to higher earners (15%), reflecting Social Security's safety-net design.
+- Spousal and survivor benefits can provide substantial household income during retirement and often create value through strategic claiming coordination with a spouse.
+- Errors in the Social Security Administration's records can cost thousands in lifetime benefits, making it essential to verify your earnings history against tax records.
+- Social Security decisions should never be made in isolation; married couples must coordinate strategies to maximize household lifetime benefits rather than optimize individual benefits.
+
+## Detailed Notes
+
+### Six-Step Social Security Calculation Process [00:00:00]
+
+Step 1: Document earnings subject to FICA cap ($184,500 in 2026). Step 2: Adjust earnings for inflation using National Average Wage Index up to age 60; earnings at 60+ counted at actual dollar amounts. Step 3: Select highest 35 indexed earning years (zeros fill gaps if worked fewer than 35 years). Step 4: Calculate averaged indexed monthly earnings (AIME) by dividing 35-year sum by 420.
+
+### Bend Point Formula and Primary Insurance Amount [00:00:00]
+
+Step 5: Apply progressive formula using bend points. In 2025: first bend point at $1,226 (90% replacement); second at $7,391 (32% replacement). Example with $5,000 AIME: ($1,226 × 90%) + ($3,774 × 32%) = approximately $2,300 monthly PIA at full retirement age (67).
+
+### Claiming Timing and Cost of Living Adjustments [00:00:00]
+
+Step 6: Claiming age permanently adjusts benefit. Claiming at 62 reduces by ~30%; claiming after FRA increases by ~8% annually until age 70 (no increase beyond 70). Annual cost-of-living adjustments (COLA) apply to all benefits, providing inflation protection regardless of claiming age.
+
+### Strategy 1: Delaying Benefits [00:00:00]
+
+Delaying is the most powerful lever available. Example: $2,500 benefit at FRA becomes $1,750 at 62 but $3,100 at 70—a $1,400/month difference. Benefits are inflation-adjusted annually, making delayed benefits especially valuable given built-in inflation protection and enhanced survivor benefits.
+
+### Strategy 2: Maintain 35+ Years of Earnings [00:00:00]
+
+Working fewer than 35 years includes zeros in the calculation, dragging down average earnings. Each additional working year can replace a lower-earning year with current higher earnings, increasing benefit. Spousal benefits (50% of higher earner's PIA) may provide more value than working longer in some cases.
+
+### Strategy 3: Increase Earnings and Strategy 4: Spousal Coordination [00:00:00]
+
+Higher lifetime earnings increase AIME, but earnings above the annual cap ($184,500 in 2026) don't improve benefits. Spousal coordination involves the higher earner delaying to maximize household income and survivor benefits while the lower earner claims earlier to bring in household cash flow during the delay period.
+
+### Strategy 5: Check Earnings Records and Final Guidance [00:00:00]
+
+The Social Security Administration acknowledges billions in mismatched wages. Comparing earnings records to W-2s and tax returns can identify and correct errors costing thousands. Final guidance emphasizes that Social Security is part of larger retirement plan; all strategies require integrated analysis with taxes, investments, health, spouse situation, and overall goals.
 
 ## Transcript
 

@@ -64,27 +64,50 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Case study showing how a couple with $4 million portfolio can retire before age 65. Analyzes cash flow needs, withdrawal rates, and retirement timing flexibility. Demonstrates that achieving retirement targets does not require hitting a magic number but rather designing life goals and understanding income-expense dynamics to create financial intentionality."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "case-study", "withdrawal-strategy", "early-retirement", "portfolio-analysis"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "CFP, founder Root Financial"
+    - name: "Tommy"
+      role: "tech industry professional"
+    - name: "Monica"
+      role: "attorney"
+  companies:
+    - name: "Root Financial Partners"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["withdrawal-rate", "sequence-of-return-risk", "probability-of-success", "social-security-strategy", "cash-flow-planning"]
+content_type: "case-study"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Tommy and Monica with $4 million portfolio face $400,000 first-year retirement withdrawals before Social Security begins"
+    timestamp: "00:09:08"
+    confidence: "high"
+    flagged: true
+  - claim: "Portfolio is expected to grow from $4 million to approximately $5.4 million by retirement age 65 under average return assumptions"
+    timestamp: "00:10:25"
+    confidence: "medium"
+    flagged: true
+  - claim: "Social Security benefits for Tommy at 70 will be 24% higher than at full retirement age 67 due to delayed retirement credits"
+    timestamp: "00:03:57"
+    confidence: "high"
+    flagged: true
+  - claim: "Cutting expenses by $1,000 per month in retirement can materially improve plan success probability"
+    timestamp: "00:14:19"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -94,6 +117,41 @@ notes: ""
 **Published:** 2025-05-24
 **URL:** https://youtube.com/watch?v=rHJrM8ixAIM
 **Duration:** 18:12
+
+## Summary
+
+James Conole walks through a detailed retirement planning case study for a couple (Tommy and Monica) in their early 60s with a $4 million portfolio. Rather than just determining if they're 'on track,' the analysis shows how to design the retirement they actually want. The couple initially thought they needed to work until 65, but the plan reveals they could retire sooner if desired. The analysis demonstrates cash flow modeling, withdrawal rates, probability of success analysis, and trade-offs between working longer and spending more.
+
+## Key Takeaways
+
+- Retirement success requires modeling detailed cash flows, not just comparing portfolio size to a retirement number.
+- Understanding exactly what your portfolio needs to support (after-tax monthly expenses, travel, home improvements, vehicle purchases) creates financial intentionality.
+- Withdrawal rates vary dramatically by year; early retirement years have high pressure on portfolio, but rates drop significantly once Social Security begins.
+- Even with 80% probability of success, failure scenarios include strong social security income and substantial home equity, reducing true financial risk.
+- Flexibility exists: retiring at 62 instead of 65 is achievable, knowing you could work longer if desired provides psychological relief.
+- Modest expense reductions ($1,000/month) can meaningfully improve success probability without major lifestyle sacrifice.
+
+## Detailed Notes
+
+### Case Study Setup: Tommy and Monica's Goals [00:01:39]
+
+Tommy (61, tech) earns $182,000/year; Monica (62, attorney) earns $215,000/year. Combined portfolio of $4 million with property worth $925,000. Goals: retire by 65, spend $12,000/month after-tax, travel $40,000/year first 10 years, maintain home at $20,000/year, purchase vehicles at $60,000 every 5 years.
+
+### Income Sources and Delayed Social Security Strategy [00:03:12]
+
+Tommy's Social Security at 67 is $4,000/month but grows 24% by waiting until 70. Monica's benefit at 67 is $3,900/month, with 8% annual increases for three more years. Planning assumes delay to age 70 for both, creating strong future income but requiring portfolio support during gap years.
+
+### Cash Flow Modeling and Withdrawal Rates [00:06:02]
+
+First full retirement year shows $400,000 total outflows (living expenses $162,000 + housing + travel + improvements + vehicle). With zero income and full portfolio withdrawal, the withdrawal rate is ~7%. Rates decrease as Social Security kicks in, falling below 3% when both claim at 70.
+
+### Portfolio Growth Projection and Probability Analysis [00:10:25]
+
+Current $4 million portfolio projected to grow to $5.4 million by age 65 under average return assumptions (not guaranteed). Analysis shows 80% probability of success under baseline plan, meaning 20% probability of portfolio depletion. However, even in failure scenarios, substantial safety nets exist.
+
+### Retirement Flexibility and Trade-offs [00:13:40]
+
+Plan shows retiring at 62 (Monica) and same age (Tommy) is possible but reduces success probability. Working until 65 as planned, couple could increase travel spending to $60,000/year (+$20,000) with minimal plan impact. The analysis demonstrates control over retirement timing and lifestyle spending.
 
 ## Transcript
 

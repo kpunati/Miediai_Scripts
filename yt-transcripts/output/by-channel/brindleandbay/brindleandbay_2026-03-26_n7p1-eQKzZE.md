@@ -49,27 +49,50 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Nick Davis outlines a systematic 18-month pre-retirement preparation strategy prioritizing account structure and tax efficiency over portfolio balance. He guides through building income maps, redirecting contributions to Roth accounts, tax-loss harvesting, Social Security timing analysis, healthcare cost planning (ACA/Medicare gap years), and portfolio asset location optimization."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning-process", "tax-optimization", "account-structuring", "healthcare-planning", "roth-conversion", "required-minimum-distributions"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP®"
+  companies:
+    - name: "Brindle and Bay"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Roth 401k", "Traditional IRA", "Roth IRA", "401k", "ACA marketplace insurance", "Medicare", "ETF", "Index funds"]
+  concepts: ["income map", "required minimum distribution", "tax loss harvesting", "Roth conversion strategy", "asset location", "sequence of returns risk", "modified adjusted gross income", "Medicare premium surcharge", "IRMAA", "ACA subsidy", "concentrated positions", "tax-efficient investments", "tax-free growth"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "RMD thresholds changed; required minimum distributions begin at age 73 or 75 (if born 1960+)"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Marketplace insurance for couples in their 60s costs $1,500-$2,500 per month at full price"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "ACA subsidies tightened significantly in 2026 compared to previous years"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Social Security benefit grows roughly 8% per year from full retirement age to age 70"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Over 18 months, Roth 401k catch-up contributions (after age 50) can add $40,000 to tax-free account"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -79,6 +102,58 @@ notes: ""
 **Published:** 2026-03-26
 **URL:** https://youtube.com/watch?v=n7p1-eQKzZE
 **Duration:** 20:02
+
+## Summary
+
+Nick Davis presents a comprehensive 18-month pre-retirement preparation roadmap for CFP clients. The strategy shifts focus from portfolio balance to account structure and tax positioning. Davis walks through seven key steps: building an income map (projecting all income sources), calculating required minimum distributions at age 73/75, positioning accounts (Roth conversion, tax-loss harvesting), timing Social Security decisions, planning healthcare bridge years (ACA subsidies if retiring before 65), and optimizing portfolio asset location. The thesis: two people with identical savings can have vastly different retirement outcomes based purely on structural decisions made in the 18 months before retirement.
+
+## Key Takeaways
+
+- Portfolio structure determines after-tax spending more than absolute asset balance; identical assets in different account types create different retirement outcomes.
+- Income map—projecting RMDs at age 73/75 layered with Social Security and portfolio withdrawals—is the foundational planning tool that all other 18-month decisions build upon.
+- Redirecting final 18 months of contributions from traditional 401k to Roth 401k (available after age 50) can build $40,000+ tax-free cushion with minimal effort (15 minutes in HR portal).
+- RMD is the single most important number in retirement tax planning; it forces taxable income whether needed or not and should be projected 18+ months early.
+- Social Security timing affects Roth conversion strategy, withdrawal sequencing, and tax brackets for 30 years; delaying 8% annually may not produce better after-tax outcome due to RMD stacking.
+- Pre-65 retirees must model healthcare gap years with ACA subsidy eligibility; modified adjusted gross income management determines whether healthcare costs $1,500-2,500/month or significantly less.
+- Asset location (traditional for ordinary-income investments, Roth for highest growth, taxable for tax-efficient index funds) can save thousands annually over long retirement.
+
+## Detailed Notes
+
+### Foundation: Building the Income Map [00:00:00]
+
+Start by projecting all retirement income sources: Social Security (amount and claiming age), pension income, dividends/interest from taxable accounts, and withdrawal capacity from each account type (traditional IRA, Roth, taxable). Calculate what each withdrawal does to the tax picture. Two people with $1.8 million have completely different outcomes if one has $1.8M in 401k (all taxable withdrawals) versus split across traditional, Roth, and taxable. Income map stops the question 'is this enough?' and starts 'does this structure give me flexibility?'
+
+### Calculating Required Minimum Distributions [00:00:00]
+
+Project traditional IRA/401k balance forward at reasonable growth rate to calculate RMD at age 73 (or 75 if born 1960+). This forced income is 'the single most important number in entire retirement tax picture'—it comes out whether needed or not. Layer RMD with Social Security at different claiming ages to see combined income impact. Many retirees find RMD+SS alone pushes them into higher brackets or triggers Medicare premium surcharges before touching portfolio. Understanding this projection 18+ months early informs all downstream decisions.
+
+### Leveraging Final Working Years: Contribution Redirection [00:00:00]
+
+If income map reveals traditional IRA/401k creates RMD problems at 73, redirect final 18 months of contributions to Roth 401k (if employer offers). Same contribution limits, same dollars, but Roth contributions create no RMDs and no Social Security taxation exposure. With catch-up contributions after age 50, over 18 months can add approximately $40,000 to tax-free account serving next 30 years. Described as 'probably the highest impact 15 minutes of your entire financial life' (switching in HR portal).
+
+### Tax Positioning: Loss Harvesting and Diversification [00:00:00]
+
+Review taxable brokerage accounts for tax-loss harvesting opportunities (positions at loss to offset future gains). Assess holdings for retirement withdrawal phase efficiency (avoid unnecessary ongoing income). If holding concentrated positions or company stock, sell before retirement when control over annual taxable income is greatest. Delaying concentration liquidation to year-one of retirement (when also managing withdrawals, ACA, IRMAA) creates unnecessary complexity. Better to diversify while earning income.
+
+### Sequence of Returns Risk Management [00:00:00]
+
+Implement actual framework (not vague plan) for responding to market downturns before retiring. Early retirement years have most damage potential from bad sequence. Having concrete strategy before leaving work avoids reactive decision-making during market stress. This framework should address how to rebalance, when to draw from bonds versus equities, and adjustments if portfolio declines early.
+
+### Social Security Timing Coordination [00:00:00]
+
+Estimate Social Security claiming decision 18+ months early so other strategies build around it. Claiming decision affects Roth conversion strategy, withdrawal order, and tax picture for 30 years. Delaying grows benefit roughly 8% annually, but larger benefit also creates income stacking when combined with RMDs. Net after-tax lifetime benefit isn't always better than claiming earlier. Analyze at multiple ages using income map to see which produces best after-tax outcome. Estimate early to avoid isolated last-minute decisions that conflict with other planning.
+
+### Healthcare Bridge: Pre-Medicare Gap Years [00:00:00]
+
+For retiring before 65, marketplace insurance costs $1,500-$2,500/month per couple at full price. ACA subsidies tightened in 2026 compared to previous years. Subsidy eligibility depends on modified adjusted gross income. Too much traditional IRA withdrawal during gap years eliminates subsidy eligibility. Roth distributions don't count toward MAGI; taxable account returns up to cost basis don't count. Roth conversions compete with subsidy eligibility for bracket space. Model gap years accurately to determine optimal withdrawal strategy (conversions vs. subsidy preservation). Proper planning can mean significant subsidy savings versus full-price insurance.
+
+### Portfolio Asset Location Optimization [00:00:00]
+
+Asset location places investments by account type to minimize tax drag: (1) Traditional accounts hold ordinary-income investments (bonds, high-dividend stocks) since all withdrawals taxed as ordinary income anyway; (2) Roth holds highest-growth investments (growth stocks, emerging markets) to maximize tax-free compounding; (3) Taxable accounts hold tax-efficient index funds, ETFs, quality dividend growers where investor controls timing of gains and qualified dividends receive favorable treatment. This structure—not aggressive vs. conservative debate—is the real efficiency question 18 months before retirement. Proper asset location can save thousands per year over long retirement.
+
+### Integration: Building the Complete 18-Month Plan [00:00:00]
+
+Step 1: Build income map (all sources, RMD calculated, Social Security stacked, IRMAA identified). Step 2: Position accounts (Roth contribution redirection, tax-loss harvesting, concentration reduction). Step 3: Lock Social Security timing. Step 4: Build healthcare bridge strategy. Step 5: Structure portfolio for income visibility and asset location. Each step feeds into next; earlier execution = more time for adjustments without rushing. Key takeaway: structure beats balance. Two people with identical assets have different outcomes based on preparation timing. Whether 18 months or 5 years out, starting now maximizes planning runway.
 
 ## Transcript
 

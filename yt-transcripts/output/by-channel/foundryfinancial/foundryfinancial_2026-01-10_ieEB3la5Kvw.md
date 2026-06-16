@@ -63,27 +63,64 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Kevin Lum uses a detailed case study of a 60-year-old woman with $2 million in retirement savings to demonstrate retirement readiness analysis. Through Right Capital financial planning software, he shows how to model retirement viability by accounting for spending needs, healthcare costs, Social Security timing, tax strategies, and market risk—turning an initial 50% probability of success into 87% through systematic planning adjustments."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "monte-carlo-simulation", "withdrawal-strategy", "social-security", "tax-optimization", "retirement-spending"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Kevin Lum"
+      role: "CFP, founder of Foundry Financial"
+    - name: "Elaine Bennis"
+      role: "case study subject"
+  companies:
+    - name: "Foundry Financial"
+      ticker: null
+    - name: "Right Capital"
+      ticker: null
+    - name: "Boldin"
+      ticker: null
+    - name: "Peterson Publishing"
+      ticker: null
+    - name: "Income Lab"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: [{"name": "Right Capital"}, {"name": "Income Lab"}, {"name": "Boldin"}]
+  concepts: ["monte-carlo-simulation", "probability-of-success", "withdrawal-rate", "roth-conversion", "sequence-of-returns-risk", "retirement-spending-smile", "asset-allocation"]
+content_type: "case-study"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Elaine Bennis is 60 years old, has $2 million in assets, mostly in stocks with 54% stock / 46% bond allocation"
+    timestamp: "00:01:56"
+    confidence: "high"
+    flagged: false
+  - claim: "Elaine will receive approximately $3,500 per month in Social Security at full retirement age"
+    timestamp: "00:01:56"
+    confidence: "high"
+    flagged: true
+  - claim: "Elaine needs $100,000 per year after-tax living expenses (approximately $8,300 per month)"
+    timestamp: "00:02:30"
+    confidence: "high"
+    flagged: true
+  - claim: "ACA healthcare costs for a single filer age 60-65 typically add $6,000 per year in pre-Medicare bridge expenses"
+    timestamp: "00:05:28"
+    confidence: "medium"
+    flagged: true
+  - claim: "National average long-term care costs are approximately $75,000 per year"
+    timestamp: "00:06:32"
+    confidence: "medium"
+    flagged: true
+  - claim: "Adjusting spending projections to a retirement spending smile model improved Elaine's probability of success from 50% to 75%"
+    timestamp: "00:09:01"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -93,6 +130,58 @@ notes: ""
 **Published:** 2026-01-10
 **URL:** https://youtube.com/watch?v=ieEB3la5Kvw
 **Duration:** 16:11
+
+## Summary
+
+Kevin Lum walks through a comprehensive retirement readiness analysis for a 60-year-old woman with $2 million seeking to retire in 2026. Using Right Capital financial planning software, he models spending needs of $100,000 annually (net of taxes and healthcare), accounts for a healthcare bridge from age 60-65 before Medicare eligibility, incorporates long-term care risk, and explores optimization levers: adjusting asset allocation (55/45 to 60/40), delaying Social Security to age 70, conducting Roth conversions, and critically, adopting a retirement spending smile model instead of constant inflation. The analysis demonstrates how initial 50% probability of success can improve to 87% through systematic adjustments, and underscores that $2 million's viability depends entirely on articulated spending plans and flexibility.
+
+## Key Takeaways
+
+- The key question is not 'Can I retire on $2 million?' but 'Enough for what?'—spending needs must be clearly defined before assessing retirement readiness.
+- Retirement plans often fail due to undefined spending, not market underperformance; clear baselines ($100,000 annually in this case) are essential.
+- Early retirees (before age 65) must bridge healthcare costs via ACA until Medicare eligibility; gap planning for 5+ years materially impacts success rates.
+- Long-term care risk is frequently omitted but materially significant; modeling 2+ years of $75,000/year care costs reduces probability of success measurably.
+- Delaying Social Security from full retirement age to 70 improves plan sustainability by shifting expense burden from portfolio to guaranteed income, reducing market risk.
+- Roth conversions can improve tax efficiency by repositioning assets while in lower tax brackets pre-Social Security, though married vs. single filer status matters.
+- Retirement spending does not increase linearly with inflation; a spending smile (higher early, declining mid-retirement, rising late for healthcare) is empirically more realistic.
+
+## Detailed Notes
+
+### Case Study Setup: Elaine's Financial Snapshot [00:01:03]
+
+Elaine is a 60-year-old single woman transitioning from publishing in New York to Pennsylvania (lower-tax state). She has $2 million net worth: $200,000 in cash, $1.8 million in investments (90% tax-deferred account, 54% stocks / 46% bonds). She has no pension (Peterson Publishing eliminated it) but will receive ~$3,500/month Social Security at full retirement age (currently unavailable at age 60).
+
+### Defining Spending Baseline [00:02:30]
+
+The critical step is articulating actual retirement spending. Elaine targets $100,000/year net of taxes and healthcare, or ~$8,300/month in living expenses. This baseline drives all subsequent modeling. Plans often fail because spending was never clearly specified, not because markets underperform.
+
+### Initial Monte Carlo Analysis and Gaps [00:03:57]
+
+Right Capital's out-of-box scenario shows 50% probability of success. However, initial modeling omits two material gaps: (1) ACA healthcare bridge from age 60-65 before Medicare (~$500/month additional, $6,000/year), and (2) long-term care risk (2 years at $75,000/year, inflating at 5% medical inflation). Adding these reduces success to 43%.
+
+### Risk Adjustment: Asset Allocation [00:06:32]
+
+Shifting from 55/45 (stock/bond) to 60/40 allocation provides modest improvement in success probability. Conservative portfolio initially held insufficient equity to capture long-term growth. Willingness to take slightly more risk helps close the gap.
+
+### Social Security Timing Strategy [00:07:08]
+
+Delaying Social Security from full retirement age to age 70 increases monthly benefits and shifts expense burden from portfolio to guaranteed income post-70, materially reducing sequence-of-returns risk. This adjustment improved success to 48%.
+
+### Tax Optimization: Roth Conversions [00:07:57]
+
+Conducting Roth conversions up to the top of the 22% tax bracket in early retirement (when income is low) locks in tax-free growth. Strategy is effective pre-Social Security; less valuable for single filers without heirs versus married couples.
+
+### Retirement Spending Smile Model [00:09:01]
+
+Empirical research shows retirement spending follows a 'smile' pattern: elevated early (travel, activities), declining mid-retirement (reduced activity, fewer obligations), spiking late (healthcare, long-term care). This model (vs. constant inflation) jumped success probability from 50% to 75% because it aligns projections with actual spending behavior.
+
+### Flexibility and Final Adjustments [00:10:37]
+
+Reducing target spending from $8,300 to $7,500/month (still $102,000/year when taxes and healthcare included) improved success to 87%. Flexibility in discretionary spending during market downturns is crucial but underutilized; Monte Carlo simulations cannot model behavioral spending cuts, leading to overstated failure risk.
+
+### Software Tools and Backup Planning [00:14:10]
+
+Right Capital and Income Lab are key planning tools. However, even well-structured plans can carry psychological anxiety due to unknown variables (health events, market crashes, inflation surprises). Comprehensive backup plans (e.g., how to reduce spending if markets crash) and contingency frameworks are essential for confidence.
 
 ## Transcript
 

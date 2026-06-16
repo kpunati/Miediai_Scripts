@@ -44,27 +44,64 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Newsmax panel discussion covering Marjorie Taylor Greene's congressional resignation, Trump-Ocasio Cortez meeting dynamics, Chicago public safety issues, border patrol maritime smuggling operations, and vaccine safety debates."
 topics: []
-topics_proposed: []
+topics_proposed: ["political-news", "public-safety", "border-security", "vaccine-policy", "immigration"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Marjorie Taylor Greene"
+      role: "Former US Representative"
+    - name: "Donald Trump"
+      role: "President"
+    - name: "Zoram Mandani"
+      role: "NYC Mayor-elect"
+    - name: "Rebecca Walser"
+      role: "Financial adviser, tax attorney"
+    - name: "Jared Steppman"
+      role: "Columnist, Daily Signal"
+    - name: "Monica Plat"
+      role: "Women's National Republican Club committee woman"
+    - name: "Andrew Craft"
+      role: "Newsmax host/reporter"
+  companies:
+    - name: "Newsmax"
+      ticker: null
+    - name: "AMA (American Medical Association)"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["congressional-resignation", "federal-immigration-policy", "medicare-premiums", "public-health", "border-control", "drug-cartels"]
+content_type: "news"
+audience_level: "advanced"
+key_claims: 
+  - claim: "A career criminal with 72 prior arrests set a commuter on fire on Chicago El train"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "The suspect had been arrested for arson in 2020 with 15 prior convictions"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "17 illegal immigrants were apprehended off San Clemente coast on November 19th by Border Patrol"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Four people died when a smuggling boat capsized off San Diego coast November 14th"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Autism-related Medicaid claims in Minnesota increased from $3 million in 2018 to $399 million in 2023"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -74,6 +111,40 @@ notes: ""
 **Published:** 2025-11-25
 **URL:** https://youtube.com/watch?v=Ab8fE4oUCUY
 **Duration:** 28:56
+
+## Summary
+
+Rebecca Walser joins Newsmax panelists to discuss major political developments and public safety concerns. The episode covers Marjorie Taylor Greene's unexpected congressional resignation, a surprisingly cordial Trump-Mandani meeting at the White House, a tragic assault case in Chicago highlighting public transit safety failures, maritime smuggling operations at the California border, and alleged welfare fraud involving autism Medicaid claims in Minnesota. Panelists debate education policy, vaccine safety concerns, and federal enforcement strategies.
+
+## Key Takeaways
+
+- Marjorie Taylor Greene resigned citing threats and congressional dysfunction, though observers debate whether she may pivot to media or different political roles rather than full exit
+- Trump and NYC Mayor-elect Mandani maintained cordial public meeting despite past criticism, with both agreeing to work together despite policy disagreements
+- Chicago's public safety crisis exemplified by 72-arrest career criminal setting commuter on fire; panelists link to accountability gaps in municipal leadership
+- Border Patrol expanding maritime surveillance with cameras in San Clemente, California, as cartels increasingly use boats to smuggle people and drugs around land barriers
+- Minnesota's autism-related Medicaid claims jumped 130x from $3M (2018) to $399M (2023), prompting federal scrutiny and raising questions about eligibility verification
+
+## Detailed Notes
+
+### Marjorie Taylor Greene Resignation [00:00:00]
+
+Green announced 11-minute resignation video effective January 5th, citing threats and claiming Congress is beholden to money interests rather than citizens. Panelists debate whether she will remain politically active via media, explore Senate/gubernatorial races in Georgia, or potentially switch parties. The White House reportedly did not support her for higher office. Connection drawn between resignation and Epstein files release, though Green's decision still puzzles observers given timing.
+
+### Trump-Mandani White House Meeting [00:00:00]
+
+Despite campaign rhetoric calling Trump a fascist, Mandani and Trump met cordially with no shouting or animosity reported. Both claimed productive discussion on New York City priorities. Mandani maintained position that Trump is fascist but showed pragmatism upon entering office, similar to other socialist-leaning politicians moderating after election. Treasury Secretary Scott Bessent and other high-powered figures attended, underlining significance of relationship for federal-city cooperation.
+
+### Chicago Public Safety Crisis [00:00:00]
+
+Career criminal with 72 arrests, 15 convictions, and prior arson arrest in 2020 set Bethany McGee on fire on El train at 9 p.m. with no intervention from bystanders until doors opened. Panelists emphasize pattern-criminal escalation and link failures to municipal accountability gaps. Walser notes voters repeatedly vote for same politicians while demanding safe public transit, highlighting disconnect between rhetoric and voter expectations.
+
+### Maritime Smuggling and Border Control [00:00:00]
+
+San Clemente city council finalizing lease for Border Patrol camera system on hilltops and piers, marking first Orange County deployment. November incidents include 17 apprehensions off San Clemente and 4 deaths from capsized boat off San Diego. Panelists stress cartels have advanced submarine technology and sophisticated operations; surface-level camera systems appear insufficient against well-funded criminal networks.
+
+### Minnesota Medicaid Fraud Investigation [00:00:00]
+
+Autism-related Medicaid claims surged from $3M (2018) to $399M (2023), a statistically impossible increase attributable solely to immigration. Panelists argue taxpayer funding is being diverted to potential terrorism-linked communities and individuals ineligible for subsidized care. Trump administration investigating; Walser emphasizes need for federal enforcement of eligibility rules to prevent system abuse.
 
 ## Transcript
 

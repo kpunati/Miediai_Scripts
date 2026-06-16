@@ -64,27 +64,52 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Analysis of retirement spending as the most critical retirement planning variable. Reviews Bureau of Labor Statistics data on expense categories including housing, transportation, food, utilities, healthcare, and entertainment. Introduces Monarch Money software for expense tracking and categorizes expenses into essential, discretionary, and lifestyle buckets to support realistic retirement planning."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "budgeting", "expense-tracking", "lifestyle-planning", "retirement-spending"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Kevin Lum"
+      role: "CFP"
+  companies:
+    - name: "Foundry Financial"
+      ticker: null
+    - name: "Monarch Money"
+      ticker: null
+    - name: "US Census Bureau"
+      ticker: null
+    - name: "Bureau of Labor Statistics"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: [{"name": "Monarch Money"}]
+  concepts: ["essential-expenses", "discretionary-spending", "lifestyle-budget", "expense-categories", "retirement-lifestyle"]
+content_type: "educational"
+audience_level: "beginner"
+key_claims: 
+  - claim: "The median retiree household brings in about $54,710 per year according to Census Bureau data"
+    timestamp: "00:01:03"
+    confidence: "high"
+    flagged: true
+  - claim: "Average retirees aged 65+ spend about $119,000 annually on housing, representing 36% of total retirement expenses"
+    timestamp: "00:06:16"
+    confidence: "high"
+    flagged: true
+  - claim: "Healthcare costs average $7,000 per year for retirees, though proper planning should calculate $12,000-$13,000 for couples"
+    timestamp: "00:08:22"
+    confidence: "medium"
+    flagged: true
+  - claim: "Even a small change in spending estimates can transform a successful retirement plan into one that runs out of money"
+    timestamp: "00:01:03"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -94,6 +119,41 @@ notes: ""
 **Published:** 2024-07-13
 **URL:** https://youtube.com/watch?v=xyuTAHmr76c
 **Duration:** 18:15
+
+## Summary
+
+Kevin Lum emphasizes that accurately determining retirement spending needs is the most important—and often overlooked—element of retirement planning. Small estimation errors can derail otherwise solid plans. He walks through major expense categories using Bureau of Labor Statistics benchmarks, explains the shift in spending patterns from working to retired life, introduces a framework for categorizing expenses, and demonstrates how to use Monarch Money for comprehensive expense tracking.
+
+## Key Takeaways
+
+- Determine your current lifestyle cost by tracking expenses for 3-6 months to establish a realistic baseline.
+- Retirement spending differs significantly from working years: some categories increase (travel, leisure) while others disappear (commuting, work expenses).
+- Categorize expenses into three buckets—essential (cannot cut), discretionary (nice to have), and lifestyle (goals and dreams).
+- Housing is the largest expense category for retirees at ~36% of total budget; even mortgage-free homes have property tax, insurance, and maintenance.
+- Healthcare planning should use conservative estimates ($12,000-$13,000 annually for couples) rather than average data.
+- Using expense tracking software like Monarch Money helps identify spending leaks and provides data-driven budget planning.
+
+## Detailed Notes
+
+### Why Spending Estimates Matter More Than Portfolio Size [00:01:03]
+
+A small error in spending assumptions (e.g., $9,000 vs. $11,000 monthly) can transform a successful retirement plan into one with mid-retirement depletion. Lum emphasizes that spending is the foundational variable—before investments, asset allocation, or other strategies, you must know your actual expenses.
+
+### How Retirement Spending Differs from Working Years [00:03:09]
+
+Retirement spending shifts as certain categories increase (travel and leisure with newfound time) while others decrease (transportation, work lunches) or disappear (401k contributions). The net effect varies by person, making individual tracking essential rather than relying on percentage-of-income rules.
+
+### Three-Bucket Expense Framework [00:04:11]
+
+Essential expenses (housing, food, healthcare) cannot be cut; discretionary spending (entertainment, subscriptions) can be reduced in hardship; lifestyle expenses (travel, hobbies, gifts) reflect personal values and retirement dreams. Understanding what portion is fixed helps assess plan resilience.
+
+### Housing, Transportation, and Major Expense Categories [00:06:16]
+
+Bureau of Labor Statistics shows housing as 36% of retiree budgets (~$119,000/year for 65+), transportation ~$7,000/year, food ~$6,500/year, utilities ~$4,000/year. Even for mortgage-free retirees, property tax, insurance, maintenance, and potential renovations create substantial ongoing housing costs.
+
+### Monarch Money for Expense Tracking and Reporting [00:11:29]
+
+Lum demonstrates Monarch Money's multi-aggregator approach that successfully connects to more banks than competitor services. Features include transaction categorization, budget vs. actual reporting, merchant-level spending analysis, and customizable expense grouping into essential/discretionary/lifestyle buckets.
 
 ## Transcript
 

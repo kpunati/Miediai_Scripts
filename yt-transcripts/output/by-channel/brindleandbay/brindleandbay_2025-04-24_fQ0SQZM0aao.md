@@ -45,27 +45,48 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Discussion on whether retirees should maintain stock investments during retirement versus shifting to bonds. Challenges the conventional target-date fund approach, presenting research showing 100% equity portfolios have lower failure rates, higher ending wealth, and better inflation protection than traditional bond-heavy allocations."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-investing", "equity-allocation", "portfolio-allocation", "inflation-protection", "target-date-funds", "risk-management"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Davis"
+      role: "Certified Financial Planner"
+    - name: "Tori Tenhagen"
+      role: "Certified Financial Planner"
+  companies:
+    - name: "Brindle and Bay Financial Advisers"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["target-date funds", "4% withdrawal rule", "guardrail system for retirement"]
+  concepts: ["equity glide path", "life cycle investing", "probability of ruin", "inflation outpacing", "portfolio volatility", "withdrawal strategy"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "100% equity portfolio has 30% more wealth at age 65 compared to target date fund"
+    timestamp: "00:12:37"
+    confidence: "high"
+    flagged: true
+  - claim: "100% equity portfolio has 8.2% probability of failure versus 16.9% for target date fund"
+    timestamp: "00:13:20"
+    confidence: "high"
+    flagged: true
+  - claim: "S&P 500 historically drops by 14% on average every year"
+    timestamp: "00:15:43"
+    confidence: "medium"
+    flagged: false
+  - claim: "Bonds have never historically outpaced inflation"
+    timestamp: "00:07:19"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +96,48 @@ notes: ""
 **Published:** 2025-04-24
 **URL:** https://youtube.com/watch?v=fQ0SQZM0aao
 **Duration:** 24:00
+
+## Summary
+
+This episode examines whether retirees should maintain substantial equity exposure rather than shift to bonds in retirement. The hosts present a 2023 research paper comparing 100% equity portfolios to traditional target-date funds, showing that those with higher equity allocation have 30% more wealth at retirement, significantly lower probability of running out of money (8.2% vs 16.9%), and better inflation protection. They challenge the Wall Street messaging that promotes fear-based conservative allocations and explain that volatility is not the real risk—running out of money is.
+
+## Key Takeaways
+
+- Retirees often misunderstand risk by focusing on short-term market volatility rather than the real risk of running out of money over 20-30 year retirements.
+- Target-date funds that automatically shift to more bonds with age may underperform 100% equity portfolios due to inflation erosion and insufficient long-term growth.
+- Research shows 100% equity portfolios have lower failure rates (8.2% vs 16.9%) and 30% more wealth at retirement compared to traditional lifecycle investing strategies.
+- Retirees need a clear withdrawal strategy (such as the 4% rule or guardrail system) and should keep 3-6 months cash for short-term needs, rather than avoid stocks entirely.
+- Market volatility is a normal feature of equity investing (14% average annual drops are typical) and is necessary to achieve inflation-beating returns over time.
+
+## Detailed Notes
+
+### The Risk Question: Stocks vs Bonds in Retirement [00:00:00]
+
+The episode opens by reframing the retirement investing question from 'should I keep investing' to 'how should I be investing.' The hosts explain that media and Wall Street promote fear-based messaging encouraging older investors to shift away from stocks. They clarify that the real risk isn't volatility but failing to outpace inflation or running out of money in a 20-30 year retirement.
+
+### Problems with Traditional Target-Date Funds [00:02:01]
+
+The conventional rule of 100 (or 110) suggests subtracting your age from 100 to determine stock allocation percentage. This approach has been debunked by credible research. Target-date funds assume you need less growth as you age, but this ignores longevity and inflation risks. The hosts present a 2023 research paper comparing target-date funds to 100% equity portfolios.
+
+### Research Study: 100% Equities vs Target-Date Funds [00:04:41]
+
+The study began with hypothetical 25-year-olds investing 10% of income: one in 100% stocks (50% US, 50% international) and another in a target-date fund until age 65. Using the 4% withdrawal rule and inflation adjustments, results showed three major benefits of 100% equity: 30% more wealth at 65, lower probability of failure (8.2% vs 16.9%), and larger inheritances. This challenges the safety narrative around bonds.
+
+### Understanding Real Risk vs Felt Risk [00:08:23]
+
+The hosts distinguish between 'felt risk' (daily market fluctuations people see on screen) and 'real risk' (insufficient funds 10-20 years into retirement, inflation erosion, poor withdrawal strategy). People fear market swings but don't feel future withdrawal needs. This psychological disconnect drives poor decision-making like panic selling or over-shifting to bonds during downturns.
+
+### Bonds as Diversifiers, Not Core Holdings [00:14:22]
+
+The hosts clarify they're not advocating 100% stocks forever. Bonds serve specific purposes: diversification, managing sequence-of-returns risk, and funding known large upcoming expenses. They recommend keeping 3-6 months cash in FDIC-insured accounts and planning for lump-sum purchases. A clear withdrawal strategy (4% rule, bucket strategy, or guardrail system) is essential for any allocation.
+
+### Market Volatility as a Feature, Not a Bug [00:16:24]
+
+Market dips of 14% are normal and happen on average annually in the S&P 500. Volatility is built into equity returns and is the 'premium' required to outpace inflation and fixed-income returns. The hosts explain that over 100+ years, equity markets have risen despite consistent short-term crises (wars, banking failures, tariff concerns). Planning with this expectation built in helps retirees stay the course.
+
+### Practical Implementation and Timeline Thinking [00:20:43]
+
+Retirees should start with a comprehensive plan addressing current assets, future needs, and goals. A common psychological shift happens as retirement approaches: people think their timeline is shrinking. But retirement timelines are 20-30 years, not short. The key is protecting the first several years of spending and having a strategy for downturns, not abandoning equities. Newly retired clients often obsess over annual returns but shift to peace-of-mind once they see their plan working.
 
 ## Transcript
 

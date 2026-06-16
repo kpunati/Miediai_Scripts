@@ -35,27 +35,54 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Financial planner debunks three major retirement spending myths: that higher early spending reduces retirement success, that 4% rule is mandatory, and that expenses inflate linearly. Proposes distribution rate bands and spending smile patterns as more accurate planning tools."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-spending", "4-percent-rule", "distribution-rate", "spending-patterns", "probability-of-success"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, financial planner"
+    - name: "Michael Kitces"
+      role: "financial planner and researcher"
+  companies:
+    - name: "Peak Financial Planning"
+      ticker: null
+    - name: "Right Capital"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Right Capital", "EveryDollar", "QuickBooks"]
+  concepts: ["retirement-spending", "4-percent-rule", "distribution-rate-bands", "consumption-gap", "retirement-spending-smile"]
+content_type: "educational"
+audience_level: "advanced"
+key_claims: 
+  - claim: "Probability of success tools create malperverse incentive to delay retirement when any score below 90%"
+    timestamp: "00:02:04"
+    confidence: "medium"
+    flagged: false
+  - claim: "Wealthy retirees spend less than their portfolio income, causing assets to increase during retirement"
+    timestamp: "00:08:23"
+    confidence: "medium"
+    flagged: false
+  - claim: "With 3% inflation and 8% returns, retirees wouldn't dip principal until year 17 of 30-year retirement"
+    timestamp: "00:09:26"
+    confidence: "medium"
+    flagged: true
+  - claim: "64-year-old retirees have life expectancy to mid-80s, many never materially dip into principal"
+    timestamp: "00:10:29"
+    confidence: "medium"
+    flagged: false
+  - claim: "With 4% rule, 66% of scenarios finish with double starting wealth"
+    timestamp: "00:11:33"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -65,6 +92,49 @@ notes: ""
 **Published:** 2024-07-13
 **URL:** https://youtube.com/watch?v=sIG-B7JPicA
 **Duration:** 20:20
+
+## Summary
+
+Financial planner Eric Amzalag systematically refutes three widespread retirement spending myths that cause people to retire later or spend less than they could. He demonstrates that probability-of-success tools create perverse incentives discouraging early spending through algorithmic bias. Research by Michael Kitces shows wealthy retirees typically spend below their portfolio income, creating a consumption gap where assets grow rather than deplete. Finally, straight-line inflation spending models fundamentally misrepresent real spending patterns. Amzalag proposes distribution rate band analysis and the retirement spending smile (higher early, dips mid-life, rises again for healthcare) as more realistic approaches.
+
+## Key Takeaways
+
+- Probability-of-success scoring systems punish high early retirement spending regardless of personal circumstances, creating false psychological pressure to delay retirement.
+- Wealthy retirees actually fail to spend their available income; their portfolios often grow in retirement despite withdrawals—the opposite of depletion risk.
+- Using 4% withdrawal rule, 66% of historical scenarios end with double the starting principal; retirees more likely to finish 4x wealthier than dip below principal.
+- Straight-line inflation spending models are universally inaccurate because actual retirement spending is dynamic, declining with housing/transportation payoff, then rising for healthcare.
+- Distribution rate band approach (showing year-by-year rates) reveals spending feasibility patterns hidden from probability-of-success tools.
+- Retirement spending smile pattern (higher early, lower mid-retirement, higher at end for healthcare) better matches actual behavior than linear projections.
+
+## Detailed Notes
+
+### Probability of Success Tool Bias [00:01:02]
+
+Monte Carlo tools (like Right Capital) create gamified scoring system. Reducing $6,000/month to $5,500 spending increases probability score from 74% to 86%. Working 2 years longer also increases score. Problem: score improvement just reflects fewer years needing portfolio support, not actual retirement readiness. Creates malperverse incentive delaying retirement or reducing early-life spending when people feel they 'need' 80%+ score.
+
+### Distribution Rate Band Alternative [00:04:08]
+
+Shows year-by-year portfolio balance and distribution rate as percentage. Retiree might have 7% distribution rate first 10 years (while young, active), dropping below 2% later when income sources (Social Security, pension) kick in or expenses drop (house paid off). Monte Carlo tool wouldn't show this realistic variation—it would just show overall probability score missing the nuanced phases of spending.
+
+### The 4% Rule Myth: Real Data on Actual Retiree Behavior [00:07:19]
+
+Kitces research shows wealthy retirees spend below annual portfolio income, creating consumption gap. Portfolio assets actually increase during retirement despite withdrawals. From 2000-2008 (bad returns period), wealthy retirees' financial assets increased on average. Most retirees dynamically cut spending if seeing problems; running out of money is extremely rare anecdotally though psychologically feared.
+
+### Principal Depletion Reality [00:09:26]
+
+Example: $1 million portfolio, 3% inflation, 8% returns, 30-year retirement. Spending adjusted annually for inflation. Wouldn't dip into principal until year 17. With 4% inflation and 7% return (gloomier scenario), wouldn't dip until year 18. Since 64-year-old typical life expectancy is mid-80s, many retirees pass before materially depleting principal at all.
+
+### 4% Rule Historical Success Rate [00:11:33]
+
+Kitces concludes: 66% of scenarios end with double starting wealth. Retirees more likely to finish 4x wealthier than dip below starting principal at all. Only tiny number of scenarios finish below starting principal. Using 4% rule makes running out of money exceptionally rare despite public fear.
+
+### Straight-Line Inflation Myth and Spending Smile [00:14:40]
+
+Straight-line models show $82,400 year 1 growing to $125,000 year 20 and $160,000 year 30 at 3% CPI inflation. Completely inaccurate: housing/transportation costs decline with paid-off house and retirement from commuting. Food costs decline with fewer dependents. Healthcare rises end-of-life. Retirement spending smile pattern shows spending peaks early (active travel, experiences), dips mid-retirement (health improves, settling down), rises again (healthcare, end-of-life). More realistic than linear inflation model.
+
+### Human Spending Behavior vs. Robotic Models [00:18:53]
+
+Real people spend dynamically when needed rather than following preset formulas. Human spending behavior pattern shows higher early retirement spending (when active), following spending smile thereafter. Total 30-year spending could be $51 million (inflation adjusted), $44.4 million (spending smile), or $48 million (human behavior)—significant differences hidden from probability-of-success scores.
 
 ## Transcript
 

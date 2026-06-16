@@ -43,27 +43,50 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Analysis of real retirement income levels across percentiles using Census Bureau and Motley Fool data. Shows median retiree income is $54,710/year; top 25% earn $85,000-$100,000; top 10% earn $150,000-$200,000; top 5% earn $250,000-$350,000; top 1% earn $500,000+. Demonstrates retirement is more achievable than media stereotypes suggest and emphasizes that financial security comes from planning and clarity, not extreme wealth."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-income", "retirement-benchmarking", "financial-security", "wealth-building", "retirement-planning"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP"
+  companies:
+    - name: "Brindle and Bay"
+      ticker: null
+    - name: "US Census Bureau"
+      ticker: null
+    - name: "Motley Fool"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["retirement-income-tiers", "diversified-income-streams", "tax-efficiency", "estate-planning"]
+content_type: "analysis"
+audience_level: "beginner"
+key_claims: 
+  - claim: "Median retiree household income is about $54,710 per year according to Census Bureau data"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Top 25% of retirees earn between $85,000 and $100,000 annually and represent the 'sweet spot' for comfortable retirement"
+    timestamp: "00:02:08"
+    confidence: "medium"
+    flagged: true
+  - claim: "Top 10% retirees earning $150,000-$200,000 have diversified income streams including Social Security, pensions, dividends, interest, and business/rental income"
+    timestamp: "00:05:53"
+    confidence: "medium"
+    flagged: true
+  - claim: "Top 1% retirees earning $500,000+ often result from successful business sales, decades of consistent investing, and well-structured compound portfolios"
+    timestamp: "00:12:38"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -73,6 +96,41 @@ notes: ""
 **Published:** 2025-11-06
 **URL:** https://youtube.com/watch?v=jg7VnPiD9FM
 **Duration:** 18:12
+
+## Summary
+
+Nick Davis presents a data-driven analysis of retirement income levels across the distribution, challenging common assumptions that retirement requires either extreme wealth or is unattainable for middle-income earners. He breaks down income tiers from the median retiree ($54,710/year) through various percentiles up to the top 1% ($500,000+), showing what each tier can realistically support and how most retirees reached their position through consistent saving and discipline rather than inheritance or windfall gains.
+
+## Key Takeaways
+
+- Median retirees earning $54,710/year often have paid-off mortgages and Medicare coverage, stretching income further than working-year equivalent.
+- Top 25% earning $85,000-$100,000 represents the 'sweet spot'—comfortable, flexible retirement without extravagant spending.
+- Top 10% earning $150,000-$200,000 have financial flexibility and diversified income sources, with enough margin to absorb surprises.
+- Top 5% earning $250,000-$350,000 supports multiple homes and premium experiences, typically built through strategic planning and consistent saving.
+- Top 1% earning $500,000+ lives by preference not necessity, often from business success or decades of invested wealth compounding.
+- Most retirees at each level achieved their position through consistency, avoiding lifestyle creep, and disciplined investing—not inheritance or luck.
+
+## Detailed Notes
+
+### Median Retiree Income and Spending Reality [00:00:00]
+
+Census Bureau data shows median retiree household income of $54,710/year. While this may seem low, average retiree spending is only $60,000/year, bridged with small portfolio withdrawals. Many are sustainable because mortgages are paid, commuting costs eliminated, and Medicare covers significant healthcare costs.
+
+### Top 25%: The Comfort Sweet Spot ($85,000-$100,000) [00:02:08]
+
+This tier enjoys travel, dining out, and spending flexibility without constant money worries. Most got here through consistency—regular saving, debt elimination, and building plans that leverage Social Security, pensions, and small annuities together. Withdrawal rates remain manageable and expenses stay predictable.
+
+### Top 10%: Financial Flexibility ($150,000-$200,000) [00:05:53]
+
+At this level, retirees enjoy more discretionary spending, extended travel, second homes, and financial support for adult children. Income typically comes from multiple sources (Social Security, pensions, dividends, interest, business/rental income), providing stability. Unexpected expenses don't force major lifestyle cuts.
+
+### Top 5%: Luxury Lifestyle ($250,000-$350,000) [00:08:41]
+
+This tier supports multiple residences, first-class travel, and premium experiences. Most are seasoned planners with substantial investment portfolios generating reliable income through dividends, real estate, and business equity. Many also give back through family support and charitable giving.
+
+### Top 1%: Complete Financial Independence ($500,000+) [00:11:34]
+
+People at this level live entirely by preference, not necessity. Often built through successful business sales or decades of consistent investing. Many use tax optimization and estate planning not out of necessity but thoughtfully to preserve freedom and impact for long-term legacy.
 
 ## Transcript
 

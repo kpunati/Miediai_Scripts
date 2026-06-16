@@ -36,27 +36,48 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Explains IRMAA (Medicare Income-Related Monthly Adjustment Amount), a surcharge triggered by income from 2 years prior that can cost $2,300-$14,000+ annually. Details three scenarios causing unexpected IRMAA cliffs and provides tools for managing exposure."
 topics: []
-topics_proposed: []
+topics_proposed: ["medicare-planning", "irmaa-surcharges", "retirement-income", "tax-planning", "healthcare-costs"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, RICP, host"
+  companies:
+    - name: "Peak Financial Planning"
+      ticker: null
+    - name: "Social Security Administration"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: [{"name": "Form SSA-44"}]
+  concepts: ["IRMAA cliff", "Medicare MAGI", "modified adjusted gross income", "Roth conversion", "retirement payout", "surviving spouse cliff", "qualified charitable distributions", "Medicare Part B", "Medicare Part D"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Medicare Part B costs approximately $203 per month per person in 2026, but IRMAA surcharges can add $2,297 to $14,000 annually depending on income tier"
+    timestamp: "00:01:51"
+    confidence: "high"
+    flagged: true
+  - claim: "IRMAA is based on modified adjusted gross income from 2 years prior, so 2024 income determines 2026 Medicare premiums"
+    timestamp: "00:03:18"
+    confidence: "high"
+    flagged: false
+  - claim: "For married couples, the first IRMAA tier threshold is $218,001, but a single filer threshold is $109,001—exactly half—creating a cliff when a spouse dies"
+    timestamp: "00:10:21"
+    confidence: "high"
+    flagged: true
+  - claim: "A $100,000 Roth conversion to avoid $2,300 first-tier IRMAA surcharge costs $24,000 in taxes (at 24% bracket), exceeding the IRMAA benefit even over 5 years"
+    timestamp: "00:17:52"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -66,6 +87,41 @@ notes: ""
 **Published:** 2026-04-08
 **URL:** https://youtube.com/watch?v=AuLd5nZknT8
 **Duration:** 21:05
+
+## Summary
+
+IRMAA is the hidden cost of Medicare retirement planning that catches hundreds of thousands of retirees unprepared. Unlike tax brackets, IRMAA operates as a cliff—crossing the threshold by $1 triggers a $2,300+ surcharge immediately. The surcharge is based on income from 2 years prior, creating a rearview-mirror problem where retirees don't know they've been hit until they're already on Medicare. Three scenarios commonly trigger IRMAA: retirement payouts in final working year, large Roth conversions, and the 'surviving spouse cliff' when a widow's filing status drops thresholds by 50%. The video provides tools (IRMAA room calculation, Form SSA-44, strategic timing) and cautions that Roth conversion 'cures' often cost more than the IRMAA surcharge itself.
+
+## Key Takeaways
+
+- IRMAA surcharges operate as a cliff, not a bracket—crossing $218,001 MAGI by $1 triggers immediate $2,297+ annual cost for married couples
+- Income from 2 years prior determines current IRMAA, making recent actions (Roth conversions, bonuses, property sales) trigger future costs retirees can't avoid
+- The 'surviving spouse cliff' is the most insidious IRMAA trigger—a widow with $200,000 income faces sudden surcharges despite unchanged financial reality
+- Calculate 'IRMAA room' (gap to next tier) before any income-generating decision to avoid accidental cliff-crossing
+- Form SSA-44 can reduce or eliminate IRMAA surcharges if income drops due to retirement, divorce, or spouse death—a 15-minute form worth thousands in savings
+- Strategic Roth conversions during the 'golden window' (ages 63-64) are valuable only if sized carefully to stay below thresholds
+
+## Detailed Notes
+
+### Medicare Cost Baseline and IRMAA Structure [00:01:51]
+
+Medicare Part B costs approximately $203/month ($2,436/year) per person and is mandatory. Part D (prescription drugs) averages $50/month. Medigap or Medicare Advantage plans add $1,200-$3,500/year per person. Total baseline: $8,400-$13,000 annually for a couple. IRMAA surcharges layer on top, triggered at MAGI thresholds of $218,001 (married) or $109,001 (single). The cliff structure means even $1 over threshold costs $2,297+ in immediate surcharges.
+
+### The Rearview Mirror Problem [00:03:18]
+
+IRMAA uses tax return income from 2 years prior, making it impossible to adjust once triggered. A Roth conversion, large bonus, or property sale in 2024 determines 2026 Medicare costs, hitting retirees when they're already living on reduced income. This two-year lag creates a disconnect between current financial reality and Medicare charges. Retirees don't discover they've triggered IRMAA until bills arrive and options are limited.
+
+### Common IRMAA Trigger Scenarios [00:07:50]
+
+Retirement payout scenario: Final-year salary of $140,000 plus $50,000 severance/vacation payout creates $190,000+ MAGI, triggering IRMAA even though actual retirement income is half that. Roth conversion scenario: $95,000 conversion on $230,000 base income jumps to $325,000, triggering second IRMAA tier at $3,475+ cost. Surviving spouse cliff: A couple at $200,000 income (no IRMAA) faces survivor at $150,000+ as single filer, triggering first tier due to filing status change alone.
+
+### IRMAA Room and Strategic Planning [00:11:53]
+
+Calculate 'IRMAA room'—the gap between projected MAGI and the next tier threshold. Example: $240,000 MAGI with $274,001 threshold = $34,000 room for additional income. Know this before Roth conversions, capital gains harvesting, or IRA distributions. Treat the next tier as a hard ceiling. Miscalculation of room by $1 costs immediately. This requires precision accounting of all income sources: withdrawals, conversions, capital gains, dividends, and even taxable interest from high-yield savings.
+
+### Tools for IRMAA Management [00:13:23]
+
+Form SSA-44 allows retirees to request use of a more recent (lower) income year if they've had a qualifying life event: retirement, divorce, death of spouse, or loss of pension/property income. One-time capital gains and voluntary Roth conversions don't qualify. Most retirees don't know about this form or its high approval rate. Filing it within 60 days of Medicare start can save $5,000+ in surcharges. Additionally, the 'golden window' (ages 63-64) before Medicare offers favorable brackets for sizing conversions below IRMAA thresholds.
 
 ## Transcript
 

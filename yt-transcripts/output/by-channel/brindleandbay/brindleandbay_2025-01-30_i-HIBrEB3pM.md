@@ -44,27 +44,64 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Nick Davis, Connie Davis, and Tori Tenhagen address concerns about Social Security solvency. The trust fund depletes in 2034, but benefits do not disappear—the program is legally mandated. Likely solutions include raising the payroll tax cap, increasing full retirement age to 68, or adjusting COLA. Recent history shows Congress makes incremental reforms protecting near-retirees while affecting future cohorts."
 topics: []
-topics_proposed: []
+topics_proposed: ["social-security", "retirement-income", "entitlement-programs", "government-policy", "retirement-planning"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP"
+    - name: "Connie Davis"
+      role: "co-host"
+    - name: "Tori Tenhagen"
+      role: "CFP"
+    - name: "Trump"
+      role: "political figure"
+  companies:
+    - name: "Brindle and Bay"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["trust fund insolvency", "payroll tax cap", "full retirement age", "COLA adjustment", "means testing", "benefit taxation", "SSDI", "deemed filing"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Social Security trust fund depletes in 2034, but the program cannot go away—it is an entitlement legally requiring Congress to act before insolvency"
+    timestamp: "00:04:11"
+    confidence: "high"
+    flagged: false
+  - claim: "Once trust fund exhausts in 2034, benefit payments could drop to 76-77% of scheduled amounts unless Congress acts, paid only from incoming payroll taxes"
+    timestamp: "00:04:11"
+    confidence: "high"
+    flagged: true
+  - claim: "Demographic shift: Boomers exiting workforce faster than replacements entering; longer lifespans increase payout duration, creating funding mismatch"
+    timestamp: "00:04:11"
+    confidence: "high"
+    flagged: false
+  - claim: "More than 60% of retirees have majority of retirement needs met by Social Security; equivalent to $1.5 million in savings per $60,000 annual household benefit at 4% withdrawal rate"
+    timestamp: "00:02:04"
+    confidence: "medium"
+    flagged: true
+  - claim: "2015 Bipartisan Budget Act closed file-and-suspend and restricted spousal benefit strategies; grandfathered over four-year period (2015-2019)"
+    timestamp: "00:08:26"
+    confidence: "high"
+    flagged: false
+  - claim: "Possible solutions: raise payroll tax cap (currently ~$184,000, Biden proposed $400,000), increase full retirement age from 67 to 68, allow-no-tax-on-benefits (Trump proposal), or means testing"
+    timestamp: "00:12:35"
+    confidence: "high"
+    flagged: true
+  - claim: "Congress first made major Social Security changes in 1983 (raising full retirement age gradually to 67) and 1994 (increasing portion of benefits subject to taxation)"
+    timestamp: "00:07:23"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -74,6 +111,41 @@ notes: ""
 **Published:** 2025-01-30
 **URL:** https://youtube.com/watch?v=i-HIBrEB3pM
 **Duration:** 20:54
+
+## Summary
+
+The Brindle and Bay team dispels fear around Social Security's 2034 trust fund depletion date. Though dramatic headlines abound, the program is legally entrenched—it cannot disappear. Instead, Congress will likely implement incremental changes (raising the payroll tax cap, modestly increasing retirement age, or adjusting COLA formulas) that protect near-retirees while affecting future generations. Historical pattern shows political will to preserve voter populations; likely outcome is negotiated reforms, not program termination.
+
+## Key Takeaways
+
+- Social Security is an entitlement; Congress must maintain the program, though it will change to address demographic shifts
+- Trust fund depletion in 2034 means benefit reductions to 76-77% unless Congress acts, not program elimination
+- More than 60% of retirees depend on Social Security for majority of income; equivalent to $1.5M per couple in savings at standard withdrawal rates
+- Raising payroll tax cap (from ~$184k to $400k) and increasing full retirement age to 68 alone could restore 75-year solvency
+- Congress historically protects near-retirees; most major changes (1983, 1994, 2015) grandfathered existing cohorts over 4-year periods
+- Stress-testing personal plan against reduced Social Security (50% cut scenario) provides peace of mind without inducing paralysis
+
+## Detailed Notes
+
+### Why Social Security Faces Solvency Pressure [00:04:11]
+
+Program structure: workers pay into trust fund; retirees claim from it. In 1980s, temporary dip occurred; 2021 marked resumption of trust-fund drawdown as Boomer exodus and increased lifespans strained inflows. Demographic mismatch: fewer young workers per retiree than 50 years ago.
+
+### 2034 Does Not Mean Program Disappearance [00:04:11]
+
+Once trust fund depletes, incoming payroll taxes ($184k or so contribution cap currently) continue flowing in. That revenue covers approximately 76-77% of scheduled benefits. The remaining gap forces choices (tax rate increase, benefit reduction, contribution cap raise, age adjustment). Congress must act; program doesn't vanish.
+
+### Historical Pattern: Incremental Reforms Protecting Voters [00:07:23]
+
+1935: Program launched. 1950: First benefit increases. 1972: COLA established. 1983: Gradual retirement age increase to 67 (phased 2000-2022). 1994: Began taxing up to 50% of benefits. 2015: Ended file-and-suspend, grandfathered existing retirees 2015-2019. Pattern: politicians protect current/near-retirees while adjusting for future cohorts.
+
+### Likely Solutions and Their Retiree Impact [00:12:35]
+
+Raise payroll tax cap from $184k to $400k (or unlimited): affects high earners only. Increase retirement age 67→68: hardest on manual laborers; low-income likely get exemptions. Means-test benefits: controversial, reduces program perception as earned entitlement. Eliminate taxation of benefits: popular but doesn't solve funding. Raise COLA adjustments: unlikely given inflation.
+
+### Practical Planning Actions for Uncertainty [00:16:46]
+
+Get benefit estimate from ssa.gov; know your number. Stress-test plan: model scenarios with 50% reduced benefits and review plan sustainability. Save aggressively into HSA, Roth, diversified buckets to reduce dependency on single income source. Claiming strategy matters: delaying increases benefit 8% annually until 70, providing inflation buffer even if reduced.
 
 ## Transcript
 

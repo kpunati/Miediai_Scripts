@@ -62,27 +62,52 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Comprehensive guide for workers with pensions, addressing four critical retirement planning considerations: inflation protection, tax planning strategies including Roth conversions, survivor benefit elections, and tailored investment allocations. Emphasizes coordination of pension, Social Security, and portfolio assets."
 topics: []
-topics_proposed: []
+topics_proposed: ["pension-planning", "retirement-income", "tax-strategy", "roth-conversions", "inflation-protection"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Kevin Lum"
+      role: "Certified Financial Planner"
+    - name: "Phil"
+      role: "Example plan client"
+    - name: "Claire"
+      role: "Example plan client"
+  companies:
+    - name: "Foundry Financial"
+      ticker: null
+    - name: "Right Capital"
+      ticker: null
+  tickers: ["TSLA", "NVDA"]
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Roth IRA", "401(k)", "Traditional IRA", "Annuity"]
+  concepts: ["Pension COLA", "Inflation Rider", "Roth Conversion", "RMD", "IRMAA", "Sequence of Return Risk", "Medicare Premiums", "Survivor Benefit", "Tax Bracket", "Social Security"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Less than 20% of American workers have access to traditional pensions"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "At 3% annual inflation, a $50,000 annual pension would only purchase $30,000 worth of goods and services in 20 years"
+    timestamp: "00:01:41"
+    confidence: "medium"
+    flagged: true
+  - claim: "Current highest tax bracket of 37% is at historically low levels compared to historical US tax rates"
+    timestamp: "00:06:04"
+    confidence: "medium"
+    flagged: false
+  - claim: "Approximately 75% of couples should elect survivor benefits depending on financial circumstances"
+    timestamp: "00:12:34"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -92,6 +117,40 @@ notes: ""
 **Published:** 2025-06-22
 **URL:** https://youtube.com/watch?v=aA6UbjONyuw
 **Duration:** 19:08
+
+## Summary
+
+Kevin Lum provides a targeted retirement planning framework for the small percentage of workers who have access to traditional pensions, explaining how standard retirement advice often fails for pension holders. The video outlines four strategic considerations: first, the hidden risk of inflation eroding fixed pension payments without a cost-of-living adjustment rider; second, aggressive tax planning through Roth conversions to control lifetime tax brackets and offset forced RMDs; third, strategic survivor benefit elections that require balancing guaranteed income against market-linked alternative strategies; and fourth, more aggressive investment allocations since pensions provide sequence-of-return risk protection that other retirees lack.
+
+## Key Takeaways
+
+- Pension holders are unique because they already have guaranteed monthly income, which allows for different asset allocation strategies than retirees dependent solely on portfolio withdrawals
+- Without inflation protection riders, pensions lose purchasing power at 3% inflation, cutting a $50,000 annual pension to $30,000 equivalent value over 20 years
+- Current 37% top tax rates are historically low, and pension income plus Social Security and RMDs often push retirees into higher tax brackets than during working years
+- Roth conversions in early retirement can dramatically reduce lifetime taxes by controlling the tax bracket during conversion and growing assets tax-free for life
+- Survivor benefit elections should be modeled against alternative strategies like larger pensions combined with term insurance or investments rather than defaulting to reduced pension amounts
+
+## Detailed Notes
+
+### Pension Inflation Risk [00:01:41]
+
+Most pensions lack cost-of-living adjustment (COLA) riders, creating fixed payment streams that erode with inflation. A $50,000 annual pension without inflation protection loses 40% of purchasing power in 20 years at 3% annual inflation. Simulation data shows inflation 2-3% higher than projections can reduce plan success from 86% to 6%, necessitating strategic portfolio risk to offset purchasing power erosion.
+
+### Tax Bracket Planning for Pension Holders [00:06:04]
+
+Pension income streams combined with Social Security and forced RMDs from traditional IRAs often push retirees into higher tax brackets than during working years. Current 37% maximum rate is historically low; rates may increase significantly over next 20-30 years. Strategic Roth conversions leverage current low tax rates and early-retirement purchasing power to move assets into tax-free buckets before RMDs force larger taxable distributions.
+
+### Roth Conversion Strategy [00:07:06]
+
+Pension holders can delay portfolio withdrawals early in retirement due to guaranteed income, allowing accounts to compound. However, this creates larger RMDs later that push into higher tax brackets. Converting to Roth in lower-bracket early-retirement years at historically low tax rates reduces future RMDs and provides tax-free growth. Must consider Medicare IRMAA surcharges and Social Security taxation implications of conversions.
+
+### Survivor Benefit Election Framework [00:11:00]
+
+Pension survivor benefit elections require cost analysis rather than default acceptance. Giving up $500/month for 30 years ($180,000 opportunity cost) can be better deployed through increased pension take, portfolio growth, annuities, or tax-free Roth inheritance. About 75% of couples benefit from survivor elections, but depends on spouse age gap, existing assets, and whether spouse plan fails without this income.
+
+### Aggressive Asset Allocation Strategy [00:14:15]
+
+Pension income provides sequence-of-return risk protection, allowing more aggressive equity allocation (70-90% stocks) versus traditional 60-40 portfolios. With guaranteed pension income covering living expenses, retirees can weather market downturns without forced selling. Equities provide best inflation protection; increasing portfolio aggression in Phil and Claire's scenario significantly improved probability of success against inflation stress tests.
 
 ## Transcript
 

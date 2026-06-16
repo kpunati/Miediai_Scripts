@@ -65,27 +65,44 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Financial planner James Conole presents nine behavioral and financial habits people should stop doing after age 60 to maximize retirement enjoyment. He emphasizes shifting from accumulation to living, prioritizing health and experiences, caring less about others' expectations, and making intentional decisions to enjoy the present rather than deferring gratification."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-lifestyle", "financial-planning", "retirement-happiness", "behavioral-finance", "health-in-retirement", "life-priorities"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "Certified Financial Planner"
+    - name: "Brene Brown"
+      role: "researcher"
+  companies:
+    - name: "Root Financial Partners"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["compound interest", "portfolio growth", "retirement spending", "time value", "health in retirement", "mortality awareness", "financial planning", "sequence of returns"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "If you invest $10,000 per year at 8% growth from age 23 to 60, you accumulate $2 million"
+    timestamp: "00:01:03"
+    confidence: "medium"
+    flagged: true
+  - claim: "At age 60 with a $2 million portfolio growing at 8%, portfolio growth is $160,000 per year while personal savings contribution is only $10,000"
+    timestamp: "00:01:03"
+    confidence: "medium"
+    flagged: true
+  - claim: "The number one regret of the dying according to researcher Brene Brown is wishing they had the courage to live true to themselves"
+    timestamp: "00:08:22"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -95,6 +112,49 @@ notes: ""
 **Published:** 2025-03-18
 **URL:** https://youtube.com/watch?v=Q22dRJJ8zNk
 **Duration:** 15:31
+
+## Summary
+
+James Conole identifies nine critical shifts for retirees over 60: stopping aggressive saving once the portfolio is sufficient, spending on experiences that align with values rather than obligations, replacing income-generating work with purposeful activity, prioritizing health to ensure quality retirement years, and reframing daily decisions with mortality awareness. The core message is that financial security alone does not create retirement satisfaction; intentional living and present-moment engagement do.
+
+## Key Takeaways
+
+- Once you accumulate sufficient assets by age 60, portfolio growth typically exceeds personal savings contributions, enabling a fundamental shift from saving to spending on meaningful experiences
+- Spending on things that don't align with personal values or are done to impress others does not increase happiness; optimal spending targets family experiences, adventures, and time with loved ones
+- Trading time for money becomes increasingly costly after 60 when time itself becomes the scarce resource; purposeful work is valuable but purely income-focused work should stop
+- Health becomes the primary constraint on retirement quality; a wealthy retiree with poor health enjoys retirement far less than a moderately wealthy retiree with vibrant health and energy
+- Awareness of mortality—recognizing you will not live forever and neither will those you love—creates urgency to prioritize experiences and relationships over financial optimization
+- Constant news consumption driven by concern about world events often reduces happiness without creating positive action; intentional attention allocation improves retirement satisfaction
+
+## Detailed Notes
+
+### The Shift from Saving to Spending [00:00:00]
+
+After decades of saving, retirees over 60 typically have accumulated sufficient assets where portfolio growth exceeds their personal contribution capacity. The mathematical shift occurs when investment returns significantly outpace new savings, making continued aggressive saving suboptimal. The underlying principle is that saving is a means to future consumption, not an end itself; once sufficient capital exists, the focus should move to utilizing it for experiences and relationships.
+
+### Intentional Spending Aligned with Values [00:02:07]
+
+Money spent must genuinely contribute to happiness and fulfillment. Conole shares examples of high-value spending: family trips, attending grandchildren's sporting events, taking aging parents fishing, and acquiring new experiences. Conversely, spending motivated by guilt, obligation, or impression management creates no satisfaction. The principle involves aligning expenditures with authentic personal values rather than external expectations.
+
+### Redefining Work and Time Value [00:03:09]
+
+At 60+, the calculus of work fundamentally shifts. Work should provide purpose, meaningful relationships, structure, or necessary income—not purely financial accumulation. Once these criteria are met, continuing to trade time for money becomes irrational because time cannot be manufactured whereas money can be earned or grown. Retirement quality improves dramatically when work is optional and chosen for intrinsic value rather than compensation.
+
+### Deferring Experiences Creates Lost Opportunities [00:04:12]
+
+Postponing desired experiences until formal retirement often serves as an avoidance mechanism for clarifying actual values and priorities. Conole emphasizes starting experiences now rather than waiting for retirement because health, energy, and loved ones' availability are not guaranteed. The deeper issue is that continuous work can become an excuse for not examining what truly matters, leading to deathbed regrets about unlived portions of life.
+
+### Health as the Primary Determinant of Retirement Quality [00:06:17]
+
+Financial wealth is only valuable if health permits enjoyment of it. Conole presents a stark comparison: $20 million with poor health, low energy, and chronic illness versus $1 million with vibrant health and eager daily engagement. Most people intuitively prefer the latter. Yet behavior often indicates otherwise, as people prioritize financial accumulation over health-supporting activities like walking, swimming, or strength training. Health provides the capacity to actually live; without it, portfolio size becomes irrelevant.
+
+### Mortality Awareness and Intentional Living [00:12:32]
+
+Recognizing life's finite duration motivates present-focused decisions. Conole suggests asking: 'If this were my last day, what would I do, who would I call, what would I say?' While impossible to live at that intensity daily, the reflection clarifies priorities. This awareness prevents endless postponement of meaningful activities and relationships, shifting retirement from a theoretical future state to an embodied present reality where today's choices reflect genuine values.
+
+### News Consumption and Emotional Well-being [00:09:24]
+
+Excessive doom-and-gloom news consumption reduces happiness without generating positive action or change. Conole notes that clients who stop watching news report improved well-being regardless of political viewpoint. The distinction is between staying informed and letting news drive worldview and emotion. In retirement, intentional attention allocation—choosing what to focus on—becomes a powerful lever for satisfaction, allowing retirees to concentrate on life rather than external threats.
 
 ## Transcript
 

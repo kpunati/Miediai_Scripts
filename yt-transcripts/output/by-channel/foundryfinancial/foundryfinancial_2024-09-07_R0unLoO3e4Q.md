@@ -66,27 +66,52 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Financial advisor Kevin Lum explains three critical mistakes people make with Social Security: claiming benefits too early, overlooking tax implications, and ignoring spousal/survivor benefits. He provides real-world examples using financial planning software to demonstrate the long-term financial impact of delaying benefits and optimal claiming strategies for couples."
 topics: []
-topics_proposed: []
+topics_proposed: ["social-security-strategy", "retirement-planning", "social-security-taxes", "delaying-benefits", "spousal-benefits", "financial-planning"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Kevin Lum"
+      role: "Certified Financial Planner"
+    - name: "Phil and Clare Dunfey"
+      role: "example retirement clients"
+  companies:
+    - name: "Foundry Financial"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["RightCapital"]
+  concepts: ["Social Security claiming age", "inflation protection", "guaranteed income", "Roth conversion", "tax-efficient withdrawal strategy", "breakeven analysis"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Delaying Social Security from age 62 to 70 increases benefits by 5-8% per year"
+    timestamp: "00:02:09"
+    confidence: "high"
+    flagged: true
+  - claim: "By delaying and using optimal strategy, Phil and Clare increase probability of success from 65% to higher level and increase projected nest egg"
+    timestamp: "00:04:17"
+    confidence: "medium"
+    flagged: true
+  - claim: "Breaking even on delayed Social Security occurs around age 76-78 for most people"
+    timestamp: "00:06:22"
+    confidence: "medium"
+    flagged: true
+  - claim: "Delaying Social Security and using Roth conversions can reduce lifetime tax burden from $280,000 to $191,000"
+    timestamp: "00:10:34"
+    confidence: "medium"
+    flagged: true
+  - claim: "A surviving spouse can receive 50% of the primary earner's full retirement benefit as a spousal benefit"
+    timestamp: "00:12:41"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -96,6 +121,40 @@ notes: ""
 **Published:** 2024-09-07
 **URL:** https://youtube.com/watch?v=R0unLoO3e4Q
 **Duration:** 15:37
+
+## Summary
+
+Kevin Lum, a Certified Financial Planner, addresses three critical Social Security claiming mistakes that cost retirees significant income. He emphasizes that Social Security is the largest guaranteed income source in retirement and provides unmatched inflation protection. The key mistakes involve claiming too early, ignoring tax consequences of claiming, and overlooking spousal and survivor benefits that can substantially enhance lifetime retirement income.
+
+## Key Takeaways
+
+- Claiming Social Security at age 62 instead of delaying to age 70 can result in $1 million less lifetime income for typical couples due to the 5-8% annual benefit increase for delayed claiming
+- Delaying benefits and strategically withdrawing from savings/retirement accounts can increase retirement success probability and potentially increase the final estate value
+- Social Security benefits may be taxable depending on other income sources; proper tax planning with Roth conversions can reduce lifetime tax liability significantly
+- A surviving spouse receives a survivor benefit equal to the deceased spouse's benefit amount, incentivizing the higher-earning spouse to delay claiming
+- Spousal benefits allow married individuals with lower earnings to claim 50% of the higher-earning spouse's full retirement benefit once the higher earner files
+
+## Detailed Notes
+
+### Social Security's Importance and Characteristics [00:00:00]
+
+Kevin explains that Social Security represents the largest portion of guaranteed income for most retirees and is unique in being pegged to inflation automatically. No other income source provides equivalent inflation protection, making it invaluable in protecting against future purchasing power erosion.
+
+### Mistake #1: Claiming Benefits Too Early [00:02:09]
+
+People often claim at age 62 due to inability to work longer, fear Social Security will disappear, or underestimate longevity. However, the breakeven analysis shows that for most people reaching age 65, delaying benefits to age 70 is financially superior. Phil and Clare's example demonstrates an increase in nest egg and success probability by delaying despite drawing down savings initially.
+
+### Longevity and Breakeven Analysis [00:05:20]
+
+Life expectancy for a 65-year-old is approximately 17 years for males and 20 years for females. The breakeven point for delayed claiming is typically age 76-78, meaning most who reach 65 will statistically benefit from delaying to age 70. The calculation demonstrates $1 million in additional lifetime income for Phil and Claire by delaying.
+
+### Mistake #2: Overlooking Tax Implications [00:08:29]
+
+Social Security income may be taxable depending on other income sources. Large distributions from 401(k) or IRA accounts can trigger taxation of Social Security benefits. Strategic Roth conversions during years before claiming Social Security can reduce lifetime tax liability significantly, as shown in the example reducing taxes from $280,000 to $191,000.
+
+### Mistake #3: Ignoring Spousal and Survivor Benefits [00:11:37]
+
+Married couples can optimize using spousal benefits, where a lower-earning spouse claims 50% of the higher earner's full retirement benefit. Additionally, delaying the higher earner's benefit locks in a larger survivor benefit for the surviving spouse, providing crucial income protection when one spouse passes away.
 
 ## Transcript
 

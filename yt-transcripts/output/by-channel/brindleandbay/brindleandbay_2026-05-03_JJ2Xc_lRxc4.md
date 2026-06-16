@@ -49,27 +49,52 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Nick Davis explains that standard 401k benchmarks (based on average/median balances) are misleading because they measure what most people have, not what they need for retirement control. The actual targets should emphasize account diversification (traditional, Roth, taxable) to minimize tax liability and RMD impact, not just balance size. Includes age-specific targets from 35-63 showing required savings multiples and Roth allocation percentages."
 topics: []
-topics_proposed: []
+topics_proposed: ["401k-benchmarks", "account-diversification", "roth-vs-traditional", "required-minimum-distributions", "retirement-savings-targets", "tax-control-strategy"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, Financial Planner"
+    - name: "Derek Tharp"
+      role: "Researcher (referenced indirectly)"
+  companies:
+    - name: "Brindle and Bay"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["401k", "IRA", "Roth IRA", "Traditional IRA", "Super catch-up provision"]
+  concepts: ["account diversification", "RMD (required minimum distribution)", "IRMAA (income-related monthly adjustment amount)", "tax bracket management", "income replacement", "salary multiple benchmark", "conversion window", "stepped-up basis", "widow tax"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "2026 median 401k balance for 50s: $246,000; for 60s: $187,000; average for 50s: $629,000"
+    timestamp: "00:01:52"
+    confidence: "high"
+    flagged: true
+  - claim: "$5,000 annual Roth contributions from 35-55 at 7% growth becomes $220,000 tax-free vs. $220,000 taxable traditional"
+    timestamp: "00:06:15"
+    confidence: "high"
+    flagged: true
+  - claim: "Traditional Roth split saves $44,000 over 25-year retirement vs. $1,100 upfront deduction on traditional"
+    timestamp: "00:06:15"
+    confidence: "medium"
+    flagged: true
+  - claim: "$1.2M all-traditional produces $44,000 RMDs at 73; diversified mix produces $26,000 RMDs, saving $100,000-$250,000 in lifetime taxes"
+    timestamp: "00:13:03"
+    confidence: "high"
+    flagged: true
+  - claim: "Age 50 with $32,500 annual contributions plus $35,750 super catch-up (60-63) plus 7% returns grows $300k to $1.1M by 63"
+    timestamp: "00:14:07"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -79,6 +104,53 @@ notes: ""
 **Published:** 2026-05-03
 **URL:** https://youtube.com/watch?v=JJ2Xc_lRxc4
 **Duration:** 18:59
+
+## Summary
+
+This video challenges conventional 401k benchmarks by showing that balance alone is misleading without understanding account structure. Nick argues that retirement readiness depends more on the mix of traditional, Roth, and taxable accounts than on hitting an average or salary-multiple target. The same $1.2M portfolio can result in vastly different tax outcomes ($100-250k difference over 25 years) based purely on how it's distributed across account types. Age-specific targets emphasize building proper diversification early and maximizing the super catch-up provisions available in the 50s-early 60s.
+
+## Key Takeaways
+
+- Average and median 401k benchmarks ($246k-629k for 50s) are misleading because they measure what most people have, not what most people need; being above average still leaves people underfunded if structure is wrong.
+- Standard benchmarks (6x salary by 50, 8x by 60) only target 80% income replacement and ignore required minimum distribution impacts and actual early-retirement spending patterns, which often equal or exceed working-year spending.
+- RMDs starting at age 73 force taxable income that stacks with Social Security; a $1.2M all-traditional balance forces $44k RMDs while diversified mix (700k traditional, 300k Roth) forces only $26k RMDs, saving $100-250k over 25 years.
+- Account diversification (traditional/Roth/taxable) should begin in 30s-40s; $5k annual Roth contributions (ages 35-55) becomes $220k tax-free vs. equivalent traditional becoming fully taxable with no RMD optionality.
+- Age 50 is the most powerful savings decade: $32,500 annual contributions plus super catch-up ($35,750 ages 60-63) allows someone with $300k at 50 to reach $1.1M by 63 with proper diversification built-in.
+- Same balance in all-traditional vs. diversified accounts results in different Medicare IRMAA exposure, Social Security taxation, tax bracket placement, and surviving spouse inheritance structure.
+
+## Detailed Notes
+
+### The Benchmark Trap: Average vs. Median vs. Actual Need [00:00:00]
+
+Standard benchmarks measure what most people have (average/median), not what most people need. 2026 data shows median $246k for 50s (average $629k), but these averages are pulled up by aggressive savers while the median person relies almost entirely on Social Security. Being above the median is not the same as being prepared. Additionally, benchmarks only capture 401k balances, ignoring IRAs, Roth IRAs, and rollover accounts, providing an incomplete retirement picture.
+
+### Limitations of Salary-Multiple Benchmarks [00:03:28]
+
+Salary multiples (6x by 50, 8x by 60) target only 80% income replacement and assume three often-incorrect things: Social Security fills a large gap, spending declines 20% in retirement, tax rates on withdrawals match working years. These benchmarks ignore that first retirement decade spending often equals or exceeds working-year spending, and completely overlook RMD impacts at 73. A $1.2M traditional balance forces $44k taxable RMDs, changing tax brackets, IRMAA exposure, and Social Security taxation—factors benchmarks don't address.
+
+### Account Diversification: The Real Determinant of Tax Control [00:04:17]
+
+Real retirement readiness targets are higher than benchmarks because they're built for tax control, not just income replacement. By 35: 3x salary with 10% minimum in Roth. By 45: 5-6x salary with 15-20% Roth. By 55: 8-10x salary with $150k+ Roth and taxable assets. The mix of account types determines flexibility at 65; all-traditional creates a 'single account retirement' with zero flexibility where every dollar becomes taxable income.
+
+### Roth vs. Traditional Trade-Off Over Time [00:06:15]
+
+$5k annual Roth contributions (ages 35-55) at 7% growth becomes $220k tax-free with no RMD obligations; identical traditional contribution also becomes $220k but fully taxable and RMD-triggering. Traditional deduction saves $1,100/year at 22% bracket, but Roth flexibility saves $44k+ over 25-year retirement—a 40:1 ratio. The trade is accepting 22% tax today to avoid indefinite taxation and forced distributions later.
+
+### The 50s: Most Powerful Savings Decade and Conversion Window [00:08:15]
+
+Age 50 permits $32,500 annual contributions; ages 60-63 allow super catch-up of $35,750/year. Someone starting with $500k at 50, maxing contributions, capturing $5k employer match, and earning 7% returns reaches $1.3M by 60. Critical advantage: 18 years before RMDs (age 73), creating a real conversion window. A 55-year-old with $700k all-traditional appears strong but faces $55k+ forced RMDs at 73; same balance diversified creates only $26k RMDs and $100-200k lifetime tax savings.
+
+### Late Starts: Catch-Up Mathematics for Age 50-63 [00:14:07]
+
+Starting at 50 with $300k (above median, below benchmark), $32,500 annual contributions (50-59) plus $35,750 super catch-up (60-63) with 7% returns and employer match grows to $1.1M by 63. At 55 with $400k, 7 years of maximized contributions can reach $800-900k by 62. At 60 with only 3-5 years remaining, $35,750 super catch-up contributions can reach $700-800k. Combining catch-up contributions with spending reduction (90k to 70k annual) can close retirement funding gaps from both saving and spending sides.
+
+### RMD Impact: Same Balance, Vastly Different Tax Outcomes [00:13:03]
+
+At age 73, a $1.2M all-traditional balance produces $44k RMDs; combined with $56k Social Security = $100k+ taxable income placing retiree firmly in 22% bracket with 85% Social Security taxation and IRMAA exposure. Same $1.2M as 700k traditional, 300k Roth, 200k taxable (after decade of conversions) produces only $26k RMDs; total income stays in 12% bracket with Social Security protected and no IRMAA. The diversified retiree keeps 88% of every dollar vs. 78% for all-traditional—$100-250k difference over 25 years on identical starting balance.
+
+### Age-Specific Targets and Account Diversification Goals [00:16:13]
+
+Recommended targets differ from standard benchmarks: Age 35: 3x salary minimum with 10% Roth. Age 45: 5-6x salary with 15-20% Roth. Age 55: 8-10x salary with $150k Roth, some taxable. Age 60-62: $1M-$1.5M total with $200-300k Roth. These higher targets intentionally prioritize income control over just reaching a number. $1M in one account type is not equivalent to $1M spread across three—tax outcomes, Medicare exposure, and surviving spouse inheritance all differ based on diversification.
 
 ## Transcript
 

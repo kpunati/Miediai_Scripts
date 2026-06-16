@@ -62,24 +62,45 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Kevin Lum identifies five common beginner retirement planning mistakes: prioritizing investment selection before defining goals, assuming a single universal tax strategy applies to everyone, watching excessive educational content without actionable planning, building plans that assume perfect market returns, and allowing fear to drive planning decisions. He emphasizes that retirement planning requires a personalized framework and comprehensive stress testing rather than following blanket advice."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "tax-strategy", "investment-psychology", "financial-education", "risk-management", "analysis-paralysis"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Kevin Lum"
+      role: "CFP, Founder Foundry Financial"
+    - name: "Dave"
+      role: "Client example"
+  companies:
+    - name: "Foundry Financial"
+      ticker: null
+  tickers: ["NVDA", "TSLA"]
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["401k", "IRA", "Roth accounts", "options", "index funds", "ETFs"]
+  concepts: ["goal-based planning", "tax planning", "options trading", "Roth conversions", "Monte Carlo analysis", "financial content", "long-term care costs", "emotional decision-making", "stress testing"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "A client Dave attempted to generate $8,000/month from $200,000 by selling cash-secured puts, which would require a 48% annualized return"
+    timestamp: "00:02:36"
+    confidence: "medium"
+    flagged: false
+  - claim: "70% of people will need long-term care at some point in their life"
+    timestamp: "00:11:49"
+    confidence: "high"
+    flagged: false
+  - claim: "A client plan with 93% probability of success dropped to 60% probability after adding two years of long-term care costs for each spouse"
+    timestamp: "00:12:35"
+    confidence: "medium"
+    flagged: false
+  - claim: "Retirement planning is contextual and requires personalized framework, not universal strategies"
+    timestamp: "00:10:47"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: []
@@ -92,6 +113,40 @@ notes: ""
 **Published:** 2025-06-14
 **URL:** https://youtube.com/watch?v=n-jB-cIAS1c
 **Duration:** 16:20
+
+## Summary
+
+Kevin Lum addresses the five most common retirement planning mistakes he observes. The video emphasizes that being interested in retirement planning and being good at it are different skills. Lum's primary message is that retirees need an actionable, personalized plan before diving into specific tactics. He warns against analysis paralysis, following blanket advice without context, and letting either greed or fear drive decisions. The video concludes by stressing that knowledge without a framework leads to inaction, and having a basic plan that is implemented is better than seeking the perfect plan indefinitely.
+
+## Key Takeaways
+
+- Start with your retirement goals and required income before selecting investments; treating investments as the starting point leads to speculation rather than purposeful investing
+- Tax strategy is deeply personal and depends on your specific situation (state, filing status, pre-tax balances), not universal rules that apply to everyone
+- Excessive consumption of financial content without a coherent framework causes analysis paralysis; implement a basic plan and refine it rather than waiting for perfect information
+- Every plan should be stress-tested for realistic risks including market downturns, inflation spikes, health crises, and long-term care needs rather than assuming everything goes perfectly
+- Emotional decision-making driven by fear (keeping everything in cash, buying expensive insurance products, refusing to spend) is as dangerous as greed-driven decisions; a good plan should handle risks while enabling you to live the retirement you've planned
+
+## Detailed Notes
+
+### Mistake 1: Starting with Investments Instead of Goals [00:00:58]
+
+Lum explains that asking about index funds versus ETFs before defining retirement needs is like asking what tools you need without knowing what you're building. He illustrates with 'Dave,' who wanted to generate $8,000/month from $200,000 through cash-secured puts (requiring a 48% return), because he started with investment tactics rather than planning what income he actually needed from his savings.
+
+### Mistake 2: Assuming One Tax Strategy Fits All [00:04:39]
+
+Lum provides the example of two identical 45-year-old engineers earning $150,000: Client A moving to Florida should prioritize traditional 401k contributions; Client B staying in California with large pre-tax balances should prioritize Roth conversions. Same age, same income, completely different tax strategies, showing why tax planning must be personalized to retirement plans.
+
+### Mistake 3: Retirement Content Addiction Without a Framework [00:06:38]
+
+Lum describes 'retirement content addicts' who watch endless videos about the 4% rule, asset allocation, and Roth conversions but can't articulate their actual plan. He shares the story of a brilliant engineer who spent three years researching retirement, knew more strategy details than Lum, but was paralyzed by analysis and kept money in savings earning 0.5%. The solution is to develop a framework first, then videos become useful.
+
+### Mistake 4: Plans That Assume Everything Goes Right [00:10:47]
+
+Lum presents the case of Phil and Claire with a 93% success rate plan that included no long-term care costs. When two years of long-term care are added for each spouse (the national average, since 70% of people need long-term care), the success rate drops to 60%. This demonstrates why plans must account for realistic risks rather than assume perfect market returns and no surprises.
+
+### Mistake 5: Letting Fear Drive the Plan [00:13:14]
+
+Lum warns that excessive caution is as problematic as recklessness. He describes clients who refuse to spend money despite having more than enough, keep everything in cash waiting for a market crash, or load up on expensive insurance products due to fear. A good plan stress-tests for risk but then enables living the intended retirement rather than catastrophizing about every possible scenario.
 
 ## Transcript
 

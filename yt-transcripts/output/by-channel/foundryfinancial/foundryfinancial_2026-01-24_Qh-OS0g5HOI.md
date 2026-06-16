@@ -67,27 +67,48 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Kevin Lum discusses 10 essential habits for retirement success: three for building wealth (living below your means, automating savings, staying invested through market volatility) and seven for protecting and enjoying that wealth (knowing spending, treating cash strategically, annual tax planning, designing retirement income, revisiting plans after life changes, early risk management, and giving money purpose)."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "wealth-building", "financial-habits", "retirement-income", "behavioral-finance", "retirement-security"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Kevin Lum"
+      role: "CFP, financial advisor"
+    - name: "Paul Volcker"
+      role: "former Fed chair"
+  companies:
+    - name: "Foundry Financial"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["margin", "401k", "automation", "market volatility", "tax planning", "cash strategy", "retirement income design", "risk management", "estate planning", "social security", "portfolio withdrawal", "60/40 portfolio"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Wealth is not income but margin—the gap between what you earn and what you spend; a person earning $500k but spending it all is less wealthy than someone earning $75k but spending $60k"
+    timestamp: "00:02:15"
+    confidence: "high"
+    flagged: false
+  - claim: "The 60/40 portfolio fell 17.5% in 2022, its worst performance since 1937"
+    timestamp: "00:05:18"
+    confidence: "high"
+    flagged: true
+  - claim: "Short-term cash should cover 1-2 years of living expenses to act as a volatility buffer"
+    timestamp: "00:08:16"
+    confidence: "medium"
+    flagged: false
+  - claim: "Tax planning in retirement should focus on minimizing lifetime taxes, not just annual taxes"
+    timestamp: "00:11:26"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -97,6 +118,39 @@ notes: ""
 **Published:** 2026-01-24
 **URL:** https://youtube.com/watch?v=Qh-OS0g5HOI
 **Duration:** 22:20
+
+## Summary
+
+Kevin Lum presents a comprehensive framework for retirement success centered on ten unglamorous but proven habits. The first three habits build wealth through financial discipline (living below means, automating savings, and maintaining investments through market cycles). The remaining seven habits focus on protecting and enjoying accumulated wealth through disciplined spending awareness, strategic cash management, proactive tax planning, designing reliable retirement income, maintaining flexible plans responsive to life changes, securing against major risks early, and aligning money with personal values and purpose.
+
+## Key Takeaways
+
+- Wealth accumulation depends on margin—the difference between income and spending—more than on income level itself.
+- Automating savings removes decision-making friction and ensures consistent wealth building regardless of discipline.
+- Market volatility during downturns is temporary; staying invested allows recovery gains to compound.
+- Knowing exact spending figures (essential vs. discretionary) is foundational to all downstream financial planning decisions.
+- Cash held strategically provides both behavioral stability and portfolio flexibility during market downturns.
+- Lifetime tax optimization often requires paying higher taxes in early retirement to avoid larger burdens later.
+- Retirement income should be designed as a paycheck from the portfolio rather than chased through market returns.
+- Giving money explicit purpose transforms spending from a source of guilt into an intentional expression of values.
+
+## Detailed Notes
+
+### Building Wealth Through Three Core Habits [00:01:18]
+
+Lum outlines that successful retirees live below their means, protecting margin that enables savings even at modest income levels. He stresses automation of savings (via 401k and investment accounts) to remove willpower from the equation. Staying invested through noise—avoiding panic during 2008, 2020, and other downturns—is essential because biggest gains follow biggest drops.
+
+### The Critical Role of Knowing Spending and Strategic Cash [00:06:15]
+
+Retirees must know exact spending on both essentials and discretionary items to drive income planning. Cash held strategically (covering 1-2 years of living expenses plus major expenses) acts as insurance and volatility buffer, allowing investors to avoid selling stocks at market lows. This cash strategy is more valuable than most investors realize.
+
+### Tax Planning and Income Design [00:09:53]
+
+Annual tax planning—not just April filing—is critical; retirees should create a tax plan in May after filing and adjust by December. Tax planning aims to minimize lifetime taxes, which sometimes requires paying more today. Designing retirement income involves choosing which accounts to draw from in what order, when to claim Social Security, and managing required minimum distributions strategically.
+
+### Adapting Plans, Managing Risk Early, and Giving Money Purpose [00:15:08]
+
+Retirement plans must be revisited when life changes occur (health events, family shifts, moves). Early decisions on insurance, estate planning, and healthcare coverage remove uncertainty later. Giving money a job—specifying whether it's for near-term spending, legacy, or specific goals—transforms relationship with wealth from scoreboard-watching to purpose-driven spending that reduces anxiety.
 
 ## Transcript
 

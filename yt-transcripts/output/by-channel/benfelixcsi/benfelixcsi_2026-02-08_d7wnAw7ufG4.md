@@ -60,27 +60,54 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Investment professional Ben Felix outlines the ten biggest mistakes in personal finance, from not earning enough money to underinsuring catastrophic risks. He emphasizes controllable factors like setting meaningful financial goals, strategic saving rates, appropriate investment risk-taking, and tax planning, while explaining how poor spending decisions and behavioral errors compound negatively over time."
 topics: []
-topics_proposed: []
+topics_proposed: ["personal-finance-mistakes", "investment-risk", "retirement-planning", "tax-planning", "behavioral-finance", "financial-goals"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Ben Felix"
+      role: "Chief Investment Officer"
+    - name: "Daniel Kahneman"
+      role: "psychologist and behavioral economist"
+  companies:
+    - name: "PWL Capital"
+      ticker: null
+    - name: "Morningstar"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["RRSP", "TFSA", "FHSA"]
+  concepts: ["human capital", "savings rate", "portfolio diversification", "volatility risk", "expected returns", "PERMA-V model", "tax planning", "estate planning", "life insurance", "disability insurance"]
+content_type: "educational"
+audience_level: "advanced"
+key_claims: 
+  - claim: "A 10% savings rate from age 25 to 65 into a 100% stock portfolio results in average retirement income level above working year income"
+    timestamp: "00:02:56"
+    confidence: "medium"
+    flagged: true
+  - claim: "To retire with 40 years of work and 40 years of retirement with 70% income replacement, minimum savings rate is 11.28% of income"
+    timestamp: "00:03:34"
+    confidence: "medium"
+    flagged: true
+  - claim: "To match 10% savings rate in 100% stock portfolio, need to save 16% with target date fund or 19% with 60/40 stock/bond portfolio"
+    timestamp: "00:10:16"
+    confidence: "medium"
+    flagged: true
+  - claim: "To match 10% stock portfolio savings outcome with government bills only requires saving 57% of income"
+    timestamp: "00:10:16"
+    confidence: "medium"
+    flagged: true
+  - claim: "A British Columbia man turned $88,000 into $415 million then lost everything through Tesla options trading"
+    timestamp: "00:11:55"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -90,6 +117,40 @@ notes: ""
 **Published:** 2026-02-08
 **URL:** https://youtube.com/watch?v=d7wnAw7ufG4
 **Duration:** 15:36
+
+## Summary
+
+Ben Felix, Chief Investment Officer at PWL Capital, identifies ten critical mistakes that determine whether someone achieves financial comfort or lives paycheck to paycheck. The mistakes span income generation, savings discipline, goal-setting, spending behavior, investment strategy, and planning. He emphasizes that while income is foundational, the subsequent decisions about saving rates, setting meaningful goals, and taking appropriate investment risk have enormous compounding effects over decades.
+
+## Key Takeaways
+
+- Personal finance mistakes fall into controllable factors (setting goals, saving adequately, appropriate spending) and uncontrollable factors (luck, birth circumstances), but focusing on controllable items is most effective
+- Investing in human capital through education and certifications significantly increases lifetime earnings and resilience, with engineering, healthcare, and business fields historically offering better returns
+- Meaningful financial goals require structured elicitation using categorical prompts (PERMA-V: positive emotion, engagement, relationships, meaning, accomplishment, vitality) rather than surface-level aspirations like 'retire'
+- Not taking enough investment risk in a diversified portfolio requires saving 19-57% more income to achieve the same retirement outcome as a 10% savings rate in 100% stock portfolio
+- Behavioral errors like overspending on material goods, attempting stock picking, marrying financially incompatible partners, and inadequate insurance create far greater financial damage than investment fees or market timing
+
+## Detailed Notes
+
+### Earning and Saving Foundations [00:00:00]
+
+Ben identifies not earning enough money and undersa ing as the first two mistakes, noting that human capital—the ability to earn income through work or business—is most people's most valuable asset. Education boosts earnings and provides resilience during economic downturns, with engineering, healthcare, and business fields historically more rewarding. A 10% savings rate from age 25 to 65 into a globally diversified stock portfolio achieves retirement income above working-year levels.
+
+### Goal-Setting Using PERMA-V Framework [00:04:21]
+
+Research from Ben's 2022 study of 310 people demonstrates that people often set surface-level goals like 'retirement' rather than values-aligned objectives. Using PERMA-V categories (positive emotion, engagement, relationships, meaning, accomplishment, vitality) and a comprehensive master list helps people identify deeper goals. Morningstar's natural language processing confirmed this approach yields more meaningful goals that reflect actual values.
+
+### Spending Psychology and Time Value [00:06:23]
+
+People adapt quickly to material possessions and are poor predictors of what will make them happy. Minute-to-minute experiences matter more than stable life circumstances. Major purchases like cottages or boats involve significant opportunity costs and time tradeoffs often underestimated. People who value time over money report higher happiness, stronger relationships, and greater job satisfaction. Spending less today preserves future time autonomy.
+
+### Investment Risk: The Right Kind and Amount [00:08:27]
+
+Not taking enough risk requires saving 16% with target date funds, 19% with 60/40 portfolios, or 57% with only government bills to match 10% savings in 100% stock portfolios. Volatility is not the relevant risk for long-term investors. Individual stock picking, cryptocurrency speculation, and options trading are gambling with negative expected returns, not investing. A diversified stock portfolio provides positive expected returns; the longer you participate, the more likely you profit.
+
+### Tax Planning, Estate Planning, and Insurance [00:11:55]
+
+Tax planning represents rare government-approved 'free lunch' opportunities including income splitting, RRSP/TFSA/FHSA optimization, donating appreciated securities, and primary residence exemption maximization. Estate planning ensures assets distribute per actual wishes rather than prescribed rules, and prevents tax inefficiency and family anguish. Catastrophic risk insurance—life insurance for dependents and disability insurance regardless of dependence—has negative expected return but protects against unrecoverable losses.
 
 ## Transcript
 

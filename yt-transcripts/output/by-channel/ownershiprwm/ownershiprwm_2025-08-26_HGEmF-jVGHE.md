@@ -71,27 +71,50 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Nick Sapienza from Ritholtz Wealth breaks down eight critical 401(k) mistakes that people make in the final years before retirement, explaining when each strategy is appropriate or problematic. Mistakes include mishandling catch-up contributions, neglecting mega backdoor Roth opportunities, forgetting the age 55 rule, misusing NUA strategy, making portfolio changes, rolling over before RMD age, ignoring auto-increase features, and missing tax windows."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "401k-strategy", "tax-optimization", "roth-conversions", "nua-strategy", "catch-up-contributions"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Sapienza"
+      role: "Financial Planner, Ritholtz Wealth"
+  companies:
+    - name: "Ritholtz Wealth"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["401(k)", "Roth IRA", "Traditional IRA", "Roth 401(k)"]
+  concepts: ["enhanced catch-up contributions", "mega backdoor Roth", "age 55 rule", "net unrealized appreciation", "RMD strategy", "tax window", "pro rata rule", "ACA tax credits", "Medicare IRMAA charges"]
+content_type: "educational"
+audience_level: "advanced"
+key_claims: 
+  - claim: "Enhanced catch-up contributions ages 60-63 allow extra $11,250 per year (Secure Act 2.0), and starting 2026, must go into Roth if earning over $145,000"
+    timestamp: "00:00:50"
+    confidence: "high"
+    flagged: false
+  - claim: "2025 401(k) maximum limit is $70,000, $77,500 for age 50+, and $81,250 for ages 60-63"
+    timestamp: "00:04:21"
+    confidence: "high"
+    flagged: false
+  - claim: "Age 55 rule allows penalty-free 401(k) withdrawals for those separating from service at 55+ and keeping money in employer plan"
+    timestamp: "00:09:08"
+    confidence: "high"
+    flagged: false
+  - claim: "In NUA example, $100,000 cost basis growing to $400,000 saves ~$19,000 in taxes versus rolling to traditional IRA"
+    timestamp: "00:10:25"
+    confidence: "medium"
+    flagged: true
+  - claim: "RMDs begin at age 73 for most people, though those born 1960+ begin at 75"
+    timestamp: "00:19:00"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -101,6 +124,55 @@ notes: ""
 **Published:** 2025-08-26
 **URL:** https://youtube.com/watch?v=HGEmF-jVGHE
 **Duration:** 22:25
+
+## Summary
+
+Nick Sapienza outlines eight critical 401(k) decisions for those within 5 years of retirement, emphasizing that each strategy has context-dependent pros and cons. The episode covers enhanced catch-up contributions, mega backdoor Roths, early withdrawal rules, company stock tax strategies, portfolio management, RMD timing, savings acceleration features, and tax-free conversion windows. The key message is that retirement planning is fundamentally tax planning.
+
+## Key Takeaways
+
+- Enhanced catch-up contributions (ages 60-63, extra $11,250) are tax strategies best used when in high brackets now with lower brackets expected in retirement
+- Mega backdoor Roth ($38,500+ at ages 60-63) requires plan support, immediate cash conversion, and is valuable for high earners exceeding Roth IRA limits
+- Age 55 rule allows penalty-free 401(k) access for early retirees (55-59.5) if funds stay in employer plan; partial rollover preserves this option
+- NUA strategy can save significant taxes on concentrated company stock if gains are substantial and cost basis is low, but requires lump-sum distribution
+- Avoid portfolio changes near retirement; instead focus on tax strategy, savings rate, and intentional planning to clarify whether you're on track
+- Don't roll over 401(k) to IRA before age 73; keeping in employer plan allows RMD delay if working, avoiding forced distributions and tax bracket creep
+- Auto-increase feature can double retirement savings by automatically raising contributions 1% annually; Sally (increased to 15%) saved $559k vs Nick (static 5%) at $237k
+- Tax window between retirement and RMD age (73 or 75) enables Roth conversions at lower rates, reducing future RMD tax burden and creating tax-free growth
+
+## Detailed Notes
+
+### Enhanced Catch-Up Contributions (Ages 60-63) [00:00:50]
+
+Between ages 60-63, can contribute extra $11,250 per year on top of standard $23,500 limit, before employer match. Starting 2026, if earning over $145,000, these must go into Roth. Most valuable when in high tax bracket now and expect lower bracket in retirement, or when using to trigger Roth conversions. Skip if already heavy in pre-tax accounts and will face higher RMDs/taxes later.
+
+### Mega Backdoor Roth Conversions [00:04:21]
+
+For ages 60-63, $81,250 total limit minus employee/employer contributions leaves ~$38,500 for after-tax conversion to Roth. Requires plan support for after-tax accounts and in-plan Roth conversions. Critical to keep money in cash during conversion window to avoid gains taxation. Avoids pro rata rule for high earners. Skip if in very high tax bracket (32%+) and expect lower rate at retirement.
+
+### Age 55 Rule for Penalty-Free Withdrawals [00:09:08]
+
+If separating from service at 55+, can withdraw from that employer's 401(k) without 10% early withdrawal penalty until 59.5. Only works if money stays in employer plan; rolling to IRA eliminates benefit. Best for early retirees needing bridge income or those between jobs. Requires form and possible notarization for each withdrawal.
+
+### Net Unrealized Appreciation (NUA) Strategy [00:10:25]
+
+If holding company stock in 401(k), can distribute to taxable account and pay ordinary income tax on cost basis while gains qualify for immediate long-term capital gains treatment (15-20%). Requires lump-sum distribution of entire employer plan balance in one tax year. Example: $100k cost/$400k value saves ~$19k in taxes. Don't use if gains are minimal or cost basis is very high.
+
+### Avoiding Portfolio Changes Before Retirement [00:15:34]
+
+Getting more aggressive near retirement often stems from anxiety about being on track rather than actual need to change allocations. Real financial planning ties goals, income, investments, and taxes into one picture. Instead of portfolio changes, focus on accelerating savings rate, developing tax strategy, and having clarity. This reduces risk of locking in losses or timing market poorly.
+
+### RMD Timing and Account Consolidation [00:16:12]
+
+If working past age 73, can delay RMDs by keeping money in 401(k); rolling to IRA forces distributions regardless of employment. Rolling without considering RMD impact can push into higher tax brackets and trigger Medicare IRMAA charges. Don't consolidate accounts for convenience; evaluate tax impact first. Plan years ahead before RMDs become mandatory.
+
+### Auto-Increase 401(k) Feature [00:18:03]
+
+Automatically raises contribution rate 1% annually until reaching chosen cap (15-20%). Nick (static 5%) accumulated $237k while Sally (increased to 15%) accumulated $559k over same period. One of few 'set and forget' strategies that compounds meaningfully. Turns on feature and allows painless savings acceleration.
+
+### Tax Window Between Retirement and RMDs [00:19:00]
+
+Years between retirement and age 73/75 RMD start can feature low tax brackets, ideal for Roth conversions. Conversions now at lower rate reduce future RMD tax burden and create tax-free growth. Useful if expecting tax rate increases, wanting tax diversification, or reducing RMD size. Skip if pursuing ACA tax credits or trying to avoid Medicare IRMAA.
 
 ## Transcript
 

@@ -67,27 +67,54 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Kevin Lum explains cognitive decline's impact on financial decision-making in retirement, citing research showing peak financial literacy at age 53 and 2% annual decline after 60. Presents seven practical strategies to protect finances: establishing guaranteed income floors, simplifying accounts, automating payments, setting up legal protections, creating a \"when I get stupid\" file, recognizing warning signs, and working with financial advisors."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "cognitive-decline", "financial-literacy", "fraud-prevention", "estate-planning", "financial-decision-making"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Kevin Lum"
+      role: "CFP, founder of Foundry Financial"
+    - name: "Louis Mendel"
+      role: "economist/author"
+  companies:
+    - name: "Foundry Financial"
+      ticker: null
+    - name: "Brookings Institution"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Income Laboratory"]
+  concepts: ["financial literacy decline", "RMDs", "annuities", "Medicare", "Social Security", "power of attorney", "revocable living trust", "trusted contact", "FINRA rules"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Financial decision-making peaks at age 53 according to Brookings research"
+    timestamp: "00:01:32"
+    confidence: "high"
+    flagged: true
+  - claim: "Financial literacy declines about 2% per year after age 60"
+    timestamp: "00:02:36"
+    confidence: "high"
+    flagged: true
+  - claim: "Americans over 60 lost 4.9 billion dollars to scams in 2024"
+    timestamp: "00:07:29"
+    confidence: "medium"
+    flagged: true
+  - claim: "Delaying Social Security increases benefits up to age 70 and provides inflation-adjusted income for life"
+    timestamp: "00:09:35"
+    confidence: "high"
+    flagged: false
+  - claim: "Financial red flags for dementia can appear 5-7 years before diagnosis"
+    timestamp: "00:15:32"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -97,6 +124,42 @@ notes: ""
 **Published:** 2026-03-07
 **URL:** https://youtube.com/watch?v=7NqJfhtkPkQ
 **Duration:** 21:30
+
+## Summary
+
+Cognitive decline is a critical but often overlooked challenge in retirement planning. Research shows financial decision-making ability peaks at age 53 and declines 2% annually after 60, while confidence paradoxically increases—creating dangerous risk. As retirees face growing financial complexity (RMDs, Roth conversions, Social Security timing) alongside sophisticated AI-enabled scams (Americans over 60 lost $4.9 billion in 2024), the solution lies in "stupid-proofing" finances before decline becomes noticeable.
+
+## Key Takeaways
+
+- Financial decision-making peaks at age 53 and declines consistently afterward, but confidence doesn't decline—creating a dangerous mismatch.
+- Establish a guaranteed income floor covering essentials through Social Security, pensions, or annuities to reduce damage from poor investment decisions.
+- Consolidate accounts, automate payments, and simplify your financial life to minimize decisions your future self must make.
+- Set up legal protections now: durable power of attorney, trusted contacts at brokerages, and revocable living trusts before cognitive issues arise.
+- Create a comprehensive "when I get stupid" file documenting all accounts, bills, insurance, and advisor contacts for family access during decline.
+- Watch for warning signs of decline 5-7 years before dementia diagnosis: unpaid bills, confusion about balances, duplicate purchases, unusual withdrawals.
+- Working with a financial advisor provides another set of eyes to monitor accounts and implement protective strategies like retirement paychecks.
+
+## Detailed Notes
+
+### The Research on Cognitive Decline and Financial Mistakes [00:01:32]
+
+Brookings Institution research across 10 credit markets found age 53 marks peak financial decision-making ability. Michael Finke's study of older Americans documented 2% annual financial literacy decline after age 60, but paradoxically confidence increases or stays stable—described as a toxic combination where people feel fine while their abilities erode.
+
+### The Complexity Trap in Retirement [00:05:32]
+
+Retirement dramatically increases financial complexity (Social Security timing, RMDs, Roth conversions, withdrawal rates, tax planning) at precisely the moment cognitive ability declines. During working years, paychecks provide recovery margin, but in retirement there is no safety net—draw-down assets cannot absorb poor decisions.
+
+### Fraud and Scam Vulnerability [00:07:29]
+
+Brain changes reducing financial literacy also reduce ability to detect deception. FBI's Internet Crime Complaint Center reported Americans over 60 lost $4.9 billion to scams in 2024 (likely undercounted). AI-enabled fraud makes scams highly sophisticated; vulnerability stems from cognitive changes, not carelessness.
+
+### Strategy 1-3: Income Floor, Simplification, and Automation [00:09:35]
+
+Build guaranteed income floor (Social Security, pensions, annuities) covering essential expenses to limit damage from bad investment choices. Consolidate accounts to reduce statements, passwords, and decisions. Automate bills, direct deposits, RMDs, and Social Security to minimize active financial management.
+
+### Strategy 4-7: Legal Protections and Warning Signs [00:13:26]
+
+Establish durable financial power of attorney now (not after decline sets in). Name trusted contacts at brokerages so they can flag suspicious activity. Create revocable living trusts for smooth asset transition. Research shows financial red flags (unpaid bills, duplicate purchases, unusual withdrawals) appear 5-7 years before dementia diagnosis; family should be trained to recognize and speak up.
 
 ## Transcript
 

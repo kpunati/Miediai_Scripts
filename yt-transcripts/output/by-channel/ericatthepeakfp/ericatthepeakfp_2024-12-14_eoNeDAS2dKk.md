@@ -37,27 +37,58 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Advanced retirement portfolio construction framework examining how to build a $2 million portfolio using seven key risk management principles: concentration, exposure, variance, market correlation, beta, contingency planning, and rebalancing. Critiques traditional asset allocation approach and advocates for rules-based portfolio management grounded in understanding probability and magnitude of market outcomes, with emphasis on monitoring systems over binary risk classifications."
 topics: []
-topics_proposed: []
+topics_proposed: ["portfolio-construction", "risk-management", "asset-allocation", "retirement-investing", "rebalancing-strategy"]
 entities:
-  people: []
-  companies: []
-  tickers: []
-  funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, independent financial planner"
+    - name: "Alex Honnold"
+      role: "rock climber"
+  companies:
+    - name: "Peak Financial Planning"
+      ticker: null
+    - name: "Vanguard"
+      ticker: null
+    - name: "Portfolio Visualizer"
+      ticker: null
+  tickers: ["TLT", "PEP", "KR", "META"]
+  funds:
+    - name: "VBTLX"
+      ticker: null
+  products: ["Guard rails strategy", "RightCapital", "Income Labs"]
+  concepts: ["modern guard rails", "sequence of returns risk", "asset allocation", "concentration risk", "standard deviation", "market correlation", "beta", "contingency planning", "rebalancing"]
+content_type: "educational"
+audience_level: "advanced"
+key_claims: 
+  - claim: "A $2 million portfolio with $1.3-1.5 million upper and lower guard rails would allow approximately $100,000 annual distribution (7.7% withdrawal rate)"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "In 2022, meta (Facebook) was down 64% while consumer staples like Pepsi and Kroger had positive returns despite 22% market decline"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "A bond fund (VBTLX) showing only 50% US Government holdings actually contains 20% mortgage-backed securities and other varied instruments"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "5% market corrections occur in 95% of years; 20% corrections in roughly 25% of years; 40% corrections in roughly 5% of years"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Suggested 55% stock / 45% bond portfolio from 2013-present produced 11.7% annualized return with 18% less volatility and 11% less maximum drawdown than the original 65/35 portfolio"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -67,6 +98,57 @@ notes: ""
 **Published:** 2024-12-14
 **URL:** https://youtube.com/watch?v=eoNeDAS2dKk
 **Duration:** 25:38
+
+## Summary
+
+Eric Amzalag, CFP, presents an advanced framework for retirement portfolio construction that challenges traditional asset allocation thinking. Rather than viewing portfolios as static percentage allocations, he advocates understanding them as streams of cash flows managed through guard rails and comprehensive risk measurement. The presentation emphasizes that effective portfolio management requires monitoring seven risk dimensions—concentration, exposure, variance, market correlation, beta, contingency plans, and rebalancing discipline—rather than relying on oversimplified stock/bond splits.
+
+## Key Takeaways
+
+- Modern guard rails provide superior portfolio management compared to static withdrawal rates; they create rules-based distribution systems that reduce emotional decision-making.
+- Traditional asset allocation thinking is flawed because bonds are not universally safe and stocks not universally risky; individual holdings have widely varying risk profiles.
+- Effective portfolio construction requires defining tolerable ranges for multiple risk measures (concentration, exposure, variance, correlation, beta) rather than focusing solely on asset allocation percentages.
+- Market corrections are predictable in frequency but not timing; 5% corrections occur 95% of years, 20% corrections roughly every 4 years, and 40% corrections roughly every 20 years.
+- Contingency planning and systematic rebalancing are essential; having predefined rules for when and how to adjust the portfolio removes emotion-driven decisions during market stress.
+- Portfolio complexity benefits from professional management; understanding systems and monitoring rules provides confidence that far exceeds emotional responses to market movements.
+
+## Detailed Notes
+
+### Understanding Portfolio Value as Cash Flows [00:00:00]
+
+A $2 million portfolio should be viewed not as a static number but as a series of possible cash flows. Unless willing to liquidate everything, the actual value depends on generation of sustainable income. Guard rails approach demonstrates this: a $2 million portfolio within guard rails can generate approximately $102,000 annual income as long as portfolio stays between $1.5 million and $975,000.
+
+### Guard Rails Distribution Strategy [00:00:00]
+
+Guard rails establish upper and lower portfolio value thresholds. As long as portfolio stays between boundaries, annual distributions remain constant and inflation-adjusted. When portfolio hits guard rail (35% decline for lower; 16% increase for upper), spending adjusts proportionally. This removes the need for constant rebalancing decisions and provides psychological comfort.
+
+### Withdrawal Rates and Portfolio Performance Targets [00:00:00]
+
+A 5.1% withdrawal rate on a $2 million portfolio requires different portfolio behavior in early vs. later retirement. Early years may see 7%+ withdrawal rates before Social Security/pensions kick in, dropping to 3% later. Setting target return rates (e.g., 8% = 5% for income + 3% for inflation) helps evaluate whether allocation can sustain needed withdrawals.
+
+### Risk Framework: Probability vs. Consequence [00:00:00]
+
+True risk has two components: probability of bad outcome and magnitude of consequence. Example from rock climber Alex Honnold: high-consequence activity (death from fall) becomes manageable with low-probability outcome (mastered climbing). Investing similarly requires understanding both how often market corrections occur and how much portfolio decline results from each correction level.
+
+### Historical Market Correction Frequencies [00:00:00]
+
+5% corrections: 95% of years (nearly every year). 10% corrections: 63% of years (roughly every 1.5 years). 20% corrections: 25% of years (roughly every 4 years). 30% corrections: 10% of years (every decade). 40% corrections: 5% of years (every 20 years). Understanding these frequencies helps contextualize normal market behavior.
+
+### Asset Allocation Limitations [00:00:00]
+
+Asset allocation tools presenting 67% stock / 33% bond allocations create false binary perception. Two different 67/35 portfolios (one with individual stocks, one with mutual funds) would show identical statistics despite different actual risks. Tools typically ignore individual security-level data, obscuring real diversification and risk.
+
+### Individual Security Risk Variance [00:00:00]
+
+2022 example: in a 22% down market year, Pepsi and Kroger had positive returns while Meta was down 64%. Yet all three are classified as 'stocks' on asset allocation. TLT (10+ year Treasury bond) fell 31%, behaving like a risky stock but classified as 'safe' bond. This demonstrates asset class labels are meaningless for actual risk assessment.
+
+### Seven Dimensions of Portfolio Risk Management [00:00:00]
+
+1. Concentration: Set rules for sector/style exposure ranges. 2. Exposure: Define position size ranges per holding. 3. Variance: Monitor standard deviation targets. 4. Market correlation: Track probability of moving with S&P 500. 5. Beta: Measure magnitude of price moves relative to market. 6. Contingency plans: Define spending/portfolio adjustments if metrics fall outside tolerable ranges. 7. Rebalancing: Systematic profit-taking and repositioning.
+
+### Backtesting and Portfolio Optimization [00:00:00]
+
+Proposed 55/45 stock/bond portfolio vs. original 65/35 from 2013-present: new allocation produced 11.7% annualized return vs. 11.1%, with 18% less volatility (lower standard deviation) and 11% lower maximum drawdown. This demonstrates that reduced risk allocation can provide comparable or better returns with significantly lower volatility.
 
 ## Transcript
 

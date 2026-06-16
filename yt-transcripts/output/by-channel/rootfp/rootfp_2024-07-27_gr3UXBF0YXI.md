@@ -76,27 +76,50 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Three tax minimization strategies for retirees: Social Security optimization (maximizing benefits before age 70), tax gain harvesting (selling appreciated assets tax-efficiently), and strategic income shifting (choosing income sources strategically)."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-tax-planning", "social-security", "tax-gain-harvesting", "income-shifting", "roth-conversion"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "CFP"
+  companies:
+    - name: "Root Financial Partners"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Retirement Planning Academy"]
+  concepts: ["Social Security optimization", "provisional income", "tax gain harvesting", "strategic income shifting", "standard deduction", "traditional IRA", "Roth IRA"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Combined couple earning $116,952 from Social Security at 70 pays $0 federal and state taxes due to provisional income rules"
+    timestamp: "00:02:03"
+    confidence: "high"
+    flagged: true
+  - claim: "Same $116,952 from traditional IRA results in $12,658 total tax (federal and state)"
+    timestamp: "00:04:09"
+    confidence: "high"
+    flagged: true
+  - claim: "Tax gain harvesting allows selling $20,000 in assets with only $1,382 tax liability by managing capital gains"
+    timestamp: "00:07:17"
+    confidence: "medium"
+    flagged: true
+  - claim: "Strategic income mix of $25,000 IRA and $25,000 Roth results in $1,934 federal tax versus $8,000 with all IRA"
+    timestamp: "00:17:49"
+    confidence: "medium"
+    flagged: true
+  - claim: "Realizing $250,000 in gains triggers 3.8% net investment income tax plus Medicare surcharge increases of $450 per month"
+    timestamp: "00:10:27"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -106,6 +129,45 @@ notes: ""
 **Published:** 2024-07-27
 **URL:** https://youtube.com/watch?v=gr3UXBF0YXI
 **Duration:** 20:12
+
+## Summary
+
+James Conole demonstrates three proven tax minimization strategies for retirement income. Social Security optimization leverages favorable tax treatment based on provisional income, allowing $117,000+ in annual income with zero federal tax. Tax gain harvesting strategically realizes capital gains within tax bracket thresholds to convert brokerage accounts tax-efficiently. Strategic income shifting combines traditional IRAs, Roth IRAs, and Social Security in proportions to minimize overall tax liability.
+
+## Key Takeaways
+
+- Social Security benefits are taxed on provisional income, making them far more tax-efficient than IRA distributions at identical dollar amounts.
+- Tax gain harvesting allows retirees to realize capital gains at 0% federal tax rate by staying within long-term capital gains brackets.
+- Strategic income shifting requires understanding tax brackets, Social Security taxation rules, and Medicare surcharge thresholds.
+- Realizing too many gains triggers net investment income tax (3.8%) and Medicare surcharge adjustments that increase costs significantly.
+- A 50/50 split between Roth and traditional IRA withdrawals does not result in 50% of the tax burden due to provisional income and bracket effects.
+- The goal of tax planning in retirement is minimizing lifetime tax liability across 25-30 years, not just the current year.
+
+## Detailed Notes
+
+### Social Security Optimization Overview [00:00:00]
+
+Social Security is uniquely tax-advantaged compared to other retirement income sources. A couple taking max benefits at age 70 earns $116,952 annually but only includes $18,305 in adjusted gross income due to provisional income calculations.
+
+### Social Security vs IRA Tax Comparison [00:02:03]
+
+Same couple scenario: $116,952 from Social Security equals $0 federal and $0 state tax. Identical amount from traditional IRA equals $12,658 combined tax. California does not tax Social Security, creating additional advantage.
+
+### Tax Gain Harvesting Mechanics [00:05:11]
+
+Tax gain harvesting sells appreciated assets strategically within the 0% long-term capital gains bracket. A single 65-year-old with $30k IRA and $20k brokerage sales ($10k gains, $10k basis) has $23,450 taxable income with $10k gain taxed at 0%.
+
+### Tax Bracket Filling and Overshoot Risk [00:08:20]
+
+Realizing all $250k gains triggers: 15% capital gains rate, 3.8% net investment income tax, and Medicare surcharge increases of $450 per month. Filling to the top of the 0% bracket ($33,575 in gains) provides optimal efficiency without overshooting.
+
+### Strategic Income Shifting with Mixed Assets [00:14:37]
+
+Joe scenario: $80k annual spend from $1M portfolio (50% traditional, 50% Roth) plus $30k Social Security. All IRA withdrawal equals $8,200 tax. All Roth equals $0 tax. Half/half mix equals $1,934 tax.
+
+### Lifetime vs Single-Year Tax Planning [00:18:51]
+
+Key principle: minimize lifetime tax liability across 25-30 years, not just current-year taxes. Strategies must account for future RMDs, Social Security taxation changes, Medicare bracket transitions, and inflation.
 
 ## Transcript
 

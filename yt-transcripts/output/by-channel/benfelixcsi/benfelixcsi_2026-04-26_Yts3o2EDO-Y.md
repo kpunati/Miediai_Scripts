@@ -56,27 +56,84 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Ben Felix examines Avantis Investors' new Canadian-listed ETFs, which apply evidence-based portfolio tilts toward smaller, cheaper, and more profitable stocks to capture multiple return premiums beyond the equity risk premium, addressing limitations of traditional market-cap-weighted index funds while maintaining low costs and broad diversification."
 topics: []
-topics_proposed: []
+topics_proposed: ["factor-investing", "index-funds", "etf-strategy", "portfolio-construction", "canadian-investing", "value-investing", "profitability-premium"]
 entities:
-  people: []
-  companies: []
-  tickers: []
-  funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  people:
+    - name: "Ben Felix"
+      role: "Chief Investment Officer, PWL Capital"
+    - name: "Eduardo Repetto"
+      role: "Former co-CEO and CIO, Dimensional Fund Advisors; co-founder, Avantis Investors"
+    - name: "Eugene Fama"
+      role: "Financial economist, author of Fama-French five-factor model"
+    - name: "Ken French"
+      role: "Financial economist, co-author of Fama-French five-factor model"
+    - name: "Rob Engen"
+      role: "Blogger, financial commentator"
+  companies:
+    - name: "PWL Capital"
+      ticker: null
+    - name: "CIBC"
+      ticker: "CM"
+    - name: "Avantis Investors"
+      ticker: null
+    - name: "American Century Investments"
+      ticker: null
+    - name: "Dimensional Fund Advisors"
+      ticker: null
+    - name: "Vanguard"
+      ticker: null
+  tickers: ["CACE", "CALV", "CAUS", "CAUV", "CADE", "CASV", "CAEM", "CAGE", "VEQT", "XEQT", "AVLV", "AVUV", "AVDE", "AVDV", "AVEM"]
+  funds:
+    - name: "Avantis CIBC Canadian Equity ETF"
+      ticker: "CACE"
+    - name: "Avantis CIBC US Large Cap Value ETF"
+      ticker: "CALV"
+    - name: "Avantis CIBC US All Cap Equity ETF"
+      ticker: "CAUS"
+    - name: "Avantis CIBC US Small Cap Value ETF"
+      ticker: "CAUV"
+    - name: "Avantis CIBC International Equity ETF"
+      ticker: "CADE"
+    - name: "Avantis CIBC Global Small Cap Value ETF"
+      ticker: "CASV"
+    - name: "Avantis CIBC Emerging Markets ETF"
+      ticker: "CAEM"
+    - name: "Avantis CIBC All Equity Asset Allocation ETF"
+      ticker: "CAGE"
+    - name: "Vanguard Equity All Equity ETF"
+      ticker: "VEQT"
+    - name: "Vanguard All Equity ETF"
+      ticker: "XEQT"
+  products: ["Rational Reminder Podcast"]
+  concepts: ["factor investing", "value premium", "profitability premium", "investment premium", "equity risk premium", "market-cap weighting", "index funds", "tracking error", "home country bias", "dividend discount model", "Fama-French five-factor model"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Active management represents over 80% of the Canadian fund market based on year-end 2024 data, with most Canadian investors paying well over 1% in fund fees."
+    timestamp: "00:01:03"
+    confidence: "high"
+    flagged: true
+  - claim: "Index funds have an implicit cost of around 0.5% per year from systematic trading done to match changes in market composition."
+    timestamp: "00:04:32"
+    confidence: "medium"
+    flagged: true
+  - claim: "Dimensional Fund Advisors has been a leader in factor-based investing since 1981 and manages more than $300 billion."
+    timestamp: "00:06:10"
+    confidence: "medium"
+    flagged: true
+  - claim: "The US market from 1999 through 2010 was flat for more than a decade, but small cap and value stocks delivered meaningfully positive returns."
+    timestamp: "00:19:40"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -86,6 +143,54 @@ notes: ""
 **Published:** 2026-04-26
 **URL:** https://youtube.com/watch?v=Yts3o2EDO-Y
 **Duration:** 20:53
+
+## Summary
+
+Ben Felix introduces Avantis Investors' new Canadian-listed ETFs, explaining how they apply evidence-based portfolio construction principles to improve upon traditional market-cap-weighted index funds. The funds systematically tilt toward smaller, cheaper, and more profitable stocks to capture multiple return premiums supported by decades of financial economics research. Felix emphasizes that while these funds address real limitations of index funds—such as mechanical IPO inclusion and implicit rebalancing costs—they come with the trade-off of tracking error, requiring investors to understand and accept the possibility of underperformance during certain market periods.
+
+## Key Takeaways
+
+- Avantis ETFs tilt portfolios toward smaller, cheaper, and more profitable stocks relative to market-cap-weighted benchmarks, applying evidence-based principles from financial economics rather than traditional stock-picking.
+- The Fama-French valuation equation shows why these tilts make theoretical sense: lower price-to-book ratios imply higher expected returns (value premium), higher profitability implies higher expected returns, and higher asset growth implies lower expected returns.
+- Index funds incur implicit costs of roughly 0.5% annually from mechanical rebalancing and index inclusion, and only capture the equity risk premium while ignoring other documented return premiums.
+- CAGE, the Avantis all-equity asset allocation ETF, provides one-ticket exposure to global equity tilts with a Canadian home bias, similar in concept to VEQT but with built-in factor tilts.
+- Portfolio tilts toward value and small-cap stocks can underperform during certain market cycles (such as the recent US dominance of mega-cap growth stocks) but have historically outperformed over longer periods and in different markets.
+- Avantis avoids mechanically buying newly listed IPOs (unlike index funds), which may become relevant as large private companies like SpaceX, OpenAI, and Anthropic prepare to go public.
+- These funds maintain the low costs and broad diversification of index funds while addressing implementation quirks and capturing multiple return premiums supported by 30+ years of financial economics research.
+
+## Detailed Notes
+
+### Active Management vs. Index Funds [00:01:03]
+
+Over 80% of the Canadian fund market consists of actively managed funds charging fees exceeding 1% annually, most from the big five Canadian banks. Active management rarely outperforms the market, especially over longer horizons. Index funds, introduced by Vanguard in 1976, replicate market indices at low cost, capturing broad market returns rather than attempting to beat the market.
+
+### Limitations of Market-Cap-Weighted Index Funds [00:02:29]
+
+While superior to active management, cap-weighted index funds have two key limitations: they capture only the equity risk premium and miss other documented return premiums identified by financial economics (value, profitability, size factors); and they incur implicit costs of approximately 0.5% annually from mechanical rebalancing when index compositions change, such as adding newly listed IPOs.
+
+### Factor-Based Portfolio Construction [00:04:32]
+
+Avantis, founded in 2019 by former Dimensional Fund Advisors employees including former co-CEO Eduardo Repetto, applies evidence-based tilts toward smaller, cheaper, and more profitable stocks. This approach differs from active management: it maintains low costs, broad diversification, and systematic implementation while targeting multiple documented return premiums rather than attempting stock-picking.
+
+### Advantages of Canadian-Listed Avantis ETFs [00:06:53]
+
+The CIBC-listed Avantis ETFs eliminate currency conversion costs, avoid double withholding tax concerns for foreign holdings in TFSAs and RESPs, and carve out Canadian exposure from international funds. Canadian investors gain hassle-free access to factor-based strategies previously requiring US-listed fund purchases or financial advisor relationships with firms like Dimensional.
+
+### Individual Fund Overview and Tilts [00:09:09]
+
+Each Avantis ETF (CACE for Canadian, CALV/CAUS/CAUV for US, CADE/CASV for international, CAEM for emerging markets) applies tilts toward smaller, cheaper, and more profitable stocks relative to its benchmark. Management fees range from 0.19% to 0.39%. The degree of tilt and resulting tracking error vary: aggressive tilts like CAUV offer higher expected returns but greater performance divergence from their benchmarks.
+
+### Theoretical Foundation: Fama-French Valuation Equation [00:15:44]
+
+The Fama-French five-factor model, grounded in dividend discount theory, explains three key return premiums: lower price-to-book ratios correlate with higher expected returns (value premium); higher profitability correlates with higher expected returns; and higher asset growth correlates with lower expected returns. These premiums have been documented empirically across global markets and historical periods.
+
+### Targeting Multiple Premiums Simultaneously [00:18:40]
+
+Avantis targets value and profitability jointly rather than in isolation, preventing the pitfall of high-priced growth stocks or unprofitable value traps. This multi-premium approach provides more reliable long-term returns and exposure to multiple sources of return that may perform well at different times—for example, small-cap value delivered positive returns during the US flat market from 1999 to 2010.
+
+### CAGE: One-Ticket Asset Allocation Solution [00:14:41]
+
+CAGE (Avantis CIBC All Equity Asset Allocation ETF) mirrors the simplicity of VEQT by bundling all Avantis equity tilts into a single globally diversified portfolio with Canadian home bias. This one-stop solution applies factor tilts and avoids mechanical IPO inclusion, making it accessible for Canadian investors who previously had to manage multiple US-listed ETFs or rely on financial advisors.
 
 ## Transcript
 

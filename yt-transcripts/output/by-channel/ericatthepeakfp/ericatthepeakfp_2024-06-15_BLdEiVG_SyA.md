@@ -34,27 +34,54 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Financial planner Eric Amzalag presents four comprehensive strategies for retiring within five years: calculating required portfolio income and withdrawal rates across retirement phases, analyzing Social Security claiming scenarios to optimize guaranteed income, shifting savings to non-retirement accounts for tax efficiency before retirement, and using better portfolio risk measures than traditional asset allocation to manage sequence-of-returns risk."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "early-retirement", "social-security-strategy", "tax-efficient-withdrawal", "portfolio-risk-management", "financial-planning"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, RICP, Financial Planner"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
   tickers: []
-  funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  funds:
+    - name: "Vanguard Total Stock Market Index"
+      ticker: null
+    - name: "Vanguard Total Bond Index"
+      ticker: null
+  products: ["401k", "IRA", "Roth conversion"]
+  concepts: ["required portfolio income", "withdrawal rate", "sequence of returns risk", "capital gains tax brackets", "portfolio diversification", "benchmark correlation", "beta", "standard deviation", "maximum drawdown"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "A 10% portfolio decline requires an 11.1% recovery to break even; a 20% decline requires 25% recovery"
+    timestamp: "00:12:27"
+    confidence: "high"
+    flagged: true
+  - claim: "Couples saving to non-retirement accounts for 5 years before retirement can save $115,000 in taxes"
+    timestamp: "00:09:20"
+    confidence: "high"
+    flagged: true
+  - claim: "Social Security claiming at 62 reduces early retirement distribution rate from 6.5% to 5.44%"
+    timestamp: "00:05:12"
+    confidence: "medium"
+    flagged: true
+  - claim: "A 60/40 stock-bond portfolio showed 99% correlation to the S&P 500 during January 2022 to May 2024"
+    timestamp: "00:14:32"
+    confidence: "medium"
+    flagged: true
+  - claim: "0% tax bracket for long-term capital gains extends up to $94,000 for married couples filing jointly"
+    timestamp: "00:08:19"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -64,6 +91,41 @@ notes: ""
 **Published:** 2024-06-15
 **URL:** https://youtube.com/watch?v=BLdEiVG_SyA
 **Duration:** 19:02
+
+## Summary
+
+This video presents a structured four-strategy framework for achieving retirement within five years. The core principles focus on quantifying retirement income needs through withdrawal-rate analysis across different life phases, optimizing Social Security claiming decisions to reduce spending risk, strategically repositioning pre-retirement savings to minimize tax liability and create healthcare/conversion flexibility, and moving beyond traditional asset allocation to use direct risk measures like correlation and drawdown for portfolio construction during the distribution phase.
+
+## Key Takeaways
+
+- Required portfolio income calculation (desired spending minus guaranteed income sources) should drive all retirement planning decisions and varies significantly across phases as Social Security and other income sources activate.
+- Social Security claiming age creates distinct risk profiles: early claiming (62) softens front-end distribution pressure but backloads risk; late claiming (70) front-loads spending risk but reduces long-term needs.
+- Shifting savings to non-retirement accounts in the five years before retirement unlocks favorable long-term capital gains tax treatment and enables tax-efficient strategies like Roth conversions and healthcare subsidy optimization.
+- Portfolio performance during market declines is non-linear: recovery time compounds for larger drawdowns, making pre-retirement risk management critical when time horizon is constrained.
+- Benchmark correlation and maximum drawdown are more predictive risk measures than traditional asset allocation percentages for portfolios approaching or in distribution phases.
+- Non-retirement account liquidity creates strategic flexibility for tax-bracket management in early retirement while maintaining the same standard of living.
+
+## Detailed Notes
+
+### Strategy 1: Calculating Required Portfolio Income and Understanding Withdrawal Phases [00:01:02]
+
+The foundation of retirement planning is determining the specific dollar amount and percentage of portfolio needed annually across different life phases. A hypothetical couple wanting $154,000 annual spending with $28,000 pension income needs $126,000 from a $2.152M portfolio (5.85% withdrawal rate). Withdrawal rates typically decline as guaranteed income sources activate (Social Security at 67, mortgage payoff) or expenses decrease, but front-loaded spending risk requires strategic positioning.
+
+### Strategy 2: Social Security Claiming Analysis and Risk Distribution [00:04:10]
+
+Claiming at different ages fundamentally reshapes spending risk across retirement. Claiming at 62 lowers early-year distribution needs (from 6.5% to 5.44%) but increases long-term needs (3.5% to 4.27%). Claiming at 70 reverses this, requiring 7.14% early-year withdrawals but only 3.22% later. The choice between front-loading versus back-loading risk determines portfolio resilience and sequence-of-returns exposure.
+
+### Strategy 3: Non-Retirement Account Accumulation for Tax Efficiency [00:07:17]
+
+Shifting post-match employer contributions and all discretionary savings into taxable accounts during the five years before retirement creates a low-tax-bracket withdrawal strategy. A couple maintaining identical living standards could reduce five-year tax liability by $115,000 ($50k vs. $163k) by strategically drawing from taxable accounts in lower-income years, creating opportunities for Roth conversions and healthcare subsidy optimization.
+
+### Strategy 4: Portfolio Risk Measures Beyond Asset Allocation [00:11:25]
+
+Conventional 60/40 stock-bond portfolios show 98-99% correlation to the S&P 500 and fail to deliver promised diversification benefits. More relevant risk measures include benchmark correlation, beta (magnitude of movement), standard deviation, and historical drawdown data. A concentrated stock portfolio with 79-87% correlation demonstrates superior diversification characteristics, illustrating that asset allocation percentages alone mislead pre-retirement planning.
+
+### Recovery Mathematics and Time Constraints [00:12:27]
+
+Portfolio recovery from market declines follows non-linear mathematics: a 10% decline requires 11.1% gain to recover; 20% decline requires 25% recovery; 50% decline requires 100% recovery. Using historical S&P 500 returns (7.44% inflation-adjusted), a 30% decline takes 5.76 years to recover to break-even, making market timing during early retirement impossible for those without portfolio buffers.
 
 ## Transcript
 

@@ -43,27 +43,56 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Nick Davis and team explain how investment fees work, covering advisor fees (0.25%-2%, industry standard 1%), mutual fund load structures (front-end, back-end, 12b1 level loads), ETF expense ratios (0.06%-1%+), and hidden 401k fees through fund-of-funds structures. They distinguish fee-only advisors from fee-based and broker advisors, emphasizing transparency and fiduciary responsibility as key consumer protections."
 topics: []
-topics_proposed: []
+topics_proposed: ["investment-fees", "financial-advice", "advisor-selection", "retirement-planning", "401k", "mutual-funds", "etf", "fee-only-advisors"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, Brindle and Bay Financial"
+    - name: "Connie"
+      role: "Host"
+    - name: "Tori"
+      role: "Panelist"
+  companies:
+    - name: "Brindle and Bay Financial"
+      ticker: null
+    - name: "Yahoo Finance"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Mutual Funds", "Exchange-Traded Funds (ETFs)", "401k", "IRA", "Roth IRA", "Variable Annuities", "Life Insurance"]
+  concepts: ["Front-end loads", "Back-end loads", "12b1 fees", "Expense ratios", "Fund of funds", "Net asset value", "Advisory fees", "Fee-only advisors", "Fee-based advisors", "Broker advisors", "Fiduciary duty", "Passive vs active management"]
+content_type: "educational"
+audience_level: "beginner"
+key_claims: 
+  - claim: "Industry standard advisory fee is around 1%, ranging from 0.25% to 2%"
+    timestamp: "00:01:01"
+    confidence: "high"
+    flagged: true
+  - claim: "Eight out of ten years actively managed mutual funds do not beat passive exchange-traded funds"
+    timestamp: "00:04:09"
+    confidence: "medium"
+    flagged: false
+  - claim: "Expense ratios for mutual funds and ETFs range from 0.06% to 1% or more"
+    timestamp: "00:12:38"
+    confidence: "high"
+    flagged: true
+  - claim: "On a $100,000 investment with 0.5% expense ratio, the annual cost is $500 though not shown in dollars on statements"
+    timestamp: "00:06:19"
+    confidence: "high"
+    flagged: true
+  - claim: "Fee-only advisors cannot accept commissions and must act as fiduciaries"
+    timestamp: "00:21:59"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -73,6 +102,44 @@ notes: ""
 **Published:** 2024-12-19
 **URL:** https://youtube.com/watch?v=j6y_VDJDKEY
 **Duration:** 27:18
+
+## Summary
+
+This educational episode from the Money Master Podcast addresses widespread confusion about investment fees by breaking down the various fee structures investors encounter. The hosts explain that investment fees come in multiple layers: advisor fees (typically 0.25%-2%, with 1% being standard), and within investment vehicles themselves (mutual fund loads, ETF expense ratios, and 401k administrative costs). A critical message is that many fees are hidden or non-transparent, appearing as percentages rather than dollars on statements, making them difficult to quantify. The episode guides consumers on how to identify fees using tools like Yahoo Finance and Morningstar, and introduces the three types of advisors (fee-only, fee-based, and broker-advisors) with their distinct compensation models and fiduciary obligations.
+
+## Key Takeaways
+
+- Investment advisory fees typically range from 0.25%-2% annually, with 1% as industry standard, but this is only the visible layer of total fees paid.
+- Hidden fees embedded in mutual funds (front-end/back-end loads, 12b1 marketing fees) and 401ks (fund-of-funds structures) often outweigh visible advisory fees but don't appear as dollar amounts on statements.
+- Passive ETFs with low expense ratios (0.06%-0.4%) typically outperform actively managed mutual funds over time, making them cost-effective alternatives.
+- Fee-only advisors are bound as fiduciaries and cannot accept commissions, providing the most transparent fee structure; fee-based advisors may earn commissions on certain products.
+- Consumers should verify advisor credentials, ask specific fee questions, and review public records (ADVV) to understand total compensation streams before engaging an advisor.
+
+## Detailed Notes
+
+### Fee Structure Taxonomy: Seven Cost Combinations [00:01:01]
+
+Host outlines seven possible fee combinations: (1) advisor fee + stocks, (2) advisor fee + mutual funds, (3) advisor fee + third-party manager + funds, (4) advisor fee + ETFs and stocks, (5) no advisor fee + mutual funds, (6) no advisor fee + ETFs/stocks, (7) no advisor fee + 401k. Advisor fees range from 0.25%-2% with 1% as industry standard. Each combination has different hidden cost implications.
+
+### Mutual Fund Load Types and Hidden Costs [00:05:16]
+
+Three load structures exist: front-end loads (commission paid upfront, e.g., $5k out of $100k invested), back-end loads (penalty when selling, may decline over holding period), and 12b1 level loads (ongoing marketing fees that never show as dollars). The 12b1 is the most insidious because it's a percentage that compounds silently; a 0.5% fee on $100k equals $500/year loss to returns but never appears as a line item.
+
+### Expense Ratios in ETFs: Cost vs Performance [00:12:38]
+
+ETF expense ratios range from 0.06% (6 cents per $100) to 1%+ annually. Lower-cost passive index ETFs typically outperform higher-cost actively managed alternatives, contradicting the 'you get what you pay for' intuition. Higher-cost ETFs can be justified only if they employ specific strategies (e.g., rebalancing undervalued small-caps at non-market times). On $100k invested, 0.5% ER = $500/year invisible cost.
+
+### 401k Hidden Structures: Fund-of-Funds Opacity [00:15:45]
+
+401ks commonly use 'fund-of-funds' structures where investors see labels like 'Growth Fund' or 'Growth & Income Fund' but don't see underlying ticker symbols or company holdings. Funds within funds charge multiple layers of fees and administrative charges. Brindle and Bay had to work hard to get low-cost ETFs into their own 401k; most plans use different ticker symbols for branded funds offered nowhere else, indicating intermediaries extracting fees.
+
+### Advisor Types and Fiduciary Obligations [00:20:56]
+
+Three advisor categories exist: (1) Fee-only advisors are fiduciaries bound to client best interest, cannot accept commissions, and disclose fees transparently; (2) Fee-based advisors may combine advisory fees with commissions on insurance/annuities, creating potential conflicts if commissions drive recommendations; (3) Broker-advisors represent mutual funds and variable annuities without fiduciary obligation. Litmus test: request written fiduciary commitment; brokers cannot/will not provide it.
+
+### Fee Transparency and Consumer Tools [00:07:21]
+
+Consumers can research fees using Yahoo Finance (fund name > profile tab) or Morningstar, which reveal front-end loads, expense ratios, and 12b1 fees. However, this information isn't obvious and requires deliberate searching. Nick's criticism: many expenses show as percentages rather than dollars, making them psychologically invisible despite real compound impact over decades.
 
 ## Transcript
 

@@ -66,27 +66,54 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Case study demonstrating optimal retirement crossover point using Brad and Jill scenario. Shows how reducing aggressive retirement savings at age 52 frees $28k-$36k annually while maintaining 90% success probability at retirement, emphasizing life enjoyment balance versus future optimization."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-crossover", "savings-optimization", "life-balance", "retirement-planning", "cash-flow-analysis"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "CFP, founder Root Financial"
+    - name: "Brad"
+      role: "case study client"
+    - name: "Jill"
+      role: "case study client"
+  companies:
+    - name: "Root Financial Partners"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Retirement Planning Academy"]
+  concepts: ["retirement crossover", "withdrawal rate", "cash flows", "sequence of returns", "probability of success", "Social Security planning", "Roth conversions"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Brad saves $30,500 annually to 401k plus $6,000 employer match, with additional $12,000 annual savings; reducing 401k to $6,000 frees approximately $27k-$36k annually"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Current retirement plan has 96% probability of success; reducing savings drops probability to 90% at retirement age 65"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "If retiring early at 62 instead of 65 with reduced savings, success probability remains 90% versus 96% with continued maximum savings"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Projected healthcare costs estimated at $9,000 annually pre-Medicare and $3,400 annually post-Medicare for both retirees"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Social Security benefits conservatively estimated at 70% of projected eligible amount due to future uncertainty"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -96,6 +123,46 @@ notes: ""
 **Published:** 2024-07-20
 **URL:** https://youtube.com/watch?v=Af7PvuEquwo
 **Duration:** 19:24
+
+## Summary
+
+This video explores the retirement crossover point—when high earners can shift from aggressive saving to balanced living while maintaining retirement security. Using Brad and Jill as case study subjects both age 52, the presenter shows how reducing 401k contributions and investment savings frees approximately $27k-$36k annually for immediate life enjoyment while maintaining 90% retirement success probability. The core insight is that longevity and consistency of working years often matter more than maximum savings intensity, especially when continued aggressive saving risks burnout and earlier retirement.
+
+## Key Takeaways
+
+- The retirement crossover occurs when accumulated assets and income sources are sufficient to reduce saving contributions without compromising long-term retirement security.
+- Reducing maximum retirement contributions ($30.5k 401k + $12k investments) to only employer match capture ($6k 401k) frees $27k-$36k annually for present enjoyment.
+- Retirement success probability remains robust at 90% even with reduced savings, down only 6 percentage points from 96% with maximum contributions.
+- Longevity of working years often matters more than intensity of savings; burnt-out workers who reduce savings but enjoy work may work longer overall.
+- Earlier retirement at 62 with reduced savings (90% success) can be better than delayed retirement at 65 with high savings if quality of life improves.
+- Financial planning should balance future optimization with present alignment to goals; over-deferring creates regret when opportunities pass.
+- Healthcare costs shift significantly at Medicare age ($9k pre-Medicare, $3.4k post-Medicare); rental property income bridges portfolio withdrawals in early retirement years.
+
+## Detailed Notes
+
+### Client Case Study Setup [00:00:00]
+
+Brad (52) loves his work but feels burned out from constant saving; Jill (52) is community-engaged but also fatigued. They own a primary residence with mortgage, two rental properties (California with mortgage, Nevada paid off), and multiple retirement accounts. Their goal is determining the point when they're financially independent enough to redirect retirement savings toward current life enjoyment.
+
+### Current Expenses and Income Analysis [00:00:00]
+
+Brad and Jill estimate $7,500 monthly living expenses in today's dollars ($90k annually). Healthcare costs pre-Medicare: $9,000 annually each. Post-Medicare: $3,400 out-of-pocket annually. Brad's current salary is their primary income source. Social Security conservatively estimated at 70% of eligible benefit (~$4,500+ for Brad, ~$1,000 for Jill). Their savings rate: $30.5k 401k contribution + $6k employer match + $12k joint investment = $48.5k annually.
+
+### Projected Cash Flows to Retirement [00:00:00]
+
+Once Brad retires at 65, salary disappears. First two years have zero Social Security (assuming full retirement age collection). Income sources become rental properties plus eventual Social Security. Living expenses inflate from $132k at age 65 (adjusted from $90k today). Portfolio is projected at 8% growth pre-retirement, 6% in retirement years. Current projections show significant portfolio growth through retirement.
+
+### Savings Reduction Scenario [00:00:00]
+
+Reducing 401k savings from $30.5k to $6k (capture employer match) and joint investment savings from $12k to $0 frees $28k-$36k annually. After accounting for lost tax deductions, approximately $27k-$28k becomes available for current lifestyle. Probability of success drops from 96% to 90% at age 65 retirement.
+
+### Longevity Versus Intensity Framework [00:00:00]
+
+Key insight: when savings intensity drops but work satisfaction remains, people often work longer naturally. Brad and Jill might not retire at 65 if they reduce savings and increase current life enjoyment—they may choose to work until 67-70 because work provides meaning. This extended working years plus quality-of-life improvements often produces better outcomes than grinding aggressively until burnout at 62.
+
+### Alignment Versus Optimization [00:00:00]
+
+Financial planning that only optimizes for future outcomes creates regret when people sacrifice present opportunities. The speaker emphasizes that good financial planning aligns decisions with current life phase and goals, not just defers everything. Reducing savings to 90% success probability while improving present life quality represents better alignment than 96% success with present sacrifice and potential early burnout.
 
 ## Transcript
 
