@@ -41,6 +41,10 @@ HARD_MAX_PARA_SEC = 60
 UNPUNCTUATED_FALLBACK_RATIO = 0.5
 DEFAULT_CONCURRENCY = 3  # parallel yt-dlp workers; >5 risks YouTube 429 rate-limiting
 
+# Extra yt-dlp options injected into every invocation (cookies, retries, request sleep).
+# Populated once in main() from CLI args; empty by default so behavior is unchanged unless asked.
+YTDLP_COMMON_OPTS: list[str] = []
+
 # ---------------------------------------------------------------------------
 # Logging
 # ---------------------------------------------------------------------------
@@ -76,7 +80,7 @@ def yt_dlp_version() -> str:
 
 
 def fetch_metadata(url: str) -> dict:
-    r = _run(["yt-dlp", "--dump-json", "--skip-download", url])
+    r = _run(["yt-dlp", *YTDLP_COMMON_OPTS, "--dump-json", "--skip-download", url])
     if r.returncode != 0:
         raise RuntimeError(f"yt-dlp metadata fetch failed: {r.stderr.strip()[:400]}")
     return json.loads(r.stdout)
@@ -92,6 +96,7 @@ def fetch_captions_vtt(video_id: str, video_url: str, tmpdir: Path) -> tuple[str
     for source, flag in (("manual_captions", "--write-subs"), ("auto_captions", "--write-auto-subs")):
         cmd = [
             "yt-dlp",
+            *YTDLP_COMMON_OPTS,
             flag,
             "--skip-download",
             "--sub-format", "vtt",
@@ -119,7 +124,7 @@ def enumerate_channel(channel_url: str) -> list[dict]:
     Uses --flat-playlist (fast — no per-video metadata fetch).
     Returned items don't include publish dates; the per-video metadata pass adds those.
     """
-    cmd = ["yt-dlp", "--flat-playlist", "--dump-json", channel_url]
+    cmd = ["yt-dlp", *YTDLP_COMMON_OPTS, "--flat-playlist", "--dump-json", channel_url]
     r = _run(cmd)
     if r.returncode != 0:
         raise RuntimeError(f"channel enumeration failed: {r.stderr.strip()[:400]}")
@@ -243,6 +248,7 @@ def whisper_transcribe(video_url: str, video_id: str, tmpdir: Path) -> list[tupl
     audio_path = tmpdir / f"{video_id}.m4a"
     cmd = [
         "yt-dlp",
+        *YTDLP_COMMON_OPTS,
         "-f", "bestaudio[ext=m4a]/bestaudio",
         "-o", str(audio_path),
         video_url,
@@ -286,6 +292,7 @@ class ChannelConfig:
     min_duration_sec: int
     since_date: dt.date | None
     notes: str
+    max_videos: int | None = None  # cap on filter-passing videos to ingest (newest first); None = no cap
 
 
 def load_sources() -> list[ChannelConfig]:
@@ -301,6 +308,7 @@ def load_sources() -> list[ChannelConfig]:
                 sd = dt.date.fromisoformat(r["since_date"]) if r.get("since_date") else None
             except ValueError:
                 sd = None
+            mv = (r.get("max_videos") or "").strip()
             rows.append(ChannelConfig(
                 channel_url=r["channel_url"].strip(),
                 channel_slug=(r.get("channel_slug") or "").strip(),
@@ -308,6 +316,7 @@ def load_sources() -> list[ChannelConfig]:
                 min_duration_sec=int(r.get("min_duration_sec") or 90),
                 since_date=sd,
                 notes=(r.get("notes") or "").strip(),
+                max_videos=int(mv) if mv.isdigit() else None,
             ))
     return rows
 
@@ -324,7 +333,7 @@ def append_channel_to_sources(cfg: ChannelConfig) -> None:
     with SOURCES_CSV.open("a", newline="") as f:
         w = csv.writer(f)
         if write_header:
-            w.writerow(["channel_url", "channel_slug", "exclude_shorts", "min_duration_sec", "since_date", "notes"])
+            w.writerow(["channel_url", "channel_slug", "exclude_shorts", "min_duration_sec", "since_date", "notes", "max_videos"])
         w.writerow([
             cfg.channel_url,
             cfg.channel_slug,
@@ -332,6 +341,7 @@ def append_channel_to_sources(cfg: ChannelConfig) -> None:
             cfg.min_duration_sec,
             cfg.since_date.isoformat() if cfg.since_date else "",
             cfg.notes,
+            cfg.max_videos if cfg.max_videos is not None else "",
         ])
 
 
@@ -591,7 +601,7 @@ def _channel_slug_from_url(channel_url: str) -> str | None:
     return None
 
 
-def process_channel(channel_url: str, *, logger: logging.Logger, dry_run: bool = False, concurrency: int = DEFAULT_CONCURRENCY) -> dict:
+def process_channel(channel_url: str, *, logger: logging.Logger, dry_run: bool = False, concurrency: int = DEFAULT_CONCURRENCY, max_videos: int | None = None) -> dict:
     # Enumerate first (handles JSON-lines correctly). Use first item's uploader info to
     # derive slug if the URL doesn't have a @handle.
     items = enumerate_channel(channel_url)
@@ -617,35 +627,73 @@ def process_channel(channel_url: str, *, logger: logging.Logger, dry_run: bool =
         if not dry_run:
             append_channel_to_sources(cfg)
 
-    logger.info(f"channel {slug}: {len(items)} videos in uploads (concurrency={concurrency})")
+    # Cap on filter-passing videos to ingest (newest first). CLI value overrides the CSV.
+    cap = max_videos if max_videos is not None else cfg.max_videos
+
+    logger.info(
+        f"channel {slug}: {len(items)} videos in uploads (concurrency={concurrency}"
+        + (f", cap={cap}" if cap else "")
+        + (f", since={cfg.since_date}" if cfg.since_date else "")
+        + ")"
+    )
+
+    # yt-dlp returns channel uploads newest-first. Process in that order and stop early once
+    # (a) `cap` filter-passing videos have been ingested, or (b) a long run of videos older
+    # than since_date appears (we're past the window). This bounds metadata fetches on huge
+    # channels to roughly the recent slice we actually want, instead of the whole back catalog.
+    OLD_STOP_THRESHOLD = 40
+    batch_size = max(1, concurrency) * 4
 
     stats = {"success": 0, "skip": 0, "fail": 0, "total": len(items)}
-    completed = 0
+    processed = 0
+    passed = 0            # success or skip:exists — counts toward `cap`
+    consecutive_old = 0   # consecutive before_since_date skips → window-boundary detector
+    stopped_reason = None
 
     def _worker(it: dict) -> IngestResult:
         vid_url = it.get("url") or f"https://www.youtube.com/watch?v={it.get('id')}"
         return process_video(vid_url, cfg=cfg, logger=logger, dry_run=dry_run, apply_filters=True)
 
-    # GIL serializes the integer increments; no lock needed.
     with ThreadPoolExecutor(max_workers=max(1, concurrency)) as ex:
-        futures = [ex.submit(_worker, it) for it in items]
-        for fut in as_completed(futures):
-            try:
-                res = fut.result()
-            except Exception as e:
-                logger.error(f"worker raised: {e}")
-                stats["fail"] += 1
-                completed += 1
-                continue
-            if res.status.startswith("success") or res.status == "dry_run":
-                stats["success"] += 1
-            elif res.status.startswith("skip"):
-                stats["skip"] += 1
-            else:
-                stats["fail"] += 1
-            completed += 1
-            if completed % 10 == 0 or completed == len(items):
-                logger.info(f"progress: {completed}/{len(items)} ({stats})")
+        for start in range(0, len(items), batch_size):
+            if stopped_reason:
+                break
+            batch = items[start:start + batch_size]
+            futures = [ex.submit(_worker, it) for it in batch]
+            # Consume in submission order so early-stop is deterministic w.r.t. upload order.
+            for fut in futures:
+                try:
+                    status = fut.result().status
+                except Exception as e:
+                    logger.error(f"worker raised: {e}")
+                    stats["fail"] += 1
+                    processed += 1
+                    continue
+                processed += 1
+                if status.startswith("success") or status == "dry_run":
+                    stats["success"] += 1
+                    passed += 1
+                    consecutive_old = 0
+                elif status.startswith("skip:exists"):
+                    stats["skip"] += 1
+                    passed += 1
+                    consecutive_old = 0
+                elif "before_since_date" in status:
+                    stats["skip"] += 1
+                    consecutive_old += 1
+                elif status.startswith("skip"):
+                    stats["skip"] += 1  # shorts / duration / no-captions — not counted toward cap
+                else:
+                    stats["fail"] += 1
+                if cap is not None and passed >= cap:
+                    stopped_reason = f"reached cap ({cap} videos)"
+                    break
+                if cfg.since_date and consecutive_old >= OLD_STOP_THRESHOLD:
+                    stopped_reason = f"{consecutive_old} consecutive videos older than {cfg.since_date}"
+                    break
+            logger.info(f"progress: {processed}/{len(items)} passed={passed} ({stats})")
+    if stopped_reason:
+        logger.info(f"channel {slug}: stopped early — {stopped_reason}")
     return stats
 
 
@@ -661,16 +709,28 @@ def main() -> int:
     parser.add_argument("--from-sources", action="store_true", help="process every channel in config/sources.csv")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--concurrency", type=int, default=DEFAULT_CONCURRENCY, help=f"parallel workers for channel runs (default: {DEFAULT_CONCURRENCY}; >5 risks rate-limiting)")
+    parser.add_argument("--max-videos", type=int, default=None, help="cap on filter-passing videos per channel (newest first); overrides sources.csv max_videos")
+    parser.add_argument("--cookies-from-browser", default=None, help="pass authenticated cookies to yt-dlp from this browser (e.g. chrome, safari, firefox) — bypasses YouTube bot-checks")
+    parser.add_argument("--sleep-requests", type=float, default=0.0, help="seconds yt-dlp sleeps between data requests (politeness throttle; e.g. 0.75)")
     args = parser.parse_args()
+
+    # Build the common yt-dlp option set injected into every invocation.
+    if args.cookies_from_browser:
+        YTDLP_COMMON_OPTS.extend(["--cookies-from-browser", args.cookies_from_browser])
+    if args.sleep_requests and args.sleep_requests > 0:
+        YTDLP_COMMON_OPTS.extend(["--sleep-requests", str(args.sleep_requests)])
+    YTDLP_COMMON_OPTS.extend(["--retries", "5", "--extractor-retries", "3"])
 
     logger = _setup_logging()
     logger.info(f"yt-dlp version: {yt_dlp_version()}")
+    if args.cookies_from_browser:
+        logger.info(f"using cookies from browser: {args.cookies_from_browser}")
 
     if args.from_sources:
         for cfg in load_sources():
             logger.info(f"=== {cfg.channel_slug} ({cfg.channel_url}) ===")
             try:
-                stats = process_channel(cfg.channel_url, logger=logger, dry_run=args.dry_run, concurrency=args.concurrency)
+                stats = process_channel(cfg.channel_url, logger=logger, dry_run=args.dry_run, concurrency=args.concurrency, max_videos=args.max_videos)
                 logger.info(f"channel {cfg.channel_slug}: {stats}")
             except Exception as e:
                 logger.error(f"channel {cfg.channel_slug} failed: {e}")
@@ -709,7 +769,7 @@ def main() -> int:
         logger.info(f"result: {res.status} path={res.path}")
         return 0 if res.status in ("success", "dry_run") or res.status.startswith("skip") else 1
     elif kind == "channel":
-        stats = process_channel(target, logger=logger, dry_run=args.dry_run, concurrency=args.concurrency)
+        stats = process_channel(target, logger=logger, dry_run=args.dry_run, concurrency=args.concurrency, max_videos=args.max_videos)
         logger.info(f"channel result: {stats}")
         return 0
     else:

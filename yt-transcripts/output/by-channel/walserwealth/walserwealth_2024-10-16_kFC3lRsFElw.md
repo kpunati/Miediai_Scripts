@@ -1,0 +1,121 @@
+---
+# === Identifiers (immutable) ===
+video_id: "kFC3lRsFElw"
+url: "https://youtube.com/watch?v=kFC3lRsFElw"
+
+# === Core metadata ===
+title: "\"Capital Markets Are Ready For Liquidity-Based Events\""
+channel_name: "Rebecca Walser"
+channel_id: "UC8K-R-7NcqtQbtlAzpWPJSA"
+channel_slug: "walserwealth"
+publish_date: 2024-10-16
+duration_seconds: 1314
+duration_human: "21:54"
+view_count_at_ingest: 275
+language: "en"
+
+# === Original content (verbatim) ===
+description: |
+  Aired on 10/15/24
+  Published on 10/16/24
+
+  Rebecca Walser joins "Mornings With Maria" on Fox Business where discussion topics include the 2024 Presidential Elections, polls, and the state of the market.
+
+  Schedule a call with us: https://walserwealth.typeform.com/schedulenow
+
+  Follow Us On Social Media!
+  Instagram: https://www.instagram.com/rebeccawalser
+  Instagram: https://www.instagram.com/walserwealthmanagement
+  Twitter: https://www.twitter.com/rebeccawalser
+  Facebook: https://www.facebook.com/walserwealthmgmt
+  Tiktok: https://www.tiktok.com/@walserwealth
+
+  Don’t let censorship and big tech keep you from the latest episode of Crashes & Taxes! Join Rebecca as she discusses the hard topics and emerging news while giving you the crucial advice you need during these difficult times!
+
+  Join the Crashes & Taxes Telegram channel and follow us on Rumble to never miss a show!
+
+  Rumble: https://rumble.com/c/RebeccaWalser
+  Telegram: https://t.me/crashesandtaxes
+tags_youtube: ["Rebecca Walser", "Walser Wealth Management", "Crashes and Taxes", "Wealth Unbroken"]
+
+# === Transcript provenance ===
+transcript_source: "auto_captions"
+transcript_has_timestamps: true
+ingest_date: 2026-06-15
+ingest_version: 1
+
+# === Enrichment state (empty at ingest) ===
+enriched: false
+enrichment_date: null
+enrichment_version: null
+summary: ""
+topics: []
+topics_proposed: []
+entities:
+  people: []
+  companies: []
+  tickers: []
+  funds: []
+  products: []
+  concepts: []
+content_type: ""
+audience_level: ""
+key_claims: []
+tags_topic: []
+
+# === Governance ===
+usage_policy: "research_only"
+flags: ["unpunctuated_captions"]
+notes: ""
+---
+
+# "Capital Markets Are Ready For Liquidity-Based Events"
+
+**Channel:** Rebecca Walser
+**Published:** 2024-10-16
+**URL:** https://youtube.com/watch?v=kFC3lRsFElw
+**Duration:** 21:54
+
+## Transcript
+
+[00:00:02] and it is time for the hot topic of the hour the election now three weeks away November 5th new polling shows the right race tighter than ever with President Trump pulling much farther ahead an NBC News poll shows former president Trump and vice president Harris are in a dead Heat at 48% each that's a major shift from Harris's fivepoint lead just one month ago the latest ABC News ipsos poll survey shows Harris polling 50% to tr's 48% Harris's support dropping again from a six-point lead in that poll just last month I spoke with former president Trump about the state of the race just days ago watch we're just a few weeks away what 20 plus days away from the election how do you feel about the race I feel great we're leading in all swing States we're leading mostly in Nationals I think you know I'm a Believer in polls some of them are fake like a lot of writers but uh I'm a Believer in polls and we're leading in just about every s what do you want to say to those voters out there who might be undecided who
+
+[00:01:04] don't know what they're going to do yet we have something so of special going on we have tremendous support they're so tired of seeing what's happened to this country they're so tired of seeing the incompetence seeing the the border and I think the border is maybe a bigger deal than even inflation inflation is a massive word the bad economy is is massive so let's talk about where we are here um Liz Peak if you go to a site called poly Market you can see Trump pulling ahead this site is where people put their money with their mouth is and they actually bet on predictions and Trump is pulling ahead your thoughts on where this race stands right now lip well I think he clearly has the momentum Maria and it's not hard to understand why kamla Harris's campaign was built on froth and joy and a lack of substance and I think that's caught up with her you had an initial joyful reaction uh to Joe Biden getting out of the race but then people want some substance Maria and I think you
+
+[00:02:07] know it doesn't matter what voting block you look like look at including Hispanics and blacks they want to know that their lives are going to be better under kamla Harris and what has she told us she told us she wouldn't change anything of the last three and a half years uh supposing then that the life will continue just exactly as it has been I think it's unbelievably pander and insulting to go after black men with the agenda that she has rolled out uh assuming that really the only business they can prosper in is cultivating or selling marijuana uh talking about issues other than what applies to every American the cost of living crime in the streets the open border which is driving down wages for low-income Americans those are the issues she should address but she cannot because she's responsible for the problem well it's absolutely right Liz you are spot on and and you know Cheryl I think this whole Joy campaign has moved into a new phase of fear campaign and that is why she's coming up with this plan this is
+
+[00:03:11] outrageous so stereotypical to come up with an element to entice black men by legalizing marijuana I she's trying to sh up her support for black men as November 5th approaches I want to go through this plan with you okay because the first part is to just give away free money here's 20 grand okay she wants to give out 1 million fully forgivable loans for black entrepreneurs a legalized recreational marijuana on a federal level launch a Health Equity initiative focused on black men whatever that means lower rent and provide down payment assistance to Triple the number of firsttime black homeowners again a lot of this stuff is already out there so the new the new parts of this plan correct me if I'm wrong Cheryl is a free $220,000 a fully uh forgivable loan of 20 grand corre and and legalizing marijuana at the federal level what else is she doing for black men and why is this so incredibly stereotypical as if everybody doesn't want 20 grand because
+
+[00:04:14] well the so first off the polling is showing that the the the campaign is concerned that these black male voters are not going to show up at all they're not necessarily concerned that they're going to go for Trump although we have seen more of a a shift in that demographic towards Donald Trump yeah we have seen that and she does not have the same support among black voters that Biden did in 2020 that's the biggest thing but you know the Wall Street Journal editorial board points out about this entire plan you just went through this morning in particular giving that money based on race away that that is unconstitutional Todd pyro pyro talked about this this morning and they say allocating government loan forgiveness on the basis of race is unconstitutional Todd's question of mine is is this even legal we don't think it is but this SOS that the journalist was calling this is certainly uh the real hell Mary 3 weeks from the election it's an SOS according to Barack Obama as well he decided to lecture everybody he comes out and lectures black male voters last week while campaigning in Pittsburgh he has the audacity to say that the reason that
+
+[00:05:18] the brothers are not behind Trump uh not behind kamla is because they're afraid of a woman in the White House what listen to this we have not yet seen the same kinds of energy and turnout in all quarters of our neighborhoods and communities as we saw when I was R I also want to say that that seems to be more pronounced with brothers you're coming up with all kinds of reasons and excuses I've got a problem with that because because part of it makes me think I'm speaking to men directly now part of it makes me think that well you just aren't feeling the idea of having a woman as presentent so now comes the shame he's trying to shame everybody out of this The Washington Post out with an oped titled the scolder in Chief hits the
+
+[00:06:21] stump for Harris writing Obama's Ploy could backfire insulting black men is a bizarre way to try to win their votes absolutely I mean Maria I don't understand at all that philosophy of let me go out there and lecture you about why you're not supporting her at the same level you supported me it might not be gender related at all it could be the fact that we haven't heard any substantive policies we know that she doesn't know a lot about the economy and that's one of the biggest concerns of this voting block this year so Maria it's it's a mess more divisive policies divide everybody as if everybody doesn't want the same thing yeah you know prices that are within reach an economy that is growing with job opportunities the right foreign policies to avoid Wars everywhere you look everybody wants that white women black men and everybody else we'll be right back you're watching morning trth Maria live on Fox Business stay with us yesterday I saw a video of both Trump and Kamala talking about Columbus Day
+
+[00:07:25] well no she was talking about indigenous day and you know so Trump comes out and he says as long as I'm around if it's it's in my power I will keep it Columbus Day and then you hear kamla Harris come out at the podium and she says well happy indigenous day everyone Rebecca your reaction I mean it's it's so sad Maria it's like what is happening to our country and how does half the country vote for a person that talks about you know stars and the sky when she's talking about crime statistics I don't understand why this race is so close other than these polls just have to be inaccurate or the American people are just in their social media and they're not paying attention well when you look at actually prediction uh markets like like a poly Market you actually see where people put their money uh with their mouth is Trump is way way ahead L I'm not sure about these polls either it's very suspicious to me that they're so close when you have such different policies and she hasn't done a press conference to explain her policies at
+
+[00:08:28] all talking about his policies and then there they are with completely different assessments of Columbus Day yeah I think it's an incredibly stupid time for the left to come out with yet another social uh issue like renaming Columbus Maria there are how many tens of millions of Americans are of Italian Heritage and in particular in some of these swing states there are very important vot voting block so why would you raise this at this sort of perilous time when already Americans are so sick and tired of identity politics and I really think that's across the board people don't want these kinds of arguments and they sure care more about how much the bread on the table costs yeah yesterday Dan L retweeted kamla Harris calling it indigenous people's day and he said well I guess she doesn't want the Catholic Italian vote maybe not exactly meanwhile there's this nearly 200,000 homes are still without power time for the hot topic of the hour former President Bill
+
+[00:09:30] Clinton discussing the death of Georgia nursing student lakan Riley who was killed by an illegal migrant in February watch Trump killed the bill the bill was written being written by senior Republicans in the Senate and he killed the why you had a case in Georgia not very long ago didn't you they made an ad about it about a young woman who'd been killed by an immigrant that's right yeah well if they had all been properly vetted that probably wouldn't have happened but if they all poly vetted and that doesn't happen and America is not having enough babies to keep our populations up okay so we need immigrants that have been vetted to do work uh Clinton is claiming that Trump stopped a bill that would have secured the border and helped vet migrants uh not really the Bill Clinton was referring to was declared dead this year
+
+[00:10:33] the Venezuelan National accused of killing Riley entered and was released into the country in 2022 okay the Trump campaign responded and they say this kamla Harris claimed the Border was Secure just days after Lake and Riley's illegal immigrant killer Jose Ibara crossed into the nation Ibara was caught at the border and then released into the country by Kamala Harris says the Trump campaign Liz I I don't know if Bill Clinton meant to step in it that's exactly what he did with those comments he reminded everybody that uh a beautiful nursing student young vibrant with her life ahead of her was murdered by an illegal migrant who came into the country on kamla Harris's watch and open border yeah that that was a pretty big oops I would say uh Maria and by the way having Bill Clinton back on the camp campaign Trail certainly it doesn't seem like we're moving forward which is what kamla Harris seems to want to do uh the page this illegal immigration thing is on kamla Harris everybody knows it all these people who came in three years
+
+[00:11:35] before this bill really ever got to the table uh so the bill is completely inconsequential and to your point earlier Maria it would not have secured the Border it would they far too many loopholes to go into here but the answer is that had nothing to do with securing the Border all the bills coming from the Biden White House and from kamla Harris have had to do with securing a pathway to citizenship for people already in the country that is their big push uh and Republicans have rightly said no thank you yeah exactly right Rebecca your thoughts well you know Kamal Harris has an uncanny ability Maria to disassociate her past with her future I mean and in fact a lot of her speeches always ended with uh seeing the future unburdened by the past well I'm sorry I don't want to be unburdened by our constitution or our Declaration of Independence or our god-given and rights that don't come from the government no thank you to all of that and she's Her Own Worst Enemy you know um she doesn't make any sense
+
+[00:12:37] but then to send out Bill Clinton and Obama both of them I think did a terrible job for her stumping for her Bill Clinton is saying oh her immigration policies they're not vetting them and thank you for telling us the truth and then of course Obama is lecturing black men for not supporting uh Camala Harris maybe not because she's a female maybe because she has no policies mhm what do you think Cheryl well Maria you know new gig joined me on Friday and we talked about the fact that Obama and Clinton were going to be hitting the trail and new's opinion here is that this actually makes her look weak and it's a mistake because you've got two former presidents uh leaders uh and that he says that that's going to make her look weaker because in comparison to them she doesn't have the credibility she doesn't have the background etc etc as far as Bill Clinton stepping in it which he just did as we would say in Texas uh you know he's got look look at this he's got his good old boy Boy hat on he's got the the shirt they're sending him into these rural counties in Georgia because they know that that's where they are in trouble and you know if you look at all the polling and of course we look at
+
+[00:13:39] this every day Georgia is crucial and and she's not doing so well in those rural counties and that's why he's out there but he why even bring up Lake and Riley question why even why why do he even say that because because it it's it's a stunning reflection of what's going on in America right now he was right to bring it up that's exactly what we should be bringing up when we're talking about this wide open border because the impact of this wide open border has been deadly he knows it I know it you know it we all know it and so he's not hiding it but you know the bill I'm so tired of these talking points around this Senate Bill everybody knows that Senate bill was not a good bill it was a bill that allowed 5,000 illegals into the country every day and you know we already have 5 six S at the peak it was 8 and ,000 people coming into this country every day now we're up to 10 plus million yeah we need to take a a a minute and assess where the money is coming from to house and care for all of these people and whether or not this
+
+[00:14:42] is the right policy not continuing the flow of 5,000 people coming in every day Maria can I just add that that Bill Clinton did mention something I think everyone's very concerned on concerned about which is the vetting issue because we know that terrorists have come across the uh border as well and people from Afghanistan and other countries who have not been vetted properly and my guess is we're going to find out a lot more about those people in coming months this is a real security threat to the country absolutely 100% that is exactly the issue there's no vetting we're just allowing people to come in without vetting look no one's talking about legal immigration the Republicans want legal immigration everybody knows we need more people and we need more workers but you can't just let people in willy-nilly and not actually understand where they're coming from what they want to do and how they would contribute to this country you've got people waiting for a decade to come in they're trying to get citizenship and they still haven't gotten their citizenship compare that to the people who are just walking
+
+[00:15:44] across the border uh getting away 2 million got aways doing what they want we don't know what their motivation is that's the issue you know what Maria is happening here in New York City now with trener Raga is is that you they're not being arrested because most of them are miners you've got the TDA teenagers and they're they're they're in mass in Time Square and you you know where they're operating out of a taxpayer paid for migrant shelter called the Rosevelt and that is their base of operations and they they've got guns they're committing robberies and they're getting more and more embolden so you want to see what illegal immigration does walk two blocks from these Studios our audience is well aware of this we've been talking about Trend aragua now for a couple of years just one more element that shows you how deadly this wide open border policy has been allowing in these dangerous gangs who are creating death and destruction in America we're just getting started this hour we've got a lot coming up we are exactly three weeks Onan thank you Cheryl it is time now for the word on Wall Street top investors watching your money joining me right now is claro
+
+[00:16:46] advisers managing principal and founder Ryan Belanger also with us is Rebecca waler this morning uh Ryan thanks very much for joining the conversation it is good to see you and Rebecca I want to kick things off with you exactly where we just left off on earnings third quarter earnings on Deck you've got Bank of America reporting a double beat profits were down as its income from customer interest payment strength banks have been paying out higher interest rates on intense competition for deposits uh we are also looking at Goldman Sachs benefiting from a strong Capital markets environment we're looking ahead to City Group at the top of the next hour Rebecca what is your reaction to the earning so far yeah well I would say that Bank of America I would make a distinction Maria between that and the Wells and the JP Morgan uh Chase results that we saw last week because definitely Bank of America you know their profit uh net income year-over-year is down 12% their net investment income quarter over from quarter uh last year to quarter three this year down 3% and we were seeing improvements with Chase and Wells and
+
+[00:17:49] them giving uh even chase giving revised guidance for the rest of 2024 stating that they thought that um we would they even see even further improvements with nii into fourth quarter and and and next year now interestingly enough this Goldman that just crossed Maria that is really following the JP Morgan Chase Investment Banking fees we expected 15% for both companies and JP Morgan came in 31% and obviously uh Goldman coming in at a 20% increase in Investment Banking fees this goes to show you that the capital markets are ready for m&a the capital markets are ready for liquidity based uh events and transactions with these what they see Maria maybe not necessarily just with 150 Bas basis point cut but what they see coming because remember the FED has projected two additional Cuts in 2024 even though I know we have some Governors and some push back in these last couple of days but 20 uh 2025 will have four more Cuts they've said and 2026 will have two more cut so they see that these uh cost of capital is coming down and there's a lot more deal making for this Investment Banking fees yeah I mean finally deal
+
+[00:18:52] making after a a huge uh what year plus where we actually had a a freeze in lots of activity Ryan how about tech I mean Nvidia at another all-time high it is now valued at nearly $3.4 trillion the company continues to ride this massive wave of demand for its AI chips alone in its category uh seemingly the stock is lower this morning after that huge move yesterday to another new high because there are reports that the Biden Administration officials are mulling uh discussing a cap on nvidia's sales of advanced chips to countries in the Persian Gulf Ryan your reaction yeah good morning I mean it's been such an incredible run for NVIDIA and all the chip stocks in general if you look at the semiconductor index Maria it's it's up 55% year-over-year uh it's just remarkable performance so if I'm an investor in those stocks I'm wondering uh should I be rebalancing you know is is this too much I've seen this movie before it's been 20 years since the uh the tech bubble but these things
+
+[00:19:56] do happen and there is excess that happens in markets and I just want to remind investors I think it's important to kind of know what you own in the portfolio these stocks are having a tremendous day right now in the last couple years has been very remarkable but things you know mean revert I think it's important for investors to understand how much risk is in their actual portfolios and we don't even know what the benefits of all this AI is anyway it's it's basically an arms race who can spend the most money uh to get all the chips and Nvidia is you know the main beneficiary of that right now but we don't even know what the capability these are and I think that's why you're seeing some companies take a more measured approach to what they're going to be spending for capex in this category because we the it's just too much unknown for for the benefit but the beneficiaries Nvidia for sure investors have been rewarded and now it's time to wonder should I take some off the table I mean there's also this unknown around Taiwan right I mean these chips that Nvidia produces are produced in Taiwan so we've got the geopolitical questions there as well as as China tries hard to
+
+[00:21:04] reunify yeah I think the geopolitical risks are you know should should be uh be looked at a little bit more I mean obviously specifically speaking about the current conflicts but there there could be more that are cropping up here and I think investors should also be you know cognizant of those risks in the in the portfolio now for me I'm betting long term on American Ingenuity capitalistic instincts uh the stock market is always prevail bu uh and if you look at the long history but certainly it's not without hiccups and we've got a lot of you know major conflicts going on in the market right now I think investors have just turned a blind eye to it and I hope uh that they're okay but I think people should be be a little bit more careful and and knowing what they have in their portfolio we'll watch we'll watch it all Ryan thank you Ryan beler Rebecca you're with us all morning we're grateful stay with us we'll be right back

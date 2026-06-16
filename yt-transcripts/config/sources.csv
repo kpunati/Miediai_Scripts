@@ -1,3 +1,12 @@
-channel_url,channel_slug,exclude_shorts,min_duration_sec,since_date,notes
-https://youtube.com/@iShares,ishares,true,90,2020-01-01,iShares by BlackRock — educational ETF / investing content
-https://youtube.com/@StreamlineFinancial,streamlinefinancial,true,90,2024-05-16,Streamline Financial — focus on last 2 years
+channel_url,channel_slug,exclude_shorts,min_duration_sec,since_date,notes,max_videos
+https://youtube.com/@iShares,ishares,true,90,2020-01-01,iShares by BlackRock — educational ETF / investing content,
+https://youtube.com/@StreamlineFinancial,streamlinefinancial,true,90,2024-05-16,Streamline Financial — focus on last 2 years,
+https://youtube.com/@OwnershipRWM,ownershiprwm,true,90,2005-01-01,Ownership RWM — entire catalog,
+https://www.youtube.com/@TheCompoundNews,thecompoundnews,true,90,2024-06-15,Tier 1 — The Compound (Ritholtz); last 2 yrs; done at 230,230
+https://www.youtube.com/@BenFelixCSI,benfelixcsi,true,90,2024-06-15,Tier 1 — Ben Felix (Common Sense Investing); last 2 yrs,500
+https://www.youtube.com/@RootFP,rootfp,true,90,2024-06-15,Tier 1 — Root Financial (James Conole); last 2 yrs; cap 500,500
+https://www.youtube.com/@EricAtThePeakFP,ericatthepeakfp,true,90,2024-06-15,Tier 1 — Peak Financial Planning (Eric Amzalag); last 2 yrs,500
+https://www.youtube.com/@brindleandbay,brindleandbay,true,90,2024-06-15,Tier 1 — Brindle & Bay (Nick Davis); last 2 yrs,500
+https://www.youtube.com/@walserwealth,walserwealth,true,90,2024-06-15,Tier 1 — Walser Wealth (Rebecca Walser); last 2 yrs; cap 500,500
+https://www.youtube.com/@foundryfinancial,foundryfinancial,true,90,2024-06-15,Tier 1 — Foundry Financial (Kevin Lum); last 2 yrs,500
+https://www.youtube.com/@colinoverweg,colinoverweg,true,90,2024-06-15,Tier 1 — AdvizeWealth (Colin Overweg); last 2 yrs,500
