@@ -64,27 +64,56 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "CFP Kevin Lum explains how IRMAA (Income-Related Monthly Adjustment Amount) Medicare surcharges blindside retirees, using a case study of a prospect who triggered an unexpected $12,000 annual premium increase after selling a home. The video covers the 2-year lookback rule, income thresholds ($218K married/$109K single for 2026), triggers (Roth conversions, home sales, RMDs), and mitigation strategies. Retirees can appeal using Form SSA-44 if they experience qualifying life-changing events."
 topics: []
-topics_proposed: []
+topics_proposed: ["medicare-planning", "irmaa-surcharge", "tax-planning", "retirement-income", "home-sale-taxation"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Kevin Lum"
+      role: "CFP, founder of Foundry Financial"
+    - name: "Paul Harvey"
+      role: "radio personality (historical reference)"
+  companies:
+    - name: "Foundry Financial"
+      ticker: null
+    - name: "Social Security Administration"
+      ticker: null
+    - name: "Centers for Medicare and Medicaid Services"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["IRMAA", "Medicare-Part-B", "Medicare-Part-D", "modified-adjusted-gross-income", "Roth-conversion", "tax-loss-harvesting", "installment-sale"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "A prospect retired and sold his home (original cost ~$200K, sale price $1.2M) triggering $400K in taxable capital gains, pushing 2-year-prior income to $500K and causing $12,000 in annual Medicare IRMAA surcharges"
+    timestamp: "00:01:36"
+    confidence: "high"
+    flagged: true
+  - claim: "IRMAA thresholds for 2026 are $218,000 (married) or $109,000 (single); exceeding by $1 triggers extra $100/month ($1,200/year) in Part B premiums, scaling to $12,000/year for high earners"
+    timestamp: "00:04:42"
+    confidence: "high"
+    flagged: true
+  - claim: "Medicare IRMAA uses modified adjusted gross income (AGI plus tax-exempt interest) with a 2-year lookback; 2026 premiums are based on 2024 tax returns"
+    timestamp: "00:03:38"
+    confidence: "high"
+    flagged: false
+  - claim: "Age 63 (2 years before Medicare eligibility at 65) is the 'red zone' for major income events like home sales or Roth conversions because they trigger IRMAA surcharges with a 2-year lag"
+    timestamp: "00:03:38"
+    confidence: "high"
+    flagged: false
+  - claim: "IRMAA surcharges only persist for 1 year; if income drops in the following year, the surcharge falls off the next year"
+    timestamp: "00:05:44"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -94,6 +123,44 @@ notes: ""
 **Published:** 2026-01-03
 **URL:** https://youtube.com/watch?v=Ve-foUnyQp8
 **Duration:** 11:49
+
+## Summary
+
+Kevin Lum addresses a widespread retirement blind spot: IRMAA Medicare surcharges that blindside retirees. Through a case study of a prospect who sold a home for $1.2M (triggering $400K taxable gains and $12K annual surcharge), Lum explains the 2-year lookback rule, income thresholds, and triggers. He outlines four mitigation strategies (maximize 401k/403b contributions, max HSA, tax-loss harvesting, time major sales) and the appeal process using Form SSA-44 for qualifying life-changing events. Medicare planning is reframed as tax planning, not just health insurance decisions.
+
+## Key Takeaways
+
+- IRMAA is a hidden Medicare wealth tax using modified adjusted gross income (AGI + tax-exempt interest) with a 2-year lookback; your 2026 premiums are based on 2024 income, creating blind spots.
+- Thresholds for 2026 are $218K (married) / $109K (single); every dollar over triggers IRMAA, scaling from $100/month extra ($1.2K/year) to $12K/year in additional Part B and Part D premiums.
+- Age 63 is the 'red zone' (2 years before Medicare): home sales, Roth conversions, large income spikes in this window trigger surcharges 2 years later. Timing matters critically.
+- Mitigation strategies before high-income events: maximize pre-tax retirement contributions (including super catch-up ages 60-63), max HSA, harness tax-loss harvesting ($3K ordinary income, unlimited capital gains), spread major sales via installment agreements.
+- If you receive a surprise surcharge letter, you can appeal using Form SSA-44 within 60 days by documenting a qualifying life-changing event (work stoppage, reduction, spousal death); Social Security usually grants appeals when evidence is clear.
+
+## Detailed Notes
+
+### The Blind IRMAA Surcharge: Case Study [00:00:00]
+
+Kevin opens with a prospect who received a $12,000 Medicare surcharge bill and was 'practically screaming.' The prospect had retired a couple years prior, earned $100K/year during career, but sold his home (purchased for ~$200K, sold for $1.2M) within the 2-year Medicare lookback window. After using the $500K married capital gains exclusion and accounting for improvements, he had ~$400K in taxable gains, boosting 2-year-prior income to $500K. He unknowingly sold his home in the 'red zone' (63 to 65), triggering $12K in joint IRMAA surcharges via IRMAA (Income-Related Monthly Adjustment Amount).
+
+### Understanding IRMAA: The 2-Year Lookback Rule [00:02:34]
+
+IRMAA is an income-based surcharge added to Medicare Part B and Part D premiums. The mechanism uses modified adjusted gross income (AGI + tax-exempt bond interest). Critically, it employs a 2-year lookback: your 2026 premiums are based on your 2024 tax return. This creates a timing mismatch—retirees don't learn of surcharges until 2 years after triggering income events. Examples of triggers: Roth conversions, municipal bond interest, home sales, large IRA distributions, RMDs. This 2-year lag explains why the prospect's current-year low income ($0 post-retirement) didn't prevent the surcharge tied to his prior high-income year.
+
+### IRMAA Thresholds & Premium Brackets (2026) [00:04:42]
+
+Base Medicare Part B premiums for 2026 are ~$23/individual/month (~$46 for married). IRMAA surcharges apply if modified AGI exceeds thresholds: married filing jointly = $218,000; single = $109,000. Exceeding by $1 triggers a $100/month extra Part B surcharge (~$1.2K/year per individual). Surcharges scale in tiers: at $218,001-$268,000 (married), surcharge is ~$100/month per person; at highest tiers (>$918,000), surcharge reaches ~$100/month, totaling up to $12K/year in combined Part B + Part D for a married couple. This example: married couple earning $500K would hit the maximum tier.
+
+### Mitigation Strategies: Before the Income Event [00:06:35]
+
+If you're approaching high-income years before Medicare (ages 60-63), lower taxable income using: (1) Maximize pre-tax retirement contributions (401k, 403b, TSP); ages 60-63 allow super catch-up contributions, enabling significant tax deferral. (2) Max out HSA (Health Savings Account), which reduces AGI dollar-for-dollar. (3) Tax-loss harvesting: sell underperforming stocks to offset up to $3K of ordinary income per year; unlimited losses can offset capital gains. (4) Time major sales carefully: if selling a home or business, try to do it before age 63 (outside the red zone) or spread sales across years using installment agreements to avoid a single spike.
+
+### Appeal Process: Form SSA-44 [00:08:30]
+
+If you've already received the surcharge letter, you can appeal, but only with a qualifying life-changing event. The big three: work stoppage (retirement), work reduction (part-time), or death of spouse. Process: (1) Download Form SSA-44 from Social Security website. (2) Attach proof of life-changing event (employer retirement letter, final payslip, etc.). (3) Estimate current-year income realistically. (4) Submit within 60 days of receiving IRMAA notice. Social Security is 'usually pretty reasonable' about removing surcharges when qualifying events are documented. Even if appeal is denied, remember IRMAA only lasts one year; if income drops, surcharge falls off the next year.
+
+### Strategic Insight: Medicare as Tax Planning [00:10:22]
+
+Kevin reframes Medicare not as a health-insurance-only decision but as a tax-planning decision. Retirees spend careers growing income and portfolios, then face surprise taxes on income they no longer earn. The system rewards those who plan ahead, timing major events, managing Roth conversions, and understanding the 2-year lookback. Missing this coordination creates preventable $12K surprises in early retirement.
 
 ## Transcript
 

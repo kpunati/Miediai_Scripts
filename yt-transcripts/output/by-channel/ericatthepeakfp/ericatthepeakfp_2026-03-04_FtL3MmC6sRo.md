@@ -35,27 +35,48 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Video explains how the Claiming Age Clarity Act uses intentionally manipulative label changes (delayed retirement credits → maximum monthly benefit age, early eligibility age → minimum monthly benefit age) to subtly nudge people into claiming Social Security later without addressing the underlying 2034 trust fund depletion crisis."
 topics: []
-topics_proposed: []
+topics_proposed: ["social-security-policy", "government-regulation", "retirement-planning", "behavioral-nudging", "policy-critique"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, Financial Advisor"
+  companies:
+    - name: "Social Security Administration"
+      ticker: null
+    - name: "Peak Financial Planning Inc"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Claiming Age Clarity Act"]
+  concepts: ["Social Security trust fund", "retirement benefits", "claiming age", "behavioral manipulation", "policy messaging"]
+content_type: "opinion"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Social Security combined trust funds projected to be depleted by 2034 with automatic benefit cuts of 17-20%"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Claiming Age Clarity Act changes three labels without addressing underlying funding issues"
+    timestamp: "00:01:39"
+    confidence: "high"
+    flagged: false
+  - claim: "The label changes deliberately use aspirational language to nudge delayed claiming"
+    timestamp: "00:02:42"
+    confidence: "high"
+    flagged: false
+  - claim: "Social Security system contains complex rules like earnings tests, tax torpedoes, IRMA surcharges"
+    timestamp: "00:03:24"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -65,6 +86,41 @@ notes: ""
 **Published:** 2026-03-04
 **URL:** https://youtube.com/watch?v=FtL3MmC6sRo
 **Duration:** 6:01
+
+## Summary
+
+Eric Amzalag critiques the Claiming Age Clarity Act as a marketing manipulation masquerading as policy clarity. The bill replaces neutral terminology with aspirational language (delayed retirement credits becomes maximum monthly benefit age) to encourage later claiming without solving Social Security's fundamental 2034 solvency crisis. He argues the relabeling is politically convenient misdirection rather than genuine reform.
+
+## Key Takeaways
+
+- The Claiming Age Clarity Act uses intentionally biased label changes to nudge claiming behavior without addressing real funding problems.
+- Age 70 reframing from delayed (gamble) to maximum (aspirational) makes waiting sound like the smartest choice rather than one option.
+- Age 67 shift from full retirement age to standard monthly benefit age makes it sound average and inferior rather than a completion point.
+- Age 62 language change from early eligibility to minimum monthly benefit age reframes an option as desperation.
+- Real Social Security reform requires tackling taxes, benefits, retirement age, or beneficiary numbers; instead Congress uses marketing language.
+- Claiming decisions should be based on personal financial plans and health, not government-designed psychological nudging.
+
+## Detailed Notes
+
+### Social Security Solvency Crisis & Problem Statement [00:00:00]
+
+Combined trust funds projected to deplete by 2034, triggering automatic 17-20% benefit cuts without Congressional action. Political dysfunction prevents meaningful solutions around raising taxes, cutting benefits, or raising retirement age.
+
+### The Claiming Age Clarity Act & Label Changes [00:01:02]
+
+Bipartisan bill changes three key descriptors: delayed retirement credits becomes maximum monthly benefit age; full retirement age becomes standard monthly benefit age; early eligibility age becomes minimum monthly benefit age. Each change subtly pushes people toward later claiming.
+
+### Psychological Nudging Through Language [00:01:39]
+
+Delayed sounds like a gamble; maximum is aspirational. Full sounds like completion; standard sounds like settling. Early sounds like an opportunity; minimum sounds like desperation. The pattern across all three labels consistently nudges toward age 70.
+
+### Why This Is Manipulation Not Reform [00:03:24]
+
+Social Security already suffers from extreme complexity with earnings tests, tax torpedoes, and IRMA surcharges. Relabeling doesn't address this; true reform would simplify formulas and tax rules. Relabeling is a band-aid on a system with a thousand holes.
+
+### Individual Decision-Making Should Come First [00:04:12]
+
+For many people delaying Social Security is correct, but decision should derive from personal financial plan, health, income sources, and spending needs—not government-designed behavioral nudging that benefits the system rather than individuals.
 
 ## Transcript
 

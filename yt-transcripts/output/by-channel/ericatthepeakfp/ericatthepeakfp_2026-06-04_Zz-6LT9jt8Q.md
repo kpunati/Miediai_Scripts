@@ -37,24 +37,39 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Financial advisor explains a systematic framework for determining the maximum Roth conversion amount that a retirement plan can afford based on surplus spending capacity rather than tax bracket optimization alone."
 topics: []
-topics_proposed: []
+topics_proposed: ["roth-conversion", "retirement-planning", "tax-planning", "withdrawal-strategy", "financial-advice"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, financial advisor"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["safe spending capacity", "retirement surplus", "guardrails-based planning", "tax cost calculation", "survivor tax trap", "marginal tax rate"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "The formula for conversion amount is: annual surplus divided by marginal tax rate"
+    timestamp: "00:03:22"
+    confidence: "high"
+    flagged: false
+  - claim: "A Roth conversion is an investment paying certain tax today for uncertain future benefits"
+    timestamp: "00:05:03"
+    confidence: "high"
+    flagged: false
+  - claim: "Never fund an uncertain tax benefit by sacrificing quality of life today"
+    timestamp: "00:05:03"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: []
@@ -67,6 +82,36 @@ notes: ""
 **Published:** 2026-06-04
 **URL:** https://youtube.com/watch?v=Zz-6LT9jt8Q
 **Duration:** 9:01
+
+## Summary
+
+Financial advisor Eric Amzalag presents a two-step framework for determining Roth conversion amounts. Rather than focusing solely on tax brackets, the approach first calculates safe spending surplus using guardrails-based financial planning, then applies a simple formula (surplus divided by marginal tax rate) to determine affordable conversion amounts. The advisor emphasizes that conversions should only proceed when they solve an identifiable planning problem, such as addressing the survivor tax trap for married couples.
+
+## Key Takeaways
+
+- Determine safe spending capacity using modern financial planning tools that identify the maximum you can safely spend annually without jeopardizing your long-term plan
+- Calculate surplus by subtracting actual desired lifestyle costs from safe spending capacity
+- Apply the formula: annual surplus divided by marginal tax rate equals the affordable conversion amount
+- Only fund conversions with surplus money; if your plan has zero surplus, your conversion budget should be zero
+- A Roth conversion should address a specific planning problem such as tax bracket compression for surviving spouses, not simply because Roth accounts sound appealing
+
+## Detailed Notes
+
+### The Permission Problem and Safe Spending Capacity [00:00:00]
+
+Many retirees ask how much to convert but fear making mistakes, leading to either inaction or excessive conversions. The real question is how much can be converted without sacrificing retirement quality of life. Using guardrails-based planning tools, advisors identify safe spending capacity—the maximum amount that can be safely spent annually without jeopardizing the long-term plan.
+
+### Calculating Surplus and Conversion Amount [00:01:02]
+
+Safe spending capacity is compared against actual desired expenses to determine surplus. For example, if safe spending is $140,000 and desired lifestyle costs $118,000, the surplus is $22,000. This surplus is then divided by the marginal tax rate (e.g., 22% bracket) to determine the affordable conversion amount ($22,000 ÷ 0.22 = $100,000). This formula removes ambiguity from the conversion decision.
+
+### Rule One: Never Sacrifice Quality of Life for Uncertain Tax Benefits [00:05:03]
+
+A Roth conversion is an investment with a certain cost (taxes paid today) but uncertain benefits (future tax savings). The cost is guaranteed while the payoff is uncertain in both timing and magnitude. Therefore, conversions should only be funded with surplus money the plan has already proven is extra. If your plan shows zero surplus, your conversion budget should be zero, regardless of advice to convert into specific tax brackets.
+
+### Rule Two: Conversions Must Solve an Identifiable Problem [00:06:49]
+
+Affording a conversion is not the same as needing one. Conversions should address specific planning problems: surviving spouses facing single-filer tax brackets, large future RMDs, or anticipated tax bracket compression. The example discusses the survivor tax trap where a surviving spouse would face much higher tax brackets if the primary earner passes away. Converting at the current lower married-filing-jointly rate protects against this future problem.
 
 ## Transcript
 

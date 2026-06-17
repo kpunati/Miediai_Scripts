@@ -63,24 +63,39 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Kevin Lum identifies six key people to consult when preparing for retirement: spouse, adult children, doctor, HR department, sibling, and financial adviser, with specific questions to ask each to ensure comprehensive planning."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "life-planning", "family-communication", "healthcare-planning", "financial-advising"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Kevin Lum"
+      role: "Certified Financial Planner"
+  companies:
+    - name: "Foundry Financial"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["401k", "Traditional IRA", "Cobra health insurance", "pension plan"]
+  concepts: ["retirement readiness", "spouse alignment", "family proximity", "health considerations", "HR support", "financial advising", "purpose in retirement", "portfolio management"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Many couples nearing retirement are not on the same page regarding retirement timing and goals"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "One's health is the most important asset in retirement, more so than financial assets"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Most people who experience declining happiness in early retirement were focused on escaping their job rather than having a clear vision of what they were retiring to"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: ["unpunctuated_captions"]
@@ -93,6 +108,50 @@ notes: ""
 **Published:** 2024-11-23
 **URL:** https://youtube.com/watch?v=fIBL1yI60uU
 **Duration:** 10:08
+
+## Summary
+
+Kevin Lum recommends consulting six key people before retiring: your spouse (to ensure alignment on timing and lifestyle), adult children (to understand where grandchildren will be), your doctor (for health insights), HR department (to organize benefits and rollovers), a sibling (for honest self-assessment), and a financial adviser (to verify feasibility). He emphasizes asking specific questions of each group and concludes by stressing the importance of identifying your retirement purpose.
+
+## Key Takeaways
+
+- Couples often have misaligned retirement visions; early conversations with spouse prevent surprises and allow for compromise
+- Proximity to family, especially children and siblings, significantly impacts retirement happiness and should factor into location decisions
+- Doctors can offer insights into health trajectories and lifestyle factors affecting long-term retirement success
+- HR departments are invaluable for navigating complex benefits, rollovers, and health insurance transitions during retirement
+- Close siblings can provide honest feedback about personal strengths and weaknesses that may impact retirement adjustment
+- Financial advisers help verify retirement feasibility and coordinate multiple planning pieces, especially crucial in first few years
+- Defining what you are retiring to, not just retiring from, is essential to avoid post-retirement decline in happiness
+
+## Detailed Notes
+
+### Spouse Alignment and Common Ground [00:00:00]
+
+Many couples approach retirement with different visions. One spouse may be in a winding-down phase (home, gardening) while the other is in a gearing-up phase (travel, new activities). The key is identifying where goals converge. Initiating conversation with the question when do you want to retire helps surface expectations early.
+
+### Adult Children and Family Proximity [00:00:00]
+
+Knowing where adult children and grandchildren will be living helps shape retirement location decisions. Many find that proximity to family becomes increasingly important in retirement. Understanding their plans early allows retirement housing decisions to align with family relationships.
+
+### Medical Insights and Health Planning [00:00:00]
+
+Doctors accumulate substantial experience observing how people adjust to retirement and can identify health trajectories or lifestyle patterns relevant to individual planning. Key questions include traits of successful retirees and any health concerns the patient may be overlooking.
+
+### HR Support for Benefit Transitions [00:00:00]
+
+HR departments are critical for managing complex retirement transitions including pension options, health insurance coverage, Cobra, and 401k rollovers to traditional IRAs. Establishing this relationship before retirement allows proper planning and smoother transitions.
+
+### Sibling Perspective and Self-Assessment [00:00:00]
+
+Siblings know a person's strengths and weaknesses better than most and will provide honest feedback. Asking what will be most challenging in retirement elicits candid insights unavailable from more formal advisers or acquaintances.
+
+### Financial Adviser as Coordinator [00:00:00]
+
+Financial advisers help verify retirement feasibility and coordinate multiple planning elements. They can identify traits of successful retirees and provide concrete answers to whether retirement is financially sustainable, offering stability during the critical pre- and post-retirement transition period.
+
+### Personal Reflection: Retiring To vs. From [00:00:00]
+
+Many people focus on escaping their job without defining what they are retiring to. This absence of purpose often leads to early retirement unhappiness. Creating structure, developing hobbies or volunteer work, and visualizing a positive retirement identity prevent post-retirement decline.
 
 ## Transcript
 

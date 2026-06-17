@@ -33,24 +33,45 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Identifies five critical warning signs that indicate a retirement plan may not sustain past age 70: excessive debt repayment obligations, aggressive withdrawal strategies (8-10% annually), suboptimal portfolio allocation, lack of emergency cash reserves outside of tax-deferred accounts, and inadequate healthcare cost planning. Provides specific mitigation strategies for each risk."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-risk", "withdrawal-strategy", "portfolio-allocation", "emergency-fund", "healthcare-planning"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, financial planner"
+    - name: "Dave Ramsey"
+      role: "financial entertainer"
+    - name: "Sheri"
+      role: "client example"
+  companies:
+    - name: "Brindle & Bay"
+      ticker: null
+    - name: "T. Rowe Price"
+      ticker: null
+  tickers: ["FXAIX"]
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["401k", "Traditional IRA", "HSA", "S&P 500"]
+  concepts: ["withdrawal-rate", "sequence-of-returns", "portfolio-rebalancing", "tax-loss-harvesting", "Medicare-planning", "debt-elimination"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Popular financial entertainers promote 8-10% withdrawal rates, but almost every academic says this is unsustainable long-term"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Recommended emergency savings should equal 6 months of portfolio withdrawals in FDIC-insured accounts separate from tax-deferred accounts"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "S&P 500 index is market-cap weighted, meaning largest companies dominate and can create severe volatility when underperforming"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: ["unpunctuated_captions"]
@@ -63,6 +84,40 @@ notes: ""
 **Published:** 2024-07-07
 **URL:** https://youtube.com/watch?v=-g11gOE-bJI
 **Duration:** 11:44
+
+## Summary
+
+This educational video outlines five critical risk factors that can derail retirement plans. Nick Davis presents each warning sign with practical solutions, ranging from debt management strategies to withdrawal rate selection, portfolio diversification, emergency fund requirements, and healthcare planning. The video emphasizes that most people have not been adequately educated about these risks despite their prevalence in financial planning consultations.
+
+## Key Takeaways
+
+- High debt repayment obligations entering retirement create significant cash flow drag; use automated debt elimination calculators and aggressive payoff strategies before retiring
+- Withdrawal rates above 4% (particularly 8-10% promoted by some entertainers) create dangerous vulnerability to sequence-of-returns risk during market downturns
+- Portfolio allocation directly impacts volatility and income; S&P 500 concentration can create concentration risk; proper rebalancing requires courage to buy underperformers
+- Emergency reserves of 6 months withdrawals in non-qualified accounts prevent forced taxable IRA withdrawals and enable opportunistic decisions like downsizing
+- Healthcare cost planning must address three distinct phases: pre-Medicare gaps, Medicare premiums and out-of-pocket costs, and long-term care needs
+
+## Detailed Notes
+
+### Sign 1: Excessive Debt Repayment Obligations [00:00:00]
+
+Some people accumulate debt just before retirement, subconsciously trying to use it all before stopping work. The solution involves three steps: use dinkytown.net snowball debt calculator, accelerate payments by determining sustainable monthly increase, and set up automatic payments to ensure consistency. Automation has proven powerful for both debt payoff and retirement savings through 401ks.
+
+### Sign 2: Aggressive Withdrawal Strategies [00:00:00]
+
+8-10% withdrawal rates promoted by some popular entertainers are considered unsustainable by academic research. Multiple strategies exist: inflation-adjusted, 4% rule, bucket strategy, spending stages, spending smile, floor-ceiling, and guard rails. Risk-based guard rails with retirement spending smile is recommended as the superior strategy because it monitors steady income and indicates when to spend more or adjust downward.
+
+### Sign 3: Suboptimal Portfolio Allocation [00:00:00]
+
+Many people do not actively manage allocation across multiple accounts. S&P 500 as primary holding creates market-cap weight concentration where largest companies dominate, causing severe volatility during downturns. Proper allocation emphasizes diversification and rebalancing. Including dividend-paying investments versus growth-only can materially reduce volatility. Rebalancing requires courage to sell winners and buy underperformers.
+
+### Sign 4: No Emergency Funding Outside Tax-Deferred Accounts [00:00:00]
+
+All assets in Traditional IRAs or 401ks forces taxable withdrawals or penalties when cash is needed unexpectedly. Recommended approach: establish 6 months of portfolio withdrawals in FDIC-insured non-qualified accounts. If 3 years from retirement, divide this target by 36 months for monthly savings goals. Emergency reserves enable opportunistic decisions like downsizing and avoid forced IRA withdrawals at unfavorable tax rates.
+
+### Sign 5: Inadequate Healthcare Cost Planning [00:00:00]
+
+Healthcare planning requires addressing three distinct areas: preparation before Medicare through HSA contributions for pre-Medicare gaps, budgeting for Medicare premiums and out-of-pocket costs during retirement, and planning for long-term care needs. Medicare premiums are predictable and can be incorporated into financial narrative. Out-of-pocket costs can be estimated using historical data at 75th or 90th percentile.
 
 ## Transcript
 

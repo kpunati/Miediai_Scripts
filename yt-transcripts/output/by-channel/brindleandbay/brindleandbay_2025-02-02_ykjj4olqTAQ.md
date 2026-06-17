@@ -43,24 +43,43 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Financial advisor discusses how retirement timing is the critical decision affecting retirement success. Explores factors including health, Social Security claiming strategy, lifestyle quality, financial security, tax implications, and inflation risk. Presents case study of Sarah, a nurse navigating early retirement options with health and income constraints."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-timing", "social-security-strategy", "retirement-planning", "health-care-costs", "healthcare-bridge-employment"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, financial advisor"
+    - name: "Sarah"
+      role: "nurse, case study"
+    - name: "TI executive"
+      role: "bridge employment example"
+  companies:
+    - name: "TI"
+      ticker: "TXN"
+  tickers: ["TXN"]
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["401k", "IRA", "Medicare", "Social Security"]
+  concepts: ["Medicare eligibility", "Social Security claiming strategy", "bridge employment", "sequence of returns risk", "Roth conversions", "required minimum distributions", "long-term care insurance", "pension"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Research shows younger people expect to retire earlier than they actually will, and older people expect to retire later than they will"
+    timestamp: "00:04:12"
+    confidence: "high"
+    flagged: false
+  - claim: "Medicare eligibility doesn't begin until age 65, potentially making medical costs abnormally high before then"
+    timestamp: "00:01:03"
+    confidence: "high"
+    flagged: false
+  - claim: "Medicare does not cover extended periods of custodial care"
+    timestamp: "00:09:26"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: ["unpunctuated_captions"]
@@ -73,6 +92,44 @@ notes: ""
 **Published:** 2025-02-02
 **URL:** https://youtube.com/watch?v=ykjj4olqTAQ
 **Duration:** 12:23
+
+## Summary
+
+The video identifies retirement timing as the single most critical decision affecting retirement success. It examines multiple factors that impact this decision: health status, Social Security claiming timing, quality of life, financial security, tax optimization, and inflation/market risk. The bulk of the video presents Sarah's case, a 58-year-old nurse with $500k in savings who struggled with deciding whether to retire at 61 or work longer, balancing health concerns, Medicare eligibility, and lifestyle goals.
+
+## Key Takeaways
+
+- Research shows younger people underestimate retirement age and older people overestimate it due to health, economic, and family shocks
+- Poor health forces earlier retirement by limiting work capacity, while healthcare costs increase significantly before Medicare eligibility at 65
+- Social Security claiming timing should be based on individual needs and longevity outlook, not arbitrary early or maximum delay strategies
+- Bridge employment—transitioning to part-time or different work—can solve shortfalls without sacrificing retirement quality
+- Long-term care insurance or earmarked savings are essential for single retirees since Medicare doesn't cover extended custodial care
+
+## Detailed Notes
+
+### Research Insights on Retirement Timing Expectations [00:01:03]
+
+A research paper studying actual versus expected retirement timing revealed that younger people expect to retire earlier than they actually will, while older people expect to retire later than they likely will. This discrepancy stems from three types of life shocks: health shocks (illness, reduced capacity), economic shocks (layoff), and family shocks (caregiving obligations).
+
+### Health and Healthcare Implications [00:01:03]
+
+People in poor health may need to retire earlier due to inability to work longer. However, Medicare doesn't begin until age 65, requiring private insurance coverage before then. Pre-existing conditions requiring ongoing treatment make early retirement particularly expensive if timing doesn't align with Medicare eligibility.
+
+### Social Security Claiming Strategy [00:01:03]
+
+Timing Social Security is critical but requires balancing longevity outlook, income needs, and financial stress. Delaying too long creates stress; claiming too early forgoes future benefits. Waiting until age 67 versus claiming at 65 may significantly impact monthly benefits depending on individual circumstances and life expectancy.
+
+### Quality of Life vs. Financial Security [00:02:06]
+
+Working longer provides financial security and peace of mind but can strain mental and physical health, especially for demanding jobs. The trade-off between additional income from continued work and retirement freedom to pursue family, hobbies, and activities while young must be carefully weighed.
+
+### Case Study: Sarah's Retirement Decision [00:05:15]
+
+Sarah, 58, a nurse with $500k saved (401k and IRA) and an ex-husband's modest pension, wanted to retire at 61 to spend time with grandchildren and visit Europe. Key obstacles: no Medicare until 65 (requiring private insurance), insufficient income from combined savings and pension, and pre-existing health conditions requiring ongoing treatment.
+
+### Sarah's Solution: Bridge Employment and Clarified Choices [00:08:23]
+
+After financial analysis, advisors found Sarah could either work full-time until 63 or part-time until 65 to bridge the gap. She chose to work part-time at 61 until 65, covering private healthcare costs until Medicare eligibility. Recommendations included budgeting $400/month spending reduction, exploring long-term care insurance (since Medicare doesn't cover extended custodial care), and delaying Social Security to age 67.
 
 ## Transcript
 

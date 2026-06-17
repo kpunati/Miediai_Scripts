@@ -57,27 +57,46 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Comprehensive guide to choosing asset allocations by balancing three dimensions of risk: behavioral loss tolerance (psychological comfort), risk-taking ability (financial capacity), and need for risk (return requirements). Explains how long-term investors should understand that stocks can be less risky than bonds at extended horizons due to serial dependence and inflation dynamics."
 topics: []
-topics_proposed: []
+topics_proposed: ["asset-allocation", "risk-tolerance", "behavioral-finance", "portfolio-construction", "equity-bond-allocation", "long-term-investing"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Ben Felix"
+      role: "Chief Investment Officer at PWL Capital"
+  companies:
+    - name: "PWL Capital"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["behavioral-loss-tolerance", "risk-taking-ability", "need-for-risk", "asset-allocation", "human-capital", "serial-dependence", "negative-autocorrelation", "positive-autocorrelation", "compensated-risk", "uncompensated-risk", "financial-knowledge", "risk-composure", "time-horizon", "liquidity-needs"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "At PWL, high risk tolerance scores are mapped to 70-100% equity portfolios"
+    timestamp: "00:04:08"
+    confidence: "high"
+    flagged: true
+  - claim: "Men tend to overestimate their risk tolerance while women tend to underestimate it"
+    timestamp: "00:04:08"
+    confidence: "high"
+    flagged: false
+  - claim: "For a low-risk tolerance investor concerned about inflation-adjusted wealth, optimal equity allocation moves from 20% at one-year horizon to 50% at 20-year horizon"
+    timestamp: "00:10:22"
+    confidence: "medium"
+    flagged: true
+  - claim: "PWL Capital's expected return for a 100% equity portfolio is just under 7%"
+    timestamp: "00:07:15"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -87,6 +106,44 @@ notes: ""
 **Published:** 2025-02-02
 **URL:** https://youtube.com/watch?v=p25PPBgMiEk
 **Duration:** 13:05
+
+## Summary
+
+This educational video breaks down how to choose an appropriate asset allocation between stocks and bonds by evaluating three key dimensions: behavioral loss tolerance (your psychological comfort with volatility), risk-taking ability (your financial capacity to hold risky assets without needing to access them), and need for risk (whether you actually require high returns to meet your goals). Ben Felix emphasizes that while conventional financial industry framing treats risk as short-term volatility, long-term investors should understand that stocks can actually be safer than bonds over extended periods due to their positive expected returns and ability to outpace inflation despite higher year-to-year volatility. The optimal allocation depends on all three dimensions working together, not just one.
+
+## Key Takeaways
+
+- Behavioral loss tolerance—your ability to stay calm during portfolio declines—is a binding constraint on asset allocation; you must be able to stick with your strategy through bad times.
+- Risk-taking ability depends on three elements: time horizon before you need the money, ongoing liquidity needs, and capacity to absorb losses without compromising lifestyle.
+- Long-term investors with stable human capital (reliable employment income uncorrelated with market returns) can afford higher equity allocations because their income acts as a bond-like anchor.
+- Stocks exhibit negative autocorrelation (bad years followed by good years) while nominal bonds show positive autocorrelation, making stocks less risky than bonds for very long horizons despite higher short-term volatility.
+- Compensated risks (stocks vs. bonds, diversified equity exposure) should be preferred over uncompensated risks (single-stock bets, concentrated sector positions) because only compensated risks have positive expected returns.
+
+## Detailed Notes
+
+### The three dimensions of risk profile [00:01:02]
+
+Risk profile comprises behavioral loss tolerance (psychological ability to withstand declines), risk-taking ability (financial capacity to hold risky assets), and need for risk (whether high returns are necessary to achieve goals). Each dimension is independent; you must evaluate all three to determine appropriate risk.
+
+### Behavioral loss tolerance and psychometric assessment [00:02:03]
+
+Six elements make up behavioral loss tolerance: risk tolerance (willingness to accept uncertain outcomes), risk preference (relative desire for risk), financial knowledge, investing experience, risk perception, and risk composure (actual behavior in declines). Psychometric questionnaires can reliably measure these tendencies. Research shows men and younger investors tend to overestimate tolerance while women underestimate it.
+
+### Risk-taking ability: time, liquidity, and capacity [00:05:09]
+
+Risk-taking ability breaks into three components: longer time horizons allow more risk; lower ongoing liquidity needs (frequent portfolio withdrawals) support higher equity allocation; and sufficient other assets or income (beyond what's being invested) provide a safety net. Human capital—your ability to earn stable employment income—effectively acts as a bond-like asset, improving your ability to take financial risk.
+
+### Need for risk and goal-based planning [00:07:15]
+
+Even if you have high behavioral tolerance and high financial capacity, you may not need to take much risk. Calculate the return required to meet your actual goals. If a low-risk portfolio will achieve your objectives, there is no reason to take additional risk seeking higher returns. Conversely, if your goal requires unrealistically high returns, it may be better to revise the goal than chase excessive risk.
+
+### Risk at long horizons: serial dependence and autocorrelation [00:08:17]
+
+Short-term volatility (day-to-day price swings) is not the only relevant measure of risk. Stocks exhibit negative autocorrelation—bad years followed by good years, reducing long-term risk for buy-and-hold investors. Nominal bonds show positive autocorrelation (bad periods persist, often during inflation), making them riskier at long horizons. For long-term investors concerned with real (inflation-adjusted) wealth, higher equity allocations can actually be safer than bond-heavy portfolios, despite higher short-term volatility.
+
+### Compensated vs. uncompensated risk [00:11:27]
+
+Compensated risks (equity premiums over bonds, small-cap value premiums, diversified exposure to established return factors) have positive expected returns. Uncompensated risks (concentrated individual stock or sector positions) lack positive expected returns and should be diversified away rather than held for speculation. Leverage amplifies both gains and losses but doesn't change risk-return fundamentals.
 
 ## Transcript
 

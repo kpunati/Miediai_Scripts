@@ -45,27 +45,52 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser discusses economic uncertainty and entering 'no man's land' amid energy crisis and AI disruption. Subprime delinquency rates at 11-year highs (10% of outstanding debt); K-shaped economy worsening with disproportionate impact on lower-income consumers. She advocates for proactive economic planning as AI replaces jobs across sectors."
 topics: []
-topics_proposed: []
+topics_proposed: ["subprime-loans", "k-shaped-economy", "energy-crisis", "ai-disruption", "consumer-stress", "economic-policy"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Rebecca Walser"
+      role: "Wealth management president"
+    - name: "Scott Shellady"
+      role: "Host"
+  companies:
+    - name: "Walser Wealth Management"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["subprime delinquency", "K-shaped economy", "financial stress", "oil embargo", "Fourth Industrial Revolution", "AI disruption", "universal basic income", "consumer spending", "employment displacement"]
+content_type: "interview"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Subprime loan delinquency rate at 10% of total outstanding debt, highest in 11 years"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Delinquency rate more than tripled since 2021 when pandemic forbearance programs ended"
+    timestamp: "00:00:45"
+    confidence: "high"
+    flagged: true
+  - claim: "CPI was 9.1% in 2022 under last administration"
+    timestamp: "00:04:41"
+    confidence: "high"
+    flagged: true
+  - claim: "Predictive markets show 80% probability Trump loses midterms"
+    timestamp: "00:05:14"
+    confidence: "medium"
+    flagged: false
+  - claim: "Crude oil futures for December trading in 70s, indicating market expects conflict resolution"
+    timestamp: "00:06:16"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +100,45 @@ notes: ""
 **Published:** 2026-04-07
 **URL:** https://youtube.com/watch?v=ynUWskWyYZU
 **Duration:** 7:18
+
+## Summary
+
+Rebecca Walser joins Scott Shellady to discuss economic uncertainty as the US navigates both an energy crisis and AI-driven disruption. Subprime loan delinquency rates have reached 11-year highs at 10% of outstanding debt, a far broader issue than the 2008 financial crisis which focused on mortgage-backed securities. The K-shaped economy persists and may be worsening, disproportionately affecting lower-income consumers who spend a larger percentage of their budgets on energy and transportation. Walser emphasizes the need for proactive government planning around AI job displacement before widespread economic damage occurs.
+
+## Key Takeaways
+
+- Subprime delinquency at 10% of outstanding debt represents 11-year high and differs fundamentally from 2008 crisis
+- Energy crisis disproportionately impacts lower-income consumers who spend higher budget percentages on fuel and transportation
+- K-shaped economy persists and may worsen as both energy and AI disruption hit lower-income earners simultaneously
+- Subprime borrowers differ from 2008 crisis—these are broader economic stress signals across consumer credit
+- AI disruption requires proactive economic planning and long-term sustainable solutions, not pandemic-style stimulus
+- Oil embargo of 1970s provides historical comparison for inflation and economic impact of sustained energy crisis
+
+## Detailed Notes
+
+### Subprime Delinquency & Consumer Stress [00:00:00]
+
+Subprime loan delinquency rate reached 10% of total outstanding debt, the highest level in 11 years. This represents financial stress among US consumers intensifying. Subprime loans target borrowers with credit scores below 660 who were already high-risk at origination. Unlike 2008, this crisis affects broader consumer credit, not just mortgages.
+
+### Post-Pandemic Delinquency Surge [00:00:45]
+
+Delinquency rate more than tripled since 2021 when pandemic-era forbearance programs expired, allowing borrowers to delay payments without delinquency marks. Current conditions show consumer stress returning as government support ended and new economic shocks emerge.
+
+### Energy Crisis Impact on K-Shaped Economy [00:01:47]
+
+Oil and energy prices disproportionately impact lower-income households as a larger percentage of their budgets go to fuel, transportation, and travel. Easter travel and road trips now face higher fuel surcharges. The K-shaped economy persists with upper-income less affected while lower-income faces compounding pressures.
+
+### AI Disruption Without Planning [00:02:49]
+
+Fourth Industrial Revolution AI adoption is rapid, with data center buildout and AI adoption accelerating employment displacement across levels. No comprehensive government advisory team has modeled post-disruption scenarios or proactive solutions. Walser advocates for economic analysis before widespread job displacement occurs rather than reactive stimulus.
+
+### Comparison to 2008 & Policy Response [00:04:41]
+
+Current situation differs from 2008 Global Financial Crisis; broader consumer economy affected rather than mortgage-backed securities. CPI hit 9.1% in 2022, contributing to current affordability crisis. Solutions must be economically sustainable long-term, not pandemic-style government stimulus which increases taxpayer burden.
+
+### Market Expectations & Resolution [00:06:16]
+
+Crude oil futures for December trade in the 70s, indicating market expects Iran conflict to resolve quickly. President needs conflict resolution before midterms. Betting markets show 80% probability Trump loses midterms, adding pressure for rapid oil price normalization.
 
 ## Transcript
 

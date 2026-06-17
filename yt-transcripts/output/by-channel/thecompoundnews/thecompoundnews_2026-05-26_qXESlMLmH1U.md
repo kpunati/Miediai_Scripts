@@ -50,24 +50,43 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Launch event for the Porterhouse Portfolio Strategy, a new investment strategy from Ritholtz Wealth Management developed through Franklin Templeton/O'Shaughnessy Asset Management. Combines 30 years of experience with quantitative factor analysis and data-driven approaches to select high-quality stocks."
 topics: []
-topics_proposed: []
+topics_proposed: ["portfolio-strategy", "investment-management", "quantitative-analysis", "wealth-management"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Josh Brown"
+      role: "portfolio manager/speaker"
+    - name: "Michael Batnick"
+      role: "speaker"
+  companies:
+    - name: "Ritholtz Wealth Management"
+      ticker: null
+    - name: "Franklin Templeton"
+      ticker: null
+    - name: "O'Shaughnessy Asset Management"
+      ticker: null
   tickers: []
-  funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  funds:
+    - name: "Porterhouse Portfolio Strategy"
+      ticker: null
+  products: ["CANVAS"]
+  concepts: ["factor-based investing", "quantitative analysis", "stock selection"]
+content_type: "news"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Porterhouse Portfolio Strategy combines 30 years of experience with cutting-edge tools and centuries of stock market risk and return data"
+    timestamp: "00:00:46"
+    confidence: "high"
+    flagged: false
+  - claim: "Strategy uses quantitative factors and data-driven, evidence-based, rules-based approaches to identify quality businesses"
+    timestamp: "00:01:21"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: []
@@ -80,6 +99,32 @@ notes: ""
 **Published:** 2026-05-26
 **URL:** https://youtube.com/watch?v=qXESlMLmH1U
 **Duration:** 3:14
+
+## Summary
+
+Ritholtz Wealth Management launched the Porterhouse Portfolio Strategy, a new investment offering developed in partnership with Franklin Templeton/O'Shaughnessy Asset Management. The strategy integrates 30 years of practical portfolio management experience with quantitative factor analysis and cutting-edge tools to select quality stocks. Named after the premium Porterhouse steak cut, the strategy emphasizes data-driven, evidence-based selection of fundamentally sound businesses using rules-based quantitative approaches.
+
+## Key Takeaways
+
+- The Porterhouse Portfolio Strategy represents a fusion of traditional portfolio expertise with modern quantitative factor analysis and computational tools.
+- The strategy prioritizes objectivity through quantitative factors while seeking to identify genuinely high-quality businesses with strong fundamentals.
+- Ritholtz Wealth Management's team and Franklin Templeton/O'Shaughnessy's expertise share a commitment to evidence-based, data-driven, rules-based investment methodology.
+- The strategy is newly launched with no historical performance record, requiring prospective investors to evaluate it on its merits rather than past returns.
+- The partnership demonstrates how established wealth managers integrate advanced analytical tools and factor-based approaches to implement investment strategies.
+
+## Detailed Notes
+
+### Strategy Introduction and Naming [00:00:02]
+
+Josh Brown explains the Porterhouse name derives from 1800s New York taverns that paired porter beer with premium steaks. The name reflects the strategy's positioning as a premium offering combining proven investment philosophy with modern quantitative tools. The strategy is grounded in 30 years of market experience and centuries of historical stock market data.
+
+### Quantitative Factor Approach [00:01:21]
+
+Michael Batnick discusses how quantitative factors bring objectivity to investment selection. The team worked with Franklin Templeton/O'Shaughnessy to develop a strategy focusing on identifying quality businesses. Despite initial internal development efforts, they determined a partnership approach would better leverage specialized expertise in quantitative and factor-based analysis.
+
+### Partnership and Collaboration [00:01:59]
+
+The speakers highlight the strong working relationship between Ritholtz and Franklin Templeton teams. Both organizations share commitment to data-driven, evidence-based, rules-based investment approaches. The partnership reflects mutual understanding of investment objectives and commitment to serving client interests through rigorous analytical methodology.
 
 ## Transcript
 

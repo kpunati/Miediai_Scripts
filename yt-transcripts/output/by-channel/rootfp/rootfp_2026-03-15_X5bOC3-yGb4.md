@@ -68,24 +68,45 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "James Conole discusses the psychological and emotional phases of retirement beyond financial planning, presenting research-backed insights on how retirees experience a honeymoon phase followed by disillusionment and identity loss. He advocates shifting focus from lifespan to healthspan, avoiding three common retirement traps, and creating intentional daily rhythms around relationships, health, and purpose."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-psychology", "healthspan-vs-lifespan", "retirement-phases", "retirement-purpose", "lifestyle-design"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "CFP, founder of Root Financial"
+    - name: "Dr. Riley Moynes"
+      role: "Researcher on retirement phases"
+  companies:
+    - name: "Root Financial"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["Four phases of retirement: honeymoon, loss/disillusionment, trial and error, reinvention", "Healthspan vs lifespan thinking", "Retirement purpose and meaning", "Daily rhythms framework", "Over-saving but under-living trap"]
+content_type: "educational"
+audience_level: "advanced"
+key_claims: 
+  - claim: "Retirement moves through four phases: honeymoon, loss/disillusionment, trial and error, and reinvention"
+    timestamp: "00:01:24"
+    confidence: "high"
+    flagged: false
+  - claim: "Most financial planning focuses on money but ignores the psychological dimensions of retirement, which are equally important"
+    timestamp: "00:01:57"
+    confidence: "high"
+    flagged: false
+  - claim: "Healthspan (years of good health and vitality) is more important than lifespan for retirement planning"
+    timestamp: "00:02:53"
+    confidence: "high"
+    flagged: false
+  - claim: "Three common retirement traps are lack of structure, comparison with others, and over-saving but under-spending"
+    timestamp: "00:05:45"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: []
@@ -98,6 +119,40 @@ notes: ""
 **Published:** 2026-03-15
 **URL:** https://youtube.com/watch?v=X5bOC3-yGb4
 **Duration:** 10:13
+
+## Summary
+
+This video shifts retirement planning from purely financial metrics to psychological and lifestyle considerations. Drawing on research by Dr. Riley Moynes, James Conole explains that retirement naturally progresses through four phases: an initial honeymoon period (6 months to 2 years), followed by disillusionment and identity loss, then trial-and-error experimentation, and finally purposeful reinvention. The core argument is that having sufficient money is necessary but not sufficient for retirement satisfaction. Instead, retirees must think in terms of healthspan rather than lifespan, recognizing that the years of peak health and vitality are limited and more valuable than total years lived.
+
+## Key Takeaways
+
+- Retirement happiness is driven by purpose, relationships, and structure, not just financial assets; many wealthy retirees still feel lost without these elements
+- The four phases of retirement are predictable: honeymoon, disillusionment, trial-and-error, and reinvention; expecting only the first phase leads to disappointment
+- Healthspan (years of good health and energy) should replace lifespan in retirement planning calculations; front-loading all pleasure for later years often means missing experiences during peak vitality
+- Three critical retirement traps to avoid: lack of daily/weekly structure, comparing your retirement to others' external versions, and accumulating wealth but being afraid to spend it
+- A practical framework for retirement satisfaction involves establishing weekly rhythms around relationships, health activities, and meaningful pursuits rather than creating an overly rigid daily schedule
+
+## Detailed Notes
+
+### The Four Phases of Retirement [00:01:24]
+
+Dr. Riley Moynes' research identifies four retirement phases: Phase 1 is the honeymoon (months to years of enjoying freedom from work), Phase 2 is disillusionment and identity loss (realizing leisure alone is empty), Phase 3 is trial-and-error (experimenting with new activities), and Phase 4 is reinvention (finding new purpose and meaning). Many retirees expect perpetual honeymoon but experience phases 2-4.
+
+### Why Financial Planning Alone Is Insufficient [00:01:57]
+
+Financial planning optimizes Roth conversions, sequence of return risk, and asset allocation, but these mechanics do not address the deeper psychological issue: retirees need to know what they are retiring to, not just how much they have. A wealthy person still experiencing disillusionment in phase 2 has no more fulfillment than a modest-income retiree with the same psychological challenge.
+
+### Healthspan vs Lifespan: The Critical Shift [00:02:53]
+
+Standard retirement projections focus on lifespan (e.g., living to 85 equals 25 more years). However, healthspan emphasizes that not all years are equal: a 60-year-old with full health and energy has more capacity than an 80-year-old with mobility issues. Back-loading all leisure for 'someday' risks missing experiences during peak health.
+
+### Three Common Retirement Traps [00:04:31]
+
+The no-structure trap occurs when retirees assume travel or leisure can fill all 52 weeks; without daily rhythms and routines, freedom becomes aimlessness. The comparison trap involves measuring success against others' external lives rather than internal values. The over-saving/under-living trap affects highly disciplined savers who fear spending and thus never enjoy their wealth.
+
+### The Two-Year Test and Weekly Rhythms Framework [00:07:01]
+
+The two-year test asks: if your calendar for year two of retirement is blank, you do not know what you are retiring to. A practical framework establishes weekly commitments in four categories: relationships (family/friends), health (exercise, wellness), fun/challenges (hobbies, learning, trips), and purpose (volunteering, part-time work). This creates structure without rigidity.
 
 ## Transcript
 

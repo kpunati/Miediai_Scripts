@@ -63,27 +63,54 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Explores five critical Social Security strategies for retirees: understanding optimization goals (longevity insurance, spousal protection, legacy, investment returns), leveraging spousal and survivor benefits, managing tax liability (up to 85% taxable), coordinating work-while-claiming decisions, and separating retirement from benefit collection timing for tax-efficient income planning."
 topics: []
-topics_proposed: []
+topics_proposed: ["social-security-strategy", "retirement-benefits", "spousal-benefits", "survivor-benefits", "tax-planning", "benefit-taxation"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "CFP, financial advisor"
+    - name: "Ashley"
+      role: "spouse"
+  companies:
+    - name: "Root Financial Partners, LLC"
+      ticker: null
+    - name: "SEC"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Roth conversions", "IRA", "donor-advised funds"]
+  concepts: ["longevity insurance", "spousal benefits", "survivor benefits", "break-even analysis", "opportunity cost", "provisional income", "delayed retirement credits", "earnings test", "tax-loss harvesting", "after-tax income optimization"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Waiting to delay Social Security until age 70 provides an income floor that lasts the entire lifetime, protecting against longevity risk."
+    timestamp: "00:00:41"
+    confidence: "high"
+    flagged: false
+  - claim: "A spousal benefit can be up to 50% of the primary earner's benefit at full retirement age (age 67)."
+    timestamp: "00:04:14"
+    confidence: "high"
+    flagged: true
+  - claim: "A maximum of 85% of Social Security benefits will be included in taxable income; a minimum of 15% is tax-free."
+    timestamp: "00:06:14"
+    confidence: "high"
+    flagged: true
+  - claim: "There is a new extra senior deduction of $6,000 per individual who is 65 and older, in place for tax years 2025 through 2028."
+    timestamp: "00:07:46"
+    confidence: "high"
+    flagged: true
+  - claim: "For earnings in excess of $23,400 (tax year 2025) while claiming benefits before full retirement age, $1 of benefits is withheld for every $2 earned."
+    timestamp: "00:08:47"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -93,6 +120,42 @@ notes: ""
 **Published:** 2025-09-06
 **URL:** https://youtube.com/watch?v=qb8EsED_9OQ
 **Duration:** 12:20
+
+## Summary
+
+James Conole, CFP, discusses five critical Social Security strategies for retirees aged 60+. He emphasizes that Social Security optimization depends on the individual's core goal: longevity insurance, spousal protection, legacy planning, or maximizing investment returns. The video covers spousal and survivor benefits (especially valuable for couples with disparate earnings), tax implications (maximum 85% taxable), the earnings test for early claimants, and the importance of separating retirement from benefit collection decisions to achieve tax-efficient income coordination.
+
+## Key Takeaways
+
+- Social Security serves different purposes depending on your goals: longevity insurance, protecting a surviving spouse, legacy planning, or optimizing investment returns.
+- Spousal benefits can provide up to 50% of a high earner's benefit; survivor benefits are even larger and can continue to the surviving spouse's lifetime.
+- Even divorced individuals from 10+ year marriages remain eligible for spousal and survivor benefits.
+- Up to 85% of Social Security is taxable federally; tax treatment varies by state, but many don't tax Social Security.
+- Earning above $23,400 (2025) before full retirement age triggers a $1 benefit reduction per $2 earned.
+- Retirement and benefit collection are separate decisions; benefits continue growing even when retired if collection is delayed.
+- Tax-efficient retirement income requires coordinating Social Security, IRA/Roth withdrawals, brokerage access, and pension sources.
+
+## Detailed Notes
+
+### Optimization Goals (Four Distinct Purposes) [00:00:41]
+
+Social Security is not simply an income source. Claimants should optimize for one of four goals: (1) longevity insurance—delaying benefits for a guaranteed lifetime income floor; (2) protecting a surviving spouse via spousal and survivor benefits; (3) legacy—claiming early to invest benefits and pass wealth to heirs; (4) investment returns—accounting for the opportunity cost of drawing down savings while delaying benefits. The choice of goal drives the optimal claiming age and strategy.
+
+### Spousal and Survivor Benefits [00:03:11]
+
+Spousal benefits equal up to 50% of the primary earner's full retirement age benefit; the spouse must wait until their full retirement age (typically 67) to claim. More valuable are survivor benefits: if the primary earner delays until 70, the surviving spouse receives the delayed benefit amount (e.g., $3,500/month instead of $1,500/month spousal benefit). This applies to currently married couples and divorcees from 10+ year marriages.
+
+### Social Security Taxation [00:06:14]
+
+Social Security is taxed more favorably than ordinary income: at most 85% is taxable, leaving a 15% tax-free minimum. Taxability depends on provisional income and federal/state tax treatment. A new 2025–2028 senior deduction of $6,000 per person 65+ helps offset Social Security tax liability. The deduction phases out at higher incomes but applies regardless of whether the recipient claims Social Security.
+
+### Earnings Test and Work Coordination [00:08:47]
+
+Before full retirement age, earnings above $23,400 (2025) reduce benefits $1 per $2 earned. This applies to wages, not IRA/dividend income. Claiming early while working is often disadvantageous; withheld benefits are credited back to future calculations, but reconsider timing if earnings will exceed the limit. Suspending benefits is possible within certain timeframes.
+
+### Retirement vs. Benefit Collection Timing [00:09:27]
+
+Retiring at 62 does not require claiming Social Security at 62. Benefits continue growing via delayed retirement credits even if the recipient is not working. This creates a planning opportunity: retirees can live on cash, IRA/Roth withdrawals, or other sources while allowing Social Security to grow, then coordinate all income sources for maximum after-tax income in the final plan.
 
 ## Transcript
 

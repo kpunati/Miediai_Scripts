@@ -45,27 +45,50 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser discusses Valentine's Day spending trends showing Americans budgeting $189 on average despite economic pressures, with $1.23 trillion in credit card debt in Q3 2025, and examines emerging buy-now-pay-later financing extending to rental housing as consumers rely on extended credit."
 topics: []
-topics_proposed: []
+topics_proposed: ["consumer-debt", "credit-cards", "buy-now-pay-later", "interest-rates", "affordability"]
 entities:
-  people: []
+  people:
+    - name: "Rebecca Walser"
+      role: "financial advisor"
+    - name: "Scott Shellady"
+      role: "host"
   companies: []
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["K-shaped economy", "consumer spending", "credit card debt", "buy-now-pay-later financing", "rental payments", "interest rates"]
+content_type: "opinion"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Consumer spending for Valentine's Day 2025 totaled 27.5 billion dollars"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Average American budget for Valentine's Day is about 189 dollars"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Credit card debt reached one of the highest peaks in Q3 of 2025 at 1.23 trillion dollars"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Over 14.6 billion will be spent on Valentine's Day gifts with 250 million on roses"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Fed funds rate was near zero from 2009 until pandemic-driven rate increases"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +98,40 @@ notes: ""
 **Published:** 2026-02-09
 **URL:** https://youtube.com/watch?v=gta9cQVQaP4
 **Duration:** 6:44
+
+## Summary
+
+Rebecca Walser analyzes Valentine's Day spending trends against broader economic challenges. Despite a bifurcated economy with the bottom 80% of earners struggling, Americans spent $27.5 billion on Valentine's Day 2025, averaging $189 per person. The discussion highlights how consumer debt, particularly credit card debt ($1.23 trillion in Q3 2025), enables continued spending despite affordability concerns. Walser emphasizes the emergence of buy-now-pay-later financing extending to essential services like rent, reflecting how extended credit periods allow consumers to afford purchases through monthly payments rather than evaluating total price.
+
+## Key Takeaways
+
+- Valentine's Day is the fifth-largest spending holiday, with consumers allocating significant budgets despite economic strain in a K-shaped economy
+- Credit card debt reached historic peaks in Q3 2025 at $1.23 trillion, enabling continued consumer spending across discretionary categories
+- Buy-now-pay-later financing has expanded from luxury goods to essential services like housing rental, raising concerns about financial sustainability
+- Historical near-zero interest rates from 2009-2021 conditioned consumers to cheap credit, inflating asset prices and expectations
+- Current mortgage rates in the 5-6% range are actually normalized and historically low, not excessive as perceived by consumers
+
+## Detailed Notes
+
+### Valentine's Day Spending Trends [00:00:00]
+
+Valentine's Day represents a significant spending holiday with $27.5 billion in consumer spending in 2025, averaging $189 per person. The breakdown includes $14.6 billion on gifts, $250 million specifically on roses, and $6.5 billion on jewelry. This spending persists despite warnings about a K-shaped economy where the bottom 80% of earners struggle financially.
+
+### Credit Card Debt Crisis [00:00:00]
+
+Credit card debt reached one of its highest peaks in Q3 2025 at $1.23 trillion. Walser notes this paradox: while the poorest segments face affordability issues, they still spend almost $100 on flowers and candy alone for Valentine's Day, suggesting either denial of true financial constraints or reliance on credit to maintain lifestyle expectations.
+
+### Buy-Now-Pay-Later Expansion [00:00:00]
+
+Buy-now-pay-later financing has expanded from discretionary goods to essential shelter costs. The 'rent-now-pay-later' model allows consumers who cannot afford rent to access housing through installment payments. This mirrors earlier innovations like 50-year mortgages and reflects how extended credit enables affordability through lower monthly payments rather than addressing underlying price inflation.
+
+### Historical Interest Rate Impact [00:00:00]
+
+The near-zero Fed funds rate from 2009 through 2021 fundamentally changed consumer behavior and expectations. Cheap credit enabled home buyers to afford $600,000 houses on the same $3,000-4,000 monthly payment previously required for $300,000 homes. Consumers have become conditioned to expect low interest rates, now perceiving normalized 5-6% mortgage rates as 'outrageous.'
+
+### Fed Policy and Normalized Rates [00:00:00]
+
+Current Fed funds rate of 3.5-3.75% represents average to low levels in historical context. Mortgage rates of 5-6% are actually considered low and normalized, not excessive. Trump's appointment of Jerome Powell as Fed chair may challenge the expansive monetary policies of the 2009-2020 era, potentially requiring consumers to adjust to higher interest rates.
 
 ## Transcript
 

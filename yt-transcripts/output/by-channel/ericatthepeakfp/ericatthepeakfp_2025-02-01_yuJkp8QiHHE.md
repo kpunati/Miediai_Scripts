@@ -37,27 +37,48 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Financial planner Eric Amzalag demonstrates how a confidence-building chart helped retired clients discover they could spend nearly double their anticipated amount. Using modern guardrails software and realistic withdrawal planning, the video addresses fear of spending in retirement and shows a framework for sustainable income planning beyond the 4% rule."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-spending", "withdrawal-strategy", "retiree-psychology", "portfolio-planning", "guardrails-system", "financial-confidence"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, financial planner"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
+    - name: "Income Labs"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Modern Guardrails software"]
+  concepts: ["4% rule", "social security", "portfolio withdrawals", "Monte Carlo analysis", "spending flexibility"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Clients who had worked with another advisor and were told to go back to work after only a 20% market correction"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Steve and Amanda, ages 66 and 67, had about $2 million in retirement savings with $3,600 and $2,175 monthly social security respectively"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Modern guardrails recommended withdrawal limit was about $190,000 per year, compared to their desired $100,000"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Only needed a 5% spending reduction if portfolio went down 25%"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -67,6 +88,45 @@ notes: ""
 **Published:** 2025-02-01
 **URL:** https://youtube.com/watch?v=yuJkp8QiHHE
 **Duration:** 12:44
+
+## Summary
+
+Eric Amzalag shares how visualization tools transformed retirement confidence for a couple who initially felt forced back to work. The video centers on case study clients Steve and Amanda, who discovered they could sustain nearly double their planned withdrawal amount with modest contingency adjustments. Using modern guardrails software, Amzalag demonstrates how withdrawal strategies can address the deep-seated fear of spending that affects many retirees despite having sufficient savings.
+
+## Key Takeaways
+
+- Most retirees' biggest fear isn't insufficient savings but fear of spending and running out of money.
+- Modern guardrails software provides contingency-based withdrawal recommendations that exceed traditional 4% rule calculations.
+- A 20% market correction is a normal occurrence, not a failure of retirement planning.
+- Phased spending increases allow retirees to test new withdrawal levels without full commitment.
+- Understanding guardrail trigger points (e.g., 25% portfolio decline) reduces anxiety about necessary adjustments.
+- Financial advisors have conflicting incentives: client fear drives asset growth that generates higher fees.
+
+## Detailed Notes
+
+### Client Story: The Failed Advisor [00:00:00]
+
+A couple received the all-clear to retire from their advisor, then were told to return to work after a 20% market correction in 2022. They felt betrayed, having lost time with grandchildren and home projects. This failure of planning during normal market volatility set up the core problem the video addresses.
+
+### Industry Incentives and Fear-Based Content [00:00:00]
+
+Financial services benefit when retirees fear spending because assets remain untouched and generate ongoing fees. Online platforms profit from fear-based headlines. Understanding these incentive misalignments is crucial for independent decision-making.
+
+### Case Study: Steve and Amanda [00:00:00]
+
+Ages 66 and 67 with $2 million saved. Previous advisor told them not to claim Social Security before 70 and that $100K-110K annual withdrawals were too high. Modern guardrails analysis showed they could actually withdraw nearly $190,000 annually while maintaining 80% probability of success.
+
+### Modern Guardrails Software Approach [00:00:00]
+
+Unlike static probability-of-success models, guardrails provide dynamic spending bands. Steve and Amanda would only need 5% spending reduction if portfolio dropped 25%. The software shows specific adjustment triggers rather than a simple pass/fail outcome.
+
+### Phased Spending Increase Strategy [00:00:00]
+
+Steve and Amanda implemented $144,000 annual withdrawals (40% more than desired) rather than jumping to $190,000. At year-end reviews, they could choose to donate excess capacity, roll it forward, or adjust withdrawals based on actual portfolio performance.
+
+### Psychological Shift from Anxiety to Confidence [00:00:00]
+
+The video emphasizes that guardrails charts consistently help retirees overcome deep fear of running out of money. The most rewarding aspect of the advisor's practice is watching retirees transition from anxiety to genuine confidence in their retirement security.
 
 ## Transcript
 

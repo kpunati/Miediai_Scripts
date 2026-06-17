@@ -35,27 +35,62 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Presents three data-driven reasons for early retirement at 58 with $1.5M+: limited remaining time with family based on actuarial data, healthy life expectancy gap showing only 14 of 23 remaining years in good health, and rising health risk profiles that make delaying retirement a poor bet with irreplaceable time."
 topics: []
-topics_proposed: []
+topics_proposed: ["time-value", "healthy-life-expectancy", "retirement-timing", "mortality-risk", "family-time"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, RICP"
+    - name: "Tim Urban"
+      role: "writer"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
+    - name: "Social Security Administration"
+      ticker: null
+    - name: "National Cancer Institute"
+      ticker: null
+    - name: "University of Amsterdam"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["life-expectancy", "healthy-life-expectancy", "cancer-risk", "heart-disease-risk", "family-relationships", "time-use-study"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "By college, you've used up about 93% of in-person time with children"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "58-year-old man has roughly 22-23 years left per Social Security actuarial tables"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Among 65-year-olds with no physical limitations, active life expectancy is 14 years versus total 20 years"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Cancer incidence rates triple between late 40s and early 60s; median cancer diagnosis age is mid-60s"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "For men 55-59, probability of developing invasive cancer in next 10 years is 15%"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "One in five men over 58 have roughly a 20% chance of not making it to 75"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -65,6 +100,41 @@ notes: ""
 **Published:** 2026-02-14
 **URL:** https://youtube.com/watch?v=wuzJiCiWem4
 **Duration:** 8:42
+
+## Summary
+
+Eric Amzalag presents three quantified reasons why someone at 58 with $1.5 million should retire: (1) remaining in-person time with adult children amounts to roughly 250 days over next 25 years—less than work spending in one year; (2) healthy life expectancy of only 14 years out of 23 total remaining years, with major health risks rising between 58-65; (3) one in five men over 58 face a 20% chance of not living to 75 according to Social Security actuarial data. Research refutes the work-longer-live-longer narrative when controlling for pre-retirement health status.
+
+## Key Takeaways
+
+- By time children leave for college, 93% of total in-person parental time has been used; at 58 seeing adult kids 10-20 days yearly leaves only 250 remaining days versus 250 days spent yearly at work
+- A 58-year-old has approximately 23 years of life expectancy but only 14 years of healthy life expectancy where travel, hiking, and caregiving remain possible
+- Cancer incidence rates triple from late 40s to early 60s, and men aged 55-59 face 15% probability of developing invasive cancer within next 10 years
+- Average first heart attack for men occurs at age 65; lifetime cardiovascular death risk at age 55 is 36% for men
+- One in five men over 58 have roughly 20% probability of not surviving to age 75, making delayed retirement a high-risk bet with already-earned time
+- Research from University of Amsterdam and Sweden shows early retirees who were healthy actually live longer and show improved mental, physical, and cognitive health compared to working counterparts
+
+## Detailed Notes
+
+### Time with Family Analysis [00:00:00]
+
+Tim Urban analysis using Bureau of Labor Statistics American Time Use Study shows by college, 93% of in-person time with children spent. At age 58 seeing adult children 10-20 days yearly over 25-year lifespan equals 250 remaining days—less than single year when kids were in elementary school. Meanwhile, working 250 days per year means spending more annual work days than total remaining lifetime with children. American Time Use Survey shows by age 55, time alone hits all-time high and increases for life; parents in 80s represent last 5% of in-person time. Ages 58-65 paradoxically offer maximum availability while work consumes 40-50 hours weekly.
+
+### Healthy Life Expectancy Gap [00:00:00]
+
+PLOS One study using Medicare data: 65-year-olds with no physical limitations have 20-year total life expectancy but only 14-year active life expectancy (free from disability). Extrapolated to age 58: approximately 23 total years remaining but only 14 healthy years for hiking, traveling, picking up grandchildren, living without daily medication or mobility limitations. Six of 23 remaining years spent with some limitation. Delaying retirement from 58 to 65 means sacrificing almost half of remaining healthy years for employment.
+
+### Cancer and Cardiovascular Risk Escalation [00:00:00]
+
+National Cancer Institute: cancer incidence triples between late 40s and early 60s; median cancer diagnosis age is mid-60s. Men aged 55-59 face 15% probability of developing invasive cancer within next 10 years alone. Heart disease: at age 55, men face 36% lifetime risk of cardiovascular death; average first heart attack occurs at age 65. These trajectories show health risks accelerate between 58-65, making those years particularly risky for continued work.
+
+### Mortality Risk from Social Security Data [00:00:00]
+
+Social Security Administration actuarial tables show men age 58 have roughly one in five (20%) chance of not surviving to age 75. Delaying retirement makes bet with already-earned years against odds: betting four-to-one survival (likely odds) to accumulate additional capital presumed unnecessary. One in five men watching video will not reach 75, yet people delay retirement for years they've already earned with days irreplaceable.
+
+### Research Refutes Work-Longer-Live-Longer Narrative [00:00:00]
+
+Journal of Epidemiology and Community Health systematic review of 25 retirement-mortality studies found no association between early retirement and higher mortality when controlling for pre-retirement health status. Work-longer-live-longer narrative influenced by healthy worker bias: sick people retire early and die sooner, skewing statistics. For cohort with $1.5M+ (above-average health), early retirement statistics actually support longer, healthier lives. University of Amsterdam study: Dutch civil servants over 54 retiring early were 50% less likely to die over next 5 years. Swedish study: health improved in mental, physical, and cognitive domains after retirement.
 
 ## Transcript
 

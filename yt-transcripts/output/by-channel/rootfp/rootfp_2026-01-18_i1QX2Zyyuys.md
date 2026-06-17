@@ -63,27 +63,44 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "James Conole addresses why many retirees with strong finances (no debt, pension, Social Security, $2M+ portfolios) remain unhappy. Financial planning software answers whether you can retire but not what you're retiring into. He identifies three hidden risks: identity shock from losing work identity, unstructured time becoming emotionally heavy despite freedom, and spouse relationship friction from 24/7 togetherness."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-lifestyle-planning", "retirement-fulfillment", "identity-transition", "retirement-preparation", "spousal-dynamics"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "CFP, financial advisor"
+    - name: "Mark"
+      role: "retirement case study subject"
+  companies:
+    - name: "Root Financial Partners"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["identity-shock", "honeymoon-phase", "retirement-structure", "purpose-in-retirement", "financial-planning-software"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Many retirees with strong finances (no debt, pension, Social Security) remain unhappy because retirement solved the financial problem but not the life problem"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Mark retired at 62 with $2 million in portfolio, pension, and strong Social Security, and was completely unhappy by month seven despite financial success"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Financially successful retirees are often least prepared emotionally and are most likely to struggle with identity loss and unstructured time"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -93,6 +110,45 @@ notes: ""
 **Published:** 2026-01-18
 **URL:** https://youtube.com/watch?v=i1QX2Zyyuys
 **Duration:** 11:12
+
+## Summary
+
+James Conole reveals why financial readiness does not guarantee retirement satisfaction. While retirement planning software confirms whether you can retire financially, it cannot answer whether you will enjoy what you're retiring into. Using Mark's case—a 62-year-old retiree with $2M+ portfolio, pension, and strong Social Security who became deeply unhappy by month seven—Conole identifies three hidden risks: identity shock (losing work-based identity), unstructured time becoming emotionally heavy, and spousal relationship friction. The solution involves stress-testing retirement lifestyle, not just finances, and building fulfillment around four pillars: purpose (contribution/volunteering), structure (routine), connection (regular social contact), and growth (continued learning).
+
+## Key Takeaways
+
+- Financial success and retirement happiness are not the same; many financially prepared retirees experience profound unhappiness.
+- Work provides structure, relationships, and identity that disappear upon retirement—these voids must be intentionally filled.
+- Identity shock is particularly acute for those whose identity was tied to their work role (doctors, executives, teachers, etc.).
+- Freedom without direction feels aimless; successful retirees maintain light structure through routines (gym, hobbies, groups).
+- Spousal misalignment in retirement vision (travel vs. leisure, togetherness vs. independence) creates conflict without prior discussion.
+- Fulfilling retirement requires four pillars: purpose (meaningful contribution), structure (routine), connection (regular social contact), and growth (continued learning).
+
+## Detailed Notes
+
+### The Financial-Fulfillment Gap [00:00:00]
+
+Retirement planning software answers one question: Are you financially prepared? But it never asks what you're retiring into. Work quietly provides structure, relationships, and purpose that most people take for granted. When work ends, financial security alone cannot replace these psychological needs. Mark's story exemplifies this: retired at 62 with $2M, pension, and strong Social Security, yet became deeply unhappy by month seven when the honeymoon phase faded and days began blending together.
+
+### Mark's Honeymoon Phase Trap [00:00:00]
+
+Mark retired at 62 with all financial markers pointing to success: no debt, $2M portfolio, pension, strong Social Security. The first six months felt successful as he caught up on rest and travel. But by month seven, the honeymoon faded. Days blended together, friends were still working, and he lacked daily purpose or excitement. This highlights the common pattern where retirees 'retire from' something but don't know what they're 'retiring to.'
+
+### Three Hidden Risks in Retirement [00:00:00]
+
+Identity shock occurs when work-based identity (doctor, teacher, carpenter) disappears, leaving a void that money cannot fill. Time without structure becomes heavy and aimless despite freedom. Relationship friction emerges when spouses have misaligned retirement visions—one wants travel/adventure, the other wants rest/leisure; or constant togetherness creates unexpected friction. These risks particularly affect those who were most financially prepared and whose identity was tied to achievement and saving.
+
+### Why the Financially Successful Struggle Most [00:00:00]
+
+People most prepared financially are often least prepared emotionally. Those who tied identity to saving, earning, and productivity face acute identity shock. The same discipline and focus that built wealth now vanishes with no replacement, leaving these retirees particularly vulnerable to lack of purpose and direction. This creates a paradox: highest financial readiness often correlates with lowest emotional readiness.
+
+### Stress-Testing Retirement Lifestyle [00:00:00]
+
+Beyond financial stress-testing (market declines, death, inflation), retirees should stress-test lifestyle. Simulate retirement: remove work (40-50 hours/week), then ask: What are you waking up excited for? Who are you spending days with? Does life magically become better? This simple exercise reveals lifestyle gaps before retirement rather than discovering them afterward. Intentional planning prevents drifting into aimless retirement.
+
+### Four Pillars of Fulfilling Retirement [00:00:00]
+
+Purpose through contribution (volunteering, mentoring, teaching, giving); Light structure with routines (gym, hobbies, groups) that prevent days from blending together; Regular connection with others (gym friends, church, family, neighbors)—work provided this automatically; Continued growth (learning languages, instruments, sports). Successful retirees embody these four pillars, viewing retirement not as a finish line but as a new chapter of continued development and meaningful engagement.
 
 ## Transcript
 

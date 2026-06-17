@@ -66,27 +66,46 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Video outlines five critical red flags to watch for when evaluating your financial advisor relationship: over-reliance on CPAs for tax planning, investment-only focus, poor communication, neglecting spouses, and lack of genuine value-add. Emphasizes importance of holistic financial planning and clear communication."
 topics: []
-topics_proposed: []
+topics_proposed: ["financial-advisor-selection", "financial-planning", "tax-planning", "advisor-evaluation", "financial-advice"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "CFP, CEO and founder of Root Financial"
+  companies:
+    - name: "Root Financial Partners, LLC"
+      ticker: null
+    - name: "Fidelity"
+      ticker: null
+    - name: "Charles Schwab"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: [{"name": "Retirement Planning Academy"}, {"name": "Early Retirement Academy"}]
+  concepts: ["tax planning", "investment strategy", "estate planning", "insurance planning", "retirement income planning", "spousal involvement", "financial advisor accountability"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Tax planning could add tens or hundreds of thousands of dollars to the value of a plan over retirement"
+    timestamp: "00:00:35"
+    confidence: "high"
+    flagged: true
+  - claim: "Good advisors should focus holistically on investments, taxes, retirement strategies, insurance planning, and estate planning"
+    timestamp: "00:02:25"
+    confidence: "high"
+    flagged: false
+  - claim: "If an advisor uses complexity to prevent clients from leaving or understanding their services, this is a red flag"
+    timestamp: "00:04:04"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -96,6 +115,45 @@ notes: ""
 **Published:** 2025-09-30
 **URL:** https://youtube.com/watch?v=Sm2GmShu07g
 **Duration:** 13:00
+
+## Summary
+
+James Conole, CFP and CEO of Root Financial, explains five critical red flags suggesting it may be time to change your financial advisor. The video emphasizes that staying with an inadequate advisor due to inertia, loyalty, or fear can cost thousands in lost value. A good advisor should provide holistic planning across investments, taxes, retirement income, insurance, and estate planning rather than focusing solely on investment selection.
+
+## Key Takeaways
+
+- Advisors who consistently defer tax questions to CPAs may lack tax planning knowledge that's essential for solid financial advice.
+- Modern advisors should provide comprehensive planning across all financial domains, not just investment management like advisors did 20-30 years ago.
+- Clear communication is a hallmark of competent advisors; complexity and jargon often mask either ignorance or intentional obfuscation to prevent client departure.
+- Both spouses should be equally involved in meetings and planning, as financial decisions affect shared futures regardless of who manages day-to-day finances.
+- The rehire test is useful: if you wouldn't consciously choose this advisor today, inertia rather than value may be keeping you in the relationship.
+- Switching advisors is typically easier than people think, especially when custodied assets can be transferred in-kind without advisor involvement.
+
+## Detailed Notes
+
+### Red Flag 1: Over-Reliance on CPA for Tax Planning [00:00:35]
+
+Advisors who tell clients to 'ask your CPA' for every tax question are either constrained by firm compliance policies or lack tax planning knowledge. Tax planning cannot be separated from investment strategy and retirement decisions, making it essential for quality financial advice. Advisors should provide proactive tax optimization across all financial domains.
+
+### Red Flag 2: Investment-Only Focus [00:02:25]
+
+Advisors who focus exclusively on investment selection are operating with outdated models from 20-30 years ago. Today's investors have direct access to low-cost diversified portfolios without advisors. Modern advisors should provide value through holistic planning including taxes, retirement strategies, insurance, and estate planning. Narrow focus leaves money on the table in other financial areas.
+
+### Red Flag 3: Poor Communication and Complexity [00:04:04]
+
+If clients leave meetings confused by jargon and complexity, responsibility lies with the advisor, not the client. Advisors who cannot explain things simply either lack mastery or intentionally obscure advice to prevent clients from leaving. Complexity can justify higher fees by making clients hesitant to switch. Citing Einstein's principle that simple explanation indicates true understanding is key.
+
+### Red Flag 4: Excluding Spouses from Planning [00:06:07]
+
+Many couples experience advisors ignoring or minimizing the less financially-involved spouse. Money is a tool for both spouses' shared future vision, and both should be equally involved regardless of who makes routine financial decisions. If something happens to the primary contact, the excluded spouse faces difficulty managing affairs with an unfamiliar advisor.
+
+### Red Flag 5: The Rehire Test [00:08:49]
+
+Test your advisor relationship by asking if you would consciously choose to start working with them today. If inertia, friendship, or past kindness (like inherited accounts) is the only reason for staying, it may be time to move on. Imagining advice from your future self helps remove emotional bias and provides objective perspective on the relationship's true value.
+
+### Practical Steps for Changing Advisors [00:10:32]
+
+Switching is often easier than clients realize. If assets are custodied at Fidelity or Schwab, account transfers can occur without advisor involvement. A respectful but concise email is sufficient for casual relationships. Longer-term relationships warrant a call, but the email should precede it to signal the decision is final. The key is recognizing that clients own their accounts and can move them freely.
 
 ## Transcript
 

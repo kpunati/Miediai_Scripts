@@ -37,27 +37,42 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Educational framework for evaluating retirement investment risk by decomposing it into two components: probability of negative outcome and magnitude of consequence. Introduces concentration, exposure, variance, and correlation as practical metrics superior to binary asset allocation thinking, enabling better portfolio management decisions."
 topics: []
-topics_proposed: []
+topics_proposed: ["investment-risk", "portfolio-management", "asset-allocation", "diversification", "risk-metrics"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Alex Honold"
+      role: "Free solo rock climber"
+  companies:
+    - name: "Vanguard"
+      ticker: null
+  tickers: ["TSLA"]
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Vanguard value exchange traded fund"]
+  concepts: ["Monte Carlo analysis", "asset allocation", "concentration risk", "exposure management", "variance/standard deviation", "correlation", "probability vs consequence", "diversification"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Risk should be understood as spectrum with two components: probability of bad outcome and magnitude of consequence"
+    timestamp: "00:02:06"
+    confidence: "high"
+    flagged: false
+  - claim: "A 60/40 asset allocation portfolio with all stocks in single company (Tesla) versus distributed across 30 stocks may not differ in risk/consequence without examining specifics"
+    timestamp: "00:05:12"
+    confidence: "medium"
+    flagged: true
+  - claim: "Bonds are not universally inversely correlated to stocks; holding right bonds provides diversification but wrong bonds may act like stocks"
+    timestamp: "00:09:22"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -67,6 +82,41 @@ notes: ""
 **Published:** 2024-12-04
 **URL:** https://youtube.com/watch?v=tXuVr2LxIjk
 **Duration:** 12:53
+
+## Summary
+
+Eric Amzalag reframes investment risk from a binary concept (risky vs. safe) into a spectrum with two distinct components: probability of adverse outcome and magnitude of consequence. Drawing on the free solo rock climbing metaphor, he demonstrates that understanding these components separately enables better portfolio construction than traditional asset allocation models. The video introduces four practical metrics—concentration, exposure, variance, and correlation—that provide data-driven insights into portfolio risk.
+
+## Key Takeaways
+
+- Risk is not binary; it comprises two independent dimensions: probability (likelihood of bad outcome) and consequence (magnitude of impact)
+- Asset allocation's 60/40 framework obscures real risk by failing to distinguish between different quality investments within the same asset class
+- Concentration risk measures portfolio exposure to single investments; diversification alone does not guarantee lower risk if all holdings are low quality
+- Variance (standard deviation) indicates price volatility; higher variance requires accepting wider downside to capture upside potential
+- Correlation shows directional relationship to market, not magnitude; understanding proper correlation between stocks and bonds requires examining specific holdings
+- Professional financial advisors should articulate concentration, exposure, variance, and correlation strategies beyond generic asset allocation recommendations
+
+## Detailed Notes
+
+### Risk Redefined: Probability and Consequence [00:02:06]
+
+Rock climber Alex Honold's approach illustrates how risk comprises two separate elements. Though climbing 2,000-foot walls has high consequence (death), he reduced probability through thousands of practice climbs with ropes and meticulous planning. This framework explains why people fly planes (high consequence, low probability) and helps investors understand portfolio risk beyond asset allocation percentages.
+
+### Asset Allocation's Critical Limitation [00:04:10]
+
+Two investors with identical 60/40 portfolios may have vastly different actual risk depending on holdings: one holding 60% in Tesla stock versus another spread across 30 positions, or bonds that track market versus bonds that behave like stocks. Asset allocation fails to distinguish quality or concentration differences, leaving investors uncomfortable despite supposedly appropriate allocations.
+
+### Four Key Risk Metrics Beyond Asset Allocation [00:07:15]
+
+Concentration measures fund concentration in single investment; too much cash holding violates this principle despite appearing safe. Exposure indicates directional position sizing; can be adjusted gradually (Frogger strategy) to deploy cash or reduce risk. Variance (standard deviation) from historical data predicts price range; wider variance requires accepting downside participation.
+
+### Correlation and Portfolio Diversification [00:09:22]
+
+Correlation measures likelihood investment moves with broader market, not magnitude. Stocks and bonds show wide-ranging correlations; some bonds are highly correlated to stock market, while some stocks show bond-like behavior. Proper diversification requires understanding specific correlations rather than assuming bonds always provide inverse relationship benefit.
+
+### Practical Implementation and Professional Standards [00:11:29]
+
+Investors should interview financial professionals about how they address concentration, exposure, variance, and correlation in specific portfolios. If advisors cannot articulate these concepts beyond asset allocation, they lack depth equal to the client's own knowledge. Building confidence requires seeking professionals who educate clients on these metrics and their portfolio applications.
 
 ## Transcript
 

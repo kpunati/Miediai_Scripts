@@ -42,24 +42,31 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Marketing video for Walser Wealth Management using Goldilocks allegory: money managers too aggressive, insurance agents too conservative, Walser balances growth and protection."
 topics: []
-topics_proposed: []
+topics_proposed: ["wealth-management", "financial-planning", "investment-strategy", "marketing"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Rebecca Walser"
+      role: "Founder, Walser Wealth Management"
+  companies:
+    - name: "Walser Wealth Management"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Walser Wealth Management advisory services"]
+  concepts: ["wealth management", "financial planning", "growth strategy", "asset protection", "risk tolerance", "financial goals"]
+content_type: "other"
+audience_level: "beginner"
+key_claims: 
+  - claim: "Walser Wealth Management balances growth and protection unlike money managers (aggressive) or insurance agents (conservative)"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: []
@@ -72,6 +79,27 @@ notes: ""
 **Published:** 2024-08-20
 **URL:** https://youtube.com/watch?v=_zEkMiwToik
 **Duration:** 1:33
+
+## Summary
+
+Short branded content using Three Bears fairy tale to market Walser Wealth Management's approach. Positions money managers as too aggressive (chasing market returns without risk management) and insurance agents as too conservative (over-protecting assets). Presents Walser as the balanced middle ground that tailors plans to individual goals, risk tolerance, and financial dreams, creating a sweet spot between growth and security.
+
+## Key Takeaways
+
+- Money managers focus primarily on market returns and may take excessive risk without adequate protection
+- Insurance agents prioritize asset protection but may under-utilize growth opportunities
+- Walser Wealth balances growth strategy with asset protection based on individual circumstances
+- Effective financial planning requires customized approach considering unique goals and risk tolerance
+
+## Detailed Notes
+
+### Three-Approach Comparison [00:00:00]
+
+Video uses Goldilocks allegory to compare three financial advisory approaches. Money managers described as 'too hot' (aggressive growth focus). Insurance agents described as 'too cold' (excessive protection, missed growth). Walser presented as 'just right' balanced approach tailored to individual needs.
+
+### Marketing Call to Action [00:00:00]
+
+Concludes with contact information (866-929-3258) for interested prospects. Short format (1:33) suggests promotional/social media usage. Emphasizes finding 'perfect fit' and personalized planning approach tailored to goals.
 
 ## Transcript
 

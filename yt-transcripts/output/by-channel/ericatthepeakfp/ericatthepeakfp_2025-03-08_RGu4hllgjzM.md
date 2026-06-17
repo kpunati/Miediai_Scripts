@@ -41,27 +41,46 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Financial advisor Eric Amzalag addresses four psychological fears that keep people working despite financial readiness: unknown duration (longevity anxiety), market-timing worry, healthcare cost uncertainty, and identity transition fears. He proposes retirement contingency planning—detailed war-gaming of scenarios—as the antidote to these fears."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-anxiety", "fear-psychology", "contingency-planning", "retirement-security", "life-expectancy", "identity-transition"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, financial planner"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Modern guardrails", "Dynamic spending strategies"]
+  concepts: ["unknown duration problem", "market timing worry", "healthcare cost uncertainty", "identity transition fear", "contingency planning", "war-gaming"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "A couple at age 67 delayed retirement worrying about living into their late 90s despite having over $2 million saved"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Clients who delayed retiring in 2017-19 waiting for a market correction, then delayed again in 2020 waiting for recovery"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "A physician delayed retirement by 5 years due to long-term care concerns despite understanding healthcare better than most"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Market corrections of 20-30% are fundamentally different from lost decades like 2000-2009 in retirement impact"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -71,6 +90,53 @@ notes: ""
 **Published:** 2025-03-08
 **URL:** https://youtube.com/watch?v=RGu4hllgjzM
 **Duration:** 12:43
+
+## Summary
+
+Eric Amzalag diagnoses four core fears that unnecessarily delay retirement: the unknown duration problem (longevity anxiety), market timing worry (fear of retiring before corrections), healthcare cost uncertainty, and identity transition fears. He argues these fears are psychological rather than financial and persist across all income levels. The solution involves retirement contingency planning—repeatedly discussing and visualizing scenario responses so retirees develop confidence in their ability to handle emergencies rather than accumulating unlimited savings.
+
+## Key Takeaways
+
+- The biggest barrier to retirement is psychological fear, not insufficient savings.
+- Four specific fears keep financially-ready people working: longevity worry, market timing, healthcare costs, and identity concerns.
+- These fears are universal across wealth levels and create a moving target where 'enough' never materializes.
+- The underlying fear is surprise—not having prepared for unexpected events.
+- Contingency planning through repeated discussion and war-gaming desensitizes people to potential scenarios.
+- Modern guardrails and dynamic spending strategies provide behavioral guidance for handling portfolio volatility.
+
+## Detailed Notes
+
+### The Unknown Duration Problem [00:00:00]
+
+Fear of outliving money stems from uncertainty about retirement length (could be 10-40 years). Amzalag describes a couple at 67 with over $2 million who kept delaying retirement, worried about living to their late 90s. The irony: their continued high-stress work reduced the quality of healthy years they definitely had.
+
+### Market Timing Worry [00:00:00]
+
+This creates a no-win situation: people delay retirement in bull markets waiting for correction, then delay again in bear markets waiting for recovery. Amzalag describes clients who delayed retiring in 2017-19, delayed again in 2020, and continued waiting as markets recovered—indefinitely sacrificing retirement years.
+
+### Healthcare Cost Uncertainty [00:00:00]
+
+Fear of long-term care costs becomes outsized through emotional stories, affecting healthy people disproportionately. A physician, despite healthcare expertise, delayed retirement 5 years for long-term care planning—ironically, high-stress work may have worsened his health outcomes.
+
+### Identity Transition Fear [00:00:00]
+
+Fear of losing work identity, purpose, and social connection manifests as financial concerns masking deeper questions: 'Who will I be?' and 'What is my purpose?' Amzalag describes a successful business owner whose financial anxiety dissolved once identity concerns were addressed directly.
+
+### Industry Misalignment and Financial Incentives [00:00:00]
+
+Amzalag argues the financial services industry profits when retirees fear spending: brokerage fees continue on growing untouched assets, governments collect income taxes longer, and social security/Medicare remain delayed. These entities benefit from perpetual fear-based delay.
+
+### Contingency Planning and War-Gaming Solution [00:00:00]
+
+The remedy involves exposure to micro-versions of problems repeatedly—retirement contingency planning. Couples should discuss what they would do if markets corrected 10%, 20%, 30%, experience different scenarios in thought exercises, and document decisions so partners and advisors know the plan.
+
+### Guardrails and Behavioral Control [00:00:00]
+
+Modern guardrails provide two controllable levers: spending amounts and behavioral responses. Rather than attempting to predict unpredictable outcomes, guardrails tell retirees when and how much to adjust spending, providing logical predictability.
+
+### War-Gaming Versus Numbers Focus [00:00:00]
+
+Amzalag emphasizes psychological preparation over technical mastery—war-gaming scenarios repeatedly is more valuable than software illustrations. Like military training, discussing how you'll handle pressure in advance is critical; executing perfectly on a test range means nothing without pressure inoculation.
 
 ## Transcript
 

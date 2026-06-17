@@ -45,27 +45,50 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Walkthrough of a retirement case study for a couple (John and Lisa) retiring in 6 months. Covers financial planning methodology, stress-testing, Social Security optimization, required minimum distributions, and Roth conversions strategy."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "social-security", "roth-conversion", "required-minimum-distribution", "portfolio-sustainability", "retirement-case-study"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "John"
+    - name: "Lisa"
+  companies:
+    - name: "Ritholtz Wealth"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Social Security", "Roth IRA", "IRA"]
+  concepts: ["required minimum distributions", "Roth conversions", "Social Security optimization", "portfolio sustainability", "inflation impact", "spending withdrawal"]
+content_type: "case-study"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "John starts Social Security in 2029 rather than at 70"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Lisa starts Social Security in 2030 when she is 70"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "John is 64 and Lisa is 62, retiring in 6 months"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Couple plans to buy a lake house for $450,000 in 2031"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Required minimum distributions begin at age 75 from IRA accounts"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +98,36 @@ notes: ""
 **Published:** 2026-03-16
 **URL:** https://youtube.com/watch?v=LJmmy67ybW8
 **Duration:** 2:58
+
+## Summary
+
+A detailed retirement case study examining John and Lisa's readiness for retirement. The video demonstrates how financial planners stress-test retirement plans using conservative assumptions, emphasizing durability and the ability to course-correct. Key topics include delaying Social Security claims to maximize lifetime income, planning for major expenses like a $450,000 lake house purchase, managing inflation, handling required minimum distributions, and using Roth conversions strategically.
+
+## Key Takeaways
+
+- A financial plan is a durability test that uses conservative assumptions to evaluate readiness for retirement, not a crystal ball prediction.
+- Social Security can be strategically delayed beyond age 62 to maximize lifetime income if portfolio assets support early retirement expenses.
+- Required minimum distributions at age 75 can be anticipated 11 years in advance through strategic planning like Roth conversions.
+- Major retirement expenses like home purchases should account for inflation effects over time.
+- Couples should align spending expectations, major purchases, and Social Security timing within a cohesive financial plan.
+
+## Detailed Notes
+
+### Case Study Introduction [00:00:00]
+
+John (64) and Lisa (62) are retiring in 6 months and have accumulated a portfolio, but fear early market crashes, running out of money, or spending too little. The presenter introduces the concept of using financial planning to test durability and answer 'if this happens, will I be okay?' repeatedly as variables change.
+
+### Financial Planning Methodology [00:00:00]
+
+The planning approach uses conservative assumptions and projections rather than predictions. The framework allows for identifying necessary course corrections by testing different scenarios. This systematic approach provides a foundation for understanding how changes to inputs and variables affect retirement sustainability.
+
+### Social Security Timing Strategy [00:00:00]
+
+John plans to delay Social Security until 2029 (around age 70) rather than claiming early, maximizing lifetime income. Lisa will claim at 70 in 2030. This strategy works because their portfolio can sustain spending during the interim 64-70 years, creating an income floor for the remaining 20+ years of retirement.
+
+### Major Expenses and Required Minimum Distributions [00:00:00]
+
+The plan includes a $450,000 lake house purchase in 2031, accounting for inflation. At age 75, both will face required minimum distributions from IRAs, which the planner anticipates 11 years in advance through Roth conversions. This proactive approach optimizes their tax position during the pre-RMD years.
 
 ## Transcript
 

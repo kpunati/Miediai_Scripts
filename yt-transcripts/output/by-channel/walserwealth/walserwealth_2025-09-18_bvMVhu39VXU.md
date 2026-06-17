@@ -45,27 +45,64 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser discusses CPI inflation data showing 2.9% headline and 3.1% core inflation, alongside labor market weakness highlighted by a record BLS jobs revision. She analyzes the Fed's rate-cut path, expecting three 25 basis point cuts before year-end and explores tariff impacts on inflation, deflation, and stagflation risks given interest costs growing at 3-4% annually against 1-2% GDP growth."
 topics: []
-topics_proposed: []
+topics_proposed: ["fed-policy", "inflation-expectations", "labor-market", "tariff-economics", "stagflation-risk"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Rebecca Walser"
+      role: "president of Walser Wealth Management"
+    - name: "Jerome Powell"
+      role: "Federal Reserve Chair"
+  companies:
+    - name: "Walser Wealth Management"
+      ticker: null
+    - name: "Schwab Network"
+      ticker: null
+    - name: "BLS (Bureau of Labor Statistics)"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Fed Watch Tool"]
+  concepts: ["CPI", "core inflation", "PPI", "Fed funds rate", "rate cuts", "labor market", "tariffs", "stagflation", "federal debt", "AI", "industrial revolution"]
+content_type: "educational"
+audience_level: "advanced"
+key_claims: 
+  - claim: "CPI came in at 2.9% and core inflation stayed at 3.1%"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "BLS job revision was the highest on record"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "PPI dipped by 0.1%"
+    timestamp: "00:01:45"
+    confidence: "high"
+    flagged: true
+  - claim: "Market is pricing in three 25 basis point cuts for 2025 (September, October, December meetings)"
+    timestamp: "00:02:48"
+    confidence: "high"
+    flagged: true
+  - claim: "Interest costs are growing at 3-4% per year while GDP grows at only 1-2%"
+    timestamp: "00:07:04"
+    confidence: "medium"
+    flagged: true
+  - claim: "Federal debt is $37 trillion"
+    timestamp: "00:07:04"
+    confidence: "high"
+    flagged: true
+  - claim: "10-year Treasury dipped below 4% with rate cut expectations"
+    timestamp: "00:01:45"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +112,40 @@ notes: ""
 **Published:** 2025-09-18
 **URL:** https://youtube.com/watch?v=bvMVhu39VXU
 **Duration:** 8:03
+
+## Summary
+
+Rebecca Walser analyzes economic data ahead of a Federal Reserve decision. She discusses CPI inflation remaining elevated at 2.9%-3.1% despite PPI showing signs of easing. A record jobs revision reveals labor market weakness, compelling the Fed to prioritize rate cuts. Walser expects three consecutive 25 basis point cuts through year-end and addresses how tariffs, stagflation risks, and AI growth prospects will shape monetary policy and economic outcomes.
+
+## Key Takeaways
+
+- CPI inflation at 2.9% headline and 3.1% core, coupled with a record-high BLS jobs revision, creates pressure for Fed rate cuts despite lingering inflation
+- The 10-year Treasury yield dipped below 4% as markets price in three 25 basis point rate cuts by December 2025
+- Powell signaled at Jackson Hole a shift from inflation focus to labor market support, removing his previous 3.5-year justification for ignoring employment data
+- Tariffs present an economic paradox: they can be inflationary if absorbed, deflationary if demand collapses, or both depending on final equilibrium; outcome depends on China trade deal finalization
+- Stagflation risk is material: interest costs growing 3-4% annually versus GDP growth of 1-2% with $37 trillion federal debt requires AI-driven productivity to resolve
+
+## Detailed Notes
+
+### CPI and Inflation Data Analysis [00:00:00]
+
+CPI came in at 2.9% headline inflation, slightly hotter than anticipated, with core inflation holding flat at 3.1%. PPI provided positive news by dipping 0.1%, but these mixed signals create consternation for Fed policymakers. The record-high BLS jobs revision contradicts headline employment strength and forces the Fed to balance inflation against deteriorating labor conditions.
+
+### Fed Rate Cut Path and Market Expectations [00:02:48]
+
+Markets are pricing in three consecutive 25 basis point cuts for September, October, and December 2025. Walser anticipates the Fed will start with a 25 basis point cut rather than 50, framing it as data-dependent to avoid signaling crisis. However, market expectations may force additional cuts. The Fed Watch Tool shows a bifurcation in January probabilities where the Fed either cuts again or pauses.
+
+### Powell's Labor Market Shift at Jackson Hole [00:00:42]
+
+Powell's Jackson Hole speech signaled a pivot toward prioritizing labor market metrics. For 3.5 years, the Fed focused solely on inflation while benefiting from robust employment. Now, with jobs data deteriorating, the labor market becomes the Fed's primary mandate concern, justifying easing cycles despite lingering inflation.
+
+### Tariff Economics: Inflation Versus Demand Destruction [00:05:27]
+
+Walser clarifies that tariffs are not inherently inflationary; the demand side of the equation matters equally. Higher prices drive away customers, reducing demand, which can create deflationary pressure. Historical precedent shows tariffs causing both inflation and deflation depending on how demand adjusts. The critical unknown is the finalized China trade deal, as China is the primary trading partner whose tariff policy will determine the outcome.
+
+### Stagflation Risk and Federal Debt Sustainability [00:07:04]
+
+With interest costs projected to grow 3-4% annually while GDP grows only 1-2%, stagflation concerns are material. The $37 trillion federal debt becomes increasingly difficult to service under this scenario. Walser points to AI and the fourth industrial revolution as potential growth frontiers that could generate the productivity gains needed to exceed interest costs and support economic expansion.
 
 ## Transcript
 

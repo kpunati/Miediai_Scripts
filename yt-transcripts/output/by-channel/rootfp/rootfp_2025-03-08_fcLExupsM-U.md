@@ -57,27 +57,50 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Explains Roth conversion strategy break-even analysis using tax-adjusted asset value rather than nominal dollar amounts. Demonstrates with Luke and Mary's case how filling the 22% tax bracket until age 72 could save $3M in taxes and increase after-tax wealth by $3.3M, showing benefits materialize sooner when measured correctly."
 topics: []
-topics_proposed: []
+topics_proposed: ["roth-conversions", "tax-planning", "retirement-strategy", "tax-adjusted-value", "ira-planning"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Luke"
+      role: "retirement planning example"
+    - name: "Mary"
+      role: "retirement planning example"
+    - name: "James Conole"
+      role: "Financial advisor, CFP"
+  companies:
+    - name: "Root Financial Partners LLC"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Roth IRA", "Traditional IRA", "401k"]
+  concepts: ["tax bracket", "tax-adjusted asset value", "effective tax rate", "marginal tax bracket", "required minimum distributions"]
+content_type: "educational"
+audience_level: "advanced"
+key_claims: 
+  - claim: "Roth conversions could save $3 million in taxes and increase after-tax wealth by $3.3 million for Luke and Mary"
+    timestamp: "00:01:03"
+    confidence: "high"
+    flagged: true
+  - claim: "Converting $100,000 at 22% marginal tax bracket costs $22,000 in federal taxes"
+    timestamp: "00:04:12"
+    confidence: "high"
+    flagged: true
+  - claim: "Break-even occurs when tax-adjusted portfolio value increases, not when nominal dollar amounts equalize"
+    timestamp: "00:05:16"
+    confidence: "high"
+    flagged: false
+  - claim: "$800,000 in Roth IRA is worth more than $1 million in traditional IRA at 25% tax bracket"
+    timestamp: "00:05:16"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -87,6 +110,49 @@ notes: ""
 **Published:** 2025-03-08
 **URL:** https://youtube.com/watch?v=fcLExupsM-U
 **Duration:** 11:55
+
+## Summary
+
+James Conole explains the critical difference between nominal and tax-adjusted break-even analysis for Roth conversions. Using Luke and Mary's retirement plan, he demonstrates how converting enough pre-tax assets to fill the 22% federal tax bracket until age 72 could yield substantial benefits: $3M in reduced taxes and $3.3M increase in after-tax wealth. The key insight is that break-even occurs much sooner when measured by tax-adjusted asset value rather than dollar amounts alone, allowing retirees to enjoy the benefits during their retirement years rather than decades later.
+
+## Key Takeaways
+
+- Roth conversions should be evaluated using tax-adjusted asset value, not nominal dollar amounts, to properly assess break-even timing
+- Converting assets to fill lower tax brackets in early retirement can save millions in taxes over a lifetime
+- Tax brackets matter crucially: $800,000 in tax-free Roth assets may be worth more than $1 million in taxable traditional IRA at higher brackets
+- Opportunity cost of paying conversion taxes (reduced portfolio growth) must be weighed against future tax-free growth in Roth accounts
+- Effective tax rate in future years determines whether conversions create value, not just marginal brackets
+- For Luke and Mary, despite nominal break-even at age 95, tax-adjusted benefits materialize much sooner in retirement
+
+## Detailed Notes
+
+### Luke and Mary's Baseline Plan [00:00:00]
+
+Luke (61) and Mary (58) have $2.3-2.4M in investments including pre-tax accounts ($2M+ in IRAs/401ks), small Roth IRA, and ~$1M in brokerage. They work until ages 63 and 60, then retire. Without tax strategy optimization, portfolio continues growing through retirement.
+
+### Proposed Tax Strategy: Filling 22% Bracket [00:01:03]
+
+Most effective strategy for Luke and Mary is filling the 22% federal tax bracket until Luke turns 72 through Roth conversions. Projected outcomes: $3.3M more in tax-adjusted assets, $3M fewer in lifetime taxes, ~$6M fewer withdrawals from traditional IRAs (reducing required minimum distribution impact).
+
+### Why Break-Even Seems Distant [00:03:09]
+
+When comparing nominal portfolio values, break-even appears at Luke's age 95 (Mary age 92). This metric is misleading because it counts the immediate tax cost against multi-decade benefits. The shortfall occurs because dollars paid for conversions don't grow, creating opportunity cost.
+
+### The $100,000 Conversion Example [00:04:12]
+
+Converting $100,000 at 22% bracket costs $22,000 in taxes. This $22,000 is permanently lost from portfolio growth. Over time, opportunity cost compounds, pushing nominal break-even far into future. This is the wrong framework for evaluation.
+
+### Tax-Adjusted Asset Value Framework [00:05:16]
+
+The correct approach: compare accounts based on after-tax value. $1M in traditional IRA at 25% effective tax rate = $750,000 after-tax value. $800,000 in Roth IRA = $800,000 after-tax value (tax-free). Therefore $800k Roth is actually worth more to recipient. This perspective reverses valuation.
+
+### Real Break-Even Analysis [00:07:20]
+
+Break-even occurs when tax-adjusted portfolio balance increases, not when nominal values equalize. Example: $10,000 traditional IRA (12% bracket) vs $8,800 Roth (both worth $8,800 after-tax in year 1). If tax bracket rises to 22% in year 2, the $8,800 Roth remains worth $8,800 while $10,000 IRA now worth only $7,800 (after 22% tax). Roth wins immediately in tax-adjusted terms.
+
+### Implementation and Software Modeling [00:06:18]
+
+Real retirement plans involve multiple account types (Social Security, cash, traditional/Roth IRAs, brokerage, etc.) with different tax treatment. Software modeling is essential to calculate true tax-adjusted outcomes for specific situations. Simple examples illustrate principle but require detailed analysis for actual planning.
 
 ## Transcript
 

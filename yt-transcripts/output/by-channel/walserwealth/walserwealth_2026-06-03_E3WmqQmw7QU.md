@@ -45,27 +45,60 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser examines how the Iran-US conflict, oil market disruptions, and consumer sentiment decline threaten Trump's midterm prospects. She discusses the strategic dilemma between resolving the conflict quickly for political advantage versus maintaining military pressure for decisive outcomes."
 topics: []
-topics_proposed: []
+topics_proposed: ["iran-conflict", "midterm-elections", "oil-prices", "consumer-sentiment", "geopolitics"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Rebecca Walser"
+      role: "wealth manager, market analyst"
+    - name: "Scott Shellady"
+      role: "host"
+    - name: "Donald Trump"
+      role: "US President"
+  companies:
+    - name: "Walser Wealth Management"
+      ticker: null
+    - name: "University of Michigan"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["midterm-elections", "consumer-sentiment", "oil-disruption", "iran-negotiations", "bifurcated-economy", "geopolitical-risk"]
+content_type: "interview"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Consumer sentiment declined three consecutive months with historic low at 44.8"
+    timestamp: "00:01:23"
+    confidence: "high"
+    flagged: true
+  - claim: "Average gas price at 4.50 per gallon, down to 4.32 mid-week"
+    timestamp: "00:01:23"
+    confidence: "high"
+    flagged: true
+  - claim: "57% of University of Michigan survey respondents cite prices eating into personal finances"
+    timestamp: "00:02:26"
+    confidence: "high"
+    flagged: true
+  - claim: "Fed Watch Tool showed 57% rate hike probability two weeks prior, dropped to 49-50%"
+    timestamp: "00:05:31"
+    confidence: "high"
+    flagged: true
+  - claim: "2026 marks the 250th anniversary with major July 4th celebrations planned"
+    timestamp: "00:02:26"
+    confidence: "medium"
+    flagged: false
+  - claim: "The Iranians are counting on Trump facing midterm pressure to wait him out"
+    timestamp: "00:02:26"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +108,40 @@ notes: ""
 **Published:** 2026-06-03
 **URL:** https://youtube.com/watch?v=E3WmqQmw7QU
 **Duration:** 8:30
+
+## Summary
+
+Rebecca Walser discusses the critical intersection of geopolitics and electoral politics as the Iran conflict drags into June. She analyzes consumer sentiment at historic lows (44.8), with 57% of Americans reporting that high prices are eating into personal finances. The discussion centers on Trump's strategic dilemma: resolving the conflict quickly to improve voter sentiment before midterms, or maintaining military pressure for decisive victory. Walser argues Iran's calculation that Trump will eventually ease pressure due to electoral concerns creates incentives for prolonged conflict. She warns that a divided Congress could severely hamper Trump's final two years in office.
+
+## Key Takeaways
+
+- Consumer sentiment hit a 44.8 historic low, declining for three consecutive months, signaling deep voter anxiety about economic conditions heading into midterms.
+- Gas prices averaging 4.50 per gallon remain the primary driver of consumer negativity; prices must show clear downward direction to help Trump politically, not necessarily reach pre-crisis levels.
+- The bifurcated K-shaped economy means equity all-time highs completely disconnect from voter concerns about affording gas, food, and summer travel during the 250th-anniversary July 4th season.
+- Iran's militant ideology and 57-year antagonism toward the US make traditional negotiation ineffective; military pressure is the only language Iran understands, but requires sustained commitment.
+- A 60-day ceasefire represents a tactical advantage for Iran to renege and outwait Trump until electoral pressure forces US concessions; escalated resolution is necessary for credibility.
+
+## Detailed Notes
+
+### Consumer Sentiment Crisis and Electoral Stakes [00:01:23]
+
+Consumer sentiment reached 44.8, the lowest on record beyond Great Depression tracking, declining for three consecutive months. Walser emphasizes this signals voters' willingness to hold Trump accountable for pocketbook issues, making midterm prospects uncertain despite his popularity with the base.
+
+### Oil Volatility and Immediate Political Pressure [00:01:23]
+
+Gas prices averaged 4.50 per gallon with daily volatility (down to 4.32 before re-escalating). Walser notes that 57% of University of Michigan survey respondents spontaneously cite high prices eating into personal finances. Voters need to see clear downward trends, not absolute price levels, to view the administration favorably.
+
+### Strategic Dilemma: Electoral Timing vs. Military Resolution [00:02:26]
+
+Trump publicly stated the war is larger than midterm elections, signaling Iran that he won't be dictated to by electoral pressure. However, Walser argues Iran is betting that prolonged conflict will eventually force Trump to yield due to voter sentiment. A 60-day ceasefire favors Iran's calculation by consuming time without resolution, making full military pressure or rapid settlement the only credible options.
+
+### Iran's Ideological Hostility and Negotiation Impossibility [00:06:14]
+
+Walser emphasizes Iran's militant Islamic revolutionary ideology makes negotiation ineffective; Iran views itself as locked in eternal struggle against the 'Little Satan' (USA). Pressure through military force is the only effective language; negotiation time without accompanying military escalation just allows Iran to regroup and await Trump's electoral deadline.
+
+### Congressional Risks and Economic Bifurcation [00:03:29]
+
+Equity markets at all-time highs but bottom 80% of income earners struggling with gas, food, and travel costs. Walser warns a divided Congress (split House and Senate) could severely hamper Trump's ability to govern during his final two years, regardless of who controls which chamber.
 
 ## Transcript
 

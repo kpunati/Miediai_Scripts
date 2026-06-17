@@ -45,27 +45,58 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser and Brian Jacobson discuss Q2 market outlook, consumer sentiment decline, oil price spike to $99, and its impact on inflation and growth. Investors face volatility and should employ diversification and patience; behavioral finance and risk reassessment are critical."
 topics: []
-topics_proposed: []
+topics_proposed: ["oil-prices", "consumer-sentiment", "inflation-expectations", "market-volatility", "behavioral-finance", "energy-sector"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Rebecca Walser"
+      role: "Wealth management president"
+    - name: "Brian Jacobson"
+      role: "Chief economic strategist"
+    - name: "Nicole"
+      role: "Host"
+  companies:
+    - name: "Annex Wealth Management"
+      ticker: null
+    - name: "Walser Wealth Management"
+      ticker: null
+    - name: "Schwab Network"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["consumer sentiment", "oil embargo", "inflation expectations", "VIX", "behavioral finance", "K-shaped economy", "financial sectors", "merger and acquisition activity"]
+content_type: "interview"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Consumer sentiment Michigan survey showed worst read since December 2025 with both middle and upper income participating in downward sentiment"
+    timestamp: "00:00:46"
+    confidence: "high"
+    flagged: true
+  - claim: "Inflation expectations at 3.8% for the year but long-term expectations back down to 3.2%"
+    timestamp: "00:01:49"
+    confidence: "high"
+    flagged: true
+  - claim: "Oil futures contracts show prices potentially in high 70s to low 80s"
+    timestamp: "00:01:49"
+    confidence: "high"
+    flagged: true
+  - claim: "VIX broke above 21, at about 30-31; if reaches 32-36 may signal buying opportunity"
+    timestamp: "00:02:29"
+    confidence: "medium"
+    flagged: false
+  - claim: "OECD expects 4.2% inflation for the year, mostly from food and energy prices"
+    timestamp: "00:03:11"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +106,45 @@ notes: ""
 **Published:** 2026-04-01
 **URL:** https://youtube.com/watch?v=yLysmEPA8QQ
 **Duration:** 7:25
+
+## Summary
+
+Rebecca Walser and Brian Jacobson discuss market conditions as the US faces an Iran conflict and elevated oil prices approaching $99/barrel in early April 2026. Consumer sentiment has weakened significantly, with both middle and upper-income households showing pessimism, despite long-term inflation expectations remaining relatively contained. The speakers emphasize patience, diversification, and proper risk assessment as volatility persists; they also highlight the importance of behavioral finance discipline to avoid panic selling during downturns.
+
+## Key Takeaways
+
+- Consumer sentiment declined to worst levels since December 2025, affecting even affluent households with stock holdings
+- Inflation expectations rise short-term to 3.8% but stabilize at 3.2% long-term, signaling market confidence in resolution
+- Oil price spike impacts growth more severely than inflation; consumers may reduce discretionary spending or increase debt
+- VIX volatility reaching 30-31 range suggests potential buying opportunities if discipline is maintained
+- Energy sector positioning should be monitored as oil prices approach $99; banks may benefit from volatility and deregulation
+- Behavioral finance discipline is essential to avoid selling at market bottoms and missing subsequent recoveries
+
+## Detailed Notes
+
+### Consumer Sentiment & Market Impact [00:00:46]
+
+Michigan consumer sentiment survey shows worst read since December 2025. Both middle and upper-income households participated in downward sentiment, unlike the K-shaped economy dynamic where lower income typically bears most pressure. Stock-holding households showed the most downward movement due to recent portfolio losses.
+
+### Inflation Outlook & Oil Futures [00:01:49]
+
+Near-term inflation expectations at 3.8% annually but long-term expectations stabilize at 3.2%. Oil futures contracts for December show potential prices in the high 70s to low 80s range, indicating market confidence in conflict resolution. This suggests consumer sentiment may align with longer-term stabilization.
+
+### Growth vs Inflation Concerns [00:02:29]
+
+Brian Jacobson emphasizes growth risks exceed inflation risks from sustained high oil prices. OECD forecasts 4.2% inflation, primarily from energy and food. Consumers may reallocate budgets by reducing savings, increasing debt, or cutting discretionary spending. Extended conflict would intensify negative growth effects.
+
+### VIX Volatility & Investment Strategy [00:02:29]
+
+VIX broke above 21 and currently around 30-31. Traditional opportunities emerge if VIX reaches 32-36 range, allowing disciplined allocations. Markets await resolution from conflict expected before end of April. Behavioral finance discipline critical to avoid panic selling.
+
+### Investor Do's and Don'ts [00:04:56]
+
+Walser emphasizes patience, avoiding panic sales, and reassessing risk tolerance. High risk tolerance in bull markets often reverses when volatility strikes. Safe havens like precious metals also declining due to liquidity concerns. Energy events impact multiple sectors: airlines, transportation, shipping, deliveries. Historical precedent: Gulf Wars 1 and 2 followed by 30% upside, requiring patience through volatility.
+
+### Sector Positioning & Strategic Moves [00:06:09]
+
+Investment committee lightened energy overweight at $99 oil price, moving toward neutral or slight underweight. Favoring banks due to deregulation benefits and expected M&A activity uptick. Financials may perform well coming out of conflict due to trading desk volatility gains. Multiple ETF options available for these positions.
 
 ## Transcript
 

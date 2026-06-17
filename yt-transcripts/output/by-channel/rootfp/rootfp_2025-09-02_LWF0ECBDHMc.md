@@ -59,27 +59,42 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Examines the critical difference between lifespan and healthspan, showing how many retirees delay retirement to age 65 or later only to discover their healthiest years have passed. Argues that maximizing retirement savings while sacrificing health and relationships creates a poor quality-of-life tradeoff."
 topics: []
-topics_proposed: []
+topics_proposed: ["healthspan-lifespan", "retirement-timing", "delayed-retirement-costs", "quality-of-life", "intentional-living"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "Financial adviser, CFP®"
+  companies:
+    - name: "Root Financial"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Retirement Planning Academy"]
+  concepts: ["healthspan vs lifespan", "financial independence", "delayed gratification trap", "quality of life in retirement", "meaningful life"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Average American lifespan is 77 years, but healthspan (years in good physical and cognitive condition) ends around age 66"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "For those reaching age 60, life expectancy is 84 overall, 85 for women, and 82 for men"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Continuing to work in high-stress jobs into mid-to-late 60s while sacrificing health can result in missing the best years of retirement"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -89,6 +104,49 @@ notes: ""
 **Published:** 2025-09-02
 **URL:** https://youtube.com/watch?v=LWF0ECBDHMc
 **Duration:** 9:37
+
+## Summary
+
+James Conole contrasts lifespan (how long someone lives) with healthspan (how many years in good physical and cognitive health). While the average American lifespan is 77, healthspan typically ends around 66. This gap creates a critical retirement planning problem: people often work until 65 or later to maximize retirement savings, only to discover that declining health prevents them from enjoying the resources they accumulated. The video argues for intentional retirement planning that balances financial security with health, relationships, and meaningful experiences during the peak years when retirement can be fully enjoyed.
+
+## Key Takeaways
+
+- Healthspan (years of good health) ends around age 66, roughly 11 years before average lifespan ends at 77
+- Working longer to maximize financial resources often trades away the healthiest retirement years, leaving more money but fewer viable years to enjoy it
+- Portfolio projections typically focus on terminal value, but the early years of retirement—when health and energy are highest—are most valuable for travel and experiences
+- Stress-related health decline from continued work can shorten healthspan further, creating a compounding cost to delayed retirement
+- Financial independence should be defined and recognized; continuing to work beyond this point requires intentional justification beyond financial optimization
+- The question should not be How much more can I save? but rather What is the cost of delayed retirement to my health, relationships, and quality of life?
+
+## Detailed Notes
+
+### Lifespan vs. Healthspan Defined [00:00:00]
+
+Lifespan is how long someone lives (average US: 77 years). Healthspan is the number of years lived in good physical and cognitive condition (average US: 66 years). This 11-year gap is critical to retirement planning because it defines the window during which meaningful activities are physically feasible.
+
+### Life Expectancy at Age 60 [00:00:00]
+
+US life expectancy from birth is 77, but this changes with age. Those reaching 60 have life expectancy of 84 overall (women: 85, men: 82). This means a 60-year-old who delays retirement to 70 to maximize Social Security may only have 4-6 healthy years to enjoy the accumulated resources.
+
+### Portfolio Focus Problem [00:00:00]
+
+Traditional retirement projections show portfolio balance growing through retirement and peaking at death. Financial advisers focus on terminal value, but this misses the crucial reality: portfolio capacity to support travel, adventure, and active pursuits is highest in early retirement years when health is good, not in later years when spending capacity declines anyway.
+
+### Cost of Delayed Retirement [00:00:00]
+
+Clients who work until mid-to-late 60s for additional wealth often cannot use those gains due to health decline. Knee replacements, chronic illnesses, and lack of energy prevent enjoying planned trips or activities. They sacrificed the best years of retirement—when they had health and energy—to accumulate money for years when they cannot use it effectively.
+
+### Invisible vs. Tangible Scorecard [00:00:00]
+
+Continuing to save provides tangible, measurable rewards: higher 401k balance, stock vesting, bonuses. These are visible scorecards. Relationships, health, purpose, and contentment have no visible tracker, making it psychologically harder to prioritize them. Yet these invisible factors are more meaningful to actual retirement satisfaction.
+
+### Financial Independence and Intentional Choice [00:00:00]
+
+Once financial independence is achieved, the decision to continue working should be intentional: Does work provide energizing purpose? Create meaningful relationships? Offer structure that's desired, not imposed? If work is stressful, health-damaging, and preventing pursuit of meaningful activities, the cost of continued work exceeds its benefit.
+
+### Redefining Wealth and Legacy [00:00:00]
+
+Wealth should be redefined beyond financial assets to include time, relationships, purpose, hobbies, and the capacity to pursue a meaningful life. The ultimate question is whether one wants more money in their 80s or more memories in their 60s. A strong financial strategy supports the life desired, not optimize financial metrics at the expense of living that life.
 
 ## Transcript
 

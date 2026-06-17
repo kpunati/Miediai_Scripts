@@ -39,27 +39,46 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Explains how compound growth can reach a milestone where retirement savings contributions become optional years before traditional retirement age. Uses a calculator-based approach to identify when investment growth alone will cover desired retirement spending."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-savings", "compound-growth", "early-retirement", "financial-planning", "retirement-calculator", "coast-fire"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, RICP"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Google Sheets calculator for retirement savings"]
+  concepts: ["milestone 3 growth", "coast fire", "compound growth", "goal seeking", "portfolio balance", "desired retirement spending"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Sarah could stop saving at 57 instead of continuing to 65, 8 years earlier than planned"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Sarah's case involves stopping contributions 5 years from now and redirecting 320,000 dollars in future contributions"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "The calculator shows Sarah needs a portfolio of approximately 1.47 million to generate 50,000 dollars annually at 5% return"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "After 5 years of 40,000 dollars contributions, Sarah's portfolio will reach about 861,000 dollars"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -69,6 +88,48 @@ notes: ""
 **Published:** 2026-01-03
 **URL:** https://youtube.com/watch?v=3G3Tv5JX_rs
 **Duration:** 9:52
+
+## Summary
+
+This video introduces the concept of finding the exact point at which retirement savings contributions become optional. Rather than arbitrarily saving until traditional retirement age, Eric presents three compound growth milestones, with the third being most critical: when investment growth alone covers desired retirement spending. Using a free calculator, he shows how Sarah discovered she could stop saving at 57 instead of 65, freeing up 320,000 dollars over 8 years to redirect to life experiences.
+
+## Key Takeaways
+
+- Three compound growth milestones exist: when growth exceeds contributions, Coast Fire, and when growth covers desired spending; only the third matters for retirement decisions
+- Most financial advisers avoid showing this calculation because their compensation model rewards higher assets under management, not retirement spending optimization
+- A calculator can determine the exact year contributions become optional by inflating desired spending, calculating required portfolio size, and reverse-engineering the savings timeline
+- The 'goal seeking' mode allows flexibility to choose how long to save if the initial calculation shows contributions are optional sooner than desired
+- Using specific retirement spending goals rather than arbitrary portfolio targets eliminates years of unnecessary saving and provides certainty about retirement readiness
+
+## Detailed Notes
+
+### Three Retirement Milestones and Why Most Are Misleading [00:00:00]
+
+The first milestone (growth exceeding contributions) is merely a vanity metric with no retirement decision value. The second (Coast Fire) relies on arbitrary target portfolio numbers rather than actual spending needs, potentially trapping people in unwanted careers. Only the third milestone matters: when compound growth covers actual desired retirement spending, not some generic target balance.
+
+### Sarah's Case: From 65 to 57 Retirement [00:00:00]
+
+Sarah started at age 52, maxing out 401k contributions at 40,000 dollars annually, planning to work until 65. The calculator revealed she could stop contributing at 57, 8 years earlier than expected. This freed 320,000 dollars in future contributions to redirect toward experiences and business investments, showing the power of accurate retirement math.
+
+### Calculating Required Portfolio Size [00:00:00]
+
+The process begins with actual desired retirement spending in today's dollars (e.g., 50,000 dollars). This is inflated to future dollars accounting for inflation. The calculator determines the portfolio size needed to generate that inflated amount at a conservative growth rate (5% assumed in retirement) without touching principal. Sarah needed approximately 1.47 million dollars to support her lifestyle.
+
+### Mode A: When Can You Stop Saving? [00:00:00]
+
+Given current contributions (40,000 dollars annually), the calculator determines when the portfolio reaches the required balance. For Sarah, after 5 years of contributions, her portfolio reaches approximately 861,000 dollars. Compound growth at 7% growth rate then builds this to 1.47 million dollars over the remaining 8 years without additional contributions.
+
+### Mode B: Goal Seeking - Adjusting Contribution Amounts [00:00:00]
+
+Goal seeking allows working backwards from a desired savings timeline. If Sarah wanted to stop contributing in 3 years rather than 5, the calculator shows she needs to save 60,750 dollars annually instead of 40,000 dollars. Same destination, different contribution path, allowing individuals to choose based on personal preferences and life circumstances.
+
+### Why Financial Advisers Avoid This Calculation [00:00:00]
+
+The industry's compensation model rewards assets under management, not optimization of retirement spending. Showing clients they can stop saving may reduce the adviser's fee base. Additionally, conventional wisdom encourages maximum 401k contributions until retirement without questioning whether additional savings are truly necessary for the desired lifestyle.
+
+### How to Use the Free Calculator [00:00:00]
+
+The calculator uses straightforward math: inflate desired spending, calculate required portfolio to generate that spending, then reverse-engineer the savings timeline. Users fill in yellow cells (inputs), and green cells automatically populate with answers (outputs). Available as a Google Sheet that can be downloaded as Excel, with formulas intact.
 
 ## Transcript
 

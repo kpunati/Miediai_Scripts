@@ -35,27 +35,50 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Eric Amzalag argues that $2 million is sufficient to retire immediately at age 62, using guardrails-based planning to show a 97% success rate over 33 years for a couple needing $95K annual spending. Working two additional years costs 480 days (5% of remaining healthy lifespan) to gain $250K—a poor trade. Healthcare before Medicare is addressed through ACA subsidies at low modified AGI, costing ~$700/month."
 topics: []
-topics_proposed: []
+topics_proposed: ["early-retirement", "financial-independence", "portfolio-sufficiency", "healthcare-planning", "guardrails-strategy"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP"
+    - name: "Mark"
+      role: "Retiree (case study, age 62)"
+    - name: "Lisa"
+      role: "Retiree (case study, age 62)"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Income Labs"]
+  concepts: ["portfolio-sufficiency", "guardrails-planning", "ACA-subsidies", "modified-adjusted-gross-income", "federal-poverty-level", "Medicare", "spending-adjustment"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "$2 million can support $95,000 annual spending with a 97% probability of never needing to reduce spending over a 33-year retirement"
+    timestamp: "00:02:05"
+    confidence: "medium"
+    flagged: true
+  - claim: "Mark and Lisa would need only $24,500 in healthcare costs over three years before Medicare at age 65 by qualifying for ACA subsidies"
+    timestamp: "00:04:45"
+    confidence: "medium"
+    flagged: true
+  - claim: "Working two additional years from age 62 to 64 costs 480 days (nearly 5% of remaining healthy years assuming 30-year lifespan)"
+    timestamp: "00:01:02"
+    confidence: "high"
+    flagged: true
+  - claim: "Keeping income below 400% of federal poverty level qualifies retirees for private health insurance subsidies with costs capped at 10% of modified AGI"
+    timestamp: "00:03:49"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -65,6 +88,42 @@ notes: ""
 **Published:** 2026-01-28
 **URL:** https://youtube.com/watch?v=blsV-fwZ9fE
 **Duration:** 7:22
+
+## Summary
+
+Eric Amzalag challenges the widespread belief that $2 million is insufficient for retirement, showing that Mark and Lisa can retire immediately at 62 with high confidence. Using guardrails-based planning, their $2 million ($1.7M pre-tax IRAs, $300K after-tax) supports $95K annual inflation-adjusted spending with only a 3% chance of requiring a 5% temporary cut over 33 years. The psychological hurdle isn't financial—it's permission to leave work. Healthcare before Medicare is manageable through ACA subsidies when MAGI is kept below 400% federal poverty level, costing approximately $700/month for both.
+
+## Key Takeaways
+
+- The goalpost fallacy: people with less than $2M think $2M is plenty, but those reaching $2M often believe they need $2.5M or $3M
+- Working two more years costs 480 days of freedom during peak health years (age 62-64), representing almost 5% of remaining healthy lifespan to gain $250K
+- Guardrails-based planning shows Mark and Lisa have a 97% success rate, meaning only 3% chance of needing to cut spending, and even then only 5% of spending
+- Healthcare before Medicare at 65 can be obtained affordably by structuring withdrawals to keep MAGI around $82,000, qualifying for ACA subsidies
+- ACA marketplace premiums are capped at ~10% of modified AGI, meaning at $82K income, healthcare costs about $700/month for a married couple
+- A significant market crash (32% portfolio decline) would only require temporary spending reduction from $95K to $90.25K, not permanent changes
+- The choice to work longer past $2M is not about financial safety but about trading the most valuable non-renewable asset (healthy years) for money that isn't needed
+
+## Detailed Notes
+
+### The $2M Sufficiency Case [00:02:05]
+
+Running Mark and Lisa's numbers through Income Labs guardrails-based planning, they achieve 97% probability of success over 33 years with $95K annual spending (adjusted for inflation). Even in the 3% failure scenario, a 32% portfolio decline only requires temporary 5% spending cut until recovery. They genuinely don't need $2.5M or $3M.
+
+### The Time-Money Tradeoff [00:01:02]
+
+Working two additional years from 62 to 64 costs 480 working days—approximately 4,000 hours of meetings, commuting, emails, and office politics. With 11,000 healthy days remaining at age 62 (assuming 30-year lifespan to 92), this represents 5% of remaining healthy years. These aren't random days—they're peak health years when physical activities are still possible.
+
+### Healthcare Before Medicare [00:03:49]
+
+The perceived barrier of health insurance before Medicare can be overcome through ACA subsidies. By structuring withdrawals to keep modified AGI at $82K (below 400% of federal poverty level), Mark and Lisa qualify for subsidies that cap premiums at ~10% of income. For them, this means approximately $700/month total, or $24,500 over three years pre-Medicare.
+
+### Permission vs. Math [00:05:41]
+
+Most people with $2M wait for external permission—from peers, family, or authority figures. But the math gives them permission. The psychological block isn't financial; it's believing one more year of work will make them safer. Research proves another year of work doesn't increase safety; it only costs years from their healthy lifespan.
+
+### The Core Realization [00:06:14]
+
+Wealth building's purpose is to buy back time. Every additional day worked after $2M is reached trades the one non-renewable asset (time, especially healthy time) for money that isn't needed. The math says they're done; the only question is whether they'll give themselves permission to believe it.
 
 ## Transcript
 

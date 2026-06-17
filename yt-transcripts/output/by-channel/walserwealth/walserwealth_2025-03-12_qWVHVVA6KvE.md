@@ -45,27 +45,58 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser provides stock recommendations on CNBC's Power Lunch, rating Disney and Verizon as sells due to consumer weakness and competitive pressures, while recommending Eli Lilly as a buy based on healthcare sector stability and strong weight-loss drug market growth."
 topics: []
-topics_proposed: []
+topics_proposed: ["stock-analysis", "consumer-discretionary", "telecom", "healthcare", "buyout-recommendations", "dividend-yields"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Rebecca Walser"
+      role: "wealth manager"
+    - name: "Kelly"
+      role: "CNBC host"
+  companies:
+    - name: "Disney"
+      ticker: "DIS"
+    - name: "Verizon"
+      ticker: "VZ"
+    - name: "Eli Lilly"
+      ticker: "LLY"
+    - name: "Delta Airlines"
+      ticker: null
+    - name: "T-Mobile"
+      ticker: "TMUS"
+    - name: "Moana"
+      ticker: null
+  tickers: ["DIS", "VZ", "LLY", "TMUS"]
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Zepbound", "weight-loss drugs"]
+  concepts: ["consumer sentiment", "dividend yields", "healthcare sector", "weight-loss market", "competitive pressures"]
+content_type: "analysis"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Disney is down 50% from its all-time high but consensus expects 29% price upside"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Verizon has a 6.28% dividend yield and has grown its dividend almost 2% in under a year"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "T-Mobile has grown its stock price 200% in the last 5 years while Verizon contracted 20%"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Eli Lilly expects 45% revenue growth quarter-over-quarter and 32% year-over-year revenue growth from 2024 to 2025 with revenues of 58-61 billion"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +106,36 @@ notes: ""
 **Published:** 2025-03-12
 **URL:** https://youtube.com/watch?v=qWVHVVA6KvE
 **Duration:** 3:39
+
+## Summary
+
+Rebecca Walser appears on CNBC's Power Lunch to provide buy/sell/hold recommendations on three major stocks. She recommends selling Disney and Verizon due to consumer weakness and competitive disadvantages, while recommending buying Eli Lilly based on healthcare sector stability and strong growth in weight-loss pharmaceuticals.
+
+## Key Takeaways
+
+- Disney is a sell despite being 50% below all-time highs due to exposure to weakening consumer sentiment and lack of major content releases in Q1
+- Verizon is a sell despite a high 6.28% dividend yield because competitors like T-Mobile are growing stock price 200% versus Verizon's 20% contraction over 5 years
+- Eli Lilly is a buy because healthcare sector provides relative stability during 2025's expected disruption and volatility
+- Eli Lilly's strong growth profile (45% quarter-over-quarter, 32% year-over-year) and weight-loss drug dominance (Zepbound) offset expensive valuation
+- Healthcare and weight-loss drugs represent a secular trend with strong consumer adoption and less competitive disruption than other sectors
+
+## Detailed Notes
+
+### Disney sell recommendation [00:00:00]
+
+Walser rates Disney a sell despite positive factors: 33% dividend increase and 50% decline from all-time high with consensus expecting 29% upside. Negatives include 6% staff layoffs (200 at ABC), exposure to travel/consumer sentiment weakness, and no substantial content releases in Q1 until Whale on March 21. University of Michigan consumer sentiment data suggests consumer expectations of potential recession impacting vacation planning.
+
+### Verizon sell recommendation [00:00:00]
+
+Walser rates Verizon a sell despite a strong 6.28% dividend yield and 2% dividend growth in under a year. The stock is on pace for its worst day since 2008 due to warnings of softer subscriber growth. Chief revenue officers expect flat revenue and phone growth. Verizon has contracted 20% over 5 years while competitor T-Mobile grew 200%, indicating structural competitive disadvantage.
+
+### Eli Lilly buy recommendation [00:00:00]
+
+Walser recommends buying Eli Lilly as a healthcare play within an expected volatile 2025. Healthcare provides relative stability compared to growth stocks, even if not as stable as utilities. Eli Lilly increased dividends for 10 consecutive years and has manufacturing capabilities for weight-loss drugs. The stock is expensive at $330 but shows strong fundamentals.
+
+### Weight-loss drug market opportunity [00:00:00]
+
+Walser highlights Zepbound (Eli Lilly's weight-loss drug) as a competitive advantage in a secular trend. She notes that weight-loss drugs are becoming ubiquitous among consumers and that Eli Lilly's weight-loss drug portfolio will benefit from competitors' struggles. Expected 45% quarter-over-quarter revenue growth and 32% year-over-year growth from 2024 to 2025 reflects this opportunity.
 
 ## Transcript
 

@@ -35,27 +35,52 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Explains why accumulating over $2.1 million for retirement may be counterproductive due to loss aversion and healthspan-lifespan gaps. Argues that continuing to work past financial adequacy trades healthy retirement years for money that cannot be fully enjoyed later."
 topics: []
-topics_proposed: []
+topics_proposed: ["healthspan", "loss-aversion", "retirement-psychology", "retirement-adequacy", "healthcare-costs"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, RICP"
+  companies:
+    - name: "Mayo Clinic"
+      ticker: null
+    - name: "Peak Financial Planning Inc"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["loss-aversion", "healthspan", "lifespan", "psychological-barriers", "Social-Security"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "With $2.1 million at age 60 and average Social Security, one can spend $10,000 per month throughout retirement"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "At $120,000 annual retirement spending, this exceeds median US household income of $75,000-$80,000"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Mayo Clinic research shows 9.6 year global gap between healthspan and lifespan"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "United States has the worst healthspan-lifespan gap in the world"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Healthspan-lifespan gap has widened 13% since the year 2000"
+    timestamp: "00:00:00"
+    confidence: "low"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -65,6 +90,41 @@ notes: ""
 **Published:** 2026-02-07
 **URL:** https://youtube.com/watch?v=Rd6aeqY73-Y
 **Duration:** 5:51
+
+## Summary
+
+Eric Amzalag argues that many people oversave for retirement due to loss aversion, the psychological tendency to fear losses twice as intensely as gains. With $2.1 million and average Social Security benefits, an age-60 person can spend $120,000 annually with 80% confidence, exceeding median U.S. household income. However, by continuing to work past this adequacy threshold, people trade healthy years (go-go years in their 60s) for money they cannot fully enjoy when health declines (slow-go and no-go years). Mayo Clinic research shows the U.S. has a widening 9.6-year gap between healthspan and lifespan.
+
+## Key Takeaways
+
+- At $2.1 million saved with average Social Security, a 60-year-old can spend $120,000 annually with an 80% probability of not outliving their resources
+- This $120,000 annual spending exceeds the median U.S. household income of $75,000-$80,000, indicating most people at this level have sufficient retirement funds
+- Loss aversion causes savers to fear a $200,000 portfolio drop more intensely than they feel excited about gaining $200,000, creating endless goalpost moving
+- Healthspan (years lived in good health) averages 9.6 years shorter than lifespan globally, with the U.S. having the worst gap internationally
+- The 60s are go-go years (most healthy and active), while 70s mark slow-go years and 80s are no-go years with severe health limitations
+- Working additional years for money beyond adequacy threshold trades healthy retirement years for healthcare spending in later life when mobility and enjoyment are limited
+
+## Detailed Notes
+
+### The $2.1 Million Adequacy Threshold [00:00:00]
+
+With $2.1 million at age 60 and average Social Security benefits of $21,000 per year per partner, retirement income reaches $10,000 monthly or $120,000 yearly. This was verified using Income Labs and yields 80% probability of not overspending plan resources—a very conservative plan. This $120,000 annual spending significantly exceeds median U.S. household income of $75,000-$80,000, indicating most people with $2.1 million have more than adequate resources for comfortable retirement.
+
+### Loss Aversion: The Psychological Trap [00:00:00]
+
+Loss aversion is a psychological phenomenon where people feel losses roughly twice as intensely as gains. Someone with $2 million feels more terror seeing it drop to $1.8 million than excitement at gaining $200,000. This drives people with $2 million, $2.5 million, or more to keep working and grinding, always fearing portfolio decline. The goalpost never stops moving because the underlying fear never fades, trapping people in work they may not love.
+
+### Healthspan vs Lifespan Gap [00:00:00]
+
+Recent Mayo Clinic research globally shows 9.6-year gap between healthspan (healthy years) and lifespan (total years lived). The United States has the worst healthspan-lifespan gap worldwide. Gap has widened 13% since 2000. 60s are go-go years (most healthy and active), 70s transition to slow-go years (significant slowdown but some activity), and 80s become no-go years (limited mobility and activity). Medicine keeps people alive longer but doesn't extend healthy years, creating widening disparity.
+
+### Trading Healthy Years for Money [00:00:00]
+
+Working additional years past financial adequacy threshold trades go-go years (60s and early 70s) for money accumulated in slow-go and no-go years when health has declined. Extra savings from late-career work end up spent on healthcare and medication rather than enjoyable life experiences. For healthy people over 60 with $2.1 million saved, continuing to work due to loss aversion creates health scarcity while protecting against financial scarcity. Money earned in late career often spent managing health decline rather than funding adventures postponed.
+
+### When to Stop Working [00:00:00]
+
+If financially adequate ($2.1M+) and healthy in early 60s, continuing to work for more money is potentially poor trade unless work is genuinely fulfilling. Financial industry profits from keeping people focused on running out of money rather than running out of health. Healthspan is the only resource that cannot be recovered once lost. Decision should balance genuine work fulfillment against health-wealth tradeoffs and loss aversion fears.
 
 ## Transcript
 

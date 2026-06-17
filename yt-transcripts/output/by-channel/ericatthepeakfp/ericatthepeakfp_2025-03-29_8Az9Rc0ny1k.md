@@ -41,27 +41,60 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Reveals five consistent regrets wealthy retirees wish they had known earlier: physical capacity decline, lack of legacy clarity, financial passenger vulnerability, dream delay, and permission-to-spend guilt. Argues that wealth cannot compensate for non-financial preparation and introduces a framework to integrate financial and non-financial retirement planning."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-regrets", "wealth-psychology", "retirement-transition", "legacy-planning", "health-wealth", "life-fulfillment"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, RICP, financial advisor"
+    - name: "Lily"
+      role: "widow of successful business owner"
+    - name: "James"
+      role: "retiree, aspiring writer"
+    - name: "Tom"
+      role: "retired physician"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Retirement Opportunity Zone framework", "Retirement Risk Zone framework"]
+  concepts: ["physical capacity", "legacy planning", "financial passenger regret", "dream delay regret", "permission to spend", "retirement transition", "financial security vs. fulfillment"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "An 82-year-old client with $5 million portfolio expressed regret about losing capabilities, connections, and clarity despite having the financial means to enjoy retirement"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Wealthy retirees often struggle more with retirement satisfaction than those with less wealth, despite having greater financial resources"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "A woman with $4 million in retirement savings said she would trade half her money to go back to age 65 with current knowledge about creating meaning in retirement"
+    timestamp: "00:02:04"
+    confidence: "medium"
+    flagged: true
+  - claim: "An 82-year-old gentleman with $7 million in retirement savings postponed physical activity until retirement and by age 68 had early stage arthritis and cardiovascular limitations restricting his activities"
+    timestamp: "00:03:50"
+    confidence: "medium"
+    flagged: true
+  - claim: "Lily's $3 million estate created family tensions and challenges with purpose for her children and grandchildren due to lack of meaningful legacy discussions beyond legal documents"
+    timestamp: "00:04:52"
+    confidence: "medium"
+    flagged: true
+  - claim: "The initial 18 to 24 months of retirement are a major transitional phase during which retirees won't suddenly feel comfortable despite having sufficient money"
+    timestamp: "00:09:03"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -71,6 +104,49 @@ notes: ""
 **Published:** 2025-03-29
 **URL:** https://youtube.com/watch?v=8Az9Rc0ny1k
 **Duration:** 10:58
+
+## Summary
+
+Eric Amzalag documents five profound regrets consistently expressed by wealthy retirees in their late 70s and 80s: physical capacity decline (not investing in health before retirement), unclear legacy intentions (leaving family confused about values), financial passenger dependency (one spouse unprepared for finances), delayed dreams (staying in work too long), and spending guilt (refusing to enjoy accumulated wealth). The core insight is that traditional retirement planning addresses financial symptoms (tax efficiency, estate transfers) rather than the deeper question of how to live a meaningful, fulfilling retirement life.
+
+## Key Takeaways
+
+- Paradoxically, wealthy retirees often experience greater retirement dissatisfaction than those with fewer resources because their financial success masks deficiencies in non-financial preparation (health, relationships, purpose).
+- Physical health capacity cannot be purchased in retirement; it requires decades of investment before retirement, and no amount of wealth can compensate for neglected physical fitness earlier in life.
+- Legacy planning goes far beyond tax-efficient wealth transfer; it requires intentional conversations about values, expectations, and care decisions that, when absent, damage family relationships and undermine the legacy intention.
+- Dual engagement in household finances is critical; when one partner manages all finances, the other faces a compounded crisis (grief plus financial disempowerment) upon the managing partner's death, often losing years of confidence and control.
+- Permission-to-spend is a psychological barrier as significant as spending capacity; even well-prepared retirees often internalize lifelong saving habits and guilt, preventing them from enjoying wealth they've legitimately earned.
+- The first 18-24 months of retirement constitute a transition period; recognizing this in advance and potentially retiring earlier to reclaim healthier years may be more valuable than delaying retirement to accumulate more wealth.
+
+## Detailed Notes
+
+### The Wealth Paradox in Retirement Satisfaction [00:00:00]
+
+Wealthy individuals often struggle most with retirement satisfaction despite having resources to solve most problems. The industry's focus on symptoms (tax optimization, asset buckets) rather than core questions (how much do I need, what brings meaning) leaves even wealthy retirees unprepared for the non-financial dimensions of retirement.
+
+### Physical Capacity Regret [00:03:50]
+
+Retirees often postpone physical investment until retirement, assuming wealth will enable adventures later. In reality, biological decline follows its own timeline; an 82-year-old with $7 million regrets that by age 68 he had arthritis and cardiovascular limitations that no wealth could reverse. Health capacity must be built decades before retirement.
+
+### Legacy Clarity Regret [00:04:52]
+
+Estate attorneys can efficiently transfer $3 million, but they cannot convey values, care wishes, or fairness intuitions to heirs. A widow discovered too late that her children felt surprised and entitled because she had never discussed her legacy intentions. Financial documents transfer assets; meaningful conversations transfer wisdom and preserve family unity.
+
+### Financial Passenger Regret [00:05:54]
+
+When one partner manages all household finances, the other becomes dependent and unprepared. Lily's story: after her spouse died, she grieved while simultaneously learning to manage finances, rushed into a bad advisory relationship, felt trapped, and lost two years of healthy life she could have spent enjoying her wealth instead.
+
+### Dream Delay Regret [00:06:58]
+
+Retirees often listen to advisers who insist they need more before retiring, delaying dreams even when they have sufficient wealth. James delayed writing dreams, then discovered at retirement that his mental clarity and energy had declined. Delaying retirement for extra millions may mean sacrificing the healthiest years when aspirational work is possible.
+
+### Permission to Spend Regret [00:08:00]
+
+Tom, a retired physician, struggled with spending guilt despite having diligently saved millions. His lifelong frugality became a prison in retirement; even after hiring a planner, he chose overly conservative budgets and delayed retirement unnecessarily, denying himself two years of potentially joyful spending due to psychological barriers, not financial constraints.
+
+### The Retirement Transition Framework [00:09:03]
+
+The first 18-24 months of retirement are a major transition period; retirees won't feel comfortable immediately despite sufficient funds. The framework suggests recognizing this transition in advance. If full potential won't be realized until age 69, retiring at 65 instead of 72 reclaims four years of healthier life—a trade-off often worth more than additional wealth accumulation.
 
 ## Transcript
 

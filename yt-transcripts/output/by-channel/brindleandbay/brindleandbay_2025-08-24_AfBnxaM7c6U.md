@@ -41,27 +41,32 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Step-by-step process for converting $1 million in unplanned savings into sustainable retirement income. Emphasizes defining realistic expenses, guaranteeing income sources, building a dividend-growth portfolio, and protecting against inflation through equity exposure and disciplined spending."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-income-planning", "expense-budgeting", "guaranteed-income", "portfolio-strategy", "dividend-growth", "inflation-protection"]
 entities:
-  people: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, financial advisor"
   companies: []
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["dividend-paying stocks", "bonds"]
+  concepts: ["expense analysis", "Social Security", "pension income", "withdrawal strategy", "dividend growth investing", "inflation hedging"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Average US Social Security benefit is about $1,981/month or $23,800/year"
+    timestamp: "00:03:44"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -71,6 +76,37 @@ notes: ""
 **Published:** 2025-08-24
 **URL:** https://youtube.com/watch?v=AfBnxaM7c6U
 **Duration:** 11:13
+
+## Summary
+
+This video provides a practical five-step framework for retirement planning with $1 million: define your real expenses, identify guaranteed income (Social Security, pensions), withdraw only what's needed from investments, invest primarily in dividend-growth equities for inflation protection, and maintain spending discipline while building flexibility for emergencies.
+
+## Key Takeaways
+
+- Step one: define real retirement expenses, not generic rules; most people overstimate costs by 20-30%.
+- Step two: calculate guaranteed income (Social Security, pensions) to determine actual portfolio withdrawal needs.
+- Step three: use dividend-growth investing as primary portfolio strategy for rising income stream.
+- Step four: keep bonds for smoothing downturns and short-term needs, but not as primary income source.
+- Step five: maintain spending discipline and regular plan reviews, adjusting for health costs or unexpected changes.
+- The goal: balance growth for inflation protection, income for living expenses, and flexibility to respond to life's changes.
+
+## Detailed Notes
+
+### Defining Real Expenses [00:01:03]
+
+Most people underestimate healthcare creep and overestimate travel savings post-retirement. Key: build bottom-up budget including housing, utilities, groceries, healthcare, entertainment, and travel. Unexpected bills always appear; include buffer. Compare against generic 70% rule—often reveals your actual needs are lower.
+
+### Guaranteed Income Foundation [00:03:44]
+
+Average Social Security check is $1,981/month ($23,800/year). If married, add spouse's benefit. Include pensions if applicable. This income floor dramatically reduces portfolio withdrawal pressure. Example: couple with $72K guaranteed income but $100K budget only needs $28K from investments—a much sustainable rate.
+
+### Dividend-Growth Portfolio Strategy [00:04:44]
+
+Core holding: diversified dividend-growers that raise payouts annually, beating inflation. Bonds smooth volatility and cover short-term needs. Main portfolio focuses on growth and rising income stream. This approach lets portfolio continue growing while funding expenses, maintaining purchasing power across 25-30 year retirements.
+
+### Spending Discipline and Flexibility [00:06:48]
+
+Behavioral risk often exceeds market risk. Undisciplined spending can drain $1M faster than bear markets. Track monthly spending; if surprised at reviews, adjust. Build flexibility: don't commit all assets; maintain emergency reserves. Allow plan adjustments when markets shift or personal needs change.
 
 ## Transcript
 

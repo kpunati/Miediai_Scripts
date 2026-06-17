@@ -35,27 +35,50 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Examines four financial and non-financial penalties single retirees face versus married couples, including tax bracket disadvantages and caregiving costs, while highlighting advantages like simplicity in Social Security planning and estate decisions."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "single-retiree", "tax-planning", "financial-penalties", "long-term-care"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, RICP"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["tax-brackets", "standard-deduction", "Medicare-IRMA-thresholds", "long-term-care-costs", "Social-Security", "estate-planning"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Single retirees need about 71% of what married couples spend to maintain same per-person lifestyle"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Single people hit 22% tax bracket at $50,400 income while married couples don't until double that"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Single retirees need to withdraw $96,500 to get $84,000 net spending versus $91,000 for married couples"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Single retirees pay 12.8% effective tax rate versus 7.2% for married couples"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Single retirees need 1.3 years average long-term care versus 1 year for married couples"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -65,6 +88,41 @@ notes: ""
 **Published:** 2026-02-04
 **URL:** https://youtube.com/watch?v=li8b8M93Voo
 **Duration:** 11:53
+
+## Summary
+
+Eric Amzalag explains that while single retirees spend about 71% of what married couples do, the U.S. tax code treats them as if they need only 50%, creating a significant 20-percentage-point gap. This leads to higher effective tax rates when withdrawing retirement funds. Beyond taxes, single retirees face challenges with caregiving costs since spouses naturally provide the first line of care, but they also enjoy simpler Social Security claiming strategies and more autonomy in retirement decisions without spousal compromise.
+
+## Key Takeaways
+
+- Single retirees face a 20-percentage-point tax penalty because tax brackets and deductions are exactly half those of married couples despite needing 70% of a couple's spending
+- The tax extraction penalty means single retirees must withdraw approximately 6% more annually to achieve the same net spending as married couples
+- Single retirees should budget 15-20% more in savings to account for higher effective tax rates when withdrawing retirement funds
+- Caregiving costs are higher for singles since spouses provide free care for married couples; singles face average 1.3 years long-term care versus 1 year for married couples
+- Single retirees must have explicit conversations with potential caregivers about expectations and compensation to prevent family conflict
+- Benefits of single retirement include simpler Social Security claiming decisions, easier estate planning, complete retirement timing flexibility, and full financial autonomy
+
+## Detailed Notes
+
+### Tax Bracket Penalty for Single Filers [00:00:00]
+
+Research shows single retirees spend 71% of what married couples spend, but tax code treats them as needing 50%. In 2026, singles hit 22% bracket at $50,400 while married couples don't hit same bracket until $100,800. Standard deductions are also exactly halved (single $16,100 vs married $32,200), as are Medicare IRMA penalty thresholds. This creates a 20-point disparity between actual spending needs and tax treatment.
+
+### Tax Extraction Penalty - Real Dollar Impact [00:00:00]
+
+To extract $84,000 in net spending, a single filer must withdraw $96,500 while a married couple only needs to withdraw $91,000. This $5,500 annual difference equals 6% extra taxes for single filers. Over 30-year retirement, this compounds to extra tax burden. Single retirees pay 12.8% effective tax rate versus 7.2% for married couples, nearly double the rate for identical spending.
+
+### Long-Term Care and Caregiving Costs [00:00:00]
+
+70% of people over 65 need long-term care; most delivered by family, primarily spouses. Single retirees average 1.3 years care need versus 1 year for married couples. Married couples benefit from spouse as built-in zero-cost caregiver handling daily tasks, medications, and appointments. Single retirees must choose between professional care or family members who have competing obligations. Should budget extra $50,000-$100,000 for professional care to protect family relationships.
+
+### Decision-Making Risks and Psychological Burden [00:00:00]
+
+Singles face analysis paralysis or impulsive mistakes when making financial decisions alone. Married couples experience friction through disagreement (48% disagree on retirement age, 73% on retirement plan details) which forces deliberation and acts as natural breaking mechanism. Client example: single person nearly bought terrible investment property without someone to reality-check the decision. Another example: single client agonized over Social Security claiming for years without validation.
+
+### Advantages of Single Retirement [00:00:00]
+
+Social Security claiming is simpler with no spousal benefit calculations or survivor planning needed. Estate planning is straightforward with no surviving spouse considerations or portability issues. Complete retirement timing flexibility without coordinating with spouse's career or preferences. Financial autonomy means no spending conflicts and every dollar remains under single person's control with full responsibility.
 
 ## Transcript
 

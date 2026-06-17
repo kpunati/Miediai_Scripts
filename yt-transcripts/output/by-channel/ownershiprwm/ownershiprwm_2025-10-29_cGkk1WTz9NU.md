@@ -62,27 +62,44 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Strategies to reduce tax liability when implementing Net Unrealized Appreciation (NUA) strategy for company stock in 401k rollovers. Covers tax-deferred timing, cherry-picking appreciated shares, tax-loss harvesting, charitable giving, and using tax-paid balances to minimize upfront tax impacts."
 topics: []
-topics_proposed: []
+topics_proposed: ["nua-strategy", "tax-optimization", "401k-rollover", "capital-gains-tax", "retirement-planning"]
 entities:
   people: []
-  companies: []
+  companies:
+    - name: "Ritholtz Wealth Management"
+      ticker: null
+    - name: "Reynolds"
+      ticker: null
+    - name: "Mogart Wealth"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Custom indexing", "Donor-advised fund", "Charitable trust"]
+  concepts: ["Net Unrealized Appreciation", "tax-loss harvesting", "cost basis", "long-term capital gains", "Roth conversion"]
+content_type: "educational"
+audience_level: "advanced"
+key_claims: 
+  - claim: "Cherry-picking appreciated shares can reduce cost basis and therefore tax bill through partial NUA"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Custom indexing allows clients to capture tax benefits through routine stock market volatility"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "A $100,000 tax-paid balance in retirement account can be applied to $100,000 cost basis, eliminating income tax on cost basis portion"
+    timestamp: "00:00:47"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -92,6 +109,40 @@ notes: ""
 **Published:** 2025-10-29
 **URL:** https://youtube.com/watch?v=cGkk1WTz9NU
 **Duration:** 1:37
+
+## Summary
+
+This video addresses one of the biggest concerns with the NUA strategy: the upfront tax hit. It presents five practical approaches to minimize this burden. From timing retirement in low-income years to using partial NUA for specific shares, each method offers a different angle to reduce immediate tax consequences. The video emphasizes that with careful planning, the upfront tax burden need not prevent people from benefiting from the NUA strategy.
+
+## Key Takeaways
+
+- Retire in a low-income year or execute NUA in a following tax year when showing no other income to minimize immediate tax impact
+- Cherry-picking the most appreciated shares for partial NUA reduces your cost basis and lowers the tax bill
+- Tax-loss harvesting through tools like custom indexing can offset capital gains with losses from normal market volatility
+- Donating appreciated stock to charity provides full deduction without capital gains tax and can be stacked across years
+- Tax-paid balance strategy allows after-tax contributions to offset cost basis, potentially making the rollover tax-free
+
+## Detailed Notes
+
+### Timing Strategies to Minimize Tax Impact [00:00:00]
+
+First strategy involves retiring in a low-income year or timing NUA implementation in the following tax year when showing no other income. This reduces the brackets pushed and overall tax consequences on the NUA distribution.
+
+### Cherry-Picking Appreciated Shares [00:00:00]
+
+Rather than taking all company stock at once, selectively withdraw the most appreciated shares. This partial NUA approach reduces your overall cost basis and therefore your immediate tax bill while still capturing long-term capital gains rates on the appreciation.
+
+### Tax-Loss Harvesting and Custom Indexing [00:00:00]
+
+Tools like custom indexing allow investors to capture tax losses from routine market volatility in other portfolio holdings, which can offset the capital gains from the NUA strategy.
+
+### Charitable Giving Strategy [00:00:00]
+
+Instead of donating cash, contribute appreciated stock. This eliminates capital gains tax, provides full charitable deduction, and allows stacking of multiple years of deductions using donor-advised funds or charitable trusts to reduce the tax bill significantly.
+
+### Tax-Paid Balance Strategy [00:00:47]
+
+If you have after-tax or tax-paid contributions in your retirement account, you can apply these toward your cost basis. A $100,000 tax-paid balance applied to $100,000 cost basis eliminates income tax on that portion, making the rollover tax-free on that segment.
 
 ## Transcript
 

@@ -34,27 +34,48 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Examines Social Security cost-of-living adjustments (COLA) history and 2025 predictions, arguing that while COLA has been historically low, recent years show improved adjustments. Addresses the gap between COLA growth and true inflation, and provides strategies to fill that gap through income planning, part-time work, and strategic benefit claiming."
 topics: []
-topics_proposed: []
+topics_proposed: ["social-security-cola", "cost-of-living-adjustment", "inflation-planning", "retirement-income-sustainability"]
 entities:
-  people: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP"
   companies: []
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["consumer-price-index", "retirement-income-gap", "guardrails-strategy"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "2025 Social Security COLA adjustment is estimated at 2.6-2.7%"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "2022 COLA was 8.7% (described as whopping) and 2023 was 8.7% but text shows 88.7%"
+    timestamp: "00:03:11"
+    confidence: "low"
+    flagged: true
+  - claim: "First time in over 30 years that COLA has exceeded 2.6% for four consecutive years"
+    timestamp: "00:01:03"
+    confidence: "medium"
+    flagged: false
+  - claim: "Average retiree receiving 2.6% COLA gets about $50 more per month"
+    timestamp: "00:04:13"
+    confidence: "medium"
+    flagged: true
+  - claim: "Zero COLA occurred in 2010, 2011, 2016, and 2017"
+    timestamp: "00:03:11"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -64,6 +85,40 @@ notes: ""
 **Published:** 2024-08-18
 **URL:** https://youtube.com/watch?v=_G2FEZVkZ_E
 **Duration:** 10:52
+
+## Summary
+
+Nick Davis analyzes Social Security cost-of-living adjustments (COLA) to help retirees understand how inflation-adjusted income affects retirement sustainability. He traces COLA history from pre-1975 manual adjustments to the current CPI-W indexing, notes that COLA often lags true inflation, and walks through detailed examples showing how the income-expense gap widens over 20-30 year retirements. The video emphasizes that while COLA may feel inadequate, proactive planning with guardrails, part-time work, and strategic withdrawals can narrow the inflation gap.
+
+## Key Takeaways
+
+- 2025 COLA is estimated at 2.6-2.7%, resulting in roughly $50/month increases for average retirees, which lags true inflation of 3-4%+ annually.
+- Social Security COLA is calculated using CPI-W (Consumer Price Index for Urban Wage Earners), which may be a poor proxy for retiree spending since retirees spend more on healthcare and shelter than working adults.
+- COLA gap compounds over time: a retiree whose Social Security grows 2% annually while lifestyle costs grow 3.2% falls behind by ~$500/month after 10 years and by $1,000+/month after 20 years.
+- Retirees should build income plans assuming conservative COLA (2-2.5%) and let other investments fill the inflation gap so lifestyle doesn't deteriorate over decades.
+- Strategies to manage COLA shortfalls: part-time work in gig economy, careful expense management, delaying Social Security to claim at higher rate, guardrails-based withdrawal strategy for portfolio income.
+
+## Detailed Notes
+
+### COLA History and Calculation Mechanism [00:00:00]
+
+Prior to 1975, Congress manually approved COLA adjustments (only 11 times from 1940-1970, making them unpredictable). Since 1975, COLA is automatically indexed to CPI-W. Recent years have been volatile: zero COLA in 2010, 2011, 2016, 2017; then dramatic increases (8.7% in 2022, 8.7% in 2023, 3.2% in 2024). The 2025 estimate is 2.6-2.7%, and 2024 marks the first time in 30+ years of four consecutive years with COLA at least 2.6%.
+
+### CPI-W Index Mismatch for Retirees [00:02:08]
+
+CPI-W measures spending needs of working adults—education, clothing, cars. Retirees spend differently: heavily on shelter and medical care, which have inflated 5-7% annually, far above general CPI. Even CPI-U would be more generous than CPI-W. The mismatch means official COLA understates true inflation impact on retirees, widening the gap between income growth and actual costs.
+
+### Long-Term Income-Expense Gap [00:05:17]
+
+Example: Jim has $50K lifestyle need and $50K Social Security (unrealistic but illustrative). If COLA grows at 2%/year and true lifestyle costs grow at 3.2%/year, after 10 years his SS is $59.75K but his need is $66.31K (shortfall ~$500/month). By year 20, SS is $72.8K but need is $96.8K (shortfall ~$2,000/month). This compounds across all retirees relying solely or heavily on Social Security.
+
+### Income Planning and Portfolio Gap Coverage [00:08:29]
+
+Retirees must build sound income plans assuming conservative COLA, then let portfolio withdrawals or other investments bridge inflation gap. Guardrails strategy monitors portfolio value; if spending + market losses hit lower guardrail, reduce spending; if portfolio grows beyond upper guardrail, increase spending. This dynamic approach addresses both market volatility and inflation protection.
+
+### Mitigation Strategies [00:09:31]
+
+Part-time work in gig economy (selling goods, dog-walking, tutoring) adds flexible income. Reducing unnecessary expenses is first step. Delaying Social Security means claiming higher permanent benefit with higher annual COLA. The core principle: don't assume fixed lifestyle spending; inflation forces upward pressure, so plan early and dynamically adjust withdrawal strategy.
 
 ## Transcript
 

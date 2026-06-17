@@ -41,24 +41,33 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Analysis of 200+ retirees reveals consistent regrets from delaying retirement: fear kept many working despite adequate savings, oversimplified rules-of-thumb masked personal readiness, work became a security blanket masking emotional unpreparedness, and health decline cut into eventual retirement enjoyment."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-regrets", "fear-based-planning", "early-retirement-regret-analysis", "retirement-confidence", "emotional-readiness"]
 entities:
-  people: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, financial advisor"
   companies: []
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["financial readiness", "emotional readiness", "fear-based decisions", "regret analysis", "security blanket", "health-wealth-tradeoff"]
+content_type: "analysis"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Over 200 retirees interviewed wished they had retired earlier"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Fear, not math, often keeps people working years longer than necessary"
+    timestamp: "00:00:39"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: []
@@ -71,6 +80,37 @@ notes: ""
 **Published:** 2025-10-05
 **URL:** https://youtube.com/watch?v=OHkLCUgL1TE
 **Duration:** 10:42
+
+## Summary
+
+Based on interviews with 200+ retirees, this video identifies consistent regret patterns from delayed retirement. Most had achieved financial readiness years before stopping work but didn't trust their analysis. Others used work as emotional security blanket despite financial adequacy. Health problems often limited eventual retirement enjoyment, compounding regret.
+
+## Key Takeaways
+
+- Fear-driven over-saving creates years of wasted work; many had sufficient assets but didn't believe it.
+- Oversimplified rules-of-thumb ('need $2M to retire') mask individual circumstances and keep people unnecessarily anxious.
+- Work serves as identity, routine, and social anchor; emotional unreadiness can be masked as financial inadequacy.
+- Health problems that strike during delayed-work years often limit the eventual retirement enjoyment.
+- The regret flows uniformly: people wish they retired earlier, never that they retired too soon.
+- Personalized financial analysis plus emotional preparation (finding meaning) solve both sides of readiness.
+
+## Detailed Notes
+
+### Fear-Based Over-Saving [00:00:39]
+
+Many retirees had accumulated well beyond needs but didn't believe it. They ran worst-case scenarios in their heads, watched market news nightly, and convinced themselves one downturn could ruin everything. On retrospect, they realize the fear was emotional, not mathematical, and they wasted years chasing numbers already secured.
+
+### Oversimplified Advice Blindspots [00:03:17]
+
+Generic rules ('need X million') ignore paid-off homes, part-time work plans, conservative lifestyles. One retiree wanted to retire at 58 with part-time work but followed generic 'full retirement' planning. Simple personalized analysis would have shown immediate readiness; instead followed blanket advice and worked years longer.
+
+### Work as Security Blanket [00:05:53]
+
+For many, work wasn't just a paycheck—it was identity, routine, purpose, and social connection. Financial readiness existed for years but emotional unreadiness masked itself as financial concern. By the time they stepped away, health had already declined, limiting enjoyment of the retirement they'd earned.
+
+### Healthy Regret Framework [00:08:47]
+
+Solution involves personalized expense analysis (not generic benchmarks), addressing emotional barriers before retirement, weighing opportunity cost (each year is one less healthy year), and surrounding yourself with advisors who understand your individual situation rather than applying one-size-fits-all rules.
 
 ## Transcript
 

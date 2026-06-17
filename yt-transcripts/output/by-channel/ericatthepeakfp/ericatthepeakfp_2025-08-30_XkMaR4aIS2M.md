@@ -37,24 +37,45 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Eric Amzalag introduces the Eisenhower Matrix as a decision-making framework for retirement planning, showing how retirees often treat all decisions with equal urgency when they should prioritize based on importance. He categorizes retirement decisions into urgent-and-important, important-but-not-urgent, and less critical quadrants to reduce decision paralysis."
 topics: []
-topics_proposed: []
+topics_proposed: ["decision-making-framework", "retirement-planning", "eisenhower-matrix", "prioritization", "financial-planning", "stress-reduction"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "Certified Financial Planner (CFP)"
+    - name: "Alex Hormozi"
+      role: "Mentor/Entrepreneur"
+  companies:
+    - name: "Peak Financial Planning"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Eisenhower Matrix", "Retirement Confidence Dashboard"]
+  concepts: ["decision-prioritization", "urgency-vs-importance", "anxiety-management", "retirement-decisions", "social-security-claiming", "Roth-conversions", "healthcare-planning"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "97% of retirees end up stuck in decision paralysis"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Anxiety comes from having too many options but no method to prioritize them"
+    timestamp: "00:00:33"
+    confidence: "high"
+    flagged: false
+  - claim: "Most of a retiree's anxiety comes from treating decisions like they're urgent"
+    timestamp: "00:03:49"
+    confidence: "high"
+    flagged: false
+  - claim: "Retirement planning often involves 50+ key decisions that can feel overwhelming"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: []
@@ -67,6 +88,49 @@ notes: ""
 **Published:** 2025-08-30
 **URL:** https://youtube.com/watch?v=XkMaR4aIS2M
 **Duration:** 10:46
+
+## Summary
+
+Eric Amzalag applies the Eisenhower Matrix to retirement planning, arguing that anxiety emerges from treating all retirement decisions with equal urgency when they require different levels of priority. He demonstrates how to categorize retirement concerns (social security claiming, Roth conversions, home downsizing, healthcare planning) into four quadrants based on urgency and importance, enabling retirees to address critical decisions first and defer less critical ones, thereby reducing decision paralysis.
+
+## Key Takeaways
+
+- The Eisenhower Matrix separates decisions into four categories: important-and-urgent (address first), important-but-not-urgent (high impact but can wait), urgent-but-not-important (distractions), and neither urgent nor important (avoid).
+- Retirement anxiety stems from treating all decisions as emergencies when in fact only a handful are truly urgent and important; most can wait for appropriate context.
+- Critical urgent-and-important decisions include determining retirement date and safe spending amount, which provide the foundation for all other decisions.
+- Important-but-not-urgent decisions like Roth conversions, investment allocation changes, and healthcare planning require long-term planning but should not be rushed; they depend on clarity from urgent decisions first.
+- Many decisions feel urgent due to external noise (financial media, sales pressure) or internal anxiety, but lack actual impact; correctly categorizing them as unimportant reduces stress.
+- Clients report immediate anxiety reduction after applying the Eisenhower Matrix because it organizes chaotic decision-making into a clear plan of attack with logical sequencing.
+
+## Detailed Notes
+
+### The Anxiety Paradox in Retirement Planning [00:00:00]
+
+Retirees face numerous decisions (social security timing, retirement date, spending amounts, healthcare, home downsizing, investment allocation) but treating them all equally creates paralysis. The Eisenhower Matrix resolves this by providing a filter: instead of asking what's next, ask which box does this decision belong in?
+
+### Understanding the Eisenhower Matrix Structure [00:02:56]
+
+The matrix has four quadrants: (1) Urgent and Important (top-left), (2) Important but Not Urgent (top-right), (3) Urgent but Not Important (bottom-left), (4) Neither (bottom-right). Proper categorization requires thoughtful analysis of each retirement concern, which itself reduces anxiety by forcing intentional prioritization.
+
+### Urgent and Important Decisions [00:06:38]
+
+These green-category decisions form the foundation: determining earliest possible retirement date given spending needs, understanding safe spending amounts based on savings and risk tolerance, and knowing personal comfort level with spending adjustments. These create the context needed for all other decisions.
+
+### Important but Not Urgent Decisions [00:06:38]
+
+Blue-category decisions (Roth conversions, investment allocation shifts, healthcare planning) have major impact but don't require immediate action. Roth conversions happen over years; investment changes should follow financial plan, not precede it; healthcare planning is done for future contingencies. Rushing these wastes effort.
+
+### Urgent but Not Important Distractions [00:06:38]
+
+Orange-category items feel impactful but lack control: market crashes, inflation, regulatory changes, media fear-mongering. While they could affect plans, they create illusions of urgency and controllability that distract from real decisions retirees can influence.
+
+### Neither Urgent Nor Important Actions [00:06:38]
+
+Red-category decisions like obsessive portfolio rebalancing, frequent trading, or chasing optimization give illusions of control but are actively harmful. These are the most insidious because they consume mental energy without improving outcomes.
+
+### Practical Application and Results [00:08:45]
+
+Clients report immediate anxiety reduction after mapping their retirement concerns onto the Eisenhower Matrix. The visual organization transforms chaotic decision-making into a logical sequence, replacing the feeling of emergency with a clear plan of attack. Attending to quadrants in order (urgent-important first, then important-not-urgent) provides control and reduces overwhelm.
 
 ## Transcript
 

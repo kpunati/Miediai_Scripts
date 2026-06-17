@@ -43,27 +43,52 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Addresses how investors should respond to extreme market volatility (triggered by tariff announcements). Critiques reactive decision-making based on news headlines and advocates for a four-step diagnostic approach: check actual portfolio performance, compare to market benchmarks, assess guardrail depth, and verify whether the plan's decision rules have been triggered."
 topics: []
-topics_proposed: []
+topics_proposed: ["market-volatility", "portfolio-management", "tariffs", "risk-management", "investor-psychology", "financial-decision-making"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, RICP, financial advisor"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
+    - name: "WebMD"
+      ticker: null
+  tickers: ["S&P 500"]
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Four-step checklist for market volatility"]
+  concepts: ["tariffs", "market volatility", "portfolio performance", "guardrails", "earnings", "index decline", "diversification", "emotional decision-making"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Tariffs will cause a change in public company earnings, which are what drive stock prices; as tariffs cut into earnings, stock prices will be revalued to reflect lower future earnings"
+    timestamp: "00:00:57"
+    confidence: "high"
+    flagged: false
+  - claim: "The S&P 500 was down approximately 15 percent year-to-date at the time of the video"
+    timestamp: "00:03:39"
+    confidence: "medium"
+    flagged: true
+  - claim: "Many client portfolios were down only 3-5 percent compared to the market's 15 percent decline, indicating they were participating in only 20-40 percent of the market's downside"
+    timestamp: "00:03:39"
+    confidence: "medium"
+    flagged: true
+  - claim: "The poor market performance in 2025 was largely driven by terrible performance from a small set of companies rather than a broad market decline"
+    timestamp: "00:03:39"
+    confidence: "high"
+    flagged: false
+  - claim: "Tariffs won't begin until April 9th and there will be country-by-country negotiations that determine each nation's effective tariff rate"
+    timestamp: "00:01:33"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -73,6 +98,45 @@ notes: ""
 **Published:** 2025-04-07
 **URL:** https://youtube.com/watch?v=IHkFWwGvSyA
 **Duration:** 5:49
+
+## Summary
+
+When tariff announcements triggered extreme market volatility, Eric Amzalag responds by distinguishing between reactive panic and systematic decision-making. He uses a medical diagnosis analogy: just as a patient shouldn't start chemotherapy based on population-level cancer statistics, an investor shouldn't panic-sell based on headline market declines without understanding their personal financial situation. The solution is a four-step diagnostic checklist that accounts for individual portfolio metrics, guardrail depth, and pre-established decision rules.
+
+## Key Takeaways
+
+- Tariff announcements create uncertainty about earnings impacts, but no expert can accurately predict the stock price adjustment needed; chaos in announcements is normal because future outcomes are genuinely unknowable.
+- Reactive portfolio decisions based on news headlines are misguided; instead, investors should first understand their actual portfolio performance in isolation before comparing to broad market indices.
+- The S&P 500's 15-percent decline masked concentrated losses in a few stocks; many diversified client portfolios declined only 3-5 percent, demonstrating that portfolio construction matters more than index correlation.
+- Guardrail depth is the critical metric: if an investor has 25-percent guardrail space and is down only 5 percent, they have 20 percent remaining buffer; if they have only 10-percent guardrail space and are down 8 percent, they're near a decision trigger.
+- Pre-established guardrail decision rules remove emotion from portfolio management; systematic decision-making ensures investors follow the plan rather than making reactive choices during volatility.
+- Individual investors should apply the same systematic health-check approach to financial decisions as they would to medical decisions: get diagnostics, compare to personal baselines, and follow prescribed treatment, not population-level news.
+
+## Detailed Notes
+
+### Understanding Tariff Impact on Earnings and Stock Prices [00:00:57]
+
+Tariffs reduce company earnings in the short term, triggering stock price revaluation. However, the exact magnitude of the earnings reduction is unknowable because tariff implementation, exemptions, and country-specific negotiations create uncertainty. No expert can honestly state the correct stock price discount without actual data.
+
+### The Medical Diagnosis Analogy [00:02:36]
+
+A 62-year-old man learning that cancer rates are rising among his cohort would be foolish to start chemotherapy without a personal diagnosis. Similarly, seeing the S&P 500 down 15 percent does not warrant panic-selling without understanding one's own portfolio metrics, guardrail depth, and plan triggers. Personal financial diagnosis must precede treatment decisions.
+
+### Step 1: Check Your Actual Portfolio Performance [00:02:36]
+
+The first diagnostic step is reviewing personal portfolio performance since the start of 2025. This isolates individual results from headline noise. Many clients' portfolios declined only 3-5 percent despite the market's 15-percent drop, indicating effective diversification and risk management.
+
+### Step 2: Compare to Market Benchmarks (with Context) [00:03:39]
+
+While comparing portfolio performance to the S&P 500 provides a benchmark, context matters. The broad market decline was driven by poor performance in a small set of stocks, not a uniform market correction. Investors who understand portfolio composition can recognize whether their declines reflect market participation or relative outperformance.
+
+### Step 3: Assess Guardrail Depth Remaining [00:04:42]
+
+Guardrails define the acceptable portfolio decline range. If an investor has a 25-percent guardrail depth and is down 5 percent year-to-date, they have 20 percent remaining space before a decision trigger. If they have only 10-percent depth and are down 8 percent, they are within 2 percent of a spending or withdrawal adjustment. Guardrail depth remaining is the most actionable metric during volatility.
+
+### Step 4: Verify Trigger Conditions Based on Your Plan [00:04:42]
+
+The final step is asking whether actual portfolio performance has triggered any predetermined actions in the guardrail plan. The point of pre-planning is to follow systems rather than emotion. If the guardrail plan has not been triggered, the investor maintains course; if triggered, they follow the documented adjustment rule.
 
 ## Transcript
 

@@ -41,24 +41,33 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Warns against over-allocation to Roth IRAs because pure tax-free withdrawals eliminate valuable tax credits and deductions available only to those with taxable income. Advocates tax diversification (traditional, Roth, taxable) to maintain flexibility and capture tax opportunities throughout retirement."
 topics: []
-topics_proposed: []
+topics_proposed: ["tax-diversification", "roth-ira-strategy", "retirement-tax-planning", "tax-credits", "withdrawal-strategy"]
 entities:
-  people: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, financial advisor"
   companies: []
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Roth IRA", "Traditional IRA", "Taxable accounts"]
+  concepts: ["tax-free withdrawals", "qualified charitable distributions", "tax brackets", "nonrefundable credits", "capital gains harvesting"]
+content_type: "educational"
+audience_level: "advanced"
+key_claims: 
+  - claim: "Nonrefundable tax credits require taxable income to use; Roth-only retirees miss these entirely"
+    timestamp: "00:02:24"
+    confidence: "medium"
+    flagged: false
+  - claim: "Tax law frequently introduces new credits that 100% Roth retirees cannot access"
+    timestamp: "00:03:07"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: []
@@ -71,6 +80,37 @@ notes: ""
 **Published:** 2025-08-21
 **URL:** https://youtube.com/watch?v=jTqIc9XtOtg
 **Duration:** 9:29
+
+## Summary
+
+This video challenges the popular advice to 'go Roth only' in retirement by explaining how total tax-free income eliminates access to valuable credits, deductions, and planning opportunities. Tax diversification—maintaining a mix of traditional, Roth, and taxable accounts—provides flexibility to manage annual taxable income and capture credits that Roth-only strategies cannot utilize.
+
+## Key Takeaways
+
+- Going 100% Roth sounds appealing but locks you out of deductions and credits requiring taxable income.
+- Nonrefundable credits (medical expense, energy improvement) vanish if you have zero taxable income.
+- Future tax law changes often introduce new credits; flexibility allows you to adapt when opportunities arise.
+- Tax diversification allows annual income targeting to stay in optimal tax brackets while capturing available benefits.
+- Qualified charitable distributions and appreciated stock gifting require some taxable income to maximize benefit.
+- Annual tax planning with professional advisors ensures you're not leaving credits and deductions unused.
+
+## Detailed Notes
+
+### The Roth-Only Trap [00:01:04]
+
+While Roth provides tax-free withdrawals, it creates a false sense of tax optimization. Many valuable tax benefits require having taxable income. By over-allocating to Roth, retirees inadvertently lock themselves out of credits they could otherwise claim, leaving significant money on the table.
+
+### Missing Tax Credits and Deductions [00:02:24]
+
+Nonrefundable credits (medical, energy, education-related) need taxable income to offset. If all income is tax-free, these credits simply expire unused. Over a 30-year retirement, this can represent hundreds of thousands of dollars in foregone tax savings.
+
+### Adapting to Changing Tax Law [00:03:07]
+
+Tax policy constantly evolves, introducing new credits and incentives. Roth-only retirees have no flexibility to use these new opportunities. A diversified approach—traditional, Roth, and taxable—ensures you can adjust withdrawals annually to capture benefits as they emerge.
+
+### Tax Diversification Implementation [00:05:55]
+
+Start by analyzing current account mix. Typically, partial Roth conversions over several years moves the needle without tax spikes. Annual spring/fall reviews adjust as circumstances change. Coordinate charitable giving (QCDs from traditional IRAs, appreciated stock from taxable accounts) to optimize each year's tax situation.
 
 ## Transcript
 

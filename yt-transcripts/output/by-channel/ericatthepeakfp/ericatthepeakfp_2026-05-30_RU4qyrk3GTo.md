@@ -37,27 +37,56 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Retirement planning requires holding 10% of total assets in Roth accounts by age 60 to enable healthcare subsidy strategies. Typical retirees hold only 5-10% of needed amounts and must use Roth conversions or increased savings to build adequate post-tax balance."
 topics: []
-topics_proposed: []
+topics_proposed: ["roth-ira", "retirement-planning", "account-structure", "healthcare-subsidies", "tax-planning", "retirement-savings"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, RICP, financial advisor"
+  companies:
+    - name: "The PeakFP"
+      ticker: null
+    - name: "Investment Company Institute"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["Roth IRA balance", "flexibility ratio", "retirement assets allocation", "Roth conversions", "healthcare subsidies", "ACA thresholds"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Median Roth IRA balance for 50-year-olds is $25,000, late 50s is $27,000, early 60s is $29,000"
+    timestamp: "00:01:03"
+    confidence: "high"
+    flagged: true
+  - claim: "Roth balances increase only $4,000 over 10 most critical retirement preparation years"
+    timestamp: "00:01:03"
+    confidence: "high"
+    flagged: true
+  - claim: "Target Roth balance by age 60 should be 10% of total retirement assets: $100K for $1M portfolio, $200K for $2M, $300K for $3M"
+    timestamp: "00:03:49"
+    confidence: "high"
+    flagged: true
+  - claim: "With $100,000 Roth and $1 million total assets, a couple can pull $77,000 from pre-tax accounts while staying under 400% federal poverty limit and pull remaining $23,000 from Roth to qualify for $100,000 in healthcare subsidies"
+    timestamp: "00:03:49"
+    confidence: "high"
+    flagged: true
+  - claim: "To coast on 6% annual market growth to age 60 targets, a $1M track retiree needs $56,000 in Roth at age 50 or $75,000 at age 55"
+    timestamp: "00:06:43"
+    confidence: "medium"
+    flagged: false
+  - claim: "For $2M track, minimum Roth needed is $112,000 at age 50 or $149,000 at age 55; for $3M track, $168,000 at age 50 or $224,000 at age 55"
+    timestamp: "00:07:19"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -67,6 +96,34 @@ notes: ""
 **Published:** 2026-05-30
 **URL:** https://youtube.com/watch?v=RU4qyrk3GTo
 **Duration:** 9:31
+
+## Summary
+
+Most pre-retirees have insufficient Roth savings relative to their retirement goals, with median balances around $25,000-$29,000 across ages 50-60. However, the correct benchmark is not the median but rather 10% of total retirement assets by age 60. This threshold enables four years of healthcare subsidy strategies through proper withdrawal sequencing. For those below required minimums, Roth conversions during low-income years or increased savings are necessary to build adequate post-tax account structures.
+
+## Key Takeaways
+
+- Median Roth balances ($25,000-$29,000) represent undersaving, not a healthy benchmark, with only $4,000 growth over the critical 10 pre-retirement years
+- The correct target is 10% of total retirement assets in Roth by age 60: $100K for $1M, $200K for $2M, $300K for $3M portfolios
+- A 10% Roth allocation enables couples to withdraw enough from pre-tax accounts to stay under healthcare subsidy thresholds while pulling the remainder from Roth tax-free
+- This 10% allocation can fund 4 years of healthcare subsidies worth potentially $100,000, representing a 100% return on strategically deployed Roth funds
+- Market growth alone rarely reaches targets; coasting to $100K by age 60 requires starting with $56,000 at age 50 or $75,000 at age 55
+- For $2M and $3M portfolios, required minimums roughly double and triple, meaning most pre-retirees are less than halfway toward their targets
+- Roth conversions during low-income years (ages 55-60) or immediately after retirement offer the primary paths to closing the gap before healthcare subsidy strategies begin
+
+## Detailed Notes
+
+### The Median vs. Target Benchmark Problem [00:01:03]
+
+Investment Company Institute data shows median Roth balances for pre-retirees at $25,000 (age 50), $27,000 (late 50s), and $29,000 (early 60s). This $4,000 growth over 10 years reflects widespread undersaving relying solely on market growth. Comparing yourself to the median is 'copying failure'—even beating the average does not ensure retirement readiness if the average is insufficient. The relevant benchmark is 10% of total retirement assets, which requires strategic action for most savers.
+
+### The 10% Rule and Withdrawal Strategy [00:03:49]
+
+By age 60, Roth balances should equal 10% of total retirement assets. For a $1 million portfolio, $100,000 in Roth enables a couple spending $100,000 annually to draw $77,000 from pre-tax accounts (staying below 400% federal poverty limit) and $23,000 from Roth tax-free. This balance qualifies them for 4 years of ACA healthcare subsidies potentially worth $100,000, representing a 100% return on the Roth withdrawal. The same logic applies proportionally to $2 million and $3 million portfolios.
+
+### Minimum Balances to Coast on Growth [00:06:43]
+
+Assuming 6% annual returns with no new contributions, retirees need $56,000 in Roth at age 50 (or $75,000 at age 55) to reach the $100,000 target by age 60 for $1M portfolios. For $2M portfolios, minimums are $112,000 and $149,000 respectively; for $3M, they are $168,000 and $224,000. Median pre-retirees at $25,000 are less than halfway to the $56,000 minimum, requiring deliberate action through Roth conversions or increased contributions to close the gap before retirement.
 
 ## Transcript
 

@@ -43,24 +43,47 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Comprehensive guide to IRS early retirement access rules, focusing on age 59.5 as a critical threshold when 10% early withdrawal penalties disappear. Covers the Rule of 55 for those leaving employment at 55+, hardship withdrawals, 401k loans, and Roth IRA contribution access as alternative paths to early retirement."
 topics: []
-topics_proposed: []
+topics_proposed: ["early-retirement", "ira-withdrawal-rules", "59-and-half-rule", "rule-of-55", "tax-penalties", "roth-ira-strategy"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, financial advisor"
+  companies:
+    - name: "IRS"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Traditional IRA", "401k", "Roth IRA"]
+  concepts: ["10% early withdrawal penalty", "Rule of 55", "Rule of 72", "hardship withdrawal", "required minimum distributions", "Medicare eligibility at 65"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "At age 59.5, the 10% early withdrawal penalty is eliminated, but federal and state income taxes still apply"
+    timestamp: "00:01:04"
+    confidence: "high"
+    flagged: false
+  - claim: "Before age 59.5, withdrawals combined with taxes can result in losing 30-40% or more of the amount withdrawn"
+    timestamp: "00:02:07"
+    confidence: "medium"
+    flagged: false
+  - claim: "The Rule of 55 allows 401k withdrawals without penalty if you leave your job in the year you turn 55 or later"
+    timestamp: "00:03:09"
+    confidence: "high"
+    flagged: false
+  - claim: "Roth IRA contributions (but not earnings) can be withdrawn at any time without taxes or penalty"
+    timestamp: "00:06:59"
+    confidence: "high"
+    flagged: false
+  - claim: "Certain Roth IRA earnings exceptions apply for disability or up to $10,000 for first-time home purchase"
+    timestamp: "00:06:59"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: ["unpunctuated_captions"]
@@ -73,6 +96,37 @@ notes: ""
 **Published:** 2025-06-22
 **URL:** https://youtube.com/watch?v=WAq2u_N-Zxs
 **Duration:** 9:59
+
+## Summary
+
+This video explains that turning 59.5 is a major financial milestone because the 10% early withdrawal penalty finally disappears from retirement accounts. The presenter walks through multiple early access strategies including the Rule of 55, hardship withdrawals, 401k loans, and Roth contribution withdrawal flexibility, all of which can enable earlier retirement without the severe tax penalties most people assume are mandatory.
+
+## Key Takeaways
+
+- Age 59.5 is when retirement accounts become truly accessible; before this, the 10% penalty plus income taxes can consume 30-40% of your withdrawal.
+- The Rule of 55 allows penalty-free 401k withdrawals if you leave your job in the year you turn 55 or later, creating an earlier retirement window.
+- Hardship withdrawals exist for immediate financial needs but still incur income tax and require documented proof of hardship.
+- 401k loans let you borrow up to $50,000 or 50% of your vested balance without taxes or penalties if repaid on schedule.
+- Roth IRAs offer unique flexibility: original contributions can always be withdrawn tax-free, though earnings remain restricted until 59.5.
+- Healthcare coverage from age 63-65 (COBRA, ACA) bridges the gap to Medicare, making early retirement more feasible.
+
+## Detailed Notes
+
+### The 59.5 Threshold: When Penalties Disappear [00:00:00]
+
+Before age 59.5, early withdrawals face a triple tax hit: federal income tax, potential state tax, and a 10% penalty. For someone in the 22% bracket, the penalty alone brings total taxes to 32%. Reaching 59.5 eliminates the penalty layer, though income taxes still apply. This shift transforms retirement from theoretical to achievable.
+
+### The Rule of 55: An Earlier Window [00:03:09]
+
+If you leave employment (voluntarily or via layoff) in the year you turn 55 or later, you can begin 401k withdrawals penalty-free. This exception applies only to that employer's plan and requires funds remain in the plan (rolling to an IRA loses the benefit). It's a powerful tool for those ready to retire 4-5 years before 59.5.
+
+### Alternative Early Access Methods [00:04:52]
+
+Hardship withdrawals address immediate financial needs with IRS documentation, though taxes still apply. 401k loans avoid taxes and penalties but require repayment with interest. Roth IRAs uniquely allow penalty-free withdrawal of original contributions (though not earnings) at any age, serving as a bridge for early retirees.
+
+### Healthcare and Integration Strategy [00:08:02]
+
+Early retirement requires solving the healthcare gap from retirement until Medicare at 65. COBRA extends employer coverage for up to 18 months; ACA plans often become surprisingly affordable with lower retirement income. Coordinating these strategies with Social Security timing and account selection keeps total tax burden low while maintaining health security.
 
 ## Transcript
 

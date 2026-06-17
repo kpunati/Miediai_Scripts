@@ -41,27 +41,40 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Examines the hidden non-financial costs of delaying retirement past 60, including lost health, energy, and irreplaceable time with family. Argues that working longer for bigger savings balances often fails the cost-benefit test when accounting for diminished physical capacity and missed life experiences."
 topics: []
-topics_proposed: []
+topics_proposed: ["early-retirement", "health-and-retirement", "quality-of-life", "retirement-timing", "opportunity-cost", "life-expectancy"]
 entities:
-  people: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, financial advisor"
   companies: []
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["longevity risk", "sequence of returns risk", "health decline", "relationship costs", "energy allocation", "healthcare timing", "ACA plans", "COBRA"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "After age 65, most people begin noticing real health and energy changes"
+    timestamp: "00:00:52"
+    confidence: "medium"
+    flagged: false
+  - claim: "Early Social Security at 62 can make sense if you're healthy and want to enjoy money while capable"
+    timestamp: "00:06:23"
+    confidence: "medium"
+    flagged: false
+  - claim: "ACA plans can be surprisingly affordable for early retirees with controlled income"
+    timestamp: "00:07:57"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -71,6 +84,37 @@ notes: ""
 **Published:** 2025-08-03
 **URL:** https://youtube.com/watch?v=5GQlkd-ZdAc
 **Duration:** 12:19
+
+## Summary
+
+This video challenges the conventional wisdom that working longer is always smarter by presenting emotional, health, and relational costs that calculators never capture. The presenter argues that peak retirement years (60-65) represent irreplaceable time that cannot be bought back with money, making the marginal financial gains from delayed retirement often not worth the cost.
+
+## Key Takeaways
+
+- Years between 60-65 are physically prime time for travel, hiking, and active experiences; delaying these for money represents trading health for wealth.
+- Time with aging parents, grandchildren growing up, and maintaining friendships depends on your timeline, not your savings timeline.
+- Financial calculators ignore that every year of work extends your healthy retirement window; delayed retirement may feel secure but deliver less actual enjoyment.
+- Healthcare costs fear should not justify working past 60 if COBRA and ACA plans are properly understood.
+- Early Social Security at 62, when paired with controlled spending, can provide the psychological benefit of 'claiming back' your years.
+- The true regret pattern: people wish they retired earlier, never that they retired too soon.
+
+## Detailed Notes
+
+### The Health and Energy Trade-Off [00:00:52]
+
+Health and energy shift noticeably after 65. Working past 60 means trading away the healthiest years for a larger balance. Those extra paychecks arrive in years when hiking, travel, and active time become harder. The financial calculator never captures this irreplaceable loss.
+
+### Relationship Costs of Delayed Retirement [00:02:40]
+
+Grandchildren grow at their pace, not yours. Aging parents need help on their timeline. Friendships require presence, not presence deferred. By the time work stops, key moments have already passed. These costs cannot be quantified in a spreadsheet but cause lasting regret.
+
+### Healthcare Myths and Solutions [00:07:57]
+
+Fear of healthcare costs before Medicare keeps many working unnecessarily. COBRA bridges for 18 months at reasonable cost. ACA plans become affordable when retirement income is controlled strategically. Understanding these options eliminates the biggest objection to early retirement.
+
+### The Regret Pattern [00:08:59]
+
+After analyzing hundreds of retirees, the presenter notes a consistent pattern: no one regrets retiring too early, but many deeply regret working too long. The extra savings they accumulated often goes unspent, while the health and time they sacrificed can never be recovered.
 
 ## Transcript
 

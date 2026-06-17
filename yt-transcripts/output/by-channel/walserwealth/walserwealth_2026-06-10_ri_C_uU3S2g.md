@@ -45,27 +45,60 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser discusses recent market volatility driven by AI monetization and provides stock recommendations. She emphasizes that volatility is normal during technological frontier expansion and recommends diversified holdings including Coherent, Reddit, Parker Hannifin, Procter & Gamble, and gold for hedging."
 topics: []
-topics_proposed: []
+topics_proposed: ["ai-stocks", "market-volatility", "equity-picks", "technology-monetization", "portfolio-diversification", "central-bank-policy"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Rebecca Walser"
+      role: "CIO, Walser Wealth Management"
+    - name: "Charles Payne"
+      role: "Fox Business host"
+    - name: "Kevin Warsh"
+      role: "Federal Reserve official"
+  companies:
+    - name: "Coherent"
+      ticker: "COHR"
+    - name: "Reddit"
+      ticker: "RDDT"
+    - name: "Parker Hannifin"
+      ticker: "PH"
+    - name: "Procter & Gamble"
+      ticker: "PG"
+    - name: "Broadcom"
+      ticker: "AVGO"
+    - name: "SpaceX"
+      ticker: null
+  tickers: ["COHR", "RDDT", "PH", "PG", "AVGO"]
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["fear and greed index", "AI monetization", "hyperscalers", "dividend stocks", "gold", "central bank purchases", "tokenization"]
+content_type: "analysis"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Market fear and greed index is near extreme fear after moving from greed zone within days"
+    timestamp: "00:00:01"
+    confidence: "high"
+    flagged: false
+  - claim: "Reddit projects revenue growth of about 33% through 2029"
+    timestamp: "00:00:01"
+    confidence: "medium"
+    flagged: true
+  - claim: "Procter & Gamble has raised its dividend 70 times in a row, with current yield at 2.9%"
+    timestamp: "00:00:01"
+    confidence: "medium"
+    flagged: true
+  - claim: "Central banks are buying gold as an alternative to traditional reserves"
+    timestamp: "00:00:01"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +108,36 @@ notes: ""
 **Published:** 2026-06-10
 **URL:** https://youtube.com/watch?v=ri_C_uU3S2g
 **Duration:** 6:53
+
+## Summary
+
+Rebecca Walser joins Charles Payne to discuss market volatility in the context of AI monetization. She emphasizes that volatility is expected when new technology frontiers are being commercialized and recommends investors maintain a long-term perspective and proper risk tolerance. Walser provides specific stock recommendations across different sectors including AI infrastructure, consumer staples, and dividend payers.
+
+## Key Takeaways
+
+- Market volatility is a natural and expected part of monetizing new frontier technologies like AI, not a reason to panic
+- Investors need nerves of steel and realistic expectations to weather the volatility of emerging technology trades
+- AI infrastructure plays like Coherent and Reddit offer long runways but will be volatile, while dividend stocks like P&G provide stability
+- Central banks continue buying gold despite its near-term volatility, suggesting institutional confidence in precious metals
+- Portfolio diversification across multiple sectors and risk profiles is essential during periods of AI-driven market transitions
+
+## Detailed Notes
+
+### Market Volatility from Greed to Fear [00:00:01]
+
+The fear and greed index has swung dramatically from the greed zone to near extreme fear in just days due to concerns about AI stock valuations, IPO supply, and forward guidance issues. This sentiment shift reflects typical panic buying and selling during technology monetization phases.
+
+### AI Monetization Volatility as Opportunity [00:00:01]
+
+Walser explains that monetizing new frontier technologies is always rocky, requiring investors to have strong nerves and realistic expectations. Those who entered the market in early 2024 experienced rough months but should understand this is normal for emerging tech cycles.
+
+### Specific Stock Recommendations [00:00:01]
+
+Walser recommends Coherent (due to critical indium phosphide supply), Reddit (with 33% projected revenue growth and $5.23 average revenue per user), and Parker Hannifin (as a space-adjacent play without pure space exposure). She balances these volatile plays with dividend stocks like Procter & Gamble.
+
+### Central Banks and Gold Positioning [00:00:01]
+
+Central banks continue aggressively buying precious metals, suggesting they anticipate future currency volatility or monetary instability. Gold acts as both a risk-on asset during geopolitical conflicts and a long-term inflation hedge.
 
 ## Transcript
 

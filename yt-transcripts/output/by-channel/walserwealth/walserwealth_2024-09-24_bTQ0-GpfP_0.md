@@ -42,27 +42,40 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Financial advisor Shannon Stoel from Walser Wealth Management presents six essential financial planning strategies for individuals in their 60s: understanding required minimum distributions, planning long-term care, maintaining appropriate portfolio risk levels, calculating sustainable income from assets, organizing estate planning documents and beneficiary designations, and selecting Medicare plans that suit individual needs."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "financial-advice", "medicare", "estate-planning", "portfolio-risk"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Shannon Stoel"
+      role: "financial advisor"
+    - name: "Rebecca Walser"
+      role: "wealth manager"
+  companies:
+    - name: "Walser Wealth Management"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["required-minimum-distributions", "long-term-care", "portfolio-allocation", "estate-planning", "medicare-planning", "retirement-income"]
+content_type: "educational"
+audience_level: "beginner"
+key_claims: 
+  - claim: "Women have 53% likelihood of needing long-term care while men have 47% likelihood"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "The 5-year period before and 5 years into retirement (loss decade) is critical to avoid substantial portfolio corrections"
+    timestamp: "00:01:02"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -72,6 +85,45 @@ notes: ""
 **Published:** 2024-09-24
 **URL:** https://youtube.com/watch?v=bTQ0-GpfP_0
 **Duration:** 2:30
+
+## Summary
+
+Shannon Stoel from Walser Wealth Management outlines six critical financial planning steps for people in their 60s. The guidance covers required minimum distributions (RMDs) and their impact on asset spending, long-term care planning with specific gender-based likelihood statistics, maintaining appropriate risk levels during the critical 10-year period around retirement, calculating sustainable income from existing assets, organizing estate planning documents with updated beneficiary designations, and choosing Medicare plans aligned with individual needs and prescriptions.
+
+## Key Takeaways
+
+- Required minimum distributions can substantially impact retirement spending plans regardless of whether funds are immediately needed.
+- Long-term care planning is critical with statistical likelihood around 50/50 for both genders needing such care at some point.
+- Portfolio risk management is essential during the 5-year pre-retirement and 5-year post-retirement period to prevent detrimental corrections.
+- Calculate exact sustainable income levels from retirement assets including dividends, pensions, and other sources to ensure longevity.
+- Estate planning documents and beneficiary designations require periodic review and updates as circumstances change.
+- Medicare plan selection should be actively managed to match individual prescriptions and healthcare needs.
+
+## Detailed Notes
+
+### Required Minimum Distributions (RMDs) [00:00:00]
+
+Viewers should understand how RMDs will affect overall portfolio and retirement spending plans. Starting early to think about RMD impact in the 70s ensures better planning outcomes.
+
+### Long-Term Care Planning [00:00:00]
+
+Planning options include self-funding, purchasing long-term care insurance, or ensuring policy appropriateness for individual needs. With approximately 50/50 odds of needing care, comprehensive planning is essential rather than relying on chance.
+
+### Portfolio Risk Management During Loss Decade [00:01:02]
+
+The critical 10-year window spanning 5 years before and after retirement requires careful risk calibration to avoid aggressive positioning that could be damaged by market corrections affecting long-term spending capacity.
+
+### Income Planning and Asset Allocation [00:01:02]
+
+Retirees must calculate how much annual income their portfolio can sustainably support through dividends, withdrawals, or other sources. Hiring a financial planner can help establish formal income plans for those without clear answers.
+
+### Estate Planning and Beneficiary Management [00:02:05]
+
+Basic estate planning documents should be established with local attorneys. A critical but often overlooked step is ensuring all account beneficiary designations are current and reviewed periodically as life circumstances change.
+
+### Medicare Plan Selection [00:02:05]
+
+Individuals should evaluate whether original Medicare or alternative Medicare plans best suit their needs, prescription requirements, and overall healthcare situation. Consulting Medicare experts helps identify optimal plan selection.
 
 ## Transcript
 

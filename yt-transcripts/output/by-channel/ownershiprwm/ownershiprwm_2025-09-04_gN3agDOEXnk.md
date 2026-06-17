@@ -58,27 +58,38 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Guide to maximizing 401k savings through the auto-increase feature, which automatically raises contribution rates annually. Demonstrates how starting at 5% and increasing to 15% can potentially double retirement savings compared to static contributions over time."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "401k-contributions", "savings-strategy", "automatic-increases", "compound-growth"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Sapienza"
+      role: "Senior Advisor"
+  companies:
+    - name: "Ritholtz Wealth Management"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["401k auto-increase feature"]
+  concepts: ["compound interest", "contribution rate", "retirement savings"]
+content_type: "educational"
+audience_level: "beginner"
+key_claims: 
+  - claim: "Using auto-increase feature from 5% to 10% contributions can grow savings from $237,000 to $459,000 over a career"
+    timestamp: "00:00:53"
+    confidence: "high"
+    flagged: true
+  - claim: "Increasing contributions to 15% can result in savings of $559,000, more than double the static 5% amount"
+    timestamp: "00:00:53"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -88,6 +99,32 @@ notes: ""
 **Published:** 2025-09-04
 **URL:** https://youtube.com/watch?v=gN3agDOEXnk
 **Duration:** 1:42
+
+## Summary
+
+Nick Sapienza explains one of the most powerful yet underutilized tools for 401k savings: the auto-increase feature. Most plans allow automatic annual increases of 1% in contribution rates. Through a concrete example comparing three contributors named Nick, Sam, and Sally, the video demonstrates how starting at 5% contributions and gradually increasing to 15% can yield $559,000 versus $237,000 for someone who never increases their rate. The key insight is that small, consistent increases compound dramatically over decades.
+
+## Key Takeaways
+
+- Auto-increase features automatically raise 401k contribution rates annually by 1%, making it painless to save more
+- Someone contributing 5% and increasing to 10% accumulates $459,000 versus $237,000 staying at 5%
+- Increasing contributions to 15% can more than double lifetime savings to $559,000
+- Setting auto-increase once and forgetting it is one of the few effective set-it-and-forget-it retirement strategies
+- The strategy relies on slow and steady increases that leverage compound growth over decades
+
+## Detailed Notes
+
+### What is the Auto-Increase Feature [00:00:00]
+
+The auto-increase feature automatically raises 401k contribution rates each year, typically by 1%. It's a simple, painless tool that most people either don't activate or don't know exists. The feature allows contributions to grow in line with income without requiring annual decisions.
+
+### Impact Comparison: Three Contribution Scenarios [00:00:53]
+
+Nick (static 5%) saves $237,000; Sam (5% increasing to 10%) saves $459,000; Sally (5% increasing to 15%) saves $559,000. This demonstrates the dramatic impact of sustained increases over time, with Sally's approach yielding more than double Nick's static approach.
+
+### Implementation Strategy [00:00:53]
+
+Set the auto-increase feature to bump contribution rate by 1% annually until reaching 15% or even 20% if possible. This is described as one of the few reliable set-it-and-forget-it strategies that actually produces significant results through compound growth.
 
 ## Transcript
 

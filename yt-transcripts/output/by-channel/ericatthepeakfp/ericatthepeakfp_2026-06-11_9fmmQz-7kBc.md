@@ -37,27 +37,62 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Financial advisor cautions against four common investment purchases made before retirement—bonds, rental properties, high-dividend funds, and late-life long-term care insurance—explaining how each can reduce portfolio flexibility when it matters most."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-investing", "portfolio-allocation", "asset-selection", "bond-investing", "real-estate"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, financial advisor"
+    - name: "William Sharpe"
+      role: "researcher"
+    - name: "Michael Kitces"
+      role: "planning researcher"
+    - name: "Hartsmark"
+      role: "researcher"
+    - name: "Solomon"
+      role: "researcher"
+    - name: "Rich Arzaga"
+      role: "CFP"
+    - name: "David Blanchett"
+      role: "researcher at Morningstar"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
+    - name: "Morningstar"
+      ticker: null
+    - name: "Genworth"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["REIT", "Dividend funds"]
+  concepts: ["stock-bond correlation", "rising equity glide path", "liquidity", "sequence of returns risk", "dividend fallacy", "MAGI thresholds", "long-term care insurance"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Stock-bond correlation spiked to roughly 0.5 in 2022 during inflation uncertainty"
+    timestamp: "00:01:59"
+    confidence: "high"
+    flagged: false
+  - claim: "A 70/30 portfolio drew down more than 20% in 2022"
+    timestamp: "00:01:59"
+    confidence: "high"
+    flagged: true
+  - claim: "Researchers found that rising equity glide paths in retirement reduce portfolio failure chances"
+    timestamp: "00:01:59"
+    confidence: "high"
+    flagged: false
+  - claim: "High dividend funds returned an estimated 2-4% less per year than the rest of the market during high demand periods"
+    timestamp: "00:06:12"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -67,6 +102,44 @@ notes: ""
 **Published:** 2026-06-11
 **URL:** https://youtube.com/watch?v=9fmmQz-7kBc
 **Duration:** 11:55
+
+## Summary
+
+Financial advisor Eric Amzalag identifies four assets commonly purchased before retirement that can reduce portfolio flexibility at a critical time. Bonds may not provide downside protection during inflationary periods; rental properties lock up capital and create management burdens; high-dividend funds tax investors and create concentrated risks; and late-life long-term care insurance often becomes unaffordable or unreliable. Rather than pursuing safety through these vehicles, retirees should focus on maintaining flexibility to respond to actual market conditions.
+
+## Key Takeaways
+
+- Bonds may fail to protect portfolios during inflationary periods when stocks and bonds move together rather than providing inverse returns
+- Rising equity allocations throughout retirement can reduce portfolio failure risk compared to the conventional approach of moving toward bonds with age
+- Rental properties lock capital into illiquid assets and create management burdens at a time when retirees most value flexibility
+- High-dividend funds impose tax drag, concentrate sector exposure, and underperform during periods of high investor demand
+- Late-life long-term care insurance purchases face timing problems: premiums are expensive and insurers often raise rates or fail to pay claims when needed
+
+## Detailed Notes
+
+### Bond Investment Concerns and Correlation Breakdown [00:00:00]
+
+Conventional retirement advice recommends increasing bond holdings as retirement approaches for safety. However, bonds only provided downside protection during the low-inflation environment of the 2000s. When inflation uncertainty picks up, stocks and bonds correlate positively rather than inversely. In 2022, stock-bond correlation spiked to approximately 0.5, and a typical 70/30 portfolio declined more than 20%. Additionally, historically a 20-30 year bond position would generate minimal returns, making the trade-off questionable.
+
+### Rising Equity Glide Paths May Be Optimal [00:01:59]
+
+Researchers William Sharpe and Michael Kitces found that a rising equity glide path—increasing stock exposure and reducing bonds as you progress through retirement—reduces portfolio failure chances. This contradicts conventional wisdom of moving toward bonds with age. The instinct to protect accumulated wealth is correct, but bonds may not be the right instrument in the current inflationary regime.
+
+### Rental Properties Lock Capital and Create Work [00:03:34]
+
+Many people are drawn to rental properties for the appeal of monthly checks and a sense of achievement. However, the year retirement begins is when liquidity becomes most valuable. Rental properties lock capital into illiquid assets that cannot be partially sold to meet medical expenses or portfolio needs during market downturns. Additionally, tenant management, repairs, vacancies, and maintenance calls create a second job without salary. The gap between advertised gross yield and actual net yield often widens with bad tenants or major repairs, making annual profits disappear.
+
+### REITs Offer Real Estate Exposure Without Illiquidity [00:05:39]
+
+For those wanting real estate exposure, Real Estate Investment Trusts (REITs) provide similar upside without the landlord duties, maintenance calls, or illiquidity. REITs allow partial liquidation as needed and provide the flexibility retirees value.
+
+### High-Dividend Funds Create Hidden Costs and Tax Drag [00:05:39]
+
+The appeal of living off dividends without liquidating investments attracts many retirees. However, when a company pays a $1 dividend, the share price drops by approximately $1 the same day—no additional gain occurs. Researchers Hartsmark and Solomon called this the free dividends fallacy. During high-demand periods when retirees flood into dividend funds, the funds experience 2-4% annual underperformance versus broader markets. Additionally, dividend funds create concentrated sector exposure, and dividends are taxed as received, creating tax drag and complicating Modified Adjusted Gross Income management.
+
+### Late-Life Long-Term Care Insurance Has Poor Timing and Economics [00:08:48]
+
+While long-term care concerns are valid, purchasing insurance late in life faces critical timing problems. Premiums are expensive (thousands per year) and insurers frequently raise rates—some clients experienced four rate increases in two years. The math on these policies is poor, and insurers sometimes exit the market or reduce payouts. The window when retirees worry about long-term care coincides when policies become unaffordable or unavailable. Genworth, once the largest insurer, has become a less safe bet.
 
 ## Transcript
 

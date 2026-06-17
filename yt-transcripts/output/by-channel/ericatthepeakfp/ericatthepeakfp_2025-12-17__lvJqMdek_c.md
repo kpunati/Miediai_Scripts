@@ -39,24 +39,43 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "The video reveals that 69% of affluent retirees do not withdraw systematically from their portfolios, with many still saving 31% of retirement income due to insufficient planning. The speaker presents a six-component retirement preparation framework beyond mere accumulation—scenario modeling, risk management, lifestyle design, family alignment, and psychological preparation—each requiring 15-20% of planning energy."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-psychology", "spending-planning", "financial-planning-framework", "behavioral-finance"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, financial advisor"
+  companies:
+    - name: "New York Life"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["401k", "retirement accounts"]
+  concepts: ["safe spending capacity", "Monte Carlo analysis", "sequence of returns risk", "lifestyle design", "psychological preparation", "family alignment"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Only 31% of affluent retirees regularly withdraw from portfolios; 69% do not withdraw systematically"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Already-retired retirees still save 31% of their retirement income on average"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "When unexpected expenses occurred, retirees cut spending rather than withdraw more from portfolios"
+    timestamp: "00:00:59"
+    confidence: "high"
+    flagged: false
+  - claim: "A client saved $3 million by age 54 but was diagnosed with two inoperable tumors at 55"
+    timestamp: "00:05:10"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: []
@@ -69,6 +88,52 @@ notes: ""
 **Published:** 2025-12-17
 **URL:** https://youtube.com/watch?v=_lvJqMdek_c
 **Duration:** 10:27
+
+## Summary
+
+According to New York Life research cited in the video, 69% of affluent retirees lack systematic withdrawal strategies, with many continuing to save even in retirement. The speaker argues that oversaving is a symptom of underplanning. Rather than focusing solely on accumulation, retirees need balanced preparation across six dimensions: accumulation, scenario modeling, risk management, lifestyle design, family alignment, and psychological preparation. Real client stories illustrate both the dangers of imbalanced preparation and the confidence that comes from comprehensive planning.
+
+## Key Takeaways
+
+- 69% of affluent retirees do not withdraw systematically; many continue saving 31% of retirement income despite having sufficient wealth.
+- When faced with unexpected expenses, retirees cut spending rather than withdraw from portfolios, indicating psychological reluctance rather than actual insufficiency.
+- Oversaving is a symptom of underplanning, not insufficient savings; the solution is comprehensive retirement preparation, not more accumulation.
+- Effective retirement preparation requires balancing six components: accumulation, scenario modeling, risk management, lifestyle design, family alignment, and psychological preparation, each requiring roughly 15-20% of planning effort.
+- Most retirees allocate 80% of effort to accumulation and only 20% to the other five components, leaving them anxious despite substantial wealth.
+
+## Detailed Notes
+
+### The New York Life Research Findings [00:00:00]
+
+New York Life surveyed affluent retirees and found that only 31% regularly withdraw from portfolios systematically. The remaining 69% did not have a systematic withdrawal strategy, many not withdrawing at all. Additionally, people already in retirement were still saving an average of 31% of their retirement income, indicating excessive caution.
+
+### Behavioral Pattern: Cutting Spending Instead of Withdrawing [00:00:59]
+
+The research revealed that when retirees faced unexpected expense increases, they did not withdraw more from their portfolios. Instead, they cut their spending. This behavioral pattern shows that lack of confidence in spending stems from inadequate planning frameworks, not actual insufficiency of funds.
+
+### The Marathon Training Analogy [00:02:11]
+
+The speaker compares retirement preparation to marathon training. While running (saving) is critical, training exclusively for running while neglecting strength training, nutrition, rest, and race-day planning leads to poor performance. Similarly, focusing only on accumulation without planning other dimensions leaves retirees unprepared.
+
+### Six Components of Retirement Preparation [00:02:48]
+
+Complete retirement preparation requires balanced effort across: (1) accumulation/saving, (2) scenario modeling/numbers, (3) risk management/contingencies, (4) lifestyle design/time planning, (5) family alignment/spouse/children coordination, and (6) psychological preparation/mental framework. Each should receive approximately 15-20% of planning energy.
+
+### The Imbalanced Pie Problem [00:04:25]
+
+Most retirees dedicate 80% of effort to accumulation and only 20% to the other five dimensions. This leads to 69% of New York Life retirees lacking systematic withdrawal strategies despite substantial wealth. They have resources but lack the framework to confidently use them.
+
+### Real Client Stories: Negative Outcomes [00:05:10]
+
+Story 1: Client accumulated $3 million by age 54, planning to retire at 55, but was diagnosed with two inoperable tumors. Years of delayed gratification were lost due to inadequate time for enjoyment. Story 2: Another client kept working until 67 without running scenarios, believing a few more years were needed. At 67, he fell and was forced into retirement terrified about adequacy, only later learning he could have retired a year earlier with confidence.
+
+### Real Client Stories: Positive Outcome [00:06:03]
+
+A couple planning retirement at 62 experienced unexpected job loss at 61. However, because they had engaged in comprehensive planning (scenario modeling, lifestyle design, risk management, psychological preparation), they felt confidence and excitement rather than panic. The unexpected event that would have devastated an unplanned retiree became manageable.
+
+### Steps to Rebalance Your Preparation Pie [00:07:04]
+
+Step 1: Audit time spent on accumulation versus other five components. Step 2: Use retirement software to model safe spending capacity under different scenarios (different retirement ages, portfolio values, withdrawal strategies). Step 3: Define desired lifestyle in specific terms (daily activities, travel preferences, purpose drivers). Step 4: For couples, schedule alignment conversations on retirement vision and spending values. Step 5: Create specific decision-making rules with portfolio balance triggers for increasing or decreasing spending.
 
 ## Transcript
 

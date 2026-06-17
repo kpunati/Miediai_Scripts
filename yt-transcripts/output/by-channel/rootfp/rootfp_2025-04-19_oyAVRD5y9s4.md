@@ -58,27 +58,46 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Case study examining retirement spending strategy for retiring at 60 with $2M portfolio. Demonstrates why the simplistic 4% rule combined with Social Security timing creates uneven income flows. Proposes targeting desired after-tax spending amount and working backward to determine required withdrawals, accounting for taxes and delayed Social Security benefits to optimize retirement cash flow."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "social-security-strategy", "portfolio-withdrawal-rates", "tax-planning", "retirement-spending"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "CFP, financial advisor"
+  companies:
+    - name: "Root Financial"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Retirement Planning Academy"]
+  concepts: ["4% rule", "Social Security timing", "tax-adjusted income", "withdrawal strategies", "retirement spending smile"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "4% withdrawal rate from $2M portfolio yields $80K per year before taxes"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Social Security delayed until age 67 requires higher portfolio withdrawals in first 7 years"
+    timestamp: "00:00:31"
+    confidence: "high"
+    flagged: false
+  - claim: "Withdrawal rates can reach 6.2% early in retirement then drop to 4.5% when Social Security begins"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Most retirees spend more upfront, less in middle years, more again with healthcare expenses (retirement spending smile)"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -88,6 +107,40 @@ notes: ""
 **Published:** 2025-04-19
 **URL:** https://youtube.com/watch?v=oyAVRD5y9s4
 **Duration:** 9:42
+
+## Summary
+
+This video presents a detailed case study of Donna's retirement plan, challenging the conventional wisdom of applying a fixed withdrawal rate to retirement portfolios. The instructor demonstrates that starting with a desired after-tax spending amount and working backward yields better results than starting with an arbitrary withdrawal rate. Key insights include accounting for tax impacts on income sources, recognizing the uneven cash flow created by delayed Social Security, and understanding that withdrawal rates naturally decline when guaranteed income sources become available.
+
+## Key Takeaways
+
+- Applying a simple 4% rule overlooks taxes, forcing retirees to live on less than their stated income suggests
+- Planning works better by starting with desired after-tax spending ($100K) and solving for required portfolio withdrawals
+- Withdrawal rates can exceed 6% early in retirement and drop to sustainable levels when Social Security begins, avoiding unnecessary portfolio cuts
+- Higher withdrawal rates are sustainable if they are temporary, declining naturally when other income sources activate
+- Retirement spending typically follows an inverted U-shape with more spending early, less in middle years, and more again for healthcare
+
+## Detailed Notes
+
+### Why 4% Rule Alone Is Incomplete [00:00:00]
+
+Retiring at 60 with $2M and applying 4% gives $80K portfolio income plus $40K Social Security, appearing to equal $120K annual spending. However, this overlooks three critical issues: Social Security has not yet started (seven years of gap), taxes reduce actual disposable income, and 4% may be overly conservative.
+
+### Tax Impact on Retirement Income [00:03:28]
+
+Donna's case shows that $80K from IRA plus $40K Social Security before taxes translates to approximately $79K after taxes, not $120K. Investors often focus on gross income rather than after-tax purchasing power, which is the actual amount they can spend.
+
+### Better Planning Approach: Target Spending First [00:04:17]
+
+Instead of choosing a withdrawal rate first, start with desired after-tax spending ($8,300/month or $100K annually). The planning software then calculates required gross withdrawals, accounting for taxes automatically. This approach removes the need to guess at a withdrawal rate.
+
+### Variable Withdrawal Rates Over Time [00:00:00]
+
+Under the spending-first approach, withdrawal rates reach 6.2% early in retirement, then drop to 4.5% once Social Security begins at 67. This declining rate pattern is sustainable and provides confidence that temporary higher rates will naturally moderate.
+
+### The Retirement Spending Smile Effect [00:00:00]
+
+Contrary to inflation-adjusted spending assumptions, actual retirees spend more upfront (travel, active pursuits), less in middle years, and more again when healthcare costs rise. Applying 2% annual spending increases instead of 3% inflation significantly improves success probabilities.
 
 ## Transcript
 

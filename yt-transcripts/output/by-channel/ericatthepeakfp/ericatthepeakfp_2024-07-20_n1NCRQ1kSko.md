@@ -38,27 +38,42 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Eric Amzalag explains three criteria for assessing retirement readiness: sufficient financial assets, a comprehensive retirement plan with monitoring and contingencies, and meaningful activities beyond work. The video provides a formula-based framework for calculating required portfolio income and discusses the limitations of relying solely on wealth accumulation."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "financial-independence", "portfolio-income", "retirement-readiness", "life-satisfaction"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, RICP, Financial Planner"
+  companies:
+    - name: "Peak Financial Planning Inc."
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["required portfolio income formula", "retirement risk zone", "life expectancy", "retirement planning stages"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Delayed retirement by one year results in 9-11% lower risk of all-cause mortality"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Required portfolio income is calculated as annual expenses minus guaranteed income sources divided by portfolio value"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Hypothetical example: household needing $75,000 pre-tax income with $46,600 in Social Security requires $32,400 portfolio income annually"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -68,6 +83,40 @@ notes: ""
 **Published:** 2024-07-20
 **URL:** https://youtube.com/watch?v=n1NCRQ1kSko
 **Duration:** 12:44
+
+## Summary
+
+Eric Amzalag presents three signs of retirement readiness beyond simply having enough money. The first involves calculating whether your financial assets can sustain your retirement using the required portfolio income formula, which determines how much annual income your portfolio must generate after accounting for guaranteed sources like Social Security. The second sign is having a comprehensive retirement plan with five components: assessment, destination, turn-by-turn directions, real-time monitoring, and contingency plans. The third sign is having meaningful activities to pursue in retirement that provide value and purpose. Amzalag emphasizes that sufficient wealth alone does not guarantee retirement success.
+
+## Key Takeaways
+
+- Three critical signs of retirement readiness: sufficient financial assets via the required portfolio income formula, a comprehensive plan with monitoring and contingencies, and meaningful non-work activities.
+- The required portfolio income formula helps determine if you have enough by calculating annual expenses minus guaranteed income divided by needed portfolio size.
+- A complete retirement plan has five components: assessment of current state, clear destination/goal, turn-by-turn directions, real-time monitoring, and contingency/rerouting options.
+- Research shows delaying retirement by just one year reduces all-cause mortality risk by 9-11%, suggesting continued purpose is beneficial for longevity.
+- Starting retirement planning 5 years before your target date gives adequate runway to adjust your plan and ensure alignment with your goals.
+
+## Detailed Notes
+
+### The Required Portfolio Income Formula [00:00:00]
+
+To determine retirement readiness, calculate your annual expenses, subtract guaranteed income sources (Social Security, pensions), and determine the required portfolio income needed. In the example provided, a household needing $75,000 pre-tax income would have Social Security cover $46,600 annually, leaving $32,400 that must come from the portfolio, requiring approximately $1.032 million in assets at a 4% withdrawal rate.
+
+### Wealth Alone Is Not Sufficient [00:00:00]
+
+Having enough money is like the foundation of a house—necessary but not sufficient. Many wealthy retirees experience anxiety about running out of money because they lack a robust plan. The foundation alone doesn't create a livable structure; you need the complete plan architecture.
+
+### The Five-Part Retirement Plan Framework [00:00:00]
+
+A complete retirement plan mirrors Google Maps functionality with five components: assessment (where are you now), destination (where you want to go), turn-by-turn directions (the specific strategy), real-time monitoring (tracking progress and changes), and contingency plans (adjustments if needed). This comprehensive approach reduces anxiety and builds confidence.
+
+### The Importance of Meaningful Activity [00:00:00]
+
+The third sign of retirement readiness is having meaningful activities beyond work. Research shows that retirement can be a stressful life event linked to cognitive decline and increased health risks. Work provides financial, psychological, and cognitive resources, so planning for meaningful replacement activities is critical to retirement success.
+
+### Life Expectancy and Work Impact [00:00:00]
+
+A study titled 'The Association of Retirement Age with Mortality' found that delaying retirement by just one year resulted in 9-11% lower all-cause mortality risk regardless of health or socioeconomic status. Continued engagement in work or volunteer activities helps maintain cognitive, physical, and mental functioning.
 
 ## Transcript
 

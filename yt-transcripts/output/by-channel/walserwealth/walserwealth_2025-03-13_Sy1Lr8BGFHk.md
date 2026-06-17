@@ -42,24 +42,43 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser discusses market correction following Trump's tariff announcements, maintaining her cautious stance that the market is overbought and expects further downside before recovery. She contrasts her wait-and-see approach with other advisors buying the dip."
 topics: []
-topics_proposed: []
+topics_proposed: ["market-correction", "tariffs", "stock-volatility", "investor-sentiment", "market-timing", "trump-policy"]
 entities:
-  people: []
+  people:
+    - name: "Rebecca Walser"
+      role: "wealth manager"
+    - name: "Donald Trump"
+      role: "US President"
   companies: []
-  tickers: []
+  tickers: ["SPX", "INDU", "CCMP"]
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["overbought market", "tariff confirmation", "market correction", "volatility", "retail investors", "buying the dip"]
+content_type: "opinion"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "The S&P 500 fell 1.7% on a specific day and the same amount for the week, with the S&P now negative for the year"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "The Dow Industrial is down 193 points"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "NASDAQ was down 2.8%"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "The Dow plunged nearly 700 points in the latest session"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: []
@@ -72,6 +91,36 @@ notes: ""
 **Published:** 2025-03-13
 **URL:** https://youtube.com/watch?v=Sy1Lr8BGFHk
 **Duration:** 1:30
+
+## Summary
+
+Rebecca Walser expresses contrarian caution in a short video as markets decline following Trump's tariff confirmations. While many advisors recommend buying the dip, Walser maintains her position that markets are overbought and expects further downside. She frames her willingness to wait as wisdom rather than fear, contrasting with retail investors chasing dips.
+
+## Key Takeaways
+
+- Rebecca Walser's early caution about overbought conditions has been vindicated as markets decline
+- Unlike most advisors buying dips, Walser expects further downside before bottom-finding opportunity
+- Market was priced for perfection despite non-perfect conditions and incoming policy volatility
+- Trump's tariff confirmations on Canada and Mexico triggered sharp declines across all major indexes
+- 10% correction is viewed as potentially just the beginning of a larger pullback
+
+## Detailed Notes
+
+### Market consensus vs. Walser's caution [00:00:00]
+
+Other advisors were buying stocks, with a new client bringing money to deploy. Walser maintains her position that the market is overbought and states she will wait for better entry points. This creates a visible contrast between bullish advisors and Walser's contrarian caution.
+
+### Market condition analysis [00:00:00]
+
+Walser describes the market as overbought and priced for perfection despite non-perfect conditions. S&P 500 fell 1.7% on the specific day and approximately the same for the week, leaving the S&P negative for the year. Dow Industrial down 193 points, NASDAQ down 2.8%.
+
+### Retail investor behavior [00:00:00]
+
+Retail investors continue to follow the buy-the-dip bandwagon despite market weakness. Walser sees this as misguided and anticipates further price action to the downside as market adjusts to reality of incoming policy volatility.
+
+### Tariff impact on markets [00:00:00]
+
+Trump's confirmation of tariffs to be imposed on Canada and Mexico drove major indexes toward their lows for the year. The Dow plunged nearly 700 points in this session. Market fragility is evident with sharp moves in response to policy announcements.
 
 ## Transcript
 

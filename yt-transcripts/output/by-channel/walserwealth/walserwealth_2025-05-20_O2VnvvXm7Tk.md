@@ -45,27 +45,52 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Panel discussion on Trump's Middle East trip covering investment deals, geopolitical relationships, and economic policy implications including a Boeing jet deal."
 topics: []
-topics_proposed: []
+topics_proposed: ["trump-foreign-policy", "middle-east-trade", "us-investment", "boeing-deals"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Rebecca Walser"
+      role: "tax attorney, wealth manager"
+    - name: "Thomas Savage"
+      role: "economist, American Institute for Economic Research"
+    - name: "Tim Dasher"
+      role: "financial analyst"
+  companies:
+    - name: "Boeing"
+      ticker: "BA"
+    - name: "American Institute for Economic Research"
+      ticker: null
+  tickers: ["BA"]
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["dollar-strength", "de-dollarization", "cbdc", "tariffs"]
+content_type: "interview"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Middle East investment deal worth 1.2 to 1.4 trillion dollars"
+    timestamp: "00:01:06"
+    confidence: "medium"
+    flagged: true
+  - claim: "Boeing jet deal valued at more than 90 billion"
+    timestamp: "00:01:06"
+    confidence: "medium"
+    flagged: true
+  - claim: "de-dollarization accelerated in the last three years through BRICS and central bank digital currencies"
+    timestamp: "00:01:50"
+    confidence: "medium"
+    flagged: false
+  - claim: "S&P 500, Dow, and NASDAQ have recovered all 2025 losses and are near green territory"
+    timestamp: "00:03:31"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +100,36 @@ notes: ""
 **Published:** 2025-05-20
 **URL:** https://youtube.com/watch?v=O2VnvvXm7Tk
 **Duration:** 4:19
+
+## Summary
+
+A panel of financial experts discusses the economic impact of President Trump's Middle East trip, including major investment deals and their implications for US currency strength and global trade. The panel highlights the significant Boeing jet deal worth over 90 billion and broader investment commitments while examining ongoing concerns about US dollar de-dollarization through BRICS and central bank digital currencies.
+
+## Key Takeaways
+
+- Trump administration announced 1.2-1.4 trillion in Middle East investments plus 90+ billion Boeing jet deal
+- Recovery in S&P 500, Dow, and NASDAQ markets responding to policy initiatives and deal announcements
+- De-dollarization trend continues through BRICS expansion and central bank digital currency development
+- Tariff policies creating uncertainty but market showing optimism toward deal-making potential
+- Interest rates remain uncertain as Fed continues to monitor inflation and supply side factors
+
+## Detailed Notes
+
+### Middle East Investment Deals [00:00:00]
+
+Panel opens with discussion of Trump's Middle East trip resulting in 1.2-1.4 trillion in investment commitments plus 90+ billion Boeing jet deal. The deals represent significant economic engagement with foreign leaders.
+
+### Market Response and Recovery [00:03:31]
+
+S&P 500, Dow, and NASDAQ have recovered all losses from 2025 and are approaching positive territory. Recovery attributed to policy initiatives and deal announcements rather than Fed monetary policy alone.
+
+### De-dollarization Concerns [00:01:50]
+
+Rebecca Walser notes sustained de-dollarization trend through BRICS expansion and central bank digital currency development over past three years, viewing this as a critical economic challenge for US currency strength.
+
+### Interest Rate Outlook [00:02:27]
+
+Fed Chair Powell signals supply shocks may keep interest rates elevated. Panel interprets this as commentary shift under new administration, while markets remain focused on deal-making potential despite rate concerns.
 
 ## Transcript
 

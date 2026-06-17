@@ -41,27 +41,50 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Financial planner Eric Amzalag identifies three critical metrics for retirement readiness: required portfolio income (withdrawal rate by phase), personal inflation rate, and guardrails (dynamic spending bands). These metrics replace generic probability-of-success models, providing actionable contingency plans and reducing retirement anxiety."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-metrics", "withdrawal-rates", "portfolio-income", "inflation-tracking", "guardrails", "retirement-readiness"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, financial planner"
+    - name: "Robert"
+      role: "pre-retiree client"
+    - name: "Julia"
+      role: "pre-retiree client"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["RPI calculator", "Guardrails system", "Google Sheets calculator"]
+  concepts: ["required portfolio income", "withdrawal rate", "social security timing", "personal inflation", "Monte Carlo analysis", "contingency planning"]
+content_type: "educational"
+audience_level: "advanced"
+key_claims: 
+  - claim: "Robert and Julia, ages 66, had $1.24 million saved with social security of $1,833 and $917 monthly respectively"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Robert and Julia desired $6,000 per month or about $72,000 per year spending"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "If claiming social security at 70 versus 68, withdrawal rates would differ significantly and could trigger guardrails at different portfolio levels"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Guardrails showed Robert and Julia could spend almost 30% more than desired and might never need spending reductions because it would require 30% wealth reduction to trigger the 5% adjustment"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -71,6 +94,45 @@ notes: ""
 **Published:** 2025-02-15
 **URL:** https://youtube.com/watch?v=U2ZB3xGrcWg
 **Duration:** 13:03
+
+## Summary
+
+Eric Amzalag presents three essential metrics for retirement planning that move beyond traditional probability-of-success models. Using Robert and Julia's case, he demonstrates how required portfolio income (RPI) calculates sustainable withdrawal rates by phase, personal inflation tracking monitors cost creep in four key categories, and guardrails establish contingency spending adjustments. These metrics transform retirement anxiety by providing clear visibility into what triggers adjustments and what flexibility exists.
+
+## Key Takeaways
+
+- Required portfolio income varies by retirement phase (pre-social security vs. post) and is not a static percentage.
+- Withdrawal rates should be analyzed by phase rather than as single target rates.
+- Personal inflation tracking in four expense categories (housing, medical, groceries, travel) reveals true cost changes versus spending changes.
+- Guardrails establish specific portfolio value thresholds that trigger spending adjustments rather than relying on probability scores.
+- Understanding guardrails reduces paralysis by providing clear decision rules for spending during market volatility.
+- Many retirees have room to spend significantly more than they planned without jeopardizing their plans.
+
+## Detailed Notes
+
+### The Three Critical Metrics Framework [00:00:00]
+
+Amzalag identifies three metrics that replace generic probability models: required portfolio income, personal rate of inflation, and personal guardrails. These provide actionable insights into spending capacity and triggers rather than binary pass/fail outcomes.
+
+### Required Portfolio Income (RPI) Explained [00:00:00]
+
+RPI is the annual income assets must generate, calculated as desired spending minus guaranteed income sources. It changes by retirement phase: Robert and Julia had different RPI before and after claiming social security at 68 or 70, resulting in different withdrawal rates per period.
+
+### Phased Withdrawal Rates [00:00:00]
+
+Rather than a single 4% rule, withdrawal rates should be analyzed across phases. Robert and Julia would have approximately 6% withdrawal rate initially, dropping below 4% after claiming social security. This multi-phase approach reflects real life transitions.
+
+### Personal Inflation Tracking System [00:00:00]
+
+Amzalag recommends tracking four major expense categories: housing, medical, groceries, and travel. A spreadsheet comparing year-to-year changes in each category reveals true inflation impact on the individual's spending, distinct from national inflation rates.
+
+### Guardrails and Spending Adjustments [00:00:00]
+
+Guardrails establish specific portfolio value bands and corresponding spending capacity. For Robert and Julia, guardrails set at $900,000 to $1,338,000 portfolio range permitted $100,000 withdrawals, with 5% reduction needed if portfolio fell below $900,000.
+
+### Outcomes for Robert and Julia [00:00:00]
+
+The analysis revealed Robert and Julia could spend nearly 30% more than their $72,000 baseline. Crucially, they discovered they likely would never need spending reductions since a 30% wealth decline would be required to trigger the 5% adjustment guardrail.
 
 ## Transcript
 

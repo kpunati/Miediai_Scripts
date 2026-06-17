@@ -45,27 +45,60 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser discusses record Easter consumer spending, BNPL debt surge, deteriorating consumer sentiment, and fiscal responsibility concerns amid geopolitical uncertainty and energy crisis."
 topics: []
-topics_proposed: []
+topics_proposed: ["consumer-spending", "buy-now-pay-later", "credit-card-debt", "consumer-sentiment", "fiscal-crisis"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Rebecca Walser"
+      role: "Walser Wealth Management President"
+    - name: "Scott Shellady"
+      role: "Host"
+    - name: "Mark Matthews"
+      role: "NRF Chief Economist"
+  companies:
+    - name: "Walser Wealth Management"
+      ticker: null
+    - name: "National Retail Federation"
+      ticker: null
+    - name: "Prosper Insights and Analytics"
+      ticker: null
+    - name: "Affirm"
+      ticker: null
+    - name: "Klarna"
+      ticker: null
+    - name: "Cowboy Close"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["buy-now-pay-later", "credit cards", "BNPL services"]
+  concepts: ["Easter spending record", "consumer behavior", "doom spending", "buy-now-pay-later debt", "credit rating deterioration", "Michigan sentiment survey", "consumer sentiment", "rate cut expectations", "oil prices", "December futures", "energy crisis duration", "fiscal deficit", "government spending", "credit preservation", "foreclosure", "bankruptcy", "debt servicing"]
+content_type: "opinion"
+audience_level: "beginner"
+key_claims: 
+  - claim: "Easter consumer spending projected at record $25 billion, surpassing 2023 record of $24 billion"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Buy-now-pay-later balance as of 2025 is highest on record ever"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Consumer sentiment worst reading since December last year, 6% annualized downside year-over-year"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Oil trading at $102 barrel but December futures trading in high 70s at $77"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +108,46 @@ notes: ""
 **Published:** 2026-03-31
 **URL:** https://youtube.com/watch?v=ptOCDom0aNQ
 **Duration:** 7:16
+
+## Summary
+
+Rebecca Walser examines the paradox of record Easter spending ($25B, breaking 2023 record) amid deteriorating consumer sentiment and surging BNPL debt. She draws parallels to pre-2008 layaway but with digital fintech (Affirm, Klarna) enabling consumers to spend beyond their means, particularly on necessities like rent. She attributes the shift from credit-conscious behavior to the post-GFC normalization of default and bankruptcy, warning that this mirrors government fiscal profligacy. She emphasizes that oil futures pricing suggests markets expect rapid war resolution, potentially misjudging a prolonged energy crisis.
+
+## Key Takeaways
+
+- Easter spending hit record $25 billion, surpassing 2023's $24 billion, despite Valentine's Day records and persistent economic headwinds.
+- Buy-now-pay-later debt at all-time high as of 2025; digital platforms (Affirm, Klarna) replace physical layaway, enabling spending on necessities including rent.
+- Consumer sentiment worst since December 2024; 6% annualized year-over-year decline contradicts record spending, signaling stress-spending behavior.
+- Post-GFC behavioral shift: consumers stopped valuing credit ratings after mass foreclosures/bankruptcies felt legitimized by systemic failure, encouraging present-oriented spending.
+- Oil price disconnect: spot prices $102/barrel versus December futures at $77 suggest market underestimating war duration and energy crisis longevity.
+- Fiscal parallel: consumer and government both on unsustainable spending path; unlike 2008, credit preservation remains critical for future access despite post-GFC cynicism.
+- Rate cut expectations reversed: from two cuts anticipated to none expected, tightening financial conditions despite consumer reliance on credit availability.
+
+## Detailed Notes
+
+### Record Easter Spending Amid Deteriorating Sentiment [00:00:00]
+
+Easter spending projected at record $25 billion, surpassing 2023 peak of $24 billion. This follows Valentine's Day record spending and reflects what host characterizes as consumer 'doom spending' despite negative economic headlines. National Retail Federation chief economist attributes to importance of family reconnection.
+
+### BNPL Debt Explosion and Behavioral Shift [00:00:00]
+
+Buy-now-pay-later balances at all-time high in 2025, jump from previous years. Affirm and Klarna enable modern version of 1980s Kmart layaway but digitized and applied to necessities. Unlike historical layaway, BNPL used for items (rent, recurring expenses) that create debt servicing problems.
+
+### Post-GFC Erosion of Credit Discipline [00:00:00]
+
+Walser attributes shift from credit-conscious behavior to post-2008 environment where mass foreclosures, deed-in-lieu arrangements, and bankruptcies normalized default. Consumers view banks' post-GFC lending practices as adversarial, reducing incentive to preserve credit ratings.
+
+### Consumer Sentiment Data and Rate Cut Reversal [00:00:00]
+
+Michigan consumer sentiment worst since December 2024 with 6% annualized downside year-over-year. Contradicts record spending, suggesting stress-driven consumption. Rate cut expectations reversed from two anticipated cuts to none expected, tightening credit conditions.
+
+### Oil Futures Signal Market Optimism on War Timeline [00:00:00]
+
+Oil spot prices trading $101-$102/barrel while December 2026 futures in high 70s at $77. Implies market expects rapid war resolution. Walser warns this may underestimate Iran strait crisis duration and broader energy security risks.
+
+### Fiscal Responsibility and Credit Preservation [00:00:00]
+
+Walser emphasizes that despite post-GFC cynicism, credit preservation remains essential for future access. Both consumers and legislators engaging in parallel 'doom spending'; the key difference is individuals ultimately need credit for major life events, whereas government faces only political constraints on spending.
 
 ## Transcript
 

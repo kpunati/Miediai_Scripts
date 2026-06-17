@@ -40,27 +40,58 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "The video reveals how retirement planning guidance significantly overstates the savings required. By separating Social Security income from portfolio withdrawal needs and accounting for tax and expense reductions, actual required savings are typically 40-50% lower than conventional wisdom suggests."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "financial-advice", "income-replacement", "savings-rate"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, financial advisor"
+  companies:
+    - name: "Northwestern Mutual"
+      ticker: null
+    - name: "Troll Price"
+      ticker: null
+    - name: "JP Morgan Chase"
+      ticker: null
+    - name: "Fidelity"
+      ticker: null
+    - name: "Charles Schwab"
+      ticker: null
+  tickers: ["JPM"]
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["401k", "IRA"]
+  concepts: ["income replacement rate", "gross vs net income", "tax-preferred accounts", "4% rule", "Social Security"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Americans typically believe they need $1.26 million to retire according to Northwestern Mutual survey"
+    timestamp: "00:01:20"
+    confidence: "high"
+    flagged: true
+  - claim: "Americans believe they need $1.6 million according to Schwab 2025 survey"
+    timestamp: "00:01:20"
+    confidence: "high"
+    flagged: true
+  - claim: "Fidelity research shows 45% income replacement target is needed from portfolio, assuming 67 year old claiming age"
+    timestamp: "00:04:13"
+    confidence: "high"
+    flagged: true
+  - claim: "JP Morgan research shows higher income households need 39-45% replacement from savings"
+    timestamp: "00:05:15"
+    confidence: "high"
+    flagged: true
+  - claim: "Example $100,000 earner would need $650,000-$750,000 rather than $2 million for retirement"
+    timestamp: "00:06:50"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -70,6 +101,44 @@ notes: ""
 **Published:** 2025-12-10
 **URL:** https://youtube.com/watch?v=11cY23h7ZY4
 **Duration:** 8:11
+
+## Summary
+
+The video challenges the widely-promoted 70-80% income replacement target by identifying two hidden mathematical assumptions. First, the baseline uses gross income rather than actual net spending, reducing the required replacement rate. Second, major institutions like Fidelity and JP Morgan separately account for Social Security contributions, showing that portfolios only need to generate about 45% of pre-retirement income. As a result, typical retirement savings requirements are vastly overstated, potentially delaying retirement unnecessarily.
+
+## Key Takeaways
+
+- The 70-80% income replacement rate is calculated on gross income but people don't actually spend gross income after retirement due to eliminated taxes, payroll deductions, and work expenses.
+- Fidelity's research shows the portfolio needs to replace only 45% of pre-retirement income when Social Security is factored separately.
+- JP Morgan's analysis of Chase bank data confirms higher income households need only 39-45% replacement from savings after accounting for Social Security.
+- For a $100,000 earner, actual retirement needs are approximately $650,000-$750,000 rather than the commonly cited $2 million.
+- The true required savings is typically 40-50% lower than conventional wisdom suggests, potentially allowing earlier retirement.
+
+## Detailed Notes
+
+### The Industry Narrative vs. Reality [00:00:40]
+
+Northwestern Mutual, Fidelity, and JP Morgan have all cited 70-80% income replacement as the standard. However, surveys show Americans believe they need $1.26-$1.6 million based on this guidance. The speaker indicates two major financial institutions quietly suggest lower numbers in their actual guidance.
+
+### Hidden Math #1: Gross vs. Net Income [00:01:52]
+
+The 70-80% replacement uses gross income as the baseline, but retirement eliminates several expense categories: payroll taxes, retirement contributions, lower tax brackets due to lower income, and work-related expenses. For a $100,000 earner, actual net spending might be $60,000, making the true replacement rate 40-45%, not 80%, creating a 25-35% gap.
+
+### Hidden Math #2: Social Security Separation [00:03:31]
+
+Most firms don't clarify whether the 70-80% replacement must come entirely from the portfolio or if it includes Social Security. This ambiguity leads people to overestimate portfolio withdrawal needs. Fidelity explicitly states their 45% target assumes Social Security at age 67 is a separate income source.
+
+### Fidelity's Research Findings [00:04:13]
+
+Fidelity, managing over $5 trillion in assets, specifies a 45% income replacement target from savings, not 80%. They analyzed actual household consumption data from the Bureau of Labor Statistics and explicitly assume Social Security as a separate income source.
+
+### JP Morgan Chase Research Validation [00:05:15]
+
+JP Morgan's 2024 study analyzed actual Chase bank spending data and found higher income households need 39-45% replacement from savings after accounting for Social Security, confirming Fidelity's findings independently.
+
+### Practical Example: $100,000 Earner [00:06:50]
+
+Using both corrections: net spending needs are $60,000; Social Security provides roughly $30,000-$35,000; portfolio needs only $25,000-$30,000 annually. Using the 4% rule, this requires $650,000-$750,000 saved, not the conventionally recommended $2 million.
 
 ## Transcript
 

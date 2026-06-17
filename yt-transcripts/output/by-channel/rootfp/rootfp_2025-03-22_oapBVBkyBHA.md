@@ -55,27 +55,56 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Argues retiring at 65 may be a mistake by distinguishing between life expectancy and healthy life expectancy. US healthy life expectancy is 66.1 years versus 74 in Japan. Uses Scott and Brooke's retirement plan to show how financial projections ignore health constraints. Recommends prioritizing health, pursuing activities now, and planning earlier retirement."
 topics: []
-topics_proposed: []
+topics_proposed: ["healthy-life-expectancy", "retirement-timing", "health-prioritization", "early-retirement", "life-quality"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Scott"
+      role: "retirement planning example"
+    - name: "Brooke"
+      role: "retirement planning example"
+    - name: "James Conole"
+      role: "Financial advisor, CFP"
+    - name: "Confucius"
+      role: "philosopher (quoted)"
+  companies:
+    - name: "Root Financial Partners LLC"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["healthy life expectancy", "life expectancy", "financial projections", "retirement planning", "probability of success", "social security"]
+content_type: "opinion"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "US healthy life expectancy is only 66.1 years compared to Japan at 74 years"
+    timestamp: "00:02:59"
+    confidence: "medium"
+    flagged: true
+  - claim: "At age 65, men have life expectancy of 17.5 more years, women 20+ years"
+    timestamp: "00:01:58"
+    confidence: "medium"
+    flagged: true
+  - claim: "77% of Americans do not engage in regular exercise"
+    timestamp: "00:05:33"
+    confidence: "medium"
+    flagged: true
+  - claim: "Scott and Brooke budgeted $30,000 per year for travel"
+    timestamp: "00:04:01"
+    confidence: "high"
+    flagged: true
+  - claim: "Scott and Brooke's Social Security benefits were over $3,000 per month each"
+    timestamp: "00:00:43"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -85,6 +114,46 @@ notes: ""
 **Published:** 2025-03-22
 **URL:** https://youtube.com/watch?v=oapBVBkyBHA
 **Duration:** 11:24
+
+## Summary
+
+James Conole challenges the conventional 65 retirement age by highlighting a critical flaw in traditional retirement planning: it ignores healthy life expectancy. While Scott and Brooke's financial projections show success, they fail to account for the reality that average Americans have healthy life expectancy of only 66.1 years. This means they may miss their healthiest years waiting to retire. The video emphasizes that financial plans should incorporate health metrics alongside wealth metrics, and presents three actionable strategies: prioritize health through exercise now, pursue activities you love before retirement to avoid missed opportunities, and create detailed plans to potentially retire earlier.
+
+## Key Takeaways
+
+- Healthy life expectancy differs significantly from life expectancy—Americans live healthy until 66.1 on average, far less than total lifespan projections
+- Financial projections showing high success rates mean little if retirement plans don't account for the health needed to pursue intended activities
+- Regular exercise increases not just lifespan but healthspan, enabling enjoyment of planned retirement activities like travel and activities with family
+- Starting hobbies and activities you love today serves dual purposes: doesn't postpone enjoyment and allows you to 'practice retirement' before leaving work
+- Many people work longer than necessary due to lack of planning, potentially missing their healthiest years when they could have retired earlier
+- Creating comprehensive retirement plans allows you to test scenarios, such as retiring at 63 instead of 65, while maintaining high probability of success
+- The best retirement strategy balances future financial security with present health preservation and life enjoyment
+
+## Detailed Notes
+
+### Scott and Brooke's Plan Overview [00:00:00]
+
+Scott and Brooke (both age 60) have $2M to fund retirement. Goals at 65: spend $6,000/month on basic expenses, budget for healthcare, and allocate $30,000/year for travel. Combined Social Security benefits exceed $6,000/month. Financial projections show high probability of success with portfolio growing throughout retirement.
+
+### The Hidden Risk: Healthy Life Expectancy [00:01:58]
+
+While projections look solid, they overlook healthy life expectancy. At age 65, men have 17.5 years remaining life expectancy, women 20+ years. But US healthy life expectancy is only 66.1 years. Japan leads at 74 years. This gap means retirees may experience years of chronic illness unable to pursue planned activities like travel or family time.
+
+### Why Healthy Life Expectancy Matters [00:02:59]
+
+Retiring at 65 with projections to age 90 looks good numerically, but if health declines by 66, the $30,000/year travel budget and quality-of-life plans become impossible. Financial planning without health considerations is fundamentally incomplete; a five-figure portfolio doesn't matter if you're chronically ill and unable to golf, travel, or spend time with family.
+
+### Priority One: Improve Health Through Exercise [00:05:33]
+
+77% of Americans don't exercise regularly. Exercise benefits both present and future—unlike savings (spend now vs. later), exercise improves both today and tomorrow. Regular exercise increases healthspan, enabling retirement activities. Better cardiovascular health, mental benefits, and strength compound over time.
+
+### Priority Two: Practice Retirement Now [00:07:35]
+
+Many retirees discover they don't know how to retire because they never 'practiced' their hobbies before quitting work. Start pursuing travel, pickleball, volunteering, or other intended retirement activities today. This provides immediate enjoyment and prevents hitting retirement unprepared or experiencing the paralysis that freedom from work can bring.
+
+### Priority Three: Create and Test a Plan [00:08:22]
+
+Many work unnecessarily long because they lack a retirement plan. Running projections reveals whether earlier retirement (like age 63 instead of 65) maintains high success probability. Planning software lets you test scenarios and identify if you're on track without further delays.
 
 ## Transcript
 

@@ -41,27 +41,40 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Analyzes critical age milestones that shape retirement timing (55, 59.5, 62-70) and their impact on savings requirements and Social Security benefits. Demonstrates how longevity assumptions and phased retirement strategies affect retirement readiness beyond simple savings targets."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-age-milestones", "savings-requirements-by-age", "social-security-claiming-strategy", "longevity-planning", "phased-retirement"]
 entities:
-  people: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, financial advisor"
   companies: []
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["Rule of 55", "age 59.5", "full retirement age", "Social Security benefits", "required minimum distributions", "longevity risk", "phased retirement"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Most people actually retire around age 61, 4-6 years before expected"
+    timestamp: "00:01:03"
+    confidence: "medium"
+    flagged: false
+  - claim: "Social Security benefit increases about 8% per year from full retirement age until age 70"
+    timestamp: "00:02:51"
+    confidence: "high"
+    flagged: false
+  - claim: "A 5-year early retirement can cost hundreds of thousands in extra savings requirements"
+    timestamp: "00:01:47"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -71,6 +84,37 @@ notes: ""
 **Published:** 2025-08-10
 **URL:** https://youtube.com/watch?v=pN9Qj4MLxOk
 **Duration:** 10:44
+
+## Summary
+
+This video breaks down retirement timing as a multi-layered puzzle involving age milestones, savings targets, Social Security strategy, and longevity assumptions. The presenter emphasizes that while no perfect universal retirement age exists, understanding how age thresholds interact with savings and benefits helps individuals determine their optimal retirement timing.
+
+## Key Takeaways
+
+- Most people retire around 61, earlier than expected, due to health issues or job loss—creating a 4-6 year gap in planning.
+- Key age milestones unlock different options: 55 (Rule of 55 for 401k access), 59.5 (penalty-free withdrawals), 62-70 (Social Security claiming window).
+- Savings requirements don't increase linearly; waiting from 62 to 66 only requires slightly higher savings but significantly boosts Social Security.
+- Longevity uncertainty is real; planning to 90+ is increasingly necessary as healthcare improves.
+- Phased retirement (gradual transition from full-time work) balances income, purpose, and flexibility better than all-or-nothing retirement.
+- Optimal retirement age depends on personal health, savings, lifestyle, and whether flexibility is more valuable than maximum income.
+
+## Detailed Notes
+
+### The Retirement Timing Gap [00:01:03]
+
+Surveys show people expect to retire at 65-67, but most actually retire around 61. This gap stems from forced retirements due to health or job loss, not choice. These unexpected early retirements create financial stress and underscore why advance planning matters.
+
+### Critical Age Milestones [00:02:51]
+
+Age 55: Rule of 55 allows penalty-free 401k withdrawal if leaving job. Age 59.5: all retirement accounts accessible penalty-free. Ages 62-70: Social Security claiming window where 8% annual growth incentivizes delay. Age 65: Medicare eligibility. Age 73: RMDs begin.
+
+### Savings Math and Social Security Coordination [00:04:43]
+
+For $60K annual income: retiring at 62 needs $947K; at 66 needs $938K (plus inflation). The difference is only $40K, but Social Security benefit growth and shorter withdrawal window compound favorably. Waiting years leverages both reduced savings needs and higher guaranteed income.
+
+### Phased Retirement Strategy [00:07:25]
+
+Scaling back to part-time work gives psychological adjustment, maintains health insurance access, extends Social Security growth, and reduces portfolio pressure. This gradual approach often feels sustainable and purposeful than abrupt full retirement.
 
 ## Transcript
 

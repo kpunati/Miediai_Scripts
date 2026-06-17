@@ -68,27 +68,48 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "James Conole argues that retirees should fear running out of time more than running out of money. Using Michael Kitces' research on the 4% rule, he demonstrates that most retirees end retirement with nearly 3x their starting portfolio balance, yet continue working due to mindset issues (difficulty transitioning from saving to spending) rather than financial necessity."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-spending", "4-percent-rule", "retirement-mindset", "healthspan-priority", "spending-strategy"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "CFP, founder of Root Financial"
+    - name: "Michael Kitces"
+      role: "Financial researcher"
+  companies:
+    - name: "Root Financial"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["The 4% withdrawal rule", "The retirement spending smile", "Go-go years, slow-go years, no-go years", "Michael Kitces study on excess portfolio growth", "Saver's mindset vs spender's mindset", "Time as non-renewable currency"]
+content_type: "educational"
+audience_level: "advanced"
+key_claims: 
+  - claim: "Michael Kitces' study shows retirees using the 4% rule have almost 3x their starting portfolio at the end of a 30-year retirement"
+    timestamp: "00:02:29"
+    confidence: "high"
+    flagged: true
+  - claim: "A $2 million portfolio following the 4% rule will grow to 5.5-6 million dollars by the end of retirement in median outcomes"
+    timestamp: "00:03:08"
+    confidence: "high"
+    flagged: true
+  - claim: "The retirement spending smile shows spending is higher in early retirement (go-go years), lower in mid-retirement (slow-go years), and increases in late retirement (no-go years)"
+    timestamp: "00:04:23"
+    confidence: "high"
+    flagged: false
+  - claim: "Most people struggle to transition from a saver's mindset to a spender's mindset, causing them to underutilize retirement wealth"
+    timestamp: "00:06:01"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -98,6 +119,40 @@ notes: ""
 **Published:** 2026-04-05
 **URL:** https://youtube.com/watch?v=SSdk8Fvm43A
 **Duration:** 9:42
+
+## Summary
+
+This video confronts a fundamental paradox in retirement planning: most people who reach retirement age have far more money than they need, yet they either continue working or spend conservatively from fear of depletion. Drawing on Michael Kitces' research, Conole presents data showing that retirees following the 4% withdrawal rule typically finish retirement with nearly three times their starting portfolio balance. For example, a $2 million portfolio is projected to grow to $5.5-6 million by retirement's end. The video shifts the framing from 'Don't run out of money' to 'Don't run out of time,' arguing that the real risk is spending one's healthiest years working or living frugally when wealth is abundant.
+
+## Key Takeaways
+
+- The 'one more year' mentality is a trap; goal posts continuously shift, and additional savings rarely increase confidence to retire because the underlying fear is psychological, not mathematical
+- Michael Kitces' research demonstrates that following the 4% rule results in triple the portfolio balance by retirement's end, making the fear of running out of money largely unfounded for well-planned retirees
+- The retirement spending smile reflects realistic spending patterns: higher in go-go years (early retirement with travel/activity), lower in slow-go years (mid-retirement with reduced activity), and elevated again in no-go years (late-life medical costs)
+- The transition from saver's mindset to spender's mindset is psychologically difficult; identity as a saver becomes self-reinforcing, making it hard to authorize spending even when mathematically justified
+- Time is the only non-renewable currency; the real risk for most retirees is not running out of money but running out of health and vitality to enjoy experiences that wealth can fund
+
+## Detailed Notes
+
+### The 'One More Year' Trap [00:00:56]
+
+The belief that one more year of saving will create confidence to retire is a perpetual goal-post-moving trap. As portfolio size increases, a new baseline is established, and a new horizon emerges. This mindset delays the real work: building a comprehensive plan that addresses retirement vision, income strategy, investment strategy, tax strategy, and insurance needs.
+
+### The Math of Excess: Michael Kitces' Research [00:02:29]
+
+Michael Kitces' study of retirees using the 4% rule reveals that on average, retirees have almost three times more money at the end of retirement than at the beginning. A $2 million starting portfolio is projected to grow to $5.5-6 million in median outcomes over 30 years. This data directly contradicts the fear of running out of money for well-planned retirees.
+
+### The Retirement Spending Smile Curve [00:04:23]
+
+Actual retirement spending does not increase linearly with inflation; instead, it follows a smile pattern: (1) Go-go years (early retirement, high spending on travel and active pursuits), (2) Slow-go years (mid-retirement, lower spending due to reduced activity), (3) No-go years (late retirement, elevated medical costs but limited leisure spending). Average spending increases only 1-2% annually despite inflation of 3%, further explaining portfolio growth.
+
+### The Saver's Mindset vs. Spender's Mindset [00:06:01]
+
+A lifetime of saving becomes embedded identity; flipping to spending is psychologically difficult. This mental barrier causes retirees to under-spend despite having sufficient wealth. The rationalization 'I don't want to run out of money' masks the deeper fear of violating self-identity as a prudent saver.
+
+### Time vs. Money: The Ultimate Trade-Off [00:07:54]
+
+Time is the only truly non-renewable resource; money can be earned, borrowed, or conserved. Yet most people prioritize not running out of money over not running out of healthy years to experience retirement. The video's central message: shift focus from portfolio anxiety to time optimization, using a sound financial strategy as the foundation to confidently pursue meaningful activities during peak health years.
 
 ## Transcript
 

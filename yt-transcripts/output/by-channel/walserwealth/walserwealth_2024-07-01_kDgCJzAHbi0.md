@@ -42,24 +42,33 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "A guide to three types of Individual Retirement Accounts: Traditional IRA (pre-tax contributions with tax-deferred growth), Roth IRA (after-tax contributions with tax-free growth), and SIMPLE IRA (for businesses with up to 100 employees). Explains contribution rules, tax treatment, and which account type suits different retirement planning scenarios."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-accounts", "ira-types", "tax-planning", "individual-retirement"]
 entities:
   people: []
-  companies: []
+  companies:
+    - name: "Walser Wealth Management"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Traditional IRA", "Roth IRA", "SIMPLE IRA"]
+  concepts: ["tax-deferred-growth", "pre-tax-contributions", "after-tax-contributions", "retirement-age", "early-withdrawal-penalty", "tax-bracket"]
+content_type: "educational"
+audience_level: "beginner"
+key_claims: 
+  - claim: "Money in an IRA typically cannot be withdrawn before age 59 and a half without incurring a 10% penalty on that distribution."
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "SIMPLE IRA is designed for businesses with up to 100 employees, including sole proprietors."
+    timestamp: "00:01:02"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: ["unpunctuated_captions"]
@@ -72,6 +81,36 @@ notes: ""
 **Published:** 2024-07-01
 **URL:** https://youtube.com/watch?v=kDgCJzAHbi0
 **Duration:** 2:26
+
+## Summary
+
+This video provides a concise educational overview of three Individual Retirement Account types available to savers. The content explains the key differences between Traditional IRAs, Roth IRAs, and SIMPLE IRAs, emphasizing their distinct tax treatment and eligibility criteria. Understanding these distinctions helps individuals and business owners select the retirement account type best suited to their financial situation and expected tax bracket in retirement.
+
+## Key Takeaways
+
+- IRAs are individual retirement accounts where withdrawals before age 59.5 typically incur a 10% penalty; different IRA types offer distinct tax benefits.
+- Traditional IRA: make pre-tax contributions that grow tax-deferred, with taxes paid upon withdrawal; best for those expecting lower tax rates in retirement.
+- Roth IRA: make after-tax contributions that grow tax-free, with tax-free withdrawals in retirement; preferred by those expecting higher future tax brackets or who believe taxes will rise.
+- SIMPLE IRA: designed for small businesses with up to 100 employees; both employer and employee make pre-tax contributions; sole proprietors can deduct both salary reduction and employee matching on Form 1040.
+- Other IRA types exist beyond these three; individuals should research all options to find the account type matching their unique financial situation.
+
+## Detailed Notes
+
+### Overview of IRAs and Early Withdrawal Penalties [00:00:00]
+
+An IRA is an individual retirement account designed for long-term saving. The core rule is that funds cannot be withdrawn before age 59 and a half without triggering a 10% penalty. Different IRA types have different limitations and benefits, making it important to understand the distinctions before selecting one.
+
+### Traditional IRA: Pre-Tax Contributions and Tax-Deferred Growth [00:00:00]
+
+With a Traditional IRA, contributions are made with pre-tax dollars, and the account grows tax-deferred; taxes are paid only when funds are withdrawn in retirement. This structure is most advantageous for people who expect to be in a lower tax bracket during retirement than they are currently.
+
+### Roth IRA: After-Tax Contributions and Tax-Free Growth [00:00:00]
+
+The Roth IRA allows after-tax contributions that grow tax-free, with tax-free withdrawals in retirement. This type is preferred for those expecting higher tax brackets in retirement or believing taxes will increase generally. The adviser emphasizes that mathematically, taxes must rise in the future, making Roth accounts favorable.
+
+### SIMPLE IRA: For Small Business Owners [00:01:02]
+
+The SIMPLE IRA (Savings Incentive Match Plan for Employees) accommodates businesses with up to 100 employees. Both employers and employees contribute pre-tax, reducing taxable income. Sole proprietors can deduct both salary reduction and employee matching contributions on their Form 1040 tax return.
 
 ## Transcript
 

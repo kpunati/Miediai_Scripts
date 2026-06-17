@@ -45,27 +45,54 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser discusses the growing trend of women entering skilled trade careers (HVAC, plumbing, electrical), highlighting competitive wages and opportunities. The segment examines data on women in trades across key cities and explores how AI-driven job displacement may make blue-collar work increasingly valuable despite traditional college degree paths."
 topics: []
-topics_proposed: []
+topics_proposed: ["women-in-trades", "skilled-labor", "career-development", "hvac-plumbing", "job-market", "ai-employment"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Rebecca Walser"
+      role: "Wealth manager, commentator"
+    - name: "Scott Shellady"
+      role: "Host"
+    - name: "Jensen Huang"
+      role: "CEO of Nvidia"
+  companies:
+    - name: "Nvidia"
+      ticker: "NVDA"
+    - name: "Trade Safe"
+      ticker: null
+    - name: "Verizon"
+      ticker: "VZ"
+  tickers: ["NVDA", "VZ"]
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["skilled-trades", "artificial-intelligence", "job-displacement", "gender-parity", "wage-gap"]
+content_type: "interview"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Atlanta, Chandler Arizona, and Lexington Kentucky are the epicenter of women in trades movement"
+    timestamp: "00:00:50"
+    confidence: "medium"
+    flagged: false
+  - claim: "Women in Boston trades earned average $93,000; LA $87,000; Mesa Arizona $82,000"
+    timestamp: "00:00:50"
+    confidence: "medium"
+    flagged: true
+  - claim: "Jensen Huang believes next millionaires will be minted in plumbing, HVAC, and electrical trades"
+    timestamp: "00:04:13"
+    confidence: "medium"
+    flagged: false
+  - claim: "Verizon announced largest layoffs in company history last week"
+    timestamp: "00:06:05"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +102,37 @@ notes: ""
 **Published:** 2025-11-20
 **URL:** https://youtube.com/watch?v=VDzEajD1SVE
 **Duration:** 7:31
+
+## Summary
+
+Rebecca Walser and Scott Shellady examine the surge of women entering traditionally male-dominated trade industries. New data from Trade Safe identifies Atlanta, Chandler (Arizona), and Lexington (Kentucky) as hubs for this shift, with women in Boston trades averaging $93,000 annually. The discussion emphasizes that AI-driven automation threatens white-collar and middle-management roles while creating sustained demand for skilled trades, positioning plumbing, electrical, and HVAC work as recession-resistant career paths.
+
+## Key Takeaways
+
+- Women are increasingly entering skilled trades, filling critical labor shortages in HVAC, plumbing, and electrical work.
+- Wage data shows women in trades earn competitive salaries ($82,000-$93,000 annually depending on location) with limited educational debt.
+- AI and automation pose existential threats to white-collar, information-processing jobs, making skilled trades more valuable long-term.
+- Trade careers offer entrepreneurial pathways—workers can build independent businesses within a decade after mastering their craft.
+- Nvidia CEO Jensen Huang forecasts that future millionaires will emerge from trade professions, not traditional four-year degrees.
+- Data center construction and nuclear energy projects are currently driving unprecedented demand for electricians and other skilled workers.
+
+## Detailed Notes
+
+### Women in Trades Movement [00:00:00]
+
+Trade Safe rankings identify three key cities leading women in trades adoption: Atlanta, Chandler Arizona, and Lexington Kentucky. These cities rank high on employment numbers, wage parity with male workers, and overall workforce representation. Boston and LA top wage lists for women in trades at $93k and $87k respectively.
+
+### AI and Job Displacement Risks [00:02:27]
+
+Walser expresses concern that AI will render four-year college degrees obsolete. Translation apps eliminate language-learning value; middle management roles that collate information face replacement. However, trades remain protected because robotic automation for construction and maintenance trades will lag 10+ years behind white-collar automation.
+
+### Economic Opportunity and Entrepreneurship [00:05:01]
+
+Trade workers entering at 18 can earn $100k+ by age 22 with zero debt, compared to college graduates with student loans. Walser advocates for entrepreneurship within trades—workers mastering skills can start their own companies and recruit others. This pathway avoids debt while building equity.
+
+### Infrastructure Demand Driving Growth [00:04:13]
+
+Shellady notes data center construction boom benefiting electricians and plumbers. Trump administration's announcement to reactivate Three Mile Island nuclear facility signals sustained infrastructure investment. Friends in Chicago trades report backlog of data center projects.
 
 ## Transcript
 

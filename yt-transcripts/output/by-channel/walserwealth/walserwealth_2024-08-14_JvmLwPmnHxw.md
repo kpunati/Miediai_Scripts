@@ -45,24 +45,63 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Walser discusses media bias in covering Trump's no-tax-on-tips policy vs Harris copying it, election chaos, Kamala rebranding efforts, and censorship on mainstream social media platforms."
 topics: []
-topics_proposed: []
+topics_proposed: ["media-bias", "election-2024", "censorship", "political-coverage", "social-media"]
 entities:
-  people: []
+  people:
+    - name: "Rebecca Walser"
+      role: "Wealth manager, analyst"
+    - name: "Scott Shellady"
+      role: "Host"
+    - name: "Donald Trump"
+      role: "Presidential candidate"
+    - name: "Kamala Harris"
+      role: "Presidential candidate"
+    - name: "Tim Walz"
+      role: "VP candidate"
+    - name: "Oscar Wilde"
+      role: "Writer"
+    - name: "Ron Paul"
+      role: "Former congressman"
+    - name: "Joe Biden"
+      role: "President"
+    - name: "Bernie Sanders"
+      role: "Senator"
+    - name: "Elizabeth Warren"
+      role: "Senator"
   companies: []
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["no-tax-on-tips policy", "media bias", "election interference", "political rebranding", "social media censorship", "TikTok", "Telegram", "Facebook", "Twitter", "Instagram"]
+content_type: "opinion"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Harris campaign announced no-tax-on-tips policy copied from Trump's June announcement"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Mainstream media criticized Trump's no-tax-on-tips but now attribute Harris policy to Ron Paul 2012 idea"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Media is actively lying with video evidence disproving their claims about Kamala's border responsibility"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Generation Z uses TikTok for news and US government cannot censor it because it's China-based"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "US government sent cease-and-desist to Telegram to censor but it was declined"
+    timestamp: "00:00:00"
+    confidence: "low"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: ["unpunctuated_captions"]
@@ -75,6 +114,36 @@ notes: ""
 **Published:** 2024-08-14
 **URL:** https://youtube.com/watch?v=JvmLwPmnHxw
 **Duration:** 6:42
+
+## Summary
+
+Walser and Shellady analyze media bias in election coverage, specifically how mainstream media criticized Trump's no-tax-on-tips policy before Harris adopted it, then retroactively attributed the idea to Ron Paul. They discuss broader media attempts to rebrand Kamala Harris despite conflicting video evidence, Tim Walz's extreme leftist positions, and systematic censorship on Facebook, Twitter, and Instagram while TikTok and Telegram remain uncensored platforms.
+
+## Key Takeaways
+
+- Mainstream media exhibits partisan bias by condemning Trump policies but praising identical policies from Harris
+- Media is actively rewriting history and denying previous reporting about Harris's border role with video evidence available
+- Tim Walz represents extreme leftist ideology matching Bernie Sanders and Elizabeth Warren positions
+- Social media censorship is systematic on mainstream platforms but not on TikTok and Telegram
+- Americans must seek out alternative news sources to bypass corporate media narrative control
+
+## Detailed Notes
+
+### Media Bias on No-Tax-on-Tips Policy [00:00:00]
+
+Trump announced no-tax-on-tips policy in early June; media criticized it as unfair and harmful. When Harris adopted identical policy, media either ignored it or credited Ron Paul's 2012 proposal instead. Demonstrates partisan coverage where identical policies receive opposite treatment based on source.
+
+### Media Rebranding of Kamala Harris [00:00:00]
+
+Media outlets are attempting to erase or rewrite Kamala's record as Biden's VP, particularly her role on border issues. Walser cites video and written articles proving she was assigned border responsibility, yet media now denies this happened. This represents factual dishonesty beyond traditional bias.
+
+### Tim Walz VP Selection and Extremism [00:00:00]
+
+Harris selected Tim Walz as running mate without moderating the ticket. Walz represents far-left ideology (Bernie/Elizabeth Warren level) with no investment experience or capitalist credentials. Walser criticizes this as incompatible with investor confidence and business-friendly governance.
+
+### Social Media Censorship and Alternatives [00:00:00]
+
+Facebook, Twitter, and Instagram implement systematic censorship. TikTok remains uncensored because US government lacks authority over China-based platform, making it Gen Z's primary news source. Telegram also resisted US government censorship demands. Alternative platforms necessary to access unfiltered information.
 
 ## Transcript
 

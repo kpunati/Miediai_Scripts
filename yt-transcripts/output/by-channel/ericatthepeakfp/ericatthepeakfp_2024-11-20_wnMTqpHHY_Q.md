@@ -37,24 +37,39 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "CFP Eric Amzalag critiques the financial services industry's fee structures and argues that retirement planning should be separated from investment management. He advocates for transparent flat or quoted fees for planning services, positioning AUM (assets under management) fees as appropriate only after a competence-based relationship is established through initial planning engagement."
 topics: []
-topics_proposed: []
+topics_proposed: ["financial-planning-fees", "aum-fees", "investment-advice", "retirement-planning-costs", "financial-advisor-ethics"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, RICP, founder Peak Financial Planning"
+  companies:
+    - name: "Peak Financial Planning"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["AUM fees", "flat-fee planning", "assets under management"]
+  concepts: ["financial planning fee", "AUM fee", "conflict of interest", "investment relationship", "financial plan", "fee transparency", "assets under management"]
+content_type: "opinion"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Most financial advisers lack a solid way to substantiate what they provide or what their fees justify"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Consumers must turn over investment direction before they can get answers to critical retirement questions like 'when can I retire' and 'what can I spend'"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Paying AUM fees upfront (on day one of relationship) is like being paid a full-year bonus on day one of a new job with misaligned incentives"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: ["unpunctuated_captions"]
@@ -67,6 +82,44 @@ notes: ""
 **Published:** 2024-11-20
 **URL:** https://youtube.com/watch?v=wnMTqpHHY_Q
 **Duration:** 8:02
+
+## Summary
+
+Eric Amzalag argues that the financial services industry has fundamentally backwards incentive structures. Rather than paying transparent fees upfront for a comprehensive financial plan, consumers are forced into assets-under-management relationships to access basic retirement planning advice. He advocates for a two-step model: first, pay a transparent flat fee or quoted fee for an independent financial plan that answers critical questions (retirement timing, required returns, spending capacity); second, if an investment relationship is desired and the planner has demonstrated competence and character, engage an AUM fee arrangement. This approach reduces conflicts of interest and allows consumers to 'try before you buy' with their financial advisor.
+
+## Key Takeaways
+
+- Financial planning should be a distinct product from investment management, not bundled into investment relationships with AUM fees.
+- Starting with AUM fees creates misaligned incentives and forces consumers to make major trust decisions before they've verified a planner's competence.
+- A financial plan should inform and dictate investment decisions, not the reverse.
+- Optimal relationships begin with a transparent, flat-fee financial planning engagement with no commitment to a subsequent investment relationship.
+- AUM fees are appropriate only after a planner has proven competence and character through an initial planning engagement, creating a 'try before you buy' model.
+
+## Detailed Notes
+
+### The Industry's Flawed Pricing Model [00:00:00]
+
+Amzalag criticizes the financial industry for gatekeeping retirement planning advice behind assets-under-management relationships. Consumers must turn over lifetime savings to a stranger before receiving basic answers to 'when can I retire?' and 'what can I spend?' This is presented as an undeniably terrible pricing model that favors institutions over consumers.
+
+### Planning Must Precede Investment Decisions [00:00:00]
+
+Amzalag argues that a financial plan should inform investment strategy, not the reverse. The industry backwards approach is compared to 'shooting the gun first and aiming later.' A proper financial plan answers critical questions about retirement timing, required annual savings, desired income, and necessary portfolio returns before any investment decisions are made.
+
+### What Financial Plans Should Solve [00:00:00]
+
+A financial plan should answer four core questions: (1) how much to save yearly to retire on target, (2) earliest possible retirement date given current wealth, (3) how much portfolio income is needed to support desired spending, and (4) what investment return is required to achieve these goals.
+
+### What Investment Management Should Solve [00:00:00]
+
+Once a plan is in place, investment management addresses six operational questions: (1) how to achieve target returns, (2) optimal risk-adjusted investments, (3) portfolio risk measurement frequency, (4) when to rebalance, (5) tax-efficient withdrawal strategies, and (6) recurring portfolio optimization activities—all informed by the plan.
+
+### The Optimal Fee Structure [00:00:00]
+
+Amzalag advocates for transparent, flat or quoted fees for financial planning based on scope of work. This approach eliminates conflicts of interest: the planner quotes fair fees, the consumer knows exact costs and deliverables, and answers to retirement questions are provided without attachment to future investment relationships.
+
+### Two-Engagement Model [00:00:00]
+
+The optimal arrangement involves two separate agreements: first, a paid planning engagement; second, if competence and character are proven, an optional investment relationship with AUM fees. This 'try before you buy' approach allows consumers to verify a professional's quality before committing significant assets.
 
 ## Transcript
 

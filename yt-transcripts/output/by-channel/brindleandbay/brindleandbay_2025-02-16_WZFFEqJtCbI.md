@@ -42,24 +42,41 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Nick Davis explains how many people can retire years earlier than they think by overcoming limiting beliefs about retirement age, portfolio size, market timing, and peer comparison. He uses a client case study (James) to show how accurate expense modeling, regime-based Monte Carlo analysis, and risk-based guardrails provide greater confidence than arbitrary metrics."
 topics: []
-topics_proposed: []
+topics_proposed: ["early-retirement", "retirement-planning", "retirement-psychology", "guardrails-strategy", "portfolio-withdrawal"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, financial advisor"
+    - name: "James"
+      role: "client example"
+  companies:
+    - name: "Brindle and Bay"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["limiting beliefs", "retirement age 65", "Monte Carlo analysis", "guardrails", "risk-based planning", "spending flexibility"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Majority of clients could have retired years earlier if they overcame limiting beliefs about retirement age and portfolio size."
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Traditional Monte Carlo uses averages throughout entire 25-30 year periods, while regime-based Monte Carlo considers current and near-term market conditions."
+    timestamp: "00:08:22"
+    confidence: "medium"
+    flagged: false
+  - claim: "An 80% successful plan with manageable adjustments is better than pursuing 100% probability which may result in unnecessary extra work or savings."
+    timestamp: "00:09:24"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: ["unpunctuated_captions"]
@@ -72,6 +89,36 @@ notes: ""
 **Published:** 2025-02-16
 **URL:** https://youtube.com/watch?v=WZFFEqJtCbI
 **Duration:** 11:32
+
+## Summary
+
+This video addresses why people delay retirement unnecessarily, focusing on psychological and analytical barriers. Nick Davis demonstrates that successful retirement depends less on hitting arbitrary account balances or waiting for perfect market conditions, and more on understanding actual retirement needs through sophisticated planning tools like risk-based guardrails that monitor spending capacity monthly.
+
+## Key Takeaways
+
+- Belief in a universal retirement age of 65, market timing, and peer comparison can keep people working years longer than financially necessary.
+- Accurate retirement expense projections that account for changing spending patterns are more useful than fixed income targets.
+- Risk-based guardrails adjust dynamically based on current market conditions and help retirees know if they can safely adjust spending each month.
+- An 80% success rate with adjustable spending is more realistic and sustainable than pursuing 100% probability.
+- Personalized planning that accounts for individual circumstances is far more effective than general online advice.
+
+## Detailed Notes
+
+### Core Problems Preventing Early Retirement [00:00:00]
+
+Davis identifies four limiting beliefs: (1) retirement accounts must hit a magic number, (2) age 65 is the safe standard, (3) markets must be at all-time highs, (4) peer comparison and pride. He notes that financial advisors sometimes exacerbate these fears by focusing on portfolio size rather than actual retirement needs.
+
+### Case Study: James's Retirement Decision [00:04:11]
+
+James used his own retirement software but wasn't sure which projection to believe, so he defaulted to working longer. After challenging his limiting beliefs, he realized that perfect market conditions and matching his colleagues' retirement timing were false constructs based on his different life choices and savings discipline.
+
+### Three Key Differences in Sophisticated Planning [00:07:19]
+
+James's improved plan used: (1) accurate retirement expenses that front-load spending early and decrease later, (2) regime-based Monte Carlo reflecting current market realities rather than historical averages, (3) risk-based guardrails instead of a probability dial. This approach gave him clear monthly spending signals rather than abstract percentages.
+
+### Risk-Based Guardrails as Monthly Monitoring [00:09:24]
+
+Guardrails link to retirement savings and answer whether monthly spending is sustainable. They give clear signals for when spending can increase or when modest temporary decreases are needed, providing peace of mind that basic expenses will be met regardless of market conditions.
 
 ## Transcript
 

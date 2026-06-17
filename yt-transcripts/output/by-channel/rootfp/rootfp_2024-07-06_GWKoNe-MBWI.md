@@ -92,27 +92,52 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Demonstrates how capital gains harvesting can inadvertently reduce ACA health insurance subsidies despite staying in low tax brackets. A retiring couple could lose $6,000+ annually in subsidies by realizing $65,000 in long-term capital gains, which increases MAGI without affecting federal capital gains taxes."
 topics: []
-topics_proposed: []
+topics_proposed: ["aca-subsidies", "capital-gains-harvesting", "retirement-tax-planning", "magi-strategy", "health-insurance-planning"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "CFP, founder of Root Financial Partners"
+  companies:
+    - name: "Root Financial Partners"
+      ticker: null
+    - name: "Kaiser Family Foundation"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["ACA marketplace insurance", "COBRA", "private insurance"]
+  concepts: ["modified adjusted gross income", "health insurance subsidy", "premium tax credit", "capital gains harvesting", "ACA eligibility", "long-term capital gains", "tax bracket"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "A retiring couple qualified for a projected health insurance subsidy of $1,252 per month or $155,000 per year"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "The couple's projected MAGI included $20,000 salary, $8,000 interest, $3,000 non-qualified dividends, and $20,000 IRA withdrawals, totaling $51,000"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Realizing $65,000 in long-term capital gains increased MAGI from $51,000 to $116,000, reducing the subsidy by over $6,000 per year"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Married filing jointly can realize up to $94,200 in taxable income before exceeding the 0% long-term capital gains bracket"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Health insurance subsidies are calculated on MAGI, not taxable income, creating a disconnect with tax-loss harvesting planning"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -122,6 +147,35 @@ notes: ""
 **Published:** 2024-07-06
 **URL:** https://youtube.com/watch?v=GWKoNe-MBWI
 **Duration:** 11:40
+
+## Summary
+
+James Conole illustrates a common retirement planning mistake: optimizing for capital gains harvesting without considering its impact on ACA health insurance subsidies. A couple retiring before Medicare age qualified for $155,000 annually in subsidies based on a $51,000 MAGI. However, realizing just $65,000 in long-term capital gains (which incurs 0% federal capital gains tax) increased their MAGI to $116,000 and reduced subsidies by over $6,000 per year. This demonstrates the critical difference between taxable income (used for capital gains decisions) and Modified Adjusted Gross Income (used for subsidy eligibility).
+
+## Key Takeaways
+
+- Health insurance subsidies depend on Modified Adjusted Gross Income (MAGI), not taxable income—a crucial distinction many retirees miss
+- Long-term capital gains realized under the 0% federal tax bracket still increase MAGI, potentially reducing subsidies despite zero capital gains tax owed
+- A $65,000 capital gain realization can reduce ACA subsidies by $6,000+ annually even when it produces no federal capital gains tax liability
+- Effective tax planning for early retirees requires comparing the implicit 'tax' from lost subsidies against the tax savings from gains harvesting
+
+## Detailed Notes
+
+### Subsidy Qualification and Kaiser Family Foundation Tool [00:00:00]
+
+Using KFF.org's online tool, a retiring couple before Medicare age entered their state, zip code, projected income, and household information (2 adults aged 21-64). The tool showed a projected subsidy of $1,252 per month or $155,000 annually. The couple was thrilled because this would significantly reduce their health insurance costs until age 65.
+
+### MAGI vs. Taxable Income Components [00:00:00]
+
+The couple's income sources included $20,000 PTO salary, $8,000 interest income, $3,000 non-qualified dividends, and $20,000 IRA withdrawals, totaling $51,000 MAGI. With the standard deduction of $29,200, their taxable income was approximately $21,800, putting them in the 10% ordinary income bracket and 0% long-term capital gains bracket.
+
+### The Capital Gains Harvesting Trap [00:00:00]
+
+The couple considered realizing $65,000 in long-term capital gains to lock in gains at 0% federal tax. They were pleased because their taxable income would remain in the 0% gains bracket. However, this $65,000 in gains still increased their MAGI from $51,000 to $116,000, reducing their health insurance subsidy from $155,000 to approximately $149,000 annually—a hidden cost of $6,000+ per year from subsidy loss.
+
+### Tax Planning Framework and Takeaways [00:00:00]
+
+James emphasizes that effective tax planning requires understanding the difference between MAGI (for subsidies and Roth conversions) and taxable income (for capital gains decisions). Deductions like charitable giving and mortgage interest lower taxable income but not MAGI. The lost subsidy from gains harvesting should be treated as an implicit tax cost when evaluating whether harvesting makes sense in a given year.
 
 ## Transcript
 

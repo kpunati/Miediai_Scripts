@@ -37,27 +37,44 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Identifies five critical wealth-draining patterns that trap retirees unaware: herd mentality in financial decisions, investing without cash flow planning, misunderstanding investment risk via binary asset allocation, building retirement plans without professional guidance, and avoiding finances until crisis. Emphasizes proactive planning over reactive problem-solving."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "wealth-preservation", "financial-decision-making", "tax-planning", "investment-risk"]
 entities:
-  people: []
+  people:
+    - name: "Alex Honold"
+      role: "Free solo rock climber"
   companies: []
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["Roth conversions", "herd mentality", "cash flow planning", "portfolio withdrawals", "required minimum distributions", "Medicare enrollment", "Social Security", "tax brackets", "financial blind spots"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Roth conversion scenario at age 64 with $1 million in pre-tax retirement accounts could incur $14,500-$223,400 annual tax costs over 10 years without breaking even until age 89"
+    timestamp: "00:02:03"
+    confidence: "medium"
+    flagged: true
+  - claim: "Following Roth conversions purely due to herd mentality could result in $220,000 less spending money during crucial early retirement years"
+    timestamp: "00:03:05"
+    confidence: "medium"
+    flagged: true
+  - claim: "Median life expectancy for men is mid-70s and women high-70s, making age-89 breakeven point unlikely for many"
+    timestamp: "00:02:03"
+    confidence: "high"
+    flagged: false
+  - claim: "Retirees claim Social Security between ages 62-70 creates different portfolio sensitivity periods requiring tailored withdrawal rates"
+    timestamp: "00:05:11"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -67,6 +84,41 @@ notes: ""
 **Published:** 2024-12-07
 **URL:** https://youtube.com/watch?v=PRdAOGObOp4
 **Duration:** 12:08
+
+## Summary
+
+Eric Amzalag exposes five wealth-killing patterns affecting retirees: Following financial herd mentality (Roth conversions example), investing before planning cash flows, oversimplifying investment risk through asset allocation, building plans without professional guidance, and avoiding finances until crisis. Using a detailed Roth conversion case study showing potential $220,000 spending reduction over decade without commensurate benefit, the presentation emphasizes proactive planning with qualified advisors versus reactive crisis management that limits optimization.
+
+## Key Takeaways
+
+- Herd mentality in retirement decisions (like fear-based Roth conversions) can cost $220,000 in spending power during best-health early retirement years without providing breakeven until after median life expectancy
+- Investing first without cash flow planning creates disconnect between portfolio construction and actual spending needs, leading to mismatched risk levels
+- Cash flow timing matters: periods with zero non-portfolio income (e.g., ages 62-67 before Social Security) require different withdrawal rate analysis than periods with pension or Social Security income
+- Binary risk framing via asset allocation misses that some bonds behave like stocks and some stocks provide bond-like stability; reframing using probability-versus-consequence model improves decisions
+- Self-directed retirement planning mirrors WebMD diagnosis: reactive, gap-prone, and often requiring expensive later intervention versus proactive professional guidance
+- Financial avoidance until forced deadlines (layoffs, required minimum distributions, Medicare enrollment) severely limits optimization and creates reactive crisis mode
+
+## Detailed Notes
+
+### Herd Mentality in Roth Conversion Decisions [00:01:02]
+
+Retirees copy decisions of others and media narratives without personal analysis. Example: 64-year-old with $1 million pre-tax retirement accounts considering Roth conversions due to fears of future tax increases. With only portfolio withdrawals ($668,000/year) until Social Security at 67, annual conversion taxes range $14,500-$223,400 over 10-year conversion schedule, totaling significant cost without breakeven until age 89 (likely past median male life expectancy).
+
+### Investing Without Cash Flow Planning [00:04:09]
+
+Common approach invests first, then calculates withdrawal capacity. Problem: portfolio construction becomes disconnected from actual spending goals, leading to risk mismatch. Early retirement period (age 62-67 pre-Social Security) has higher withdrawal sensitivity and different risk tolerance than later periods when portfolio withdrawal percentage declines due to added income sources.
+
+### Binary Risk Misunderstanding via Asset Allocation [00:06:13]
+
+Asset allocation frames risk as binary (risky stocks/safe bonds). Reality: some bonds correlate highly with stock market, some stocks behave stably. Reframing with probability (likelihood of bad outcome) versus consequence (magnitude of impact) enables better decisions. Alex Honold example shows high-consequence activities can have low probability with proper knowledge.
+
+### Self-Directed Planning Versus Professional Guidance [00:09:18]
+
+Building own retirement plan is reactive (like WebMD diagnosis) versus proactive doctor visit. Self-directed gaps often require later expensive intervention. Professional guidance upfront identifies issues before they compound, similar to preventive healthcare.
+
+### Financial Avoidance and Deadline Damage [00:10:21]
+
+Delaying attention to finances until forced deadlines (required minimum distributions, Medicare enrollment, forced layoff retirement) eliminates optimization time. Proper planning requires proactive engagement before critical thresholds arrive to adjust savings, portfolio risk, income sources, and tax strategies.
 
 ## Transcript
 

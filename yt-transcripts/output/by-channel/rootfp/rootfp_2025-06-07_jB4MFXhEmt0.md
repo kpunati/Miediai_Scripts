@@ -64,27 +64,50 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Framework for calculating retirement portfolio needs for $10K monthly spending. Examines three critical variables: income sources (Social Security, pensions), account types (Roth vs. traditional IRAs), and withdrawal rates, demonstrating how these factors reduce required portfolio size from $3.6M to as little as $1.6M depending on circumstances."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "portfolio-sizing", "withdrawal-rates", "tax-optimization", "social-security-planning"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "CFP, founder of Root Financial"
+  companies:
+    - name: "Root Financial"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Retirement Planning Academy"]
+  concepts: ["4% rule", "probability of success", "tax-efficient withdrawals", "Roth conversion", "withdrawal strategy"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "To spend $10K monthly after taxes requires approximately $12K monthly pre-tax, or $144K annually"
+    timestamp: "00:01:03"
+    confidence: "high"
+    flagged: true
+  - claim: "Using 4% rule, $144K annual need requires $3.6M portfolio"
+    timestamp: "00:02:06"
+    confidence: "high"
+    flagged: true
+  - claim: "Adding $2,500 monthly Social Security reduces required portfolio to $2.8M for similar probability of success"
+    timestamp: "00:03:09"
+    confidence: "medium"
+    flagged: true
+  - claim: "Shifting from traditional IRA to Roth IRA reduces required portfolio from $2.8M to $2.1M"
+    timestamp: "00:05:52"
+    confidence: "high"
+    flagged: true
+  - claim: "Retiring at 75 instead of 65 with $2.1M achieves 70% probability of success with $1.6M (after $500K reduction)"
+    timestamp: "00:10:41"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -94,6 +117,40 @@ notes: ""
 **Published:** 2025-06-07
 **URL:** https://youtube.com/watch?v=jB4MFXhEmt0
 **Duration:** 13:18
+
+## Summary
+
+This video provides a systematic framework for determining how much savings are needed to support a specific retirement income target. Starting with a basic $3.6M requirement for $10K monthly spending using the 4% rule, the presenter shows how three variables dramatically reduce this number: Social Security reduces needs by $800K, Roth account structure saves another $700K, and age at retirement shifts requirements by $500K. The analysis emphasizes that retirement planning is not one-size-fits-all and depends heavily on individual circumstances.
+
+## Key Takeaways
+
+- The 4% rule provides a starting point but requires adjustment for taxes; $10K after-tax spending typically requires $12K pre-tax ($144K annually)
+- Social Security and other guaranteed income sources are the biggest reducers of portfolio needs, potentially cutting required savings by 25%
+- Account type matters significantly; Roth IRAs reduce required portfolio by roughly 25% compared to traditional IRAs due to tax-free withdrawals
+- Withdrawal rates depend on two factors: asset allocation (conservative portfolios require lower withdrawal rates) and life expectancy (shorter timeframes allow higher rates)
+- Retiring at 75 instead of 65 with the same spending goals requires approximately $500K less in savings
+
+## Detailed Notes
+
+### Baseline Calculation Using 4% Rule [00:01:03]
+
+To spend $10K per month after taxes requires approximately $12K pre-tax monthly due to tax withholdings, totaling $144K annually. The 4% rule states 4% of portfolio should sustain 30 years of withdrawals. Therefore $144K ÷ 0.04 = $3.6M baseline requirement.
+
+### Impact of Social Security Income [00:03:09]
+
+Adding $2,500 monthly Social Security significantly improves planning outlook. With social security covering portion of needs, required portfolio drops from $3.6M to approximately $2.8M to maintain similar probability of success. This shows other income sources are the most powerful lever.
+
+### Account Type Matters: Roth vs. Traditional [00:05:52]
+
+Shifting from traditional IRA to Roth IRA reduces required portfolio from $2.8M to $2.1M because Roth withdrawals are tax-free. This $700K swing illustrates tax efficiency's importance. The example assumes all funds held in one account type for clarity, not reflecting actual conversion decisions.
+
+### Withdrawal Rate Variability with Portfolio Returns [00:08:05]
+
+Sustainable withdrawal rates depend on asset allocation and market returns. All-cash portfolios require lower withdrawal rates; moderate-risk portfolios with growth potential support higher rates. For 30-year retirements (ages 65-95), withdrawal rates typically range 4-5.5% depending on allocation.
+
+### Age and Life Expectancy as Determinants [00:10:41]
+
+Retiring at 75 instead of 65 with $2.1M requirement allows reduction to $1.6M because portfolio only needs to last 20 years instead of 30. This $500K difference shows how life expectancy dramatically affects required savings. The principle applies regardless of age as long as duration is known.
 
 ## Transcript
 

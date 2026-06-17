@@ -64,27 +64,52 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Kevin Lum, CFP, advises investors on how to prepare for potential market crashes and economic uncertainty by outlining a three-bucket strategy: securing short-term cash needs (2 years), intermediate needs (5-7 years), and maintaining a diversified long-term portfolio. He emphasizes that while short-term volatility is inevitable, staying invested and avoiding emotional decisions historically produces better long-term outcomes than attempting to time the market."
 topics: []
-topics_proposed: []
+topics_proposed: ["market-volatility", "portfolio-diversification", "investment-strategy", "retirement-planning", "risk-management"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Kevin Lum"
+      role: "CFP, host"
+    - name: "Howard Marks"
+      role: "investing author and advisor"
+    - name: "Sam Row"
+      role: "investing author and newsletter writer"
+    - name: "Donald Trump"
+      role: "U.S. President"
+  companies:
+    - name: "Foundry Financial"
+      ticker: null
+  tickers: ["NVIDIA", "TSLA"]
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["S&P 500", "NASDAQ", "Treasury securities", "Money market funds", "CDs"]
+  concepts: ["portfolio volatility", "diversification", "long-term investing", "market crash", "value stocks", "international stocks", "emerging markets", "fixed income", "recession", "economic uncertainty"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "The NASDAQ is down nearly 7% year-to-date and the S&P 500 is down about 5% year-to-date as of recording; Nvidia is down nearly 23% and Tesla is down over 40%."
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "If you owned the S&P 500 only on days after it was up since 1993, you would have gained 44%; only on down days would have gained 50%; but buying and holding would have gained over 1,200%."
+    timestamp: "00:05:16"
+    confidence: "medium"
+    flagged: false
+  - claim: "The data tells us the average person will experience a 20% or greater market downturn probably four or five times during their retirement."
+    timestamp: "00:10:27"
+    confidence: "medium"
+    flagged: false
+  - claim: "A balanced portfolio with value and international funds outperformed the S&P 500 year-to-date, with value ETF up 11%, international fund up 8%, emerging markets value up 3%, and global real estate up 3%."
+    timestamp: "00:09:24"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -94,6 +119,40 @@ notes: ""
 **Published:** 2025-03-15
 **URL:** https://youtube.com/watch?v=RG_c4Jughwg
 **Duration:** 12:32
+
+## Summary
+
+Kevin Lum addresses investor anxiety about potential market crashes and economic recession amid political uncertainty. He explains that while short-term volatility is inevitable, attempting to time the market or act on fears typically produces worse outcomes than staying invested. The video provides a practical three-bucket strategy for managing portfolio risk based on time horizons, emphasizing diversification across growth, value, and international investments to weather market downturns.
+
+## Key Takeaways
+
+- Separate your portfolio into three buckets: 2 years of cash needs in safe instruments, 5-7 years of needs in fixed income, and longer-term money diversified across growth and value stocks globally.
+- Historical data shows that staying invested through market downturns significantly outperforms trying to time market entries and exits.
+- Diversification across value stocks, international funds, and emerging markets provides better protection during market volatility than concentrated growth-heavy portfolios.
+- The average retiree experiences 20% or greater market declines 4-5 times during retirement, making emotional decision-making particularly dangerous.
+- Even if you could predict a recession, predicting market direction afterward is nearly impossible, so focus on long-term planning rather than short-term market movements.
+
+## Detailed Notes
+
+### Market Volatility Context [00:00:00]
+
+Kevin discusses recent market drawdowns triggered by concerns about Trump administration policies and potential recession. The NASDAQ and S&P 500 have declined 7% and 5% year-to-date respectively, with tech stocks like Nvidia and Tesla experiencing steeper declines of 23% and 40%. Treasury Secretary comments about economic 'detoxification' and Trump's non-ruling out of recession have fueled investor anxiety.
+
+### Long-Term Investing Versus Market Timing [00:03:11]
+
+Kevin emphasizes that investment returns come from volatility's price, and emotional responses to short-term market movements historically damage long-term outcomes. He cites historical crises (tech crash, 2007-2008 financial crisis, COVID) to show that staying invested consistently outperforms timing entries and exits. He references Howard Marks and Sam Row's observations that buy-and-hold strategies produce vastly superior returns to market timing.
+
+### Three-Bucket Portfolio Strategy [00:06:18]
+
+For short-term needs (next 2 years), keep cash in ultra-safe instruments like Treasury securities, money market funds, or CDs. For intermediate needs (5-7 years), invest in fixed income or intermediate bonds. For long-term funds, maintain a balanced, globally diversified portfolio. This approach allows investors to weather extended market downturns without being forced to sell at unfavorable times due to cash needs.
+
+### Diversification as Risk Management [00:08:22]
+
+Kevin demonstrates that concentrated growth portfolios (S&P 500, NASDAQ-heavy) underperform diversified portfolios during downturns. He shows that balanced portfolios with value stocks and international exposure performed substantially better year-to-date, with value ETF up 11%, international fund up 8%, and emerging markets value up 3% versus the S&P 500's 5% decline.
+
+### Avoiding Emotional Decision-Making [00:10:27]
+
+Kevin warns that many investors successfully exit markets before crashes but fail to re-enter, missing subsequent gains. He notes that neither he nor anyone can reliably predict market direction even if economic outcomes were known. The video concludes that creating and sticking to a long-term plan, regardless of market turbulence, has been historically proven as the best path forward.
 
 ## Transcript
 

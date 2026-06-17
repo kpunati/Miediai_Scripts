@@ -35,24 +35,43 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Eric Amzalag presents a prioritized three-phase retirement planning framework: triage (accumulate sufficient assets), stabilization (develop comprehensive income and contingency plans), and optimization (address financial surplus and legacy planning). The framework emphasizes executing a mediocre plan consistently over abandoning complex plans."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning-framework", "financial-prioritization", "roth-conversions", "plan-execution", "retirement-phases"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, Financial Planner"
+  companies:
+    - name: "Peak Financial Planning"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["Monte Carlo analysis", "financial audit", "probability of success", "diminishing returns", "dynamic distribution strategy", "contingency planning"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Financial audit should include only current behaviors and assets, not projected future changes or plans"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Triage phase occurs when probability of success is below 60%, stabilization between 60-79%, optimization above 80%"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Average American retires 3 years earlier than planned, making 5-year planning runway critical"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Roth conversions are low-leverage planning items that should be addressed only in optimization phase after ensuring survival"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: ["unpunctuated_captions"]
@@ -65,6 +84,40 @@ notes: ""
 **Published:** 2024-08-21
 **URL:** https://youtube.com/watch?v=JnoJPFp9Fz4
 **Duration:** 11:33
+
+## Summary
+
+Eric Amzalag outlines an optimal order of operations for retirement planning organized into three progressive phases. The triage phase focuses on accumulating sufficient financial assets through maximizing savings, investing available capital, and potentially working longer. The stabilization phase involves developing comprehensive plans for income generation, Social Security timing, portfolio adjustments, and contingency documentation. The optimization phase addresses Roth conversions, charitable giving, and estate planning—only relevant for those with projected financial surpluses. Amzalag emphasizes that executing a mediocre plan consistently produces better outcomes than abandoning complex plans, and recommends beginning planning 5 years before desired retirement to account for the fact that people typically retire 3 years earlier than anticipated.
+
+## Key Takeaways
+
+- A mediocre plan executed consistently outperforms a sophisticated plan that gets abandoned due to complexity or cost.
+- Three phases of retirement planning: triage (build assets), stabilization (develop comprehensive plan), and optimization (address surplus and legacy).
+- Financial audit baseline should include only current assets and behaviors, excluding future plans or changes, similar to a medical diagnosis.
+- Probability of success benchmarks: below 60% indicates triage, 60-79% stabilization, above 80% optimization—these thresholds determine which action items deserve focus.
+- Begin retirement planning 5 years before target date since most people retire 3 years earlier than expected, providing critical runway for learning and adjustments.
+
+## Detailed Notes
+
+### The Three Phases Framework [00:00:00]
+
+Peak Financial Planning breaks retirement planning into three sequential phases with specific action items. Triage phase emphasizes maximizing savings rate, deploying invested capital, and considering extended work. Stabilization phase focuses on developing comprehensive plans with monitoring and contingencies. Optimization addresses Roth conversions, charitable gifting, and estate planning only after financial survival is assured.
+
+### Triage Phase: Asset Accumulation [00:00:00]
+
+The triage phase goal is accumulating sufficient financial assets before retirement. Action items include maximizing savings rate, getting cash invested from sidelines, and potentially working longer. Younger savers should focus on behavioral discipline rather than optimizing target savings amounts, which become more precise within 10 years of retirement.
+
+### Financial Audit Methodology [00:00:00]
+
+The universal first step is a financial audit entering all current assets and behaviors into planning software. Critical rule: input only current actual practices, not future plans or aspirations. This parallels medical diagnosis—a doctor doesn't change diagnosis based on intended future exercise; financial audit should capture current baseline reality.
+
+### Stabilization Phase: Comprehensive Planning [00:00:00]
+
+Stabilization phase goals include determining optimal retirement age, selecting optimal Social Security strategy, refining savings behaviors, crafting dynamic distribution strategies, making portfolio adjustments, establishing monitoring systems, and documenting contingency plans. This phase requires substantial education and planning 5-10 years before retirement.
+
+### Roth Conversions and Optimization Phase [00:00:00]
+
+Roth conversions, charitable giving, and estate planning are luxury retirement items addressed only in optimization phase. These items only matter if retirees will have financial surplus after their expected lifespan. Hyperfocusing on Roth conversions before ensuring financial survival can distract from higher-leverage actions.
 
 ## Transcript
 

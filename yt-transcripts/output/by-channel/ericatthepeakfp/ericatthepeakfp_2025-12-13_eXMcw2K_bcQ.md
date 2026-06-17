@@ -41,27 +41,46 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "The video explains a tax-efficient retirement strategy called micro Roth conversions, which uses small amounts of surplus spending capacity each year to convert pre-tax retirement funds to Roth accounts, potentially saving hundreds of thousands in lifetime taxes while eliminating required minimum distributions without sacrificing lifestyle."
 topics: []
-topics_proposed: []
+topics_proposed: ["roth-conversions", "tax-planning", "retirement-strategy", "rmd-minimization"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, financial advisor"
+  companies:
+    - name: "Income Labs"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Roth IRA", "Traditional IRA", "401k"]
+  concepts: ["required minimum distributions (RMD)", "pre-tax conversions", "spending capacity", "tax brackets", "guardrails calculator"]
+content_type: "educational"
+audience_level: "advanced"
+key_claims: 
+  - claim: "Example couple with $2.25 million portfolio has $140,000 spending capacity but desires $102,000 spending"
+    timestamp: "00:02:05"
+    confidence: "medium"
+    flagged: true
+  - claim: "Couple with $22,000 annual surplus can convert $99,000-$100,000 of pre-tax money to Roth"
+    timestamp: "00:03:35"
+    confidence: "medium"
+    flagged: true
+  - claim: "Micro Roth conversion strategy over 12 years saves $650,000 in lifetime taxes"
+    timestamp: "00:05:16"
+    confidence: "medium"
+    flagged: true
+  - claim: "After-tax legacy increases by $815,000 due to more tax-efficient dollars"
+    timestamp: "00:06:20"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -71,6 +90,40 @@ notes: ""
 **Published:** 2025-12-13
 **URL:** https://youtube.com/watch?v=eXMcw2K_bcQ
 **Duration:** 7:58
+
+## Summary
+
+The video introduces micro Roth conversions as a low-risk strategy to reduce or eliminate required minimum distributions (RMDs) and lifetime taxes. Rather than making large lump-sum conversions early in retirement, this approach identifies surplus spending capacity each year and uses it to fund small Roth conversions. The strategy relies on tools like Income Labs guardrails calculators to determine safe spending capacity, then allocates unused capacity to tax-efficient Roth conversions over many years, accumulating significant tax savings.
+
+## Key Takeaways
+
+- Micro Roth conversions use identified surplus spending capacity—money you can safely spend but choose not to—rather than forcing lifestyle sacrifices.
+- Using spending capacity tools, identify the difference between required withdrawals and total spending capacity; allocate the surplus to Roth conversion taxes.
+- A couple with a $2.25 million portfolio and $22,000 annual surplus can convert approximately $99,000-$100,000 of pre-tax money annually.
+- Executing micro conversions over 12 years (ages 61-74) before RMDs begin at age 75 can save $650,000 in lifetime taxes.
+- This strategy increases after-tax legacy by $815,000 and reduces lifetime average tax rate by 4.7% without compromising current lifestyle.
+
+## Detailed Notes
+
+### Problem with Traditional Roth Conversions [00:00:00]
+
+Large upfront Roth conversions require prepaying hundreds of thousands in taxes in 1-2 years, creating sequence of returns risk. Most retirees who attempt this strategy lose the gamble. Micro conversions solve this by spreading conversions over many years.
+
+### Step 1: Identify Spending Capacity vs. Desired Spending [00:02:05]
+
+Example couple has $2.25 million all in pre-tax accounts. They want to spend $102,000 after taxes, requiring $118,000 in total withdrawals. Income Labs guardrails calculator shows they can safely spend $140,000, creating a $22,000 annual surplus for Roth conversions.
+
+### Step 2: Calculate Micro Conversion Amount [00:03:35]
+
+Using a provided calculator, input the pre-tax withdrawal amount ($118,000) and tax budget for Roth conversions ($22,000). The calculator accounts for filing status, standard deduction, and marginal tax bracket to determine the micro conversion amount—in this case, $99,000-$100,000.
+
+### Step 3: Execute Conversions Over Multiple Years [00:05:16]
+
+The couple converts $99,000-$100,000 annually from age 61 to 74 (12 years), before RMDs begin at age 75. This front-loads taxes during lower-income years while allowing compound growth of Roth assets.
+
+### Tax Efficiency Outcomes [00:06:20]
+
+Over the couple's lifetime, micro conversions save $650,000 in taxes, increase after-tax legacy by $815,000, and reduce average lifetime tax rate by 4.7%. Roth assets grow tax-free and avoid RMDs, making them more efficient for heirs.
 
 ## Transcript
 

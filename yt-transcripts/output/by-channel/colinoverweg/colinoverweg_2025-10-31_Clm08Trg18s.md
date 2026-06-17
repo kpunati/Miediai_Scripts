@@ -44,27 +44,50 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Financial education addressing the risk of being too conservative in retirement investing. Explains how inflation erodes purchasing power over 20+ year retirements and presents a framework for allocating assets across cash, bonds, and stocks based on time horizons and spending needs. Discusses market return probabilities and the importance of understanding client-specific circumstances in financial planning."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "portfolio-allocation", "inflation-risk", "time-horizons", "retirement-spending"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Colin Overweg"
+      role: "CFP, financial advisor"
+    - name: "Megan Drew"
+      role: "Investopedia journalist"
+  companies:
+    - name: "Advize Wealth Management"
+      ticker: null
+    - name: "Investopedia"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Monte Carlo simulations"]
+  concepts: ["inflation", "asset allocation", "time horizon", "market returns", "withdrawal strategy", "safe spending rate", "market volatility"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "A $60,000 annual retirement budget today will require $90,000 in 20 years assuming 2% inflation; could double at 3% inflation"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "The stock market is up 54% of the time on a day-to-day basis"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Since 1950, the stock market has been up 79% of the time over any one-year period"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Stock market never lost money over extended time horizons (5-7+ years)"
+    timestamp: "00:00:00"
+    confidence: "low"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -74,6 +97,40 @@ notes: ""
 **Published:** 2025-10-31
 **URL:** https://youtube.com/watch?v=Clm08Trg18s
 **Duration:** 3:07
+
+## Summary
+
+This video challenges the conventional wisdom of extreme caution in retirement investing. Colin Overweg explains that inflation poses a greater long-term risk than market volatility for retirees with 20+ year horizons. He presents a practical three-tier framework (cash for 1-2 years, bonds for 3-5 years, stocks for 5+ years) and emphasizes the importance of tailoring portfolios to individual spending flexibility rather than using one-size-fits-all rules.
+
+## Key Takeaways
+
+- Inflation is a significant risk in retirement: a $60,000 budget today could require $90,000-$120,000 in 20 years depending on inflation rate
+- Asset allocation should be based on time horizon: cash for 1-2 year needs, bonds for 3-5 years, stocks for 5+ year horizons
+- Historical data shows stock market success increases dramatically with longer time horizons: 54% daily up days, 79% up years since 1950
+- Understanding client spending flexibility is critical—advisors should distinguish between essential expenses and discretionary spending that can be reduced during downturns
+- Monte Carlo analysis results (e.g., 85% success rate) need context regarding what percentage of withdrawals are truly essential
+
+## Detailed Notes
+
+### Inflation Impact on Retirement Spending [00:00:00]
+
+Demonstrates the erosive effect of inflation on purchasing power over a typical 20-30 year retirement. A $60,000 annual budget grows to $90,000 with 2% inflation or potentially doubles with 3% inflation, highlighting why conservative cash/bond-only strategies may fail to maintain lifestyle.
+
+### Three-Tier Asset Allocation Framework [00:00:00]
+
+Proposes a time-horizon-based framework: money needed within 1-2 years stays in cash (minimal risk), 3-5 year needs in bonds/fixed income, and anything beyond 5 years can reasonably be in stocks. This replaces age-based rules of thumb with a more individualized approach.
+
+### Historical Stock Market Return Probabilities [00:00:00]
+
+Explains that daily returns show stocks up only 54% of the time (casino-like odds), but one-year returns show 79% win rate since 1950. Longer time horizons (5-7+ years) show consistently positive returns, justifying stock exposure for non-immediate retirement needs.
+
+### Importance of Spending Flexibility in Planning [00:00:00]
+
+Highlights a critical distinction: a Monte Carlo 85% success rate is very different if it applies to bare-minimum subsistence expenses versus flexible spending (vacations, donations, discretionary cuts). True retirees often have significant spending flexibility that can mitigate sequence-of-returns risk.
+
+### Advisor Responsibilities [00:00:00]
+
+Emphasizes that quality financial advisors should ask clarifying questions about client goals, quantify them, and use detailed financial planning rather than relying on generic allocation models or outdated rules.
 
 ## Transcript
 

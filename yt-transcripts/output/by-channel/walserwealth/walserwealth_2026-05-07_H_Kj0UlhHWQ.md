@@ -42,27 +42,47 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser examines the U.S. national debt reaching $38.5 trillion, surpassing nominal GDP for the first time since World War II. She discusses structural fiscal problems, the rising cost of debt servicing, and the shift away from dollar hegemony as developing economies move toward blockchain and stable coins."
 topics: []
-topics_proposed: []
+topics_proposed: ["national-debt", "fiscal-policy", "us-dollar", "blockchain-currencies", "retirement-planning"]
 entities:
-  people: []
+  people:
+    - name: "Rebecca Walser"
+    - name: "Richard Nixon"
+      role: "Former U.S. President"
+    - name: "Henry Kissinger"
+      role: "Former U.S. Secretary of State"
   companies: []
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["stable coins"]
+  concepts: ["petrodollar", "debt-to-GDP", "Congressional Budget Office projections", "baby boomer retirement", "multipolarity", "non-dollar trade"]
+content_type: "news"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "U.S. national debt is now over $38.5 trillion, surpassing nominal GDP for the first time since World War II."
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Congressional Budget Office projects debt will surge to 120% of GDP by 2036 and reach 108% by 2030."
+    timestamp: "00:01:04"
+    confidence: "high"
+    flagged: true
+  - claim: "Interest on national debt exceeds $1 trillion annually, second only to Social Security as government expense."
+    timestamp: "00:03:10"
+    confidence: "high"
+    flagged: true
+  - claim: "UAE is leaving OPEC starting May 1st, disrupting the petrodollar arrangement established under Nixon and Kissinger."
+    timestamp: "00:02:08"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -72,6 +92,36 @@ notes: ""
 **Published:** 2026-05-07
 **URL:** https://youtube.com/watch?v=H_Kj0UlhHWQ
 **Duration:** 3:27
+
+## Summary
+
+Rebecca Walser, speaking from the U.S. national debt clock at 38.5 trillion, raises concerns about America's fiscal trajectory. The debt now equals nominal GDP for the first time since 1946, with the Congressional Budget Office projecting it will surge to 120% of GDP by 2036. She emphasizes that unlike post-WWII debt, this reflects structural problems including baby boomer retirement and rising interest costs. She also addresses geopolitical implications, noting the shift from dollar-based commerce to blockchain and the UAE's departure from OPEC, which threatens the petrodollar arrangement. With interest payments already exceeding $1 trillion annually, she urges financial planners to incorporate these trends into retirement and financial planning.
+
+## Key Takeaways
+
+- U.S. national debt of $38.5 trillion now exceeds nominal GDP, a threshold last reached in 1946 post-WWII.
+- Debt-to-GDP is projected to reach 108% by 2030 (4 years) and 120% by 2036, breaking the 1946 record of 106%.
+- Interest payments on debt ($1 trillion+ annually) have become the second-largest federal expense after Social Security.
+- Baby boomer retirement (completion in 2030) coincides with fiscal challenges, creating structural headwinds.
+- Global shift toward blockchain and stable coins, combined with UAE's exit from OPEC, threatens the petrodollar system and dollar hegemony.
+
+## Detailed Notes
+
+### Debt Milestone: Surpassing WWII Record [00:00:00]
+
+The U.S. national debt clock shows $38.5 trillion, surpassing nominal GDP for the first time since 1946. Walser distinguishes between publicly held debt (new record) and total debt including intergovernmental obligations. She notes this differs from post-WWII, when debt was temporary war-related spending quickly paid down.
+
+### Congressional Budget Office Projections [00:01:04]
+
+CBO expects debt-to-GDP to reach 108% by 2030 (surpassing 1946's 106% record in four years) and 120% by 2036. Walser emphasizes this reflects structural problems, not temporary crisis spending. Baby boomer retirement acceleration (completion in 2030) compounds fiscal pressures.
+
+### Shift From Dollar Hegemony to Multipolarity [00:02:08]
+
+World is moving away from dollar-denominated transactions toward blockchain and stable coins. Russia-China, China-India, and Russia-India trade occurring outside the dollar system. UAE's May 1st departure from OPEC disrupts the petrodollar arrangement established by Nixon and Kissinger with Saudi Arabia.
+
+### Interest Payments as Fiscal Crisis [00:03:10]
+
+Interest on national debt now exceeds $1 trillion annually, making it the second-largest federal expense after Social Security. This exceeds spending on Medicare and defense, with only upward trajectory. Walser argues advisors must address these issues or face professional deficiency.
 
 ## Transcript
 

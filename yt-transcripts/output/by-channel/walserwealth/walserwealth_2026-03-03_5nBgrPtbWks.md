@@ -45,27 +45,50 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Discussion of geopolitical tensions in the Middle East, rising oil prices, market impacts on technology stocks, and the relationship between defense spending and software sector rotation following escalating Iran conflict."
 topics: []
-topics_proposed: []
+topics_proposed: ["geopolitical-tensions", "oil-prices", "tech-rotation", "defense-spending", "market-disruption", "software-sector"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Rebecca Walser"
+      role: "wealth advisor"
+    - name: "Luke"
+      role: "host"
+    - name: "Trump"
+      role: "president"
+  companies:
+    - name: "Palantir"
+      ticker: "PLTR"
+  tickers: ["PLTR"]
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Palantir"]
+  concepts: ["geopolitical-risk", "defense-tech", "AI-correction", "treasury-rotation", "energy-inflation", "Basel-3-compliance"]
+content_type: "opinion"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Oil supply disruption from Middle East tensions could add 50% to LNG prices due to Qatar energy facilities being at risk"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Microsoft is only 10% above 2021 levels while software sector is 10% below 2021 levels despite narrow index strength"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "AI-driven tech selloff is paused by Middle East distraction, not resolved"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Monetization issues in tech sector may take 18+ months to resolve, mirroring dot-com era patterns"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +98,41 @@ notes: ""
 **Published:** 2026-03-03
 **URL:** https://youtube.com/watch?v=5nBgrPtbWks
 **Duration:** 6:23
+
+## Summary
+
+Rebecca Walser discusses how Middle East tensions and escalating Iran conflict are creating a rotation away from technology stocks toward defense and security-focused software companies, while simultaneously creating energy inflation pressures. She argues that while AI concerns have temporarily paused the tech selloff, deeper monetization issues remain unresolved and may take months to play out, mirroring historical patterns from the dot-com era.
+
+## Key Takeaways
+
+- Middle East tensions are creating a temporary pause in AI-driven tech sector decline while shifting focus to defense-tech rotation
+- Energy supply disruptions could significantly increase inflation across consumer goods and transportation
+- Microsoft and software sector valuations remain depressed despite narrow index strength, suggesting hidden market weakness
+- Defense spending acceleration may support software companies tied to national security infrastructure
+- Commodities and precious metals position benefit from central bank reserve requirements and geopolitical uncertainty
+- Tech sector monetization problems likely persist beyond current market distraction
+
+## Detailed Notes
+
+### Market reaction to Middle East tensions [00:00:00]
+
+Technology sector initially sold off sharply, but defense-tech names like Palantir began recovering as investors recognized government spending acceleration following geopolitical escalation.
+
+### Energy impact and inflation concerns [00:00:00]
+
+Qatar's LNG facilities represent 20% of global supply. Disruptions could increase LNG prices by 50%, impacting transportation costs and general consumer inflation. Airlines already experiencing significant fuel cost increases that get passed to consumers.
+
+### Tech sector valuations and hidden weakness [00:00:00]
+
+Software sector trades 10% below 2021 levels while Microsoft trades only 10% above 2021 levels, indicating narrow index strength masks broad tech weakness. Market indexes distorted by concentration.
+
+### Defense-tech and software opportunities [00:00:00]
+
+Government historically opens budgets for defense and national security software during geopolitical crises, creating rotation opportunity from consumer tech to security-focused software companies.
+
+### Commodity positioning and central bank dynamics [00:00:00]
+
+Rebecca recommends gold and silver positioning as central banks globally need to strengthen reserves per Basel 3 requirements, supporting long-term commodity strength.
 
 ## Transcript
 

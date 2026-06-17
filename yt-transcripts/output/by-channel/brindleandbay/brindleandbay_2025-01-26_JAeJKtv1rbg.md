@@ -44,27 +44,40 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Financial advisor critiques the 4% rule for retirement spending as an outdated strategy that can increase longevity risk. Explains issues with fixed-rate withdrawals, introduces modern withdrawal strategies with dynamic adjustments, clear boundaries, inflation protection, lifestyle flexibility, and long-term sustainability checks."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-spending", "withdrawal-strategy", "4-percent-rule", "portfolio-management", "retirement-planning"]
 entities:
-  people: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, financial advisor"
   companies: []
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["401k"]
+  concepts: ["4% rule", "safe withdrawal rate", "dynamic withdrawal strategy", "portfolio allocation", "stagflation", "lifestyle flexibility", "spending boundaries"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "The 4% rule assumes a fixed portfolio allocation (64/40 or 80/20) and fails if allocation isn't maintained"
+    timestamp: "00:01:03"
+    confidence: "high"
+    flagged: false
+  - claim: "4% rule originated from a 20-year-old study"
+    timestamp: "00:05:11"
+    confidence: "high"
+    flagged: true
+  - claim: "Following the 4% rule strategy may increase risk of running out of money in retirement"
+    timestamp: "00:08:21"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -74,6 +87,40 @@ notes: ""
 **Published:** 2025-01-26
 **URL:** https://youtube.com/watch?v=JAeJKtv1rbg
 **Duration:** 8:59
+
+## Summary
+
+This video examines why the widely-recommended 4% rule for retirement withdrawals is problematic and has become outdated. The advisor explains the fundamental flaws of fixed-rate spending strategies and presents a five-point framework for modern withdrawal strategies: dynamic adjustment, clear spending boundaries, inflation protection, lifestyle flexibility, and long-term sustainability. A case study compares how an imaginary retiree using the rigid 4% rule feels uncertain about spending versus one using a modern flexible strategy.
+
+## Key Takeaways
+
+- The 4% rule requires maintaining a specific portfolio allocation (64/40 or 80/20) to be effective, limiting its flexibility
+- Fixed withdrawal amounts based on inflation create rigid spending that doesn't accommodate real life changes like major purchases or market downturns
+- Modern withdrawal strategies include five key features: dynamic adjustment, clear spending boundaries, inflation protection, lifestyle flexibility, and sustainability checks
+- Clear spending boundaries set upper and lower portfolio thresholds to trigger spending increases or reductions based on portfolio health
+- Successful retirees need flexibility to accommodate different spending phases including essential and discretionary categories
+
+## Detailed Notes
+
+### Limitations of the 4% Rule [00:00:00]
+
+The 4% rule, a decades-old approach, suggests withdrawing 4% in year one then adjusting for inflation yearly. However, it fails when portfolio allocation isn't maintained, doesn't adapt to actual lifestyle spending fluctuations, and assumes it works in all market conditions based solely on historical data without requiring adjustments during downturns.
+
+### Common Misconceptions About 4% Rule [00:02:05]
+
+People incorrectly believe the 4% rule prevents ever running out of money, that retirement spending only changes with inflation, that it works in any market condition, and that no adjustments are needed during severe downturns. These misconceptions lead to unintended consequences in real retirement scenarios.
+
+### Real-World Consequences of Rigid Spending [00:03:06]
+
+Retirees using the 4% rule tend to underspend in good years when they could enjoy more and overspend in bad years, creating stress and limiting retirement enjoyment. The rigid linear spending prevents accommodating life events like weddings or large purchases without breaking the plan.
+
+### Case Study: Tommy Tomkins [00:04:09]
+
+A 65-year-old with $1 million withdraws $40,000 annually (4%) increased for inflation. He maintains this rigidly even when markets drop or his portfolio grows significantly. He forgoes experiences like Disney trips with grandchildren because they don't fit the 4% rule, creating a feeling of being in the dark about true spending capacity.
+
+### Five-Point Framework for Modern Withdrawal Strategies [00:05:11]
+
+Dynamic adjustment allows frequent monitoring and changes based on conditions (unlike the rigid 4% rule). Clear spending boundaries set specific portfolio thresholds for increasing or decreasing spending. Inflation protection accounts for both general inflation and category-specific inflation like healthcare. Lifestyle flexibility accommodates different retirement phases and unexpected expenses. Long-term sustainability provides clear portfolio health indicators.
 
 ## Transcript
 

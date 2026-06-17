@@ -34,27 +34,48 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Educational explanation of how Social Security can be taxable while resulting in zero tax liability. Demonstrates a real-world tax planning example for a 63-year-old retiree in Florida using annuity withdrawals. Shows how to calculate provisional income, determine Social Security taxability using IRS Publication 915, and how tax credits can eliminate tax liability despite reportable income."
 topics: []
-topics_proposed: []
+topics_proposed: ["social-security-taxation", "tax-planning", "provisional-income", "annuity-withdrawals", "child-tax-credit"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Colin Overweg"
+      role: "CFP, financial advisor"
+    - name: "Jay"
+      role: "Client (63-year-old)"
+  companies:
+    - name: "Advize Wealth Management"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Non-qualified annuity", "Traditional IRA", "401(k)"]
+  concepts: ["Social Security taxation", "provisional income", "ordinary income", "tax credits", "standard deduction", "tax brackets", "earned income", "estate planning"]
+content_type: "educational"
+audience_level: "advanced"
+key_claims: 
+  - claim: "Provisional income for Social Security taxation = AGI + 50% of Social Security benefits"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "For married filing jointly taxpayers, 85% of Social Security becomes taxable if provisional income exceeds $44,000"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "In the example, $36,000 in annuity income combined with $30,800 in Social Security results in zero tax owed due to standard deduction and child tax credit"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Child tax credit is refundable only as a percentage of earned income, and annuity withdrawals do not qualify as earned income"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -64,6 +85,40 @@ notes: ""
 **Published:** 2026-01-23
 **URL:** https://youtube.com/watch?v=zbV5bJfj6ZE
 **Duration:** 4:11
+
+## Summary
+
+This video demonstrates a sophisticated tax planning strategy where Social Security income becomes taxable based on provisional income calculations, yet the taxpayer owes zero federal income tax. Using a real client scenario, Colin Overweg walks through determining provisional income, calculating Social Security taxability via IRS Publication 915, calculating AGI and taxable income after the standard deduction, and showing how tax credits eliminate the tax liability despite higher provisional income.
+
+## Key Takeaways
+
+- Social Security taxation is determined by provisional income (AGI + 50% of Social Security benefits), not Social Security alone
+- For married filing jointly, if provisional income exceeds $44,000, up to 85% of Social Security benefits become taxable
+- The IRS Publication 915 worksheet is complex; tax software or professional review is recommended for accurate calculations
+- Tax credits (like the Child Tax Credit) can completely eliminate tax liability even when substantial income is reported
+- The Child Tax Credit's refundable portion depends on earned income; annuity withdrawals and non-earned income do not qualify
+
+## Detailed Notes
+
+### Non-Qualified Annuity Withdrawal Strategy [00:00:00]
+
+The client (Jay, age 63, Florida resident) inherited a non-qualified annuity with $140,000 in gains ($280k cost basis, $420k current value). Non-qualified annuity gains are taxed as ordinary income and taxed 'gain-first,' making them inefficient. The strategy is to systematically withdraw from this annuity to live on while allowing other assets to grow tax-deferred.
+
+### Provisional Income Calculation [00:00:00]
+
+Provisional income = AGI + 50% of Social Security benefits. In this example: $36,000 annuity income + 50% of $30,800 Social Security (~$15,400) = $51,400 provisional income. This determines whether and how much Social Security becomes taxable.
+
+### Social Security Taxability Thresholds [00:00:00]
+
+For married filing jointly, if provisional income exceeds $44,000, up to 85% of Social Security can become taxable. The calculation is not simple: it involves a multi-step IRS Publication 915 worksheet considering both the threshold amount and whether half the Social Security benefit exceeds $6,000.
+
+### Taxable Income Calculation [00:00:00]
+
+With $36,000 annuity income and $13,990 taxable Social Security = $49,990 AGI. Minus 2026 standard deduction for married filing jointly ($32,200) = $17,800 taxable income. At 10% tax bracket rate, this calculates to $1,780 in tax liability before credits.
+
+### Tax Credits Eliminating Liability [00:00:00]
+
+The Child Tax Credit ($2,000 per dependent child) completely wipes out the $1,780 tax liability. The client effectively owes zero taxes despite substantial provisional income and taxable Social Security. Note: The refundable portion of the Child Tax Credit applies only to earned income, not annuity withdrawals.
 
 ## Transcript
 

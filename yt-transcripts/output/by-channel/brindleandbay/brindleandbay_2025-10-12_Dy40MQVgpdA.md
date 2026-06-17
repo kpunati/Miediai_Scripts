@@ -43,27 +43,46 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Identifies seven retiree categories for whom early Social Security claiming is suboptimal: high-earning spouses (spousal/survivor benefits), those still working (earnings test), long-life-expectancy retirees, married breadwinners, wealth builders, undecided on location, and tax-sensitive retirees. Each requires individualized analysis beyond generic 'delay' advice."
 topics: []
-topics_proposed: []
+topics_proposed: ["social-security-timing", "spousal-benefits", "survivor-benefits", "earnings-test", "tax-efficient-withdrawal"]
 entities:
-  people: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, financial advisor"
+    - name: "Derek Tharp"
+      role: "researcher"
   companies: []
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["spousal benefits", "survivor benefits", "earnings test", "break-even analysis", "longevity", "tax-bracket management"]
+content_type: "educational"
+audience_level: "advanced"
+key_claims: 
+  - claim: "Spousal benefits are capped at 50% of higher earner's full retirement amount"
+    timestamp: "00:01:05"
+    confidence: "high"
+    flagged: false
+  - claim: "If you earn above $22,320/year and claim Social Security before full retirement age, $1 benefits are withheld for every $2 earned"
+    timestamp: "00:03:11"
+    confidence: "high"
+    flagged: true
+  - claim: "Social Security benefit grows about 8% per year from full retirement age until 70"
+    timestamp: "00:04:13"
+    confidence: "high"
+    flagged: false
+  - claim: "Survivor benefits equal 100% of the higher earner's benefit amount"
+    timestamp: "00:01:05"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -73,6 +92,38 @@ notes: ""
 **Published:** 2025-10-12
 **URL:** https://youtube.com/watch?v=Dy40MQVgpdA
 **Duration:** 12:15
+
+## Summary
+
+This video categorizes retirees into seven groups for whom early Social Security claiming is suboptimal and explains the mechanics of each group's situation. Rather than universal 'delay until 70' advice, it emphasizes personalized claiming strategies that account for family dynamics, work status, longevity expectations, and tax planning opportunities.
+
+## Key Takeaways
+
+- High-earning spouses: early claiming reduces spousal and survivor benefits permanently; delaying increases household benefit by ~24%.
+- Still-working retirees: earnings test withholds $1 for every $2 earned above $22,320/year, making early claiming inefficient.
+- Long-life-expectancy retirees: break-even analysis typically favors waiting until 70, often yielding $100K+ additional lifetime income.
+- Married breadwinners: delayed claiming protects surviving spouse with higher survivor benefit, particularly important for widows.
+- Wealth builders: 8% annual growth plus inflation protection makes delayed Social Security a powerful legacy tool.
+- Undecided about location: early claiming locks benefit before true costs are known; waiting preserves flexibility.
+- Tax-sensitive retirees: coordinating claiming with withdrawal strategy minimizes lifetime taxes through bracket management.
+
+## Detailed Notes
+
+### Spousal and Survivor Benefit Impact [00:01:05]
+
+High earner's early claim shrinks not just their benefit but spousal/survivor benefits permanently. Spousal benefit capped at 50% of full retirement amount; if earner claims early, that cap applies to the reduced amount. Survivor benefits equal 100% of deceased earner's check—a reduced early-claim amount becomes the widow's benefit for life.
+
+### Earnings Test Penalties [00:03:11]
+
+If under full retirement age and earning $22,320+/year, Social Security withholds $1 benefit for every $2 earned. Many people unknowingly cross this threshold with consulting/part-time work. Instead of steady income, benefits become unpredictable, making early claiming counterproductive for working retirees.
+
+### Longevity and Break-Even Analysis [00:04:13]
+
+For those expecting to live into 80s+, waiting until 70 typically produces more lifetime income. 8% annual growth compounds: claiming at 62 yields $X/month; at 70 yields $X * 1.76 (24% higher per year). Break-even around age 80-82; beyond that, waiting clearly wins. Delaying thus favors healthier retirees with family longevity patterns.
+
+### Tax Coordination and Wealth Building [00:08:28]
+
+For wealthy retirees with other assets, delaying Social Security while spending down taxable accounts or taking Roth conversions optimizes lifetime taxes. Inflation-protected, government-backed growth at 8% outperforms most investment returns. This strategy builds both income security and legacy wealth simultaneously.
 
 ## Transcript
 

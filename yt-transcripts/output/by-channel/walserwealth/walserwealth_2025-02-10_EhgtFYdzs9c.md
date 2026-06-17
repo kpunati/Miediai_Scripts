@@ -45,27 +45,54 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser advises investors to invest in the frontier basket (crypto, blockchain, robotics, quantum computing, AI) for long-term horizons while expecting 90 days of policy adjustment volatility under the Trump administration's tariff-linked economic strategy."
 topics: []
-topics_proposed: []
+topics_proposed: ["tariffs", "portfolio-positioning", "long-term-investing", "market-volatility", "ai-frontier"]
 entities:
-  people: []
+  people:
+    - name: "Rebecca Walser"
+      role: "President of Walser Wealth Management"
+    - name: "Kristen Scholer"
+      role: "Host, NYSE TV"
+    - name: "Donald Trump"
+      role: "U.S. President"
+    - name: "Justin Trudeau"
+      role: "Canadian Prime Minister"
   companies: []
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["NYSE TV"]
+  concepts: ["tariff policy", "frontier technology", "crypto", "blockchain", "robotics", "quantum computing", "AI", "portfolio diversification", "long-term returns", "M&A activity", "deregulation"]
+content_type: "opinion"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Trump tariff policies use leverage tied to fentanyl trafficking and geopolitical goals, not pure trade economics"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Expect at least 90 days of adjustment period for tariff negotiations and policy clarity"
+    timestamp: "00:02:06"
+    confidence: "high"
+    flagged: false
+  - claim: "CEO and CFO sentiment at year-end was the best in 12 years with 60 percent expanding R&D"
+    timestamp: "00:04:11"
+    confidence: "medium"
+    flagged: true
+  - claim: "Investment banks are forecasting 25-30 percent more M&A activity in 2025"
+    timestamp: "00:04:11"
+    confidence: "medium"
+    flagged: true
+  - claim: "Long-term horizon for frontier basket (AI, quantum, blockchain, robotics) should be at least 5-10 years, preferably 10 plus"
+    timestamp: "00:02:06"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +102,37 @@ notes: ""
 **Published:** 2025-02-10
 **URL:** https://youtube.com/watch?v=EhgtFYdzs9c
 **Duration:** 5:10
+
+## Summary
+
+Walser provides portfolio positioning guidance for investors navigating early Trump administration tariff volatility. She recommends investors with multi-year horizons invest immediately in frontier technologies (AI, quantum computing, blockchain, robotics, crypto) and hold long-term (10+ years ideally), while acknowledging that tariff negotiations tied to geopolitical goals (border security, migration) will create near-term volatility lasting approximately 90 days.
+
+## Key Takeaways
+
+- Trump's tariff strategy explicitly links economic policy to geopolitical priorities (border security, fentanyl interdiction), ensuring continued negotiations and volatility.
+- Investors should expect minimum 90-day adjustment period as tariff talks unfold with Mexico, Canada, and China.
+- For long-horizon investors (10+ years), frontier basket (AI, quantum, blockchain, robotics) offers superior capital appreciation potential despite near-term volatility.
+- CEO and CFO sentiment reached 12-year highs at year-end, with 60 percent planning R&D expansion and investment banks forecasting 25-30 percent more M&A activity.
+- Short-term price-action traders will face difficulty in early Trump 2.0 due to policy uncertainty, but long-term fundamentals support equity valuations.
+- Monitor jobs data and corporate earnings for market-moving signals as deregulation and M&A activity unfold.
+
+## Detailed Notes
+
+### Tariff Policy and Geopolitical Linkage [00:00:00]
+
+Trump administration uses tariffs as leverage for geopolitical objectives: Mexico negotiating border fentanyl interdiction, Canada providing 1.3 billion for border security, and China facing broader retaliatory measures. This multi-front approach ensures sustained negotiations and volatility, distinguishing Trump 2.0 from Biden administration's purely monetary policy focus.
+
+### 90-Day Adjustment and Investment Timeline [00:02:06]
+
+Walser advises investors to expect minimum 90-day volatility as tariff negotiations progress. Those seeking short-term gains face difficulty due to policy uncertainty. Long-term investors should maintain discipline and view pullbacks as opportunities. The distinction between Trump's first and second term: he now understands institutional workings, has political mandate, and does not require reelection, enabling bolder policy execution.
+
+### Frontier Basket Positioning [00:02:06]
+
+Walser recommends investors with adequate time horizons (5-10 years minimum, ideally 10+ years) invest in frontier technologies: crypto, blockchain, robotics, quantum computing, and AI. These represent secular growth themes with multi-decade runways. Short-term traders should avoid due to volatility; long-term investors should ignore near-term fluctuations.
+
+### Corporate Sentiment and M&A Outlook [00:04:11]
+
+CEO and CFO sentiment reached 12-year highs at year-end, with 60 percent actively expanding R&D spending. Investment banks forecast 25-30 percent increase in M&A activity for 2025. Deregulatory environment under Trump supports these trends. However, tariff uncertainty creates consternation among manufacturers and auto companies seeking exemptions.
 
 ## Transcript
 

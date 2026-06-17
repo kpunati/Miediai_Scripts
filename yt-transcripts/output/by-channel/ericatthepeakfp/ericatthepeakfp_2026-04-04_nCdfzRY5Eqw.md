@@ -36,24 +36,43 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Video critiques traditional liabilities-first retirement planning approach that asks retirees to guess future spending, arguing instead for economics-based planning that calculates actual spending power first, then allows individuals to allocate within that figure, empowering retirees with concrete numbers rather than uncertain predictions."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning-methodology", "spending-power-calculation", "financial-planning-critique", "consumer-empowerment", "monte-carlo-limitations"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, Financial Advisor"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["liabilities-first planning", "economics-based planning", "Monte Carlo simulation", "spending power", "discretionary spending", "financial planning methodology", "risk management"]
+content_type: "opinion"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Traditional planning asks retirees to predict exact future spending (including unknowable costs like Medicare premiums 9+ years ahead)"
+    timestamp: "00:01:43"
+    confidence: "high"
+    flagged: false
+  - claim: "Monte Carlo simulations appear scientific but mask fragile input foundations when spending projections are inaccurate guesses"
+    timestamp: "00:02:45"
+    confidence: "high"
+    flagged: false
+  - claim: "Uncertainty about emergencies causes people to be overly conservative about controllable quality-of-life expenses like dining and travel"
+    timestamp: "00:03:47"
+    confidence: "medium"
+    flagged: false
+  - claim: "Economics-based approach calculates discretionary spending power as total assets and income minus fixed obligations"
+    timestamp: "00:04:49"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: ["unpunctuated_captions"]
@@ -66,6 +85,49 @@ notes: ""
 **Published:** 2026-04-04
 **URL:** https://youtube.com/watch?v=nCdfzRY5Eqw
 **Duration:** 9:14
+
+## Summary
+
+Eric Amzalag argues that conventional retirement planning's reliance on guessing future spending creates false confidence through statistical complexity while obscuring fragile assumptions. He advocates for an economics-based approach that calculates actual spending power first (assets plus income minus fixed expenses), then allows retirees to make spending decisions within that concrete number. This method treats retirees as adults making informed choices rather than guess-makers hoping their predictions align with reality.
+
+## Key Takeaways
+
+- Traditional liabilities-first planning asks retirees to guess future spending 10+ years ahead, then builds entire plans around those guesses.
+- Monte Carlo simulations appear authoritative and scientific but rest on fragile foundations when input assumptions are inaccurate predictions.
+- Uncertainty about unpredictable costs causes people to over-conserve on controllable quality-of-life spending, reducing retirement enjoyment unnecessarily.
+- Economics-based planning calculates spending power first by subtracting fixed obligations from total assets and income sources.
+- With a concrete spending power number, retirees can make informed trade-offs (work longer, spend less, travel more) with full context.
+- Knowing spending power gives retirees agency to decide how to allocate their lifetime resources rather than hoping guesses were correct.
+
+## Detailed Notes
+
+### The Fundamental Flaw of Liabilities-First Planning [00:00:00]
+
+Asks retirees to guess monthly expenses before planning. If plan fails, burden falls on retiree for guessing wrong, not planner for accepting inadequate input. Places responsibility on client rather than providing concrete numbers.
+
+### Predicting Unpredictable Future Costs [00:01:43]
+
+58-year-old asked to predict healthcare costs at age 67—Medicare premiums, out-of-pocket expenses, supplement needs 9 years ahead. Such unpredictable inputs become foundational to entire plan, yet planning software masks fragility with sophisticated-looking outputs.
+
+### How Monte Carlo Masks Bad Input [00:02:45]
+
+Thousand-scenario simulations with probability of success feel scientific and authoritative, but all rest on initial spending guess. Appearance of sophistication masks fragility of foundation. Traditional approach requires testing hundreds of scenarios by trial-and-error.
+
+### Psychological Effect of Uncertainty on Spending [00:03:47]
+
+When unable to predict emergencies, retirees become overly conservative about controllable quality-of-life expenses (dining, travel, hobbies). Fear drives defensive posture, resulting in underspending not because they cannot afford it but because process creates anxiety.
+
+### Economics-Based Approach: Math First [00:04:49]
+
+Calculate total spending power: all investments and income sources minus fixed obligations (mortgage, insurance). Remainder is discretionary spending power smoothed across lifetime. No guessing required; math determines capacity.
+
+### Empowerment Through Clear Numbers [00:05:51]
+
+With concrete spending power, retirees decide how to allocate (travel vs. dining, help kids vs. build legacy, spend aggressively vs. conservatively). Retiree becomes decision-maker, not guess-maker.
+
+### Spending Goal Needs Context to Be Useful [00:06:53]
+
+Desire to spend $10k/month means nothing without knowing if spending power is $8.5k (gap to close) or $12k (margin available). Economics approach gives margin and context; liabilities-first offers one isolated probability without comparison.
 
 ## Transcript
 

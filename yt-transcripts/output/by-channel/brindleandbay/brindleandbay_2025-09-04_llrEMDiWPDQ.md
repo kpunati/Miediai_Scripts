@@ -41,24 +41,29 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Critiques blind pursuit of arbitrary savings targets (e.g., $2M) while ignoring actual lifestyle needs. Proposes 'income-focused saving' approach: define desired retirement lifestyle, calculate required income, reverse-engineer savings target. Often reveals people can retire sooner than they think."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-savings-strategy", "income-planning", "lifestyle-based-planning", "savings-targets", "retirement-readiness"]
 entities:
-  people: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, financial advisor"
   companies: []
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["accumulation mindset", "income replacement ratio", "lifestyle planning", "withdrawal rate", "spending needs analysis"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Half of retirees admit they saved less than needed, yet many who saved aggressively have more than enough"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: []
@@ -71,6 +76,37 @@ notes: ""
 **Published:** 2025-09-04
 **URL:** https://youtube.com/watch?v=llrEMDiWPDQ
 **Duration:** 12:05
+
+## Summary
+
+This video flips the retirement planning paradigm from 'chase arbitrary numbers' to 'start with lifestyle, work backward.' The presenter argues that most financial media pushes generic savings targets without considering individual spending, resulting in years of unnecessary accumulation. By defining desired retirement lifestyle first, calculating needed income, and reverse-engineering required savings, people often discover they're already retirement-ready.
+
+## Key Takeaways
+
+- Arbitrary savings targets ($2M, $3M) ignore personal circumstances, leading to unnecessary work years.
+- Generic advice from articles doesn't account for paid-off homes, low expenses, or conservative lifestyles.
+- Income-focused approach: define lifestyle → calculate spending → determine income requirement → reverse-engineer savings target.
+- Many people have already saved enough but don't realize it because they're chasing headline numbers.
+- Retirement often costs less than working years due to eliminated expenses (commuting, business clothes, eating out).
+- Focus on income replacement ratio, not account balance; this reveals true retirement readiness.
+
+## Detailed Notes
+
+### The Accumulation Trap [00:01:04]
+
+People spend decades maxing 401ks chasing arbitrary targets without understanding personal needs. They assume 'save $2M and you're set' ignoring that this target has no bearing on their actual lifestyle. Result: they delay retirement years beyond necessity while grinding through accumulation mindset they inherited from working years.
+
+### Defining Retirement Lifestyle First [00:02:50]
+
+Instead of chasing numbers, start with the life you want: where will you live? How much travel? Time with family? Once lifestyle is defined, estimate spending across housing, healthcare, travel, leisure. This gives concrete income target instead of vague 'save $2M' instruction.
+
+### Reverse-Engineering Savings [00:07:12]
+
+Start with annual income need. Apply sustainable withdrawal rate (4-5%). Calculate lump-sum required. Factor in Social Security, pensions, other income sources—these often reduce investment portfolio burden significantly. Result often reveals: 'You already have enough' or 'Just 2-3 more years' instead of 5-10 year delay.
+
+### Recognizing Hidden Cost Reductions [00:08:04]
+
+Retirement spending often surprises people downward: no commuting costs, no business wardrobe, eating out less (cooking at home), no childcare (if applicable). Healthcare increases but often offset by reduced discretionary spending. Proper retirement budget accounting reveals many have underestimated their readiness.
 
 ## Transcript
 

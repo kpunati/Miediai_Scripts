@@ -54,24 +54,37 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Uses Shel Silverstein's poem 'Smart' to illustrate how many people ruin retirement by continuing to accumulate wealth after reaching financial independence, trading valuable time and health for money they no longer need. Emphasizes that financial plans should support meaningful living, not serve as ends themselves."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-meaning", "accumulation-trap", "financial-planning", "values-alignment", "lifestyle-design"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "Financial adviser, CFP®"
+    - name: "Shel Silverstein"
+      role: "Author, poet"
+  companies:
+    - name: "Root Financial"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Retirement Planning Academy"]
+  concepts: ["accumulation trap", "intrinsic value", "financial independence", "meaningful retirement", "values-based planning"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Many people continue working and saving after reaching financial independence, unnecessarily trading time and health for additional wealth"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "The intrinsic value of time, health, and relationships increases with age while remaining supply decreases, making them disproportionately valuable"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: []
@@ -84,6 +97,41 @@ notes: ""
 **Published:** 2025-07-26
 **URL:** https://youtube.com/watch?v=NnZnZlA9i60
 **Duration:** 7:12
+
+## Summary
+
+James Conole draws parallels between Shel Silverstein's poem 'Smart' and retirement planning behavior. In the poem, a boy trades a dollar for two quarters, then quarters for dimes, dimes for nickels, and nickels for pennies—gaining quantity while losing intrinsic value. Similarly, many retirees trade their most valuable assets (time, health, relationships) for additional dollars after achieving financial independence. The video argues that financial plans should be constructed around personal values and should enable meaningful living rather than perpetual accumulation.
+
+## Key Takeaways
+
+- Many people continue accumulating wealth after financial independence is reached, unaware they are trading increasingly valuable resources for decreasing returns
+- Time and health become more valuable and scarce as people age; continuing to work for additional income wastes these critical resources
+- Financial plans should optimize not just investment strategy and tax efficiency, but should support the lifestyle and values that matter most
+- Without clear identification of personal values and priorities, people default to tracking the easiest metric: portfolio size
+- A financial plan creates clarity about when enough is enough, enabling people to redirect focus from accumulation to living
+- The goal is not to look back having accumulated maximum pennies, but having prioritized what truly matters
+
+## Detailed Notes
+
+### The Smart Poem Analogy [00:00:00]
+
+Shel Silverstein's poem depicts a boy trading a one-dollar bill for two quarters, then progressively trading for less valuable currency. The boy celebrates having more items while unaware of the declining intrinsic value. This mirrors how people continue accumulating after financial independence while trading away time, health, and relationships.
+
+### Trading Value for More [00:00:00]
+
+In the working years, people reach financial independence but continue working and saving. Each additional dollar earned often requires trading time, health, and relationships—assets that become exponentially more valuable as people age. Unlike money, time cannot be regenerated or earned back.
+
+### Creating a Meaningful Financial Plan [00:00:00]
+
+A comprehensive financial plan should optimize investments, tax strategy, estate planning, and withdrawal rates, but more importantly, should support the specific life vision and values of the individual. The plan is a tool enabling meaningful living, not an end in itself.
+
+### Identifying What You Truly Value [00:00:00]
+
+People should clarify what matters most: time with family, health, adventure, community, hobbies, relationships. The financial plan is then constructed to support these priorities. This values-first approach prevents defaulting to portfolio size as the primary measure of success.
+
+### Living for Value, Not Just More [00:00:00]
+
+The objective is not to accumulate the largest portfolio but to reflect on life with satisfaction that time was invested in what truly mattered. Financial plans should be viewed as enabling meaningful retirement, not as isolated optimization exercises. Clarity about financial capacity allows people to confidently pursue their authentic values.
 
 ## Transcript
 

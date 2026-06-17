@@ -45,27 +45,70 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser discusses Iran ceasefire and energy market reaction with Diane Hall on Schwab Network. Two-week conditional ceasefire creates cautious optimism; oil futures stable at $73-77. Oil impact reverberates through fuel surcharges and delivery fees, hitting lower-income consumers hardest. Private credit ($1.8 trillion market) faces separate AI disruption risks."
 topics: []
-topics_proposed: []
+topics_proposed: ["iran-ceasefire", "energy-prices", "consumer-impact", "private-credit", "ai-disruption", "fourth-industrial-revolution"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Rebecca Walser"
+      role: "Wealth management president"
+    - name: "Diane Hall"
+      role: "Host"
+    - name: "Kevin Green"
+      role: "Colleague/analyst"
+  companies:
+    - name: "Walser Wealth Management"
+      ticker: null
+    - name: "Delta Airlines"
+      ticker: null
+    - name: "Schwab"
+      ticker: null
+  tickers: ["DAL"]
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["Iran ceasefire", "Strait of Hormuz", "fuel surcharges", "K-shaped economy", "private credit", "software disruption", "Fourth Industrial Revolution", "private equity", "delivery fees"]
+content_type: "interview"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Two-week conditional ceasefire with Iran agreed upon"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "December oil futures down from $77 last week to $73-74 this week"
+    timestamp: "00:01:02"
+    confidence: "high"
+    flagged: true
+  - claim: "Nikkei closed over 5% to the upside on ceasefire news"
+    timestamp: "00:01:02"
+    confidence: "medium"
+    flagged: true
+  - claim: "Delta Airlines said for every $1 increase in barrel cost, it costs them $45 million per year"
+    timestamp: "00:04:18"
+    confidence: "high"
+    flagged: true
+  - claim: "Delta flagged $2 billion fuel bill impact for quarter due to elevated oil prices"
+    timestamp: "00:03:39"
+    confidence: "high"
+    flagged: true
+  - claim: "Inflation potentially creeping to 3.7% if oil prices normalize from highs"
+    timestamp: "00:04:18"
+    confidence: "medium"
+    flagged: true
+  - claim: "Private credit market size is $1.8 trillion"
+    timestamp: "00:06:38"
+    confidence: "high"
+    flagged: true
+  - claim: "Strait of Hormuz carries 20% of world's oil supply"
+    timestamp: "00:01:52"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +118,50 @@ notes: ""
 **Published:** 2026-04-09
 **URL:** https://youtube.com/watch?v=_WnZMm9VuXU
 **Duration:** 7:29
+
+## Summary
+
+Rebecca Walser discusses the Iran ceasefire conditional on a two-week period, creating cautious optimism but also uncertainty about market expectations. Oil futures have already priced in near-term resolution, with December contracts at $73-74 (down from $77). The Nikkei surged over 5% on the news. However, Walser cautions against market getting ahead of itself, noting Iran's continuing posturing about controlling the Strait of Hormuz. Oil price impacts reverberate through fuel surcharges, delivery fees, and airline pricing, disproportionately affecting lower-income consumers. She discusses separate risks from private credit ($1.8 trillion market) facing AI-driven software disruption of financed companies.
+
+## Key Takeaways
+
+- Two-week conditional ceasefire carries execution risk; market may get ahead of skis on optimism
+- Oil futures already reflect market expectation of quick resolution at $73-74 for December
+- Fuel surcharges and delivery fees spreading across economy, hitting bottom of K-shaped economy
+- Delta Airlines example: $45 million per year per $1/barrel increase; $2B quarterly impact from surge
+- Strait of Hormuz controls 20% of world oil supply; Iran still posturing about control maintains risk
+- Private credit $1.8 trillion market faces separate AI software disruption from Fourth Industrial Revolution
+- If ceasefire fails, inflation expectations could approach 3.7% as reverberation effects dominate
+
+## Detailed Notes
+
+### Iran Ceasefire & Market Reaction [00:00:00]
+
+Two-week conditional ceasefire agreed upon, creating cautious optimism. However, ceasefire is conditional and Iran continues posturing about controlling the Strait. Walser expresses reservations about market getting ahead of itself. Nikkei closed over 5% to upside on news, indicating risk-on sentiment globally.
+
+### Oil Futures & Resolution Expectations [00:01:02]
+
+December oil futures down from $77 last week to $73-74 range this week, indicating market had already priced in expectation of short-lived conflict before ceasefire announcement. Suggests traders expect resolution regardless of ceasefire holding. December $73-74 level becomes key watched marker for market expectations.
+
+### Fuel Surcharges & Lower-Income Impact [00:01:52]
+
+Oil price impacts reverberate through fuel surcharges and delivery fees across economy. Airlines including Delta raising ticket prices. Fuel surcharges appearing on grocery delivery and shipping. Bottom of K-shaped economy disproportionately affected as lower-income households spend higher percentage of budget on energy. Strait of Hormuz controls 20% of world oil supply, creating supply vulnerability.
+
+### Delta Airlines as Economic Indicator [00:03:39]
+
+Delta provided specific metric: $45 million per year cost increase for every $1 per barrel increase. Massive oil spike resulted in ~$2 billion fuel bill impact for single quarter. Airlines raising prices on premium tickets to offset costs. Shows how energy shocks propagate through transportation and travel sectors.
+
+### Inflation & Policy Risk [00:04:18]
+
+Energy inflation reverberates across all industries. Inflation potentially creeping toward 3.7% if elevated prices persist. CPI specifically impacted by energy pass-through. This administration does not want to see sustained inflation entering midterms; policy pressure exists to resolve conflict quickly.
+
+### Private Credit Market Risks [00:06:38]
+
+$1.8 trillion private credit market faces separate risks from AI disruption beyond energy crisis. Soft companies privately financed and leveraged by private equity facing disruption from AI adoption. This risk is separate and apart from energy crisis but compounds overall financial contagion potential.
+
+### Scenario Risk & Escalation [00:05:21]
+
+Biggest risk: market rallies on ceasefire expectations, then something goes wrong and Strait closes. Iran could reject deal based on religious/political reasons beyond pure economics. If this occurs, reverberation stronger than initial conflict because market will realize resolution is far away, reducing hope and confidence.
 
 ## Transcript
 

@@ -45,27 +45,52 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser discusses tariff policy impacts, market volatility, and economic headwinds on NYSE TV. Analyzes consumer confidence decline, retail sales weakness, PCE data, and Trump administration's tariff implementation strategy affecting investor positioning."
 topics: []
-topics_proposed: []
+topics_proposed: ["tariffs", "market-volatility", "federal-reserve-policy", "consumer-confidence", "international-trade"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Rebecca Walser"
+      role: "wealth management CEO"
+    - name: "Kristen Scholer"
+      role: "NYSE TV host"
+    - name: "Donald Trump"
+      role: "president"
+  companies:
+    - name: "Alibaba"
+      ticker: null
+    - name: "Nvidia"
+      ticker: null
+  tickers: ["NVDA"]
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["tariff-policy", "market-volatility", "PCE-inflation", "consumer-confidence", "AI-competition", "international-investment"]
+content_type: "analysis"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Consumer confidence dropped from 74 in December to 71.1 in January to 64.7 in February, massive one-month decline"
+    timestamp: "00:01:03"
+    confidence: "high"
+    flagged: true
+  - claim: "Trump will implement 25% tariffs on Canada and Mexico on Tuesday"
+    timestamp: "00:02:05"
+    confidence: "high"
+    flagged: false
+  - claim: "Additional 10% tariffs being added to existing 10% tariffs on China"
+    timestamp: "00:02:05"
+    confidence: "high"
+    flagged: false
+  - claim: "10-year Treasury yields have naturally declined from 47-48% to 42% range due to global slowdown"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +100,41 @@ notes: ""
 **Published:** 2025-03-04
 **URL:** https://youtube.com/watch?v=HlYEQ8lSBp4
 **Duration:** 6:16
+
+## Summary
+
+Walser appears on NYSE TV to discuss economic crosscurrents in late February 2025. She frames PCE data as providing breathing room but acknowledges broader economic headwinds. Key focus is Trump administration's tariff strategy as negotiation tactic that will create volatility for 6-9 months while fundamentals play out. Walser recommends commodities-focused positioning and cautions on international equity exposure, particularly China, given technology theft concerns.
+
+## Key Takeaways
+
+- PCE data came in line with expectations, providing Federal Reserve breathing room despite earlier hot CPI and PPI readings
+- Consumer confidence collapsed from 74 to 64.7 in one month as COVID stimulus reserves exhausted for non-wealthy Americans
+- Tariffs represent strategic policy tool rather than immediate implementation; Trump using economic policy as negotiation lever
+- Market faces further pullback risk as overbought conditions unwind amid policy uncertainty and volatility
+- Commodities positioned as stalwart investment for 2025 volatility rather than equities
+- US AI competitiveness concerns as capital flows to international players like Alibaba following DeepSeek developments
+
+## Detailed Notes
+
+### Economic Data and Fed Policy [00:00:00]
+
+PCE came in line with expectations, providing relief after hot CPI and PPI data. Ten-year Treasury yields have naturally declined from 47-48% to 42% due to global macro slowdown and market expectations. Federal Reserve has more breathing room for policy but rate cuts uncertain given existing Treasury yield decline.
+
+### Consumer Confidence Collapse [00:01:03]
+
+Consumer confidence index fell from 74 (December) to 71.1 (January) to 64.7 (February)—massive one-month decline. Walser attributes this to exhaustion of COVID stimulus reserves for non-wealthy Americans. Retail sales declining, indicating consumer spending pressure despite lack of stimulus.
+
+### Tariff Strategy and Volatility [00:02:05]
+
+Trump implementing 25% tariffs on Canada and Mexico on Tuesday, adding 10% to existing 10% China tariffs. Walser characterizes this as negotiation tactic, not permanent policy, requiring investors to prepare for 6-9 months of volatility while actual outcomes clarify. Notes this presidency using economic policy differently than investors expect.
+
+### Market Technical and Positioning [00:03:07]
+
+Market remains overbought, priced for perfection. Walser expects further pullback before recovery. Retail investors continue 'buy the dip' mentality but underlying technical weakness evident. Recommends commodities-focused positioning over equities given macro uncertainty.
+
+### AI and International Competitiveness [00:04:10]
+
+DeepSeek development prompted capital flows to Alibaba despite US tech dominance concerns. Nvidia navigated week well but uncertainty remains. Walser questions whether US will maintain AI leadership if technology theft continues. Suggests international investment opportunities but notes concerns about investing in Chinese technology given IP theft.
 
 ## Transcript
 

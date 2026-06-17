@@ -38,24 +38,37 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Educational guide on the 5-Year Rule for retirement planning, which recommends beginning retirement planning at least 5 years before target retirement date. Explains how retirement timing differs from expectations, the importance of comprehensive planning, and argues financial advisory fees are worth the cost to retire earlier and with confidence."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning-timeline", "five-year-rule", "time-value", "financial-advisory", "retirement-readiness", "retirement-risk-zone"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, RICP, Owner of Peak Financial Planning"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
+    - name: "Employee Benefit Research Institute"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["5-year rule", "retirement risk zone", "time value of money", "health value over time", "retirement assessment", "retirement prescription", "retirement monitoring", "market corrections", "inflation risk", "Social Security", "Medicare", "Roth conversions", "required minimum distributions"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Median planned retirement age is 65 but median actual retirement age is 62, showing 3-year gap between expectation and reality"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Most people require 18-24 months to create and become familiar with their retirement plan"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: ["unpunctuated_captions"]
@@ -68,6 +81,52 @@ notes: ""
 **Published:** 2024-10-26
 **URL:** https://youtube.com/watch?v=XMlwUASXDWk
 **Duration:** 10:00
+
+## Summary
+
+Eric Amzalag introduces the 5-Year Rule, a framework stating that optimal retirement planning should begin at least 5 years before target retirement date. Based on research showing people retire 3 years earlier than planned and requiring 18-24 months to develop understanding of their retirement plan, the rule provides crucial preparation time. The video emphasizes viewing time as the most valuable finite asset, advocates for investing in professional financial planning, and presents a four-step retirement planning process: assessment, prescription, monitoring, and systematic adjustments.
+
+## Key Takeaways
+
+- The 5-Year Rule states planning should begin 5 years before target retirement date; people typically retire 3 years earlier than expected and need 18-24 months to fully understand retirement planning.
+- Time is your most finite and valuable asset, particularly healthy years; the time-value of money principle applies even more powerfully to health and life years.
+- Proper retirement planning includes four components: retirement assessment (wants vs. can spend), retirement prescription (actions to improve alignment), monitoring system (what to track), and systematic adjustments (responses to market changes).
+- Professional financial advisory fees may be worth the cost if they enable earlier retirement and provide confidence; comparing to working longer to avoid advisor fees is often false economy.
+- The Retirement Risk Zone (5-year planning window) provides advantages: preparation if forced early retirement, time to adjust course if needed, and confidence to retire when ready.
+
+## Detailed Notes
+
+### The 3-Year Gap and Research Foundation [00:00:00]
+
+Employee Benefit Research Institute study found median planned retirement age is 65 but actual median retirement age is 62. This 3-year gap occurs because people delay planning until forced by downsizing, health issues, or personal circumstances. Knowing this gap informs the 5-year rule: 3 years earlier than expected, plus 2 years planning needed, equals 5-year window.
+
+### Retirement as Complex Puzzle [00:00:00]
+
+Retirement planning involves interwoven decisions: savings rate, account types, investment strategy pre-retirement, withdrawal strategy post-retirement, tax planning, Roth conversions, RMD timing, healthcare insurance transitions, and Social Security claiming. Most people won't retire until they feel they understand these questions, making pre-retirement education essential.
+
+### Advantages of 5-Year Planning Window [00:00:00]
+
+The 5-year planning period (retirement risk zone) provides three major advantages: (1) preparedness if forced to retire early unexpectedly, (2) time to course-correct retirement finances if needed (turning the Titanic takes time), (3) confidence to retire on your terms or even earlier than initially thought if planning goes well.
+
+### Time as Most Valuable Asset [00:00:00]
+
+Unlike money which can be earned, time is finite and non-renewable. Eric cites observation that young people trade youth for money while older people trade money for youth. This inversion means healthy time at age 60 is more valuable than uncertain health at 65 or 67. Time value application to health suggests retiring earlier with good health is optimal.
+
+### Four-Part Retirement Planning Process [00:00:00]
+
+Proper retirement plan includes: (1) Retirement assessment comparing desired spending vs. sustainable spending, (2) Retirement prescription identifying actions to narrow gap between wants and capacity, (3) Monitoring system tracking key metrics post-retirement, (4) Systematic adjustments plan documenting responses to market corrections, inflation spikes, or life changes.
+
+### The Cost of Delaying Planning [00:00:00]
+
+Retirement planning appears so large and complex that people delay addressing it. Media and financial services industry may profit from keeping people working longer, but bigger fear is cost of professional financial advice. Ironically, avoiding advisor fees may lead to working years longer and missing retirement years, making the fee a worthwhile investment.
+
+### Professional Advice vs. DIY Financial Planning [00:00:00]
+
+Fear of paying asset management fees leads people to either: (1) attempt learning all retirement planning independently and risk mistakes, or (2) seek cheapest advice (unrealistic). Professional planners are in high demand for quality because not all advisers can deliver equally. Best practitioners charge premium rates for their services.
+
+### Calculating the Value of Financial Advice [00:00:00]
+
+Paying for professional financial advice could provide two critical benefits: (1) permission to spend accumulated wealth in retirement, (2) confidence to retire earlier. If fees enable reclaiming 3-5 years of healthy life earlier, the financial and health value of that time may far exceed the advisory fees paid.
 
 ## Transcript
 

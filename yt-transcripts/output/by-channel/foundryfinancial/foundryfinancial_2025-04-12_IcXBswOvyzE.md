@@ -63,24 +63,33 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Kevin Lum discusses five major purchases to complete before retirement to gain both practical and psychological advantages: finish health and dental work (vision and dental not covered by Medicare), purchase a home (easier loan qualification with W2 income), tackle major home repairs, buy reliable transportation, and prepay bucket list experiences. He emphasizes the psychological difficulty of spending money in retirement and argues that pre-retirement spending is strategically smart."
 topics: []
-topics_proposed: []
+topics_proposed: ["pre-retirement-spending", "retirement-psychology", "major-purchases", "healthcare-planning", "lifestyle-preparation"]
 entities:
-  people: []
+  people:
+    - name: "Kevin Lum"
+      role: "certified financial planner"
   companies: []
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Medicare", "W2 income"]
+  concepts: ["retirement spending psychology", "home equity", "dental care", "vision care", "home repairs", "bucket list experiences"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Vision and dental care are not covered under standard Medicare unless you purchase additional policies"
+    timestamp: "00:01:46"
+    confidence: "high"
+    flagged: false
+  - claim: "Mortgage qualification is significantly easier while employed with W2 income than as a retiree without regular income"
+    timestamp: "00:02:28"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: []
@@ -93,6 +102,52 @@ notes: ""
 **Published:** 2025-04-12
 **URL:** https://youtube.com/watch?v=IcXBswOvyzE
 **Duration:** 10:16
+
+## Summary
+
+Kevin Lum shares insights from hundreds of retirement planning conversations, revealing that many retirees wish they had spent more before leaving the workforce. He identifies five prudent pre-retirement purchases that serve both practical and psychological purposes. The underlying theme is that the transition from saving to spending creates psychological friction—people shift into scarcity mode despite having adequate resources—making it strategic to execute major spending decisions while still earning income and feeling less psychologically constrained.
+
+## Key Takeaways
+
+- Health and dental work should be prioritized pre-retirement because Medicare coverage is limited (vision and dental excluded unless supplemental policies purchased), and healthcare deductibles may be lower while employed.
+- Home purchases are easier pre-retirement due to stronger loan qualification with W2 income; delaying until retired can make financing difficult even if you have cash savings.
+- Major home repairs (roof, HVAC, plumbing, kitchen remodels, windows, insulation) should be tackled while earning to avoid unexpected expenses post-retirement and because spending feels psychologically easier with active income.
+- A reliable, low-maintenance car purchased pre-retirement significantly reduces stress in retirement; this may be an appropriate time to splurge on a vehicle you've always wanted.
+- Bucket list experiences should be prepaid or booked before retirement to overcome the psychological barrier that prevents retirees from spending on discretionary travel and activities despite having sufficient resources.
+
+## Detailed Notes
+
+### The Psychological Shift from Saving to Spending [00:00:00]
+
+A client told Lum she wished she had spent more before retiring. Upon reflection, Lum realized this sentiment applies broadly: money spent on preparation for retirement is both practically smart and psychologically advantageous. Retirement triggers a switch from abundance mindset to scarcity mindset, making it harder to spend even with adequate resources.
+
+### Priority 1: Health and Dental Work [00:01:46]
+
+Clients consistently report satisfaction with pre-retirement health and dental investments. Medicare coverage gaps (vision and dental not included without supplemental policies) make pre-retirement work economically sound. Completing crowns, bridges, fillings, and procedures like knee or hip replacement while covered by employer health plans is practical and timely.
+
+### Priority 2: Home Purchase or Downsizing [00:02:28]
+
+Lum cites Reddit forum discussions and client feedback: retirees wish they had purchased or relocated before retirement. W2 income makes mortgage qualification straightforward; retirees face difficulty qualifying even with substantial savings. If downsizing, relocating, or moving closer to family is planned, accomplishing it pre-retirement preserves loan access options.
+
+### The Psychology of Retirement Spending [00:04:08]
+
+Retirement triggers a reptilian brain response—income stops, triggering fight-or-flight and scarcity thinking. Savers and frugal people (who make up much of Lum's audience) particularly struggle shifting from saving to spending mode. The brain generates worst-case scenarios and convinces people they don't have enough despite evidence to the contrary, paralyzing discretionary spending.
+
+### Priority 3: Major Home Repairs and Upgrades [00:05:11]
+
+Roof, HVAC, plumbing, kitchen remodels, windows, and insulation upgrades should be completed pre-retirement. Beyond avoiding unexpected expenses post-retirement, spending feels psychologically easier while active income flows. Upgrading home efficiency now saves money later and improves living conditions (retirees spend vastly more time at home).
+
+### Priority 4: Reliable, Low-Maintenance Vehicle [00:06:14]
+
+Clients report that dependable transportation significantly reduces stress in retirement. This may be the appropriate time to purchase that car you've always wanted, understanding that happiness from such purchases is fleeting but utility and reliability provide lasting benefit. A well-maintained vehicle prevents costly surprises.
+
+### Priority 5: Prepay Bucket List Experiences [00:07:16]
+
+Dreams of travel and experiences often remain unfulfilled post-retirement due to spending anxiety. Prepaying or booking trips and experiences before retirement overcomes the psychological barrier and ensures they actually happen. Many retirees perpetually postpone dreams, convincing themselves they're not secure enough, until mobility or health decline prevents experiences from being enjoyed.
+
+### Additional Recommendations and Final Perspective [00:08:46]
+
+Reddit retirement forums yielded additional suggestions: health and fitness memberships, hobby equipment, musical instruments, quality mattresses, educational courses, home appliances, outdoor equipment, backyard investments, financial planning services, pet adoption, charitable donations, gardening supplies, home cleaning services, hearing aids, and home decor. The overarching message: retirement planning is about more than saving; it's about preparing to enjoy the next life stage.
 
 ## Transcript
 

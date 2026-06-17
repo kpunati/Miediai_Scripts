@@ -45,24 +45,39 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser discusses Trump's tariff threats on China, Mexico, and Canada, arguing they are primarily political leverage. She emphasizes tariffs' impact on bond yields and deficit concerns, while noting foreign leaders are responding to prevent implementation. The discussion covers trade policy effectiveness and market implications."
 topics: []
-topics_proposed: []
+topics_proposed: ["tariffs", "trade-policy", "political-leverage", "bond-yields", "trump-administration"]
 entities:
-  people: []
+  people:
+    - name: "Rebecca Walser"
+      role: "wealth management professional"
+    - name: "Donald Trump"
+      role: "president-elect"
   companies: []
-  tickers: []
+  tickers: ["DIA", "SPY", "NASDAQ"]
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["tariffs", "political leverage", "trade relations", "bond yields", "deficit reduction"]
+content_type: "opinion"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Trump is using tariff threats as political leverage to influence foreign policy without necessarily implementing them"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Bond yields have come down due to Trump's hawkish economic appointments"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Foreign leaders are calling Trump to prevent tariff implementation"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: ["unpunctuated_captions"]
@@ -75,6 +90,32 @@ notes: ""
 **Published:** 2024-12-03
 **URL:** https://youtube.com/watch?v=ofDjfrfEJfE
 **Duration:** 4:04
+
+## Summary
+
+Rebecca Walser discusses Trump's tariff strategy, characterizing it as political leverage rather than certain policy implementation. She notes that foreign leaders are responding to prevent tariffs from taking effect. The conversation examines how markets (Dow, S&P, NASDAQ) remain unfazed despite tariff threats, and how bond yields have declined in response to Trump's hawkish economic appointments focused on deficit reduction.
+
+## Key Takeaways
+
+- Trump's tariff announcements serve as political leverage to negotiate with foreign leaders rather than definite policy outcomes.
+- Bond yields have declined due to market anticipation of deficit-conscious economic appointments.
+- Foreign leaders from Mexico and Canada are taking proactive measures to prevent tariff implementation.
+- Markets are showing resilience despite trade tension headlines, suggesting confidence in negotiation outcomes.
+- The effectiveness of tariffs depends on actual implementation and policy details rather than initial threats.
+
+## Detailed Notes
+
+### Tariffs as Political Leverage [00:00:00]
+
+Rebecca Walser explains that Trump's tariff threats on Mexico, Canada, and China are primarily political leverage to negotiate with foreign leaders. She notes that implementation and actual policy impact are uncertain, but the threats are already effective in prompting foreign leaders to call and negotiate.
+
+### Bond Market Response [00:00:00]
+
+Bond yields have come down because markets expect Trump's economic appointees (characterized as hawkish deficit-cutters) will avoid excessive monetary stimulus. This contrasts with previous administration policies.
+
+### Market Resilience [00:00:00]
+
+Despite tariff threats, major indices (Dow, S&P, NASDAQ) remain relatively unfazed. The discussion suggests markets are pricing in successful negotiation rather than actual tariff implementation.
 
 ## Transcript
 

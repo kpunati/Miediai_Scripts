@@ -34,27 +34,46 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Educational explanation of how RSUs (Restricted Stock Units) work and their taxation. Covers the tax treatment upon vesting (taxed as ordinary income at fair market value), post-vesting scenarios including short-term capital gains, and long-term capital gains treatment. Uses a real example of Reddit RSUs to illustrate the concepts."
 topics: []
-topics_proposed: []
+topics_proposed: ["restricted-stock-units", "rsu-taxation", "capital-gains", "employee-equity", "tax-withholding"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Colin Overweg"
+      role: "Financial advisor/educator"
+  companies:
+    - name: "Reddit"
+      ticker: "RDDT"
+  tickers: ["RDDT"]
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Restricted Stock Units (RSUs)"]
+  concepts: ["ordinary income taxation", "short-term capital gains", "long-term capital gains", "tax withholding", "FICA taxes", "concentrated stock positions"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "RSU vesting is taxed as ordinary income at the fair market value on the vesting date"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Total tax withholding on RSU vesting can be approximately 48% (federal, state, FICA, Medicare)"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Short-term capital gains (held less than 1 year) are taxed as ordinary income without FICA"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Long-term capital gains rates are 0% for married couples earning less than $96,000 and 15% for income between $100,000-$600,000"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -64,6 +83,44 @@ notes: ""
 **Published:** 2025-09-10
 **URL:** https://youtube.com/watch?v=0GE3q61oSjo
 **Duration:** 6:45
+
+## Summary
+
+This video explains RSU taxation through a real-world example of a Reddit employee. The key insight is that RSUs are taxed in two stages: when they vest, the fair market value is treated as ordinary income (subject to withholding), and any subsequent gains or losses are treated as capital gains (short-term or long-term depending on holding period). The presenter recommends diversifying by selling vested shares rather than concentrating wealth in employer stock.
+
+## Key Takeaways
+
+- Upon vesting, RSUs are taxed as ordinary income at the fair market value on the vesting date, with typical withholding around 48%
+- If you sell immediately after vesting, no additional tax is owed beyond the withholding already applied
+- Holding vested shares creates capital gains: short-term (less than 1 year, taxed as ordinary income) or long-term (over 1 year, taxed at preferential rates)
+- Long-term capital gains rates are typically 0%, 15%, or 20% depending on income, making holding longer advantageous
+- Financial advisors typically recommend selling vested RSUs to avoid concentration risk in employer stock
+
+## Detailed Notes
+
+### RSU Vesting and Taxation Basics [00:00:00]
+
+When RSUs vest, the number of shares (25% quarterly in this example) multiplied by the fair market value on the vesting date becomes ordinary income subject to withholding. In the Reddit example, 330 shares vesting at $218/share = $71,940 in taxable income.
+
+### Tax Withholding on Vested RSUs [00:00:00]
+
+Total withholding includes federal income tax (potentially 28%), state tax (varies: CA ~10%, TX/FL 0%, MI 4.25%), Social Security, Medicare, and additional Medicare taxes. Combined, this can total approximately 48%, leaving about $37,589 of the $71,940 after withholding.
+
+### Immediate Sale Scenario [00:00:00]
+
+If shares are sold immediately after vesting, there is no additional tax—the withholding already applied covers the tax obligation. This is the simplest and most tax-efficient approach for many employees.
+
+### Short-Term Capital Gains (Less Than 1 Year) [00:00:00]
+
+If shares are held for less than one year and then sold at a higher price, any gain is taxed as ordinary income (no FICA). In the example, a 10% gain ($3,700) results in ~$1,400 in taxes at ~38% combined rate, netting $39,000.
+
+### Long-Term Capital Gains (Over 1 Year) [00:00:00]
+
+Holding shares for over one year qualifies for lower long-term capital gains rates: 0% for married couples under $96,000 income, 15% for $100,000-$600,000 income. Same 10% gain on $37,589 results in much lower tax (~$5,600 at 15% vs $1,400 at 38%), netting approximately $35,500.
+
+### Diversification Recommendation [00:00:00]
+
+The presenter recommends selling vested RSUs and reinvesting broadly rather than concentrating wealth in employer stock. The logic: you wouldn't voluntarily invest your salary into concentrated company stock, so receiving RSUs shouldn't change that principle.
 
 ## Transcript
 

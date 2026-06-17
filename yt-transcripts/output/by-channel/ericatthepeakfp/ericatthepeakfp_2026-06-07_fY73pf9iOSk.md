@@ -37,27 +37,50 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Financial advisor presents data on early retiree healthcare costs and subsidies, showing that marketplace coverage before Medicare is more affordable and accessible than many retirees assume."
 topics: []
-topics_proposed: []
+topics_proposed: ["healthcare-planning", "retirement-planning", "affordable-care-act", "medicare", "early-retirement"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, financial advisor"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
+    - name: "Kaiser Family Foundation"
+      ticker: null
+    - name: "Centers for Medicare and Medicaid Services"
+      ticker: "CMS"
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Healthcare.gov", "ACA Marketplace"]
+  concepts: ["premium tax credits", "marketplace subsidies", "income sequencing", "modified adjusted gross income", "pre-Medicare healthcare", "ACA subsidies"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "About one-third of marketplace enrollees in 2023 were ages 50-64, nearly 8 million people"
+    timestamp: "00:00:43"
+    confidence: "high"
+    flagged: true
+  - claim: "Average healthcare.gov premium after tax credits is projected to be about $50 per month in 2026 for the lowest cost plan"
+    timestamp: "00:02:42"
+    confidence: "medium"
+    flagged: true
+  - claim: "Nearly 60% of eligible enrollees in 2026 have access to a plan at or below $50 per month after tax credits"
+    timestamp: "00:03:33"
+    confidence: "medium"
+    flagged: true
+  - claim: "87% of marketplace consumers still received premium tax credits in 2026 even after enhanced subsidies expired"
+    timestamp: "00:05:37"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -67,6 +90,44 @@ notes: ""
 **Published:** 2026-06-07
 **URL:** https://youtube.com/watch?v=fY73pf9iOSk
 **Duration:** 9:36
+
+## Summary
+
+Financial advisor Eric Amzalag challenges the common misconception that healthcare costs before Medicare are prohibitively expensive and inaccessible. Using data from the Kaiser Family Foundation and Centers for Medicare and Medicaid Services, the video demonstrates that marketplace coverage is widely used by people ages 50-64, that many qualify for substantial premium tax credits, and that multiple plan options are available in most areas.
+
+## Key Takeaways
+
+- About one-third of 2023 marketplace enrollees were ages 50-64, making pre-Medicare coverage a common pathway used by millions
+- Average healthcare.gov premiums after tax credits are significantly lower than most retirees expect, with projections around $50 per month for eligible enrollees
+- Nearly 60% of eligible enrollees have access to plans costing $50 or less per month after tax credits, indicating affordability is more common than assumed
+- Even after enhanced ACA subsidies expired at the end of 2025, 87% of marketplace consumers still received premium tax credits
+- Most enrollees have access to six or seven health plan issuers, providing meaningful choice rather than being forced onto a single plan
+
+## Detailed Notes
+
+### Marketplace Coverage is Common for Pre-Medicare Retirees [00:00:43]
+
+Many people believe health insurance before age 65 exists in uncharted territory, but Kaiser Family Foundation data shows nearly 8 million people (about one-third of marketplace enrollees in 2023) were ages 50-64. This demonstrates marketplace coverage is a normal system used by millions in the pre-Medicare age range, not an unusual exception.
+
+### Premium Costs Are Often Lower Than Expected [00:02:42]
+
+A critical misconception is that marketplace premiums are automatically prohibitive. CMS projects the average healthcare.gov premium after tax credits will be about $50 per month in 2026 for the lowest cost eligible plan. While actual costs depend on location, household size, income, age, and plan choice, this number is typically much lower than what retirees assume without checking actual pricing.
+
+### Affordability is Widespread Among Eligible Enrollees [00:03:33]
+
+Nearly 60% of eligible enrollees in 2026 have access to a plan at or below $50 per month after tax credits. This shows low-premium examples are not rare outliers but represent a meaningful share of the eligible population. Many people delay retirement based on feared healthcare costs without actually running the numbers.
+
+### Strategic Income Sequencing Matters for Subsidy Eligibility [00:04:36]
+
+Subsidy eligibility depends heavily on reported taxable income. Retirees can strategically sequence withdrawals and manage Modified Adjusted Gross Income (MAGI) to qualify for premium tax credits even with high wealth or income. This is a retirement planning action item, not a fixed expense to accept blindly.
+
+### Subsidies Persist Despite Enhanced Subsidy Expiration [00:05:37]
+
+While enhanced ACA subsidies expired at the end of 2025, making coverage more expensive for some, 87% of marketplace consumers still received premium tax credits in 2026. The subsidy system did not disappear; it became less generous. Retirees should model coverage costs under new rules and evaluate different retirement timing scenarios.
+
+### Multiple Plan Choices Reduce Risk [00:06:40]
+
+Average healthcare.gov enrollees in 2026 have access to six or seven qualified health plan issuers, with 95% having access to three or more. This plurality of choice allows retirees to compare premiums, deductibles, out-of-pocket maximums, and network availability rather than being forced onto a single plan.
 
 ## Transcript
 

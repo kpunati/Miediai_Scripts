@@ -45,27 +45,48 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Analysis of how escalating Middle East war tensions and potential strikes on Iranian oil infrastructure are driving crude oil prices higher, with implications for gas prices, inflation, and consumer costs."
 topics: []
-topics_proposed: []
+topics_proposed: ["oil-prices", "geopolitical-conflict", "energy-inflation", "iran-tensions", "strategic-reserves"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Rebecca Walser"
+      role: "wealth management president"
+    - name: "Trump"
+      role: "president"
+  companies:
+    - name: "Delta Airlines"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["oil-production-cuts", "straight-of-hormuz", "strategic-reserve-release", "energy-independence"]
+content_type: "news"
+audience_level: "beginner"
+key_claims: 
+  - claim: "Har Island handles around 90% of Iran's crude exports"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "For every $1 increase in oil price per barrel, Delta Airlines incurs $40 million additional annual fuel costs"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Saudi Arabia is shutting down 20% of oil production and Iraq is cutting 1.5 million barrels"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "40% of Iranian state budget comes from oil revenue"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +96,41 @@ notes: ""
 **Published:** 2026-03-16
 **URL:** https://youtube.com/watch?v=oGJimHbtyoM
 **Duration:** 5:37
+
+## Summary
+
+Rebecca Walser explains the geopolitical and economic impacts of Middle East tensions on crude oil prices. Har Island, handling 90% of Iran's oil exports, is a key strategic target. Global oil supply reductions from Saudi Arabia and Iraq are pushing prices higher, which has cascading effects on consumer prices from airline fuel costs to general inflation.
+
+## Key Takeaways
+
+- Har Island controls approximately 90% of Iran's crude exports, making it a critical geopolitical chokepoint
+- Every $1 barrel price increase costs Delta Airlines $40 million annually, with costs passed to consumers
+- Saudi Arabia and Iraq have cut significant oil production, reducing global supply by millions of barrels
+- Oil disruptions directly translate to higher prices for everyday consumer goods and services
+- Strategic reserve releases can provide short-term price relief but don't address structural supply constraints
+- Energy independence status provides some pricing leverage but doesn't eliminate global market impacts
+
+## Detailed Notes
+
+### Strategic importance of Har Island [00:00:00]
+
+US military targeted Iranian military sites on Har Island. The island handles approximately 90% of Iran's crude exports and is part of Iran's oil infrastructure. US has not ruled out further military action targeting oil facilities directly.
+
+### Supply reduction from major producers [00:00:00]
+
+Saudi Arabia announced 20% production cuts. Iraq cutting 1.5 million barrels. These reductions create global supply shortfall that pushes prices higher as normal suppliers cannot meet demand.
+
+### Consumer impact through airline costs [00:00:00]
+
+Delta Airlines faces $40 million additional cost for every $1 barrel price increase, costs that are directly passed to consumers through higher ticket prices.
+
+### Government responses to supply crisis [00:00:00]
+
+Trump administration temporarily lifted sanctions on Russian oil shipments and tapped oil reserves. Reserve release provides short-term price ceiling but is limited in duration. Longer-term supply depends on Iran-China and Iran-India negotiations.
+
+### Strategic analysis and midterm implications [00:00:00]
+
+If Iran regime falls or Cuba situation resolves, spot oil could drop to $50s, providing political wins ahead of midterm elections. Short-term inflation pain but potential medium-term benefit for incumbent party.
 
 ## Transcript
 

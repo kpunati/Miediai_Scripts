@@ -55,27 +55,48 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Discusses retirement timing and flexibility, revealing that while most people plan to retire after 65, 70% actually retire between ages 62-64. Provides three strategies: discovering earliest affordable retirement age, creating a financial narrative, and practicing retirement before transitioning."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "early-retirement", "retirement-age", "financial-flexibility", "retirement-readiness"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, founder of Brindle & Bay Wealth Management"
+    - name: "Walter"
+      role: "retiree example"
+    - name: "Stacy"
+      role: "retiree example"
+    - name: "Susan"
+      role: "retiree example"
+    - name: "Richard"
+      role: "retiree example"
+  companies:
+    - name: "Brindle & Bay Wealth Management"
+      ticker: null
+    - name: "Employee Benefits Research Institute"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Money Master Guardrails"]
+  concepts: ["retirement flexibility", "retirement income strategy", "social security timing", "retirement budget", "early retirement discovery"]
+content_type: "educational"
+audience_level: "beginner"
+key_claims: 
+  - claim: "50% of people say they want to retire after age 65, yet 70% of those people actually retire between ages 62 and 64"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "A flexible retirement plan requires discovering the earliest you're willing to retire by balancing savings with spending lifestyle"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -85,6 +106,40 @@ notes: ""
 **Published:** 2024-06-23
 **URL:** https://youtube.com/watch?v=c_iY3pU6DMg
 **Duration:** 7:58
+
+## Summary
+
+This video addresses a common misconception about retirement timing. While most people plan to retire at 65 or 67, research from the Employee Benefits Research Institute shows that approximately 70% of people actually retire between ages 62 and 64. Nick Davis presents the concept of a flexible retirement plan that prepares people for the possibility of earlier-than-expected retirement due to various life circumstances such as job opportunities, health issues, or personal desire.
+
+## Key Takeaways
+
+- Most people retire earlier than planned; flexibility is essential rather than fixed retirement dates
+- Discover your earliest affordable retirement age by balancing savings with sustainable spending
+- Create a financial narrative by organizing accounts, calculating investment income, and planning Social Security timing
+- Practice retirement before transitioning by living on your retirement budget and taking unpaid time off work
+- Retirement requires emotional and financial preparation similar to moving to a new country, not just showing up
+
+## Detailed Notes
+
+### Common Retirement Planning Myth [00:00:00]
+
+Study by Employee Benefits Research Institute reveals that while 50% plan to retire after 65, 70% actually retire between 62-64. Three real examples shown: Walter delayed for a desired project, Stacy worked extra for a bonus, and Susan and Richard both retired early due to health reasons. This demonstrates why retirement plans must be flexible.
+
+### Two Sides of Retirement Planning [00:00:00]
+
+Retirement involves both emotional and mathematical components. Unlike a cruise where you just show up, retirement is like moving to a foreign country requiring study, planning, and education. Most people feel relieved when they understand both the emotional and financial aspects of their plan.
+
+### Discover Your Earliest Retirement Age [00:00:00]
+
+Balance savings with sustainable spending lifestyle to find the earliest you can afford to retire. Document multiple scenarios in a one-page plan (e.g., retire at 67 with $125k lifestyle or at 63 with $110k lifestyle). The goal is knowing you can retire if needed, not necessarily retiring as early as possible.
+
+### Create Your Financial Narrative [00:00:00]
+
+Get organized by tallying accounts, calculating investment income, and understanding Social Security timing. Ensure realistic goals cover healthcare, vacations, and emergency expenses throughout retirement. This organization enables better decision-making about spending at various retirement ages.
+
+### Practice Retirement Before Transitioning [00:00:00]
+
+Test your retirement lifestyle by living on your proposed budget for a month, scheduling new activities and interests, and taking two weeks unpaid time off without vacation to simulate retirement. This practice period helps clarify how you'll spend time and find meaning in retirement.
 
 ## Transcript
 

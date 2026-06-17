@@ -62,27 +62,54 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Detailed analysis of the ACA subsidy cliff for early retirees in 2026, showing how $1 of income can cost $14,400 in lost health insurance subsidies. Presents a three-account withdrawal strategy (IRA, taxable, Roth) to manage modified adjusted gross income and preserve ACA eligibility while balancing long-term tax optimization through Roth conversions."
 topics: []
-topics_proposed: []
+topics_proposed: ["aca-subsidy", "early-retirement", "income-planning", "roth-conversion", "tax-optimization", "healthcare-planning", "magi"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Appienza"
+      role: "financial advisor"
+  companies:
+    - name: "Ritholtz Wealth"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["ACA", "Medicare", "Traditional IRA", "Roth IRA", "Taxable brokerage account"]
+  concepts: ["modified adjusted gross income", "subsidy cliff", "tax diversification", "withdrawal sequencing", "required minimum distributions", "capital gains tax", "premium surcharge"]
+content_type: "case-study"
+audience_level: "advanced"
+key_claims: 
+  - claim: "ACA subsidy cliff for married couples sits at $84,600 of household income in 2026"
+    timestamp: "00:00:03"
+    confidence: "high"
+    flagged: true
+  - claim: "Crossing the subsidy cliff by $1 can eliminate subsidies completely, not just reduce them"
+    timestamp: "00:00:03"
+    confidence: "high"
+    flagged: false
+  - claim: "Average unsubsidized premium for 60-year-old in 2026 is about $16,000 per year"
+    timestamp: "00:00:03"
+    confidence: "high"
+    flagged: true
+  - claim: "In Wyoming, unsubsidized premium for 60-year-old exceeds $22,000 in 2026"
+    timestamp: "00:00:03"
+    confidence: "high"
+    flagged: true
+  - claim: "Client case study shows $14,400 annual savings from staying below subsidy cliff"
+    timestamp: "00:00:03"
+    confidence: "high"
+    flagged: true
+  - claim: "Over 5 years until Medicare, the subsidy cliff strategy saves about $72,000"
+    timestamp: "00:00:03"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -92,6 +119,44 @@ notes: ""
 **Published:** 2026-04-16
 **URL:** https://youtube.com/watch?v=GUd5UFRBxlk
 **Duration:** 10:00
+
+## Summary
+
+A comprehensive guide for early retirees managing the ACA subsidy cliff, which returns in 2026 at $84,600 household income for married couples. The video uses a detailed case study of Maxine and David (age 60, retiring with $2.6M assets) to demonstrate how a three-account withdrawal strategy can preserve ACA subsidies while managing long-term tax obligations. The presenter explains the concept of modified adjusted gross income, why conventional withdrawal strategies fail, and the strategic trade-off between short-term subsidy savings and long-term Roth conversion benefits.
+
+## Key Takeaways
+
+- The ACA subsidy cliff is binary: $1 below $84,600 MAGI preserves subsidies, $1 above eliminates them entirely, potentially doubling health insurance premiums.
+- Modified adjusted gross income, not taxable income, determines ACA subsidy eligibility and includes non-taxable income like municipal bond interest.
+- A three-account withdrawal strategy (IRA using standard deduction, taxable account at 0% capital gains rate, then Roth) can cover $110,000 spending while keeping MAGI under $80,000.
+- The strategy creates a tension: preserve short-term subsidies ($72,000 savings over 5 years) versus execute Roth conversions to manage long-term tax burdens from future required minimum distributions.
+- Threading the needle with smaller annual Roth conversions before Medicare, then larger conversions after (absorbing some IRMA surcharges), often provides the best lifetime tax outcome.
+
+## Detailed Notes
+
+### The ACA Subsidy Cliff in 2026 [00:00:03]
+
+The ACA subsidy cliff reappears at $84,600 household income for married couples. Premiums for a 60-year-old average $16,000 unsubsidized nationally, exceeding $22,000 in high-cost states like Wyoming. Crossing the threshold by $1 eliminates subsidies entirely, not just reduces them, potentially adding $14,400 to annual premiums.
+
+### Client Case: Maxine and David [00:00:03]
+
+Both age 60, retiring in North Carolina with $2.6M assets: $1.6M traditional IRA, $350K Roth, $600K taxable. They receive $12,000/year pension and $18,000 in dividends/interest (3% yield). Need $110,000/year spending; $30,000 comes from pension/dividends, leaving $80,000 to withdraw from investments.
+
+### The Mistake: Wrong Withdrawal Order [00:00:03]
+
+Conventional strategy pulls from IRA first ($80K), leaving taxable and Roth untouched. This creates $110,000 modified adjusted gross income (MAGI), exceeding the $84,600 cliff by $33,000. Health insurance premiums jump from $7,800 to $22,000 annually. The mistake: watching taxable income instead of MAGI, which includes non-taxable income like municipal bond interest.
+
+### The Three-Account Solution [00:00:03]
+
+Step 1: Withdraw $30K from IRA using standard deduction (minimal tax impact). Step 2: Withdraw ~$17,500 in capital gains from taxable account at 0% rate (no tax). Step 3: Withdraw $30K from Roth (zero MAGI impact). Result: Full $110,000 spending covered, MAGI stays ~$80,000 (with buffer), premiums remain $7,800, saving $14,400 annually ($72,000 over 5 years).
+
+### The Roth Conversion Dilemma [00:00:03]
+
+Three paths emerge: (1) Preserve subsidy, leave IRA untouched, but face six-figure required minimum distributions by 75; (2) Aggressive conversions, but cost $25,000 ($9-10K taxes plus $14K lost subsidies); (3) Thread the needle with small annual conversions while protecting subsidies, then larger conversions post-Medicare with IRMA surcharges. Path 3 typically wins on lifetime tax basis.
+
+### Legacy and Long-Term Outcomes [00:00:03]
+
+Delaying larger conversions until Medicare age reduces sequence risk and annual cash flow strain. The projected legacy benefit increases through step-up in basis for taxable accounts (no capital gains for heirs) and tax-free Roth inheritance (10-year withdrawal rule). The strategy minimizes lifetime tax burden across multiple generations.
 
 ## Transcript
 

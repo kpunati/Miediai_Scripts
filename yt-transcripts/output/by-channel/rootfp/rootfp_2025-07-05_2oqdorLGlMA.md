@@ -61,27 +61,42 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "A financial adviser explores five non-financial reasons to retire now: time is non-renewable, prioritizing health before it deteriorates, maintaining relationships, maximizing healthspan rather than lifespan, and breaking free from work-identity dependence."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "healthspan", "financial-wellbeing", "retirement-psychology", "life-purpose"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "Financial adviser, CFP®"
+  companies:
+    - name: "Root Financial"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Root Financial Retirement Planning Academy"]
+  concepts: ["healthspan vs lifespan", "non-renewable time", "identity loss in retirement", "goalpost planning", "work-related burnout"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Average US healthspan is approximately age 66, when chronic health conditions begin limiting physical capabilities"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Continuing high-stress work after age 62-70 can actually shorten remaining healthspan due to accumulated stress"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Many retirees who postponed retirement experience depression, anxiety, and stress-related chronic health conditions"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -91,6 +106,41 @@ notes: ""
 **Published:** 2025-07-05
 **URL:** https://youtube.com/watch?v=2oqdorLGlMA
 **Duration:** 9:38
+
+## Summary
+
+James Conole discusses five critical factors beyond finances that determine retirement readiness: the irreplaceable nature of time, the importance of prioritizing health while capable, maintaining relationships, distinguishing between lifespan and healthspan, and overcoming identity-based fear of leaving work. The video emphasizes that financial readiness alone is insufficient without considering physical vitality, relationships, and psychological well-being during retirement years.
+
+## Key Takeaways
+
+- Time is the only non-renewable resource; once lost, it cannot be recovered regardless of financial gains
+- Many people engage in goalpost planning, constantly delaying retirement for one more bonus or raise while losing their healthiest years
+- Average US healthspan (years of good health) peaks around age 66; continuing work until 70 may consume all remaining quality years
+- Decades of work-related stress and burnout damage health and limit the ability to enjoy retirement activities
+- Identity loss from work departure prevents many from retiring despite financial readiness, creating psychological barriers
+- Prioritizing relationships throughout working years is critical, as relationship quality significantly impacts retirement satisfaction
+
+## Detailed Notes
+
+### Time as Non-Renewable Currency [00:00:00]
+
+Unlike money, which can be earned throughout life, time cannot be regenerated. Young workers prioritize money building, but as people age, there comes a crossover point where time becomes more valuable than additional income. Goalpost planning—constantly pushing retirement back for one more bonus—results in perpetually deferred retirement.
+
+### Health Investment and Burnout Effects [00:00:00]
+
+Decades of work stress and burnout take a toll on physical and mental health. Many retirees experience depression, anxiety, and stress-related chronic conditions. Without prioritizing health during working years, retirees may have time but lack the physical capability to engage in desired activities like travel, hiking, or spending time with grandchildren.
+
+### Relationship Prioritization [00:00:00]
+
+Working 40-50 hours weekly plus commuting and errands leaves limited quality time for spouses, children, and friends. Relationship health is a major determinant of retirement fulfillment and longevity. Postponing relationship investment until retirement may result in missing critical years and arriving at retirement without meaningful connections.
+
+### Healthspan vs. Lifespan [00:00:00]
+
+US average healthspan is approximately age 66; this is when chronic health conditions typically prevent people from doing activities requiring good health. Example: Working until age 70 to maximize Social Security means consuming all healthy years (62-66) while working, leaving only 22 years of life but zero years of optimal health.
+
+### Identity Loss and Work Dependency [00:00:00]
+
+Many financially-ready people continue working because their identity is deeply tied to their job. Fear of losing this identity, even in unsatisfying roles, creates a psychological barrier preventing retirement. Breaking free from work-for-work's-sake requires recognizing when work is causing stress, deteriorating health, or preventing life enjoyment rather than enhancing it.
 
 ## Transcript
 

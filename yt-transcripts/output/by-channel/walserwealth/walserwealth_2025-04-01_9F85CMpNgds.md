@@ -45,27 +45,46 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser discusses how media-driven consumer sentiment about tariffs and economic uncertainty is causing Americans to increase savings rates, while arguing that policy stabilization rather than tariffs themselves will drive market recovery and restore consumer confidence."
 topics: []
-topics_proposed: []
+topics_proposed: ["tariffs", "consumer-sentiment", "monetary-policy", "inflation", "savings-rates"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Rebecca Walser"
+      role: "wealth advisor"
+    - name: "Scott Shellady"
+      role: "host"
+    - name: "Janet Yellen"
+      role: "former Fed Chair"
+  companies:
+    - name: "Walser Wealth Management"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["tariff policy", "monetary monetary theory (MMT)", "market volatility", "savings rate", "consumer confidence", "recession definition", "government spending"]
+content_type: "opinion"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Personal savings rate rose to 4.6% in February, consumer spending inched up 0.1%"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Trump has only been in office for approximately 70 days"
+    timestamp: "00:01:40"
+    confidence: "high"
+    flagged: false
+  - claim: "$10 trillion was printed over three years after 2020"
+    timestamp: "00:03:21"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +94,36 @@ notes: ""
 **Published:** 2025-04-01
 **URL:** https://youtube.com/watch?v=9F85CMpNgds
 **Duration:** 6:44
+
+## Summary
+
+Rebecca Walser argues that market turmoil stems from policy uncertainty rather than tariffs themselves, with media amplifying consumer anxiety. She emphasizes that policy stabilization—expected within six months—will allow businesses to quantify costs and resume normal operations. Americans are correctly increasing savings, she suggests, as government overspending and inflationary policies have created unsustainable economic conditions that will eventually require correction.
+
+## Key Takeaways
+
+- Market volatility and consumer pullback reflect policy uncertainty, not inherent economic weakness; stabilization will restore confidence
+- The Federal Reserve's shift to modern monetary theory under Obama created asset bubbles that masked fundamental economic problems
+- Americans should embrace savings and preparedness rather than fear media narratives about recession or market crashes
+- Tariffs are merely exposing long-standing trade imbalances and government overspending that have accumulated over decades
+- Artificial intelligence may soften economic correction by boosting productivity, though a corrective period remains inevitable
+
+## Detailed Notes
+
+### Consumer Spending Pullback & Savings Increase [00:00:00]
+
+Consumer spending rose only 0.1% in February while personal savings rate reached 4.6%, reflecting consumer caution amid tariff discussions and economic uncertainty. University of Michigan sentiment surveys showed consumer optimism at lowest levels since 2022.
+
+### Policy Uncertainty vs. Tariff Impact [00:01:40]
+
+Walser argues Trump's tariff threats create policy volatility that prevents businesses from quantifying costs. Once policies stabilize (projected within 6 months), businesses will resume operations, mergers will reactivate, and market volatility will subside.
+
+### Root Cause: Monetary Policy & Government Spending [00:03:21]
+
+The underlying economic problem is the Federal Reserve's shift to modern monetary theory, which created unsustainable asset bubbles through excessive money printing ($10 trillion over 3 years post-2020). This has delayed inevitable economic correction.
+
+### Media Role in Shaping Sentiment [00:00:36]
+
+Media successfully influenced public perception during 2021-2022 inflation by labeling it 'transitory.' Similar media narratives now drive consumer anxiety, though the underlying issues (government overspending, inflationary policies) remain unaddressed.
 
 ## Transcript
 

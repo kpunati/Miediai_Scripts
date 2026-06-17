@@ -50,24 +50,35 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Manifesto advocating that true financial planning goal is not wealth accumulation but enabling freedom and fulfillment. Challenges the focus on portfolio balance growth in favor of aligning money with life's meaningful pursuits: purpose, adventure, relationships, health, and personal growth."
 topics: []
-topics_proposed: []
+topics_proposed: ["financial-planning-philosophy", "retirement-lifestyle", "financial-wellness", "life-fulfillment"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "CFP, founder of Root Financial"
+  companies:
+    - name: "Root Financial"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["financial wellness", "purpose-driven planning", "life priorities", "financial freedom"]
+content_type: "opinion"
+audience_level: "beginner"
+key_claims: 
+  - claim: "The goal of financial planning is not more money but what money enables"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Having all the money in the world is worthless without health, relationships, or time"
+    timestamp: "00:00:36"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: []
@@ -80,6 +91,36 @@ notes: ""
 **Published:** 2025-06-30
 **URL:** https://youtube.com/watch?v=fmp1pxnavVM
 **Duration:** 3:40
+
+## Summary
+
+This short manifesto challenges the conventional definition of financial success. Rather than focusing on maximizing wealth or portfolio balance, the presenter argues that meaningful financial planning begins with identifying what actually matters to clients—their purpose, adventure, and fulfillment goals. The video contends that money is simply a tool to enable these priorities, and financial planning should work backward from desired lifestyle outcomes to necessary financial strategies.
+
+## Key Takeaways
+
+- Financial planning should start with identifying personal priorities—what creates joy, fulfillment, and purpose—rather than targeting arbitrary portfolio numbers
+- Accumulating wealth without time, health, or meaningful relationships to share it with is ultimately unfulfilling
+- Money's true value lies in enabling possibilities: more travel, more family time, more contribution, more growth
+- Growth in financial advisory services should only be pursued to the extent it helps more clients achieve their personal 'more'
+- Financial wellness means using money as a tool for freedom and alignment with values, not accumulation for its own sake
+
+## Detailed Notes
+
+### The Fundamental Mistake in Financial Planning [00:00:00]
+
+Most people equate financial planning success with accumulating higher portfolio balances and larger bank accounts. However, this approach misses the actual purpose of planning: using money to enable the life you want to live. The presenter challenges the assumption that more is inherently better.
+
+### The Thought Exercise: $1 Billion Without Context [00:00:36]
+
+The video presents three hypothetical scenarios with $1 billion: having only one day to live, having no relationships to share it with, and being in poor health. In each case, the wealth becomes meaningless without the context that allows enjoyment. This illustrates that money is worthless absent time, relationships, and health.
+
+### Money as Enabler, Not Goal [00:01:43]
+
+The manifesto emphasizes that the 'more' people seek is not money itself but what money makes possible: more time, more adventure, more fulfillment, more freedom. Financial planning should identify these deeper desires first, then develop strategies to achieve them sustainably.
+
+### Root Financial's Growth Philosophy [00:00:00]
+
+The company's expansion (team, services, partnerships) is justified only to the extent it helps clients pursue their personal priorities. Growth for growth's sake conflicts with the stated philosophy. The company's 'more' is serving more clients pursuing their 'more'.
 
 ## Transcript
 

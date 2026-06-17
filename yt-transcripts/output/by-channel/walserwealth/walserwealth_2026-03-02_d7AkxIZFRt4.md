@@ -45,27 +45,45 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser discusses market impacts following a strike on Iran, analyzing energy volatility and defense sector tailwinds. She addresses geopolitical risk management, the role of safe-haven assets, and the relative timing of AI-driven disruption to traditional investment theses."
 topics: []
-topics_proposed: []
+topics_proposed: ["geopolitical-risk", "energy-markets", "defense-sector", "market-volatility", "commodity-hedges"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Rebecca Walser"
+      role: "Walser Wealth Management President"
+    - name: "Sam"
+  companies:
+    - name: "Palantir Technologies"
+      ticker: "PLTR"
+    - name: "Northrop Grumman"
+      ticker: "NOC"
+  tickers: ["PLTR", "NOC"]
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["geopolitical-risk", "energy-crisis", "military-industrial-complex", "Treasury-yields", "safe-haven-assets", "gold", "silver", "risk-rotation", "fourth-industrial-revolution", "AI-disruption-timeline", "software-as-service-disruption"]
+content_type: "opinion"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Qatar energy plant shutdown affects 20% of world's liquid natural gas supply"
+    timestamp: "00:00:50"
+    confidence: "medium"
+    flagged: true
+  - claim: "US markets down less than 0.25% while Europe experienced 1.5-2% decline"
+    timestamp: "00:00:50"
+    confidence: "medium"
+    flagged: true
+  - claim: "AI disruption of software-as-service and subscription models will take 18-36 months"
+    timestamp: "00:03:36"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +93,32 @@ notes: ""
 **Published:** 2026-03-02
 **URL:** https://youtube.com/watch?v=d7AkxIZFRt4
 **Duration:** 5:15
+
+## Summary
+
+Rebecca Walser explains market reactions to the Iran strike, which triggered geopolitical risk re-evaluation amid existing AI disruption concerns. She analyzes safe-haven rotations, noting Treasury yields initially declined but recovered as inflation and energy crisis fears emerged. Defense and energy sectors show strength while travel sectors decline.
+
+## Key Takeaways
+
+- Geopolitical escalation in the Middle East, particularly energy supply disruptions, adds risk to markets already nervous about AI disruption and credit concerns
+- Initial flight-to-safety drove Treasury yields below 4%, but yields recovered as energy crisis and inflation concerns dominated safe-haven considerations
+- Military-industrial complex stocks, including Palantir and Northrop Grumman, benefit from geopolitical escalation, while software and subscription businesses face longer-term AI disruption
+- AI disruption timeline extends 18-36 months rather than immediate, providing opportunities to buy oversold technology stocks at discounted valuations
+- Rotation into energy and defense sectors justified through several months minimum; gold and silver represent better long-term safe-haven assets than Treasuries in current environment
+
+## Detailed Notes
+
+### Geopolitical Risk and Middle East Escalation [00:00:00]
+
+Rebecca highlighted geopolitical risk at year-start, noting military buildup in the Strait of Hormuz and surrounding Iran areas. The recent strike represents escalation feared since October events. Qatar energy plant shutdown impacts 20% of global liquid natural gas supply, affecting European and Asian markets more severely than US markets, which are down less than 0.25%.
+
+### Safe-Haven Asset Rotation and Treasury Dynamics [00:01:39]
+
+Initial market response drove safe-haven rotation into Treasuries, pushing yields below 4%. However, as energy crisis and inflation concerns emerged, Treasury yields rebounded as investors reassessed safe-haven value. Gold and silver emerged as more reliable safe-haven assets, with commodities providing better long-term protection than Treasury bonds in conflict scenarios.
+
+### Defense Sector Strength and AI Disruption Timeline [00:03:36]
+
+Palantir and other military-industrial complex stocks rise on defense spending expectations. However, Rebecca emphasizes AI disruption of software-as-service and subscription models will take 18-36 months, not immediately. Oversold technology stocks present buying opportunities, particularly as the broader disruption is real but overblown relative to near-term market impact.
 
 ## Transcript
 

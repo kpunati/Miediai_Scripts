@@ -35,27 +35,50 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Eric Amzalag demonstrates why $2 million is the optimal threshold for a strategic withdrawal strategy combining tax-gain harvesting and IRA drawdown optimization. Over 10 years, a retired couple achieves cumulative tax savings of $233K through $44K in decade-one taxes, $80K in future RMD tax reductions, and $110K in eliminated capital gains taxes."
 topics: []
-topics_proposed: []
+topics_proposed: ["tax-gain-harvesting", "withdrawal-sequence", "ira-optimization", "rmd-planning", "multi-decade-tax-strategy"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["tax-gain-harvesting", "reset-cost-basis", "required-minimum-distributions", "pre-tax-ira-balance", "taxable-brokerage-account", "strategic-withdrawal", "0-percent-capital-gains-bracket"]
+content_type: "educational"
+audience_level: "advanced"
+key_claims: 
+  - claim: "Retirees withdrawing $238,000 annually with strategic sequencing pay only $2,385 in taxes, an effective tax rate of 1%"
+    timestamp: "00:04:10"
+    confidence: "medium"
+    flagged: true
+  - claim: "The strategy requires approximately $650,000 in a taxable brokerage account, decreasing at about $66,000 annually due to cash needs and reinvestment"
+    timestamp: "00:05:53"
+    confidence: "medium"
+    flagged: true
+  - claim: "Over 10 years, the strategic approach yields $44K in decade-one tax savings compared to traditional withdrawal strategies"
+    timestamp: "00:07:34"
+    confidence: "high"
+    flagged: true
+  - claim: "Strategic IRA reduction shrinks the pre-tax balance from $1.7M to $1.28M by age 70, resulting in $80K less in taxes over 20 years of RMDs"
+    timestamp: "00:08:28"
+    confidence: "high"
+    flagged: true
+  - claim: "The strategy resets approximately $700,000 in capital gains to 100% cost basis, eliminating roughly $110,000 in future capital gains taxes"
+    timestamp: "00:07:34"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -65,6 +88,46 @@ notes: ""
 **Published:** 2026-01-31
 **URL:** https://youtube.com/watch?v=7cDCb3MRY44
 **Duration:** 11:49
+
+## Summary
+
+Eric Amzalag presents a comprehensive 10-year withdrawal strategy for $2M retirees that combines strategic IRA drawdowns with tax-gain harvesting. A couple age 60 with $1.35M in pre-tax IRAs and $650K in taxable accounts (60% cost basis) withdraws $238K annually while paying only $2,385 in taxes (1% effective rate). The strategy requires reinvesting $115K of excess cash annually at reset cost basis, systematically shrinking the pre-tax IRA to $1.28M by age 70, reducing RMD-driven taxes by $80K over 20 years and eliminating $110K in future capital gains taxes.
+
+## Key Takeaways
+
+- Strategic withdrawal order differs from conventional: withdraw partially from IRA ($56,050) to fill standard deduction and 10% bracket, then harvest capital gains in the 0% bracket
+- The 0% long-term capital gains bracket for married couples extends to $96,700 in taxable income, providing $73K+ of tax-free gain harvesting space
+- Reinvesting harvested proceeds at reset cost basis (100% basis instead of 40% gains) permanently eliminates future capital gains tax liability on that amount
+- Systematic IRA reduction during ages 60-70 (pre-RMD) shrinks the pre-tax bucket, reducing required minimum distributions at 73 and lowering lifetime RMD tax burden
+- $650K in taxable accounts is the minimum required for this strategy, declining ~$66K/year as spending needs exceed reinvestment capacity
+- Total tax savings over 30 years: $44K decade-one reduction + $80K RMD reduction + $110K capital gains elimination = $233K cumulative benefit
+- Strategy works because it optimizes for 30-year tax outcome, not just current-year taxes, addressing both immediate and future tax liabilities
+
+## Detailed Notes
+
+### Withdrawal Sequencing Structure [00:02:05]
+
+Instead of depleting taxable first then moving to IRAs, couple withdraws: $32,200 from IRA (standard deduction), $23,850 from IRA (10% bracket = $2,385 tax), then $182,000 from taxable brokerage (only $73K gains = $0 tax). Total: $238K withdrawn with $2,385 tax = 1% rate.
+
+### Why $2M Is the Sweet Spot [00:05:53]
+
+The strategy requires $650K in taxable accounts ($182K annual withdrawal, $115K reinvested, $66K net depletion). At $2M total, the likelihood of having $650K+ in taxable accounts is much higher than smaller portfolios. Below $1.5M, most people lack sufficient taxable account balance to execute effectively.
+
+### Tax-Gain Harvesting Mechanics [00:04:50]
+
+Couple has $235,000 net cash but only needs $120,000 for spending. They reinvest $115,000 at 100% reset basis instead of the previous 40% basis. This immediately eliminates that $115,000 of gains from future taxation—a permanent tax savings mechanism executed in real-time.
+
+### Strategic IRA Reduction [00:08:28]
+
+Traditional approach leaves IRA untouched ages 60-70, growing to $1.7M, then forced RMDs at age 73 reach $63,460. Strategic approach draws down IRA to $1.28M by age 70, resulting in RMDs of only $48,640—a $14,820 annual difference at age 73, compounding to $80K+ in 20-year tax savings.
+
+### Decade-One vs. Traditional Comparison [00:07:34]
+
+Traditional (deplete taxable, then IRA): $0 taxes first 6 years, then $17K/year taxes years 7-10 = $68K total. Strategic: $2,385/year for 10 years = $24K total. That's $44K saved in the first decade alone, before accounting for RMD and capital gains benefits.
+
+### 30-Year Tax Optimization [00:10:19]
+
+The power appears over three decades: first 10 years save $44K, next 20 years of RMD optimization save $80K, capital gains elimination saves $110K. Total: $233K in cumulative tax savings. Strategy optimizes for sustained low tax brackets across entire retirement, not just current year.
 
 ## Transcript
 

@@ -36,27 +36,54 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Strategic retirement income planning to access government benefit programs through managing modified adjusted gross income. Covers ACA subsidies, Medicare Part D extra help, IRMA surcharges, and state property tax programs worth $30,000+ annually."
 topics: []
-topics_proposed: []
+topics_proposed: ["tax-planning", "government-benefits", "retirement-income", "healthcare-subsidies", "means-testing", "early-retirement"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, RICP, financial advisor"
+  companies:
+    - name: "The PeakFP"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["modified adjusted gross income", "benefits means testing", "Roth conversions", "account withdrawal sequencing", "flexibility ratio", "pre-tax and post-tax accounts"]
+content_type: "educational"
+audience_level: "advanced"
+key_claims: 
+  - claim: "Early retirement is most vulnerable to sequence of returns risk when retirees are youngest"
+    timestamp: "00:00:36"
+    confidence: "high"
+    flagged: false
+  - claim: "Government benefits can provide $20,000-$40,000 annually during early retirement years"
+    timestamp: "00:00:36"
+    confidence: "medium"
+    flagged: true
+  - claim: "A married couple with $1.7 million in assets spending $120,000 annually can report $45,000 in modified adjusted gross income"
+    timestamp: "00:02:22"
+    confidence: "high"
+    flagged: true
+  - claim: "ACA marketplace health insurance for a married couple age 60+ costs up to $30,000 per year above poverty thresholds"
+    timestamp: "00:05:02"
+    confidence: "medium"
+    flagged: true
+  - claim: "Medicare Part D extra help averages $5,700 per person per year in drug cost savings"
+    timestamp: "00:05:39"
+    confidence: "medium"
+    flagged: true
+  - claim: "A flexibility ratio of 10% or higher provides meaningful control over reported income"
+    timestamp: "00:09:44"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -66,6 +93,34 @@ notes: ""
 **Published:** 2026-04-22
 **URL:** https://youtube.com/watch?v=r6wwxuQv4fs
 **Duration:** 13:07
+
+## Summary
+
+The US retirement system uses modified adjusted gross income (MAGI) to means-test benefits regardless of actual wealth or assets. Retirees with diversified account structures can legally manage MAGI to access government subsidies worth tens of thousands annually during early retirement years when their portfolios are most vulnerable to sequence of returns risk. Understanding the flexibility ratio reveals how much post-tax money a retiree has available for strategic withdrawals to optimize benefit access.
+
+## Key Takeaways
+
+- US benefit programs use reported income on tax returns, not total wealth, to determine eligibility, creating opportunities for strategic account management
+- ACA premium tax credits and cost-sharing reductions can reduce health insurance costs from $30,000 to near-zero annually for early retirees
+- Medicare Part D extra help provides $5,700+ per person annually in prescription drug subsidies worth approximately $11,000 for couples
+- IRMA surcharges add additional complexity requiring income management to avoid higher Medicare premiums after age 65
+- State-level programs like property tax freezes or deferrals offer additional means-tested benefits that require separate applications
+- The flexibility ratio (post-tax accounts divided by total assets) determines how much income control a retiree actually has for benefit optimization
+- Strategic benefit planning should occur 2-3 years before early retirement to build adequate post-tax account balances during peak earning years
+
+## Detailed Notes
+
+### Means Testing and Modified Adjusted Gross Income [00:00:36]
+
+US retirement benefits use modified adjusted gross income (MAGI) from tax returns as the sole eligibility gate, ignoring home value, net worth, and lifestyle. A married couple with $1.7 million in assets can legally report only $45,000 in MAGI by strategically withdrawing from different account types. This gap between actual spending and reported income is the foundation for accessing multiple benefit programs simultaneously.
+
+### Key Benefit Programs for Early Retirees [00:04:00]
+
+Four primary benefit stacks available: (1) ACA marketplace premium subsidies and cost-sharing reductions reducing insurance from $30,000 to near-zero; (2) Medicare Part D extra help averaging $5,700 per person annually; (3) IRMA surcharges avoidance through income management; (4) State property tax reduction programs like Texas school tax freeze at age 65 or California property tax deferral. Combined value exceeds $30,000 annually and requires separate applications.
+
+### Flexibility Ratio and Account Structure [00:09:44]
+
+The flexibility ratio measures post-tax assets (Roth, taxable brokerage, cash) divided by total retirement assets. A ratio of 10% or higher provides meaningful income control during early retirement years. For retirees in 50s with time to save, Roth conversions and taxable brokerage contributions can build this ratio. Even small flexibility ratios unlock substantial subsidy benefits if deployed strategically during vulnerable years.
 
 ## Transcript
 

@@ -31,27 +31,54 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Case study analyzing whether a 60-year-old with $863,000 in savings can retire. Examines a couple (Jim, 60 and Sandra, 57) with $1.3M net worth and evaluates retirement viability through spending adjustments, portfolio allocation, Social Security timing, part-time work, and working additional years. Demonstrates how multiple levers can extend retirement sustainability."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-readiness", "portfolio-allocation", "retirement-case-study", "spending-strategy", "social-security"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, financial planner"
+    - name: "Jim"
+      role: "client example, age 60"
+    - name: "Sandra"
+      role: "client example, age 57"
+  companies:
+    - name: "Brindle & Bay"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["401k", "Roth IRA"]
+  concepts: ["retirement spending smile", "guard rails", "allocation strategy", "inflation adjustment", "phase retirement", "Medicare timing"]
+content_type: "case-study"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Jim and Sandra have net worth of $1.3 million with $862,000 in IRAs and need approximately $105,000 annual lifestyle spending"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Initial plan shows Jim and Sandra running out of money at age 71"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Increasing portfolio allocation from conservative to 60% equities targeting 7.5% return is one of the most significant changes that can extend retirement viability"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Part-time work for 5 years at $50,000 annually makes a significant difference to plan sustainability"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Working an extra 1-2 years at full income significantly shortens retirement timeline compared to part-time work options"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -61,6 +88,40 @@ notes: ""
 **Published:** 2024-06-30
 **URL:** https://youtube.com/watch?v=s24dGb9guu0
 **Duration:** 11:41
+
+## Summary
+
+This comprehensive case study demonstrates how a couple at age 60 with $863,000 in liquid savings and a $650,000 home can evaluate retirement readiness. Rather than giving a simple yes or no answer, Nick Davis walks through multiple scenarios showing how different choices in spending levels, portfolio allocation, Social Security timing, and work history can dramatically affect retirement sustainability. The analysis shows that combining several moderate adjustments—increasing equity exposure, adjusting spending patterns to match actual retirement behavior, and either working part-time or adding 1-2 extra working years—can extend retirement viability significantly.
+
+## Key Takeaways
+
+- A couple at 60 with $863k in savings and $1.3M net worth is not immediately retirement-ready without adjustments or compromises
+- Portfolio allocation is critical; increasing equity exposure to 60% targets more realistic long-term returns needed to combat inflation
+- Spending strategy matters significantly; the retirement spending smile model reflects how people actually spend (more early, less later) versus linear inflation-adjusted models
+- Social Security timing choices (age 62 vs 67) provide modest improvements but require substantial other changes to make meaningful impact
+- Part-time work for 5 years or working 1-2 additional full-time years can substantially improve plan viability while maintaining most of desired spending
+
+## Detailed Notes
+
+### Client Profile and Initial Assessment [00:00:00]
+
+Jim (60) and Sandra (57) have $1.3M net worth: $862k in IRAs (converted from 401k), $23k liquid reserves representing 6 months expenses, and a $650k home with a favorable 3% mortgage with $200k remaining. Their spending goals total $105k annually: $5k vacations, separate healthcare and housing, plus $5k monthly living expenses. Initial projection shows money running out at age 71.
+
+### Spending Strategy and Reduction Analysis [00:00:00]
+
+Reducing spending by $1,000/month provides minimal improvement. Eliminating vacations entirely also doesn't substantially improve plan. This analysis demonstrates that spending alone cannot solve their retirement readiness issue and more significant structural changes are needed.
+
+### Portfolio Allocation Impact [00:00:00]
+
+Current allocation is too conservative with insufficient equity exposure, targeting only 4.6% returns. Shifting to 60% equities targeting 7.5% returns proves to be one of the most impactful changes available. This reflects the principle that retirees with multi-decade time horizons should not be ultra-conservative; inflation protection through equity exposure is essential despite retirement status.
+
+### Retirement Spending Smile Strategy [00:00:00]
+
+Standard financial planning assumes linear inflation-adjusted spending, but actual retirement spending follows a smile pattern: higher in early retirement, declining in middle years, and increasing again at end-of-life for healthcare. Applying this more realistic model alongside allocation changes substantially improves plan viability.
+
+### Part-Time Work and Delayed Retirement Options [00:00:00]
+
+Working part-time for 5 years at $50k annually makes substantial difference. Alternatively, working 1-2 additional full-time years provides greater benefit than part-time work because it increases contributions to 401k, shortens retirement timeline, and avoids pre-Medicare healthcare costs. Couple can negotiate between earlier part-time retirement and later full-time employment based on preferences.
 
 ## Transcript
 

@@ -45,27 +45,70 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser discusses global economic slowdown signals from China and Germany manufacturing data, warning of an impending 30% equity market correction despite post-election optimism. She analyzes inflation concerns, Federal Reserve policy decisions, and recommends shifting toward commodities and cash until market reversal occurs."
 topics: []
-topics_proposed: []
+topics_proposed: ["global-recession", "federal-reserve-policy", "commodities-trading", "equity-valuation", "inflation-concerns"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Rebecca Walser"
+      role: "President of Walser Wealth Management"
+    - name: "Nicole Petallides"
+      role: "Schwab Network host"
+    - name: "Jerome Powell"
+      role: "Federal Reserve Chair"
+    - name: "Donald Trump"
+    - name: "Senator Lummis"
+    - name: "Odell Beckham Jr"
+      role: "NFL player"
+  companies:
+    - name: "Walser Wealth Management"
+      ticker: null
+    - name: "Schwab Network"
+      ticker: null
+    - name: "Federal Reserve"
+      ticker: null
+  tickers: ["CL", "GC"]
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Bitcoin"]
+  concepts: ["global recession", "manufacturing collapse", "crude oil demand", "equity valuation", "inflation", "monetary policy", "commodities"]
+content_type: "analysis"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "CPI came in at 2.6% versus expected 2.4%"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "PPI year-over-year came in at 2.2% for Advanced"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Markets have repriced from 57% to over 80% likelihood of a 25 basis point rate cut in December"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Oil prices are being priced around $51 range based on global demand slowdown"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Walser expects a 30% plus equity market selloff"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Bitcoin price is near $990,000"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Oil is trading at $69 per barrel"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +118,53 @@ notes: ""
 **Published:** 2024-11-15
 **URL:** https://youtube.com/watch?v=xXSyNJWxmUA
 **Duration:** 6:48
+
+## Summary
+
+Rebecca Walser joins Schwab Network to discuss macroeconomic headwinds despite post-election market optimism. She analyzes inflationary pressures signaled by CPI and PPI data, Federal Reserve policy constraints, and most importantly, warns of global recession indicators from China's slowdown and Germany's manufacturing collapse. Walser maintains her prediction of a significant equity market correction and recommends defensive positioning in commodities.
+
+## Key Takeaways
+
+- Despite post-Trump election bullish sentiment, CPI at 2.6% and persistent shelter inflation create constraints on Federal Reserve rate cuts.
+- Bond market pricing reflects risk expectations, undoing recent Fed rate cuts in the 10-year yield and pressuring policy decisions.
+- Global demand slowdown from China and Germany indicates recession signals that will impact the U.S. economy regardless of domestic policy.
+- Crude oil demand projections priced at $51 range suggest significant global demand contraction, a key recession bellwether.
+- Equity valuations are 'overinflated' compared to 2022 AI price levels, supporting Walser's prediction of 30% plus market correction.
+- Commodity and gold allocations have outperformed equity indexes year-to-date, providing defensive positioning during market transition.
+
+## Detailed Notes
+
+### Post-Election Market Volatility and Inflation Data [00:00:00]
+
+Despite new highs following Trump's election, markets turned choppy. CPI came in at 2.6% against expected 2.4%, and PPI at 2.2% year-over-year. Walser notes Federal Reserve Chair Powell has shifted concern from inflation to labor markets, but bond market pricing reveals investor concerns about continued inflation risks.
+
+### Federal Reserve Policy Constraints [00:00:00]
+
+The 10-year yield has already priced in risk and regained all recent Fed cuts. Walser explains this constrains Fed's ability to continue stimulus. Market probability shifted from 57% to over 80% likelihood of a December 25 basis point cut, though some debate exists about whether this will occur in December or January.
+
+### Powell's Political Independence and Trump Relationship [00:00:00]
+
+Powell publicly stated Trump cannot fire him by law, establishing legal independence. Walser notes Trump may keep Powell if he continues cutting rates or pausing, creating a potential working relationship despite historical tensions. Powell is speaking in Dallas this day at 3 PM ET.
+
+### Global Recession Signals [00:00:00]
+
+Walser emphasizes the Germany manufacturing collapse and China slowdown as key recession indicators. Global crude oil demand is being priced substantially lower, with commodities experts pricing oil at $51 range. She maintains her expectation of global recession despite Trump's incoming administration.
+
+### Equity Valuation Concerns and Market Correction Forecast [00:00:00]
+
+Walser reiterates expectation of 30% plus equity market selloff, citing overinflated valuations compared to 2022 AI price levels. Despite crypto and equity enthusiasm, she sees this disconnect as unsustainable and predicts correction before year-end or before Trump's inauguration.
+
+### Investment Strategy and Asset Allocation [00:00:00]
+
+Walser recommends moving to cash and commodities for safety. Gold has outperformed all three major equity indexes year-to-date. She advises waiting for economic shift signals before reinvesting, expecting this shift before year-end or Trump's installation.
+
+### Cryptocurrency and Federal Reserve Positioning [00:00:00]
+
+Senator Lummis proposes establishing a 1 million Bitcoin Federal Reserve for the U.S. at almost $990,000 per Bitcoin. Walser notes this represents a policy shift toward pro-cryptocurrency stance under Trump administration versus Biden's regulation-focused approach.
+
+### Oil Market Dynamics [00:00:00]
+
+Current oil trading at $69 per barrel. Discussion of potential supply increases at home and internationally, potentially through Iran dealings, combined with lower global demand creating downward price pressure.
 
 ## Transcript
 

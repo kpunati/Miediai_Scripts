@@ -36,27 +36,50 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Seven habits for retirement readiness combining financial discipline and personal development. Covers spending awareness, tracking, practice withdrawals, partner alignment, financial education, personal growth, and physical fitness."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "financial-habits", "spending-management", "early-retirement", "retirement-psychology", "personal-development"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, RICP, financial advisor"
+  companies:
+    - name: "The PeakFP"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Monarch Money", "Every Dollar", "ATG program", "knees over toes program"]
+  concepts: ["spending vs wealth thinking", "sequence of returns risk", "retirement income", "financial literacy", "life quality in retirement"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Seven specific habits successful retirees repeat will build retirement confidence and peace of mind"
+    timestamp: "00:00:37"
+    confidence: "high"
+    flagged: false
+  - claim: "1.2 million dollars translates to approximately $6,000 per month in retirement income"
+    timestamp: "00:00:37"
+    confidence: "medium"
+    flagged: true
+  - claim: "Only 3% of Americans spend meaningful time on financial planning"
+    timestamp: "00:05:15"
+    confidence: "medium"
+    flagged: true
+  - claim: "Average American watches 3 hours 15 minutes of TV daily, about 1,200 hours per year"
+    timestamp: "00:06:16"
+    confidence: "medium"
+    flagged: true
+  - claim: "A single Roth conversion insight could save $50,000 in taxes and one lesson on IRMA surcharges could prevent $10,000 in unnecessary Medicare surcharges for years"
+    timestamp: "00:06:16"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -66,6 +89,34 @@ notes: ""
 **Published:** 2026-04-11
 **URL:** https://youtube.com/watch?v=ngwW_V_AXLA
 **Duration:** 11:13
+
+## Summary
+
+Eric Amzalag presents seven foundational habits that successful retirees use to build confidence and peace of mind before retirement. These habits span financial management (thinking in spending terms, tracking expenses, practicing withdrawal amounts, communicating with partners) and personal development (building retirement knowledge, developing intellectual curiosity, maintaining physical fitness). The consistent theme is that small, repeated actions build more lasting change than intense, infrequent efforts.
+
+## Key Takeaways
+
+- Think of retirement savings as a monthly income generator, not a wealth scorecard, to better evaluate whether you have enough to retire
+- Track actual spending monthly using automated tools to close the gap between perceived and real expenses, which is the source of most retirement anxiety
+- Practice living on retirement income for one month before quitting work to identify gaps in your plan and build retirement confidence
+- Schedule monthly 20-minute financial check-ins with partners to ensure both parties understand the plan and make aligned decisions
+- Commit just 10-20 minutes per week to learning about retirement topics like Social Security timing and Roth conversions to avoid costly mistakes
+- Allocate weekly time to intellectual pursuits and personal growth to maintain mental engagement after structured work ends
+- Establish a five-minute daily movement routine focused on mobility and joint health to maintain the physical capacity needed for retirement activities
+
+## Detailed Notes
+
+### Financial Foundation Habits (Habits 1-4) [00:00:37]
+
+Successful retirees shift from viewing portfolios as wealth scorecards to income generators. Monthly spending tracking using tools like Monarch Money or Every Dollar reveals actual expenses versus assumptions. One month of practice spending at retirement income levels helps identify whether the plan is realistic. Monthly 20-minute partner check-ins ensure both spouses understand finances and make aligned decisions, preventing unintended portfolio damage from uninformed decisions.
+
+### Knowledge and Personal Development (Habits 5-6) [00:05:15]
+
+Most Americans spend less than 2 minutes daily thinking about finances; the top 3% spend meaningful time on it. Ten to twenty minutes weekly studying retirement topics like Social Security, Roth conversions, Medicare costs, and IRMA surcharges equals 8.5 hours yearly, enough to prevent tens of thousands in unnecessary expenses. Similarly, committing 10-20 minutes weekly to intellectual growth through reading, podcasts, or lectures prevents the purposeless drift that occurs when work structure disappears.
+
+### Physical Preparation (Habit 7) [00:08:53]
+
+Financial and knowledge preparation matters little if physical health cannot support retirement activities like traveling, hiking, and golfing. A five-minute daily mobility routine using programs like ATG (knees over toes) prevents pain and limited mobility. Consistency in exercise beats intensity; small daily habits compound to maintain joint health and enable the lifestyle retirement is meant to support.
 
 ## Transcript
 

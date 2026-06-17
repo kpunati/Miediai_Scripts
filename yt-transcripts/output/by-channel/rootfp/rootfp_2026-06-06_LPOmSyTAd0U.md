@@ -64,27 +64,42 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Examines the hidden cost of working one additional year before retirement through a case study of Mark and Carol, who discovered that an extra $600-700 monthly spending power didn't align with their actual retirement priorities. Emphasizes that the true calculation should balance financial gain against loss of healthspan and quality years, not just portfolio growth."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-psychology", "financial-planning", "work-life-balance", "life-expectancy", "timing-retirement"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "CFP, host"
+  companies:
+    - name: "Root Financial Partners"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["healthspan", "go-go years", "Monte Carlo analysis", "4% rule", "identity", "financial plan"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Mark and Carol, with $2.5 million and $95,000 annual expenses, would gain only $600-700 additional monthly spending from working one more year—too small to meaningfully change their retirement"
+    timestamp: "00:03:04"
+    confidence: "high"
+    flagged: true
+  - claim: "Most people have only 10-12 good healthy years in retirement, with healthspan declining in the mid to late 60s"
+    timestamp: "00:05:24"
+    confidence: "medium"
+    flagged: false
+  - claim: "Mark estimated he had already given up 3 of his 10 good years by delaying retirement, simply to accumulate wealth he didn't need"
+    timestamp: "00:06:12"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -94,6 +109,44 @@ notes: ""
 **Published:** 2026-06-06
 **URL:** https://youtube.com/watch?v=LPOmSyTAd0U
 **Duration:** 9:41
+
+## Summary
+
+James Conole challenges the conventional 'one more year' retirement delay by quantifying both gains and losses. Using Mark and Carol's case—both 60 with $2.5 million saved and clear plans for $95,000 annual spending—he shows that another year of work would add only $600-700 monthly spending power: not meaningful given their already-adequate budget. The deeper issue is lost healthspan: if people have only 10-12 active, healthy years in retirement, delaying retirement trades the scarcest resource (vibrant years) for wealth that won't be spent. Fear of the unknown, identity loss, and constant financial headlines drive the delay, but a solid financial plan—not perpetual waiting—enables confident retirement.
+
+## Key Takeaways
+
+- The math of working one more year is financially compelling (more contributions, portfolio growth, fewer withdrawal years) but ignores the non-financial costs.
+- Converting portfolio gains to monthly spending power: $200,000 extra ≈ $600-700/month for life—often less than budgets require for meaningful changes.
+- Healthspan (active, vibrant years) is the scarcest retirement resource, typically 10-12 years with peak vitality in 60s; delaying trades this for unneeded wealth.
+- Fear of the unknown and identity loss (not money itself) often drive the 'one more year' trap; work becomes avoidance of retirement's unknown identity.
+- No headline ever signals 'retire now'; a personalized plan showing how budget works through recessions, inflation, and tax changes is necessary for confidence.
+
+## Detailed Notes
+
+### Mark and Carol's Case Study [00:00:52]
+
+Mark (30+ years in engineering management) and Carol (left career early to care for aging parents) were both 60, combined savings of $2.5 million ($1.5M in 401k, $1M brokerage), and planned spending of $95,000 annually. Both felt tired and worn down, ready for the next chapter. Numbers showed they could retire comfortably, but Mark repeatedly found reasons to delay.
+
+### The $600 Question [00:03:04]
+
+Conole calculated one more year's gains: ~$60,000 saved + portfolio growth ≈ $200,000 portfolio increase, translating to $600-700 additional monthly spending for life. When asked what they'd do with that extra money, Mark and Carol realized their already-planned $95,000 annually covered everything they wanted: time together, travel, family—nothing more. The gain was financially real but behaviorally irrelevant.
+
+### Calculating Healthspan, Not Lifespan [00:05:24]
+
+Conole shifts focus from life expectancy (living to 90-95) to healthspan (active, vital years). Research shows the 'go-go years' decline in mid to late 60s. Carol estimated they had 10-12 good healthy years left, not 30+. Planning to 90 is correct, but ignoring the concentrated window of peak vitality in early retirement is a critical blindspot.
+
+### The Cost of Delay: Lost Years [00:06:12]
+
+Mark's realization: by continuing to delay, he had already given up 3 of his 10 best years. This isn't measured on a balance sheet, but it's the real cost. Every year of delay is saying 'no' to travel, active time with grandchildren, and enjoying robust health—resources that can't be recovered later.
+
+### Identity and Fear as Real Obstacles [00:07:14]
+
+The 'one more year' trap stems not from money but from deeper fears: fear of the unknown (who am I without work?), loss of identity after 30-40 years in a career, and constant financial headlines suggesting uncertainty. Work becomes avoidance rather than necessity. The solution isn't more money but a plan that contextualizes risks and enables confident transition.
+
+### Building a Flexible Financial Plan [00:08:16]
+
+Headlines (elections, inflation, recessions) will always give reasons to delay. A personalized plan answers how to spend $95,000 annually through market downturns, inflation, and tax changes; how the plan adjusts when Social Security starts. This removes the emotional decision-making and gives confidence that 'now' is the right time, not some hypothetical perfect future.
 
 ## Transcript
 

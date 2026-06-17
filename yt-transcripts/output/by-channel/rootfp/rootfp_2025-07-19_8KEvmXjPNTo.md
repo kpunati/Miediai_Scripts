@@ -60,24 +60,41 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Explores why financially ready people struggle to retire by introducing the five types of wealth: financial, time, physical, social, and mental. Illustrates how overoptimizing for financial wealth can deplete other critical resources needed for a fulfilling retirement."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-psychology", "five-types-of-wealth", "financial-planning", "life-wellbeing", "wealth-optimization"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "Financial adviser, CFP®"
+    - name: "Warren Buffett"
+      role: "Billionaire investor"
+  companies:
+    - name: "Root Financial"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Retirement Planning Academy"]
+  concepts: ["time billionaire", "five types of wealth", "time wealth", "physical wealth", "social wealth", "mental wealth", "goalpost planning"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "A time billionaire is someone with at least a billion seconds of life remaining, which equals approximately 32 years"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Social relationships are one of the largest indicators and predictors of overall quality of life and longevity"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "A 60-year-old with life expectancy of 92 has approximately a billion seconds remaining"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: ["unpunctuated_captions"]
@@ -90,6 +107,45 @@ notes: ""
 **Published:** 2025-07-19
 **URL:** https://youtube.com/watch?v=8KEvmXjPNTo
 **Duration:** 11:52
+
+## Summary
+
+James Conole explains why many financially ready people cannot bring themselves to retire, despite having sufficient assets. The issue is not financial readiness but the difficulty of abandoning ever-increasing portfolio optimization. He introduces a framework based on five types of wealth: financial, time, physical, social, and mental. The video challenges the assumption that retirement is simply a math problem and demonstrates how overoptimizing financial wealth often comes at the expense of other types of wealth that are more directly linked to quality of life.
+
+## Key Takeaways
+
+- Financial readiness alone is insufficient for retirement; five types of wealth must be considered holistically
+- Time wealth is non-renewable and becomes more valuable than financial wealth as people age
+- A time billionaire has at least one billion seconds of life remaining, roughly equivalent to 32 years
+- Overoptimizing financial wealth often comes at the cost of physical health, which is essential for enjoying retirement
+- Strong relationships and social support structures are among the strongest predictors of longevity and quality of life
+- Mental wealth—freedom from stress, anxiety, and pressure—is often sacrificed in pursuit of higher financial optimization
+
+## Detailed Notes
+
+### The Retirement Decision Problem [00:00:00]
+
+Financially ready people often struggle to retire because continuous work provides increasing benefits: stock vesting, bonuses, additional portfolio growth, and improved Monte Carlo probability of success. The mathematical optimization trap makes it perpetually difficult to step away, even when financially secure.
+
+### Time Wealth Concept [00:00:00]
+
+A time billionaire possesses at least one billion seconds of remaining life, approximately 32 years. For example, a 60-year-old with a life expectancy of 92 has roughly one billion seconds left. This framework recontextualizes wealth: Warren Buffett would likely trade his billions for the time wealth of a younger person.
+
+### Physical Wealth Priority [00:00:00]
+
+Health is essential but often sacrificed in high-paying positions with long hours and stressful deadlines. No amount of financial wealth compensates for lost health or inability to enjoy accumulated assets. Maintaining physical well-being directly enables pursuit of goals and time with loved ones.
+
+### Social Wealth Development [00:00:00]
+
+Quality relationships cannot be built overnight and require sustained investment. Studies show that relationship strength is one of the largest predictors of both longevity and overall life quality. Working continuously leaves no time to nurture relationships, creating a retirement crisis where financial security exists but social support does not.
+
+### Mental Wealth and Stress [00:00:00]
+
+High-stress, high-paying jobs often provide mental burden rather than peace. A good financial plan should enable a life well-lived, not one characterized by constant anxiety and pressure. When work prevents mental peace and relaxation, the cost to overall wellbeing exceeds financial gains.
+
+### The Optimization Trap [00:00:00]
+
+The trap is believing continued optimization across all life domains is possible simultaneously. In reality, overoptimizing financial wealth often requires sacrificing physical health, relationships, and mental peace. A holistic approach evaluates every decision's impact across all five types of wealth, not just financial metrics.
 
 ## Transcript
 

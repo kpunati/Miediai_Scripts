@@ -42,24 +42,41 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Explains hidden vulnerabilities in combined pension and 401k retirement plans. Covers pension vesting traps and break-in-service rules that can erase years of benefit credit, plus 401k investment risks where individuals bear full responsibility. Advises building diversified income streams outside employer plans."
 topics: []
-topics_proposed: []
+topics_proposed: ["pension-planning", "vesting-rules", "401k-risks", "break-in-service", "retirement-security", "employer-dependent-income"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, financial advisor"
+    - name: "Vincent Dejakamo"
+      role: "Teamsters case plaintiff"
+  companies:
+    - name: "Brindle and Bay"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["pension plans", "401k plans"]
+  concepts: ["vesting requirements", "break-in-service rules", "defined benefit plans", "defined contribution plans", "ERISA law", "longevity risk", "investment risk"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Pension vesting typically requires 5+ years with same employer; breaks in service can reset pension records"
+    timestamp: "00:01:41"
+    confidence: "high"
+    flagged: false
+  - claim: "Working fewer than 501 hours in a year can trigger a break in service and cause pension credit loss"
+    timestamp: "00:02:46"
+    confidence: "medium"
+    flagged: false
+  - claim: "401k plans shift all investment and longevity risk to the employee with no guaranteed income floor"
+    timestamp: "00:04:18"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: []
@@ -72,6 +89,37 @@ notes: ""
 **Published:** 2025-07-13
 **URL:** https://youtube.com/watch?v=brMihgPmF8o
 **Duration:** 11:29
+
+## Summary
+
+This video warns that the traditional combination of pensions and 401ks can mask hidden vulnerabilities. Pensions create false security due to vesting traps and break-in-service rules that can erase decades of contributions. 401ks shift all responsibility to employees who typically lack investment expertise. The presenter advocates building savings outside employer-dependent plans for true retirement security.
+
+## Key Takeaways
+
+- Pension plans have fine print: breaks in service can reset benefit accrual, even after 10+ years of contributions.
+- Pension disputes require navigating federal ERISA law, internal claims, and potentially federal court—a process most employees cannot afford.
+- 401ks provide no guaranteed income, forcing employees to be portfolio managers without training.
+- Emotional decisions during market downturns can wipe out years of 401k growth.
+- Employers can freeze pensions or cut 401k matches, leaving workers doubly exposed.
+- Build supplemental savings in IRAs and taxable accounts outside employer control for true security.
+
+## Detailed Notes
+
+### Pension Vesting Traps [00:01:41]
+
+Pensions require vesting (typically 5+ years). Breaks in service can cause previously earned credits to reset. A case study: Vincent Dejakamo worked 10.5 years, took a 5-year break, then worked 18 more years—but courts ruled the pension plan could ignore the first period. Outcomes depend on federal circuit jurisdiction.
+
+### 401k Investment and Longevity Risk [00:04:18]
+
+Unlike pensions, 401ks guarantee only what goes in, not what comes out. Employees must pick investments with limited guidance. During market downturns, panic selling can destroy decades of growth. Employers limit fund choices and can reduce matching contributions.
+
+### Regulatory Hurdles to Dispute Resolution [00:06:29]
+
+Pension disputes require ERISA compliance, internal claims, certified letters, and strict deadlines. If internal appeal fails, federal lawsuit is the only option—requiring time, money, and legal help. The burden of proof falls on employees, and the process heavily favors employers.
+
+### Building True Retirement Security [00:09:17]
+
+Strategy: maximize employer benefits while available, but build supplemental savings in IRAs, Roth conversions, and taxable accounts. Develop income streams outside jobs (rental income, part-time consulting). This diversification protects against pension freezes, 401k match cuts, or employment disruption.
 
 ## Transcript
 

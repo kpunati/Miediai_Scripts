@@ -40,27 +40,42 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "CFP Eric Amzalag demonstrates a practical five-step retirement income planning process that enables people to determine if they can retire years earlier than expected. The video provides downloadable spreadsheet templates covering expense estimation, portfolio income requirements, required savings pools, savings timelines, and monitoring systems to optimize retirement readiness."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-income-planning", "retirement-calculator", "retirement-savings", "retirement-timeline", "retirement-tool"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, RICP, independent financial planning firm owner"
+  companies:
+    - name: "Peak Financial Planning"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["retirement income plan spreadsheet template", "expense worksheet", "savings calculator"]
+  concepts: ["retirement income plan", "required portfolio income", "legacy goal", "guaranteed income", "tax-efficient withdrawal", "portfolio withdrawal", "retirement phases", "inflation adjustment", "Social Security claiming", "annuity optimization"]
+content_type: "educational"
+audience_level: "beginner"
+key_claims: 
+  - claim: "Using a retirement income plan, people can discover they could retire years earlier than anticipated"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "A retirement income plan requires input of four key assumptions: required portfolio income, retirement length, estimated investment return, and legacy goal"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "In an example scenario with 1,880 annual required portfolio income, 30-year retirement, 5% return, and 250,000 legacy goal, the required starting pool is 864,900"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -70,6 +85,49 @@ notes: ""
 **Published:** 2024-11-23
 **URL:** https://youtube.com/watch?v=UJvnZg-xRwI
 **Duration:** 11:20
+
+## Summary
+
+Eric Amzalag walks through a practical five-step process for building a retirement income plan using downloadable spreadsheet templates. The process transforms retirement planning from abstract guesswork into a concrete, actionable framework. By estimating retirement expenses, accounting for taxes, identifying guaranteed income sources (Social Security, pensions, annuities), calculating required portfolio income, and determining necessary savings, individuals can discover their true retirement readiness. Many people find they can retire significantly earlier than expected.
+
+## Key Takeaways
+
+- Retirement planning involves trading accumulated money for remaining lifetime—making the timing decision critical to reclaiming lost working years.
+- A five-step retirement income plan answers two essential questions: Are you saving enough for your desired retirement timeline? Do you have enough saved to retire today?
+- The plan separates retirement expenses into housing, fixed non-housing, and discretionary categories to ensure comprehensive expense accounting.
+- Tax grossing-up is critical: if you need 77,900 to spend and face a 16% effective tax rate, you actually need 2,480 of gross income.
+- Required portfolio income equals desired spending less guaranteed income sources; the spreadsheet automatically calculates this crucial gap.
+- Step 5 (monitoring system) is equally important as Steps 1-4 and covers tax-efficient withdrawals, Social Security timing, pension claiming, and portfolio adjustments.
+
+## Detailed Notes
+
+### The Core Concept: Trading Time for Money [00:00:00]
+
+Retirement planning fundamentally involves switching from trading today's time for future money (saving phase) to trading accumulated money for remaining time (retirement phase). The video emphasizes that reclaiming working years through earlier retirement is worth the effort of proper planning.
+
+### Five-Step Retirement Income Planning Process [00:00:00]
+
+The process consists of: (1) estimate required income in retirement, (2) back out required portfolio withdrawals, (3) identify required asset pool, (4) back out savings timeline, and (5) establish monitoring system. A downloadable Excel template with all five steps is provided.
+
+### Step 1: Expense Worksheet [00:00:00]
+
+The expense worksheet separates housing, fixed non-housing, and discretionary expenses. Users input monthly amounts, and formulas calculate annualized totals. The template includes common categories (insurance premiums, property taxes, charity, auto registration) but allows custom additions for unique expenses.
+
+### Step 2: Portfolio Income Calculator [00:00:00]
+
+This sheet applies an 80% reduction to pre-retirement spending (adjustable to 90% or custom amounts) to estimate retirement expenses. It then includes a tax-grossing calculation: if you want to spend 77,900 after a 16% tax rate, you need 2,480 of gross income. The sheet then subtracts guaranteed income to determine required portfolio income.
+
+### Step 3: Required Savings Pool [00:00:00]
+
+The sheet accepts four inputs: required portfolio income (from Step 2), retirement length estimate (e.g., 30 years), investment return assumption (e.g., 5%), and legacy goal (e.g., 250,000). It calculates the starting retirement asset pool needed. The example yields 864,900, though Amzalag notes this is an estimate and more sophisticated planning is needed.
+
+### Step 4: Savings Calculator [00:00:00]
+
+Users input current age, desired retirement age, and current retirement savings. The calculator determines if savings are sufficient and calculates monthly/annual savings needed. Example: reaching a 70 retirement age from age 60 requires 832 monthly savings. Users can model different scenarios by adjusting ages and savings amounts.
+
+### Step 5: Monitoring System (Advanced Planning) [00:00:00]
+
+The spreadsheet tool itself lacks Step 5 sophistication. The full process requires planning for retirement phases (when Social Security, pensions, and annuities kick in), inflation adjustments, tax-efficient withdrawal sequencing (which accounts to draw from and when), and dynamic plan adjustments. Amzalag emphasizes that this monitoring step is equally important to the savings planning step.
 
 ## Transcript
 

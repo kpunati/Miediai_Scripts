@@ -42,27 +42,48 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Financial advisor identifies three critical changes successful retirees made at age 50: avoiding over-saving, prioritizing health and healthcare planning, and optimizing retirement tax strategy. Demonstrates impact through case study of Paul, a 55-year-old over-saving while neglecting health and tax efficiency."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-at-50", "tax-optimization", "roth-conversion", "health-savings-account", "sustainable-savings"]
 entities:
-  people: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, financial advisor"
+    - name: "Paul"
+      role: "case study, age 55"
+    - name: "Bill Perkins"
+      role: "author"
   companies: []
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["401k", "Roth 401k", "HSA", "Medicare", "Medicare Advantage"]
+  concepts: ["required minimum distributions", "Roth conversion", "tax diversification", "employer healthcare", "health savings account", "Social Security taxation", "means testing"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Decisions made at age 50 dramatically affect retirement tax brackets 15 years later"
+    timestamp: "00:05:14"
+    confidence: "high"
+    flagged: false
+  - claim: "Maxing out 401k contributions isn't always the best strategy and retirees may not be in lower tax brackets"
+    timestamp: "00:06:17"
+    confidence: "high"
+    flagged: false
+  - claim: "Every dollar pulled from a 401k in retirement can cause more Social Security benefits to be taxed"
+    timestamp: "00:08:24"
+    confidence: "high"
+    flagged: true
+  - claim: "HSA contributions are triple-tax-advantaged: tax deductible, grow tax-deferred, and withdrawals for medical expenses are tax-free"
+    timestamp: "00:09:28"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -72,6 +93,40 @@ notes: ""
 **Published:** 2025-02-09
 **URL:** https://youtube.com/watch?v=MzsnlWfLgGQ
 **Duration:** 11:08
+
+## Summary
+
+The video presents three transformative changes that the happiest retirees made around age 50: (1) stopping excessive saving and living more fully during peak earning years, (2) prioritizing health and healthcare planning before retirement to protect savings, and (3) optimizing tax strategy through Roth conversions, tax diversification, and HSA maximization. The case study of Paul shows how over-saving in traditional 401k, ignoring health issues, and neglecting tax optimization led to excessive required minimum distributions and higher Social Security taxation in retirement.
+
+## Key Takeaways
+
+- Over-saving at peak earning years (50+) can cause people to miss family time and experiences that cannot be replicated later without improving retirement outcomes
+- Healthcare decisions at 50 establish options rather than emergencies: HSA savings, employer coverage selection, Medicare Advantage vs. Original Medicare, and location choices affect long-term costs
+- Saving in traditional 401k increases future required minimum distributions, which trigger additional Social Security taxation and potentially higher Medicare premiums through means testing
+- Tax diversification across traditional 401k, Roth 401k, and taxable accounts at 50 allows 15+ years of optimization before retirement tax brackets are determined
+- HSA contributions provide triple tax advantage and should be prioritized over maxing 401k if forced income will exceed retirement needs
+
+## Detailed Notes
+
+### The Over-Saving Trap [00:00:00]
+
+Many successful savers over 50 continue aggressive savings at peak earning years, driven by beliefs that more savings always equals better retirement or that they need to replace 100% of working income. This causes them to skip family events and miss prime life experiences that cannot be recovered. The video references 'Die with Zero' by Bill Perkins as a counterweight to this thinking.
+
+### Healthcare as Retirement Priority [00:02:06]
+
+Happy retirees prioritize addressing health issues before retirement, maximize employer healthcare coverage while available, and leverage HSA savings for compounding. They consider location in relation to medical services and Medicare Advantage availability. Healthcare planning at 50 creates options rather than forcing emergency decisions at retirement.
+
+### Tax Optimization Strategy [00:05:14]
+
+Retirement-specific tax planning in the 50s affects brackets 15 years later. Common false beliefs: waiting for lower brackets to convert to Roth, assuming maxing 401k is always optimal, and expecting automatic lower taxes in retirement. Smart planning uses tax diversification across traditional 401k, Roth, and taxable accounts to control future income levels.
+
+### Required Minimum Distributions and Social Security Taxation [00:08:24]
+
+Over-saving in traditional 401k creates forced income through RMDs that triggers unnecessary Social Security taxation. Every dollar from a traditional 401k can cause up to 85% of Social Security benefits to become taxable, plus potential Medicare premium increases through means testing. Roth accounts avoid these tax complications.
+
+### Case Study: Paul's Transformation [00:07:22]
+
+Paul, 55, saved aggressively (40% of income) after youngest child's college graduation, maxing 401k plus catch-up while working extra hours and ignoring health (heart flutter). Analysis showed his projected RMD of $20,000 annually exceeded retirement spending needs. Recommendations: reduce 401k contributions, increase Roth 401k, max HSA, and address health concerns. Paul implemented all three changes.
 
 ## Transcript
 

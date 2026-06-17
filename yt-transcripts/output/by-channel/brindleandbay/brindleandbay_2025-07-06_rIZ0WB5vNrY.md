@@ -45,27 +45,40 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Demonstrates how $1 million in retirement savings can support a comfortable lifestyle through strategic location optimization, Social Security timing, expense reduction, and supplemental income. Challenges the myth that $1 million is insufficient and shows how proper planning makes early retirement achievable."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-readiness", "geographic-arbitrage", "social-security-timing", "expense-optimization", "cost-of-living"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, financial advisor"
+  companies:
+    - name: "Charles Schwab"
+      ticker: null
+    - name: "Fidelity"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["4% rule", "geographic arbitrage", "lifestyle optimization", "part-time work in retirement"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Americans think they need $1.9 million to retire per 2021 Charles Schwab survey"
+    timestamp: "00:00:54"
+    confidence: "medium"
+    flagged: false
+  - claim: "Social Security at age 62 pays about $2,300/month vs $4,100+ at age 70"
+    timestamp: "00:04:38"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +88,37 @@ notes: ""
 **Published:** 2025-07-06
 **URL:** https://youtube.com/watch?v=rIZ0WB5vNrY
 **Duration:** 11:25
+
+## Summary
+
+This video refutes the myth that $1 million is insufficient for retirement by demonstrating how location strategy, Social Security optimization, disciplined spending, and supplemental income work together. The presenter argues that the psychological gap between perceived needs and actual requirements often keeps people working longer than necessary.
+
+## Key Takeaways
+
+- $1 million provides a solid foundation when combined with Social Security and other guaranteed income.
+- Geographic arbitrage—moving to lower cost-of-living areas—dramatically extends purchasing power.
+- Delaying Social Security increases monthly benefits by about 8% per year until age 70.
+- Housing, transportation, and food are the largest controllable expenses.
+- Part-time work provides both income and health insurance benefits.
+- Structured monthly retirement paychecks prevent overspending.
+
+## Detailed Notes
+
+### Reframing the $1 Million Number [00:00:54]
+
+Surveys suggest Americans need $1.9 million, but this ignores individual circumstances. Methodical analysis of actual spending needs often reveals $1 million is sufficient. Generic targets don't account for paid-off homes, low expenses, or conservative lifestyles.
+
+### Location Optimization [00:02:38]
+
+Geographic arbitrage is one of the largest levers available. States like Florida and Nevada offer zero state income tax. International moves dramatically reduce cost of living. The key warning: don't upgrade lifestyle just because things cost less.
+
+### Social Security and Withdrawal Strategy [00:04:38]
+
+Claiming at 62 yields $2,300/month; waiting until 70 yields $4,100+. Married couples can coordinate: one claims early while the other waits. Part-time work during early retirement covers expenses while allowing delayed benefits.
+
+### 12-Month Retirement Framework [00:09:26]
+
+Framework involves defining lifestyle, mapping Social Security strategy, planning healthcare before Medicare, building withdrawal and tax strategy, and deciding on income supplementation. This replaces generic rules with personalized clarity.
 
 ## Transcript
 

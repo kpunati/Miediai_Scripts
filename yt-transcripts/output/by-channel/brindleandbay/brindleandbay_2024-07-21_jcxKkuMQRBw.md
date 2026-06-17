@@ -33,27 +33,56 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Explains why retirement spending increases after age 65, describing the retirement spending smile pattern: go-go years (higher spending on travel and hobbies), slow-go years (moderate spending), and no-go years (healthcare-focused spending). Provides strategies for budgeting retirement spending through replacement ratios and detailed category planning, and addresses the critical gap in Medicare coverage for custodial care needs."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-spending", "go-go-years", "budget-planning", "healthcare-costs", "medicare-planning"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, financial planner"
+    - name: "Bill Perkins"
+      role: "author of Die with Zero"
+    - name: "Shannon Doherty"
+      role: "example of early mortality"
+    - name: "Connie"
+      role: "Nick Davis's wife"
+  companies:
+    - name: "Brindle & Bay"
+      ticker: null
+    - name: "Fidelity"
+      ticker: null
+    - name: "Bureau of Labor Statistics"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Die with Zero"]
+  concepts: ["go-go-years", "slow-go-years", "no-go-years", "replacement-ratio", "discretionary-spending", "custodial-care", "Medicare-gap"]
+content_type: "educational"
+audience_level: "beginner"
+key_claims: 
+  - claim: "Retirees aged 65-74 spend 40% on discretionary expenses, dropping to 32% for those 75 and older"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Food costs increased from approximately $5,000 in 2012 to $7,300 in 2022; transportation increased from $6,300 to $8,200 over the same period"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Average household spending is $70,000 for ages 55-64, $56,000 for ages 65-74, and $49,000 for those 75 and older"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Medicare covers healthcare needs like broken arms or diabetes but does not cover custodial care such as assistance with feeding or transportation"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -63,6 +92,44 @@ notes: ""
 **Published:** 2024-07-21
 **URL:** https://youtube.com/watch?v=jcxKkuMQRBw
 **Duration:** 13:17
+
+## Summary
+
+This video challenges the common assumption that retirement spending remains linear across all years. Using the retirement spending smile framework, Nick Davis demonstrates that spending typically peaks in the early retirement years (go-go years, around age 65), moderates in the middle years (slow-go years), and increases again in later years when healthcare costs rise (no-go years). The video provides practical budgeting approaches and highlights a critical gap in retirement planning: most retirees fail to adequately plan for custodial care needs, which Medicare does not cover.
+
+## Key Takeaways
+
+- Retirement spending follows a smile pattern, not linear growth; plan for higher discretionary spending in early years rather than spreading expenses evenly
+- Go-go years occur when people pursue deferred hobbies and activities after work stops distracting them, naturally leading to increased spending on travel, home projects, and leisure
+- Replacement ratio approach (earning $50k = replace 80%; $80-120k = replace 70%; $120k+ = replace 55-65%) provides quick budgeting shortcut but misses important details
+- Detailed category-based budgeting catches discretionary spending patterns like gift-giving and one-time home improvements that simple ratios miss
+- Medicare covers medical treatment but NOT custodial care; long-term care planning for end-of-life needs is often overlooked but critical
+
+## Detailed Notes
+
+### The Retirement Spending Smile Framework [00:00:00]
+
+Retirees spend more early in retirement (go-go years), less in middle years (slow-go years), and more again when healthcare costs rise (no-go years). This smile-shaped pattern explains why linear spending assumptions fail. Early retirement spending increases occur because every day feels like Saturday; people pursue hobbies, take vacations, remodel homes, and make purchases previously deferred by work demands.
+
+### Two Risks in Go-Go Year Spending [00:00:00]
+
+Over-aggressive spending can restrict future years; over-caution creates regret for missed life experiences. Book recommendation: Die with Zero by Bill Perkins encourages balanced spending during active years. The key is recognizing go-go spending as a temporary phase, not a 30-year pattern. Separating essential and discretionary spending helps manage both risks.
+
+### Inflation and Category Cost Shifts [00:00:00]
+
+Bureau of Labor Statistics data shows discretionary spending drops from 40% (ages 65-74) to 32% (ages 75+) due to rising healthcare costs. Food costs rose from $5,000 (2012) to $7,300 (2022); transportation from $6,300 to $8,200 (2022). Most inflation occurred 2017-2022. Average household spending: $70k (55-64 years), $56k (65-74 years), $49k (75+ years), but these include very high and low earners.
+
+### Housing Costs and Downsizing Importance [00:00:00]
+
+Housing costs drop as age increases ($22,000 at 55 years, $17,000 at 65, lower at 75+), reflecting mortgage payoffs and potential downsizing. Critical planning mistake: couple purchased dream home 3x more expensive 5 years before retirement, resulting in constrained retirement. Plan housing carefully regarding downsizing, relocation, or aging in place.
+
+### Budgeting Methods: Replacement Ratio vs. Category Analysis [00:00:00]
+
+Replacement ratio method uses income-based percentages per Fidelity: lower earners use 80%, middle earners 70%, higher earners 55-65%. Simpler but misses details. Detailed approach: spreadsheet each spending category, discuss with spouse what changes when not working, identify big purchases (kitchen remodel, tractor), and account for debt payoff. Add 15-25% for unexpected discretionary items.
+
+### No-Go Years and Medicare Coverage Gap [00:00:00]
+
+No-go years begin around 75+ when health costs dominate and discretionary spending declines. Critical gap: Medicare covers medical needs (broken arm, diabetes) but NOT custodial care (assistance with feeding, transportation). Many Americans lack adequate long-term care protection. Solution: acknowledge this phase during planning, research long-term care options, and understand Medicare limitations.
 
 ## Transcript
 

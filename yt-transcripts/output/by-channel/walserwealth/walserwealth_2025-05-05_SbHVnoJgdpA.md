@@ -47,27 +47,66 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser discusses mainstream media bias in financial coverage, noting how April 2025 market recovery received minimal media attention despite being one of the best S&P 500 trading streaks, contrasting with prior doom-focused coverage."
 topics: []
-topics_proposed: []
+topics_proposed: ["media-bias", "financial-markets", "market-recovery", "s-p-500"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Rebecca Walser"
+      role: "wealth manager"
+    - name: "Scott Shellady"
+      role: "host"
+    - name: "Scott Bessant"
+      role: "mentioned financial figure"
+    - name: "Tim Walz"
+      role: "politician"
+    - name: "Elon Musk"
+      role: "entrepreneur"
+    - name: "George Soros"
+      role: "investor"
+  companies:
+    - name: "Tesla"
+      ticker: null
+    - name: "CNBC"
+      ticker: null
+    - name: "Fox Business"
+      ticker: null
+    - name: "ABC"
+      ticker: null
+    - name: "CBS"
+      ticker: null
+    - name: "NBC"
+      ticker: null
+  tickers: ["TSLA"]
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["media bias", "market recovery", "Fed policy", "interest rate cuts", "AM radio regulation", "net neutrality", "podcast journalism"]
+content_type: "opinion"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "April 2025 market was down fractionally for the month despite early-month selloff"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Last nine-day trading streak was one of the best ever for the S&P 500"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Mainstream media gave preferential coverage to negative economic news under the Biden administration while covering up positive Trump administration data"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "George Soros and cohorts bought up substantial amounts of AM radio stations to suppress conservative media"
+    timestamp: "00:00:00"
+    confidence: "low"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -77,6 +116,40 @@ notes: ""
 **Published:** 2025-05-05
 **URL:** https://youtube.com/watch?v=SbHVnoJgdpA
 **Duration:** 6:41
+
+## Summary
+
+Rebecca Walser criticizes mainstream media for negative coverage of April 2025 markets while downplaying the strong recovery that followed. She alleges systematic media bias against the Trump administration and discusses how alternative media platforms like AM radio and podcasts are replacing traditional news sources.
+
+## Key Takeaways
+
+- April 2025 saw dramatic market swings with a strong nine-day recovery that received minimal mainstream media coverage
+- Media outlets appeared to prioritize negative stories while downplaying recovery narratives
+- Historical pattern of asymmetric media coverage between Democratic and Republican administrations, particularly regarding Trump
+- Alternative platforms (AM radio, podcasts) gaining trust as traditional news networks lose credibility
+- Discussion of efforts to regulate or suppress conservative-leaning media channels
+
+## Detailed Notes
+
+### Media Coverage Disparity [00:00:00]
+
+April 2025 markets were down only fractionally despite early-month panic selling. The month ended with one of the best nine-day S&P 500 trading streaks ever, but mainstream media failed to cover the recovery while extensively covering the downturn.
+
+### Alleged Media Bias Pattern [00:00:00]
+
+Walser alleges systematic media bias, noting that inflation under Biden administration received favorable coverage for 18 months despite 10 trillion dollars in fiscal and monetary stimulus, with fastest rate increases in Fed history creating bond market disruption in 2022-2023.
+
+### Political Targeting [00:00:00]
+
+Discussion of perceived punitive Fed policy and negative coverage specifically targeting Trump, citing example of politician placing Tesla stock ticker on phone to watch price decline rather than supporting American company.
+
+### Media Suppression Efforts [00:00:00]
+
+Reference to AM radio regulation attempts and claim that George Soros purchased substantial AM radio stakes to suppress conservative voices, alongside net neutrality initiatives allegedly designed to control narrative.
+
+### Rise of Alternative Media [00:00:00]
+
+Observation that podcasts and AM radio are replacing traditional news as primary information sources, with Joe Rogan viewing numbers exceeding traditional network news viewership.
 
 ## Transcript
 

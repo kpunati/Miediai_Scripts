@@ -64,27 +64,46 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Kevin Lum demonstrates how retirees undervalue their net worth by ignoring the portfolio equivalency of Social Security and pension income, using a 4% withdrawal rate methodology to show how guaranteed income can add $1+ million in effective wealth that should influence retirement spending and investment decisions."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-net-worth", "social-security-planning", "pension-valuation", "retirement-income", "withdrawal-strategy", "asset-allocation"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Kevin Lum"
+      role: "CFP, founder of Foundry Financial"
+  companies:
+    - name: "Foundry Financial"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Free Net Worth Calculator by Foundry Financial"]
+  concepts: ["net worth calculation", "portfolio equivalency", "4% withdrawal rule", "guaranteed income floor", "Social Security value", "pension value", "asset allocation", "retirement spending confidence", "COLA adjustment", "life expectancy assumptions"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "A couple with $1.6M in traditional net worth ($800K 401k, $300K IRA, $150K Roth, $100K brokerage) can have a real net worth of approximately $2.8M when factoring in the portfolio equivalency of Social Security ($417K) and spousal Social Security ($283K) and pension income ($435K), representing a 72% increase in wealth."
+    timestamp: "00:06:36"
+    confidence: "high"
+    flagged: true
+  - claim: "Using a 4% withdrawal rate, $2,800/month in Social Security at age 67 equals approximately $417,000 in portfolio equivalency; $2,200/month spousal benefit requires approximately $283,000 portfolio equivalent."
+    timestamp: "00:03:07"
+    confidence: "high"
+    flagged: true
+  - claim: "A $2,500/month pension starting at age 65 with no COLA adjustment has a portfolio equivalency of approximately $435,000, but with a COLA adjustment this can increase to approximately $544,000."
+    timestamp: "00:05:55"
+    confidence: "high"
+    flagged: true
+  - claim: "The 4% rule historically has had a high probability of not running out of money over a retirement period and is based on withdrawing 4% of the portfolio per year adjusted for inflation."
+    timestamp: "00:01:04"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -94,6 +113,45 @@ notes: ""
 **Published:** 2026-02-28
 **URL:** https://youtube.com/watch?v=At1dznrrmJk
 **Duration:** 9:41
+
+## Summary
+
+Kevin Lum shows retirees a critical blind spot in how they calculate net worth. Most people only count liquid assets (401k, IRA, home equity) and miss the substantial value of guaranteed income from Social Security and pensions. By calculating the portfolio equivalency needed to generate the same income using a 4% withdrawal rate, he demonstrates that a couple might discover they are actually $1.2M wealthier than they thought. This realization should shift spending behavior, asset allocation choices, and overall retirement confidence.
+
+## Key Takeaways
+
+- Traditional net worth calculation ignores the value of guaranteed income from Social Security and pensions, leading retirees to underestimate their total wealth.
+- Using a 4% withdrawal rate, any guaranteed income stream can be converted to its portfolio equivalency; for example, $2,800/month Social Security is worth approximately $417,000 in portfolio value.
+- A couple with $1.6M in investable assets who factor in guaranteed income may discover they have nearly $2.8M in real net worth, a 72% increase that fundamentally changes retirement decisions.
+- Understanding true net worth influences three key behaviors: asset allocation (favoring growth since guaranteed income provides a bond-like floor), spending confidence, and investment risk tolerance.
+- COLA (cost-of-living adjustment) on pensions significantly increases their portfolio equivalency; a $2,500/month pension jumps from $435K to $544K in value with inflation protection.
+- The calculator tool removes the burden of manual computation and helps retirees visualize the full picture of their financial situation.
+
+## Detailed Notes
+
+### The Net Worth Calculation Problem [00:00:00]
+
+Most retirees calculate net worth by summing 401k, IRA, home equity, and other investments, then subtracting debt. However, this approach completely omits Social Security and pensions, which can represent over $1 million in effective wealth. This incomplete picture causes retirees to make conservative decisions when their actual financial position is stronger.
+
+### How the Calculator Works [00:01:04]
+
+Kevin uses a free tool that takes three inputs: current age, life expectancy, and withdrawal rate (typically 4%). The calculator then asks for specific income amounts and determines what portfolio balance would be needed to generate that same income using the withdrawal rate. For example, $2,800/month Social Security at age 67 requires a $417,000 portfolio to replicate.
+
+### Case Study: Traditional vs Real Net Worth [00:02:08]
+
+A 62-year-old with $800K in 401k, $300K in IRA, $150K in Roth IRA, $100K in brokerage, and home equity has $1.6M in traditional net worth. When guaranteed income is added (primary $2,800/month SS, spouse's $2,200/month SS at age 60, and a $2,500/month pension), the real net worth becomes approximately $2.8M.
+
+### Social Security and Spousal Benefits Valuation [00:03:07]
+
+The primary beneficiary's $2,800/month Social Security at age 67 claim equals $417,000 in portfolio value (at 4% withdrawal rate). Adding a spouse age 60 with $2,200/month claim adds another $283,000. Together, spousal benefits add up to approximately $700,000 in portfolio equivalency, demonstrating why couples often undervalue household wealth.
+
+### Pension Value and COLA Impact [00:04:52]
+
+A $2,500/month pension without COLA equals $435,000 in portfolio equivalency. However, if the pension includes cost-of-living adjustments, the value jumps to approximately $544,000 because inflation protection significantly increases the long-term benefit. This distinction matters greatly for early retirees with decades ahead.
+
+### Strategic Implications of Full Picture Planning [00:07:24]
+
+Recognizing real net worth changes asset allocation strategy: since guaranteed income provides a bond-like floor covering fixed expenses, the remainder of the portfolio can be more aggressively invested for growth. It also increases spending confidence; instead of worrying about portfolio depletion, retirees can view themselves as having substantial wealth and plan accordingly. The 72% wealth increase reframes the entire retirement narrative.
 
 ## Transcript
 

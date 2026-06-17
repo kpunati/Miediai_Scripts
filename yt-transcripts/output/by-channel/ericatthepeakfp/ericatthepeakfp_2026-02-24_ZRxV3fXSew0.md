@@ -35,27 +35,50 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Explains why age 60 is critical for retirement planning as the last year before multiple tax and income systems activate. Details progressive complexity: age 60 offers pure tax flexibility; age 62 adds Social Security and pension decisions; age 63 triggers Medicare IRMA lookback; age 65 brings Medicare; age 73 forces RMDs, closing the planning window."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "tax-planning", "social-security", "medicare-irma", "roth-conversions"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, RICP"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["Roth-conversions", "capital-gains-harvesting", "ACA-subsidies", "Medicare-IRMA", "required-minimum-distributions", "tax-brackets"]
+content_type: "educational"
+audience_level: "advanced"
+key_claims: 
+  - claim: "At age 60, low income years are some of most valuable opportunities allowing coordination of Roth conversions, capital gains harvesting, and healthcare subsidies"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Strategic positioning can save $15,000 to $20,000 annually in health insurance premiums by staying under ACA subsidy thresholds"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Medicare IRMA looks back 2 years; at age 63 income looks back starts for age 65 Medicare enrollment"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Smart withdrawal planning ages 65-73 provides more favorable Roth conversion opportunities than ages 61-65"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "At age 73, required minimum distributions begin forcing withdrawal of potentially tens to hundreds of thousands annually"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -65,6 +88,54 @@ notes: ""
 **Published:** 2026-02-24
 **URL:** https://youtube.com/watch?v=ZRxV3fXSew0
 **Duration:** 12:29
+
+## Summary
+
+Eric Amzalag argues that age 60 is the most critical year in retirement planning because it represents the last time to optimize before multiple tax and income systems activate sequentially. At age 60, retirees have maximum flexibility to coordinate Roth conversions, capital gains harvesting, and ACA subsidy optimization simultaneously. Age 62 adds Social Security and pension decisions; age 63 triggers Medicare IRMA two-year lookback; age 65 brings Medicare enrollment; age 73 forces required minimum distributions (RMDs). Those who plan proactively at 60 can reduce future RMDs and tax liability, while those who delay face increasingly constrained options and permanent decisions.
+
+## Key Takeaways
+
+- Age 60 is the last year of true financial flexibility before Social Security eligibility, Medicare premiums, IRMA penalties, and RMD requirements activate
+- At age 60, low income years enable simultaneous coordination of Roth conversions, capital gains harvesting, and ACA subsidy optimization with minimal interference
+- Strategic income positioning in early 60s can save $15,000-$20,000 annually in health insurance premiums by qualifying for ACA subsidies
+- Age 62-63 window requires coordinating Social Security claiming strategy with pension decisions and managing ACA subsidy cliffs
+- Age 63 begins Medicare IRMA two-year lookback period; income at 63 and 64 determines Medicare premium penalties (IRMA charges) at 65 and 66
+- Age 65-73 window offers more favorable IRMA brackets than earlier ACA subsidy coordination but requires precise identification of income thresholds to avoid IRMAA surcharges
+- Age 73 forces RMDs that can trigger unfavorable tax brackets; proactive conversions ages 60-73 reduce future RMD burden while leaving strategic control to retirees
+
+## Detailed Notes
+
+### Age 60: The Golden Window [00:00:00]
+
+Age 60 is last year before Social Security eligibility, IRMA lookback windows, Medicare premiums, and required minimum distributions. At 60, retirees often experience lowest income year of adult life creating optimal conditions for tax planning. This window allows simultaneous execution of four major strategies without interference: Roth conversions (moving money from taxable to tax-free forever accounts), capital gains harvesting (harvesting gains at zero federal tax), ACA subsidy optimization, and strategic income positioning. All strategies target adjusted gross income (AGI), requiring sophisticated coordination.
+
+### Tax Space Opportunity at Age 60-62 [00:00:00]
+
+Low-income years are among most valuable financial opportunities yet most people squander them by planning too late. The 10% and 12% federal tax brackets represent usable tax space waiting to be deployed. People who arrive at low-income years without plan leave tax space unused forever. Roth conversions cost less in low-bracket years. Capital gains can be harvested at 0% federal tax if income stays below thresholds. Healthcare subsidy qualification on private marketplace requires income management to stay under cliffs, potentially saving $15,000-$20,000 annually.
+
+### Multi-Year Coordination Requirement [00:00:00]
+
+These strategies cannot be crammed into single year; they require multiple years of coordination to work effectively. Each strategy affects adjusted gross income, creating interdependencies: oversized Roth conversion wipes out ACA subsidies; capital gains harvesting pushes modified AGI past thresholds. Planning at 60 provides runway for multi-year execution and iterative year-by-year adjustment and testing. Starting at 63 leaves planners already behind and playing catch-up. Coordination across several years enables learning and refinement.
+
+### Age 62: Social Security and Pension Complexity Layer [00:00:00]
+
+At 62, Social Security eligibility enters planning. Decisions become permanent with no lookback. Claiming now versus deferring changes lifetime total benefits and current tax picture. Pension decisions (lump sum versus lifetime stream) stack on Social Security choice. Each guaranteed income decision is irreversible and affects tax bracket space available for Roth conversions and ACA subsidy qualification. Benefits claimed at wrong time can compress conversion space or eliminate subsidy eligibility entirely. Now managing withdrawals, conversions, capital gains (60-62 decisions) plus permanent Social Security and pension decisions.
+
+### Age 63: Medicare IRMA Lookback Window Opens [00:00:00]
+
+At age 63, Medicare IRMA (Income-Related Monthly Adjustment Amount) lookback begins. Medicare starts at 65, lookback starts at 63 (two-year window). Income at 63 and 64 determines Medicare premium penalties at 65 and 66 respectively. All income components stack: work income, withdrawals, conversions, capital gains, Social Security, pensions. Decisions made at 60 (conversions, capital gains) that had no IRMA consequences now carry Medicare cost shadow. Conversion that made perfect sense at 60 might trigger IRMA surcharge at 63. This creates compounding problem layer on prior age 60-62 decisions.
+
+### Age 65: Medicare Enrollment and Reoptimization [00:00:00]
+
+At 65, ACA/healthcare subsidy eligibility closes permanently; opportunity for subsidy savings is gone if not captured in early 60s. However, more favorable IRMA brackets open up. While IRMA penalties can occur, they create less restrictive tax space than ACA subsidy cliffs. Margins between IRMA thresholds are wider, allowing more room for Roth conversions than ages 61-65 period. Practical effect: ages 65-73 actually offer more conversion space than earlier phase, but requires knowing exact IRMA tier locations and tax cliffs to avoid surcharges.
+
+### Age 73: Planning Window Fully Closes [00:00:00]
+
+At 73, required minimum distributions (RMDs) begin. IRS calculates forced distribution based on account balance, requiring withdrawal whether needed or not. RMDs begin large and worsen year-over-year with age, stacking on Social Security and pensions into increasingly unfavorable tax position. Proactive converters ages 60-73 have smaller, more manageable RMDs fitting existing brackets. Those who reach 73 with large untouched IRAs face tens to hundreds of thousands in forced distributions annually. Money moved to Roth accounts grows tax-free and passes to heirs tax-free. Legacy planning becomes difficult if heirs face 10-year distribution rules.
+
+### Psychological Impact of Planning Decisions [00:00:00]
+
+During working years, wealth building creates sense of control and growth. Retirement flips script to drawdown phase; without proper planning, withdrawals feel like loss. RMDs feel like government picking pocket. Retirees who planned at 60 feel in control because they understand withdrawal rationale and tax implications. They set the board before game started. Those who missed window engage in second-guessing, creating not just financial problems but undermining retirement enjoyment after 30-40 years of work.
 
 ## Transcript
 

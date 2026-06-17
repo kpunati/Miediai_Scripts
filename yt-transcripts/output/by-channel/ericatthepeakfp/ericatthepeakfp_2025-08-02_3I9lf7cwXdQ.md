@@ -41,24 +41,35 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Financial planner argues couples who have saved adequately should retire at or after age 62 rather than delaying for additional growth. Personal anecdote about father's pancreatic scare illustrates gap between lifespan and healthspan; warns that pursuing higher scores prolongs work while health and attention decline—irreplaceable resources."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-timing", "life-satisfaction", "wealth-enough", "healthspan", "lifestyle-design", "work-retirement-balance"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amselog"
+      role: "Certified Financial Planner (CFP)"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["lifespan vs healthspan", "work optimization", "attention scarcity", "retirement readiness", "financial sufficiency", "quality of life"]
+content_type: "opinion"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Healthspan often ends decades before lifespan; one may live 90 years but only be healthy for 65"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Many well-prepared retirees who delay retirement do so from a psychological cycle that only ends by force (job loss or health crisis)"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: ["unpunctuated_captions"]
@@ -71,6 +82,37 @@ notes: ""
 **Published:** 2025-08-02
 **URL:** https://youtube.com/watch?v=3I9lf7cwXdQ
 **Duration:** 4:11
+
+## Summary
+
+Eric Amselog shares a personal story about his father's pancreatic scare to motivate couples past age 62 who have saved sufficiently to retire. He argues that continuing to work for incremental financial gains results in losing irreplaceable resources: attention, health, and time. Those pursuing higher portfolio scores by continuing work paradoxically sacrifice the very things that allow them to enjoy savings, repeating a cycle that often only breaks through involuntary means.
+
+## Key Takeaways
+
+- The gap between lifespan and healthspan means you may live 90 years but remain healthy for only 65; delaying retirement trades earning years for spending years.
+- Once you have won the financial game (saved enough), continuing to play to set higher scores means neglecting other life areas—attention, health, relationships.
+- Ask yourself: If money weren't an issue, would I still be working? If the answer is no, you are waiting for something, not actually working.
+- Many couples fall into a psychological cycle of believing they need just a little more time or growth, but this cycle often ends by force (job loss, health decline) rather than by choice.
+- Your savings were accumulated to repurchase your attention and time; spending decades more working to maximize the score defeats the original purpose.
+- Moving from the numbers question (Can I retire?) to the values question (What matters to me?) is the bridge between financial feasibility and life fulfillment.
+
+## Detailed Notes
+
+### Healthspan vs. Lifespan Gap [00:00:00]
+
+A personal family scare with a pancreatic tumor prompted reflection on the difference between living a long life and maintaining health and capability throughout. Western medicine extends lifespan but may not preserve quality. For those past age 62 with adequate savings, continuing to work trades available healthy years for potential future ones.
+
+### The Optimization Trap [00:00:00]
+
+Many successful savers shift from playing to win the financial game to playing to set the highest score. This psychological pattern leads to obsessive attention to taxes, portfolio growth, and market updates rather than deploying savings. The core error: assuming health and attention will preserve themselves for later, when both degrade over time and cannot be recovered by additional savings.
+
+### Attention as Irreplaceable Currency [00:00:00]
+
+The original goal of saving money was to repurchase attention—the ability to focus on what matters rather than on income generation. Yet many retirees continue surrendering attention to work, fidgeting with taxes and returns, until external forces (job loss, health decline) force a stop. Recognizing that attention is more valuable than additional money is key to retiring intentionally.
+
+### From Numbers to Values [00:00:00]
+
+Two complementary questions guide retirement decisions: (1) Can I afford to retire? (financial feasibility via projections); and (2) What do I actually want my retirement to look like? (non-financial fulfillment). Many people stuck at 62+ have answered the first question affirmatively but avoid asking the second, trapping themselves in work-until-forced cycles.
 
 ## Transcript
 

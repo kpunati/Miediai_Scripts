@@ -37,27 +37,46 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Financial advisor Eric Amzalag reconsiders his early retirement philosophy, revealing that numbers alone don't determine retirement success. He emphasizes that non-financial planning—defining meaningful activities, maintaining social connections, and considering identity transitions—is equally critical for genuine retirement satisfaction."
 topics: []
-topics_proposed: []
+topics_proposed: ["early-retirement", "retirement-planning", "quality-of-life", "financial-goals", "non-financial-planning", "meaning-purpose"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, financial planner"
+    - name: "James"
+      role: "pre-retiree client"
+    - name: "Audrey"
+      role: "pre-retiree client"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["early retirement", "financial planning", "Monte Carlo analysis", "retirement psychology", "phased retirement", "work identity"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "James and Audrey had $2 million in retirement savings and planned to retire within one year"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "James was ages 61 and 60 with Audrey and had spent 30 years disciplined saving"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Eric had just become a grandfather to twin boys and his mother was becoming a full-time grandma"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -67,6 +86,45 @@ notes: ""
 **Published:** 2025-02-08
 **URL:** https://youtube.com/watch?v=UzGwo6jRygs
 **Duration:** 10:08
+
+## Summary
+
+Eric Amzalag shifts his perspective on early retirement, arguing that hitting financial targets is insufficient for retirement success. Through the case study of clients James and Audrey, he illustrates how understanding non-financial goals—like maintaining work friendships, spending time with grandchildren, and finding meaningful hobbies—led to redesigning their retirement to include phased transition rather than full immediate retirement. The video emphasizes that retirement success requires both personalized financial planning and deliberate non-financial planning.
+
+## Key Takeaways
+
+- Knowing your financial numbers is necessary but not sufficient for retirement success.
+- Retiring based solely on hitting a target number can lead to boredom, isolation, and regret.
+- The happiest retirees balance personalized financial planning with non-financial plans for how to spend time.
+- Phased retirement allows testing of retirement lifestyle before full commitment.
+- Work can provide social connection and purpose that must be intentionally replaced in retirement.
+- Life satisfaction in retirement depends on aligning spending with meaningful relationships and activities.
+
+## Detailed Notes
+
+### Rethinking the Retire Early Promise [00:00:00]
+
+Amzalag acknowledges his previous assumption that retirement equals happiness once financial targets are met. Years of client experience revealed that boredom, loneliness, and isolation often follow early retirement, suggesting deeper psychological and social factors matter as much as financial security.
+
+### Case Study: James and Audrey [00:00:00]
+
+Clients age 61 and 60 with $2 million saved had spent 30 years in disciplined saving to hit their retirement number. Despite being financially ready, they reported feeling stressed because they lacked a clear vision of what to do next. They wanted to retire to be available as grandparents.
+
+### Discovery of Non-Financial Goals [00:00:00]
+
+Amzalag asked three questions: How can your money be meaningfully used? What do you expect your days to look like? Who are meaningful people in your life and how often will you see them? Their answers revealed Audrey wanted full-time grandmothering and James valued work friendships and carpentry more than previously expressed.
+
+### Phased Retirement Solution [00:00:00]
+
+Rather than both retiring fully, the plan had Audrey stop work immediately while James continued full-time for 12 months, then half-time for 2 years. This allowed James to maintain work relationships while supporting Audrey's grandparenting goal and tested retirement lifestyle before full transition.
+
+### Testing Retirement in Phases [00:00:00]
+
+Amzalag emphasizes the first 24 months of retirement are shocking and variable month-to-month. Phased transition allows testing withdrawal systems, understanding new tax frameworks, and processing emotional shift from accumulation to drawdown mode.
+
+### Personal Application and Meaning [00:00:00]
+
+Amzalag reveals the case was modeled after his own parents, with his mother becoming a full-time grandma to his twin boys and his father balancing grandfather role with maintaining 'justifiable busyness.' He emphasizes retirement success depends on moving toward meaningful activities, not just away from work.
 
 ## Transcript
 

@@ -45,27 +45,46 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Educational narrative contrasting Sir John Templeton's successful 1939 contrarian investing strategy with modern investing psychology. The video argues that successful long-term investing depends on betting on what won't change (human behavior, time, survival of business) rather than predicting future changes, using Templeton's bankruptcy-purchasing strategy and Jeff Bezos' strategy principle as examples."
 topics: []
-topics_proposed: []
+topics_proposed: ["contrarian-investing", "long-term-investing", "behavioral-finance", "investment-strategy", "historical-perspective"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Sir John Templeton"
+      role: "Legendary global investor, founder"
+    - name: "Jeff Bezos"
+      role: "Amazon founder"
+  companies:
+    - name: "Franklin Templeton"
+      ticker: null
+    - name: "New York Stock Exchange"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["contrarian investing", "margin of safety", "panic selling", "business fundamentals", "time advantage", "surviving companies", "expectations vs reality"]
+content_type: "analysis"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "In 1939, Sir John Templeton borrowed $10,000 and bought 104 companies at $1 per share or less, including 34 in bankruptcy"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Templeton later sold that portfolio for a profit, which became the foundation of a legendary investing career"
+    timestamp: "00:00:48"
+    confidence: "high"
+    flagged: false
+  - claim: "Templeton said 'the four most dangerous words in investing are, This time is different'"
+    timestamp: "00:01:30"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +94,32 @@ notes: ""
 **Published:** 2026-02-24
 **URL:** https://youtube.com/watch?v=k6SVelaCuQY
 **Duration:** 1:46
+
+## Summary
+
+A narrative-driven analysis of contrarian investing using Sir John Templeton's remarkable 1939 stock purchase strategy as the central case study. The video demonstrates how betting on business survival and human behavioral consistency during panic creates opportunity, arguing that the best investment strategies rely on unchanging human nature rather than predicting unpredictable future events.
+
+## Key Takeaways
+
+- Successful investing focuses on betting on what won't change (human behavior, spending, business survival) rather than predicting what will.
+- In 1939 panic, Templeton bought 104 companies at $1/share or below (including 34 bankruptcies) with $10,000, betting that survival alone would generate returns.
+- Fear-driven market prices reflected panic rather than reality, creating a margin of safety for contrarian investors.
+- Templeton's strategy didn't require knowing which specific companies would survive; survivors offset losses from failures.
+- The phrase 'This time is different' represents dangerous thinking; Templeton believed continuity of human nature and time were sufficient for investment success.
+
+## Detailed Notes
+
+### Templeton's 1939 Contrarian Trade [00:00:00]
+
+During 1939 European war panic, John Templeton borrowed $10,000 and instructed his broker to purchase 100 shares of every stock trading under $1 on the NYSE, resulting in 104 companies at $1/share or less, with 34 in bankruptcy. He made no prediction about war outcome or company-specific survival; he only recognized that panic had pushed valuations so low that even modest survival would generate returns, because prices reflected panic, not business reality.
+
+### Outcome & Career Foundation [00:00:48]
+
+Over subsequent years, some companies failed entirely (going to zero), others recovered modestly, and a few outperformed significantly. The surviving companies collectively generated profit, more than offsetting losses from failures. This trade became the foundation of Templeton's career as one of the 20th century's greatest global investors and co-founder of Franklin Templeton.
+
+### Philosophy: Betting on Permanence [00:01:30]
+
+Templeton's strategy was betting on what wouldn't change: that businesses wouldn't all vanish, that people would continue living and spending money, and that time would continue moving forward. He rejected the assumption that 'this time is different.' Jeff Bezos later articulated the same principle: the best strategies are built around things that don't change. Templeton only needed the future to exist; clarity about its specifics was unnecessary.
 
 ## Transcript
 

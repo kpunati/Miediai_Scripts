@@ -45,27 +45,50 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Explains how RMDs at age 75 work under Secure Act 2.0 and the tax implications of delayed first RMD withdrawals. A retiring couple with $3M in traditional IRAs facing ~$198K annual RMD and resulting higher tax brackets and Medicare premium thresholds."
 topics: []
-topics_proposed: []
+topics_proposed: ["required-minimum-distributions", "retirement-taxation", "secure-act-2-0", "rmd-strategy"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "financial advisor"
+  companies:
+    - name: "IRS"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["traditional IRA", "401(k)", "403(b)"]
+  concepts: ["required minimum distribution", "modified adjusted gross income", "tax bracket", "Medicare premium threshold", "Social Security taxation"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Anyone born in 1960 or later has an RMD age of 75 under Secure Act 2.0"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Delaying the first RMD until April 1st of the following year results in taking two RMDs in a single tax year"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "A couple with $3 million in traditional IRAs at 5% annual growth will have approximately $4.8 million by age 75"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "At age 75, the IRS uses a life expectancy factor of 24.6 to calculate RMD, resulting in approximately $198,000 or roughly 4% of the $4.8 million balance"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Stacking RMDs in one tax year over $400,000 triggers higher tax brackets, Medicare premium thresholds, and increased taxation of Social Security"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +98,31 @@ notes: ""
 **Published:** 2026-05-15
 **URL:** https://youtube.com/watch?v=XCTEixBwR6Y
 **Duration:** 1:58
+
+## Summary
+
+This video explains the critical 10-year window before Required Minimum Distributions (RMDs) begin at age 75 for anyone born in 1960 or later under Secure Act 2.0. The presenter illustrates how a retiring couple with $3 million in traditional IRAs can strategically plan around RMD rules, specifically showing the tax consequences of delaying the first RMD. Taking both the first and second RMDs in a single tax year can create substantial tax drag through higher brackets, Medicare premium adjustments, and Social Security taxation.
+
+## Key Takeaways
+
+- RMDs begin at age 75 for those born after 1960, creating a valuable 10-year planning window for retirees in their mid-60s
+- Delaying the first RMD until April 1st of the following year forces two RMDs in one tax year, potentially pushing the couple into much higher tax brackets
+- A $3M portfolio growing at 5% annually reaches ~$4.8M by age 75, resulting in ~$198K annual RMDs subject to ordinary income tax
+- Stacking large RMD amounts in a single year has cascading tax consequences beyond brackets: increased Medicare premiums and additional Social Security taxation
+
+## Detailed Notes
+
+### RMD Rules and Secure Act 2.0 [00:00:00]
+
+At age 75, the IRS requires withdrawals from tax-deferred accounts (traditional IRAs, 401(k)s, 403(b)s). Anyone born in 1960 or later has an RMD age of 75. For those turning 75 in a given year, the first RMD can be taken anytime that year or delayed until April 1st of the following year, but delaying triggers a catch: the second RMD must be taken by December 31st of that same year.
+
+### The First RMD Timing Trap [00:00:00]
+
+If the first RMD is delayed until April 1st, both the first and second RMDs must be taken in a single tax year. For a couple with a projected balance of $4.6-$4.8 million by age 75, this stacking can result in over $400,000 of additional income in one year, pushing them into higher tax brackets, triggering Medicare premium thresholds, and causing more Social Security to be taxed.
+
+### RMD Calculation and Impact [00:00:00]
+
+The IRS divides the prior year's ending balance by a life expectancy factor (24.6 at age 75) to determine the RMD amount. For a $4.8M portfolio, this yields approximately $198,000, or roughly 4% of the balance. Every dollar is taxed at ordinary income rates. When added to Social Security income, the real tax story becomes apparent with cascading effects on other deductions and benefit phase-outs.
 
 ## Transcript
 

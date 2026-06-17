@@ -57,24 +57,35 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Presents five key questions to assess retirement readiness: whether time is slipping away, health is suffering, relationships are being neglected, health span (not just lifespan) is being optimized, and financial resources are sufficient. Argues that fixation on financial projections can cause people to defer retirement indefinitely despite meeting all readiness criteria."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-readiness", "time-management", "health-span"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "CFP, founder of Root Financial"
+  companies:
+    - name: "Root Financial Partners, LLC"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["retirement-planning", "health-span", "opportunity-cost"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "People often get addicted to seeing financial projections grow and use 'one more year' as perpetual reason to delay retirement"
+    timestamp: "00:06:17"
+    confidence: "high"
+    flagged: false
+  - claim: "A client James worked with couldn't retire despite strong projections because she waited until 65, retired, and died within 12 months"
+    timestamp: "00:01:03"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: ["unpunctuated_captions"]
@@ -87,6 +98,44 @@ notes: ""
 **Published:** 2025-02-18
 **URL:** https://youtube.com/watch?v=J6oSizxHkDM
 **Duration:** 9:25
+
+## Summary
+
+James Conole challenges the common practice of perpetually deferring retirement based on financial optimization alone. He presents five critical questions for retirement readiness that go beyond numbers: Is time passing you by? Is your health suffering? Do you long for more time with friends and family? Are you considering health span, not just lifespan? Are you financially ready? He argues that the trap of always pursuing 'one more year' of work ignores the non-renewable nature of time and the declining ability to enjoy experiences with age.
+
+## Key Takeaways
+
+- Time is the only truly non-renewable resource; money is always more obtainable than lost years and health
+- Health span (healthy, active years) matters more than total lifespan when planning retirement activities and adventures
+- The first 4-5 years of retirement are typically the healthiest and most active, making early retirement more valuable than projected longevity suggests
+- Delaying for financial reasons creates an opportunity cost of experiences and relationships that cannot be recovered
+- Financial projections naturally look better the longer you work, but this can trap you in perpetual deferral
+
+## Detailed Notes
+
+### The financial projection trap [00:00:00] [00:00:00]
+
+James describes a client who was financially ready to retire but kept running projections. The client couldn't get past the idea of losing next year's bonus and stock vesting. James reminds him that financial projections by design only focus on the financial side, missing the bigger picture that life passes by.
+
+### Question 1: Is time passing you by? [00:00:00] [00:00:00]
+
+James argues that the longer you work, the better the financial projections look, but at what cost? He shares a real client story of someone who kept pushing back retirement, finally retired at 65, and died within 12 months. Time is the only non-renewable currency; as you age, both time and its value become scarcer.
+
+### Question 2: Is your health suffering? [00:02:07] [00:02:07]
+
+After 30-40+ years of work, health often suffers significantly. Years of working while neglecting health can literally subtract years from your life. Even if extra income adds to your portfolio, declining health may erase that gain by reducing your quality of life and lifespan.
+
+### Question 3: Do you long for time with family and friends? [00:04:12] [00:04:12]
+
+Work often consumes 40-50 hours weekly plus commute and tasks. The quality of life is determined largely by relationship quality. James challenges listeners to ask how many more times they will see aging parents or friends and to prioritize those relationships while still healthy.
+
+### Question 4: Consider health span, not just lifespan [00:05:15] [00:05:15]
+
+A 30-year retirement starting at 65 does not mean 30 years of equal vitality. The first few years are typically the healthiest, with declining capability in your 70s, 80s, 90s. Pushing retirement back sacrifices your best years when you have energy and health to travel, play sports, and create memories.
+
+### Question 5: Are you financially ready? [00:06:17] [00:06:17]
+
+Financial readiness is necessary but not sufficient. Many people get addicted to watching projections grow and always want 'one more year' for the next bonus or vesting. This perpetual deferral ignores that opportunity costs are permanent while financial gains can always be made later if needed.
 
 ## Transcript
 

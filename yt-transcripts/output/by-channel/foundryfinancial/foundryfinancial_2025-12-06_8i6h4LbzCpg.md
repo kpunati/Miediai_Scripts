@@ -62,24 +62,36 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Kevin Lum presents seven subtle emotional, behavioral, and physical signals that may indicate it's time to retire: feeling numb at work, resistance to learning new tools, loss of interest in promotions, experiencing Sunday anxiety, constantly monitoring retirement account balances, desire to volunteer or pursue unpaid activities, and physical aches limiting vitality."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-readiness", "career-transitions", "retirement-planning", "work-burnout", "emotional-indicators"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Kevin Lum"
+      role: "CFP, founder of Foundry Financial"
+    - name: "Carrie Hannon"
+  companies:
+    - name: "Foundry Financial"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["401(k)", "Empower", "Fidelity", "Charles Schwab", "Betterment", "Right Capital"]
+  concepts: ["burnout", "career transition", "retirement readiness", "purpose in retirement", "health and vitality", "emotional shift from accumulation to spending", "Sunday scaries", "post-retirement depression"]
+content_type: "educational"
+audience_level: "beginner"
+key_claims: 
+  - claim: "When retirement nears, people begin checking 401(k) balances daily or frequently, contrasting with those decades from retirement who check infrequently."
+    timestamp: "00:06:06"
+    confidence: "medium"
+    flagged: false
+  - claim: "Retiring without a sense of purpose and meaning often leads to significant depression among retirees."
+    timestamp: "00:08:07"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: []
@@ -92,6 +104,50 @@ notes: ""
 **Published:** 2025-12-06
 **URL:** https://youtube.com/watch?v=8i6h4LbzCpg
 **Duration:** 12:12
+
+## Summary
+
+Kevin Lum explores seven psychological, behavioral, and physical signals that may indicate someone is ready to retire, even if they haven't consciously admitted it. Drawing from Wall Street Journal research and client conversations, the video frames retirement as a major life transition requiring both financial clarity and emotional readiness. Lum emphasizes that multiple signals stacking together—not just one—suggest retirement readiness, and cautions that retiring without a purpose or passion can lead to post-retirement depression.
+
+## Key Takeaways
+
+- Persistent numbness or loss of spark at work signals burnout, which may warrant career transition or retirement rather than continuing in dissatisfaction.
+- Reluctance to learn new workplace technologies and tools often emerges late in careers and can indicate readiness to step away from evolving job demands.
+- Loss of ambition for promotions and advancement suggests a psychological shift from career-building to a different life stage.
+- Regular Sunday anxiety about Monday work is a meaningful emotional signal to evaluate whether the job trade-off is still worth the cost to health and personal time.
+- Frequent monitoring of retirement account balances reflects a psychological shift from wealth accumulation to spending readiness and retirement readiness.
+- Desire to volunteer or pursue unpaid meaningful activities indicates a pull toward purpose-driven work outside traditional employment.
+- Physical aches, reduced recovery, and declining energy are signals to retire while still healthy enough to enjoy retirement activities rather than working until vitality is depleted.
+
+## Detailed Notes
+
+### The Burnout Signal: Numbness at Work [00:01:57]
+
+Feeling emotionally numb week after week at work, beyond normal off days, signals burnout. This is not frustration or anger but exhaustion and lack of spark. It may indicate the need for role transition, new job, sabbatical, or retirement. Burnout is a signal to pay attention to, not a personal failure.
+
+### Technology Resistance: Shrinking from Learning [00:02:58]
+
+After decades of learning new software, tools, and systems (email, word processors, dashboards, AI), many late-career workers lose the will to adopt new technologies. This resistance is a natural signal, not a character flaw. If you find yourself unwilling to learn new systems, it may indicate readiness to exit the workforce.
+
+### Career Ambition: Promotion Indifference [00:04:00]
+
+Early career often brings ambition to climb the corporate ladder and seek promotions. When promotions begin to feel like burdens rather than opportunities, it signals a mental and emotional transition away from career-building. Loss of drive for advancement is a meaningful sign of readiness for the next life chapter.
+
+### Emotional Toll: Sunday Scaries [00:04:57]
+
+Regular dread on Sunday nights about Monday's arrival indicates emotional exhaustion from the job. While not always a sign to retire (some may need job change or address depression), when combined with other signals, Sunday anxiety suggests the time-for-money trade-off may no longer be worthwhile.
+
+### Account Monitoring: Daily 401(k) Checking [00:06:06]
+
+People far from retirement rarely check retirement accounts; those approaching it check frequently or daily. This behavioral shift reflects moving from accumulation mindset to spending mindset and signals a psychological readiness for retirement. Constant monitoring of account balance indicates emotional focus on retirement feasibility.
+
+### Purpose Pursuit: Volunteer and Unpaid Work [00:08:07]
+
+Attraction to volunteering or pursuing passion projects without pay indicates a shift toward purpose-driven activity. Lum emphasizes retiring to something meaningful, not just away from work, to prevent post-retirement depression. Finding community or meaning outside paid work is a retirement signal.
+
+### Physical Decline: Health and Vitality Limits [00:09:04]
+
+Aches, pains, slower recovery, and reduced energy are physiological signals that healthy years are finite. Continuing to work while health allows means missing the opportunity to enjoy travel, family time, and activities. Not retiring while still healthy enough to enjoy retirement activities is a potential regret.
 
 ## Transcript
 

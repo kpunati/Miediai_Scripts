@@ -45,27 +45,52 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Financial analysis on Trump tariff policy, Tesla stock appeal based on autonomous vehicle developments, and stock recommendations including Google and Amazon for AI-driven growth opportunities."
 topics: []
-topics_proposed: []
+topics_proposed: ["tariff-policy", "tesla-autonomous-vehicles", "ai-stocks", "investment-strategy"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Rebecca Walser"
+      role: "tax attorney, wealth manager"
+    - name: "Charles Payne"
+      role: "TV host, Making Money"
+    - name: "Elon Musk"
+      role: "Tesla CEO"
+  companies:
+    - name: "Tesla"
+      ticker: "TSLA"
+    - name: "Google"
+      ticker: "GOOGL"
+    - name: "Amazon"
+      ticker: "AMZN"
+    - name: "Nvidia"
+      ticker: "NVDA"
+  tickers: ["TSLA", "GOOGL", "AMZN", "NVDA"]
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Tesla Autonomous Taxis"]
+  concepts: ["tariffs", "negotiation-strategy", "autonomous-vehicles", "ai-adoption", "cryptocurrency"]
+content_type: "opinion"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Tesla launching autonomous taxi trial in Austin on June 12th"
+    timestamp: "00:02:37"
+    confidence: "high"
+    flagged: false
+  - claim: "9 billion rotated out of gold directly into Bitcoin recently"
+    timestamp: "00:04:18"
+    confidence: "medium"
+    flagged: true
+  - claim: "Trump started at 150% tariffs on China, negotiated down to 30%"
+    timestamp: "00:00:37"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +100,41 @@ notes: ""
 **Published:** 2025-05-30
 **URL:** https://youtube.com/watch?v=mYwSD0Xzo5A
 **Duration:** 5:11
+
+## Summary
+
+Rebecca Walser discusses Trump's tariff negotiation strategy, comparing it to his negotiating style described in The Art of the Deal. She recommends Tesla stock due to imminent autonomous vehicle launches and highlights AI-driven opportunities in Google and Amazon despite broader macroeconomic headwinds. She also addresses cryptocurrency legitimacy and concerns about AI-driven automation replacing human labor.
+
+## Key Takeaways
+
+- Tesla positioned for growth with June 12th autonomous taxi trial launch in Austin
+- Trump tariff strategy uses high opening position for negotiation advantage, not final intent
+- Google's AI initiatives and privacy protections warrant stock consideration despite search challenges
+- Amazon AI integration could dramatically impact cost structure and personal consumption patterns
+- Bitcoin/cryptocurrency represents future payment system despite 2022 volatility concerns
+- Gold allocation still appropriate but facing some rotation to cryptocurrency assets
+
+## Detailed Notes
+
+### Tariff Negotiation Strategy [00:00:00]
+
+Walser explains Trump's negotiation approach: start with 150% tariff on China, move down to 30%, and market responds positively. Market would have rejected 30% as opening offer. Strategy demonstrates Art of the Deal negotiating principle of putting cards on table and using leverage.
+
+### Tesla Autonomous Vehicles [00:02:37]
+
+Tesla positioned for significant growth. Autonomous taxi trial launching in Austin on June 12th. Walser notes expansion in Phoenix test areas visible on ground. Believes autonomous vehicle adoption imminent, potentially eliminating traditional taxi industry within timeframe.
+
+### Fed Policy and Markets [00:01:56]
+
+Powell in difficult position with dual mandate from Congress. Recent Supreme Court ruling limits political oversight. Uncertainty about inflation vs. employment focus continues, but market interpreting Fed as more flexible than under prior administration.
+
+### Tech Stock Opportunities [00:03:40]
+
+Google recommended despite search revenue loss to AI; citing DeepMind and AI safety controls. Amazon break-through on 200-day technical level; Walser bullish on AI-driven consumer intelligence and delivery optimization. Both treated as long-term buys for AI exposure.
+
+### Cryptocurrency and Asset Rotation [00:04:18]
+
+9 billion recently rotated from gold to Bitcoin. Walser views cryptocurrency as legitimate future hedge but notes lack of proof-of-concept during major corrections (2022 weakness). Considers crypto essential portfolio component but still elevated risk due to volatility profile versus gold.
 
 ## Transcript
 

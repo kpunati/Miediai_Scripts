@@ -45,27 +45,50 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser critiques Jerome Powell's Fed policy and Harvard's tax-exempt status on Newsmax, arguing the U.S. faces a debt spiral that cannot continue and advocating for Fed independence challenges."
 topics: []
-topics_proposed: []
+topics_proposed: ["fed-policy", "debt-crisis", "tax-policy", "monetary-policy", "interest-rates"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Rebecca Walser"
+      role: "Tax Attorney, President of Walser Wealth Management"
+    - name: "Carl Higbie"
+      role: "Host"
+    - name: "Jerome Powell"
+      role: "Federal Reserve Chair"
+  companies:
+    - name: "Harvard University"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["debt spiral", "Fed independence", "Humphrey-Executor doctrine", "tariff policy", "interest rates vs inflation", "federal tax policy", "modern monetary theory"]
+content_type: "opinion"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "U.S. accumulating $1 trillion new deficit every 100 days, having entered debt spiral stage"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Fed Chair Powell predicted six rate cuts in 2024 but delivered only three"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Interest rates are held almost double what inflation currently is"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Since 1913 on gold standard, $100 then is worth $3 today due to Fed policy"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +98,37 @@ notes: ""
 **Published:** 2025-04-18
 **URL:** https://youtube.com/watch?v=T4NQ2JwxtCY
 **Duration:** 3:58
+
+## Summary
+
+Walser discusses two policy challenges facing the U.S.: Harvard University's tax-exempt status being challenged for political speech, and Federal Reserve Chair Jerome Powell's refusal to cut interest rates despite tariff-driven inflation. She argues Powell's politicized stance contradicts the Fed's independence mandate and that the nation faces an unsustainable debt spiral requiring structural reforms.
+
+## Key Takeaways
+
+- Harvard's tax exemption is being challenged due to political speech rather than purely educational function
+- Federal Reserve's independence is being questioned through the Humphrey-Executor doctrine
+- Powell's interest rate policy is misaligned with inflation and economic conditions
+- U.S. deficit spending has reached critical levels with $1 trillion added every 100 days
+- Modern monetary theory's 'print money' approach is unsustainable and contributes to debt crisis
+- Fed officials are expressing political opposition to the Trump administration rather than maintaining independence
+
+## Detailed Notes
+
+### Harvard Tax-Exempt Status Challenge [00:00:00]
+
+Walser supports challenging Harvard's tax-exempt status, arguing it functions as a political entity rather than a pure educational institution. She contrasts this with conservative universities, noting that progressive institutions have failed to provide safe educational environments for Jewish students while implementing politically discriminatory practices like failing students who disagree with institutional viewpoints.
+
+### Federal Reserve Independence and Powell's Stance [00:00:00]
+
+Walser criticizes Powell for holding interest rates almost double the inflation rate despite tariff impacts. She notes the Fed promised six rate cuts in 2024 (delivered three), then projected three for 2025 (down to two). Federal Reserve members are now publishing op-eds saying they don't need to support Trump policy, indicating politicization of the supposedly independent institution.
+
+### Trump's Humphrey-Executor Challenge [00:00:00]
+
+Trump is seeking Supreme Court clarification on the 1935 Humphrey-Executor ruling that protects independent agency heads from termination except under narrow circumstances. Walser suggests this legal challenge is necessary given the Fed's politicized stance, though she acknowledges the complexity of limiting executive power over independent agencies.
+
+### Debt Spiral and Fiscal Unsustainability [00:00:00]
+
+Walser emphasizes that U.S. deficit spending has reached the debt spiral stage with $1 trillion in new deficit created every 100 days. She traces the problem to 2009's shift to modern monetary theory, arguing that unlimited money printing ('fake money') cannot continue indefinitely and requires structural reform.
 
 ## Transcript
 

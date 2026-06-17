@@ -65,24 +65,39 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Kevin Lum explains that life expectancy is the most commonly miscalculated variable in retirement planning, affecting Roth conversion decisions, social security timing, and overall financial security. Using JP Morgan data, he shows 65-year-old non-smoking women have a 73% chance of reaching 85 and 25% chance of reaching 95; married couples face 43% odds of one partner reaching 95. Accurate life expectancy projections are essential for proper retirement strategy."
 topics: []
-topics_proposed: []
+topics_proposed: ["life-expectancy", "roth-conversions", "social-security-strategy", "retirement-planning", "longevity-risk"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Kevin Lum"
+      role: "certified financial planner"
+  companies:
+    - name: "JP Morgan"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Roth IRA", "IRAs", "Social Security"]
+  concepts: ["life expectancy", "retirement projections", "Roth conversions", "tax brackets", "longevity risk", "inflation-adjusted income"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "65-year-old non-smoking women have 73% chance of living to age 85 and 25% chance of living to age 95"
+    timestamp: "00:04:01"
+    confidence: "high"
+    flagged: false
+  - claim: "For a married non-smoking couple, there is a 90% chance one will reach age 85 and 43% chance one will reach age 95"
+    timestamp: "00:04:01"
+    confidence: "high"
+    flagged: false
+  - claim: "Using a life expectancy of 95 versus 85 dramatically reduces the effectiveness of Roth conversions in the presented example"
+    timestamp: "00:05:24"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: []
@@ -95,6 +110,48 @@ notes: ""
 **Published:** 2025-04-05
 **URL:** https://youtube.com/watch?v=dwasGSTx_Fs
 **Duration:** 10:01
+
+## Summary
+
+Kevin Lum identifies life expectancy as the single most important and frequently miscalculated variable in retirement planning. He challenges the common misconception that national average life expectancy (73 for men, 79 for women) is relevant, explaining these figures are from-birth averages that include infant mortality and early-life accidents. Using JP Morgan longevity data, he shows that 65-year-olds, particularly non-smoking women and married couples, face much higher survival probabilities than assumed. This variable directly impacts when to claim social security, whether to pursue Roth conversions, and overall retirement security.
+
+## Key Takeaways
+
+- National average life expectancy figures (73 for men, 79 for women) are useless for retirement planning because they are calculated from birth and include infant mortality and early-life deaths.
+- For a 65-year-old non-smoking woman, the odds are 73% she'll reach 85 and 25% she'll reach 95; for men similar age it's slightly lower but still substantial.
+- Married couples face dramatically higher longevity risk: 90% chance at least one reaches 85 and 43% chance one reaches 95, requiring planning for extended retirement.
+- Delaying social security becomes more valuable when planning for longer life expectancies, as benefits grow 8% annually until age 70.
+- Roth conversion effectiveness depends heavily on assumed life expectancy; longer projected lifespans reduce the tax-deferred growth advantage and shift the optimal strategy.
+
+## Detailed Notes
+
+### Controllable and Uncontrollable Retirement Variables [00:00:00]
+
+Lum identifies variables in retirement planning: controllable ones (spending, asset location, asset allocation, social security timing) and uncontrollable ones (market returns, tax policy). He emphasizes that life expectancy is the most important variable that people often miscalculate.
+
+### Life Expectancy in Roth Conversion Decisions [00:02:21]
+
+Lum uses Roth conversions as a case study, presenting his formula: Market returns + Taxes + Target + Time = Roth decision. The time variable—how long money compounds—is critical. Miscalculating life expectancy invalidates the entire conversion analysis.
+
+### Why National Averages Are Misleading [00:02:59]
+
+Lum explains that national average life expectancy (73 for men, 79 for women) includes everyone from birth, incorporating infant mortality, childhood disease, and accidents. Someone watching a retirement video has already survived past those risks and should calculate life expectancy from their current age cohort forward, not from birth.
+
+### JP Morgan Longevity Data for Age 65+ [00:04:01]
+
+JP Morgan research shows: a 65-year-old non-smoking woman has 73% chance of reaching 85 and 25% chance of reaching 95; men have similar but slightly lower odds; a 1-in-5 chance of reaching 95. For married couples, the numbers compound: 90% chance at least one reaches 85, and 43% chance one reaches 95.
+
+### Case Study: Phil and Claire with Life Expectancy Scenarios [00:05:24]
+
+Lum presents a couple with $1.3M net worth and analyzes Roth conversions under two scenarios. Assuming life expectancy of 95, the conversion yields $4.4M in after-tax wealth with ~$760k tax savings. Assuming 85 instead, the same conversion yields only $687k, with much lower tax savings, demonstrating life expectancy's enormous impact on strategy effectiveness.
+
+### Social Security Timing and Survivor Benefits [00:07:22]
+
+Life expectancy affects social security strategy. Delaying claims past 62 increases benefits 8% annually. For married couples, if the higher earner delays, they not only improve their own benefit but lock in a better survivor benefit for a spouse who might live longer. Planning must account for both spouses' longevity, not just the primary earner's.
+
+### Personal Longevity Planning and Final Advice [00:08:27]
+
+Lum emphasizes planning for personal circumstances: family medical history, geographic location, health status. His own situation illustrates the complexity—maternal side has extended longevity (grandfather 97, grandmother in 90s) while paternal side shows earlier mortality. He advises using tools like the longevity illustrator and planning conservatively for extended lifespan, especially for married couples facing 40%+ odds of one spouse reaching 95.
 
 ## Transcript
 

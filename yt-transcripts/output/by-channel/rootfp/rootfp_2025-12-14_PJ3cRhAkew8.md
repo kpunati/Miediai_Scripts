@@ -57,27 +57,54 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "James Conole explains how Roth conversions can trigger unintended Medicare IRMAA surcharges costing thousands annually. The key insight is that IRMAA charges are based on modified adjusted gross income (MAGI), not taxable income. A case study shows a couple could save nearly $1M in taxes but lose tens of thousands to Medicare surcharges by converting to the wrong bracket."
 topics: []
-topics_proposed: []
+topics_proposed: ["roth-conversions", "medicare-irmaa", "tax-planning", "modified-adjusted-gross-income", "capital-gains-tax"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "CFP, financial advisor"
+    - name: "Michael"
+      role: "case study subject"
+    - name: "Lisa"
+      role: "case study subject"
+  companies:
+    - name: "Root Financial Partners"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["IRMAA-surcharges", "MAGI", "roth-conversion-strategy", "Medicare-Part-B", "Medicare-Part-D", "tax-brackets"]
+content_type: "educational"
+audience_level: "advanced"
+key_claims: 
+  - claim: "Roth conversions can add over $5,200 per year in unintended Medicare premium surcharges"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Medicare IRMAA surcharges are based on modified adjusted gross income, not taxable income"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "IRMAA thresholds for 2025 are $212,000 for married filing jointly or $106,000 for single"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Exceeding IRMAA threshold by $1 triggers monthly surcharges of $74 for Part B and $13.70 for Part D"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "A strategic adjustment in conversion planning can add $90,000 in tax-adjusted ending wealth versus standard approach"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -87,6 +114,41 @@ notes: ""
 **Published:** 2025-12-14
 **URL:** https://youtube.com/watch?v=PJ3cRhAkew8
 **Duration:** 10:25
+
+## Summary
+
+James Conole reveals how Roth conversion planning often ignores Medicare IRMAA surcharges, which are triggered by modified adjusted gross income (MAGI) rather than taxable income. Using Michael and Lisa's case, he shows how a conversion strategy targeting the 22% tax bracket saves nearly $1M in taxes but inadvertently costs tens of thousands in Medicare surcharges. By optimizing conversions to stay below IRMAA thresholds instead, the couple gains $90K additional wealth while paying less in earlier-year taxes—a win-win adjustment that most retirees miss.
+
+## Key Takeaways
+
+- Roth conversions benefit from lower tax brackets but often trigger Medicare IRMAA surcharges worth $5,200+ annually.
+- IRMAA charges are based on MAGI, not taxable income—a critical distinction that creates gaps in planning.
+- 2025 IRMAA thresholds: $212K married/filing jointly, $106K single; exceeding by $1 triggers monthly surcharges.
+- Standard conversion strategy (filling 22% tax bracket) may miss IRMAA tier thresholds, costing tens of thousands.
+- Coordinating conversions with capital gains, dividend rates, and IRMAA tiers requires holistic analysis.
+- Strategic adjustment: convert to IRMAA tier limits instead of tax brackets, gaining extra wealth while reducing early-year taxes.
+
+## Detailed Notes
+
+### The Roth Conversion Trap [00:00:00]
+
+Roth conversions are a powerful tax strategy but often backfire when Medicare IRMAA (Income-Related Monthly Adjustment Amount) surcharges are overlooked. A case study shows Medicare premiums jumping from $0 to $5,200/year in excess premiums due to unplanned conversions. Most planners focus only on ordinary income tax brackets, missing the bigger picture of how conversions ripple through other tax regimes.
+
+### MAGI vs. Taxable Income: The Critical Distinction [00:00:00]
+
+Medicare IRMAA charges are based on modified adjusted gross income (MAGI), calculated before standard or itemized deductions. Taxable income, used for ordinary tax brackets, is much lower. This mismatch means converting to the 22% tax bracket can inadvertently push MAGI well above IRMAA thresholds. For example, filling a $26,700 taxable income bracket requires minimum $30,000 MAGI due to standard deductions, easily triggering surcharges for married couples with $212K thresholds.
+
+### IRMAA Tier Structure and Surcharge Mechanics [00:00:00]
+
+Medicare Part B and D have no surcharge for MAGI under $212K (married) or $106K (single). Crossing this threshold by $1 triggers tier one surcharges: $74/month for Part B and $13.70/month for Part D. Higher tiers escalate surcharges progressively. These charges apply for the entire year in which income exceeds the threshold, making threshold management crucial.
+
+### Michael and Lisa's Case Study: Optimization in Action [00:00:00]
+
+Michael and Lisa have substantial pre-tax accounts (401k, IRA). A standard strategy converting to fill the 22% tax bracket saves $975,000 in federal income taxes and generates $1M+ in tax-adjusted ending wealth. However, this strategy pushes them into multiple IRMAA tiers, costing tens of thousands in unnecessary premiums. By instead converting only up to the IRMAA tier one threshold, they gain an additional $90,000 in tax-adjusted ending wealth while paying less in early-year taxes—a win-win adjustment.
+
+### Holistic Tax Planning Framework [00:00:00]
+
+Effective Roth conversion planning must coordinate three tax regimes: ordinary income brackets (10-37%), capital gains brackets (0/15/20%), and IRMAA tiers. Conversions affect how qualified dividends and long-term capital gains are taxed. Social Security taxation may also be impacted. Understanding these interconnections prevents a narrow focus on one bracket from triggering unexpected costs in others. Advanced retirement planning software is essential for accurate projections across all regimes.
 
 ## Transcript
 

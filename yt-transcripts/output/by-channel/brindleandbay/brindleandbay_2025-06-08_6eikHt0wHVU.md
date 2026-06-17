@@ -43,27 +43,50 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Expert financial advisor identifies five behavioral personality types most likely to cause retirees to overspend relative to their savings: optimistic under-savers, status maintainers, anxious spenders, entitled expectators, and unprepared improvisers. Research shows 31% of retirees admit to overspending, with interventions like budgeting structures and guardrails helping to mitigate risks."
 topics: []
-topics_proposed: []
+topics_proposed: ["spending-behavior", "retirement-planning", "behavioral-finance", "overspending-risks", "financial-psychology", "retirement-income-management"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, financial advisor"
+  companies:
+    - name: "Employee Benefit Research Institute"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["spending personality types", "retirement overspending", "behavioral patterns", "financial stress", "lifestyle planning", "credit card debt in retirement"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "31% of retirees are now spending more than they can afford, up from 17% in 2020"
+    timestamp: "00:01:04"
+    confidence: "high"
+    flagged: true
+  - claim: "68% of retirees with debt carry credit card balances"
+    timestamp: "00:01:52"
+    confidence: "high"
+    flagged: true
+  - claim: "Emergency savings dropped from 69% of retirees in 2020 to 59% in 2024"
+    timestamp: "00:01:52"
+    confidence: "high"
+    flagged: true
+  - claim: "36% of retirees report facing unplanned spending needs"
+    timestamp: "00:08:46"
+    confidence: "medium"
+    flagged: false
+  - claim: "Retirees with entitled expectation mindset rate lifestyle satisfaction at 5.7 out of 10"
+    timestamp: "00:07:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -73,6 +96,37 @@ notes: ""
 **Published:** 2025-06-08
 **URL:** https://youtube.com/watch?v=6eikHt0wHVU
 **Duration:** 12:24
+
+## Summary
+
+This video breaks down five distinct spending personality archetypes that lead retirees to outrun their savings despite adequate resources. The presenter analyzes recent research showing overspending has jumped to affect nearly one-third of retirees, and provides targeted strategies for each personality type—from written income plans for optimistic under-savers to behavioral safeguards for anxious spenders.
+
+## Key Takeaways
+
+- The optimistic under-saver assumes expenses stay flat and emergencies won't happen, leading to inadequate planning despite decades of accumulation.
+- Status maintainers refuse to adjust spending post-retirement, creating a dangerous identity-based mindset that ignores changed income realities.
+- Anxious spenders use shopping as an emotional coping mechanism for market volatility and life uncertainty, leading to accumulated debt.
+- Entitled expectators believe retirement should match or exceed their working lifestyle and resist budget discipline, resulting in low life satisfaction.
+- Unprepared improvisers enter retirement without a plan, reacting to expenses rather than responding systematically, enabling gradual lifestyle creep.
+- Protection strategies must be personalized: structure for optimists, constraints for status maintainers, guardrails for anxious spenders.
+
+## Detailed Notes
+
+### The Growing Overspending Crisis [00:00:00]
+
+Research by the Employee Benefit Research Institute shows the share of retirees admitting to spending beyond their means jumped from 17% in 2020 to 31% in 2024. The video argues this stems from entering retirement without a clear plan, leading to a situation where recovery options shrink quickly. Emergency savings buffers have also eroded, dropping from 69% to 59% of retirees over the same period.
+
+### Five Personality Types and Their Spending Patterns [00:02:45]
+
+The presenter identifies five archetypes: (1) optimistic under-savers who assume things work out, (2) status maintainers tied to pre-retirement lifestyle, (3) anxious spenders using purchases for emotional regulation, (4) entitled expectators resisting budgeting, and (5) unprepared improvisers operating without structure. Each exhibits distinct behavioral drivers and psychological roots for overspending.
+
+### Behavioral Roots and Risk Identification [00:09:48]
+
+The key to prevention is early pattern recognition while still working: avoiding budgeting because it feels restrictive, using shopping to unwind, and procrastinating on financial decisions are warning signals. Awareness of these tendencies allows individuals to build safeguards before retirement, shifting from habit-driven to goal-aligned spending.
+
+### Customized Protection Strategies [00:10:44]
+
+Each personality type requires different interventions: optimists need written income plans with conservative assumptions; status maintainers benefit from 'retirement paycheck' structures that mirror salary constraints; anxious spenders rely on guardrails and advisor accountability; improvisers need systematic budgeting frameworks to prevent lifestyle creep.
 
 ## Transcript
 

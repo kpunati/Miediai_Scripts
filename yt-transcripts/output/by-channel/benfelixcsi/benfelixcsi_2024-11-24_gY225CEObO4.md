@@ -60,27 +60,62 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Ben Felix explains the Presidential Puzzle: historical data shows the equity risk premium has been 10.7% annually under Democratic presidents versus -0.2% under Republican presidents, likely due to time-varying risk aversion causing higher expected returns when Democrats are elected."
 topics: []
-topics_proposed: []
+topics_proposed: ["presidential-puzzle", "political-cycles", "risk-aversion", "equity-risk-premium", "market-timing"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Ben Felix"
+      role: "Chief Investment Officer at PWL Capital"
+    - name: "Donald Trump"
+      role: "47th U.S. President"
+    - name: "Franklin Roosevelt"
+      role: "U.S. President"
+    - name: "John McCain"
+      role: "U.S. Presidential candidate"
+    - name: "Joe Biden"
+      role: "U.S. President"
+    - name: "Kamala Harris"
+      role: "U.S. Presidential candidate"
+  companies:
+    - name: "PWL Capital"
+      ticker: null
+    - name: "Vanguard"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["presidential-puzzle", "political-cycles", "equity-risk-premium", "risk-aversion", "market-timing", "business-cycle", "valuations", "social-insurance"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "From 1927 to 2015, the average market return in excess of three-month treasury bills under Democratic presidents was 10.7% per year, while under Republican presidents it was negative 0.2% per year."
+    timestamp: "00:02:06"
+    confidence: "high"
+    flagged: true
+  - claim: "Under Trump, the equity risk premium was 14.4% annualized, while under Biden it has been 8.63% ending October 2024."
+    timestamp: "00:02:06"
+    confidence: "high"
+    flagged: true
+  - claim: "Updated data from 1927 to October 2024 shows the equity risk premium is 10.29% annualized when a Democrat is president and 2.23% when a Republican is president."
+    timestamp: "00:03:08"
+    confidence: "high"
+    flagged: true
+  - claim: "Democrats tend to get elected when risk aversion is high and expected stock returns are higher, while Republicans tend to get elected when risk aversion is low and expected returns are lower."
+    timestamp: "00:04:11"
+    confidence: "medium"
+    flagged: false
+  - claim: "Vanguard's Capital Market expectations indicate US stock returns will be between 3.2-5.2% for the next 10 years, with PWL Capital slightly higher at 6.54%."
+    timestamp: "00:06:17"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -90,6 +125,42 @@ notes: ""
 **Published:** 2024-11-24
 **URL:** https://youtube.com/watch?v=gY225CEObO4
 **Duration:** 10:46
+
+## Summary
+
+Felix examines the Presidential Puzzle, an empirical anomaly where historical stock returns have been significantly higher under Democratic presidents (10.7% annualized) than Republican presidents (-0.2%), despite conventional beliefs about Republican policies favoring markets. The explanation is not that Democratic policies cause higher returns, but rather that risk aversion varies over time, causing Democrats to be elected when investors are risk-averse (and expected returns are high) and Republicans to be elected when risk aversion is low (and expected returns are low).
+
+## Key Takeaways
+
+- Historical equity risk premium from 1927-2024 shows 10.29% annualized returns under Democratic presidents versus 2.23% under Republican presidents, a dramatic and significant difference.
+- The Presidential Puzzle isn't explained by Democratic policies being better for markets, but by risk aversion causing Democratic elections during high-return environments and Republican elections during low-return environments.
+- Democrats get elected during economic crises (high risk aversion) like the Great Depression, 1970s recession, and COVID-19, while Republicans get elected during booming economies and bull markets (low risk aversion).
+- The return gap between Democratic and Republican administrations is largest in early years, as risk aversion declines after initial Democratic election, causing expected returns to fall and prices to rise.
+- Vanguard forecasts US stock returns at 3.2-5.2% over the next decade, with PWL Capital projecting 6.54%, both trailing non-US global stocks.
+- The model predicts low expected returns after Republican election victories when risk aversion and valuations are low, though raw stock returns remain reliably positive regardless of party.
+- Individual beliefs and behavioral responses to elections can lead to poor market timing decisions; diversification and staying invested in a globally diversified portfolio is more reliable than political cycle-based timing.
+
+## Detailed Notes
+
+### The Presidential Puzzle Empirical Finding [00:02:06]
+
+The empirical puzzle, identified in a 2003 Journal of Finance paper and confirmed in a 2020 follow-up, shows that from 1927-2015, the market risk premium was 10.7% annually under Democrats versus -0.2% under Republicans. This 11% annual difference is both economically and statistically significant. Updated through October 2024, the pattern persists: 10.29% under Democrats and 2.23% under Republicans.
+
+### Risk Aversion Model vs. Policy Explanation [00:03:08]
+
+The tempting explanation (Democratic policies are better for markets) doesn't hold because expected policy effects are quickly priced into stocks. Instead, political cycles and stock returns paper proposes that Democrats get elected when risk aversion is high (driving higher expected returns) and Republicans when risk aversion is low (driving lower expected returns). This creates correlation without causation.
+
+### Historical Pattern: Risk Aversion and Elections [00:05:15]
+
+The model explains election outcomes through risk aversion cycles: FDR won in Great Depression (1932), Kennedy during 1960-61 recession, Carter after 1973-75 recession, Clinton after 1990-91 recession, Obama during 2008 financial crisis, Biden during COVID-19, and Trump in 2024 with strong economy and bull market. Republican elections follow periods of low risk aversion and strong growth.
+
+### Expected Future Returns and Valuations [00:06:17]
+
+With the Trump administration taking office, the model predicts lower expected returns ahead because valuations are high and risk aversion is low (typical of Republican election environments). Vanguard forecasts 3.2-5.2% US stock returns for the next decade, trailing global ex-US stocks. This is significantly below the long-term historical average.
+
+### Why Market Timing Based on Elections Fails [00:08:23]
+
+Despite the historical Presidential Puzzle pattern, Felix cautions against market timing based on political cycles because: (1) no model is perfect, (2) investors who exited US stocks when Trump was elected in 2016 missed four years of strong returns, (3) average returns remain positive regardless of administration, and (4) diversification is more reliable than political cycle predictions.
 
 ## Transcript
 

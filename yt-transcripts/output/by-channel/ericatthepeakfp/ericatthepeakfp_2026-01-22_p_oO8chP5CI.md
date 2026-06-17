@@ -35,27 +35,50 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Eric Amzalag demonstrates a three-phase strategic withdrawal strategy for retirees with $1.5M+ that minimizes taxes through tax-bracket filling and capital gains harvesting. Over 10 years, a couple achieves a 1.68% effective tax rate while withdrawing $1.4M in taxable income, accessing over $170K annually while paying minimal federal taxes. The strategy involves strategic IRA and Social Security timing, harvesting long-term capital gains at 0% brackets, and resetting cost basis."
 topics: []
-topics_proposed: []
+topics_proposed: ["tax-optimization", "retirement-withdrawal-strategy", "roth-conversion-alternative", "capital-gains-harvesting", "tax-bracket-filling"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP"
+    - name: "Mike"
+      role: "Retiree (case study)"
+    - name: "Sarah"
+      role: "Retiree (case study)"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["standard-deduction", "0-percent-capital-gains-bracket", "10-percent-tax-bracket", "required-minimum-distributions", "cost-basis-reset", "taxable-brokerage-accounts"]
+content_type: "educational"
+audience_level: "advanced"
+key_claims: 
+  - claim: "Mike and Sarah access $171,000 in cash with only $2,385 in federal taxes owed (effective rate of 1.4%)"
+    timestamp: "00:02:45"
+    confidence: "medium"
+    flagged: true
+  - claim: "Over 10 years, the couple paid $23,850 in total federal taxes on $1.4 million in taxable income, achieving a 1.68% effective tax rate"
+    timestamp: "00:10:39"
+    confidence: "medium"
+    flagged: true
+  - claim: "Standard deduction for married couples is $32,200 in the first phase and increases to $48,000+ when they turn 65"
+    timestamp: "00:00:43"
+    confidence: "high"
+    flagged: true
+  - claim: "The couple reset nearly $500,000 in cost basis through this strategy, eliminating that amount from future capital gains taxation"
+    timestamp: "00:10:39"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -65,6 +88,46 @@ notes: ""
 **Published:** 2026-01-22
 **URL:** https://youtube.com/watch?v=p_oO8chP5CI
 **Duration:** 13:00
+
+## Summary
+
+Eric Amzalag walks through a comprehensive 10-year tax optimization strategy for Mike and Sarah, both 63 and recently retired with $1.2M in IRAs and $900K in taxable accounts. Using strategic withdrawal sequencing across three phases (pre-senior deduction, senior deduction, and post-Social-Security), they minimize federal taxes to 1.68% while accessing over $170K annually and maintaining their $120K spending requirement. The strategy involves harvesting long-term capital gains in 0% brackets and resetting cost basis to eliminate future tax liability.
+
+## Key Takeaways
+
+- Strategic withdrawal sequencing fills low-tax brackets first: standard deductions, then 10% bracket, then 0% capital gains bracket
+- Long-term capital gains can be harvested tax-free in the 0% capital gains bracket, accessible up to $96,700 in taxable income for married couples
+- Resetting cost basis by reinvesting harvested gains at 100% basis instead of 35% eliminates roughly $500K in future capital gains taxes
+- The strategy adapts across three phases: ages 63-64 (before senior deductions), 65-69 (with senior deductions), and 70+ (when both Social Security benefits arrive)
+- Returns of original cost basis from taxable account sales are not taxable income, only gains are, allowing large cash withdrawals with minimal tax
+- Splitting income across multiple buckets (Social Security, IRA, capital gains) allows optimization within each tax bracket that wouldn't be possible treating income as a single source
+- Over 10 years, Mike and Sarah moved from 35% cost basis to mostly basis in their taxable account, providing flexibility for RMD years and beyond
+
+## Detailed Notes
+
+### Phase One: Ages 63-64 (Standard Deduction Only) [00:00:43]
+
+Mike and Sarah withdraw $39,220 from traditional IRA (filling standard deduction) plus harvesting $72,000 in capital gains from the 0% capital gains bracket. Total cash accessed: $171,000 with only $2,385 in taxes. The standard deduction shields their first $32,200 of income from taxation.
+
+### Capital Gains Harvesting Mechanics [00:02:45]
+
+With $96,700 taxable income available for married couples in the 0% long-term capital gains bracket, after filling the standard deduction and 10% bracket with $60,000, they have $72,850 left for capital gains. By selling from their brokerage account with 35% cost basis, they realize $72,850 in gains but withdraw $112,000 total, with zero tax on the gains.
+
+### Cost Basis Reset Strategy [00:03:47]
+
+After harvesting gains, they reinvest $48,000 of excess cash at a 100% cost basis instead of the original 35%. This permanently eliminates that amount of future capital gains tax liability. Over the 10-year strategy, they reset approximately $500,000 in cost basis, removing a major future tax burden.
+
+### Phase Two: Ages 65-69 (Senior Deduction Boost) [00:05:31]
+
+Senior deductions increase from $32,200 to $48,000+, allowing larger IRA withdrawals at the same 0% tax cost. They withdraw $48,540 from IRA instead of $39,220, accessing $187,000 in total cash annually while maintaining the same $2,385 tax bill.
+
+### Phase Three: Ages 70+ (Social Security Integration) [00:07:38]
+
+When both Social Security benefits arrive ($64,440 annually), taxable income surges, reducing 0% bracket space. They now only withdraw $17,000 from IRA but still harvest capital gains. The key is they've already drawn down pre-tax accounts strategically, so their RMDs at age 73 will be lower and not push them into high brackets.
+
+### RMD Trap Avoidance [00:08:41]
+
+Without strategic planning, retirees with untouched IRAs experience forced withdrawals at age 73 that push them into 22-24% brackets when stacked with Social Security. Mike and Sarah drew $275K from IRAs during phases one and two, shrinking their pre-tax bucket so RMDs don't spike income in later years.
 
 ## Transcript
 

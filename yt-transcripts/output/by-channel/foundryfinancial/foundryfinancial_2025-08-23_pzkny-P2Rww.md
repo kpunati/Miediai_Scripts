@@ -65,24 +65,35 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Kevin Lum presents a straightforward five-minute retirement planning framework. The approach involves four steps: defining retirement goals and lifestyle desires, calculating retirement living expenses (typically 75-80% of current spending), assessing guaranteed income from Social Security and pensions, and determining how much investment portfolio is needed to bridge any gap using a conservative 4% withdrawal rate."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "retirement-calculator", "guaranteed-income", "withdrawal-rate", "retirement-expenses", "five-minute-plan"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Kevin Lum"
+      role: "CFP, host"
+  companies:
+    - name: "Foundry Financial"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Retirement Calculator (Foundry Financial)"]
+  concepts: ["guaranteed income", "Social Security", "pension", "annuity", "4% rule", "investment portfolio", "inflation protection", "retirement expenses"]
+content_type: "educational"
+audience_level: "beginner"
+key_claims: 
+  - claim: "For most people, retirement living expenses are about 75 to 80% of current spending after removing work-related costs and adding new retirement expenses like travel and healthcare."
+    timestamp: "00:02:05"
+    confidence: "medium"
+    flagged: false
+  - claim: "The calculator uses a 4% withdrawal rule as a conservative estimate to determine required portfolio size, though the presenter notes this rule is very conservative and most people using it end up with as much money at retirement's end as at the beginning."
+    timestamp: "00:06:36"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: []
@@ -95,6 +106,49 @@ notes: ""
 **Published:** 2025-08-23
 **URL:** https://youtube.com/watch?v=pzkny-P2Rww
 **Duration:** 8:13
+
+## Summary
+
+Kevin Lum teaches a simplified four-step retirement planning methodology that can be executed in five minutes. The process starts with defining what retirement lifestyle you want, then calculating the annual expenses needed to support that lifestyle. Next, you stack up your guaranteed income sources like Social Security and pensions, then determine how much investment portfolio is required to fill any income gap using a conservative 4% withdrawal rate assumption.
+
+## Key Takeaways
+
+- Step 1: Define your retirement vision and purpose—know what you want to do with your money and lifestyle goals before doing any financial calculations.
+- Step 2: Calculate monthly retirement expenses as roughly 75-80% of current spending, adjusting for removal of work costs and addition of discretionary retirement activities.
+- Step 3: Stack guaranteed income sources (Social Security, pensions, annuities with inflation protection) to determine your baseline predictable retirement paycheck.
+- Step 4: Use the investment portfolio and 4% withdrawal rate rule to bridge the gap between guaranteed income and living expenses, adjusting savings goals if needed.
+- The five-minute plan is a starting point, not a comprehensive retirement plan—those with significant gaps should seek professional planning help or use advanced software.
+- The presented calculator demonstrates practical application by showing how a 55-year-old targeting retirement at 62 with $75,000 annual expenses needs approximately $750,000 in investments plus $36,000 in Social Security.
+
+## Detailed Notes
+
+### Introduction and Framework Overview [00:00:00]
+
+Kevin introduces the five-minute retirement plan as a simple alternative to complex spreadsheets. He emphasizes starting with defining your retirement vision and purpose rather than jumping straight to numbers.
+
+### Step 1: Define Your Retirement Goals [00:01:04]
+
+Asks viewers to clarify what they want from retirement—travel, spending time with grandchildren, or pursuing meaningful work. Stresses that money is a means to an end and must have a clear purpose to make a retirement plan meaningful.
+
+### Step 2: Calculate Living Expenses [00:02:05]
+
+Expenses should reflect desired lifestyle, not bare minimum survival. Kevin provides a quick method: start with current spending, subtract work-related costs, add new retirement expenses like travel and healthcare. Rule of thumb: expect to spend 75-80% of current spending in retirement.
+
+### Step 3: Assess Guaranteed Income [00:02:05]
+
+Stack up predictable income sources including Social Security, pensions, and inflation-protected annuities. Compare total guaranteed income against annual retirement expense needs. If guaranteed income covers expenses, retirement readiness is clear; if there's a gap, investments must bridge it.
+
+### Step 4: Investment Portfolio Gap [00:03:08]
+
+The shortfall between guaranteed income and living expenses is filled by investment portfolio returns. Uses 4% withdrawal rate rule as conservative guidance, which depends on age, taxes, and risk tolerance. Emphasizes this is a simplified framework, not a complete plan.
+
+### Using the Calculator [00:04:48]
+
+Demonstrates the Foundry Financial retirement calculator with a worked example: 55-year-old wanting to retire at 62 with $75,000 annual expenses, $36,000 Social Security, $12,000 annuity income, and $400,000 in investable assets. Shows the calculation reveals a $50,000-$60,000 savings shortfall requiring approximately $569 additional monthly savings.
+
+### Conclusion and Next Steps [00:07:16]
+
+Reiterates the plan is a starting point to determine if you're on track or need adjustments. Those close to retirement goals should use professional planning software or hire a financial planner. Those with significant gaps now understand their savings target to get back on track.
 
 ## Transcript
 

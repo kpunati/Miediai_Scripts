@@ -69,27 +69,56 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Critiques age-based retirement benchmarks (3x salary by 40, 6x by 50, 10x by 67) and presents a personalized four-step framework: estimate retirement expenses, calculate non-portfolio income (Social Security, pensions), determine the gap to fund from investments, and apply withdrawal rates to size the required portfolio. Real examples show how timing, external income sources, and windfall expectations dramatically alter adequacy."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-benchmarks", "retirement-planning", "social-security", "withdrawal-rates", "retirement-readiness"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "CFP, Financial Advisor"
+    - name: "Emily"
+      role: "Example client (early retirement at 55)"
+    - name: "Greg"
+      role: "Example client (teacher with pension)"
+    - name: "Sherry"
+      role: "Example client (teacher with pension)"
+    - name: "Michael"
+      role: "Example client (planning to downsize home)"
+  companies:
+    - name: "Fidelity"
+      ticker: null
+    - name: "Root Financial"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["4% withdrawal rule", "Retirement savings multiples", "Non-portfolio income sources", "Portfolio gap analysis", "Inflation adjustment", "Required minimum distributions (RMDs)", "Home equity as retirement source"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Fidelity benchmark: 3x salary at age 40, 6x at 50, 8x at 60, 10x at 67"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "A $100,000 salary at age 67 with $70,000 after-tax take-home and $30,000 Social Security suggests 10x multiple works"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "4% withdrawal rate on $1.5M portfolio generates $60,000 annual income"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "7% assumed return over 10 years with $10,000 annual contributions yields $700,000 portfolio needed today"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -99,6 +128,38 @@ notes: ""
 **Published:** 2025-11-04
 **URL:** https://youtube.com/watch?v=begtVpy290c
 **Duration:** 10:30
+
+## Summary
+
+This video demolishes the one-size-fits-all retirement benchmarks promoted by firms like Fidelity. Using three detailed case studies, the host shows why the 3x/6x/10x rules fail: Emily (early retirement at 55) has insufficient assets; Greg and Sherry (teachers with pensions covering 80% of needs) require far less; and Michael (home equity windfall) is actually on track despite appearing behind. The episode then builds a personalized four-step framework: define expenses, credit external income, size the portfolio gap, and back-solve to today.
+
+## Key Takeaways
+
+- Age-based benchmarks like 3x/6x/10x salary ignore timing, external income sources, and windfalls, making them poor planning guides.
+- The 4% withdrawal rule works: a $1.5M portfolio supports $60K annual withdrawals, a framework that scales to any income gap.
+- Non-portfolio income (Social Security, pensions) is the single biggest variable: teachers with pensions covering 80% of retirement needs may need only $400K versus $720K benchmarks.
+- Home equity can close retirement gaps if monetized; Michael's $400K downsizing proceeds convert a shortfall into an on-track scenario.
+- Inflation adjustment is critical: retirement expenses must be grown to future dollars before applying withdrawal rates.
+- Back-solving to today combines assumed returns (7% is common) with annual contributions to determine current portfolio needs.
+- A customized plan adapts to retirement age, expense level, income sources, and windfalls rather than relying on generic age-based rules.
+
+## Detailed Notes
+
+### Why Generic Benchmarks Fail: The Three Case Studies [00:00:00]
+
+Fidelity's 3x/6x/10x rule assumes standard full-career progression and age-67 retirement, but real lives differ. Emily at 40 with $300K saved appears on-track, but she wants to retire at 55—her money must compound longer and sustain her 30+ years without Social Security, making her actually underfunded. Greg and Sherry at 50 with $400K (below the $720K benchmark) are actually fine because their teacher pensions cover 80% of retirement costs. Michael at 60 with $500K (below $800K benchmark) is on-track once his $400K home downsizing is included. Generic benchmarks miss these critical variables.
+
+### The Personalized Four-Step Framework [00:00:00]
+
+Step 1: Define retirement expenses adjusted for inflation. Step 2: Sum non-portfolio income (Social Security, pensions, part-time work, annuities). Step 3: Calculate the gap—the amount that must come from investments. Step 4: Apply withdrawal rates (typically 4%) to convert the gap into a retirement portfolio target, then back-solve to today's balance using assumed returns and annual contributions. This framework eliminates benchmarks and adapts to personal circumstances.
+
+### The Math: From Gap to Portfolio Target [00:00:00]
+
+If retirement expenses are $100K, Social Security is $40K, the gap is $60K. Using a 4% withdrawal rate, you divide $60K by 0.04 to get $1.5M—the retirement portfolio needed. That $1.5M is then grown backwards to today: if retirement is 10 years out, you assume 7% annual returns, add $10K annual contributions, and calculate today's required balance (roughly $700K). This logic holds for any gap and any time horizon.
+
+### The Power of External Income Sources [00:00:00]
+
+Non-portfolio income is the single biggest lever in retirement planning. A pension covering 80% of expenses (Greg and Sherry's case) cuts the required portfolio by more than half. Social Security, annuities, part-time income, and home equity all count. Michael's case shows that home downside proceeds can bridge an apparent shortfall. Many people with strong pensions or generous Social Security don't realize they're ahead of benchmarks because they focus on portfolio balance, not cash flow.
 
 ## Transcript
 

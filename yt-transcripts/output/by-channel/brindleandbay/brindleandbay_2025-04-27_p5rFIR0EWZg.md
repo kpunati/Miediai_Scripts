@@ -45,27 +45,42 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Financial advisor Nick Davis warns of the dangers of delaying retirement beyond an optimal health window through the cautionary example of Richard and Lisa, who had sufficient savings but postponed retirement for five years and faced a health crisis that made their planned activities impossible. Identifies eight warning signs for missing your retirement window and emphasizes creating a compelling retirement vision to overcome fears."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-timing", "retirement-health", "retirement-regret", "retirement-window", "retirement-psychology"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, Financial Advisor"
+    - name: "Richard"
+      role: "Retiree (case study, health crisis)"
+    - name: "Lisa"
+      role: "Retiree (case study)"
+  companies:
+    - name: "Brindle and Bay"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["Optimal retirement window", "Health-based retirement planning", "Retirement vision", "Financial independence", "Identity in retirement", "Mortality confrontation", "Journal prompts for retirement planning"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Richard and Lisa had approximately $1.6 million in retirement savings and were told they could comfortably retire in their early 60s"
+    timestamp: "00:00:43"
+    confidence: "medium"
+    flagged: true
+  - claim: "Richard experienced a serious health crisis shortly after finally retiring at age 67, making their planned retirement activities physically impossible"
+    timestamp: "00:00:43"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +90,40 @@ notes: ""
 **Published:** 2025-04-27
 **URL:** https://youtube.com/watch?v=p5rFIR0EWZg
 **Duration:** 10:23
+
+## Summary
+
+Nick Davis presents a cautionary tale of Richard and Lisa, who accumulated $1.6 million through disciplined saving but delayed retirement for five years despite early analysis confirming they had sufficient funds. Shortly after retiring at 67, Richard faced a serious health crisis that made their planned activities—relocation near grandchildren, extensive travel, active grandparenting—physically impossible. The core issue wasn't insufficient savings but missing their optimal health window. Davis identifies eight warning signs that retirees risk waiting too long: having already achieved financial independence, not planning experiences requiring good health, overlooking family medical history, repeatedly postponing retirement dates, not considering experiences they'd regret missing, whether continued work meaningfully improves security, not calculating years of active retirement, and relationships affected by delayed retirement. He emphasizes that retirement often represents confronting mortality and that creating a compelling vision and addressing identity beyond work are critical to retiring at the right time.
+
+## Key Takeaways
+
+- The real risk in delayed retirement is not financial depletion but health decline that prevents enjoying planned retirement experiences within the window of vitality
+- Financial independence is necessary but insufficient for optimal retirement timing; you must also have adequate active years remaining to realize retirement goals
+- Eight warning signs indicate you may be at risk of waiting too long: financial independence already achieved, health-dependent retirement activities, family medical history risks, repeated postponements, unclear about experiences you'd regret missing, continued work not meaningfully improving security, not calculating healthy retirement years, and relationships affected by delay
+- Confronting mortality and loss of work identity are deep psychological barriers to retirement; creating a compelling vision for the next chapter helps overcome fear-based postponement
+- Journal prompts and regular reflection on whether anything is missing from your retirement vision help surface suppressed desires and keep your next chapter intentional rather than drifting
+
+## Detailed Notes
+
+### Richard and Lisa's Cautionary Tale [00:00:43]
+
+Couple in late 60s with $1.6M in diligently saved retirement funds. Early in their advisory relationship, analysis confirmed they could comfortably retire in their early 60s. Despite this green light, they kept saying 'just one more year' for five consecutive years. Shortly after retiring at 67, Richard experienced a serious health crisis making their planned retirement activities (relocating near grandchildren, extensive travel) physically impossible. The tragedy: they had sufficient money but lost the health window to enjoy it.
+
+### The Optimal Retirement Window [00:02:23]
+
+The problem wasn't insufficient savings but failure to recognize and act on their optimal health window. Their carefully planned retirement vision became unattainable not due to money but health decline. Richard and Lisa today acknowledge that money isn't everything compared to time, health, and life experiences. The house near grandchildren, travel adventures, and active grandparenting—all lost due to health constraint rather than financial constraint.
+
+### Eight Warning Signs You're Waiting Too Long [00:03:25]
+
+Financial advisors ask these diagnostic questions: Have you already reached financial independence but are still working (revealing mental barriers)? What retirement activities require good physical health? What's your family medical history regarding activity-limiting conditions? Have you postponed retirement more than once (sign of psychological avoidance)? What experiences would you regret missing if health changed? Does continued work meaningfully improve retirement security (often no)? How many years of active healthy retirement are you assuming (critical calculation)? What relationships would be affected by delayed retirement?
+
+### Psychological Barriers to Retirement [00:07:14]
+
+Fear of lost identity, concern that stopping work marks life's final chapter, general fear of change, and confrontation with mortality all delay retirement. Referencing Ernest Becker's 'The Denial of Death,' work serves as a major distraction from mortality reality. When leaving career, people must confront finitude of time. Building identity and meaning outside work requires creating a compelling vision and doing the inner work years before retirement.
+
+### Creating a Compelling Vision and Goals [00:08:34]
+
+Ask people to privately answer journal questions to discover core purpose of next chapter. Create a compelling, inspiring vision that pulls you forward into something exciting rather than something feared. Revisit vision and goals yearly, asking 'Is there anything missing?' This brings suppressed desires and intentions to the forefront. Vision work replaces fear-based postponement with intentional, meaning-driven retirement planning.
 
 ## Transcript
 

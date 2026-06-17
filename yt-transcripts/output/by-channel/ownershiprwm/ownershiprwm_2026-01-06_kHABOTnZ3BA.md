@@ -56,24 +56,33 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Short educational clip where Nick Sapienza explains that clarifying financial goals is foundational to all financial optimization. He introduces a five-step framework using George Kinder's three questions to help people identify their true desires before making financial decisions."
 topics: []
-topics_proposed: []
+topics_proposed: ["goal-setting", "financial-planning", "personal-values", "life-goals"]
 entities:
-  people: []
+  people:
+    - name: "Nick Sapienza"
+      role: "Financial advisor"
+    - name: "George Kinder"
+      role: "Financial psychology framework creator"
+    - name: "Steven Covey"
+      role: "Author/thought leader"
   companies: []
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["clarity framework", "goal articulation", "system optimization", "desired future state"]
+content_type: "educational"
+audience_level: "beginner"
+key_claims: 
+  - claim: "Clarity is the starting line for everything in financial optimization"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: []
@@ -86,6 +95,28 @@ notes: ""
 **Published:** 2026-01-06
 **URL:** https://youtube.com/watch?v=kHABOTnZ3BA
 **Duration:** 1:31
+
+## Summary
+
+A short motivational segment on the importance of goal clarity before financial optimization. The speaker argues that most people spend too much time optimizing financial systems without knowing what their money should support. He presents George Kinder's three-question framework as a tool to uncover authentic life goals.
+
+## Key Takeaways
+
+- Clarity about desired life outcomes must precede financial system optimization.
+- Most people optimize systems without adequate clarity on underlying goals.
+- George Kinder's three questions (no-object scenario, 5-year horizon, final-day reflection) reveal authentic goals.
+- The ladder metaphor emphasizes that without clear direction, any step forward moves toward the wrong destination.
+- Goal-setting is harder than understanding taxes or complex academic subjects.
+
+## Detailed Notes
+
+### Foundation: Why Clarity Comes First [00:00:00]
+
+The speaker asserts that all successful financial advisors agree clarity is foundational. Most people lack clarity on what money should support, making this an often-skipped but essential step. Understanding true goals is harder than financial mechanics and may take years to articulate clearly.
+
+### The Framework: George Kinder's Three Questions [00:00:48]
+
+To uncover authentic goals, reflect on three questions: 1) If money were no object, how would you live? 2) If you had 5 years left, what would you stop doing? 3) If you had one day left, what would you wish you'd done? Answers reveal real priorities beneath assumed or socially-expected goals. The speaker uses Steven Covey's ladder metaphor: without right alignment, each step takes you further wrong.
 
 ## Transcript
 

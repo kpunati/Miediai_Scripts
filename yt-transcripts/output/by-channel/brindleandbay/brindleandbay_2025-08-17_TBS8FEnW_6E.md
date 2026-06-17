@@ -41,27 +41,48 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Vanguard research shows 14% of 55-64 year-olds don't contribute to 401ks, target-date funds impose hidden fee costs, and over-concentration in company stock or excess cash undermines diversification. Recommends automation, catch-up contributions, and low-cost fund selection."
 topics: []
-topics_proposed: []
+topics_proposed: ["401k-mistakes", "target-date-funds", "fee-analysis", "catch-up-contributions", "asset-allocation", "vanguard-research"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, financial advisor"
+  companies:
+    - name: "Vanguard"
+      ticker: "VUG"
+    - name: "Morningstar"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Target-date funds", "ETFs"]
+  concepts: ["employer matching", "catch-up contributions", "expense ratios", "asset allocation", "concentrated stock positions", "inflation risk", "automation"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "14% of 55-64 year-olds are not contributing anything to 401ks"
+    timestamp: "00:00:56"
+    confidence: "high"
+    flagged: true
+  - claim: "5% of people earning over $150,000 yearly are not contributing to 401ks"
+    timestamp: "00:00:56"
+    confidence: "medium"
+    flagged: true
+  - claim: "Target-date fund usage jumped from 41% in 2014 to 64% in 2023"
+    timestamp: "00:02:26"
+    confidence: "high"
+    flagged: true
+  - claim: "Average target-date fund expense ratio is 0.32%, costing $3,200/year on a $1M portfolio"
+    timestamp: "00:03:29"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -71,6 +92,37 @@ notes: ""
 **Published:** 2025-08-17
 **URL:** https://youtube.com/watch?v=TBS8FEnW_6E
 **Duration:** 10:09
+
+## Summary
+
+Using Vanguard data, this video reveals hidden mistakes people over 55 make with 401k savings. Beyond missed contributions and employer matches, target-date funds' layered fees silently drain six figures over decades. Over-allocation to company stock and excess cash further undermine growth and expose portfolios to unnecessary risk at the worst possible time.
+
+## Key Takeaways
+
+- Skipping 401k contributions means forgoing free employer matching—billions of dollars left unclaimed annually.
+- Target-date fund convenience comes with hidden costs: average 0.32% expense ratio equals $3,200/year on a $1M portfolio.
+- Catch-up contributions ($7,500/year after 50) are underutilized despite being available when savings need most to compound.
+- Holding excess cash (thinking it's safe) actually exposes portfolios to inflation erosion at portfolio peak.
+- Concentrated company stock doubles risk: salary + job + investments all tied to one employer outcome.
+- Automation (auto-enrollment, auto-increase) removes emotional friction and ensures consistent progress.
+
+## Detailed Notes
+
+### The Participation Gap [00:00:56]
+
+Vanguard data shows 14% of 55-64 year-olds contribute nothing to 401ks; even 5% of high earners ($150K+) opt out. Missing employer matches during peak earning years can cost hundreds of thousands in lifetime retirement income, especially when combined with lost catch-up contribution opportunities.
+
+### Target-Date Fund Fee Drag [00:03:29]
+
+Use skyrocketed from 41% (2014) to 64% (2023). Vanguard charges 0.08% internally; industry average is 0.32%. On a $1M portfolio at peak, this costs $3,200/year. These funds often slice money into four basic ETFs that could be replicated personally at lower cost if plan permits.
+
+### Allocation Mistakes [00:05:35]
+
+Two critical errors: holding too much cash (losing value to inflation) and over-weighting company stock (betting salary + investments on one employer). Both undermine diversification. Company stock concentration is especially risky near retirement when portfolio stability matters most.
+
+### Automation as Solution [00:07:42]
+
+Automatic enrollment dramatically boosts participation. Automatic contribution increases overcome saving hesitation. Systematic investing removes emotion during market swings. The strongest pre-retirement portfolios reviewed came from simple, consistent 401k automation—not flashy strategies.
 
 ## Transcript
 

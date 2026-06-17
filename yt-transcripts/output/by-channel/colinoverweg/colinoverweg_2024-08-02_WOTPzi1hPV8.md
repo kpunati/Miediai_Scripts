@@ -35,24 +35,37 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Colin Overweg analyzes non-qualified stock options (NSOs) exercise strategy, focusing on tax implications and investment portfolio risk. He walks through tax planning using software, addresses bracket management, and discusses state tax complications when relocating from high-tax to zero-tax states. Key strategy: frame NSO exercise decisions as whether you would independently purchase the company stock with that amount of cash."
 topics: []
-topics_proposed: []
+topics_proposed: ["stock-options", "nso-taxation", "tax-bracket-planning", "state-income-tax", "concentration-risk"]
 entities:
-  people: []
+  people:
+    - name: "Colin Overweg"
+      role: "CFP, Financial Planner"
   companies: []
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Non-qualified stock options", "Holista Plan (tax planning software)"]
+  concepts: ["NSO taxation", "ordinary income tax", "FICA taxes", "investment concentration risk", "California apportionment", "marginal tax brackets", "vesting schedules"]
+content_type: "educational"
+audience_level: "advanced"
+key_claims: 
+  - claim: "When NSOs are exercised, tax includes ordinary income tax, Social Security tax, and Medicare taxes on the difference between strike price and fair market value"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "California can claim taxation rights on options granted in California even after moving to Texas, based on the percentage of vesting period spent in California"
+    timestamp: "00:01:02"
+    confidence: "high"
+    flagged: false
+  - claim: "If the stock declines 10-20-30% after exercising options, the options could become worthless"
+    timestamp: "00:01:02"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: ["unpunctuated_captions"]
@@ -65,6 +78,41 @@ notes: ""
 **Published:** 2024-08-02
 **URL:** https://youtube.com/watch?v=WOTPzi1hPV8
 **Duration:** 2:52
+
+## Summary
+
+Colin Overweg provides a detailed guide to evaluating non-qualified stock options (NSOs) from both tax and risk perspectives. The strategy involves estimating tax liability across scenarios, avoiding bracket jumps, and making conscious decisions about exercise timing. A unique example shows how state relocation from California to Texas creates apportionment issues, with California claiming a portion of NSO taxation based on the vesting period spent in that state. The key mental framework: treat NSO exercise as a deliberate decision to buy the company stock at fair market value, not a passive default action.
+
+## Key Takeaways
+
+- NSOs trigger ordinary income tax, Social Security tax, and Medicare taxes on the spread between strike price and fair market value at exercise
+- Tax planning should estimate multiple scenarios—no exercise, partial exercise, full exercise—to optimize tax bracket positioning
+- NSO exercise can create significant income spikes; planning should consider whether to spread income across multiple years
+- State taxation on NSOs depends on where the option was granted and where vesting occurred, not just where exercise happens
+- California claims apportionment on NSO income based on the percentage of vesting period spent in California, reducing as you remain longer in zero-income-tax states
+- The key decision framework: only exercise if you would independently purchase that company stock with the same amount of cash
+
+## Detailed Notes
+
+### NSO Tax Planning Setup [00:00:00]
+
+Start by organizing a list of granted shares, number of shares, and strike prices. Use tax planning software (like Holista Plan) to model outcomes. Build an accurate estimation based on last year's tax return, then create scenarios: no exercise, partial exercise, and full vesting exercise.
+
+### Bracket Management and Tax Efficiency [00:00:00]
+
+The primary concern when exercising NSOs is avoiding bracket bumps. Plan scenarios to determine whether income can be incurred this year versus next year to stay in lower brackets. Multi-year planning may be necessary if future options are significant.
+
+### Investment Concentration Risk [00:01:02]
+
+After managing tax implications, consider investment risk. If the stock declines 10-30%, unexercised options could become worthless. The trade-off is between paying more taxes now to realize gains versus holding and risking company stock depreciation.
+
+### State Tax Apportionment for NSOs [00:01:02]
+
+When relocating from a high-tax state (California) to a no-tax state (Texas), prior state claims taxation on the NSO income based on when the option was granted and during what portion of vesting the employee lived in that state. California calculates a percentage based on days lived in California vs. Texas during vesting.
+
+### NSO Exercise Decision Framework [00:02:05]
+
+Use a mental exercise: would you use $100,000 from savings to independently buy your company's stock? If the answer is no, the decision to hold unexercised options is really a decision to buy that stock. Holding is not a passive default—it's an active investment choice.
 
 ## Transcript
 

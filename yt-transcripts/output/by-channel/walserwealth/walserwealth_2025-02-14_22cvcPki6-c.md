@@ -45,27 +45,46 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser discusses Disney's controversial DEI policies and their impact on children's content, arguing the company has strayed from innocent childhood entertainment by introducing adult themes and removing wholesome content."
 topics: []
-topics_proposed: []
+topics_proposed: ["disney-dei-policy", "childhood-innocence", "corporate-wokeness"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Rebecca Walser"
+      role: "Tax Attorney"
+    - name: "Betsy McCaughey"
+      role: "Former Lieutenant Governor"
+    - name: "Katrina Szish"
+      role: "Host"
+  companies:
+    - name: "Disney"
+      ticker: "DIS"
+  tickers: ["DIS"]
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Disney movies", "Pixar programs"]
+  concepts: ["DEI policy", "transgender content", "childhood development"]
+content_type: "opinion"
+audience_level: "mixed"
+key_claims: 
+  - claim: "Disney earned $39 billion in gross profits last year"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Disney removed transgender character from Pixar streaming programs"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Disney cost $1,000 more to spend four days at the park than it was since 2019"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +94,32 @@ notes: ""
 **Published:** 2025-02-14
 **URL:** https://youtube.com/watch?v=22cvcPki6-c
 **Duration:** 3:33
+
+## Summary
+
+Rebecca Walser and Betsy McCaughey discuss Disney's controversial "Reimagine Tomorrow" DEI program on a Newsmax segment. They criticize Disney's departure from innocent childhood entertainment, pointing to examples like the "Inside Out" movie introducing anxiety to young children. The hosts note that Disney has made some policy reversals, including removing a transgender character from Pixar programs and rethinking their approach after public backlash.
+
+## Key Takeaways
+
+- Disney's DEI policies have introduced adult themes like anxiety and gender identity discussions to children's content, moving away from escapist entertainment.
+- Disney raised prices significantly ($1,000 more for four days) while movie attendance declined, suggesting consumer pushback against their content direction.
+- Parents are the primary driver of corporate accountability; Disney's removal of transgender characters from Pixar shows they respond to parental concerns.
+- The hosts argue childhood should prioritize joy and innocence rather than exposure to complex social and political topics.
+- The Trump administration is expected to provide "stable protection" against pendulum swings in corporate social policies.
+
+## Detailed Notes
+
+### Disney's Content Strategy Shift [00:00:00]
+
+Rebecca Walser criticizes Disney's "Reimagine Tomorrow" program for introducing complex themes to children. She references the "Inside Out" movie introducing anxiety to young children and questions why 2-year-olds should learn about this emotion. The hosts argue Disney has lost sight of providing escapist, joyful entertainment for children and instead focuses on introducing adult concepts.
+
+### Disney's Response to Backlash [00:00:00]
+
+Walser notes that Disney has already begun reversing some policies, including removing transgender characters from Pixar streaming programs. She emphasizes that parents are in charge and that Disney's $39 billion in gross profits depends on consumer approval. The hosts see these reversals as proof that market pressure and parental concerns can drive corporate change.
+
+### Economic Impact and Parental Concerns [00:00:00]
+
+The hosts discuss how childhood should prioritize joy and escapism rather than exposure to complex social issues. McCaughey argues that visiting a theme park or watching movies should allow children to forget real-world pressures and immerse themselves in imagination. Walser adds that the "innocence of childhood" has been attacked by what she calls the LGBTQ/transgender agenda, and that Disney went too far with their DEI policies, including removing traditional gender signifiers from park interactions.
 
 ## Transcript
 

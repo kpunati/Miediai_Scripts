@@ -66,27 +66,54 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Nick Sapienza walks through four financial moves for 2026: budget reset via cashflow optimization, realizing capital gains early to maximize tax loss harvesting opportunities, frontloading 401(k) contributions to benefit from time in market, and clarifying personal goals using a five-step framework to ensure money supports desired life outcomes."
 topics: []
-topics_proposed: []
+topics_proposed: ["personal-finance", "tax-planning", "retirement-planning", "401k", "capital-gains", "cash-flow-management", "goal-setting"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Sapienza"
+      role: "Financial advisor, video host"
+    - name: "Jesse Isler"
+      role: "Financial educator"
+    - name: "Steven Covey"
+      role: "Author/thought leader"
+    - name: "George Kinder"
+      role: "Financial psychology framework creator"
+  companies:
+    - name: "Ritholtz Wealth Management"
+      ticker: null
+    - name: "Spotify"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Copilot", "Rocket Money", "Monarch", "Origin", "Optimized Portfolio Calculator"]
+  concepts: ["tax loss harvesting", "lump sum investing", "dollar cost averaging", "compound interest", "trueuup provisions", "emergency fund prioritization", "life resume", "cash flow design", "capital gains tax", "net investment income tax"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Lump sum investing beats dollar cost averaging 70-80% of the time over the next year across nearly all asset classes tested"
+    timestamp: "00:05:25"
+    confidence: "high"
+    flagged: true
+  - claim: "A 10% reduction in spending category can free up $250 a month or $3,000 per year from a $2,500 monthly household spending"
+    timestamp: "00:00:38"
+    confidence: "high"
+    flagged: true
+  - claim: "Capital gains tax is 15% federal plus 3.8% net investment income tax, totaling 18.8%"
+    timestamp: "00:03:45"
+    confidence: "high"
+    flagged: true
+  - claim: "Stocks have fallen by an average of 15% per year over the last 100 years"
+    timestamp: "00:02:42"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -96,6 +123,36 @@ notes: ""
 **Published:** 2026-01-05
 **URL:** https://youtube.com/watch?v=90nI1mWTmwM
 **Duration:** 13:15
+
+## Summary
+
+This video presents four strategic financial moves for 2026 designed to lower taxes, increase flexibility, and simplify finances. The host emphasizes that effective financial planning requires clarity about personal goals before optimizing money mechanics. The moves combine tactical tax strategies with foundational goal-setting to create an integrated approach to personal finance.
+
+## Key Takeaways
+
+- A cashflow reset focused on cutting 1-2 spending categories by 10% and automating those savings creates flexibility without traditional budgeting.
+- Realizing capital gains in January maximizes the year for tax loss harvesting to offset gains, reducing overall tax liability.
+- Front-loading 401(k) contributions earlier in the year increases compounding time, provided your plan has a trueuup provision for employer matching.
+- Clarity about desired life outcomes (using George Kinder's three questions) is the foundation for all financial optimization.
+- A simple save-spend-give framework with pre-decided numbers and automated monthly transfers grounds financial planning in intention rather than reaction.
+
+## Detailed Notes
+
+### Budget Reset & Cash Flow Optimization [00:00:38]
+
+Rather than traditional budgeting, conduct a hard reset by reviewing 2025 spending by category, identifying patterns (overspending, joy, regret), then selecting 1-2 categories to reduce by 10%. Automate the freed-up amount into savings or experiences immediately. The host prioritizes experiences and emergency fund over additional investing, contrary to traditional wealth optimization.
+
+### Tax Loss Harvesting Strategy [00:02:42]
+
+Selling appreciated assets early in January (realizing gains) creates tax liability but also provides a full year to harvest tax losses from portfolio downturns. Over 100 years, stocks fall on average 15% per year, creating continuous harvesting opportunities. Example: selling $200,000 in stock with $100,000 gain triggers ~$18,800 in federal tax at 15% + 3.8% net investment income tax (18.8% total), which can be offset by harvesting losses throughout the year.
+
+### Front-Loading 401(k) Contributions [00:05:25]
+
+Lump sum investing outperforms dollar-cost averaging 70-80% of the time, so maximizing 401(k) contributions early in the year lets money compound longer. A 7% return assumption shows small but compounding gains by completing contributions in 4 months vs. spreading over 12. Critical check: verify if employer plan includes a trueuup provision; without it, maxing out early forfeits matching from months when no contributions occur.
+
+### Clarifying Goals Using Five-Step Framework [00:09:05]
+
+The foundational move: clarity precedes optimization. Use George Kinder's three questions (how would you live if money were no object, what would you stop doing with 5 years left, what would you wish you'd done with one day left) to identify true goals. Convert insights into three specific 2026 outcomes, then define habit and minimum acceptable version for each. Lean into resistance and do a premortem (imagine failing in December; identify causes). Finally, use save-spend-give framework with pre-set dollar targets and automated monthly transfers aligned to goals.
 
 ## Transcript
 

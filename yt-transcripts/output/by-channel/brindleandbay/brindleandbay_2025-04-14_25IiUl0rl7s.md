@@ -43,27 +43,44 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Financial advisor Nick Davis presents research showing most people retire earlier than they plan, often between ages 62-64 despite intending to work longer. Offers three strategies for flexible retirement planning: identify your earliest affordable retirement date, create a financial narrative, and practice retirement through budget trials and time off."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-timing", "flexible-retirement", "retirement-planning", "retirement-practice", "financial-planning"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, Financial Advisor"
+    - name: "Walter"
+      role: "Retiree (case study)"
+    - name: "Stacy"
+      role: "Retiree (case study)"
+    - name: "Susan"
+      role: "Retiree (case study)"
+    - name: "Richard"
+      role: "Retiree (case study)"
+  companies:
+    - name: "Brindle and Bay"
+      ticker: null
+    - name: "Employee Benefit Research Institute"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["401(k)", "Social Security"]
+  concepts: ["Flexible retirement planning", "Retirement date flexibility", "One-page financial plan", "Retirement practice", "Financial narrative", "Retirement meaning"]
+content_type: "educational"
+audience_level: "beginner"
+key_claims: 
+  - claim: "50% of people say they want to retire after age 65, yet 70% of those actually retire between ages 62 and 64"
+    timestamp: "00:00:48"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -73,6 +90,40 @@ notes: ""
 **Published:** 2025-04-14
 **URL:** https://youtube.com/watch?v=25IiUl0rl7s
 **Duration:** 7:21
+
+## Summary
+
+Nick Davis addresses retirement planning misconceptions by sharing Employee Benefit Research Institute data: while 50% of people plan to retire after 65, 70% of those actually retire between 62-64. Rather than fixating on exact retirement dates, Davis recommends flexible retirement planning with three key strategies. These include identifying your earliest affordable retirement date while balancing savings and desired spending, creating a financial narrative by organizing accounts and understanding income sources (investments, Social Security timing, healthcare planning), and practicing retirement by testing budgets and taking extended time off work to discover how you'll spend retirement hours and derive meaning.
+
+## Key Takeaways
+
+- Most people drastically overestimate how long they will work, with the majority retiring 3-5 years earlier than planned due to unexpected life events or shifting priorities
+- A flexible retirement plan requires knowing your earliest retirement date (e.g., retire at 63 with $110,000 lifestyle or 67 with $125,000), not just a single target date
+- Creating a financial narrative means organizing all accounts, calculating sustainable investment withdrawal amounts, timing Social Security strategically, and planning realistic healthcare coverage
+- Practicing retirement through budget trials, scheduling new hobbies, and taking unstructured time off (without vacation travel) reveals what actually brings meaning and how you'll fill your days
+- Retirement is not a cruise-ship experience where you show up unprepared; it requires studying the new culture, planning, and practicing like preparing to live in a foreign country
+
+## Detailed Notes
+
+### The Retirement Timing Gap: Plans vs. Reality [00:00:00]
+
+Research by Employee Benefit Research Institute shows 50% of people want to retire after 65, but 70% of those actually retire between ages 62-64. Three case studies illustrate why plans change: Walter delayed to finish a career project, Stacy worked extra for a bonus to fund a greenhouse, and Susan and Richard both retired early when Richard faced health issues. This unpredictability means rigid planning fails.
+
+### Three Strategies for Flexible Retirement Planning [00:02:37]
+
+Rather than picking one retirement date, identify your earliest sustainable retirement lifestyle. For example: 'John retires at 67 with $125,000 spending or at 63 with $110,000 spending.' This gives options if forced to retire earlier. Flexible planning doesn't require retiring early but ensures you can handle it if circumstances demand.
+
+### Building Your Financial Narrative [00:04:42]
+
+Create a one-page financial plan organizing all accounts, calculating sustainable withdrawal amounts from investments, determining optimal Social Security timing for yourself and spouse, planning healthcare throughout retirement, and budgeting for discretionary items (vacations, holidays, home repairs). This narrative forms the foundation for realistic retirement goals.
+
+### Practice Retirement Before Committing [00:05:44]
+
+Test retirement readiness through: living on your retirement budget for a month, scheduling new activities and hobbies (taking classes, gardening), and taking 2-3 weeks off work without vacation travel to experience daily unstructured time. One recent retiree discovered he wanted to learn short story writing; another became a master gardener. These activities reveal what brings meaning outside work.
+
+### Retirement as Life Transition, Not Endpoint [00:06:32]
+
+Retirement is like moving to a foreign country—it requires studying the culture, making plans, and preparing. Expecting to simply show up and experience retirement without preparation leads to stress. The work of discovering meaning, new hobbies, and how to fill your time is an investment in your retirement success.
 
 ## Transcript
 

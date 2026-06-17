@@ -40,27 +40,58 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Discussion of changing public sentiment toward Trump's tariff policies and international trade negotiations with EU and Japan. Rebecca Walser analyzes historical trade imbalances stemming from 1944 Bretton Woods agreement and argues tariffs represent necessary course corrections after decades of unfair US trade concessions."
 topics: []
-topics_proposed: []
+topics_proposed: ["tariffs", "trade-policy", "international-commerce", "bretton-woods", "trump-administration"]
 entities:
-  people: []
+  people:
+    - name: "Scott Shellady"
+      role: "host"
+    - name: "Rebecca Walser"
+      role: "guest analyst"
+    - name: "Bill Maher"
+      role: "media personality"
+    - name: "Kenneth Langone"
+      role: "Home Depot founder"
+    - name: "Bernie Marcus"
+      role: "Home Depot co-founder"
+    - name: "Donald Trump"
+      role: "US President"
   companies: []
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["trade-fairness", "tariffs", "bretton-woods-system", "intellectual-property", "wto"]
+content_type: "opinion"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Budget surplus last month was $27 billion with $300 billion anticipated from tariffs by year-end"
+    timestamp: "00:01:04"
+    confidence: "medium"
+    flagged: true
+  - claim: "DOGE savings have generated $190 billion so far"
+    timestamp: "00:01:04"
+    confidence: "medium"
+    flagged: true
+  - claim: "EU and Japan trade deals announced with muted stock market reaction"
+    timestamp: "00:01:35"
+    confidence: "medium"
+    flagged: false
+  - claim: "US funds 60% of UN budget and 75%+ of NATO while other nations protect their markets"
+    timestamp: "00:03:40"
+    confidence: "medium"
+    flagged: false
+  - claim: "China joined WTO in 2001 with most-favored-nation status despite GDP exceeding US"
+    timestamp: "00:05:37"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -70,6 +101,45 @@ notes: ""
 **Published:** 2025-08-01
 **URL:** https://youtube.com/watch?v=qLK2oFVAjE0
 **Duration:** 8:08
+
+## Summary
+
+Scott Shellady and Rebecca Walser examine shifting public opinion on Trump's tariff policies following announcements of EU and Japan trade deals. Walser explains how US trade disadvantage developed since the 1944 Bretton Woods agreement, with successive administrations failing to counter other nations' tariffs and escalating global funding obligations. She argues tariffs represent essential corrections to decades of unbalanced trade relationships.
+
+## Key Takeaways
+
+- Public sentiment has shifted from believing tariffs would destroy America to questioning whether they actually work
+- Bill Maher admitted he was wrong about tariffs; Ken Langone transformed from Trump skeptic to believer in his presidency
+- US established reserve currency status in 1944 Bretton Woods but faced slow accumulation of unfair trade and funding demands
+- Successive administrations failed to counter tariffs imposed by other nations on US exports
+- US pressured to fund 60%+ of UN and 75%+ of NATO while maintaining unequal bilateral trade relationships
+- Budget surplus of $27 billion last month; $300 billion projected from tariffs by year-end; $190 billion from DOGE savings
+
+## Detailed Notes
+
+### Public Opinion Reversal [00:00:00]
+
+Bill Maher publicly reversed position, admitting tariffs won't destroy America as he previously argued. Kenneth Langone, Home Depot co-founder originally opposed to Trump, now believes Trump could be most consequential president ever.
+
+### Historical Trade Context [00:02:38]
+
+1944 Bretton Woods agreement established US dollar as global reserve currency post-WWII. Gradual 'creep' of other nations imposing tariffs on US imports without US reciprocal action. Multiple administrations failed to reassert American trade leverage.
+
+### Global Funding Obligations [00:03:40]
+
+US increasingly pressured to fund international institutions: 60% of UN budget and 75%+ of NATO. Foreign aid and US foreign direct investment flow create complex recycling of US capital. Walser notes corruption and excessive spending requiring dramatic cuts.
+
+### Stock Market and Trade Deal Reactions [00:01:35]
+
+Despite major EU and Japan trade deal announcements, stock market showed muted reaction initially. When Trump paused tariffs previously, market spiked, but sustained deals show less immediate market enthusiasm.
+
+### China Trade Imbalance [00:05:37]
+
+China joined WTO in 2001 with most-favored-nation status. Despite current GDP exceeding US, still receives favorable trade designation. Continues stealing $500 billion-$1 trillion annually in US intellectual property.
+
+### Environmental Policy Double Standards [00:06:31]
+
+Developed Western nations constrained by climate regulations and Paris Accord while China and India given unlimited pollution allowances. 15-minute city and transportation restrictions imposed on developed nations but not on massive developing economies.
 
 ## Transcript
 

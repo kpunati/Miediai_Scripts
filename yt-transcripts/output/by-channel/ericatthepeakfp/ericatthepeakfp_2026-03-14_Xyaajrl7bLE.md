@@ -35,27 +35,46 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Video argues that spending is the single most important variable in retirement planning, and that optimizing individual components (taxes, Social Security claiming, health insurance, retirement age) in isolation can undermine overall spending power due to interconnected tax cliffs and subsidy eligibility thresholds."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "tax-optimization", "spending-strategy", "health-insurance", "interconnected-planning"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, Financial Advisor"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["retirement planning", "spending", "tax planning", "Social Security claiming", "ACA subsidies", "Medicare surcharges", "IRMA", "Roth conversions", "RMDs", "tax cliffs", "health insurance costs"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Health insurance costs can range from 20-30k per year to minimal depending on income structure due to ACA subsidies"
+    timestamp: "00:02:39"
+    confidence: "high"
+    flagged: true
+  - claim: "Claiming Social Security at 62 might maximize lifetime benefits but can eliminate 20-30k annually in ACA subsidy savings"
+    timestamp: "00:01:19"
+    confidence: "high"
+    flagged: true
+  - claim: "Retirement age decisions impact years of saving, spending, portfolio support needs, and tax planning eligibility"
+    timestamp: "00:04:08"
+    confidence: "high"
+    flagged: false
+  - claim: "Reactive Roth conversions to lower IRMA penalties can spike income, increase Social Security taxation, and eliminate health subsidies"
+    timestamp: "00:05:33"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -65,6 +84,49 @@ notes: ""
 **Published:** 2026-03-14
 **URL:** https://youtube.com/watch?v=Xyaajrl7bLE
 **Duration:** 7:39
+
+## Summary
+
+Eric Amzalag emphasizes that spending capacity is retirement's most critical variable, superseding focus on individual optimization of taxes, Social Security, health insurance, or retirement age. He illustrates how optimizing one piece without considering connections leads to unintended consequences—such as claiming Social Security earlier and losing health subsidy eligibility, resulting in net spending reduction despite apparent income gains.
+
+## Key Takeaways
+
+- Spending is the single most important variable in retirement; all other decisions (taxes, Social Security, health insurance, retirement age) should align with spending goals.
+- Optimizing one retirement element without considering connections to others can create unintended negative consequences.
+- Claiming Social Security at 62 may maximize lifetime benefits but can disqualify retirees from ACA subsidies, potentially costing 20-30k annually.
+- Health insurance costs between retirement and age 65 vary dramatically based on managing modified adjusted gross income to qualify for premium subsidies.
+- Tax planning must be holistic—Roth conversions to avoid IRMA penalties can spike income and inadvertently eliminate subsidies or increase Social Security taxation.
+- Retirement date is a powerful spending lever affecting years of saving/spending, portfolio support needs, and tax planning opportunities.
+
+## Detailed Notes
+
+### The Problem: Fragmented Planning Approach [00:00:38]
+
+Retirees often request individual solutions (tax plan, health insurance plan, Social Security strategy) but these pieces interconnect. Optimizing one piece without seeing broader impact can accidentally damage other parts of the plan.
+
+### Spending as the Central Variable [00:01:19]
+
+Example: claiming Social Security at 62 may maximize lifetime benefits but disqualifies retiree from ACA subsidies, costing 20-30k annually in lost savings, more than offsetting the Social Security gain.
+
+### Tax Optimization and Spending Connection [00:01:56]
+
+Good tax planning through sequential withdrawals, Roth conversions, or capital gains harvesting reduces lifetime tax liability, increasing available spending. Bad or absent tax planning means overpaying IRS and reducing discretionary spending.
+
+### Health Insurance & ACA Subsidy Strategy [00:02:39]
+
+Health costs can be 20-30k annually or a fraction thereof. Structuring income to stay under modified adjusted gross income thresholds qualifies for ACA premium subsidies, dramatically reducing costs and increasing pocket money for spending.
+
+### Social Security Claiming & Tax Interactions [00:03:28]
+
+Optimal claiming age depends on supporting desired spending pattern—either early cash flow during active years or later higher guaranteed checks. Claiming affects taxation of other income and eligibility thresholds.
+
+### Retirement Date as Spending Lever [00:04:08]
+
+Two-year shifts in retirement age change saving years, spending years, portfolio support requirements, tax planning eligibility, Social Security claiming timing, and interact complexly with all other variables.
+
+### Reactive Decision-Making Trap [00:05:33]
+
+Retirees panic about IRMA or Medicare surcharges and rush into Roth conversions early, which can spike income, increase Social Security taxation, and eliminate health subsidies—solving one problem while creating two new ones.
 
 ## Transcript
 

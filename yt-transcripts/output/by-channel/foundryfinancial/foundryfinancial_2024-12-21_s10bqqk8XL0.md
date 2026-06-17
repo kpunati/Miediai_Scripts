@@ -61,27 +61,42 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Kevin Lum explains the Social Security Fairness Act passed by the Senate, which eliminates the Windfall Elimination Provision and Government Pension Offset, increasing Social Security benefits by 196 billion over 10 years and benefiting millions including teachers, firefighters, and public sector workers."
 topics: []
-topics_proposed: []
+topics_proposed: ["social-security-reform", "windfall-elimination-provision", "government-pension-offset", "retirement-benefits", "public-sector-pensions"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Kevin Lum"
+      role: "CFP, host"
+  companies:
+    - name: "Foundry Financial"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["Windfall Elimination Provision (WEP)", "Government Pension Offset (GPO)", "non-covered pension", "Social Security benefits", "retroactive payments"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "The Social Security Fairness Act will increase social security benefits by 196 billion dollars over the next 10 years"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Benefits will apply to all benefits payable after December 2023 and many viewers could receive retroactive payments"
+    timestamp: "00:01:03"
+    confidence: "high"
+    flagged: false
+  - claim: "If impacted, beneficiaries should receive retroactive check back to December 31st 2023 once signed into law and implemented"
+    timestamp: "00:05:14"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -91,6 +106,40 @@ notes: ""
 **Published:** 2024-12-21
 **URL:** https://youtube.com/watch?v=s10bqqk8XL0
 **Duration:** 6:37
+
+## Summary
+
+The Senate has passed the Social Security Fairness Act, eliminating two provisions that have reduced benefits for millions of Americans with non-covered pensions. The legislation increases benefits by 196 billion over 10 years and will provide retroactive payments back to December 2023 for those impacted.
+
+## Key Takeaways
+
+- The Windfall Elimination Provision (WEP) reduced Social Security benefits for those receiving pensions from non-covered government employment like teachers, firefighters, and postal workers.
+- The Government Pension Offset (GPO) reduced spousal and surviving spousal benefits, often to zero, for those with non-covered employment pensions.
+- Elimination of these provisions will increase benefits for millions of public sector workers including teachers, firefighters, police officers, postal workers, air traffic controllers, federal government employees, and state/county municipal workers.
+- President Biden still needs to sign the bill into law, and implementation will take time before beneficiaries receive retroactive payments.
+- Those not impacted by the bill can still increase their Social Security benefits through other strategies covered in additional videos.
+
+## Detailed Notes
+
+### Overview of the Social Security Fairness Act [00:00:00]
+
+The Senate passed the Social Security Fairness Act following House approval in November. The legislation will increase Social Security benefits by 196 billion dollars over the next 10 years, impacting millions of Americans. If signed into law by President Biden, it will apply to all benefits payable after December 2023, meaning many viewers could receive nice retroactive payments.
+
+### Windfall Elimination Provision (WEP) Explained [00:01:03]
+
+The WEP reduces Social Security benefits for those receiving benefits from non-covered pensions (public sector jobs that didn't contribute to Social Security via payroll taxes). Since Social Security benefits are progressive to help lower wage workers, the WEP prevents overpaying those with generous pensions from outside employment. The reductions can be fairly significant and the good news for viewers is this provision looks like it's going away.
+
+### Government Pension Offset (GPO) [00:03:10]
+
+The GPO reduces spousal or surviving spousal benefits for those with non-covered employment pensions. For example, someone eligible for a 4,000 dollar monthly spousal benefit but with a non-covered pension could see their benefit greatly reduced or often dropped to zero. Though the formula was intended to prevent overpaying, many felt these rules were complicated and ultimately unfair.
+
+### Who Gets Impacted by the Bill [00:04:12]
+
+Long list of affected groups including teachers, firefighters, police officers, postal workers, air traffic controllers, federal government employees hired before 1983, and state/county municipal and special district workers. Congressional Budget Office estimates the legislation will cost nearly 200 billion over 10 years and speed up the demise of the Social Security trust fund by about six months.
+
+### Timeline for Receiving Benefits [00:05:14]
+
+President Biden still has to sign the bill into law and the government must implement it. Those impacted should receive a retroactive check back to December 31st 2023 at some time in the future, but implementation will take time once signed into law.
 
 ## Transcript
 

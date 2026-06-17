@@ -47,27 +47,56 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser discusses AI's economic disruption, volatility in software stocks, fixed income outlook, and gold's long-term value proposition on Bloomberg Radio. She addresses investor emotional responses to market rotations and advocates for disciplined, contrarian positioning."
 topics: []
-topics_proposed: []
+topics_proposed: ["artificial-intelligence", "market-rotation", "commodities", "fixed-income", "behavioral-finance"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Rebecca Walser"
+      role: "wealth manager, analyst"
+    - name: "Scarlet Fu"
+      role: "Bloomberg host"
+  companies:
+    - name: "Walser Wealth Management"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["AI disruption", "creative destruction", "commodity hedges", "fiat currency", "blockchain", "financial media", "behavioral finance", "gold valuation"]
+content_type: "opinion"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Software sector has been oversold despite 40% EPS and net income growth for companies like Intuit."
+    timestamp: "00:01:02"
+    confidence: "medium"
+    flagged: false
+  - claim: "Markets experienced three solid years in a row (2023, 2024, 2025)."
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Expected 5-10% pullback in Q1-Q2 2026 with positive momentum in Q3-Q4."
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Gold could theoretically be valued as high as $20,000 per troy ounce based on currency inflation analysis."
+    timestamp: "00:03:56"
+    confidence: "low"
+    flagged: true
+  - claim: "Gold reached $5,031 per troy ounce before experiencing a parabolic pullback."
+    timestamp: "00:03:56"
+    confidence: "high"
+    flagged: true
+  - claim: "Central banks worldwide are moving from fiat to stablecoins and digitization of currency through blockchain."
+    timestamp: "00:04:58"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -77,6 +106,40 @@ notes: ""
 **Published:** 2026-02-23
 **URL:** https://youtube.com/watch?v=YuzIHNYOieI
 **Duration:** 5:29
+
+## Summary
+
+Rebecca Walser joins Bloomberg Radio to discuss the market's emotional reaction to AI disruption and portfolio positioning strategies. She notes that while AI's long-term disruptive impact is real, the current market behavior reflects fear and overselling in software stocks. Walser emphasizes the importance of separating emotional market reactions from fundamental analysis, recommends value stock and dividend rotation for retirees, and reiterates her long-term bullish stance on gold and silver as inflation hedges amid global currency digitization trends.
+
+## Key Takeaways
+
+- AI disruption is real long-term but current market overselling in software reflects emotional panic rather than fundamentals, particularly for quality companies with strong earnings growth.
+- Markets experienced strong three-year run (2023-2025) but 2026 expected to deliver more modest 5-10% total returns amid Q1-Q2 volatility.
+- Fixed income showed strength in 2025 but bond yields remain depressed even as equities decline, suggesting behavioral finance dynamics rather than rational rebalancing.
+- Retirees should rotate toward value stocks and dividend payers for cash flow rather than purely growth-oriented capital appreciation strategies.
+- Gold remains attractive long-term hedge despite parabolic volatility, with potential valuations far exceeding current $5,031 price as global fiat currency system transitions to blockchain-based digital currencies.
+
+## Detailed Notes
+
+### AI Overhype and Software Sector Oversold [00:01:02]
+
+Software experienced parabolic rise in 2025 as AI panacea but now faces excessive selling in 2026. Walser highlights Intuit at 50% off all-time highs with 40% EPS growth and OpenAI partnership, arguing this represents buying opportunity rather than avoiding position given fundamental strength.
+
+### Market Volatility and Behavioral Finance [00:02:04]
+
+Walser notes that fixed income yields remain depressed despite equity declines, indicating market behavior driven by crowd following rather than rational allocation. She emphasizes weekly communication with clients to counter emotional selling and maintain strategic discipline.
+
+### Retirement Income and Portfolio Rotation [00:02:04]
+
+Retirees historically require cash flow and yield but equity-only capital appreciation strategies are prevalent. Recent rotation toward value stocks and dividend payers reflects growing recognition that growth-at-any-cost does not meet income needs in declining market environments.
+
+### Gold as Long-Term Inflation and Currency Hedge [00:03:56]
+
+Walser has maintained gold and silver positions since 2020 expecting currency debasement. Despite current price of $5,031, analysis suggests gold could reach $20,000 per ounce given money supply expansion, though parabolic moves create volatility that concerns disciplined investors.
+
+### Central Bank Currency Digitization Trends [00:04:58]
+
+Global central banks transitioning from fiat toward blockchain-based stablecoins and digital currencies. This structural shift supports long-term commodity and alternative asset positioning, though financial media often turns negative on commodities after parabolic moves, contradicting fundamental trends.
 
 ## Transcript
 

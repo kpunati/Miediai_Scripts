@@ -67,24 +67,39 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Explores five mental traps that prevent people from retiring despite having sufficient financial resources: questioning readiness, perpetual postponement, feeling like savings are never enough, loss of work identity, and fear of uncertainty. Argues that financial security comes from strategy rather than specific portfolio amounts."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-psychology", "financial-planning", "wealth-management", "behavior-finance", "life-transitions"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "CFP, host"
+  companies:
+    - name: "Root Financial Partners"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["retirement readiness", "portfolio strategy", "financial plan", "identity in retirement", "Monte Carlo analysis"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Even when numbers show you're ready for retirement, mindset often prevents people from actually retiring"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "People with less money feel they need more, and people with more money also feel they need more - the target number continuously moves"
+    timestamp: "00:03:17"
+    confidence: "high"
+    flagged: false
+  - claim: "If you wait for perfect certainty in markets, elections, or geopolitical events before retiring, you will work until you die"
+    timestamp: "00:06:32"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: []
@@ -97,6 +112,44 @@ notes: ""
 **Published:** 2026-04-12
 **URL:** https://youtube.com/watch?v=2lXQ-dH9dIY
 **Duration:** 8:23
+
+## Summary
+
+James Conole explores the psychology of retirement readiness, identifying five mental traps that delay retirement decisions despite adequate financial resources. Rather than focusing solely on portfolio numbers, the video emphasizes that retirement is fundamentally a human decision requiring strategy, identity work, and acceptance of uncertainty. Conole argues that financial security comes from a comprehensive plan, not from reaching a magic portfolio number.
+
+## Key Takeaways
+
+- Trap 1 (Am I Ready?): Uncertainty before big decisions is normal; doubt about retirement readiness doesn't mean you're unprepared.
+- Trap 2 (Just One More Year): Deferring retirement by one year often cascades into years of postponement, trading health and relationships for portfolio growth.
+- Trap 3 (Never Enough): The psychological goalpost of 'enough money' constantly shifts upward; strategy and planning provide security, not specific numbers.
+- Trap 4 (Identity Loss): Work provides identity and structure for 40+ years; retirement requires identifying core habits anchored to health, relationships, and purpose.
+- Trap 5 (Fear of Uncertainty): Perfect market conditions or geopolitical stability will never arrive; a well-designed financial plan enables retirement despite ongoing volatility.
+
+## Detailed Notes
+
+### Mental Traps Overview [00:00:00]
+
+Conole introduces the core problem: even when financial projections show readiness, psychological hesitation prevents retirement. The key issue is mindset rather than mathematics. He emphasizes that doubt before major life transitions is normal and often signals a meaningful decision is approaching.
+
+### Trap 1: Am I Really Ready? [00:00:00]
+
+As retirement nears, people rationalize continued work (more contributions, portfolio growth, fewer withdrawal years) but this masks emotional avoidance. The hidden cost—health, relationships, time with grandchildren, vitality for activities like golf and travel—is invisible in Monte Carlo analyses. Discomfort with major decisions is natural and not a sign of unreadiness.
+
+### Trap 2: Just One More Year [00:02:03]
+
+One additional work year for bonuses, 401k maxing, or portfolio growth is justified but often extends indefinitely. Conole observes that many people delay until health fails rather than retiring on their own terms. The real cost isn't just money; it's saying no to life by trading prime years for unspent savings.
+
+### Trap 3: Never Enough Money [00:02:35]
+
+A critical insight: people with less money feel they need more, and paradoxically, so do people with more. The target amount moves as people approach it. At $2 million, people think $3-4 million would be safer. The solution isn't reaching a number but developing a strategy that translates portfolio size into sustainable income and peace of mind.
+
+### Trap 4: Loss of Identity [00:04:06]
+
+After 40+ years building a work identity, retirement feels like stepping into an unknown phase. Major life transitions (kindergarten to grade school, college, first job) have always been uncomfortable. The solution isn't knowing every detail of retirement but establishing core habits anchored to health, relationships, hobbies, and purpose that provide structure and new identity.
+
+### Trap 5: Fear of Uncertainty [00:06:32]
+
+Waiting for stable conditions (after elections, recessions, geopolitical events calm down) is a trap—perfect certainty never arrives. Conole stresses that a well-designed financial strategy must account for ongoing market volatility and external shocks. A comprehensive plan integrating investment, cash, and tax strategies enables confidence despite uncertainty.
 
 ## Transcript
 

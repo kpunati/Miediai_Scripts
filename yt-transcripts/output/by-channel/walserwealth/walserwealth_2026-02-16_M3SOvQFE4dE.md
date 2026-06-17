@@ -45,27 +45,66 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser discusses investment opportunities in gold, tech stocks like Intuit and Pool Corp, oil stocks amid geopolitical tensions, and Duke Energy as primary beneficiary of AI-driven data center power infrastructure buildout."
 topics: []
-topics_proposed: []
+topics_proposed: ["gold-commodities", "technology-investment", "energy-stocks", "stock-picking", "commodities-market"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Rebecca Walser"
+      role: "wealth manager"
+    - name: "Charles Payne"
+      role: "host"
+    - name: "Warren Buffett"
+      role: "investor"
+  companies:
+    - name: "Intuit"
+      ticker: "INTU"
+    - name: "Pool Corp"
+      ticker: "POOL"
+    - name: "Occidental Petroleum"
+      ticker: "OXY"
+    - name: "Duke Energy"
+      ticker: "DUK"
+    - name: "Berkshire Hathaway"
+      ticker: "BRK"
+    - name: "BlackRock"
+      ticker: null
+    - name: "Blackstone"
+      ticker: null
+  tickers: ["INTU", "POOL", "OXY", "DUK", "BRK", "COMX"]
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["gold-bull-market", "AI-infrastructure", "dividend-stocks", "commodity-super-cycle", "geopolitical-risk"]
+content_type: "analysis"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Intuit is trading 50 percent off its all-time high with 17 percent trailing revenue growth and 40 percent EPS and net income growth"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Pool Corp had 62 percent of revenue from recurring maintenance in 2023"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Berkshire Hathaway owns 28 percent of Occidental Petroleum common stock"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Duke Energy has 103 billion dollars capex spend for next 5 years, largest of any US regulated utility"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Duke Energy PE ratio is 19.8 percent compared to industry standard of 26 percent"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +114,40 @@ notes: ""
 **Published:** 2026-02-16
 **URL:** https://youtube.com/watch?v=M3SOvQFE4dE
 **Duration:** 5:05
+
+## Summary
+
+Rebecca Walser discusses investment strategy on Fox Business, highlighting her bullish gold thesis and stock selections for 2026. She details specific growth opportunities in software companies adapting to AI (Intuit), pool maintenance services benefiting from housing demand (Pool Corp), oil stocks positioned for commodity super-cycle (Occidental Petroleum), and energy infrastructure (Duke Energy) positioned to capitalize on data center power demands from AI infrastructure.
+
+## Key Takeaways
+
+- Gold pullback from parabolic highs presents buying opportunity as central banks continue accumulation and blockchain-related institutional demand supports long-term bull case
+- Software oversold broadly; Intuit at 50% discount with strong growth metrics and OpenAI partnership represents value opportunity during correction
+- Pool Corp represents non-obvious play on housing via recurring business model; 62% recurring maintenance revenue provides stability versus construction cycle exposure
+- Occidental Petroleum positioned for commodity super-cycle with diversified exposure to crude, gas, operations, and chemicals amid Middle East and Venezuela production constraints
+- Duke Energy uniquely positioned as largest-capex utility with 18-year dividend streak, discounted PE ratio, and infrastructure to capture data center power demand from AI buildout
+
+## Detailed Notes
+
+### Gold Market Dynamics [00:00:00]
+
+Gold went parabolic from historical lows but is consolidating after recent pullback. Walser has maintained gold position since 2020. Central banks and retail investors have accumulated positions aggressively. Walser notes major institutions were recently short and exited at lows before going long at higher prices. Despite pullback, fundamental case remains intact with blockchain/digital currency transition and currency debasement concerns.
+
+### Intuit Valuation and AI Positioning [00:00:00]
+
+Intuit trading 50% below all-time highs with 17% trailing revenue growth and 40% EPS/net income growth. PE ratio at 10-year lows provides significant discount. Strategic partnership with OpenAI positions company to adapt tax software to AI capabilities. Walser previously sold but repurchased on oversold levels, viewing it as core holding for AI transition.
+
+### Pool Corp Business Model [00:00:00]
+
+Pool Corp operates business-to-business model with 62% of 2023 revenue from recurring maintenance contracts with builders and pool contractors. Recurring revenue provides stability independent of new construction cycles. Housing administration policies to limit institutional ownership (BlackRock, Blackstone) could support single-family housing and maintenance demand.
+
+### Occidental Petroleum and Commodity Cycle [00:00:00]
+
+Warren Buffett's Berkshire Hathaway holds 28% of Occidental Petroleum common stock. Stock declined despite Buffett backing. Walser views this as positioned well for commodity super-cycle due to Middle East tensions, Iran situation, Venezuelan production cuts, and OPEC pricing. Company diversified across crude, gas, middle-market operations, and chemicals, not purely crude-dependent.
+
+### Duke Energy Infrastructure Play [00:00:00]
+
+Duke Energy features largest capex spending projection ($103 billion over 5 years) of any US regulated utility. Company positioned to capitalize on data center power demands from AI infrastructure buildout. PE ratio at 19.8% versus industry standard 26% represents discount. 18-year consecutive dividend increases with 3.4% yield provide income and capital appreciation potential.
 
 ## Transcript
 

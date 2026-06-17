@@ -61,27 +61,42 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Based on survey feedback from 909 retirees, this video reveals the top retirement regrets and actionable insights: prioritize purpose over excessive savings, retire when ready rather than waiting for perfect conditions, design location thoughtfully, plan for tax spikes from RMDs and Social Security, maintain relationships, and don't delay spending in retirement."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "retirement-regrets", "tax-planning", "retirement-spending", "life-purpose"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "CFP, founder of Root Financial"
+  companies:
+    - name: "Root Financial Partners, LLC"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: [{"name": "Retirement Planning Academy"}, {"name": "Early Retirement Academy"}]
+  concepts: ["required minimum distributions", "Social Security optimization", "Roth conversions", "IRMAA surcharges", "Medicare premiums", "purpose-driven retirement", "retirement location", "4% withdrawal rule", "bracket smoothing"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Survey of 909 retirees found the overwhelming sentiment was wish to have started sooner, not regret about having too much money"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Research shows if you spend only 4% of your portfolio in retirement, you are likely to have much more money at the end than at the beginning"
+    timestamp: "00:08:48"
+    confidence: "medium"
+    flagged: true
+  - claim: "Tax spikes from required minimum distributions and IRMAA surcharges surprise many retirees who underestimated tax burden"
+    timestamp: "00:05:11"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -91,6 +106,45 @@ notes: ""
 **Published:** 2025-10-04
 **URL:** https://youtube.com/watch?v=-kFvjRKNKeY
 **Duration:** 11:37
+
+## Summary
+
+Drawing on insights from 909 retirees, James Conole presents key lessons for a fulfilling retirement that transcends financial optimization alone. The video challenges the common fear-driven approach to retirement savings by revealing that most retirees wish they had started spending and enjoying life sooner, not that they had saved more. Success in retirement depends on balancing financial security with intentional purpose, strong relationships, and meaningful spending.
+
+## Key Takeaways
+
+- Working longer isn't always safer; many retirees regret pushing back retirement for marginal financial gains while missing their healthiest, most energetic years.
+- Retirement requires mental preparation and purpose-design, not just financial preparation—many retirees experience loneliness and boredom when they have no clear vision for how they'll spend their time.
+- Location choices in retirement matter significantly: proximity to family, meaningful activities, healthcare networks, and climate preferences all impact quality of life and long-term care options.
+- Tax spikes from required minimum distributions, Social Security stacking, and Medicare IRMAA surcharges often surprise retirees; proactive tax planning with Roth conversions and bracket smoothing is essential.
+- Relationships drive retirement quality more than money; prioritize time with spouse, family, and friends rather than pursuing ever-higher portfolio values.
+- The 4% withdrawal rule typically leaves retirees with more capital at retirement's end than at the beginning; fear-driven underspending prevents enjoying the retirement you've prepared for.
+
+## Detailed Notes
+
+### Working Longer Isn't Always Safer [00:00:43]
+
+While one more year of work offers clear financial benefits on spreadsheets, retirees commonly regret working too long and missing their best years due to declining health and energy. The focus should be working as long as necessary to fund your retirement vision, not working until some arbitrary threshold feels comfortable. Waiting for the perfect financial feeling often means watching your greatest retirement years pass by.
+
+### Design Purpose Before Retiring [00:02:17]
+
+Many retirees experience loneliness and boredom because they never clarified their retirement purpose before leaving work. Retirement isn't automatically a vacation; it requires intentional design. Retirees should identify what brings joy and meaning, who they want to spend time with, and what priorities matter most. This mental preparation is equally important as financial preparation to avoid drifting and disconnection.
+
+### Location Matters for Quality of Life [00:04:09]
+
+Retirement location should align with desired activities, climate preferences, proximity to family and friends, and access to healthcare. As aging increases healthcare needs, proximity to quality medical care becomes essential. Choosing a location where you're near people you love, activities you enjoy, and necessary infrastructure supports both daily joy and long-term care planning.
+
+### Watch Out for Tax Spikes [00:05:11]
+
+Many retirees assume they'll be in lower tax brackets but face surprise tax hikes from required minimum distributions, Social Security benefits stacking, and Medicare IRMAA surcharges on modified adjusted gross income. A comprehensive tax strategy coordinating IRA withdrawals, Roth conversions, and Social Security timing is essential to prevent unexpected bills and premium increases. Forward-looking planning prevents being 'whacked' by hidden taxes.
+
+### Prioritize Relationships Over Spreadsheets [00:06:50]
+
+The overwhelming finding is that retirement quality depends on relationship quality, not financial perfection. Money can provide options and security, but connections provide meaning. Many retirees optimize finances while relationships quietly drift—distancing between spouses, friends, and children often goes unnoticed until it's a problem. Both financial and relational preparation are crucial.
+
+### Spend Money Intentionally and Early [00:08:48]
+
+Research supports that spending 4% annually typically leaves portfolios larger at retirement's end than beginning. Many retirees struggle shifting from a lifetime of saving to spending, fearing market declines will derail the plan. However, overly conservative underspending prevents enjoying the retirement you've prepared for. Identify what matters, set prudent guardrails, and spend freely on meaningful experiences.
 
 ## Transcript
 

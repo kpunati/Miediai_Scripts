@@ -58,27 +58,42 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Argues that financial security requires intentional living and value alignment, not perpetual accumulation. Challenges the hedonic treadmill where people always feel they need double their current wealth, instead encouraging readers to identify meaningful purchases or experiences and create a concrete plan to fund them now."
 topics: []
-topics_proposed: []
+topics_proposed: ["lifestyle-design", "behavioral-finance", "intentional-spending"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "CFP, founder of Root Financial"
+  companies:
+    - name: "Root Financial Partners, LLC"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["hedonic-adaptation", "intentional-spending", "value-alignment"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Average American estimates needing $2.2 million to feel wealthy"
+    timestamp: "00:01:01"
+    confidence: "medium"
+    flagged: true
+  - claim: "Millionaires estimate needing $7.5 million to feel wealthy"
+    timestamp: "00:01:01"
+    confidence: "medium"
+    flagged: true
+  - claim: "Studies show people across income levels feel they need double their current wealth to feel secure"
+    timestamp: "00:02:04"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -88,6 +103,40 @@ notes: ""
 **Published:** 2025-02-11
 **URL:** https://youtube.com/watch?v=SJZOV-Z65qA
 **Duration:** 11:04
+
+## Summary
+
+James Conole challenges the assumption that more wealth automatically leads to happiness, presenting research showing that regardless of income level, people consistently feel they need about double their current wealth to feel secure. He argues that true financial fulfillment comes from intentionally identifying what matters most and using money to fund those specific experiences and purchases now, rather than deferring life until some future financial threshold is reached.
+
+## Key Takeaways
+
+- The hedonic treadmill effect: people at every wealth level (from $1M to $10M+) feel they need twice as much to feel truly wealthy
+- More money alone does not solve the feeling of financial insecurity—this is a psychological pattern, not a mathematical one
+- The most important financial decision is identifying one meaningful thing you can do or buy this year and committing to it
+- Creating a concrete plan (what, when, how funded) dramatically increases the likelihood of follow-through
+- Living intentionally aligned with your values creates fulfillment more reliably than accumulation
+
+## Detailed Notes
+
+### The hedonic treadmill and wealth psychology [00:00:00] [00:00:00]
+
+James introduces the concept that financial decisions about investing and retirement planning are tactical, but the bigger-picture decision is defining what retirement and life should be about. He emphasizes that external optimization means nothing if the fundamental question of 'what do I want my life to be' remains unanswered.
+
+### The $2.2M and $7.5M benchmarks [00:01:01] [00:01:01]
+
+Research shows that non-wealthy Americans estimate they need $2.2 million to feel wealthy, while millionaires estimate $7.5 million. This demonstrates that as wealth increases, the target shifts proportionally, creating a perpetual gap between current and desired wealth levels.
+
+### The doubling pattern across all wealth levels [00:02:04] [00:02:04]
+
+Studies reveal a consistent pattern: people with $1M want $2M, those with $5M want $10M, those with $10M want $20M. This hedonic adaptation means that chasing more is an endless game without intentional intervention.
+
+### Client stories of meaningful spending [00:03:06] [00:03:06]
+
+James shares client examples including Steph's story of a 1974 fishing boat purchased with a $30,000 inheritance. Though it could have been invested, the boat created family memories worth far more than the opportunity cost of foregone market returns.
+
+### The exercise: identify, plan, commit [00:08:20] [00:08:20]
+
+James outlines a practical four-step exercise: write down one meaningful thing to do/buy, assess if you can afford it without sacrificing other goals, attach a specific date, identify the funding source, and email him the plan. The specificity creates accountability and urgency.
 
 ## Transcript
 

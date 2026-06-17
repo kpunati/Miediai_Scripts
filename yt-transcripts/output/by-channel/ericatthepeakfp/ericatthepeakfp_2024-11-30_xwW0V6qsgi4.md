@@ -37,27 +37,52 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Financial planner challenges the common belief that $2.2 million is required for retirement, demonstrating through a case study that most Americans need substantially less due to media fear-mongering, industry incentive structures, and misunderstood financial planning. Illustrates how proper cash flow planning with guardrails enables confident retirement spending decisions."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "retirement-income", "withdrawal-strategy", "financial-misconceptions", "retirement-security"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "Financial Planner, CFP"
+    - name: "Stephen and Amanda"
+      role: "Case study subjects"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
+    - name: "Income Labs"
+      ticker: null
+    - name: "Right Capital"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Income Labs", "Right Capital"]
+  concepts: ["Monte Carlo simulation", "probability of success", "cash flow planning", "guardrails", "withdrawal strategy", "safe withdrawal rate", "financial incentive structures"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Americans believe they need $2.2 million to retire comfortably, but this is intentionally misleading"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Financial services industry profits by keeping people working longer to charge fees on growing assets"
+    timestamp: "00:01:03"
+    confidence: "high"
+    flagged: false
+  - claim: "A 93% probability of success means 93% chance of underspending, suggesting excessive conservatism"
+    timestamp: "00:05:17"
+    confidence: "medium"
+    flagged: false
+  - claim: "The case study couple can spend $899,000 per year before taxes in retirement at age 65, versus their current $40,000 annual spending"
+    timestamp: "00:08:23"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -67,6 +92,41 @@ notes: ""
 **Published:** 2024-11-30
 **URL:** https://youtube.com/watch?v=xwW0V6qsgi4
 **Duration:** 13:14
+
+## Summary
+
+Eric Amzalag demonstrates how financial services industry incentive structures mislead Americans about retirement requirements. Using a detailed case study of a couple with $530,000 in savings, the video contrasts traditional Monte Carlo probability-of-success analysis with modern guardrails-based cash flow planning. The presenter reveals that this couple can safely retire at 65 and spend nearly $900,000 annually despite currently spending only $40,000, highlighting how proper planning transforms retirement outcomes.
+
+## Key Takeaways
+
+- The $2.2 million retirement requirement is driven by industry incentives to keep people working longer, not actual financial needs
+- Monte Carlo tools provide false confidence by assuming static behavior, ignoring how people naturally adapt spending in response to portfolio changes
+- Modern guardrails-based planning provides both safe spending amounts and portfolio thresholds that trigger specific spending adjustments
+- A couple with $530,000 savings and modest lifestyle can spend dramatically more in retirement than commonly assumed while maintaining security
+- Proper financial planning requires understanding incentive structures that profit from financial anxiety and conservative assumptions
+- Portfolio guardrails typically allow reasonable adjustments like 5% spending cuts for 23% portfolio declines
+
+## Detailed Notes
+
+### The Incentive Structures Behind Retirement Myths [00:00:00]
+
+Media generates fear-based headlines for clicks, financial services industry profits from prolonged work years and fee collection, government benefits from delayed Social Security and Medicare claims, and pharmaceutical/medical industries generate self-serving research. Understanding these incentives reveals why Americans are misled about retirement costs.
+
+### Case Study Setup and Assumptions [00:02:05]
+
+Couple Stephen and Amanda (both 62) have $530,000 saved: $485,000 in 401k, $48,000 IRA, and $295,000 home with $41,000 mortgage. Steve earns $76k/year, Amanda makes $20k. They spend $3,333/month currently. Plans assume retirement at 65, life expectancy 95, and end-of-life care costs of roughly $68,000/year.
+
+### Monte Carlo vs. Cash Flow Planning Methods [00:04:12]
+
+Right Capital shows 93% probability of success, suggesting overly conservative spending. The presenter reframes this as 93% chance of underspending (overly cautious) rather than success. Income Labs guardrails-based tool provides both safe spending amount ($899,000/year) and portfolio thresholds ($536,000 lower rail, $774,000 upper rail) that signal when to adjust spending by 5-11%.
+
+### Understanding Portfolio Guardrails [00:07:20]
+
+Guardrails define spending adjustment triggers: lower guardrail at $536,000 (23% decline) triggers 5% spending cut; upper guardrail at $774,000 (11% increase) triggers 11% spending increase. This human-functional approach tells retirees the magnitude of adjustments needed, which is not huge relative to portfolio swings.
+
+### Implications and Spending Reality Check [00:09:25]
+
+Stephen and Amanda currently spend only $40,000/year, so approved $899,000 annual pre-tax income (roughly $78,000 after-tax) gives substantial wiggle room for travel, gifts, or charity. The couple can retire at 65 with either higher spending or earlier retirement, contradicting the common $2.2 million myth.
 
 ## Transcript
 

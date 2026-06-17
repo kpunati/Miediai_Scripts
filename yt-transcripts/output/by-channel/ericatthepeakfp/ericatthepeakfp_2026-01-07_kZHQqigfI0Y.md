@@ -37,27 +37,64 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Analyzes retirement wealth distribution across income tiers using Federal Reserve data, revealing that successful retirees prioritize control over income sources and tax brackets rather than absolute net worth. Explores characteristics of top 1%, 5%, 10%, and 25% of retirees and presents three strategies used by the wealthiest."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-wealth", "income-streams", "tax-optimization", "federal-reserve-data", "wealth-distribution", "retirement-strategies"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, RICP"
+  companies:
+    - name: "Federal Reserve"
+      ticker: null
+    - name: "Peak Financial Planning Inc"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["tax bracket control", "income ecosystem", "liquidity rule", "income pyramid", "reverse tax strategy", "tax arbitrage mode", "required minimum distributions"]
+content_type: "analysis"
+audience_level: "advanced"
+key_claims: 
+  - claim: "Median retiree aged 65-74 has net worth of 461,000 dollars while average is 2 million dollars"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Top 25% of retirees have net worth between 740,000 and 1 million dollars with annual income of 70,000 to 90,000 dollars"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Top 10% retirees have net worth around 2.2 million dollars or higher with annual income of 120,000 to 150,000 dollars"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Top 5% retirees have net worth of 3 million dollars or higher with annual income of 200,000 dollars or more"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Top 1% of retirees aged 65 and older need net worth of at least 4 million dollars"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "79% of wealthy retirees in upper echelons are self-made rather than inherited wealth"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "62% of household wealth for retirees is tied up in housing equity and retirement accounts"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Wealthy retirees at top 5% average seven different income streams"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -67,6 +104,52 @@ notes: ""
 **Published:** 2026-01-07
 **URL:** https://youtube.com/watch?v=kZHQqigfI0Y
 **Duration:** 12:21
+
+## Summary
+
+Using Federal Reserve Survey of Consumer Finances data, this video maps retirement wealth across four tiers (top 25%, 10%, 5%, and 1%), revealing that the median retiree has 461,000 dollars in net worth versus the average of 2 million dollars. The key insight is that successful retirees prioritize control over absolute wealth: control of tax brackets, income sources, and withdrawal sequencing. The wealthiest retirees employ three core strategies: maintaining 40% liquid assets, building a layered income pyramid, and using proactive tax engineering to save hundreds of thousands.
+
+## Key Takeaways
+
+- The gap between median (461,000 dollars) and average (2 million dollars) net worth for retirees shows extreme wealth concentration
+- Successful retirees shift from accumulation mode to control mode, focusing on tax brackets and income source flexibility rather than portfolio size
+- The top 5% typically have 7 different income streams (Social Security, pensions, rentals, dividends, interest, IRA distributions, consulting work)
+- The 60/40 liquidity rule ensures at least 40% of wealth is accessible outside retirement accounts or primary residence for flexibility and opportunity
+- Reverse tax strategy allows proactive income management to stay in lower brackets before RMDs begin, potentially saving hundreds of thousands over a 30-year retirement
+
+## Detailed Notes
+
+### Understanding the Wealth Distribution Gap [00:00:00]
+
+The Federal Reserve's Survey of Consumer Finances shows median retirees aged 65-74 have 461,000 dollars net worth while the average is 2 million dollars. This 4x gap reveals severe wealth concentration. The median is the true middle (half above, half below), while the average is pulled upward by ultra-wealthy retirees. Marketing claims of needing 1 million dollars to retire describe someone well above typical retirees.
+
+### Top 25% Percentile: The Comfortable Retirees [00:00:00]
+
+Net worth ranges from 740,000 to 1 million dollars with annual income of 70,000-90,000 dollars. These are typically dual-income couples with small pensions, well-timed Social Security, and homes representing 300,000-400,000 dollars of their assets. The trap: 62% of household wealth is locked in housing and retirement accounts, creating cash flow constraints despite appearing wealthy on paper.
+
+### Top 10% Percentile: Entering the Tax Trap Years [00:00:00]
+
+Net worth around 2.2 million dollars or higher with annual income of 120,000-150,000 dollars. These former executives and business owners have 400,000-500,000 dollars in home equity and 1-1.5 million dollars in retirement accounts. However, they face a critical shift: moving from employer-controlled income streams to self-directed income from multiple sources. Without tax planning, they may pay unnecessarily high taxes by withdrawing from the wrong accounts.
+
+### Top 5% Percentile: Building an Income Ecosystem [00:00:00]
+
+Net worth of 3 million dollars or higher with annual income of 200,000 dollars or more. The fundamental shift here is developing multiple income streams (average of 7): Social Security, pensions, IRA distributions, rental income, dividend income, interest income, and consulting work. With multiple income sources, no single stream controls their tax bracket, providing strategic flexibility. Notably, 79% are self-made rather than inherited wealth.
+
+### Top 1% Percentile: Tax Arbitrage and Maximum Optionality [00:00:00]
+
+Requires minimum net worth of 4 million dollars with annual income of 300,000-500,000 dollars or more. These are business owners who sold companies, real estate investors, and executives with deferred compensation packages. Wealth is highly diversified: 20% primary residence, 30% retirement accounts, 50% taxable investments and business interests. They operate in tax arbitrage mode with complete control: choosing Social Security timing, withdrawal sequencing, and tax brackets annually.
+
+### The 60/40 Liquidity Rule [00:00:00]
+
+Top retirees maintain at least 40% of wealth in liquid or near-liquid assets outside the primary residence and retirement accounts. For example, with 2 million dollars net worth, 800,000 dollars should be accessible. This provides flexibility to capitalize on market opportunities, weather volatility without forced selling, and control tax brackets year-to-year by choosing which accounts to tap.
+
+### The Income Pyramid Strategy [00:00:00]
+
+Wealthy retirees structure income in three distinct layers. Layer 1: guaranteed income (Social Security, pensions, annuities) covering baseline needs. Layer 2: strategic portfolio withdrawals for lifestyle spending. Layer 3: optional income streams (rental properties, dividends, consulting) for discretionary spending and legacy goals. Most retirees only build Layer 1 and attempt to cover everything from it.
+
+### The Reverse Tax Strategy: Proactive Control [00:00:00]
+
+The zero-cost strategy that saves hundreds of thousands involves proactive income management. In the 60s before RMDs, strategically fill lower federal brackets (10%, 12%) by choosing which accounts to withdraw from. In the 70s, prior strategic withdrawals reduce RMD amounts, preventing bracket creep. Decisions include whether to take traditional IRA distributions, live off taxable gains (taxed at 0%, 15%, or 20%), or delay Social Security to reduce AGI for ACA or Medicare subsidy purposes.
 
 ## Transcript
 

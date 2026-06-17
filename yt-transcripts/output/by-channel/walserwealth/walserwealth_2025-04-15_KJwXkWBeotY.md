@@ -45,27 +45,48 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser reiterates her 30% equity market pullback forecast from September 2024, attributing weakness to excess currency printing since 2020, real estate refinancing pressure, and a macroeconomic shift eastward. She discusses gold as a stability asset, Basel 3 implementation, and AI investment opportunities amid competition from China."
 topics: []
-topics_proposed: []
+topics_proposed: ["market-forecast", "gold-investing", "inflation", "currency-policy", "artificial-intelligence"]
 entities:
-  people: []
+  people:
+    - name: "Rebecca Walser"
+      role: "wealth manager"
+    - name: "Nicole Petalides"
+      role: "market commentator"
+    - name: "Alan Greenspan"
+      role: "former Fed chairman"
   companies: []
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["gold", "silver"]
+  concepts: ["30% pullback", "inflation", "currency printing", "geopolitical shift", "gold as hedge", "Basel 3", "AI investment", "US dollar dominance", "real estate refinancing"]
+content_type: "opinion"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Approximately 20 trillion US dollars equivalent was printed globally between 2020 and 2023"
+    timestamp: "00:00:57"
+    confidence: "medium"
+    flagged: true
+  - claim: "US dollar is now 56% of forex reserves and dropping at a speed not seen since 1944 Bretton Woods"
+    timestamp: "00:03:54"
+    confidence: "medium"
+    flagged: true
+  - claim: "Basel 3 moves gold from tier three to tier one asset on central bank balance sheets"
+    timestamp: "00:03:08"
+    confidence: "high"
+    flagged: false
+  - claim: "Walser made her 30% pullback call in September 2024"
+    timestamp: "00:00:04"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +96,37 @@ notes: ""
 **Published:** 2025-04-15
 **URL:** https://youtube.com/watch?v=KJwXkWBeotY
 **Duration:** 5:23
+
+## Summary
+
+Rebecca Walser discusses her September 2024 call for a 30% equity market pullback on Schwab Network. She frames 2025 weakness as driven by macro factors including excessive currency printing, shifting geopolitical alignments, and real estate refinancing challenges. She advocates for gold as a stability asset and discusses AI investment potential while warning about Chinese competition undermining US AI monetization.
+
+## Key Takeaways
+
+- 30% pullback forecast remains unchanged; corrections seen so far represent early stages of larger decline
+- Approximately 20 trillion equivalent dollars printed globally since 2020 must be absorbed without hyperinflation, creating persistent headwinds
+- US dollar forex reserves declining from historical highs at an unprecedented pace, indicating structural realignment away from dollar
+- Gold provides portfolio stability during inflationary periods and benefits from Basel 3 implementation elevating it on central bank balance sheets
+- AI has longest runway in tech history when combined with quantum computing, cloud, data centers, robotics, but monetization challenged by Chinese competition
+- DeepSeek and other Chinese AI competitors undercutting American producers, creating uncertainty around AI profit potential
+
+## Detailed Notes
+
+### Macroeconomic Drivers of Market Weakness [00:00:57]
+
+Walser's 30% pullback call was made pre-election in September 2024. She anticipated that Trump 2.0 optimism would carry through early 2025, but policy implementation would trigger volatility. Root causes include currency printing, inflation absorption, real estate refinancing needs, and macroeconomic currency realignment from west to east.
+
+### Gold as Portfolio Hedge [00:02:34]
+
+Walser recommends gold and silver as hard asset classes for portfolio stability during inflationary environments. Basel 3 implementation elevates gold from tier three to tier one asset classification on central bank balance sheets, enhancing its use as reserve collateral and supporting valuations.
+
+### US Dollar Reserve Status Decline [00:03:54]
+
+Dollar comprises 56% of forex reserves and is declining at fastest pace since 1944 Bretton Woods agreement. This structural shift reflects broader geopolitical realignment away from Western dominance.
+
+### AI Investment Landscape [00:04:42]
+
+AI combined with quantum computing, cloud computing, data centers, robotics, and new algorithms offers longest runway of any technology revolution, but faces monetization challenges. Chinese competition via DeepSeek and IP theft threatens American AI producer profitability.
 
 ## Transcript
 

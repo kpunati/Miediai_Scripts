@@ -37,27 +37,48 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Explores loss aversion as a psychological barrier to retirement. Shows that 50% portfolio declines are rare (2.6% historically), happen slowly (12+ months), and can be managed through portfolio guardrails rather than avoiding retirement. Challenges media and financial industry incentives to promote fear."
 topics: []
-topics_proposed: []
+topics_proposed: ["loss-aversion", "retirement-psychology", "portfolio-risk", "market-corrections", "guardrails", "withdrawal-rates"]
 entities:
-  people: []
+  people:
+    - name: "Daniel Kahneman"
+      role: "Psychologist"
+    - name: "Ben Carlson"
+      role: "Financial analyst"
+    - name: "Eric Amzalag"
+      role: "CFP, financial planner"
   companies: []
-  tickers: []
+  tickers: ["S&P 500"]
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Income Labs"]
+  concepts: ["loss-aversion", "prospect-theory", "portfolio-guardrails", "asset-allocation", "market-corrections", "withdrawal-strategies"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "50% market declines have occurred only 4 times in 153 years, roughly 2.61% frequency"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Average time from market peak to trough is 12 months; dot-com crash took 31 months; 2007 crisis took 17 months"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Loss aversion research shows losing $10 causes twice the pain of gaining $10"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "A portfolio with 60% market participation would need an 83% market decline to drop 50% in value"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -67,6 +88,36 @@ notes: ""
 **Published:** 2025-01-04
 **URL:** https://youtube.com/watch?v=jR5cynx2_aw
 **Duration:** 12:07
+
+## Summary
+
+Eric Amzalag examines how loss aversion, a psychological principle where losses feel twice as painful as equivalent gains, causes retirees to delay or avoid retirement unnecessarily. He demonstrates using historical data that catastrophic market events are rare and slow to unfold. By understanding portfolio guardrails and proper portfolio construction, retirees can manage market risk psychologically and financially rather than simply avoiding retirement out of fear.
+
+## Key Takeaways
+
+- Loss aversion bias disproportionately influences retirement decisions, amplified by media fear-based content and financial industry incentives to keep people working longer.
+- Historical data shows 50% market declines occur in only ~2.6% of years with an average 12-month timeline from peak to trough, making extreme scenarios less likely than psychological intuition suggests.
+- Modern portfolio guardrails provide actionable spending adjustment rules tied to portfolio declines, reducing anxiety by replacing binary retire/don't-retire decisions with contingency plans.
+- Proper portfolio construction using beta and market correlation metrics helps retirees participate in desired market upside while limiting downside exposure to levels they can psychologically tolerate.
+- Media narratives, government incentives, and financial services business models all inadvertently collude to perpetuate fear-based retirement messaging despite evidence supporting earlier retirement viability.
+
+## Detailed Notes
+
+### Loss Aversion Psychology and Industry Incentives [00:00:00]
+
+Loss aversion, popularized by psychologist Daniel Kahneman, describes how the pain of losing money is roughly twice as powerful as the pleasure of gaining equivalent amounts. This psychological principle is weaponized by financial services industry, media, and government through misaligned incentive structures. The media profits from fear-based headlines, the financial industry keeps assets under management growing by discouraging withdrawals, and the government benefits from prolonged work (more taxes, delayed Social Security/Medicare claims).
+
+### Historical Market Decline Frequency and Duration [00:00:00]
+
+Analysis by financial blogger Ben Carlson covering 153 years (1871-2024) shows only four 50%+ market declines, placing frequency at 2.61% per year. Average peak-to-trough decline takes 12 months. Examples: dot-com crash (31 months), 2007 financial crisis (17 months), COVID-19 crash (1 month/34% decline). This data contextualizes that severe multi-year declines are rare; most occur gradually, not overnight as feared.
+
+### Portfolio Guardrails as Risk Management Framework [00:00:00]
+
+Modern guardrails replace binary retirement decisions with dynamic spending rules. Example: $2M portfolio with 80% confidence target triggers a 5% spending cut only when portfolio declines 35%. This allows retirees to distinguish between normal volatility and actionable triggers, reducing psychological shock and providing a contingency plan rather than prohibition on retirement.
+
+### Portfolio Construction and Market Participation [00:00:00]
+
+Proper portfolio construction uses metrics like beta, variance, and market correlation to calibrate participation in market gains/losses. A 60% market participation portfolio would require an 83% market decline to experience a 50% portfolio decline, making the worst-case scenario far less likely than psychological intuition suggests, given historical frequency of 83% declines is virtually zero.
 
 ## Transcript
 

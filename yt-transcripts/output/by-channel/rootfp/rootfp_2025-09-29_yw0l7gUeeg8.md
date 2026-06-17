@@ -44,24 +44,43 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Personal narrative about throwing the first pitch for the San Diego Padres, connecting a childhood dream to adult life planning. Emphasizes that effective financial planning optimizes not just money but time, energy, and talents to enable memorable experiences and purposeful living. Argues that financial planning is meaningless unless aligned with intentional life experiences and relationships."
 topics: []
-topics_proposed: []
+topics_proposed: ["life-planning", "financial-purpose", "intentional-living", "memorable-experiences", "financial-wellness"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "CFP, financial advisor"
+    - name: "Ashley"
+      role: "wife"
+    - name: "Josh"
+      role: "VP of brand, Root Financial"
+  companies:
+    - name: "Root Financial Partners, LLC"
+      ticker: null
+    - name: "San Diego Padres"
+      ticker: null
+    - name: "Baltimore Orioles"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["life purpose", "intentional living", "experience planning", "financial-wellness", "meaningful retirement", "legacy of experiences", "living on purpose"]
+content_type: "opinion"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "A sign of a good financial plan is a life well-lived, achieved by aligning time, money, energy, and talents to support intentional life experiences."
+    timestamp: "00:01:39"
+    confidence: "medium"
+    flagged: false
+  - claim: "Financial planning is not merely about saving money on taxes and optimizing investments; it is about optimizing what life can look like overall."
+    timestamp: "00:02:42"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: []
@@ -74,6 +93,42 @@ notes: ""
 **Published:** 2025-09-29
 **URL:** https://youtube.com/watch?v=yw0l7gUeeg8
 **Duration:** 7:57
+
+## Summary
+
+James Conole recounts fulfilling a childhood dream—throwing the first pitch for the San Diego Padres—and connects it to the deeper purpose of financial planning. He reflects on abandoning his childhood goal of playing for the Padres at age 14 after failing to make his high school freshman team. Years later, as a successful financial planner, he achieved a modified version of that dream by throwing the first pitch, attended by his wife, parents, in-laws, and close friends. The experience underscores that financial planning's true value lies not in optimizing taxes or investment returns, but in enabling a life of intention, memorable shared experiences, and purposeful relationships.
+
+## Key Takeaways
+
+- A childhood dream (playing for the Padres) was redefined into a achievable adult goal (throwing the first pitch) with equal emotional significance.
+- The value of financial planning is not accumulation but enablement: creating the means to experience meaningful moments with loved ones.
+- A good financial plan aligns time, money, energy, and talents to support a life of purpose and memorable experiences, not just retirement account balances.
+- Financial planning done well supports 'living fully'—experiences that will be remembered decades later and shared with people who matter.
+- Shifting from 'default mode' (automatic financial steps) to 'intentional mode' (purposeful life experiences) is the difference between financial success and fulfillment.
+- Memorable experiences—throwing a first pitch surrounded by family and lifelong friends—have value that cannot be captured in financial metrics but drive retirement satisfaction.
+- The broader principle: financial wellness is a key not to having more, but to living fully and freely, and giving back meaningfully to others.
+
+## Detailed Notes
+
+### Childhood Dream and Adult Redefinition [00:00:00]
+
+As a child, James dreamed of playing second base for the San Diego Padres. By age 14, that dream was shattered when he did not make his high school freshman baseball team. Rather than abandoning the connection to the Padres altogether, he remained a passionate fan, watching 140+ games per season throughout his teenage and adult years. Years later, as a successful CFP, he had the opportunity to throw the first pitch for the Padres, fulfilling a modified version of his childhood dream. The experience—standing on the mound, throwing to home plate, surrounded by family and friends—held the same emotional weight and meaning as the original goal might have.
+
+### Financial Planning as Enablement of Experience [00:01:39]
+
+James reflects that the purpose of financial planning is not merely to optimize savings or minimize taxes, but to enable a 'life well-lived.' This means aligning financial resources with time, energy, and talents to create memorable experiences and meaningful relationships. The first-pitch experience illustrates this: financial success allowed him to attend the game, bring 25 family members and close friends, share the moment in person, and create a memory that will endure for decades. Without intentional financial planning aligned with life goals, such an experience would not have been possible.
+
+### Shifting from Default to Intentional Living [00:02:42]
+
+James emphasizes the distinction between 'living by default' (automatic financial moves: max out 401(k), optimize Social Security, minimize taxes) and 'living on purpose' (intentionally designing a life around what matters). He argues that financial planning divorced from life intention is hollow. The Padres experience represents intentional living: rather than allowing career and retirement planning to consume all energy, he consciously created an opportunity to reconnect with a lifelong passion and share it with loved ones. This required not just financial resources but also deliberate choice about how to deploy time and energy.
+
+### The Value of Shared Experience Over Accumulation [00:04:38]
+
+The culmination of the first-pitch event was not a financial transaction but time with family and friends: 25 people gathered to watch the game, reconnect, and celebrate. James notes that high school and college acquaintances reached out across years of silence to say they saw him on the field. The lasting value is relational and emotional—memories and connection—not the 'cost' of the experience. This exemplifies why financial planning matters: it creates the freedom and resources to be present, generous, and intentional with people and moments that define a life.
+
+### Root Financial's Manifesto: Living Fully, Giving More, Growing [00:06:26]
+
+The video closes with Root Financial's organizational manifesto: financial wellness is a key to 'having more' not in a materialistic sense, but in possibilities. More doors open, paths clear, and the future you've imagined becomes livable. Financial planning exists to enable people to 'live more, give more, grow'—the kinds of growth (in relationships, purpose, contribution) that truly matter. This reframes the entire enterprise: finance is a means, not an end. The 'moors that truly matter' are not investment returns but life experiences, relationships, and the freedom to act with intention.
 
 ## Transcript
 

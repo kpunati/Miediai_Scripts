@@ -45,27 +45,48 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Overview of four account types parents can use for investing on behalf of children: 529 college savings plans, custodial brokerage accounts, Roth IRAs for minors, and Trump accounts. Explains contribution limits, tax treatment, and timing of launch for each option."
 topics: []
-topics_proposed: []
+topics_proposed: ["529-plan", "roth-ira", "custodial-account", "trump-account", "education-savings", "parental-investing"]
 entities:
   people: []
-  companies: []
+  companies:
+    - name: "Ritholtz Wealth"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["529 plan", "Roth IRA", "Custodial brokerage account", "Trump account"]
+  concepts: ["tax-free growth", "educational savings", "earned income", "financial aid", "contribution limits"]
+content_type: "educational"
+audience_level: "beginner"
+key_claims: 
+  - claim: "In 2026, can use up to $20,000 a year from 529 plan for K-12 tuition"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Unused 529 funds up to $35,000 can roll into a Roth IRA"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Trump accounts seed with $1,000 for children born between 2025 and 2028"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Can add up to $5,000 a year to Trump accounts on top of government seed"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Trump accounts launch July 4th, 2026"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +96,36 @@ notes: ""
 **Published:** 2026-03-04
 **URL:** https://youtube.com/watch?v=O8kHsdz_e3Y
 **Duration:** 1:31
+
+## Summary
+
+A short guide for parents on four main investment accounts for children. The video explains the 529 plan (college-focused with new K-12 rollover rules), custodial brokerage accounts (unlimited flexibility with financial aid implications), Roth IRAs (tax-free but requiring earned income), and Trump accounts (a new government-seeded savings vehicle launching in 2026). The host emphasizes the importance of starting early and potentially combining multiple account types.
+
+## Key Takeaways
+
+- Starting early is more important than which specific account type you choose for investing in your children.
+- 529 plans offer tax-free growth and withdrawals for education, with new 2026 rules allowing K-12 tuition and IRA rollover provisions.
+- Custodial accounts have no contribution limits but affect financial aid eligibility and become the child's property at age 18.
+- Roth IRAs for minors require earned income but provide tax-free growth forever.
+- Trump accounts, launching July 4, 2026, provide $1,000 government seed funding for children born 2025-2028, plus up to $5,000 annual contributions.
+
+## Detailed Notes
+
+### 529 Plans for Education [00:00:00]
+
+The 529 plan is positioned as the primary college savings vehicle with tax-free growth and withdrawals. As of 2026, owners can use up to $20,000 annually for K-12 tuition. A new feature allows unused funds up to $35,000 to roll into a child's Roth IRA, eliminating the issue of trapped funds.
+
+### Custodial Brokerage Accounts [00:00:00]
+
+These accounts offer maximum flexibility with no contribution limits or spending restrictions, allowing investment in education, vehicles, businesses, or other goals. However, they count against financial aid calculations and automatically transfer to the child at age 18.
+
+### Roth IRAs for Children [00:00:00]
+
+Children can open Roth IRAs to receive tax-free growth forever, but they must have earned income from work such as lawn mowing or babysitting. This requires careful documentation and working with a CPA, which may create administrative burden.
+
+### Trump Accounts (New 2025) [00:00:00]
+
+Trump accounts are a new federal savings vehicle launched in 2025 for children born between 2025 and 2028. The government seeds $1,000 automatically, and parents can contribute up to $5,000 annually. Accounts launch July 4, 2026, with form 4547 required to claim.
 
 ## Transcript
 

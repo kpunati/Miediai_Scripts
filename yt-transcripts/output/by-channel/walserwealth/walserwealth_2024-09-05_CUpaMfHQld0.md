@@ -45,27 +45,62 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser discusses inflation, mortgage affordability, and generational homebuying challenges on Newsmax. She criticizes current administration policies that contributed to inflation and rising mortgage rates, highlighting record numbers of millennials living with parents and concerns about birth rates and home ownership accessibility."
 topics: []
-topics_proposed: []
+topics_proposed: ["mortgage-rates", "housing-affordability", "inflation", "federal-reserve", "election-politics"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Rebecca Walser"
+      role: "President, Walser Wealth Management"
+    - name: "Dan Geltrude"
+      role: "Professor, Montclair State University"
+    - name: "Jerome Powell"
+      role: "Federal Reserve Chair"
+    - name: "Kamala Harris"
+      role: "Vice President"
+    - name: "Donald Trump"
+      role: "Former President"
+  companies:
+    - name: "Walser Wealth Management"
+      ticker: null
+    - name: "Newsmax"
+      ticker: null
+    - name: "Montclair State University"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["mortgage rates", "inflation", "home affordability", "Fed rate cuts", "demographic trends", "election politics"]
+content_type: "opinion"
+audience_level: "beginner"
+key_claims: 
+  - claim: "Current inflation at 2.9%, up from 1.4% when Trump left office"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Mortgage rates at 6.35%, up from less than 3% under Trump administration"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Highest number of millennials living at home with parents in U.S. history"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "56% of Americans prefer Trump to Harris on fixing economy"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "61% trust Trump more on inflation"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +110,42 @@ notes: ""
 **Published:** 2024-09-05
 **URL:** https://youtube.com/watch?v=CUpaMfHQld0
 **Duration:** 6:19
+
+## Summary
+
+Rebecca Walser joins Newsmax to critique the Biden-Harris administration's economic record, particularly on inflation and housing affordability. She emphasizes that current inflation at 2.9% remains elevated compared to pre-administration levels, while mortgage rates have nearly doubled from below 3% to 6.35%. Walser highlights an unprecedented demographic challenge: record numbers of millennials living with parents. She questions the credibility of politicians who blame predecessors while holding current office and discusses concerns about Fed rate cuts being timed for political effect before the election.
+
+## Key Takeaways
+
+- Inflation at 2.9% is double pre-administration levels and twice the Fed's 2% target
+- Mortgage rates doubled from sub-3% to 6.35%, pricing out young homebuyers
+- Record millennials living with parents signals broader social and economic dysfunction
+- Harris's blame of Trump administration lacks accountability for current administration's policies
+- Voter preference for Trump (56% on economy, 61% on inflation) reflects documented economic records, not rhetoric
+- Fed rate cuts appear politically timed ahead of election rather than purely data-driven
+- Low birth rates and home affordability crisis threaten long-term societal and economic health
+
+## Detailed Notes
+
+### Inflation and Administration Accountability [00:00:00]
+
+Walser criticizes Harris for blaming Trump while serving as sitting Vice President. She notes inflation rose from 1.4% under Trump to 2.9%, still twice the Fed's target. She questions voting for someone who disavows responsibility while seeking higher office, arguing the current administration had direct influence on inflation through spending bills.
+
+### Mortgage Rate Crisis [00:00:00]
+
+Mortgage rates stand at 6.35%, more than double the sub-3% rates under Trump. Walser notes Fed maintained record high rates all year due to administration failures to control inflation, directly pricing young people out of homeownership.
+
+### Millennial Housing Crisis [00:00:00]
+
+Walser highlights an unprecedented demographic crisis: the highest percentage of millennials ever living at home with parents. She connects this to broader concerns about birth rates, population replacement, and long-term economic growth. The inability of young adults to achieve homeownership undermines family formation.
+
+### Electoral Preferences Based on Records [00:00:00]
+
+Polling shows 56% of Americans prefer Trump to Harris on economic management and 61% trust him more on inflation. Geltrude emphasizes voters can compare actual records rather than campaign promises since both candidates have prior executive experience.
+
+### Fed Rate Cut Timing and Politics [00:00:00]
+
+Walser and Geltrude discuss concerns that Fed rate cuts scheduled for next month appear politically timed to benefit Harris before the election. While cuts may not directly help the economy in time, they could boost stock market performance, allowing Harris to claim credit through 401k gains, creating appearance of improvement despite market already pricing in cuts.
 
 ## Transcript
 

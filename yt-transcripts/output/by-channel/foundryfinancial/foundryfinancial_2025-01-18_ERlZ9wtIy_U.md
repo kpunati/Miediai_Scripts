@@ -64,24 +64,39 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Kevin Lum provides seven critical disaster preparation steps: reviewing homeowners and all insurance policies, storing digital copies of important documents, keeping household inventories with photos/receipts, maintaining emergency contact lists, assembling disaster kits, creating family evacuation plans, and maintaining emergency cash savings. Video motivated by California wildfire disasters impacting his community."
 topics: []
-topics_proposed: []
+topics_proposed: ["disaster-preparedness", "emergency-planning", "home-insurance", "emergency-funds", "family-safety"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Kevin Lum"
+      role: "CFP, host"
+  companies:
+    - name: "Foundry Financial"
+      ticker: null
+    - name: "Right Capital"
+      ticker: null
+    - name: "Google Drive"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Right Capital vault", "Google Drive"]
+  concepts: ["homeowners insurance", "replacement cost", "insurance coverage limitations", "digital vault", "emergency kit", "go bag", "evacuation plan", "emergency contact list"]
+content_type: "educational"
+audience_level: "beginner"
+key_claims: 
+  - claim: "Many people impacted by the LA fire are realizing they are uninsured or underinsured because replacement costs have skyrocketed with inflation"
+    timestamp: "00:02:06"
+    confidence: "medium"
+    flagged: false
+  - claim: "Most homeowners insurance policies do not cover earthquakes and flooding, and some do not cover fire damage"
+    timestamp: "00:02:06"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: ["unpunctuated_captions"]
@@ -94,6 +109,50 @@ notes: ""
 **Published:** 2025-01-18
 **URL:** https://youtube.com/watch?v=ERlZ9wtIy_U
 **Duration:** 12:19
+
+## Summary
+
+Motivated by the California wildfire crisis, Kevin Lum outlines seven essential steps for disaster preparation. These include reviewing all insurance policies to ensure adequate and understood coverage, storing digital copies of important documents securely, maintaining household inventories with photos and receipts, keeping emergency contact numbers accessible, preparing disaster kits with supplies, creating family evacuation plans, and maintaining emergency cash reserves.
+
+## Key Takeaways
+
+- Review all insurance policies regularly to ensure adequate coverage (homeowners, renters, auto, life, health) and understand what is and isn't covered, as many are underinsured due to rising replacement costs.
+- Store digital copies of important documents (insurance policies, identification, medical records, passports) in secure digital vaults rather than physical safes, which can be destroyed by extreme heat.
+- Create a detailed inventory of household belongings with serial numbers, photos, and receipts, and video your entire home for insurance claim purposes.
+- Keep a list of emergency contact numbers since smartphones can be lost or destroyed, including doctor, insurance agent, financial advisor, and out-of-area family.
+- Assemble a disaster kit with water, non-perishable food, first aid supplies, flashlights, batteries, radio, and whistle, storing it in an accessible location.
+- Develop a family evacuation plan identifying escape routes, backup routes if primary routes are blocked, a designated meeting place if family members are separated, and how to account for pets.
+- Maintain emergency cash savings beyond the typical 3-6 months emergency fund to cover unexpected expenses if credit card systems are unavailable during disasters.
+
+## Detailed Notes
+
+### Review Insurance Policies [00:01:03]
+
+Kevin emphasizes reviewing all insurance policies—homeowners, renters, auto, life, and health—to understand what is covered and what limitations exist. Many people are underinsured because replacement costs have skyrocketed due to inflation. Common surprises include policies that don't cover fire damage, earthquakes, or flooding. Having proper insurance protects finances and reduces stress/anxiety caused by disasters.
+
+### Store Important Documents Digitally [00:03:09]
+
+Store digital copies of critical documents (insurance policies, identification, passport, medical records) in secure digital vaults. A LA Times article highlighted someone finding their safe in fire rubble only to discover flames still burning inside and everything destroyed. Foundry Financial uses Right Capital's vault feature and Google Drive to store client documents. Personal approach: digitizing family photos and children's artwork to preserve memories if disaster strikes.
+
+### Create a Household Inventory [00:04:11]
+
+Keep a detailed inventory with serial numbers, photos, and receipts for belongings, especially expensive items. Kevin recommends videoing your entire home with a smartphone and storing the video in a secure digital vault. This makes insurance claims much easier and helps remember what was lost in the fog of disaster. Having documentation speeds reimbursement and ensures nothing is forgotten.
+
+### Maintain Emergency Contact Information [00:05:14]
+
+Save emergency phone numbers (emergency services, doctor, insurance agent, financial advisor, out-of-area friends/family) in a backup location. Most information is stored on phones, but phones can be destroyed in disasters. Having a written or backed-up list of contacts ensures you can reach people when you need them most.
+
+### Assemble a Disaster Kit [00:06:15]
+
+Create a disaster kit for home and possibly a go bag for the car with non-perishable food, water for three days, first aid kits, flashlights, batteries, radio, and whistle. Place it in a safe, accessible location for quick grabbing. Different disasters require different supplies, so prioritize what makes sense for potential hazards in your area.
+
+### Develop Family Evacuation Plan [00:08:20]
+
+Plan evacuation routes and backup routes if the primary one is blocked. Identify a meeting place if family members are separated (one spouse at work, another at home, children at school). Discuss what to do and practice the plan together as a family. Include extended family nearby and plan for pets to avoid tragedies from not knowing what to do in an emergency.
+
+### Emergency Cash Savings [00:09:22]
+
+Maintain emergency cash reserves beyond the typical 3-6 months of living expenses. Have some hard cash accessible in case credit card networks go down during a disaster. Kevin shares a personal story from Hurricane Katrina research where he ran out of gas and found credit systems down; a construction worker helped him by paying with cash and advised keeping cash for disasters.
 
 ## Transcript
 

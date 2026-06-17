@@ -37,27 +37,48 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Critically examines how financial planning software misleads retirees into unnecessary Roth conversions by assuming unrealistic longevity assumptions. Demonstrates that most retirees do not live long enough for conversions to provide benefits, and introduces a 'micro Roth conversion' strategy that bases conversions on actual spending capacity each year rather than software projections."
 topics: []
-topics_proposed: []
+topics_proposed: ["roth-conversion-strategy", "tax-planning", "retirement-withdrawals", "required-minimum-distributions", "financial-planning-software"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Eric Amzalag"
+      role: "Certified Financial Planner"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
+    - name: "Vanguard"
+      ticker: "VGC"
+  tickers: ["VGC"]
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Income Labs financial planning software", "Summit system"]
+  concepts: ["Roth conversion strategy", "required minimum distributions", "life expectancy assumptions", "tax bracket management", "micro conversions", "marginal tax rate", "pre-tax account management", "spousal insurance", "longevity insurance"]
+content_type: "analysis"
+audience_level: "advanced"
+key_claims: 
+  - claim: "At age 65, only 13% of women and 7% of men live to roughly age 95"
+    timestamp: "00:00:51"
+    confidence: "high"
+    flagged: true
+  - claim: "More than 85% of people will never live to the age 95 expectation of their software-based financial plan"
+    timestamp: "00:00:51"
+    confidence: "high"
+    flagged: false
+  - claim: "A Vanguard July 2025 paper found that Roth conversions only strongly appeal if you have a longer investment horizon"
+    timestamp: "00:01:43"
+    confidence: "high"
+    flagged: true
+  - claim: "Required minimum distribution rates start at less than 4% at age 75 and don't pass 8% until roughly age 90"
+    timestamp: "00:04:48"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -67,6 +88,40 @@ notes: ""
 **Published:** 2025-09-13
 **URL:** https://youtube.com/watch?v=g9rnGWDVD3U
 **Duration:** 12:22
+
+## Summary
+
+Eric Amselog exposes a critical flaw in financial planning software: default longevity assumptions (living to age 95 or 96) are unrealistic for most retirees, causing software to recommend expensive Roth conversions that rarely pay off. Using Income Labs software, he demonstrates that when life expectancy assumptions are reduced by just 5 years, the recommended Roth conversion benefits drop by 60%, and when reduced further, conversions cease to be beneficial. He references a Vanguard July 2025 paper confirming that Roth conversions only provide strong benefits with multi-decade investment horizons. The solution is a 'micro Roth conversion' strategy that determines conversion amounts based on actual annual spending capacity, marginal tax rates, and specific life circumstances rather than software-driven assumptions.
+
+## Key Takeaways
+
+- Financial planning tools assume 95-96 year lifespans, but research shows only 13% of 65-year-old women and 7% of men live to approximately age 95, making Roth conversion recommendations unrealistic for 85% of retirees.
+- Roth conversion benefits decline dramatically with shorter life expectancies: a 5-year reduction in assumed lifespan cuts estimated tax savings by 60% and net legacy benefits by even more.
+- Required minimum distributions are small initially (under 4% at age 75, not exceeding 8% until age 90), making the feared RMD-driven tax bracket creep unlikely until very late in retirement when survival rates are low.
+- For a $2.4M asset couple with $1.85M in pre-tax accounts, reaching the next tax bracket (24%) requires an additional $70,000 in RMDs beyond current withdrawals, which doesn't occur until age 90.
+- Micro Roth conversion strategy uses annual tax proformas to identify actual marginal tax rates and unused tax capacity, converting only the amount that fits within current year spending needs and guardrails.
+
+## Detailed Notes
+
+### Software Longevity Bias and Conversion Overreach [00:00:51]
+
+Financial planning software defaults to 95-96 year life expectancies, but only 13% of 65-year-old women and 7% of men actually live that long. This causes software to recommend Roth conversions that require 30+ years to break even, benefits most retirees will never realize. Vanguard's July 2025 paper confirmed that longer investment horizons strengthen the appeal of conversions, implying they weaken significantly for shorter horizons.
+
+### Income Labs Scenario Analysis: Life Expectancy Impact [00:02:46]
+
+For a couple with $2.4M assets ($1.85M pre-tax), Income Labs recommended conversions to the first IRMA bracket with 7.3% average tax savings, $1.1M lifetime tax reduction, and $850K net legacy increase. Reducing each spouse's life expectancy by 5 years cut these benefits by 60%. A further 5-year reduction showed no meaningful conversion benefit, with software recommending conversions only in the rare 0% bracket scenario.
+
+### RMD Reality Check: When Do They Actually Cause Bracket Creep [00:04:48]
+
+RMDs start below 4% at age 75 and don't exceed 8% until age 90, making bracket creep unlikely until very late retirement. For the example couple with $1.85M pre-tax balance, an $80K RMD at age 75 increases income by $27K but does not push them into a higher bracket. Reaching the 24% bracket requires an additional $70K in RMDs, which doesn't occur until age 90 when survival rates are in single digits.
+
+### Micro Conversion Strategy: Capacity-Based Rather Than Software-Based [00:07:13]
+
+Instead of relying on software, micro conversions use annual tax proformas to identify actual marginal tax rates and remaining tax capacity. The couple with $127K spending guardrail and $127K desired spending has exactly zero capacity; reducing desired spending to $101K creates $26K capacity that can fund conversions. At 22% marginal rate, $26K can fund $92-118K in Roth conversions depending on tax payment source.
+
+### Exception Cases and Spousal Insurance [00:10:27]
+
+For married couples with large age gaps, more aggressive Roth conversions can make sense because the surviving spouse might face single filer tax brackets and higher RMDs. However, this exception does not apply to the typical couples that software targets with blanket conversion recommendations.
 
 ## Transcript
 

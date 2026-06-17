@@ -45,27 +45,43 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Four-step framework for disciplined investors during market downturns: slow down and gain perspective, buy more through contributions or rebalancing, capitalize on tax opportunities through harvesting or conversions, and avoid emotional mistakes like panic selling."
 topics: []
-topics_proposed: []
+topics_proposed: ["market-crash-strategy", "tax-loss-harvesting", "roth-conversion", "rebalancing", "behavioral-investing", "portfolio-management"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Warren Buffett"
+      role: "investor"
+    - name: "Templeton"
+  companies:
+    - name: "Ritholtz Wealth"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["401k", "Roth IRA", "IRA"]
+  concepts: ["market correction", "tax loss harvesting", "Roth conversion", "rebalancing", "panic selling", "emotional investing", "long-term investing"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Stock market drop of less than 5% observed when video discusses market behavior"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Roth conversion during market downturns involves converting IRA at lower values to pay less tax"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Buffett and Templeton mastered doing nothing or buying more during market panics"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +91,36 @@ notes: ""
 **Published:** 2026-03-19
 **URL:** https://youtube.com/watch?v=JHIqq_jQsYI
 **Duration:** 2:05
+
+## Summary
+
+A practical guide for investors on how to respond to market downturns. The video emphasizes that disciplined investors have a plan before crashes occur and execute specific strategies during volatility rather than reacting emotionally. Key strategies include rebalancing, tax loss harvesting, Roth conversions during market weakness, and maintaining a long-term perspective. The presenter contrasts the permanent losses from panic selling with the wealth-building of investors who stay disciplined.
+
+## Key Takeaways
+
+- Disciplined investors already have a plan that accounts for market corrections, so temporary declines should not trigger major portfolio changes.
+- When stocks drop, buying more through contributions or rebalancing converts market weakness into accumulation opportunity.
+- Tax loss harvesting and Roth conversions during downturns provide immediate tax benefits that enhance returns.
+- Panic selling during temporary declines converts short-term volatility into permanent losses.
+- Successful wealth builders like Buffett and Templeton gained their edge through patience and avoiding emotional decisions during panics.
+
+## Detailed Notes
+
+### Step 1: Slow Down and Gain Perspective [00:00:00]
+
+Market declines feel permanent while happening, but history shows recovery follows every decline. Wars, oil crises, geopolitical chaos, and innovation (internet, railroads) have all triggered uncertainty and selling, but markets always recovered. A sound plan should already account for normal corrections.
+
+### Step 2: Play Offense Through Buying [00:00:00]
+
+When stocks drop, disciplined investors purchase more through additional contributions or rebalancing (selling bonds to buy stocks). Automatic 401k contributions effectively implement this buy-more strategy every two weeks.
+
+### Step 3: Tax Opportunities [00:00:00]
+
+Tax loss harvesting involves selling downturned positions and buying similar ones, offsetting gains to reduce tax bills. Roth conversions during market weakness allow converting IRA assets at lower values, paying less tax upfront while allowing tax-free growth upon recovery.
+
+### Step 4: Avoid Emotional Mistakes [00:00:00]
+
+Panic selling, obsessing over media coverage, and abandoning long-term plans are the big mistakes. Temporary market declines only become permanent losses when investors sell in panic. Patient investors who either hold or buy more build real wealth.
 
 ## Transcript
 

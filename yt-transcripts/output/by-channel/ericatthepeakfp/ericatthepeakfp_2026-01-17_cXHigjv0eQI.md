@@ -35,24 +35,39 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Eric Amzalag explains the 'survive versus thrive gap' in retirement planning, where Monte Carlo probability-of-success tools measure only whether retirees won't run out of money, not whether they maintain their desired lifestyle. Research shows 2 out of 3 retirees underspend throughout retirement and die with double their starting wealth. The video advocates for dynamic spending tools like guardrails that provide turn-by-turn guidance instead of static survival scores."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "monte-carlo-analysis", "withdrawal-strategies", "financial-planning-tools"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "Financial advisor, CFP"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Income Labs", "Maxify"]
+  concepts: ["probability-of-success", "dynamic spending", "guardrails strategy", "withdraw rate", "asset-under-management model"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Two out of three retirees finish retirement with more than double their starting wealth after following standard withdrawal strategies"
+    timestamp: "00:03:51"
+    confidence: "high"
+    flagged: false
+  - claim: "Wealthy retirees using traditional probability tools withdraw only 2.1% of account balances annually, compared to the 4% safe withdrawal baseline"
+    timestamp: "00:08:18"
+    confidence: "medium"
+    flagged: true
+  - claim: "Probability of success tools don't tell you the probability of maintaining your desired lifestyle, only whether you won't run out of money"
+    timestamp: "00:01:35"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: []
@@ -65,6 +80,46 @@ notes: ""
 **Published:** 2026-01-17
 **URL:** https://youtube.com/watch?v=cXHigjv0eQI
 **Duration:** 10:40
+
+## Summary
+
+Eric Amzalag identifies a critical flaw in retirement planning methodology: traditional Monte Carlo probability-of-success tools measure only survival (not running out of money) rather than thriving (maintaining lifestyle). This creates a psychological trap where retirees overly conserve spending despite having sufficient assets. Research shows most retirees die with double their starting wealth, having denied themselves experiences they could afford. The solution is dynamic spending tools like guardrails that provide specific spending ranges and adjustment rules based on portfolio performance.
+
+## Key Takeaways
+
+- Monte Carlo scores measure probability of not running out of money, not probability of maintaining desired lifestyle—a critical distinction
+- Two-thirds of retirees finish retirement with more than double their initial wealth, indicating systematic underspending
+- Financial industry incentives perpetuate the problem because conservative tools keep clients scared to spend, preventing asset drawdown and preserving advisory fees
+- Dynamic spending strategies (guardrails, Income Labs) provide real-time monitoring and specific spending ranges instead of static percentage scores
+- Choosing not to spend despite sufficient assets is like refusing exercise from fear of injury—both lead to worse outcomes than the feared risk
+- Risk-based guardrails tell you exactly how much you can spend, when to adjust, and customizable adjustment preferences for different retiree preferences
+- The survive-versus-thrive gap explains why many affluent retirees achieve poor quality of life despite adequate resources
+
+## Detailed Notes
+
+### The Survive Versus Thrive Gap [00:02:48]
+
+Monte Carlo tools measure survival probability but nothing about whether you thrive. This psychological trap feels responsible and safe but measures the wrong metric entirely. Retirees optimize for survival instead of thriving, spending conservatively for 20-30 years and dying with millions unspent.
+
+### Research on Retiree Spending Patterns [00:03:51]
+
+Two out of three retirees following standard withdrawal strategies finish with more than double their starting wealth. They underspent their entire retirement, denying themselves experiences and comfort they could afford. The gap between what they could spend and what they do spend represents lost quality of life.
+
+### Probability Tool Limitations [00:01:35]
+
+A 90% probability score doesn't tell you there's a 50% chance you'll have to cut spending in half at some point. The score hides whether you'll adjust early or late, by how much, or even if you'll realize adjustment is needed. It's a snapshot without real-time monitoring, turn-by-turn directions, or contingency plans.
+
+### Industry Incentive Structure [00:04:39]
+
+Conservative probability scores make retirees scared to spend, keeping assets high and fees flowing for advisory firms. Large AUM-based firms don't adopt dynamic spending tools because drawdowns reduce assets under management and revenue. Financial planning tool providers are also incentivized to be conservative due to liability concerns.
+
+### Solution: Dynamic Spending Tools [00:05:43]
+
+Products like Income Labs and Maxify tell you exactly how much to safely spend based on current portfolio value, when to adjust, and by how much. Risk-based guardrails provide upper and lower spending bounds with customizable adjustment frequencies. These tools deliver GPS-like guidance instead of vague survival percentages.
+
+### Practical Implementation [00:07:43]
+
+Instead of asking 'What's my probability of not running out?' ask 'What's my probability of maintaining my lifestyle?' Risk-based guardrails tell you to safely spend between X and Y dollars based on current portfolio value, with increases if portfolio grows above thresholds and decreases below. This eliminates the vague 'What if I run out?' fear.
 
 ## Transcript
 

@@ -37,27 +37,54 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "CFP Eric Amzalag ranks retirement timing strategies from worst to best: forced retirement, retire-by-feel, portfolio-value-based retirement, and retirement income planning (optimal). He emphasizes that retirement timing should be driven by a structured income plan rather than emotions, arbitrary benchmarks, or external circumstances."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-timing", "retirement-income-planning", "fire-movement", "social-security", "retirement-strategies"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, RICP, independent financial planning firm owner"
+  companies:
+    - name: "Northwestern Mutual"
+      ticker: null
+    - name: "Charles Schwab"
+      ticker: null
+    - name: "Peak Financial Planning"
+      ticker: null
+    - name: "USA Today"
+      ticker: null
+    - name: "Kiplinger"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Modern Guard Rails", "fire movement", "unretirement"]
+  concepts: ["retirement income plan", "retirement timing", "Social Security claiming age", "forced retirement", "portfolio withdrawal", "guaranteed income", "portfolio income"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Median retirement age is 3 years earlier than people expect according to National Bureau of Economic Research retirement confidence survey"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Roughly 50% of people retire 3 years earlier than planned, with many retiring 5-10 years earlier than expected"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Articles claiming Americans need 1.8 million dollars to retire are misleading and serve financial institutions' interests"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Modern Guard Rails calculates that a 65-year-old with 500,000 in savings and 22,000 annual Social Security can safely withdraw 27,600 per year"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -67,6 +94,44 @@ notes: ""
 **Published:** 2024-11-16
 **URL:** https://youtube.com/watch?v=Fb1tmkK4EZQ
 **Duration:** 13:10
+
+## Summary
+
+Eric Amzalag provides a comprehensive ranking of retirement timing strategies from worst to best. He explains that retirement timing is too often determined by external circumstances (forced layoffs, illness) or emotions (fed-up feeling) rather than structured planning. The video advocates strongly for retirement income planning—developing a backward-looking plan that starts with desired retirement income, accounts for guaranteed income sources like Social Security, and calculates required savings. This method, he argues, is far superior to relying on arbitrary portfolio benchmarks or media-driven fear narratives.
+
+## Key Takeaways
+
+- Retirement timing is largely outside personal control; 50% of retirees involuntarily retire 3+ years earlier than planned due to layoffs, illness, or injury.
+- Emotional retirement decisions ('retire by feel') and reliance on arbitrary wealth benchmarks are suboptimal retirement timing strategies.
+- Media and brokerage firms profit from fear-based retirement narratives (e.g., '$1.8 million needed'), creating perverse incentives to keep people working longer and saving more.
+- Retirement income planning is the optimal approach: start with desired annual spending, account for taxes, add guaranteed income (Social Security, pensions, annuities), calculate required portfolio income, and work backward to determine necessary savings.
+- A structured retirement income plan provides control, knowledge-based confidence, and contingency options that emotional or arbitrary-benchmark approaches cannot offer.
+
+## Detailed Notes
+
+### The Four Retirement Timing Strategies [00:00:00]
+
+Amzalag identifies retirement timing as a critical financial decision and proposes that despite perceived infinite variations, retirement timing can be reduced to four core strategies. He dismisses claims that unique strategies exist for each person as 'hokey' and focuses his video on ranking these four approaches.
+
+### Strategy 1: Forced Retirement (Ranked Worst) [00:00:00]
+
+A National Bureau of Economic Research study shows that the median retirement occurs 3 years earlier than expected, with roughly 50% retiring early due to circumstances beyond their control (layoffs, illness, injury). This is ranked as the worst strategy because it removes personal agency and can leave people unprepared.
+
+### Strategy 2: Retire by Feel (Ranked Third) [00:00:00]
+
+Described as the 'shoot first, aim later' approach, retiring by feel is driven by emotional burnout or life circumstances rather than financial planning. Amzalag observes this is the second most common approach after forced retirement, ranking it third of four because while it lacks dignity, it at least involves some conscious choice.
+
+### Strategy 3: Portfolio Value Benchmarking (Ranked Second) [00:00:00]
+
+This strategy relies on arbitrary figures from media articles and investment companies claiming Americans need $1.8 million or similar benchmarks to retire. Amzalag criticizes these as deliberately misleading, designed to generate clicks and keep people fearful and saving longer to increase investment companies' assets under management and fees.
+
+### Strategy 4: Retirement Income Planning (Ranked Best) [00:00:00]
+
+The optimal approach involves creating a structured income plan: estimate desired annual spending, gross up for taxes, identify guaranteed income (Social Security, pensions, annuities, rental income), calculate required portfolio income, and work backward to determine necessary savings. Amzalag demonstrates a simple spreadsheet framework and Peak Financial Planning's 'Modern Guard Rails' system as examples.
+
+### Modern Guard Rails Example [00:00:00]
+
+A practical example: a 65-year-old with $500,000 in savings and $22,000 annual Social Security income, assuming a 30-year retirement, could safely withdraw $27,600 annually. This quantifiable approach enables retirees to assess whether planned income meets their lifestyle needs.
 
 ## Transcript
 

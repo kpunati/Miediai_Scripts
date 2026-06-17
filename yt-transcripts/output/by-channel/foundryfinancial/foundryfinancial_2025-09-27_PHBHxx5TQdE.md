@@ -63,27 +63,54 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Explanation of new IRS rule from Secure Act 2.0 requiring high-income earners (over $145,000) to direct catch-up contributions into Roth 401(k) instead of traditional 401(k); covers implications, employer plan adoption gaps, and strategic recommendations for tax-efficient retirement savings."
 topics: []
-topics_proposed: []
+topics_proposed: ["roth-401k", "catch-up-contributions", "tax-planning", "secure-act-2.0", "retirement-savings", "high-earner-tax-rules"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Kevin Lum"
+      role: "CFP, host"
+  companies:
+    - name: "Foundry Financial"
+      ticker: null
+    - name: "Fidelity"
+      ticker: null
+    - name: "Vanguard"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["401(k)", "Roth 401(k)", "Roth IRA", "traditional IRA", "brokerage account"]
+  concepts: ["catch-up contributions", "super catch-up", "Roth conversion", "tax-deferred accounts", "minimum required distributions", "adjusted gross income", "tax brackets", "self-employed"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Starting in 2026, high earners making over $145,000 per year (indexed for inflation, approximately $150,000 by 2026) will be forced to direct catch-up contributions into Roth 401(k) instead of traditional 401(k)."
+    timestamp: "00:01:04"
+    confidence: "high"
+    flagged: true
+  - claim: "In 2025, employees can contribute $23,500 to a 401(k), with an additional $7,500 catch-up contribution for those age 50 or older, and up to $11,250 for ages 60-63 super catch-up."
+    timestamp: "00:01:04"
+    confidence: "high"
+    flagged: true
+  - claim: "Fidelity reports 95% of plans now offer Roth 401(k) (up from 73% two years ago), and Vanguard reports 86% of their plans have Roth 401(k)."
+    timestamp: "00:02:53"
+    confidence: "high"
+    flagged: true
+  - claim: "According to a Vanguard study, only 18% of people with access to Roth 401(k) take advantage of it."
+    timestamp: "00:04:48"
+    confidence: "high"
+    flagged: true
+  - claim: "The Roth catch-up mandate does not apply to high-earning self-employed individuals who don't receive traditional wages; they can continue making pre-tax catch-up contributions."
+    timestamp: "00:03:57"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["unpunctuated_captions"]
 notes: ""
 ---
 
@@ -93,6 +120,41 @@ notes: ""
 **Published:** 2025-09-27
 **URL:** https://youtube.com/watch?v=PHBHxx5TQdE
 **Duration:** 9:28
+
+## Summary
+
+Kevin analyzes the Secure Act 2.0 provision that mandates Roth 401(k) contributions for high-income earners starting in 2026. Employees earning more than $145,000 in the prior year (indexed to ~$150,000 by 2026) must direct their catch-up contributions into Roth 401(k) accounts, eliminating upfront tax deductions but enabling tax-free withdrawals in retirement. While many view this as a tax increase, Kevin frames it as potentially beneficial for high earners who may have already accumulated substantial pre-tax retirement savings. The primary challenge is employer adoption: though Fidelity reports 95% and Vanguard 86% of plans offer Roth 401(k), some workers still lack access.
+
+## Key Takeaways
+
+- High earners (over $145,000, indexed to ~$150,000 in 2026) must direct catch-up contributions into Roth 401(k), eliminating upfront tax deductions.
+- 2025 contribution limits: $23,500 base, $7,500 catch-up for age 50+, $11,250 super catch-up for ages 60-63; all excess must go to Roth.
+- Income threshold is determined by prior-year wages at each employer, and new employees get a one-year pass since the lookback applies to prior year.
+- Self-employed individuals without traditional W-2 wages are exempt and can continue making pre-tax catch-up contributions.
+- Employer adoption has increased significantly (Fidelity 95%, Vanguard 86%), but some workers still lack Roth 401(k) options; affected employees should pressure HR.
+- Roth 401(k) is historically underutilized (only 18% adoption), but the forced contribution may increase awareness and long-term tax efficiency for high earners.
+
+## Detailed Notes
+
+### New Rule Overview & Income Threshold [00:01:04]
+
+The Secure Act 2.0 mandates that employees earning over $145,000 in prior-year wages at an employer must direct catch-up contributions to Roth 401(k) instead of traditional 401(k). The $145,000 threshold is indexed for inflation and will increase to approximately $150,000 by 2026. This is the first time the tax code has ever mandated Roth contributions, marking a significant policy shift.
+
+### Contribution Limits & Super Catch-Up [00:01:04]
+
+In 2025, standard 401(k) limit is $23,500. Employees age 50+ can add $7,500 catch-up, and those ages 60-63 can add up to $11,250 super catch-up. The new rule applies only to catch-up and super catch-up amounts for high earners, not regular contributions. For example, a 60-year-old earning $150,000 making the full $11,250 super catch-up would lose approximately $4,000 in tax deductions (at 35% tax bracket) and face ripple effects on AGI and tax bracket positioning.
+
+### Employer Plan Adoption & Coverage Gaps [00:02:53]
+
+Fidelity reports 95% of plans now offer Roth 401(k) (up from 73% two years ago); Vanguard reports 86%. Despite this progress, some workers still lack Roth 401(k) access. High earners whose plans don't offer Roth may be unable to make catch-up contributions at all, losing significant tax-advantaged savings. Kevin recommends proactively checking plan documents and pressuring HR to add Roth 401(k) if unavailable.
+
+### Quirks & Exceptions [00:03:57]
+
+The rule applies separately to each employer (two jobs = separate thresholds per employer). New employees get a one-year pass since the rule looks back to the prior year. Self-employed individuals without traditional W-2 wages are exempt and can continue making pre-tax catch-up contributions. These exceptions create planning opportunities but can be confusing for employees with multiple income sources.
+
+### Strategic Implications & Recommendations [00:05:37]
+
+Kevin frames the mandate as potentially positive, especially for high earners already over-burdened with pre-tax assets (creating future tax bombs from required minimum distributions). Only 18% of eligible workers currently use Roth 401(k), indicating underutilization. The forced contribution may boost awareness. Kevin recommends: (1) verify employer offers Roth; (2) run numbers on tax impact; (3) balance contributions across Roth 401(k), traditional, and taxable brokerage; (4) consider Roth conversions if already heavily weighted to pre-tax accounts.
 
 ## Transcript
 

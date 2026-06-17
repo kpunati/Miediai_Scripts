@@ -43,24 +43,29 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "After age 58, the trade-off between work and retirement shifts fundamentally: time becomes scarce, health declines, and the psychological/emotional costs of delayed retirement often exceed financial benefits. Equity-based portfolio strategy and withdrawal flexibility allow confident early retirement without market timing."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-decision-at-58", "time-money-tradeoff", "health-retirement-timing", "quality-of-life", "portfolio-flexibility"]
 entities:
-  people: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, financial advisor"
   companies: []
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["financial adequacy", "resource balance", "opportunity cost", "guardrails strategy", "equity-based growth", "sequence-of-returns-risk"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Most retirees say they wish they had retired earlier, not later"
+    timestamp: "00:09:32"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: ["unpunctuated_captions"]
@@ -73,6 +78,37 @@ notes: ""
 **Published:** 2025-09-07
 **URL:** https://youtube.com/watch?v=f2Fa0afdro0
 **Duration:** 12:28
+
+## Summary
+
+This video argues that age 58 marks a critical inflection point where additional savings accumulation provides diminishing returns compared to quality-of-life gains. The presenter emphasizes that once you've achieved 'financial adequacy'—enough to support your lifestyle—further work sacrifices precious health, energy, and time that money alone cannot recover.
+
+## Key Takeaways
+
+- Financial adequacy (sufficient to retire) is reached well before death; beyond that point, more money provides minimal real benefit.
+- Time, health, and energy are the truly finite resources; after 58, these decline faster than additional savings accumulate.
+- Bucket-list activities (hiking Europe, spending time with grandkids) are infinitely harder at 70 than 60—there's no substitute for timing.
+- Fear and habit, not math, often keep people working past 58; these psychological barriers can be addressed through proper planning.
+- Modern withdrawal strategies (guardrails, equity focus) don't require perfect market timing; they adapt to changing conditions.
+- Early retirement almost always beats delayed retirement when retirees look back; regret flows one direction only.
+
+## Detailed Notes
+
+### The Resource Balance at 58 [00:03:02]
+
+Early in life: abundant time and health, limited money (so trade both for money). After 58 with financial adequacy: abundant money but declining time and health. Continuing to work trades the latter (irreplaceable) for the former (already sufficient). The math shifts dramatically—more money becomes nearly worthless.
+
+### Time and Health Realignment [00:02:07]
+
+Hiking Italy, bike riding, active time with grandkids don't get easier at 68. Once health constraints set in, no amount of additional portfolio balance buys back capability. Retirees consistently report that pushing past 58 cost them activities they could have done, leading to lasting regret.
+
+### Addressing Psychological Barriers [00:07:52]
+
+Fear of losing identity/purpose is real and valid, not mathematical. Solution: plan ahead for meaning-making activities before retirement. Fear of market downturn can be addressed with equity-based portfolio strategy and guardrails that adjust to conditions, not requiring perfect timing.
+
+### Modern Withdrawal Strategy [00:05:59]
+
+Guardrails strategy adapts to market conditions rather than relying on fixed withdrawal rates. Equity-forward allocation captures capital appreciation and dividend growth over time. This flexibility means retirement doesn't depend on perfect entry timing—it works across market conditions.
 
 ## Transcript
 

@@ -45,27 +45,62 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser discusses market outlook with inflation cooling to lowest since March 2021 and unemployment at 4.3%, analyzing tech stock valuations, AI disruption across sectors, and positioning in energy infrastructure, gold, and Bitcoin as long-term plays despite near-term volatility."
 topics: []
-topics_proposed: []
+topics_proposed: ["market-analysis", "technology-stocks", "artificial-intelligence", "cryptocurrency", "inflation", "federal-reserve"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Rebecca Walser"
+      role: "wealth manager"
+    - name: "Nicole"
+      role: "host"
+  companies:
+    - name: "Intuit"
+      ticker: "INTU"
+    - name: "Visa"
+      ticker: "V"
+    - name: "Duke Energy"
+      ticker: "DUK"
+    - name: "OpenAI"
+      ticker: null
+  tickers: ["INTU", "V", "DUK", "S&P", "DOW"]
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["artificial intelligence", "software disruption", "blockchain", "Fed policy", "market volatility", "creative destruction"]
+content_type: "analysis"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Core inflation was the lowest since March 2021"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Unemployment rate ticked down to 4.3 percent"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Intuit is trading 50 percent off its all-time high with 17 percent revenue growth and 40 percent EPS growth"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Duke Energy's capex spending projection is the largest of any US regulated utility"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Gold should be priced around 20,000 dollars a troy ounce based on inflation analysis"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Bitcoin could decline to 49,000-55,000 range by mid-2027 based on yield curve analysis"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +110,44 @@ notes: ""
 **Published:** 2026-02-13
 **URL:** https://youtube.com/watch?v=9tyzICWIbFo
 **Duration:** 8:00
+
+## Summary
+
+Rebecca Walser appears on Schwab Network to discuss market dynamics as inflation cools and unemployment drops. She argues that good economic news no longer benefits equities since the Fed has less reason to cut rates. Walser emphasizes selective stock picking, highlighting Intuit as oversold at a 50% discount despite strong fundamentals. She advocates for technology exposure through companies adapting to AI disruption, energy infrastructure plays like Duke Energy capitalizing on data center power demands, and longer-term positions in gold and Bitcoin as inflation hedges.
+
+## Key Takeaways
+
+- Current Fed policy context reverses old market dynamics: good economic news no longer automatically lifts stocks as the Fed has less incentive to cut rates
+- Software sector oversold despite company adaptation to AI; Intuit specifically offers value with 17% revenue growth and 40% EPS growth at 50% discount
+- Energy infrastructure, particularly Duke Energy with largest utility capex spending, positioned to profit from data center power demands driving AI
+- Gold has parabolic potential with analysis suggesting fair value near $20,000/troy ounce based on currency inflation, though recent parabolic moves lacked support
+- Bitcoin remains speculative without recession proof-of-concept but represents long-term blockchain adoption play; further downside to $49-55k possible before recovery
+
+## Detailed Notes
+
+### Economic Data and Fed Policy Implications [00:00:00]
+
+Core inflation reached lowest levels since March 2021 and unemployment dropped to 4.3%, typically bullish indicators. However, Walser argues these metrics actually reduce Fed incentive to cut rates, reversing traditional market dynamics. This creates headwinds for equities despite positive economic data.
+
+### Technology Sector Rotation [00:00:00]
+
+Software sector experienced significant overselling driven by AI disruption fears. Walser contends this reaction is overly emotional, comparing it to dot-com dynamics. Companies successfully adapting to AI, like Intuit with OpenAI partnership, offer compelling value opportunities despite sector headwinds. Visa similarly positioned in blockchain space represents proactive industry adaptation.
+
+### Intuit Stock Valuation [00:00:00]
+
+Intuit trading 50% below all-time highs with 17% revenue growth and 40% EPS growth. Company maintains strategic OpenAI partnership to integrate AI into tax software. Current price-to-earnings ratio not seen in over 10 years, providing significant upside potential if AI integration proves successful.
+
+### Energy Infrastructure and AI Power Demands [00:00:00]
+
+Duke Energy positioned as primary beneficiary of AI data center buildout. Company has largest capex spending projection among US regulated utilities at $103 billion for next 5 years. PE ratio of 19.8% below industry standard of 26%, with 18-year dividend increase streak at 3.4% yield. Data center power demands represent structural, long-term growth driver.
+
+### Gold Valuation and Market Dynamics [00:00:00]
+
+Gold went parabolic from $4,700-4,900 to $5,300-5,400 but lacked support at new highs. Walser has been 'gold bug' since 2020 money printing began. Analysis suggests fair value near $20,000/troy ounce if priced for true inflation. Recent pullback from parabolic highs represents normal consolidation rather than invalidation of long-term bull thesis.
+
+### Bitcoin Long-term Positioning [00:00:00]
+
+Bitcoin remains speculative without proven recession performance. Analysis of 2-year/10-year yield curve suggests further downside to $49,000-55,000 possible through mid-2027. However, Walser maintains Bitcoin represents grandfather of blockchain technology and long-term currency future. Compares current blockchain monetization volatility to dot-com era, cautioning against missing recovery.
 
 ## Transcript
 

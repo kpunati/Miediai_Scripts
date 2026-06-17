@@ -42,24 +42,25 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Educational short-form video introducing three budgeting methods: 50/30/20 rule (allocate percentages to needs, wants, savings), envelope method (track spending by category), and zero-based budgeting (ensure income minus expenses equals zero each period)."
 topics: []
-topics_proposed: []
+topics_proposed: ["budgeting-methods", "personal-finance", "financial-planning", "money-management"]
 entities:
-  people: []
+  people:
+    - name: "Rebecca Walser"
+      role: "Financial advisor and host"
   companies: []
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
+  products: ["Roth IRA"]
+  concepts: ["50/30/20 rule", "envelope budgeting", "zero-based budgeting", "financial literacy"]
+content_type: "educational"
+audience_level: "beginner"
 key_claims: []
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: ["unpunctuated_captions"]
@@ -72,6 +73,36 @@ notes: ""
 **Published:** 2024-08-20
 **URL:** https://youtube.com/watch?v=zSnNgPe98o4
 **Duration:** 2:53
+
+## Summary
+
+Rebecca Walser presents three distinct budgeting approaches for managing household finances. The 50/30/20 method divides after-tax income into three categories (50% needs, 30% wants, 20% savings). The envelope method involves allocating funds to specific spending categories and stopping when the envelope empties. Zero-based budgeting requires assigning every dollar a purpose so that income minus all expenses equals zero.
+
+## Key Takeaways
+
+- The 50/30/20 rule allocates 50% of after-tax income to needs, 30% to wants, and 20% to savings.
+- The envelope method works for both tech-averse and visual learners by creating physical or virtual envelopes for each expense category.
+- Zero-based budgeting ensures every dollar is allocated to a purpose, from groceries to investments to vacation savings.
+- Fixed expenses like mortgages and subscriptions may not require envelope tracking since amounts are predetermined each month.
+- Budgeting is likened to a recipe for baking: essential for success and prevents wasteful spending on unnecessary expenses.
+
+## Detailed Notes
+
+### Introduction: Budgeting as Financial Foundation [00:00:00]
+
+Walser introduces budgeting as a crucial component of financial success, analogous to how recipes ensure baking success. Without a budget, hard-earned dollars get misdirected to unnecessary expenses.
+
+### 50/30/20 Budgeting Method [00:00:00]
+
+This method divides after-tax income into three buckets: 50% for needs (housing, utilities), 30% for wants (entertainment, dining), and 20% for savings. It provides a simple framework for income allocation.
+
+### Envelope Method [00:01:03]
+
+Suitable for those uncomfortable with technology or who learn visually, this method involves creating separate envelopes for each expense category. Once an envelope is empty, spending in that category stops until the next budgeting period. Users calculate monthly income, set expense categories, define limits, and can transfer surplus funds.
+
+### Zero-Based Budgeting [00:02:05]
+
+This approach requires that every dollar be allocated to a purpose, making income minus expenses equal zero. It starts with take-home pay calculation and subtracts all planned expenses, ensuring accountability for every dollar whether toward investments, groceries, or vacation savings.
 
 ## Transcript
 

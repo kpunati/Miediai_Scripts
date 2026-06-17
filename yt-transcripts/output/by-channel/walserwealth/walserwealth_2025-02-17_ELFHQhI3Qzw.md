@@ -45,27 +45,53 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser discusses how marriage demographics impact economic health, covering topics like Valentine's Day spending trends, work-spouse culture, and remote work policies. The segment covers generational attitudes toward relationships and employment."
 topics: []
-topics_proposed: []
+topics_proposed: ["marriage-economics", "demographic-trends", "remote-work-policy", "generational-attitudes"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Rebecca Walser"
+    - name: "Charles Payne"
+      role: "Host"
+    - name: "Ricky Schlott"
+      role: "New York Post Columnist"
+    - name: "Jamie Dimon"
+      role: "CEO"
+  companies:
+    - name: "IKEA"
+      ticker: null
+    - name: "JPMorgan Chase"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["marriage economics", "household combined income", "work-life balance", "remote work", "entitlement culture"]
+content_type: "opinion"
+audience_level: "mixed"
+key_claims: 
+  - claim: "Younger generations (Gen Z and Millennials) spend significantly more on Valentine's Day than Baby Boomers"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Women on social media set minimum spending expectations ($250-$400) for dating, while some prefer thoughtful gestures over expensive spending"
+    timestamp: "00:00:00"
+    confidence: "low"
+    flagged: false
+  - claim: "Billionaire women have a 65% marriage rate with billionaire men, while billionaire men rarely marry billionaire women"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Jamie Dimon stated remote work doesn't work for creativity, slows decision making, and damages young workers"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +101,40 @@ notes: ""
 **Published:** 2025-02-17
 **URL:** https://youtube.com/watch?v=ELFHQhI3Qzw
 **Duration:** 6:55
+
+## Summary
+
+Rebecca Walser joins Charles Payne's "Making Money" segment alongside New York Post columnist Ricky Schlott to discuss how marriage demographics affect the economy. The discussion covers Valentine's Day spending patterns across generations, the concept of "work spouses," dating app exclusivity, and remote work policies. Walser emphasizes that marriage is economically important for household income and reproduction rates, while addressing cultural shifts in workplace boundaries and work-life balance.
+
+## Key Takeaways
+
+- Marriage remains economically foundational for prosperity through combined household income and reproduction, though declining marriage rates create long-term economic concerns.
+- Younger generations spend 2-3x more on Valentine's Day than Baby Boomers, reflecting either fresher relationships or different financial priorities.
+- The "work spouse" concept has become ambiguous in post-Me Too culture, creating workplace tension around boundaries and appropriate professional relationships.
+- Dating apps with wealth-based exclusivity and trends like "stay-at-home girlfriends" reflect bifurcated dating markets with significant wealth inequality.
+- Remote work remains contentious; while CEOs like Jamie Dimon argue it hurts creativity and decision-making, women in particular value it for family building and work-life balance.
+
+## Detailed Notes
+
+### Marriage Demographics and Economic Health [00:00:00]
+
+Rebecca Walser explains that marriage is foundational to economic prosperity through combined household income. She notes concerns about declining marriage rates and reproduction, linking these trends to long-term economic problems. The hosts discuss how a society with fewer marriages may have other social benefits, but economically it worsens inequality and reduces household income potential.
+
+### Work Spouse Culture and Workplace Boundaries [00:00:00]
+
+The segment discusses the "work spouse" trend, where colleagues spend more time together than with actual spouses. Walser suggests this could suggest inappropriate relationships, while Schlott notes the Me Too movement overcorrected and now the pendulum is swinging back. The hosts question whether buying a Valentine's card for a coworker crosses professional boundaries, particularly in contexts where the subtitle references inappropriate behavior.
+
+### Valentine's Day Spending Across Generations [00:00:00]
+
+The segment reveals Baby Boomers spend significantly less on Valentine's Day than Gen Z and Millennials. Schlott theorizes younger people are either in fresher relationships where they're still wooing partners or are simply less fiscally responsible. The hosts discuss IKEA's $20 Valentine's dinner as a budget option, with Schlott dismissing it as inadequate, suggesting women on social media expect $250-$400+ minimum spending.
+
+### Wealth Inequality in Dating Markets [00:00:00]
+
+The conversation turns to dating apps requiring minimum income thresholds and the trend of "stay-at-home girlfriends." Schlott warns women against quitting their jobs to become stay-at-home girlfriends without financial security. The hosts note that billionaire women have a 65% marriage rate with billionaire men, while billionaire men rarely marry billionaire women, reflecting significant wealth inequality and power imbalances in high-net-worth relationships.
+
+### Remote Work Debate and Work-Life Balance [00:00:00]
+
+Jamie Dimon's criticism of remote work is discussed, with Walser noting that while entitlement around remote work Friday is problematic, remote work is crucial for women building families and achieving work-life balance. She notes her company has a hybrid schedule. Schlott, as a remote employee, acknowledges both the benefits and the entitlement culture around remote work policies in post-pandemic workplaces.
 
 ## Transcript
 

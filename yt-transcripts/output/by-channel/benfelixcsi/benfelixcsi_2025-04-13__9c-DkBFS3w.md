@@ -57,27 +57,49 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Updated analysis of market crashes examining their frequency and historical recovery patterns, the role of narrative in driving investor behavior during crises, and the distinction between base-rate probabilities and emotional narratives. Argues that staying invested in a well-planned, risk-appropriate portfolio through downturns is more important than predicting or timing market recoveries."
 topics: []
-topics_proposed: []
+topics_proposed: ["market-crashes", "behavioral-finance", "investor-psychology", "narrative-economics", "market-volatility", "long-term-investing"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Ben Felix"
+      role: "Chief Investment Officer at PWL Capital"
+    - name: "Robert Schiller"
+      role: "Yale Economist, 2013 Nobel Prize winner"
+    - name: "Mike Tyson"
+  companies:
+    - name: "PWL Capital"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["market-crash", "narrative-economics", "risk-premium", "bubbles", "social-epidemics", "base-rate-probability", "mean-reversion", "market-resilience", "investor-psychology", "tariffs", "trade-policy-uncertainty", "risk-composure", "financial-planning", "diversification"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Stock returns are negative in about 25% of years historically; declines of 20% or more happen less frequently but are not uncommon"
+    timestamp: "00:00:49"
+    confidence: "medium"
+    flagged: false
+  - claim: "Global stock returns have delivered a little more than 5% annualized real return from 1900 through 2024"
+    timestamp: "00:02:02"
+    confidence: "medium"
+    flagged: true
+  - claim: "A study of crashes in 101 global stock markets from 1692 through 2015 identified 1,032 events where a market declined by more than 50% over 12 months, typically followed by positive returns"
+    timestamp: "00:06:47"
+    confidence: "high"
+    flagged: true
+  - claim: "The risk premium—positive long-term stock returns despite volatility—exists precisely because stocks are risky to own"
+    timestamp: "00:03:04"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -87,6 +109,48 @@ notes: ""
 **Published:** 2025-04-13
 **URL:** https://youtube.com/watch?v=_9c-DkBFS3w
 **Duration:** 10:25
+
+## Summary
+
+Ben Felix's 2025 update on market crashes emphasizes that while sudden stock price declines are painful and inevitable, they are normal and historically have been followed by recoveries. He argues that narratives—human stories about why this crash is different and will be worse—are more powerful than abstract price declines in driving investor panic and poor decisions. Drawing on Robert Schiller's work on narrative economics, he shows how investors repeatedly interpret new crises as unprecedented despite a 333-year historical record of markets recovering from even 50%+ declines. The key to navigating crashes is maintaining perspective on long-term data and sticking to a pre-planned, risk-appropriate portfolio rather than reacting emotionally.
+
+## Key Takeaways
+
+- Stock market declines occur in roughly 25% of years and 20%+ drops are uncommon but definitely not rare; market crashes are expected events, not anomalies.
+- Narratives—the human stories and emotional interpretations surrounding crises—drive investor behavior more powerfully than underlying economic facts or historical base rates.
+- A 2017 study examining 1,032 market crashes (50%+ declines) across 101 global markets from 1692 to 2015 found they were typically followed by positive returns, illustrating the value of historical perspective.
+- When stock prices decline, forward-looking expected returns actually increase, which should be welcome news for long-term investors still contributing to portfolios, though fear narratives typically suppress optimism.
+- Market crashes present valuable diagnostic opportunities to assess your risk tolerance through your actual behavior; if the pain exceeds expectations, your portfolio may be too aggressive.
+
+## Detailed Notes
+
+### Normal frequency of market declines and recoveries [00:00:49]
+
+Historically, US stock returns are negative about 25% of years. Larger declines (20%+) happen less frequently but remain common. Importantly, intrayear negative returns do not guarantee year-end negative returns; stocks often recover within the same year. Market crashes and recoveries are consistent features of long-term investing, not rare surprises.
+
+### The power of narratives in crashes [00:02:02]
+
+Every market crash is accompanied by a compelling narrative—a story about why this time is different and the world is ending. Robert Schiller's research on narrative economics shows these stories are more powerful in driving behavior than the underlying facts. Narratives can change how people interpret data and cause them to ignore historical base rates. The 1920-21 recession, for example, was framed as the end of the US economic system, yet the market recovered.
+
+### Bubbles and their relationship to expectations [00:03:53]
+
+Robert Schiller defines bubbles as social epidemics involving extravagant expectations. While bubbles are often associated with high prices, they work both ways—pessimistic narratives during crashes create negative bubbles with dire expectations. Understanding that every crisis carries its own unique narrative but shares historical patterns helps investors maintain perspective during panics.
+
+### Historical perspective on market globalization and contraction [00:05:43]
+
+The early 1900s saw similar globalization and international diversification advice as today; then came World War I, protectionism, tariffs, and market closures. Despite these severe contractions and permanent closures in some countries, global markets recovered and delivered positive long-term returns. Current trade policy concerns echo past crises, illustrating that new threats are often variations on historical patterns.
+
+### The empirical study of crashes and recoveries [00:06:47]
+
+A 2017 study of crashes in 101 global stock markets from 1692 to 2015 identified 1,032 instances of 50%+ annual declines. These extreme events were typically followed by positive returns. This large dataset is 'immune to narratives'—each historical crash had scary justifications for why recovery was unlikely, yet it happened anyway. The data provides base-rate expectations for current crises.
+
+### Rising expected returns during price declines [00:07:49]
+
+When stock prices fall, forward-looking expected stock returns increase (because valuations become more attractive), which should logically make investors more optimistic. However, crash narratives typically make investor expectations more pessimistic rather than more optimistic, demonstrating how narrative can override data-driven reasoning.
+
+### Risk composure as a diagnostic tool [00:08:51]
+
+Market crashes reveal your true risk tolerance through your actual emotional and behavioral responses, not just questionnaires. If you're losing sleep or feeling worse than expected, your portfolio may be too aggressive. Conversely, if you're handling a conservative portfolio well and have a long horizon, you may be able to accept more risk. This is a valuable time to revisit and test your financial plan.
 
 ## Transcript
 

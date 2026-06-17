@@ -37,27 +37,46 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Most retirement regrets are non-financial: lack of life design, deferred health, missing relationships and purpose. An Edward Jones study found 54% of retirees underplanned the life side of retirement. Video teaches fear-setting, stoic philosophy, and intentional decision-making to shift from drifting to designing retirement; emphasizes hard choices now enable easier, more fulfilling later years."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-regrets", "life-design", "non-financial-planning", "purposeful-retirement", "psychological-wellbeing", "decision-making"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amselog"
+      role: "Certified Financial Planner (CFP)"
+    - name: "Tim Ferriss"
+      role: "Entrepreneur, Author"
+    - name: "Ryan Holiday"
+      role: "Author"
+  companies:
+    - name: "Edward Jones"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Fear Setting Framework"]
+  concepts: ["longevity", "life design", "retirement regret", "stoicism", "purpose", "intentionality", "health priorities", "relationships"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "54% of retirees report underplanning the life side of retirement (time use, location, social connections)"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Retirement regrets typically stem from years of choosing ease over intention, creating patterns that compound over decades"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Fear setting (Tim Ferriss framework) is equally useful in retirement as before, for decisions like downsizing, moving, or reestablishing relationships"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -67,6 +86,41 @@ notes: ""
 **Published:** 2025-08-09
 **URL:** https://youtube.com/watch?v=s_5VgFrd8Zs
 **Duration:** 8:33
+
+## Summary
+
+Financial planner Eric Amselog addresses the gap between financial readiness and psychological readiness in retirement. He cites Edward Jones research showing 54% of retirees underplanned the non-financial aspects of retirement—time use, social connection, and purpose. The video argues that regrets accumulate from decades of small compromises (skipping workouts, avoiding hard conversations, staying in unfulfilling work), not single decisions. He teaches two frameworks—Tim Ferriss's fear-setting exercise and stoic philosophy—to help retirees transition from autopilot to intentional design, making hard choices now that create peace and purpose later.
+
+## Key Takeaways
+
+- Most retirement regrets are non-financial: postponed joy, disconnection from purpose, lack of life design outside work, and deferred health—54% of retirees underplanned these aspects.
+- Regrets compound from repeated small compromises (ease over intention) rather than single big mistakes; each individual choice feels harmless until patterns emerge over decades.
+- Fear setting (Tim Ferriss framework) helps name worst-case outcomes, estimate their likelihood, plan preventive steps, and crucially, compare to the cost of inaction.
+- Stoic philosophy teaches retirees to reframe declining health, loss of structure, or loneliness as signals and opportunities rather than stop signs, enabling re-engagement instead of retreat.
+- Retirees with fewest regrets make hard choices early and often: scheduling health, prioritizing relationships over convenience, starting new endeavors, and shedding old identities.
+- Hard choices now enable easier, more purposeful lives later; good retirement design requires intentional non-financial planning at a spiritual and psychological level, not just financial sufficiency.
+
+## Detailed Notes
+
+### The Non-Financial Regret Gap [00:00:00]
+
+Edward Jones's Longevity and the New Journey of Retirement study found 54% of retirees underplanned the life side of retirement—how they'd spend time, where they'd live, who they'd see. Common quiet regrets include waiting too long to live, never building a life outside work, and neglecting health too long. These regrets exist even among those with paid-off homes and clear calendars, revealing a disconnect between financial readiness and psychological readiness.
+
+### Accumulation of Ease Over Intention [00:00:00]
+
+Regrets rarely stem from one dramatic decision but rather from years of choosing ease over intention—skipping workouts, avoiding hard conversations, staying in jobs one day too long. Each individual choice feels harmless or practical at the moment, but patterns compound over decades. These safe, comfort-seeking decisions eventually create long-term pain despite short-term relief, explaining why many retirees feel drift despite correct financial choices.
+
+### Fear Setting Framework [00:00:00]
+
+Tim Ferriss's fear-setting exercise inverts goal-setting by defining fears instead. Steps include: name worst-case outcomes of a change, estimate likelihood, plan preventive/repair steps, and compare to consequences of inaction. The framework reveals that doing nothing is itself a decision, often the most expensive one. For retirees, fear setting applies to decisions like relocating, downsizing, reestablishing relationships, or starting new projects.
+
+### Stoic Reframing for Retirement [00:00:00]
+
+Stoic philosophy (e.g., Ryan Holiday's The Obstacle is the Way) teaches practical mindset shifts: you control responses, not events; discomfort signals opportunity, not failure; hard things contain seeds of purpose. For retirees, this reframes declining health, loss of work structure, or loneliness as catalysts for re-engagement rather than retreat. Stoicism grounds retirees when uncertainty arises and sustains pursuit of purpose over mere comfort.
+
+### Hard Choices and Intentional Design [00:00:00]
+
+Retirees with fewest regrets make recurring hard choices: treating health like work (scheduled exercise), choosing connection over convenience (calling family instead of watching TV), starting new ventures despite feeling behind, and shedding old identities to adopt new ones. These hard choices now open doors to peace and purpose; paradoxically, hard choices today lead to easier, more satisfying lives. Great retirement design requires spiritual and psychological intentionality, not just financial sufficiency.
 
 ## Transcript
 

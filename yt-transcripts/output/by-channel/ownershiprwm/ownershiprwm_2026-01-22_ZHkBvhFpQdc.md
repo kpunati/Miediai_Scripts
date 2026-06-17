@@ -56,27 +56,34 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Nick Sapienza explains his budget reset methodology for 2026, which involves reviewing prior-year spending patterns, reducing 1-2 categories by 10%, and automating the savings. He prioritizes emergency fund, experiences, and investing in that order, citing Jesse Isler's Kevin's rule concept of intentional experiences."
 topics: []
-topics_proposed: []
+topics_proposed: ["budgeting", "cash-flow-management", "personal-finance", "spending-habits", "automation"]
 entities:
-  people: []
+  people:
+    - name: "Nick Sapienza"
+      role: "Financial advisor"
+    - name: "Jesse Isler"
+      role: "Financial educator"
   companies: []
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Copilot", "Rocket Money", "Monarch", "Origin"]
+  concepts: ["budget reset", "cash flow reboot", "Kevin's rule", "life resume", "lifestyle creep", "30-day queue", "automated savings", "spending pattern analysis"]
+content_type: "educational"
+audience_level: "beginner"
+key_claims: 
+  - claim: "A 10% reduction in a spending category of $2,500 per month frees up $250 per month or $3,000 per year"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -86,6 +93,32 @@ notes: ""
 **Published:** 2026-01-22
 **URL:** https://youtube.com/watch?v=ZHkBvhFpQdc
 **Duration:** 2:17
+
+## Summary
+
+A practical guide to budget resetting for 2026 using cashflow optimization rather than restrictive budgeting. The approach involves analyzing prior spending, identifying reduction opportunities, automating savings, and intentionally directing freed-up money toward experiences, emergency funds, or additional investing based on personal hierarchy.
+
+## Key Takeaways
+
+- A budget reset involves reviewing 2025 spending by category to identify overspending, surprising patterns, joy-bringing purchases, and regretted expenses.
+- Select 1-2 categories to reduce by 10% and immediately automate the freed-up amount into a separate savings account to prevent spending.
+- Prioritize spending on meaningful experiences and life-building activities over continuous investment optimization.
+- Kevin's rule (6 mini-adventures every other month) provides a framework for intentional experiential spending.
+- Establish a personal hierarchy: emergency fund first, then experiences/life goals, then additional investing.
+
+## Detailed Notes
+
+### Analyzing Spending Patterns [00:00:00]
+
+Begin the budget reset by pulling all 2025 spending by category using tools like Copilot, Rocket Money, Monarch, or Origin. Analyze patterns: what categories had overspending? What expenses surprised you? Which purchases brought the most joy? Which do you regret? This analysis reveals authentic spending priorities distinct from desired behavior.
+
+### Reducing & Automating Cashflow [00:00:00]
+
+Select 1-2 spending categories to reduce by 10%. Example: household spending $2,500 monthly on food (eating out + groceries) yields $250 monthly savings or $3,000 annually from a 10% cut. Immediately automate this freed amount as a monthly transfer (e.g., $250 on the 1st of month) to a separate account to prevent lifestyle creep.
+
+### Spending Hierarchy & Life Resume [00:01:02]
+
+Rather than investing all excess cashflow, prioritize based on life goals. The speaker's 2026 hierarchy: emergency fund (fully funded first), meaningful experiences/life-building (using Kevin's rule concept of 6 mini-adventures every other month to build a life resume), then excess to investing. Bonus tactics: save a percentage of raises before seeing them, cut lifestyle creep by 5%, use 30-day purchase queue to eliminate impulse buying.
 
 ## Transcript
 

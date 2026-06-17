@@ -45,27 +45,52 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser argues that numerous economic indicators show the US is already in recession, citing employment data adjustments and fragile economic conditions despite stock market strength. She discusses Trump and Harris economic policies."
 topics: []
-topics_proposed: []
+topics_proposed: ["recession-indicators", "economic-policy", "labor-data", "fed-policy"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Rebecca Walser"
+      role: "Financial consultant, tax attorney, wealth manager"
+    - name: "Donald Trump"
+      role: "Former US President"
+    - name: "Kamala Harris"
+      role: "Vice President"
+  companies:
+    - name: "Walser Wealth Management"
+      ticker: null
+    - name: "Bureau of Labor Statistics"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["recession", "inflation", "stimulus", "monetary policy", "labor force", "corporate tax"]
+content_type: "opinion"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "The US economy is already in recession despite what official data shows"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Bureau of Labor Statistics retracted 88,000 jobs from prior year estimates"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Federal Reserve typically recognizes recessions 6-8 months after they begin"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Trump's economic policy includes reducing corporate tax from 21% to 15% for domestic manufacturers"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +100,36 @@ notes: ""
 **Published:** 2024-10-04
 **URL:** https://youtube.com/watch?v=nntiqDCSzYQ
 **Duration:** 4:29
+
+## Summary
+
+Financial consultant Rebecca Walser discusses economic recession indicators during an appearance on a news program. Despite strong stock market performance and positive employment news, she argues multiple economic indicators suggest the US is already in recession. She notes that the Federal Reserve historically takes 6-8 months to officially declare recessions after they begin. Walser also contrasts Trump and Harris economic policies, highlighting Trump's proposals for sovereign wealth investment-style infrastructure spending and corporate tax reductions for domestic manufacturers.
+
+## Key Takeaways
+
+- Multiple economic indicators suggest the US is already in recession despite official optimism
+- The Federal Reserve typically lags 6-8 months in officially recognizing recessions after they begin
+- Trump's economic plan includes sovereign wealth-style infrastructure investment and reducing corporate taxes to 15% for domestic manufacturers
+- Harris has improved her economic polling numbers by appearing competent and coherent on policy details
+- The recovery from COVID stimulus has not been as broad-based as headline numbers suggest
+
+## Detailed Notes
+
+### Recession indicators and economic fragility [00:00:00]
+
+Walser argues that despite strong recent jobs numbers and stock market performance, the US economy shows signs of recession. She notes that official recession declarations typically lag 6-8 months behind actual onset, citing historical examples from the dot-com crash and 2008 financial crisis. She emphasizes the recovery is not broad-based.
+
+### Stimulus and inflation consequences [00:00:00]
+
+Walser attributes long-term inflation and economic issues to massive stimulus spending during the 2020 COVID shutdown, noting this was a bipartisan policy not attributable to either Trump or Biden administration specifically.
+
+### Trump economic proposals [00:00:00]
+
+Walser highlights three elements of Trump's economic policy: sovereign wealth fund-style infrastructure investment (comparing to FDR and Great Society programs), corporate tax reduction from 21% to 15% for domestic manufacturers, and appointing an outside accountability figure like Elon Musk to oversee government efficiency.
+
+### Employment data concerns [00:00:00]
+
+Walser challenges the validity of positive job numbers, citing an 88,000-job annual adjustment downward from prior year and emphasizing the need to look at underlying economic indicators rather than headline BLS numbers.
 
 ## Transcript
 

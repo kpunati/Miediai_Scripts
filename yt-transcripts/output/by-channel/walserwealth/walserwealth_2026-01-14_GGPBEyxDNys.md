@@ -45,27 +45,48 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser discusses mortgage rates hitting 3-year lows, Federal Reserve leadership changes, and proposed credit card interest rate caps. She analyzes the constitutional and economic implications of credit rate restrictions and corporate investor bans on single-family homes."
 topics: []
-topics_proposed: []
+topics_proposed: ["mortgage-rates", "federal-reserve", "credit-card-regulation", "housing-policy", "consumer-credit"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Rebecca Walser"
+      role: "President, Walser Wealth Management"
+    - name: "Powell"
+    - name: "Trump"
+  companies:
+    - name: "Visa"
+      ticker: "V"
+    - name: "Mastercard"
+      ticker: "MA"
+    - name: "BlackRock"
+      ticker: "BLK"
+  tickers: ["V", "MA", "BLK"]
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["liquidity constraints", "usury laws", "credit restrictions", "housing affordability", "central banking policy"]
+content_type: "interview"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "30-year mortgage rates hit 5.99% on Friday, lowest since February 2023"
+    timestamp: "00:00:35"
+    confidence: "high"
+    flagged: true
+  - claim: "Visa has profit margin over 50% and Mastercard over 45%"
+    timestamp: "00:02:24"
+    confidence: "high"
+    flagged: true
+  - claim: "Average credit card rate in U.S. is 9.61%"
+    timestamp: "00:02:24"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +96,37 @@ notes: ""
 **Published:** 2026-01-14
 **URL:** https://youtube.com/watch?v=GGPBEyxDNys
 **Duration:** 4:33
+
+## Summary
+
+Rebecca Walser discusses the Fed's role in mortgage rate declines and Powell's May retirement with an expected dovish replacement. She examines Trump's proposed one-year 10% credit card interest rate cap, explaining constitutional limits and potential negative consequences for underbanked consumers. The conversation also covers proposed restrictions on corporate investors buying single-family homes.
+
+## Key Takeaways
+
+- 30-year mortgage rates fell to 5.99% (3-year low) on Friday due to Fed policy expectations and leadership changes
+- Federal Reserve is highly divided on international monetary policy, limiting consensus on direction
+- Constitutional constraints prevent direct presidential control of credit card rates, though usury laws offer an alternative framework
+- Visa and Mastercard have 50%+ profit margins, indicating substantial pricing power in payments
+- Restricting credit card rates risks limiting credit access for lower-credit borrowers, pushing them toward payday loans and loan sharks
+- Corporate investor restrictions on single-family home purchases could improve housing affordability but require careful design
+
+## Detailed Notes
+
+### Mortgage Rate Decline and Fed Leadership [00:00:00]
+
+30-year mortgages hit 5.99% on Friday, the lowest rate since February 2023. Walser attributes the decline to expectations that Powell will retire in May and Trump will announce a more dovish Fed chairman this month. The Federal Reserve is described as one of the most divided in decades with no consensus on international and monetary policy.
+
+### Credit Card Rate Cap Proposal [00:02:24]
+
+Trump proposed a one-year cap limiting credit card interest rates to 10%. Walser explains that the Constitution doesn't grant presidential authority to impose rate caps; usury laws at state level are the proper framework. She cites Visa and Mastercard's 50%+ profit margins as evidence of pricing power, suggesting rate caps could be viable without destroying profitability.
+
+### Unintended Consequences of Rate Controls [00:02:24]
+
+Walser warns that credit card companies might respond to rate caps by restricting credit only to highest-quality borrowers, potentially cutting off lower-credit consumers who would then turn to payday lenders and other usury sources. She suggests updating usury laws to cap rates at 18.99% as a possible middle ground approach.
+
+### Corporate Investment Restrictions on Housing [00:04:10]
+
+Walser supports Trump's proposed ban on corporate investors buying single-family homes, citing BlackRock and other firms systematically acquiring entire neighborhoods and then acting as landlords. She argues this model is problematic for American homeownership but acknowledges the complexity of the issue.
 
 ## Transcript
 

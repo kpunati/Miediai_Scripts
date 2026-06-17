@@ -39,27 +39,46 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Five essential pre-retirement actions for those with over $1M in savings: running detailed financial projections, addressing deferred medical/dental work, establishing fitness habits, securing credit access, and creating a loved ones financial checklist for family clarity."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "financial-planning", "pre-retirement-checklist", "healthcare-planning", "estate-planning", "liquidity-access"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amselog"
+      role: "Certified Financial Planner (CFP), RICP"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Loved Ones Checklist"]
+  concepts: ["retirement readiness", "financial projections", "healthcare costs", "home equity line of credit", "Medicare", "estate planning"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "If you've crossed the $1 million savings threshold, it's time to stop guessing and start mapping retirement plans with conservative estimates"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "Employer health insurance typically beats Medicare and supplemental plans, especially for major care items"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Getting in shape before retirement reduces future healthcare costs, typically the second or third largest retirement expense"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Banks consider retirees incomeless for borrowing purposes once W2 income ceases"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -69,6 +88,41 @@ notes: ""
 **Published:** 2025-07-09
 **URL:** https://youtube.com/watch?v=xFdQAAlMc_o
 **Duration:** 9:38
+
+## Summary
+
+Financial planner Eric Amselog outlines five high-leverage actions for those with $1M+ in savings before retirement. These steps address financial precision (running conservative projections), healthcare preparation (completing deferred medical/dental work), physical health (building fitness habits), financial flexibility (securing credit access), and family clarity (setting up estate documentation). The video emphasizes that reaching $1M savings represents a critical inflection point where detailed planning becomes essential.
+
+## Key Takeaways
+
+- Run detailed financial projections using conservative estimates for returns, inflation, and lifespan once you cross $1M in savings—it may show you can retire sooner than expected.
+- Complete all major medical, dental, and vision work under your employer insurance plan before retiring, as Medicare has higher deductibles and does not cover dental work.
+- Establish fitness and health habits now rather than waiting until retirement, as building health is harder than maintaining it and reduces future healthcare costs.
+- Secure a home equity line of credit or other access to liquidity while earning W2 income, to avoid forced investment sales during downturns or emergencies.
+- Create a loved ones financial checklist documenting account locations, access instructions, and end-of-life wishes so family members are not left confused or scrambling.
+- The goal of pre-retirement planning is to achieve clarity, flexibility, confidence, and peace of mind rather than simply stopping work.
+
+## Detailed Notes
+
+### Financial Readiness Assessment [00:00:00]
+
+The $1M savings threshold marks a tipping point where retirement planning should shift from directional guidance to precise mapping. Common retiree regrets center on lost healthy years rather than insufficient funds, suggesting the importance of retiring at the right time. Use either a financial planner or do-it-yourself analysis with conservative assumptions for returns, inflation, and lifespan.
+
+### Healthcare and Medical Preparation [00:00:00]
+
+Employer health insurance plans provide superior coverage compared to Medicare and supplemental insurance, particularly for high-cost procedures. Deferring major dental, vision, or surgical work until retirement often results in higher out-of-pocket costs and longer treatment timelines. Schedule appointments with current providers to identify all deferred care before retiring to lock in favorable coverage and timing.
+
+### Physical Health Foundation [00:00:00]
+
+Building strong health habits before retirement is critical since maintaining existing fitness is significantly easier than rebuilding it later. Good health directly enables enjoyment of retirement activities like travel and grandchild engagement. Additionally, entering retirement in good health reduces future healthcare expenses, typically the second or third largest retirement cost category.
+
+### Financial Flexibility and Liquidity [00:00:00]
+
+Banks treat retirees as having zero income for lending purposes, making it much harder or impossible to qualify for new credit after leaving employment. Opening a home equity line of credit while still employed provides a safety net for unexpected expenses without forcing investment sales during market downturns. The credit line serves as a lever for control and flexibility rather than as debt to be actively used.
+
+### Estate Planning and Family Communication [00:00:00]
+
+Beyond creating formal legal documents, the loved ones checklist specifically documents account locations, access procedures, and end-of-life instructions that must be shared with family. Poor execution of this step often leaves heirs scrambling and assets tied up in legal complexities. The checklist is framed as a loving legacy that provides clarity and reduces family stress during grief.
 
 ## Transcript
 

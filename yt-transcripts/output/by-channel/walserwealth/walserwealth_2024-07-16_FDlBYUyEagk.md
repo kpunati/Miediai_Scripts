@@ -42,24 +42,39 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Financial adviser Jacob Stinson outlines practical strategies for teaching children financial literacy, including earning allowances, saving money, understanding compound interest, budgeting, and early investment participation to develop healthy money habits."
 topics: []
-topics_proposed: []
+topics_proposed: ["financial-literacy", "children-education", "saving-habits", "budgeting", "compound-interest"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Jacob Stinson"
+      role: "Financial Adviser at Walser Wealth"
+  companies:
+    - name: "Walser Wealth"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["The Game of Life", "Monopoly"]
+  concepts: ["financial literacy", "money management skills", "compound interest", "budgeting", "savings accounts", "allowance systems", "credit scores", "debt ratios", "investment education"]
+content_type: "educational"
+audience_level: "beginner"
+key_claims: 
+  - claim: "Financial education in children has been linked to better money management skills, better credit scores, lower debt ratios, and overall more financial success"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Setting up a weekly earned allowance teaches kids that money is not free and creates proper mental relationship with money"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Saving early and more has greater effect on long-term goals due to compounding interest"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: ["unpunctuated_captions"]
@@ -72,6 +87,33 @@ notes: ""
 **Published:** 2024-07-16
 **URL:** https://youtube.com/watch?v=FDlBYUyEagk
 **Duration:** 3:11
+
+## Summary
+
+Jacob Stinson from Walser Wealth provides actionable tips for teaching children financial literacy from an early age. The video emphasizes that forming good financial habits early creates lasting benefits. Key strategies include implementing earned allowances to establish a healthy work-money relationship, using savings accounts to demonstrate the power of compound interest, and involving teens in real investment decisions. The content stresses that financial education creates measurable positive outcomes in money management and credit health throughout life.
+
+## Key Takeaways
+
+- Earned allowances teach children that money requires work and creates proper psychological relationship with finances
+- Savings accounts demonstrate compound interest visually as balances grow toward specific goals
+- Teaching goal-setting helps distinguish between needs and wants, building conscious spending habits
+- Involving teens in investments creates correlation between market behavior and long-term wealth growth
+- Board games and real-world application teach financial consequences and planning importance
+- Early financial education correlates with better credit scores and lower debt ratios throughout life
+
+## Detailed Notes
+
+### Foundation: Earned Allowances and Savings [00:00:00]
+
+Jacob Stinson introduces the core strategy of establishing weekly earned allowances to teach children that money is not free. He emphasizes using piggy banks or bank accounts so kids can visually see the value of hard work increasing. Goal-setting is integrated into savings to help children understand costs of items they want versus need.
+
+### Long-term Benefits and Teen Education [00:00:00]
+
+Research links financial education to better credit scores, lower debt ratios, and overall financial success. For teens, the focus shifts to understanding compound interest power over time and creating realistic budgets with earned income projections. Teaching responsibility through property care reinforces the cost of replacement and repair.
+
+### Investment Participation and Real-World Learning [00:00:00]
+
+Some programs allow parents and children to invest together, creating tangible connections between market movements and account growth or decline. Using board games like The Game of Life and Monopoly teaches planning, financial consequences, and the reality that purchasing requires funds and proper planning.
 
 ## Transcript
 

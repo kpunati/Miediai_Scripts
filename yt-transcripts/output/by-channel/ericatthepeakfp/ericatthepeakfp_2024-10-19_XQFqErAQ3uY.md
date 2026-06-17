@@ -36,27 +36,48 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Comprehensive retirement planning guide synthesizing lessons from 100+ books on life and retirement. Presents three-tier retirement hierarchy (predictability, stability, fulfillment) and emphasizes balancing financial planning with happiness, relationships, and health as drivers of meaningful retirement."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-fulfillment", "retirement-planning", "financial-happiness", "longevity-factors", "spending-philosophy", "compound-effect"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Eric Amzalag"
+      role: "CFP, RICP, Owner of Peak Financial Planning"
+    - name: "Darren Hardy"
+      role: "Author of The Compound Effect"
+    - name: "James Clear"
+      role: "Author of Atomic Habits"
+    - name: "Arthur Brooks"
+      role: "Harvard happiness professor, Author"
+  companies:
+    - name: "Peak Financial Planning Inc"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Index funds"]
+  concepts: ["compound effect", "time value of money", "retirement hierarchy of needs", "system-based planning", "habit building", "wants-to-haves ratio", "happiness research", "longevity", "physical health"]
+content_type: "educational"
+audience_level: "beginner"
+key_claims: 
+  - claim: "People with highest happiness have 35% lower risk of death compared to less happy individuals"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Saving $100/month from age 40-65 with 6.5% average annual return yields $675,000 vs $330,000 saved alone"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Starting savings at age 25 instead of 45 with same $100/month and 6.5% return produces $230,000 vs $150,000"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -66,6 +87,52 @@ notes: ""
 **Published:** 2024-10-19
 **URL:** https://youtube.com/watch?v=XQFqErAQ3uY
 **Duration:** 13:00
+
+## Summary
+
+Eric Amzalag synthesizes lessons from hundreds of books on life and retirement to present a comprehensive framework for retiring without regret. Rather than focusing solely on financial metrics, he proposes a three-tiered retirement hierarchy: predictability (having enough money at desired retirement age), stability (staying retired without running out of money), and fulfillment (living a meaningful, happy life). The video emphasizes research linking happiness to longevity and health, and introduces the concept of wants-to-haves ratios as a key factor in retirement satisfaction.
+
+## Key Takeaways
+
+- Retirement planning requires focus on fulfillment and happiness, not just financial optimization, as research shows happier people live longer and healthier lives.
+- The retirement hierarchy of needs has three levels: predictability (retiring when desired), stability (staying retired with systems), and fulfillment (living meaningfully).
+- Focus on the most impactful variables for building retirement wealth: how much you save, your investment returns, and time horizon—not complex strategies like Roth conversions or tax optimization.
+- Building systems for tracking expenses, savings rate, withdrawal rate, returns, and portfolio guardrails is more important long-term than optimization strategies.
+- Happiness in retirement depends on managing the ratio of wants to haves; reducing unnecessary wants improves satisfaction more than increasing money.
+
+## Detailed Notes
+
+### The Overlooked Role of Happiness in Retirement [00:00:00]
+
+According to National Institute of Aging, happiness is a primary driver of both longevity and physical health. Time Magazine research found that happiest people had 35% lower death risk than others. Studies show happier people maintain physical function and walking speed better. This foundational principle is often ignored in traditional financial retirement planning.
+
+### Retirement Hierarchy of Needs [00:00:00]
+
+The pyramid has three tiers: base is predictability (retiring when desired with right money), middle is stability (staying retired using systems), top is fulfillment (retiring happy). Each tier must be satisfied before focusing on the next. Financial needs at base level must be met, but excess focus on optimization without addressing fulfillment defeats retirement's purpose.
+
+### The Compound Effect Principle [00:00:00]
+
+From Darren Hardy's book, small choices plus consistency plus time equals significant results. In retirement planning, focus on few core variables done well repeatedly rather than spreading effort across Roth conversions, RMDs, tax location, and other advanced strategies. Success comes from doing half a dozen things really well 5,000 times, not from perfect optimization.
+
+### Impact of Time on Retirement Savings [00:00:00]
+
+Demonstrates power of compound returns: saving $100/month at 6.5% annual return for 25 years yields $675,000 vs $330,000 saved without investment. When stretched to 40 years starting at age 25, same $100/month yields $230,000. This illustrates why early saving and longer time horizon matter more than perfect investment strategy.
+
+### Systems Over Optimization for Stability [00:00:00]
+
+James Clear's principle: systems determine progress more than goals do. Long-term retirement requires continuous refinement, not single achievement. Peak Financial Planning's monitoring system tracks monthly expenses and withdrawal rate, quarterly returns and guardrails, semi-annual satisfaction—building habits of tracking allows dynamic adjustments before crises occur.
+
+### Contingency Planning and Drills [00:00:00]
+
+Similar to earthquake safety drills, mentally practicing contingency plans for when tracked metrics go wrong prevents panic. Documented rules for portfolio guardrails, withdrawal adjustments, and lifestyle changes established in advance prevent emotional decision-making during market downturns or spending surprises.
+
+### Fulfillment and the Wants-to-Haves Ratio [00:00:00]
+
+Arthur Brooks' research shows happiness depends on ratio of wants to haves. When wants greatly exceed haves, misalignment occurs. By thoughtfully defining true priorities (meaningful relationships, good health, specific activities) before retirement, individuals reduce distracting wants and focus resources on what truly matters.
+
+### The Bidirectional Relationship of Health and Happiness [00:00:00]
+
+Healthy people live longer because they're happier, and happy people are healthier as a result of happiness. This creates virtuous cycle: financial security supports health through less stress; health enables more activities that increase happiness. Money alone without addressing health and relationships does not ensure fulfillment.
 
 ## Transcript
 

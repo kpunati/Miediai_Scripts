@@ -54,27 +54,50 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Explains the five-year rules for Roth IRA tax-free withdrawals, covering three funding sources: contributions (always accessible), conversions (each with separate five-year clock), and growth (requires 59.5+ age). Demonstrates through examples how IRS assumes withdrawal order and why early retirees should strategically plan conversions."
 topics: []
-topics_proposed: []
+topics_proposed: ["roth-ira", "withdrawal-rules", "five-year-rule", "tax-free-growth", "retirement-withdrawals"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "James Conole"
+      role: "Financial advisor, CFP"
+  companies:
+    - name: "Root Financial Partners LLC"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Roth IRA", "Traditional IRA", "Backdoor Roth"]
+  concepts: ["five-year rule", "qualified distribution", "ordinary income tax", "penalty-free withdrawal", "tax bracket"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Roth IRA contributions are always accessible without penalty or taxes at any age"
+    timestamp: "00:01:02"
+    confidence: "high"
+    flagged: false
+  - claim: "2025 Roth IRA contribution limit is $7,000 per year under age 50, $8,000 at age 50+"
+    timestamp: "00:04:13"
+    confidence: "high"
+    flagged: true
+  - claim: "Each conversion has its own separate five-year rule for people under 59.5"
+    timestamp: "00:03:10"
+    confidence: "high"
+    flagged: false
+  - claim: "Converting $1 million from traditional IRA in one year creates ordinary income tax liability on entire amount"
+    timestamp: "00:04:13"
+    confidence: "high"
+    flagged: true
+  - claim: "IRS assumes withdrawal order: contributions first, then conversions, then growth"
+    timestamp: "00:06:16"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -84,6 +107,54 @@ notes: ""
 **Published:** 2025-03-11
 **URL:** https://youtube.com/watch?v=iFktxhbjocI
 **Duration:** 11:40
+
+## Summary
+
+James Conole breaks down the complex Roth IRA five-year rules that determine when withdrawals can be made tax-free. Money in Roth IRAs comes from three sources, each with distinct withdrawal rules: contributions are always accessible, conversions have separate five-year clocks per conversion for under-59.5 withdrawals, and growth requires age 59.5+ or qualifying exceptions. The IRS uses a presumed withdrawal order that simplifies tracking: first withdrawals are assumed to be contributions, then conversions, then growth. This framework helps retirees strategically plan conversions, especially for early retirement scenarios.
+
+## Key Takeaways
+
+- Roth IRA contributions are always withdrawable tax and penalty-free at any age, making them highly accessible
+- Growth within Roth IRAs cannot be withdrawn tax-free until age 59.5 unless a qualifying exception applies
+- Each Roth conversion you make before age 59.5 has its own separate five-year waiting period before conversion funds can be accessed
+- The five-year rule for the account (once met on initial Roth IRA funding) applies to all contributions thereafter across all Roth accounts
+- Conversions from traditional IRAs incur ordinary income tax on the full converted amount; large conversions can push you into higher tax brackets
+- IRS uses a three-step withdrawal priority: contributions first, then conversions, then growth—no tracking required
+- Early retirees should only do conversions if assets can grow for at least five years; otherwise the conversion may not be strategically worthwhile
+
+## Detailed Notes
+
+### Three Sources of Roth IRA Money [00:00:00]
+
+Roth IRA funds come from three sources with different withdrawal rules: (1) Contributions—direct deposits eligible for the contribution limit; (2) Conversions—transfers from traditional/pre-tax accounts; (3) Growth—investment earnings on account assets. Each source has different tax and age requirements for withdrawal.
+
+### Contributions: Always Accessible [00:01:02]
+
+Direct contributions to Roth IRAs are withdrawable any time without penalty or taxes regardless of age. Example: $5,000 contribution made at age 40 can be withdrawn at any time. However, any growth on that $5,000 follows different rules (10% penalty plus income tax if withdrawn before 59.5 unless qualified).
+
+### Initial Five-Year Rule for Qualified Distributions [00:02:06]
+
+To have a qualified distribution where all funds (contributions and growth) are tax-free, two conditions must be met: (1) Account holder must be 59.5+ years old; (2) Roth IRA must have been funded for five years. This five-year rule starts from the first dollar deposited in your first Roth IRA, not per contribution or per account.
+
+### Conversions and Separate Five-Year Rules [00:03:10]
+
+Each conversion you make has its own separate five-year rule (for accounts holders under 59.5). If you convert at ages 50, 51, 52, each conversion must wait five years before those converted funds are accessible. Once you turn 59.5, this per-conversion five-year rule no longer applies (only the account's initial five-year rule matters).
+
+### Conversion Limits and Tax Treatment [00:04:13]
+
+Unlike contributions (limited to $7,000 per year at age <50, $8,000 at 50+), conversions have no annual limit. However, converting large amounts triggers ordinary income tax on the entire converted amount. Converting $1 million in one year pushes income into top marginal brackets, likely a costly decision depending on situation.
+
+### Growth: Only Accessible at 59.5+ [00:05:15]
+
+Investment earnings/growth in Roth accounts cannot be withdrawn tax and penalty-free until age 59.5+ (unless qualifying exceptions apply). This is the primary difference from contributions and conversions, which have different accessibility rules.
+
+### IRS Withdrawal Order and Example [00:06:16]
+
+IRS presumes withdrawal order without requiring tracking: contributions first, then conversions (in order made), then growth. Example: $25k contributions + $25k conversions + $25k growth = $75k total. First $25k withdrawal assumed to be contributions (accessible at any age). Next $25k assumed conversions (must meet their five-year rules). Remaining is growth (subject to age 59.5 requirement).
+
+### Early Conversion Strategy and Concerns [00:08:21]
+
+Early retirees may hesitate to convert before 59.5 due to five-year waiting periods. However, strategy depends on asset growth timeline. If you won't let conversion assets grow for at least five years, the conversion may not be worthwhile since tax cost is paid upfront with benefits realized only through long-term tax-free growth.
 
 ## Transcript
 

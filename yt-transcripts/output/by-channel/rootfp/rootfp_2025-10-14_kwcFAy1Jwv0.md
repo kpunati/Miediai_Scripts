@@ -71,27 +71,42 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Outlines 10 fundamental shifts reshaping modern retirement: psychological shift from scarcity to purpose-driven spending, increased life expectancy requiring longer-funded portfolios, decline of pensions shifting responsibility from employers to individuals, changed attitudes toward aging, rising healthcare costs, phased/flexible work transitions, lower bond yields reducing passive income, technology expanding lifestyle options, need for intentional community buildi..."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-trends", "retirement-mindset", "pension-decline", "healthcare-planning", "retirement-identity"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "James Conole"
+      role: "CFP, financial adviser"
+  companies:
+    - name: "Root Financial Partners, LLC"
+      ticker: null
+  tickers: ["10-year Treasury bond"]
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: [{"name": "Retirement Planning Academy"}, {"name": "Retirement Planning Academy"}]
+  concepts: ["defined benefit plans", "defined contribution plans", "401k", "403b", "pension decline", "life expectancy", "inflation", "interest rates", "phased retirement", "Social Security", "healthcare costs", "sequence of returns risk"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Life expectancy increased from mid-70s 30 years ago to 79 today, making retirements 40% longer on average"
+    timestamp: "00:02:24"
+    confidence: "high"
+    flagged: false
+  - claim: "Pension coverage dropped from 40-45% of workers 30 years ago to 10-15% today; corporate workers dropped from 65% to near 10-15%"
+    timestamp: "00:03:27"
+    confidence: "high"
+    flagged: true
+  - claim: "10-year Treasury yields were 8.2% at start of 1990s and averaged mid-high 6% during the decade; now around 4.3%"
+    timestamp: "00:07:07"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -101,6 +116,65 @@ notes: ""
 **Published:** 2025-10-14
 **URL:** https://youtube.com/watch?v=kwcFAy1Jwv0
 **Duration:** 11:32
+
+## Summary
+
+James Conole explains how retirement has been fundamentally reimagined over the past three decades, requiring modern retirees to abandon outdated mental models. The video maps 10 major shifts—from psychological attitudes and life expectancy to economic structures and lifestyle possibilities—that collectively define retirement today. These shifts create both challenges (new responsibility for portfolio longevity, healthcare planning) and opportunities (phased work, intentional purpose design, technology-enabled experiences), underscoring that success in modern retirement requires understanding what has changed, not repeating past patterns.
+
+## Key Takeaways
+
+- A generational psychological shift from scarcity mindset (Great Depression era) to purpose-driven spending is essential; many inherit frugality from parents but must learn to use accumulated wealth as a tool.
+- Life expectancy increased ~4 years (mid-70s to ~79), stretching average retirement duration by 40% and requiring longer-funded portfolios that can sustain 25-30 year retirements.
+- Pension decline from 40-65% coverage to 10-15% shifted retirement responsibility entirely from employers to individuals; 401k and IRA management demands active planning and financial literacy.
+- Modern attitudes toward aging as vibrant years (not decline) require health prioritization and lifestyle design that sustains energy and purpose well into retirement.
+- Healthcare costs are now among the largest retirement expenses, necessitating both planning and proactive health maintenance to minimize dependence and expense.
+- Retirement is now phased, not binary—part-time work, consulting, and purpose projects allow identity continuity, income diversification, and psychological ease during transitions.
+- Lower bond yields (~4.3% vs. 6-8% in 1990s) and inflation volatility require fundamentally different portfolio construction to generate needed income.
+- Technology enables endless learning, travel, and exploration but can distract from intentional, meaningful experiences if not curated consciously.
+- Community is no longer automatic; geographic mobility and social media create illusion of connection while actual relationships require deliberate cultivation.
+- Modern retirement as a new chapter of purpose and meaning (not finish line) transforms motivation and fulfillment beyond financial security.
+
+## Detailed Notes
+
+### Psychological Shift: From Scarcity to Purpose [00:00:48]
+
+Retirees 30 years ago were shaped by Great Depression scarcity, creating ingrained saving and rationing habits. This mindset persisted even in retirement, preventing full enjoyment of accumulated wealth. Today's retirees have opportunity to shift toward using money as a tool for meaningful living. However, many inherit the frugal, disciplined mindset from Depression-era parents. While admirable discipline has value, retirees must assess whether inherited scarcity thinking still serves them or now prevents joy and life enjoyment.
+
+### Extended Life Expectancy and Longevity Risk [00:02:24]
+
+Life expectancy rose from ~75 to ~79, a seemingly modest increase that translates to 40% longer retirements when retiring at 65. For retirees at age 60-65, life expectancy now extends to mid-80s, creating extended funding requirements. The trend continues upward. Dual challenges emerge: prioritizing health to ensure quality in those extra years, not just quantity, and designing portfolios and income sources to sustain 25-30 year retirement horizons without depletion.
+
+### Pension Decline and Shift to Self-Directed Responsibility [00:03:27]
+
+Thirty years ago, 40-45% of workers had pensions (65% at large corporations); today only 10-15% do. This massive shift from defined-benefit (employer-managed) to defined-contribution (employee-managed) plans transfers retirement responsibility entirely to individuals. The good news: with proper planning and use of 401k and savings vehicles, retirees can create superior lifestyles. The challenge: few have education or discipline for self-directed retirement planning, creating critical need for financial literacy and planning.
+
+### Aging as Vibrant Years, Not Decline [00:04:27]
+
+In the 1990s, retirement symbolized beginning of decline. Today, health advances and wellness awareness enable vibrant, active retirements. Modern retirees can maintain vigor and energy well into later life if health is prioritized. This mindset shift—viewing retirement as a new chapter, not the finish line—profoundly affects motivation, lifestyle design, and overall fulfillment. Retirement becomes opportunity for activities, travel, and pursuits previously deferred, not withdrawal from life.
+
+### Healthcare Cost Planning [00:05:15]
+
+Healthcare costs, modest 30+ years ago, have become potentially the largest retirement expense. Two-fold response needed: first, direct planning for healthcare costs; second, proactive health maintenance to minimize dependence on expensive medical interventions. Lifestyle choices preventing chronic diseases and maintaining fitness reduce both healthcare expenses and improve quality of life in retirement years.
+
+### Phased Retirement and Work Flexibility [00:06:17]
+
+Retirement is no longer binary (work/retire at 62-65). Modern retirees phase transitions through part-time work, consulting, or purpose projects. This flexibility serves dual benefits: financial (extended earning, reduced portfolio withdrawal burden) and psychological (smoother identity transition, continued sense of purpose and contribution). Phased retirement reduces shock of work-to-retirement transition and provides income bridge during early retirement years.
+
+### Lower Bond Yields and Changed Economic Context [00:07:07]
+
+In early 1990s, 10-year Treasury yields were 8.2%, averaging 6-6.5% throughout the decade while inflation averaged <3%. Today's 10-year yield is ~4.3% with volatile inflation. This structural change—lower yields reducing passive income generation—fundamentally requires different portfolio construction. Growth components become more essential for meeting long-term needs, and traditional bond-heavy conservative portfolios cannot generate historical income levels.
+
+### Technology as Tool and Distraction [00:07:50]
+
+Technology has expanded retirement possibilities exponentially: virtual travel research via YouTube/Instagram, instant itinerary planning via ChatGPT, access to global learning. However, technology can become a distraction trap, replacing actual experiences and relationships with curated media consumption. Conscious curation is required: using technology to enhance intentional experiences and connections rather than substituting passive consumption for active living.
+
+### Community as Intentional Practice [00:08:52]
+
+Thirty years ago, community was automatic (work, church, stable neighborhood), built-in through geographic stability. Modern mobility (career changes, family dispersed nationally) eliminates default community. Social media creates illusion of connection while actual relationships require deliberate cultivation. Retirees must be intentional about building community, which becomes especially important for mental health, sense of belonging, and identity beyond work.
+
+### Retirement as New Chapter of Purpose, Not Finish Line [00:09:46]
+
+The most significant psychological shift: retirement as beginning, not ending. Thirty years ago, retirement meant completion of career-defined purpose. Today, retirement is blank canvas opportunity to design meaningful life aligned with values, interests, and relationships. This reframe transforms retirement from loss-focused (leaving career identity) to gain-focused (freedom to create meaningful chapter). Purpose-driven retirement yields not just financial security but genuine meaning and joy.
 
 ## Transcript
 

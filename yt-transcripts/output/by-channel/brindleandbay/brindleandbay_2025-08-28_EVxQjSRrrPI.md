@@ -41,27 +41,38 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Key Roth IRA decisions before age 60 determine long-term tax-free growth. Covers income limits affecting eligibility, backdoor Roth strategies, conversion timing, contribution maximization, and withdrawal rules. Early planning maximizes compounding window and flexibility."
 topics: []
-topics_proposed: []
+topics_proposed: ["roth-ira-planning", "backdoor-roth", "income-limits", "roth-conversions", "early-retirement-access"]
 entities:
-  people: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, financial advisor"
+    - name: "Derek Tharp"
+      role: "researcher"
   companies: []
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["Roth IRA", "Roth 401k", "Backdoor Roth"]
+  concepts: ["income phase-out", "5-year rule", "pro-rata rule", "catch-up contributions", "Roth conversion ladder"]
+content_type: "educational"
+audience_level: "advanced"
+key_claims: 
+  - claim: "2025 Roth IRA contribution income limit is ~$150,000 for single filers"
+    timestamp: "00:02:10"
+    confidence: "high"
+    flagged: true
+  - claim: "Roth catch-up contributions are $1,000/year for those over 50 (total $8,000/year)"
+    timestamp: "00:08:01"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -71,6 +82,37 @@ notes: ""
 **Published:** 2025-08-28
 **URL:** https://youtube.com/watch?v=EVxQjSRrrPI
 **Duration:** 12:21
+
+## Summary
+
+This video emphasizes that Roth decisions made in your 50s carry outsize impact because you still have decades of tax-free compounding ahead. The presenter walks through income limit management, backdoor Roth strategies, conversion timing, and common pitfalls like excess contributions or pro-rata complications that can undermine long-term Roth effectiveness.
+
+## Key Takeaways
+
+- Your 50s are the last big window for high Roth contributions before penalties and phase-outs apply.
+- Income limits phase out Roth eligibility (~$150K single, higher married); backdoor Roth bypasses this for high earners.
+- Backdoor Roth requires caution if you have existing traditional IRAs; pro-rata rule can trigger unexpected taxes.
+- Conversion timing matters: spreading conversions over multiple years avoids tax bracket jumps.
+- Catch-up contributions ($1,000 extra/year after 50) must be maximized; they're 'use it or lose it' annually.
+- Withdrawal timing before 60: preserve compounding by avoiding early pulls unless needed for bridge to 59.5.
+
+## Detailed Notes
+
+### Income Limits and Eligibility [00:02:10]
+
+2025 direct Roth contribution phase-out begins around $150,000 (single) or $236,000 (married). Many high-income earners in peak earning years hit this limit unknowingly. This is why understanding backdoor Roth becomes essential—it preserves tax-free contribution opportunity despite income.
+
+### Backdoor Roth Mechanics and Pro-Rata Risk [00:04:14]
+
+Backdoor Roth: make non-deductible traditional IRA contribution, then convert to Roth. Trap: IRS pro-rata rule aggregates all IRA balances (traditional + SEP + SIMPLE) to calculate tax on conversion. Having existing traditional IRA balances can trigger unexpected taxes. Form 8606 tracks this; must file if conversion occurs.
+
+### Conversion Timing and Tax Strategy [00:05:54]
+
+Converting during peak earning years seems counterintuitive but often works: spread conversions over several years to avoid single-year tax spikes. Even in higher income years, strategic conversions sometimes fit without painful tax bracket jumps. Timing is individual but flexibility is critical before retirement locks income patterns.
+
+### Maximizing Before 60 [00:08:01]
+
+Annual limits: $7,000 base + $1,000 catch-up (age 50+) = $8,000/year. Contributions are 'use it or lose it'—missed years cannot be recovered later. Maximizing in your 50s compounds significantly by retirement. Even small increases in consistent contributions compound into six figures over decades.
 
 ## Transcript
 

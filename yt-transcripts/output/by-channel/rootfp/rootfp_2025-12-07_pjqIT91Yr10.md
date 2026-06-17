@@ -58,27 +58,48 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Financial advisor James Conole presents a three-step retirement planning framework for singles: defining a freedom number, mapping reliable income sources (Social Security/pensions), and building a portfolio with purpose. Using 62-year-old Tina with $2.2M in assets as a case study, he demonstrates how singles can retire earlier and spend more while maintaining a sustainable withdrawal rate."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "singles-financial-planning", "social-security-strategy", "portfolio-withdrawals", "freedom-number"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Tina"
+      role: "retirement planning case study subject"
+    - name: "James Conole"
+      role: "CFP, financial advisor"
+  companies:
+    - name: "Root Financial Partners"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["freedom-number", "reliable-income-sources", "withdrawal-rate", "portfolio-planning"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Most retirement advice assumes two incomes and Social Security checks, but singles have different margins and potential freedom"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Tina, a 62-year-old single with $2.2 million across accounts, needs $6,000 per month for retirement expenses"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Single individuals should optimize Social Security for maximum lifetime income, not spousal protection like married couples"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Tina's projected Social Security benefit is $3,300 per month at age 67, reduced if collected at age 65"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -88,6 +109,41 @@ notes: ""
 **Published:** 2025-12-07
 **URL:** https://youtube.com/watch?v=pjqIT91Yr10
 **Duration:** 12:55
+
+## Summary
+
+James Conole presents a three-step framework for single retirees: (1) Design your freedom number by defining what retirement lifestyle costs, not starting with spreadsheets; (2) Map reliable income sources like Social Security and pensions; (3) Build a portfolio with purpose to cover the gap between spending and reliable income. Using Tina, a 62-year-old single woman with $2.2 million in assets, he shows how singles can retire earlier and expand their dreams once portfolio capacity is understood.
+
+## Key Takeaways
+
+- Singles have full control over retirement design without compromise, unlike married couples who must align decisions.
+- Start with lifestyle goals first (freedom number), then work backward to determine how much portfolio support is needed.
+- Reliable income sources (Social Security, pensions) are calculated separately before portfolio withdrawals to understand the true gap.
+- Withdrawal rates for wealthy singles can be very low (1-1.5%), allowing flexibility to retire early, spend more, or both.
+- Many single retirees leave excess wealth unspent; the goal is to optimize life quality with available assets.
+- Social Security strategy differs for singles, focusing on lifetime income maximization rather than spousal protection.
+
+## Detailed Notes
+
+### The Single Retiree Challenge [00:00:00]
+
+Most retirement planning assumes married couples with dual income and Social Security. Singles face tighter margins but have greater freedom in decision-making since all choices are their own. The three-step framework is: design freedom number, map reliable income, build portfolio with purpose.
+
+### Step 1: Design Your Freedom Number [00:00:00]
+
+Start with lifestyle goals, not spreadsheets. Consider travel (domestic/international), social clubs, volunteering, time with family. Then work backward to calculate the cost. Tina's initial estimate was $6,000/month, but the framework allows inclusion of healthcare, vacations, gifts, and major purchases to create a complete freedom number.
+
+### Step 2: Map Reliable Income Sources [00:00:00]
+
+Identify non-portfolio income: Social Security, pensions, annuities, rental income. For singles, Social Security strategy differs from married couples—focus is on maximizing lifetime income rather than spousal protection. Tina's Social Security is $3,300/month at age 67, with reduction if claimed at 65. Singles previously married for 10+ years may still access spousal/survivor benefits.
+
+### Step 3: Build a Portfolio with Purpose [00:00:00]
+
+Calculate the gap between desired spending and reliable income. This gap is what the portfolio must support. For Tina, $72,000/year in expenses minus reliable income means the portfolio must provide ~$49,000 in year one. At $2.2M in assets, this represents a 1-1.5% withdrawal rate, leaving room for early retirement or increased spending.
+
+### Flexibility and Optimization [00:00:00]
+
+Once portfolio capacity is understood, Tina can explore options: retiring early at 62, adding $20,000/year for travel, or funding friends' trips. With a low withdrawal rate and high success probability, singles can maximize life quality rather than accumulating excess wealth. The case shows Tina would otherwise leave $11M unspent; optimization redirects this to life experiences.
 
 ## Transcript
 

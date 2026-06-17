@@ -45,27 +45,56 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser and David Asman examine bond market vigilantism and excessive government spending. They analyze why 10-year yields are rising despite Fed rate cuts, attribute the problem to Biden-era deficit spending reaching $2 trillion annually, and discuss Trump's DOGE team's ability to reduce expenditures."
 topics: []
-topics_proposed: []
+topics_proposed: ["deficit-spending", "bond-yields", "federal-budget", "inflation-expectations", "doge-reform"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Rebecca Walser"
+      role: "Principal and Founder, Walser Wealth Management"
+    - name: "David Asman"
+      role: "Interviewer, Fox Business"
+    - name: "Janet Yellen"
+      role: "Treasury Secretary"
+    - name: "Elon Musk"
+      role: "DOGE Leadership"
+  companies:
+    - name: "Walser Wealth Management"
+      ticker: null
+    - name: "Fox Business"
+      ticker: null
+    - name: "Federal Reserve"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["DOGE", "Bond Vigilantes", "Federal Deficit", "Debt Spiral Risk", "Yield Curve", "Quantitative Easing", "Migration Policy", "Inflation Control"]
+content_type: "interview"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "The 2019 baseline spending was $4.5 trillion, now at over $6.5 trillion, with $1 trillion in additional deficit spending in 100 days"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: true
+  - claim: "The current annual budget deficit is $2 trillion, compared to Trump's pre-pandemic $900 billion"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Federal spending during pandemic reached close to $6 trillion but mostly phased out, then Biden brought it back"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: true
+  - claim: "Biden increased spending by 53 percent relative to the pandemic baseline"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: ["unpunctuated_captions"]
+flags: ["unpunctuated_captions", "whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +104,40 @@ notes: ""
 **Published:** 2025-01-10
 **URL:** https://youtube.com/watch?v=f2wFIm8CuqY
 **Duration:** 5:24
+
+## Summary
+
+David Asman and Rebecca Walser discuss the disconnect between Federal Reserve policy and bond market movements. The Fed cuts rates but yields rise, signaling bond markets are pricing in inflation and fiscal risk from unsustainable spending. Walser attributes rising yields to excessive government expenditure, Janet Yellen's debt extension strategy, and the belief that DOGE cannot cut spending enough to stabilize the outlook.
+
+## Key Takeaways
+
+- Bond vigilantes are rejecting treasuries because government spending has reached unsustainable levels without war or pandemic justification
+- The Fed's rate cuts are ineffective because markets are pricing fiscal risk that overshadows monetary policy
+- Federal spending baseline has doubled from pre-pandemic levels and continues accelerating
+- DOGE team faces structural barriers to meaningful cuts through legislative processes like reconciliation packages
+- Treasury debt rolls executed by Yellen to protect 10-year yields created structural long-term liability
+
+## Detailed Notes
+
+### Bond Vigilantism and Yield Disconnect [00:00:00]
+
+Fed cuts rates (down arrow) but bond markets sell treasuries (yields up arrow), creating opposite movements. Walser attributes this to bond markets signaling disbelief in government fiscal discipline, with the $2 trillion deficit spending becoming the primary concern over Fed policy.
+
+### Baseline Spending and Deficit Acceleration [00:00:00]
+
+Pre-pandemic 2019 baseline was $4.5 trillion annually. Pandemic spending pushed this to $6 trillion, which should have phased out. Biden sustained $6.5 trillion spending levels without emergency conditions. In just 100 days, an additional $1 trillion was added.
+
+### Structural Deficit Dynamics [00:00:00]
+
+Trump's last deficit was $900 billion; current deficit is $2 trillion. Walser emphasizes this is not cyclical but structural—53% of spending increase came from Biden policy without corresponding pandemic justification.
+
+### DOGE and Political Constraints [00:00:00]
+
+Walser expresses hope for DOGE but notes legislative sausage-making (tax cuts, border, spending bundled in reconciliation) will constrain cuts. Elon Musk was quoted as unable to achieve $2 trillion cuts, possibly only $1 trillion feasible. Market perception of DOGE's inability to deliver is already priced in.
+
+### Fed Deflection on Inflation [00:00:00]
+
+Fed minutes show preemptive blame-shifting to Trump's trade policy for inflation control delays. Walser notes paradox: Fed flooded economy with cheap migrant labor to control inflation, now claiming immigration restrictions will cause inflation—contradictory messaging.
 
 ## Transcript
 

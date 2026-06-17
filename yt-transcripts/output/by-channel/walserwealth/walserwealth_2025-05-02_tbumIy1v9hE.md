@@ -46,27 +46,80 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Rebecca Walser analyzes big tech earnings (Microsoft, Meta, Apple, Amazon) amid tariff uncertainty, discusses supply chain impacts including 30-60% decline in China imports, addresses tariff cost distribution, gold market dynamics, and predicts 8-week critical period for policy implementation and market stabilization."
 topics: []
-topics_proposed: []
+topics_proposed: ["tech-earnings", "tariff-impact", "supply-chain", "big-tech", "market-outlook"]
 entities:
-  people: []
-  companies: []
-  tickers: []
+  people:
+    - name: "Rebecca Walser"
+      role: "wealth manager, financial commentator"
+    - name: "Nicole Petallides"
+      role: "Schwab Network host"
+    - name: "Tim Cook"
+      role: "Apple CEO"
+    - name: "Andy Jassy"
+      role: "Amazon CEO"
+    - name: "Trump"
+      role: "president"
+  companies:
+    - name: "Microsoft"
+      ticker: null
+    - name: "Meta"
+      ticker: null
+    - name: "Apple"
+      ticker: null
+    - name: "Amazon"
+      ticker: null
+    - name: "Netflix"
+      ticker: null
+    - name: "Walmart"
+      ticker: null
+    - name: "Target"
+      ticker: null
+    - name: "Bank of America"
+      ticker: null
+  tickers: ["MSFT", "META", "AAPL", "AMZN"]
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["MAG7 stocks", "tariff policy", "supply chain disruption", "guidance risk", "gold markets", "consumer pricing"]
+content_type: "analysis"
+audience_level: "advanced"
+key_claims: 
+  - claim: "Dow up 9 days in a row, no winning streak like this since summer 2023"
+    timestamp: "00:00:11"
+    confidence: "high"
+    flagged: false
+  - claim: "NASDAQ clocked in a gain in April that no one expected"
+    timestamp: "00:00:11"
+    confidence: "medium"
+    flagged: false
+  - claim: "MAG7 expecting 15% increase in revenue and profit margins even with tariffs"
+    timestamp: "00:00:11"
+    confidence: "medium"
+    flagged: true
+  - claim: "Port of Los Angeles expecting 30% less deliveries from China in May"
+    timestamp: "00:00:11"
+    confidence: "medium"
+    flagged: true
+  - claim: "US could see as much as 60% decline in China imports broader terms"
+    timestamp: "00:00:11"
+    confidence: "low"
+    flagged: true
+  - claim: "Apple warned of $900 million tariff cost charge for quarter"
+    timestamp: "00:00:11"
+    confidence: "high"
+    flagged: true
+  - claim: "Gold up over 40% year-over-year, April to April"
+    timestamp: "00:00:11"
+    confidence: "high"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -76,6 +129,32 @@ notes: ""
 **Published:** 2025-05-02
 **URL:** https://youtube.com/watch?v=tbumIy1v9hE
 **Duration:** 9:04
+
+## Summary
+
+Financial analyst Rebecca Walser provides comprehensive analysis of big tech earnings reports released May 1-2, 2025, examining implications of Trump tariff policy. She discusses Microsoft and Meta beating expectations while Apple and Amazon show concerns about future guidance due to supply chain impacts. Walser explains that major tariff impacts will occur through May-June, with supply constraints potentially affecting consumer availability and pricing. She emphasizes 8-week critical period for tariff negotiations and policy implementation.
+
+## Key Takeaways
+
+- Microsoft and Meta earnings drove positive market momentum, but MAG7 cannot be relied upon to carry market gains alone
+- Apple's $900 million quarterly tariff hit foreshadows larger Q3-Q4 guidance risks if supply chain cannot be sustained at India production levels
+- Port of Los Angeles expecting 30% fewer China deliveries in May, with US-wide impact potentially reaching 60%, affecting retail inventory
+- Amazon faces complexity in calculating tariff pass-through costs given marketplace business model; supply disruptions pose greater risk than tariff calculation
+- Gold appropriate strategic holding despite near-term rotations; 8-week period critical for policy clarity and market stabilization
+
+## Detailed Notes
+
+### Big Tech Earnings Overview and Market Sentiment [00:00:11]
+
+Microsoft and Meta delivered strong results earlier in week, driving market positive sentiment. Dow up 9 consecutive days for first time since summer 2023. NASDAQ gained in April unexpectedly. MAG7 stocks expected to show 15% revenue and margin growth despite tariff environment, but analyst cautions not to overweight expectations on seven names.
+
+### Apple Supply Chain and Tariff Impact [00:00:11]
+
+Apple warned of $900 million tariff charge for Q2. Tim Cook said no evidence of consumer pre-buying before tariffs, surprising analyst given market observations. Company claims ability to source from India for Q2, but sustainability questionable for Q3-Q4. Stock down 4.7% following earnings. Consensus shows 32% upside but analyst notes volatility expected over next 8 weeks.
+
+### Supply Chain Disruption and Consumer Impact [00:00:11]
+
+Port of Los Angeles expecting 30% fewer China deliveries in May alone; broader US context suggests 60% decline in China imports possible. Walmart and Target warning of COVID-like supply shortages. Tariff pass-through partially borne by suppliers, consumers, and retailers. Trump administration rationale: correcting decades of unfair trade, shifting manufacturing from Asia with cheaper labor to US with higher labor costs and regulations.
 
 ## Transcript
 

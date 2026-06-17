@@ -60,27 +60,58 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "CFP Kevin Lum identifies three critical blind spots in retirement plans that can derail even wealthy retirees: undefined long-term care costs (which can halve success probability), cognitive decline risk without safeguards (as financial decision-making ability peaks at 53 and declines 2% annually post-60), and actual spending rates (a $2,000/month underestimate can reduce success from 81% to 33%). The video demonstrates how hidden risks can erode seemingly solid retirement plans."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-planning", "long-term-care", "cognitive-decline", "spending-behavior", "probability-of-success", "risk-management"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Kevin Lum"
+      role: "CFP, founder of Foundry Financial"
+    - name: "Benjamin Brandt"
+      role: "YouTuber"
+    - name: "Phil Duny"
+      role: "case study subject"
+    - name: "Claire Duny"
+      role: "case study subject"
+  companies:
+    - name: "Foundry Financial"
+      ticker: null
+    - name: "Texas Tech University"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["RightCapital"]
+  concepts: ["long-term-care-insurance", "financial-literacy-decline", "monte-carlo-simulation", "probability-of-success", "cognitive-aging"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Long-term care modeled at 2 years for male, 3 years for female at national average rates ($75,000+/year) reduces a plan's probability of success from over 80% to approximately 40%"
+    timestamp: "00:03:08"
+    confidence: "high"
+    flagged: true
+  - claim: "Financial decision-making ability peaks around age 53"
+    timestamp: "00:04:26"
+    confidence: "high"
+    flagged: false
+  - claim: "Financial literacy drops about 2% per year after age 60, falling from 59% for those in their 60s to 30% for those 80+"
+    timestamp: "00:05:14"
+    confidence: "high"
+    flagged: true
+  - claim: "A $2,000/month underestimate in actual spending ($8,000 to $10,000) reduces probability of success from 81% to 33%"
+    timestamp: "00:12:03"
+    confidence: "high"
+    flagged: true
+  - claim: "A close friend's mother was scammed out of a million dollars, completely wiping out her retirement"
+    timestamp: "00:06:46"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -90,6 +121,36 @@ notes: ""
 **Published:** 2025-12-20
 **URL:** https://youtube.com/watch?v=eSgXw9OZX3c
 **Duration:** 13:04
+
+## Summary
+
+Kevin Lum walks through three questions he uses with prospective clients to uncover hidden retirement risks that could derail even multi-million-dollar nest eggs. These risks—long-term care costs, cognitive decline without safeguards, and actual spending rates—are often overlooked in basic retirement planning. Through case study modeling with Phil and Claire Duny (age 62 with $2M in savings and ~$4,500/month Social Security), Lum demonstrates how each factor materially impacts plan viability via Monte Carlo simulation.
+
+## Key Takeaways
+
+- Long-term care risk is frequently ignored in retirement plans; modeling 2-3 years at nursing-home costs (~$75,000/year) can cut success probability in half, from 80%+ to 40%.
+- Financial decision-making peaks at age 53 and declines ~2% per year after 60; without safeguards (advisor oversight, family involvement), cognitive decline creates vulnerability to scams and poor decisions.
+- Actual spending, not market returns, is the primary failure driver; many retirees cannot articulate exact spending and underestimate by $1,000-2,000/month, materially worsening plan outcomes.
+- Probability of success is highly sensitive to small input changes; a $2,000 spending increase drops success from 81% to 33%, more damaging than omitting long-term care entirely.
+- Retirement plans need systematic safeguards: long-term care insurance, family oversight, and clear spending baselines built before retirement to remain robust over 30+ year horizons.
+
+## Detailed Notes
+
+### Question 1: Long-Term Care Planning [00:01:03]
+
+Kevin discusses a prospect with $2M in savings who hadn't modeled any long-term care costs, despite his mother being in a facility. When 2-3 years of nursing care (~$75,000/year) is added to the plan, success probability drops from 80%+ to ~40%. The national average approach reveals that people often assume 2 years for themselves but longer for spouses, yet many retirees underestimate. Solutions include purchasing long-term care insurance, reducing spending to preserve capital, or leveraging home equity.
+
+### Question 2: Cognitive Decline & Scam Risk [00:03:48]
+
+Research shows financial decision-making ability peaks around age 53 and declines thereafter. A Texas Tech study documented ~2% annual decline in financial literacy after 60, falling from 59% (age 60s) to 30% (age 80+). Critically, confidence in financial decisions does not decline proportionally—older adults often express greater confidence as ability deteriorates. Simultaneously, scammers leverage AI, deepfakes, and sophisticated schemes targeting aging populations. Kevin's close friend's mother lost $1M to scams, wiping out her entire retirement. Safeguards include financial advisor oversight, family involvement, and clear decision protocols established before decline is obvious.
+
+### Question 3: Actual vs. Assumed Spending [00:07:28]
+
+Kevin asks prospects 'How much do you actually spend?' and frequently encounters vague estimates ('probably $10,000/month'). Retirement is fundamentally a math equation: spending <= guaranteed income + portfolio withdrawals. Failing to define spending leads to plan failures. Using Phil & Claire's scenario: at $8,000/month net (with ~$4,500 in Social Security), they have 81% success. If actual spending is $10,000/month (22% higher), success drops to 33%—more damaging than omitting long-term care. Kevin recommends monthly retirement paychecks to enforce behavioral budgeting and clarify true spending before retirement.
+
+### Synthesis & Risk Integration [00:12:03]
+
+The video emphasizes that even high-net-worth retirees with seemingly strong plans harbor multiple risks. These three questions surface hidden vulnerabilities. Plans are sensitive to input errors: small changes in assumptions (spending, care costs, life expectancy) cascade into large probability shifts. A comprehensive retirement plan must address all three dimensions (care, cognitive safeguards, spending clarity) rather than focusing narrowly on investment performance or asset allocation.
 
 ## Transcript
 

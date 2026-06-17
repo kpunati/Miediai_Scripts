@@ -66,24 +66,43 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Kevin Lum, CFP, explores Abraham Maslow's hierarchy of needs and its application to retirement planning. The video discusses how successful retirement requires more than financial security—it demands fulfilling deeper human needs including relationships, self-esteem, learning, and transcendence through purposeful service to others."
 topics: []
-topics_proposed: []
+topics_proposed: ["maslow-hierarchy", "retirement-planning", "retirement-psychology", "life-purpose", "relationships", "self-actualization"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Kevin Lum"
+      role: "Certified Financial Planner"
+    - name: "Abraham Maslow"
+      role: "Psychologist"
+    - name: "Martin Seligman"
+      role: "Professor at University of Pennsylvania"
+  companies:
+    - name: "Foundry Financial"
+      ticker: null
   tickers: []
   funds: []
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["hierarchy-of-needs", "self-actualization", "transcendence", "deficiency-needs", "peak-experiences", "financial-independence", "retirement-fulfillment", "purpose-driven-living"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "The most important aspect of retirement planning is not about withdrawal strategies or tax optimization, but understanding deeper human needs like purpose and relationships"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Maslow's original hierarchy had five levels; he later expanded it to eight levels, adding cognitive needs and aesthetic needs above self-actualization, with transcendence as the ultimate need"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
+  - claim: "Research shows that people who are actively religious tend to live longer because it gives them a purpose beyond themselves"
+    timestamp: "00:00:00"
+    confidence: "medium"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: ["unpunctuated_captions"]
@@ -96,6 +115,44 @@ notes: ""
 **Published:** 2024-10-12
 **URL:** https://youtube.com/watch?v=Q15u5FnBQ-Q
 **Duration:** 12:16
+
+## Summary
+
+Kevin Lum examines why many retirees experience depression despite achieving financial success, drawing on Abraham Maslow's psychological framework. The core insight is that retirement success requires fulfilling multiple human needs beyond mere financial security: physiological safety, relationships, self-esteem, continuous learning, aesthetic appreciation, and ultimately, transcendence through serving something larger than oneself. Maslow's later-life addition of these higher-order needs explains why peak achievement alone fails to produce lasting fulfillment.
+
+## Key Takeaways
+
+- Successful retirement depends on more than financial planning—it requires fulfilling Maslow's hierarchy of human needs including relationships, self-esteem, and purposeful service
+- Early retirees often experience unexpected depression not from financial insecurity but from losing workplace relationships, sense of achievement, and personal purpose
+- Continuous learning and personal growth remain essential in retirement; stopping all challenge and development contributes to decline and unhappiness
+- Meaningful relationships and social connection are critical to loneliness prevention and longevity; isolation is a major but overlooked retirement risk
+- Transcendence—finding purpose in service to others through volunteer work, faith, or community involvement—is the highest need and strongest predictor of retirement fulfillment
+
+## Detailed Notes
+
+### The Retirement Fulfillment Problem [00:00:00]
+
+Despite achieving early financial independence, many retirees experience unexpected depression and regret. Lum identifies that early excitement fades over time and a sense of emptiness sets in, suggesting financial success alone does not guarantee retirement satisfaction.
+
+### Maslow's Original Hierarchy Applied to Retirement [00:00:00]
+
+Maslow's five-level hierarchy maps closely onto retirement stages: basic physiological needs (food, shelter, health care), safety and security (the driving force behind extended work), relationships (crucial but disrupted in retirement), self-esteem (often lost without work identity), and self-actualization (achievement and personal growth).
+
+### The Challenge of Losing Work Identity [00:00:00]
+
+Self-esteem and sense of achievement are major issues for retirees because work provides both sense of purpose and recognition from others. Without work, many struggle to reorient how they receive esteem and feel they lose their identity, creating a need for deliberate reorientation.
+
+### Maslow's Later Discoveries: Beyond Self-Actualization [00:00:00]
+
+Late in life, Maslow expanded his hierarchy from five to eight needs, adding cognitive needs (learning and understanding), aesthetic needs (beauty and harmony), and crucially, transcendence—living beyond oneself and serving a purpose larger than personal achievement.
+
+### Transcendence and Purpose Beyond Self [00:00:00]
+
+Maslow's final insight is that the highest human need is transcendence—not self-achievement but meaningful service to something larger than oneself. This shift from his earlier focus reflects the realization that personal achievement alone eventually feels hollow without external purpose.
+
+### Practical Applications for Retirement Fulfillment [00:00:00]
+
+Lum recommends retirees prioritize three things: continue learning and stretching themselves with difficult challenges, invest heavily in maintaining and building relationships (acknowledging this becomes harder over time), and find meaningful ways to contribute beyond themselves—whether through volunteering, faith involvement, politics, or community service.
 
 ## Transcript
 

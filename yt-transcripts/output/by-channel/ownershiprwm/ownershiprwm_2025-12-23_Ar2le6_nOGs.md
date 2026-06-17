@@ -58,24 +58,47 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Practical framework for unwinding concentrated stock positions using disciplined rules-based approach. Covers five core rules for managing concentrated positions: fixed-schedule selling, parameter establishment, immediate reinvestment, coordinated tax planning, and locked decision-making policy. Emphasizes removing emotion and preventing harmful timing decisions during volatility."
 topics: []
-topics_proposed: []
+topics_proposed: ["concentrated-positions", "tax-planning", "stock-diversification", "behavioral-finance", "portfolio-rebalancing"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Sapienza"
+      role: "Senior Adviser at Ritholtz Wealth Management"
+    - name: "Ann"
+      role: "Long-time Big Tech employee preparing for early retirement"
+  companies:
+    - name: "Ritholtz Wealth Management"
+      ticker: null
   tickers: []
-  funds: []
+  funds:
+    - name: "Donor-Advised Fund"
+      ticker: null
   products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  concepts: ["concentrated-stock-position", "tax-loss-harvesting", "capital-gains-tax", "0%-capital-gains-bracket", "low-income-years", "donor-advised-fund", "rules-based-plan"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Common fixed selling schedule for concentrated positions is 24-36 months"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Common structure for position unwinding is to sell 25% spread over four quarters at the same time each quarter"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Reinvesting immediately after selling helps minimize regret and keeps capital in the market while diversifying"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
+  - claim: "Three methods to optimize tax planning: loss-harvesting years, donor-advised funds, and pairing sales with low-income retirement years"
+    timestamp: "00:00:00"
+    confidence: "high"
+    flagged: false
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
 flags: []
@@ -88,6 +111,40 @@ notes: ""
 **Published:** 2025-12-23
 **URL:** https://youtube.com/watch?v=Ar2le6_nOGs
 **Duration:** 2:14
+
+## Summary
+
+Nick Sapienza walks through a practical case study of Ann, a long-time Big Tech employee with a seven-figure concentrated stock position and low cost basis preparing for early retirement. Rather than being paralyzed by tax considerations or making emotional decisions, he presents a five-rule framework for systematically unwinding the position while managing taxes and regret. The core principle is removing emotion and creating a rules-based plan that prevents bad decisions during market volatility. The framework covers fixed-schedule selling (typically 24-36 months), parameter establishment (such as selling 25% quarterly), immediate reinvestment to maintain market exposure, coordinated tax planning, and a locked decision-making policy reviewed once annually—never during market noise.
+
+## Key Takeaways
+
+- Remove emotion from concentrated stock decisions by establishing a rules-based plan that never changes when stock prices spike, dip, or earnings surprise
+- Use fixed selling schedules (24-36 months) with parameters like 25% quarterly sales to systematically reduce concentration risk without timing the market
+- Reinvest sales proceeds immediately into a diversified target portfolio to minimize regret and maintain market exposure while diversifying away from single-stock risk
+- Coordinate tax planning with three strategies: harvest losses in down years, donate appreciated shares to a donor-advised fund, or pair sales with low-income retirement years to use 0% capital gains brackets
+- Review the plan once annually during a calm period, never during market volatility, to ensure discipline and prevent emotional overrides at exactly the wrong time
+
+## Detailed Notes
+
+### The Five-Rule Framework for Concentrated Positions [00:00:00]
+
+The foundation is a rules-based plan that removes emotion and points of failure. A typical structure uses 24-36 month selling periods and can leverage tax planning—such as tax-loss harvesting in volatile years—to accelerate the unwinding process and reduce concentration more efficiently.
+
+### Rule 1 & 2: Fixed Selling Schedule and Parameters [00:00:00]
+
+Establish fixed parameters rather than making discretionary decisions. A common pattern is to sell 25% of the position spread across four quarters, always at the same time each quarter regardless of price or market conditions. This removes the temptation to time the market or react emotionally to short-term price movements.
+
+### Rule 3: Immediate Reinvestment [00:00:00]
+
+The moment proceeds from a sale are received, reinvest them immediately into the target portfolio. This practice minimizes regret when selling a high-flying growth or tech stock because money is being swapped from one asset into another, keeping capital working in the market while achieving diversification.
+
+### Rule 4: Tax Planning Integration [00:00:00]
+
+Pair the disciplined selling plan with coordinated tax strategy. Keep sales within a desired tax bracket, avoid IRMA jumps, and harvest losses elsewhere to offset gains. Three optimization methods: (A) harvest losses opportunistically in down years to offset gains; (B) donate highest-gain lots to a donor-advised fund to get immediate tax deduction and fund charitable giving for multiple years; (C) pair large sales with low-income retirement years to maximize 0% capital gains bracket utilization.
+
+### Rule 5: Locked Decision-Making and Annual Review [00:00:00]
+
+Create a one-page decision-making policy that becomes your reference point. The critical principle: rules never change because the stock spiked, dipped, or quarterly earnings surprise. Review the plan only once per year during a calm period, never during market noise, when emotions and second-guessing are most likely to cause harmful overrides of the original strategy.
 
 ## Transcript
 

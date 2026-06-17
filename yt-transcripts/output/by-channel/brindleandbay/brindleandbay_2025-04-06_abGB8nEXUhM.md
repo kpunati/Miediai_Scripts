@@ -45,27 +45,46 @@ ingest_date: 2026-06-15
 ingest_version: 1
 
 # === Enrichment state (empty at ingest) ===
-enriched: false
-enrichment_date: null
-enrichment_version: null
-summary: ""
+enriched: true
+enrichment_date: 2026-06-16
+enrichment_version: 1
+summary: "Financial advisor Nick Davis explains how traditional flat-spending retirement plans fail to account for the three-phase pattern of actual retirement spending. Shows how retirees can spend more confidently early in retirement and plan better by matching spending to active, mid, and later-life phases rather than assuming constant inflation-adjusted withdrawals."
 topics: []
-topics_proposed: []
+topics_proposed: ["retirement-spending", "retirement-planning", "financial-planning", "withdrawal-strategy", "lifestyle-planning"]
 entities:
-  people: []
-  companies: []
+  people:
+    - name: "Nick Davis"
+      role: "CFP, Financial Advisor"
+    - name: "Mike"
+      role: "Retiree (case study)"
+    - name: "Lisa"
+      role: "Retiree (case study)"
+  companies:
+    - name: "Brindle and Bay"
+      ticker: null
   tickers: []
   funds: []
-  products: []
-  concepts: []
-content_type: ""
-audience_level: ""
-key_claims: []
+  products: ["401(k)", "IRA", "CD"]
+  concepts: ["Three-phase retirement spending", "Retirement withdrawal rate", "Health care costs", "Inflation adjustment", "Lifestyle spending patterns", "4% rule"]
+content_type: "educational"
+audience_level: "intermediate"
+key_claims: 
+  - claim: "Real-world retirement spending declines by 20 to 30% in mid-retirement, contradicting conventional advice to plan for steady expenses"
+    timestamp: "00:05:50"
+    confidence: "high"
+    flagged: false
+  - claim: "Mike and Lisa were initially told to spend $85,000 per year in retirement with annual inflation increases"
+    timestamp: "00:06:50"
+    confidence: "medium"
+    flagged: true
+  - claim: "In the three-phase approach, Mike and Lisa planned $110,000 spending ages 60-75, $90,000 ages 76-85, and $70,000 ages 86 plus"
+    timestamp: "00:09:33"
+    confidence: "medium"
+    flagged: true
 tags_topic: []
-
 # === Governance ===
 usage_policy: "research_only"
-flags: []
+flags: ["whisper_review_needed"]
 notes: ""
 ---
 
@@ -75,6 +94,44 @@ notes: ""
 **Published:** 2025-04-06
 **URL:** https://youtube.com/watch?v=abGB8nEXUhM
 **Duration:** 12:12
+
+## Summary
+
+Nick Davis explains why most retirement plans fail because they assume flat, inflation-adjusted spending throughout retirement. In reality, spending follows a distinct three-phase pattern: higher spending in active early retirement years, lower spending in mid-retirement, and potentially increased spending later due to healthcare. The video uses Mike and Lisa's case study to show how shifting from a $85,000 constant spending plan to a three-phase approach ($110,000 early, $90,000 mid, $70,000 late) allowed them to enjoy travel and experiences early while maintaining financial security. This approach replaces spreadsheet-based planning with realistic lifestyle-based planning that captures how actual retirees spend money.
+
+## Key Takeaways
+
+- Traditional flat spending models fail because they ignore how lifestyle changes, health changes, and priorities shift retirement spending across different life phases
+- Real-world data shows spending declines 20-30% in mid-retirement, contradicting the conventional wisdom of planning for steady inflation-adjusted expenses
+- The three-phase approach separates early active retirement spending from healthcare costs, allowing retirees to spend more confidently while protecting later-stage needs
+- Many retirees either oversave unnecessarily or undersave early years by using flat spending models, missing their optimal window for enjoying active experiences
+- Redirecting funds into short-term cash accounts and CDs creates a buffer for early spending and allows tax-efficient portfolio management
+
+## Detailed Notes
+
+### The Flat Spending Myth and Its Problems [00:00:52]
+
+Most financial planning software assumes constant linear spending across retirement, often recommending 70-80% of pre-retirement income spread evenly. This ignores how lifestyle, health, and priorities create real spending fluctuations. The result is either unnecessary oversaving that delays retirement, or undersaving in early years leading to financial stress later.
+
+### Five Myths Fueling Flawed Retirement Planning [00:02:57]
+
+Common misconceptions include: steady spending with only inflation increases, constant 4% withdrawal rates, healthcare costs skyrocketing across all years, early retiree frugality, and fear-based savings targets. These myths lead to either oversaving or undersaving. Understanding that spending is not flat and linear allows better decisions affecting both savings targets and retirement lifestyle.
+
+### Three-Phase Spending Pattern [00:04:47]
+
+Actual retirement spending follows a natural curve with higher spending in earlier active years (travel, experiences), a dip during mid-retirement, and potential increases later for healthcare. This curve-based planning allows flexibility and confidence in spending while ensuring later-stage needs remain secure, contrasting with traditional approaches.
+
+### Mike and Lisa Case Study: From Flat to Three-Phase [00:05:50]
+
+Couple with $1.4M saved, no debt, but hesitant about retirement. Initially told to spend $85,000/year with inflation increases. However, they had major goals: camper van travel, grandchildren vacations, and Lisa's Italy art course. The flat spending model underestimated early spending and overestimated their comfort level, creating unnecessary stress and delaying life experiences.
+
+### Implementing Three-Phase Strategy [00:09:33]
+
+Mike and Lisa restructured as: ages 60-75 spending $110,000 (camper, travel, grandkids, experiences); ages 76-85 spending $90,000 (less active); ages 86+ spending $70,000 plus separate 5-year long-term care buffer. They redirected 401k savings to cash and short-term CDs to create early-spending buffer, enabling tax-efficient portfolio management while making experiences feel achievable.
+
+### Psychological and Financial Benefits [00:10:27]
+
+By separating lifestyle spending from healthcare costs, Mike and Lisa could spend more early while protecting later needs. This made retirement feel real and achievable. Mike realized he could work 1-2 years less or work remotely part-time while traveling. The stress and fear dissolved once the plan matched their actual spending capacity and life goals.
 
 ## Transcript
 
