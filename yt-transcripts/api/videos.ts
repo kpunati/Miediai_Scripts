@@ -10,7 +10,7 @@ function loadDigest(): DigestRow[] {
 
   const digestPath = resolve(__dirname, '../generated/digest.json');
   const rawData = readFileSync(digestPath, 'utf-8');
-  digestData = JSON.parse(rawData);
+  digestData = JSON.parse(rawData) as DigestRow[];
   return digestData;
 }
 
@@ -55,33 +55,33 @@ export default async (req: VercelRequest, res: VercelResponse) => {
 
     if (topic && typeof topic === 'string') {
       const topicLower = topic.toLowerCase();
-      digest = digest.filter((d) =>
-        d.topics.some((t) => t.toLowerCase().includes(topicLower)) ||
-        d.topics_proposed.some((t) => t.toLowerCase().includes(topicLower))
+      digest = digest.filter((d: any) =>
+        d.topics.some((t: string) => t.toLowerCase().includes(topicLower)) ||
+        d.topics_proposed.some((t: string) => t.toLowerCase().includes(topicLower))
       );
     }
 
     if (entity && typeof entity === 'string') {
       const entityLower = entity.toLowerCase();
-      digest = digest.filter((d) =>
-        d.entity_names.some((e) => e.toLowerCase().includes(entityLower))
+      digest = digest.filter((d: any) =>
+        d.entity_names.some((e: string) => e.toLowerCase().includes(entityLower))
       );
     }
 
     if (concept && typeof concept === 'string') {
       const conceptLower = concept.toLowerCase();
-      digest = digest.filter((d) =>
-        d.concepts.some((c) => c.toLowerCase().includes(conceptLower))
+      digest = digest.filter((d: any) =>
+        d.concepts.some((c: string) => c.toLowerCase().includes(conceptLower))
       );
     }
 
     if (q && typeof q === 'string' && q.trim().length > 0) {
       const queryLower = q.toLowerCase();
       digest = digest.filter(
-        (d) =>
+        (d: any) =>
           d.title.toLowerCase().includes(queryLower) ||
           d.summary.toLowerCase().includes(queryLower) ||
-          d.key_claims.some((kc) => kc.claim.toLowerCase().includes(queryLower))
+          d.key_claims.some((kc: any) => kc.claim.toLowerCase().includes(queryLower))
       );
     }
 
