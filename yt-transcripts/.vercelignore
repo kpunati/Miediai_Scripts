@@ -1,0 +1,15 @@
+scripts/
+config/
+templates/
+schemas/
+operations/
+.venv/
+.env*
+*.pyc
+__pycache__/
+.DS_Store
+logs/
+.claude/
+README.md
+PROJECT_CONTEXT.md
+AGENTS.md

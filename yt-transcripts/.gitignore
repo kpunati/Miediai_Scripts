@@ -1,40 +1,7 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-.venv/
-venv/
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-
-# Audio temp files (Whisper input)
-/tmp_audio/
-*.mp3
-*.m4a
-*.webm
-*.opus
-*.wav
-
-# Whisper model cache (large, can be re-downloaded)
-.cache/
-models/
-
-# Environment / secrets
-.env
-.env.local
-*.key
-
-# Logs (keep dir, ignore contents — use .gitkeep in /logs/ if needed)
-/logs/*.log
-
-# Index can be regenerated; if you want to commit it, remove this line
-# /output/index.csv
-
-# macOS
+node_modules/
+public/
+generated/
 .DS_Store
-
-# IDE
-.vscode/
-.idea/
-*.swp
+*.log
+.vercel/
+.vercel

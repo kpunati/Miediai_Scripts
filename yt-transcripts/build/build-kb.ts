@@ -2,7 +2,7 @@
  * build-kb.ts — generates the agent-facing knowledge base from the
  * yt-transcripts corpus. Runs at Vercel build time.
  *
- * Reads: ../yt-transcripts/output/index.csv, ../yt-transcripts/output/by-channel/
+ * Reads: ./output/index.csv, ./output/by-channel/
  * Writes: public/ (static files), generated/ (bundled into api functions)
  */
 
@@ -24,7 +24,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, '..');
 const PUBLIC = path.join(REPO_ROOT, 'public');
 const GENERATED = path.join(REPO_ROOT, 'generated');
-const TRANSCRIPTS_OUTPUT = path.resolve(REPO_ROOT, '..', 'output');
+const TRANSCRIPTS_OUTPUT = path.join(REPO_ROOT, 'output');
 const INDEX_CSV = path.join(TRANSCRIPTS_OUTPUT, 'index.csv');
 
 interface VideoData {
