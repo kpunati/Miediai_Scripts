@@ -1,0 +1,20 @@
+{
+  "name": "yt-transcripts-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Agent-facing web knowledge base for YouTube transcripts — BM25 search, structured filtering, minimal token cost per query.",
+  "scripts": {
+    "build": "tsx scripts/build-kb.ts"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "minisearch": "^7.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@vercel/node": "^5.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
