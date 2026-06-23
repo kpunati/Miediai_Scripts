@@ -407,7 +407,7 @@ async function main() {
   console.log(`✓ llms.txt`);
 
   // Write robots.txt
-  await fs.writeFile(path.join(PUBLIC, 'robots.txt'), 'User-agent: *\nDisallow: /');
+  await fs.writeFile(path.join(PUBLIC, 'robots.txt'), 'User-agent: *\nAllow: /');
   console.log(`✓ robots.txt`);
 
   // Write brand reference files
