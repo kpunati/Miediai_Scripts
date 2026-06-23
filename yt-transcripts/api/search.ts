@@ -11,7 +11,7 @@ async function loadSearchIndex(): Promise<MiniSearch<SearchIndexEntry>> {
     assert: { type: 'json' },
   });
   searchIndex = MiniSearch.loadJSON(
-    indexData.default,
+    JSON.stringify(indexData.default),
     SEARCH_OPTIONS as Parameters<typeof MiniSearch.loadJSON>[1]
   );
   return searchIndex;

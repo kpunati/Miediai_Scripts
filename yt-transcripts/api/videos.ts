@@ -33,7 +33,11 @@ export default async (req: VercelRequest, res: VercelResponse) => {
   const page = Math.max(parseInt(offset as string, 10) || 0, 0);
 
   try {
-    let digest = await loadDigest();
+    const rawDigest = await loadDigest();
+    if (!rawDigest) {
+      return res.status(500).json({ error: 'Failed to load digest' });
+    }
+    let digest = rawDigest as Array<any>;
 
     // Apply filters
     if (channel && typeof channel === 'string') {
