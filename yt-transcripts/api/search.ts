@@ -1,17 +1,18 @@
 import { VercelRequest, VercelResponse } from '@vercel/node';
 import MiniSearch from 'minisearch';
+import { readFileSync } from 'fs';
+import { resolve } from 'path';
 import { SearchIndexEntry, SEARCH_OPTIONS } from '../lib/kbConfig';
 
 let searchIndex: MiniSearch<SearchIndexEntry> | null = null;
 
-async function loadSearchIndex(): Promise<MiniSearch<SearchIndexEntry>> {
+function loadSearchIndex(): MiniSearch<SearchIndexEntry> {
   if (searchIndex) return searchIndex;
 
-  const indexData = await import('../generated/search-index.json', {
-    assert: { type: 'json' },
-  });
+  const indexPath = resolve(__dirname, '../generated/search-index.json');
+  const indexData = readFileSync(indexPath, 'utf-8');
   searchIndex = MiniSearch.loadJSON(
-    JSON.stringify(indexData.default),
+    indexData,
     SEARCH_OPTIONS as Parameters<typeof MiniSearch.loadJSON>[1]
   );
   return searchIndex;
@@ -37,7 +38,7 @@ export default async (req: VercelRequest, res: VercelResponse) => {
   const page = Math.max(parseInt(offset, 10) || 0, 0);
 
   try {
-    const index = await loadSearchIndex();
+    const index = loadSearchIndex();
     const allResults = index.search(q.trim(), {
       boost: { title: 3, topics_str: 2.5, summary: 2, channel_name: 1 },
       fuzzy: 0.2,

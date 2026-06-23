@@ -1,15 +1,16 @@
 import { VercelRequest, VercelResponse } from '@vercel/node';
+import { readFileSync } from 'fs';
+import { resolve } from 'path';
 import { DigestRow } from '../lib/kbConfig';
 
 let digestData: DigestRow[] | null = null;
 
-async function loadDigest(): Promise<DigestRow[]> {
+function loadDigest(): DigestRow[] {
   if (digestData) return digestData;
 
-  const data = await import('../generated/digest.json', {
-    assert: { type: 'json' },
-  });
-  digestData = data.default;
+  const digestPath = resolve(__dirname, '../generated/digest.json');
+  const rawData = readFileSync(digestPath, 'utf-8');
+  digestData = JSON.parse(rawData);
   return digestData;
 }
 
@@ -33,7 +34,7 @@ export default async (req: VercelRequest, res: VercelResponse) => {
   const page = Math.max(parseInt(offset as string, 10) || 0, 0);
 
   try {
-    const rawDigest = await loadDigest();
+    const rawDigest = loadDigest();
     if (!rawDigest) {
       return res.status(500).json({ error: 'Failed to load digest' });
     }
