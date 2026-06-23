@@ -342,8 +342,62 @@ async function main() {
     JSON.stringify(Array.from(entitiesIndex.values()))
   );
 
+  // Generate topic pages
+  await fs.mkdir(path.join(PUBLIC, 'topics'), { recursive: true });
+  for (const topic of Array.from(topicsIndex.values())) {
+    const videosByTopic = videos.filter((v) =>
+      v.digest.topics.includes(topic.topic)
+    );
+    const html = buildTopicPage(topic, videosByTopic);
+    const slug = topic.topic.replace(/\s+/g, '-').toLowerCase();
+    await fs.writeFile(
+      path.join(PUBLIC, 'topics', `${slug}.html`),
+      html
+    );
+  }
+  console.log(`✓ Topic pages (${topicsIndex.size})`);
+
+  // Generate entity pages
+  await fs.mkdir(path.join(PUBLIC, 'entities'), { recursive: true });
+  let entityCount = 0;
+  for (const entity of Array.from(entitiesIndex.values())) {
+    const entityName = String(entity.name || '').toLowerCase();
+    const videosByEntity = videos.filter((v) =>
+      v.digest.entity_names.some((e) => {
+        const eName = String(e || '').toLowerCase();
+        return eName.includes(entityName);
+      })
+    );
+    if (videosByEntity.length === 0) continue;
+    const html = buildEntityPage(entity, videosByEntity);
+    const slug = entityName.replace(/\s+/g, '-').replace(/\//g, '-').replace(/&/g, 'and');
+    await fs.writeFile(
+      path.join(PUBLIC, 'entities', `${slug}.html`),
+      html
+    );
+    entityCount++;
+  }
+  console.log(`✓ Entity pages (${entityCount})`);
+
+  // Generate channel pages
+  await fs.mkdir(path.join(PUBLIC, 'channels'), { recursive: true });
+  for (const channel of Array.from(channels.values())) {
+    const videosByChannel = videos.filter(
+      (v) => v.digest.channel_slug === channel.channel_slug
+    );
+    const html = buildChannelPage(channel, videosByChannel);
+    await fs.writeFile(
+      path.join(PUBLIC, 'channels', `${channel.channel_slug}.html`),
+      html
+    );
+  }
+  console.log(`✓ Channel pages (${channels.size})`);
+
   // Write index.html (homepage)
-  const homepage = buildHomepage(Array.from(topicsIndex.values()));
+  const topicsForHomepage = Array.from(topicsIndex.values())
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 20);
+  const homepage = buildHomepage(topicsForHomepage, Array.from(channels.values()));
   await fs.writeFile(path.join(PUBLIC, 'index.html'), homepage);
   console.log(`✓ index.html`);
 
@@ -403,36 +457,40 @@ A lean, agent-first knowledge base for ${totalVideos}+ YouTube videos from ${tot
 - **Topics**: ${uniqueTopics.size} distinct tags
 - **Coverage**: retirement planning, behavioral finance, investing, wealth management, financial advice
 
-## Topic-First Query Flow
+## Navigation Structure
 
-Instead of starting with channels, discover topics first:
+This KB uses **static pages** for browsing:
 
-1. **Discover topics**: \`GET /api/topics\` — returns all available topics with video counts
-2. **Search by topic**: \`GET /api/videos?topic=behavioral-finance&k=10\` — get videos tagged with a specific topic
-3. **Refine search**: Add filters like \`?audience_level=intermediate&content_type=educational\`
-4. **Fetch summary**: \`GET /videos/<channel_slug>/<video_id>.md\` — summary card with key_claims (5KB)
-5. **Full transcript**: \`GET /videos/<channel_slug>/<video_id>_full.md\` — only when you need the complete text
+**For Humans (clicking links):**
+1. Home page (\`/\`) — see top 20 topics and all 11 channels
+2. Topic page (\`/topics/{topic-slug}.html\`) — all videos tagged with that topic
+3. Channel page (\`/channels/{channel-slug}.html\`) — all videos from that channel
+4. Entity page (\`/entities/{entity-slug}.html\`) — all videos mentioning that company/person
+5. Video summary (\`/videos/{channel}/{video-id}.md\`) — frontmatter + summary + key claims (no transcript)
+6. Full transcript (\`/videos/{channel}/{video-id}_full.md\`) — complete transcript
 
-**OR** search by keyword:
-- \`GET /api/search?q=private+credit&k=10\` — BM25 over titles + summaries + topics
-- \`GET /api/entities?q=behavioral&k=10\` — search entities and concepts
+**For Agents (programmatic access):**
+1. Download \`/digest.json\` once (1,313 rows, ~200KB) — full catalog with metadata
+2. Filter locally by topic, channel, audience_level, etc.
+3. For each video, fetch \`/videos/{channel}/{id}.md\` to get summary + key_claims
+4. Fetch \`_full.md\` only if you need the transcript
 
-## Endpoints
+## Static Files & Navigation
 
-| Endpoint | Kind | Purpose |
-|---|---|---|
-| \`/digest.json\` | static | slim catalog, one row per video (~${Math.round(totalVideos * 0.05)}KB) |
-| \`/topics.json\` | static | all topics with counts and channel coverage |
-| \`/entities.json\` | static | all entities/concepts with counts |
-| \`/channels.json\` | static | channel list with counts and top topics |
-| \`/index.json\` | static | full field map with entities + key_claims |
-| \`/api/topics\` | function | discover available topics; supports filtering |
-| \`/api/entities?q=&type=\` | function | search entities/concepts by name or type |
-| \`/api/search?q=&k=&offset=\` | function | BM25 keyword search → ranked hits with snippet |
-| \`/api/videos?topic=&entity=&concept=&channel=&audience_level=&content_type=&q=&k=&offset=\` | function | structured filter by any dimension |
-| \`/videos/<channel_slug>/<video_id>.md\` | static | summary card with key_claims (no transcript) |
-| \`/videos/<channel_slug>/<video_id>_full.md\` | static | full file with transcript |
-| \`/llms.txt\` | static | this file |
+| Path | Purpose |
+|---|---|
+| \`/\` | Homepage with top topics and all channels |
+| \`/topics/{slug}.html\` | All videos tagged with a topic (browseable table) |
+| \`/entities/{slug}.html\` | All videos mentioning an entity (company, person, concept) |
+| \`/channels/{slug}.html\` | All videos from a channel with top topics |
+| \`/digest.json\` | Full catalog: all 1,313 videos with metadata for local filtering |
+| \`/topics.json\` | All 2,444 topics with counts and channel coverage |
+| \`/entities.json\` | All 3,721 entities/concepts with mention counts |
+| \`/channels.json\` | All 11 channels with video counts and date ranges |
+| \`/index.json\` | Full field map (same as digest + entities + key_claims) |
+| \`/videos/{channel_slug}/{video_id}.md\` | Summary card (frontmatter + summary + key claims, NO transcript) |
+| \`/videos/{channel_slug}/{video_id}_full.md\` | Full file including transcript |
+| \`/llms.txt\` | This documentation |
 
 ## Field Glossary
 
@@ -517,7 +575,7 @@ Base URL: (set by Vercel project)
 `;
 }
 
-function buildHomepage(topics: TopicRow[]): string {
+function buildHomepage(topics: TopicRow[], channels: ChannelRow[]): string {
   const top10Topics = topics
     .sort((a, b) => b.count - a.count)
     .slice(0, 10)
@@ -587,75 +645,28 @@ function buildHomepage(topics: TopicRow[]): string {
 
     <div class="main-grid">
       <div class="card">
-        <h2>💡 Try These Queries</h2>
-        <div class="example-prompt" onclick="copyToClipboard('GET /api/topics')">
-          <strong>1. Discover Topics</strong><br>
-          See all available topics with video counts
-          <code>GET /api/topics</code>
-        </div>
-        <div class="example-prompt" onclick="copyToClipboard('GET /api/videos?topic=behavioral-finance&k=10')">
-          <strong>2. Find by Topic</strong><br>
-          Get 10 videos on behavioral finance
-          <code>GET /api/videos?topic=behavioral-finance&k=10</code>
-        </div>
-        <div class="example-prompt" onclick="copyToClipboard('GET /api/videos?topic=behavioral-finance&audience_level=intermediate&k=10')">
-          <strong>3. Filter by Level</strong><br>
-          Intermediate-level videos on behavioral finance
-          <code>GET /api/videos?topic=behavioral-finance&audience_level=intermediate&k=10</code>
-        </div>
-        <div class="example-prompt" onclick="copyToClipboard('GET /api/entities?q=vanguard&k=5')">
-          <strong>4. Search Entities</strong><br>
-          Find all mentions of "Vanguard"
-          <code>GET /api/entities?q=vanguard&k=5</code>
-        </div>
-        <div class="example-prompt" onclick="copyToClipboard('GET /api/search?q=private+credit&k=5')">
-          <strong>5. Keyword Search</strong><br>
-          BM25 search across all fields
-          <code>GET /api/search?q=private+credit&k=5</code>
-        </div>
-        <div class="example-prompt" onclick="copyToClipboard('GET /digest.json')">
-          <strong>6. Download Full Catalog</strong><br>
-          1,313 videos with all metadata (~200KB)
-          <code>GET /digest.json</code>
-        </div>
+        <h2>🔗 Browse by Topic</h2>
+        <p style="margin-bottom: 1rem; color: #666;">Click a topic to see all videos tagged with it.</p>
+        ${topics
+          .slice(0, 15)
+          .map(
+            (t) =>
+              `<a href="/topics/${t.topic.replace(/\s+/g, '-').toLowerCase()}.html" style="display: block; padding: 0.75rem; background: #f7fafc; border-radius: 6px; margin-bottom: 0.5rem; text-decoration: none; color: #4299e1; border-left: 3px solid #4299e1; transition: all 0.2s;" onmouseover="this.style.background='#edf2f7'" onmouseout="this.style.background='#f7fafc'"><strong>${t.topic}</strong> <span style="float: right; color: #718096;">${t.count} videos</span></a>`
+          )
+          .join('')}
+        <a href="/topics.json" style="display: block; margin-top: 1rem; padding: 0.75rem; background: #e6fffa; border-radius: 6px; text-decoration: none; color: #0f766e; font-weight: bold; text-align: center;">View All Topics (JSON)</a>
       </div>
 
       <div class="card">
-        <h2>🔗 API Endpoints</h2>
-        <a href="/api/topics" class="endpoint-link">
-          <span class="method">GET</span>
-          <span class="path">/api/topics</span>
-          <span class="description">Discover all topics with counts</span>
-        </a>
-        <a href="/api/entities?q=" class="endpoint-link">
-          <span class="method">GET</span>
-          <span class="path">/api/entities</span>
-          <span class="description">Search entities by name or type</span>
-        </a>
-        <a href="/api/search?q=index" class="endpoint-link">
-          <span class="method">GET</span>
-          <span class="path">/api/search?q=</span>
-          <span class="description">BM25 keyword search</span>
-        </a>
-        <a href="/api/videos?topic=" class="endpoint-link">
-          <span class="method">GET</span>
-          <span class="path">/api/videos</span>
-          <span class="description">Filter by topic, entity, channel, level, type</span>
-        </a>
-        <a href="/digest.json" class="endpoint-link">
-          <span class="method">GET</span>
-          <span class="path">/digest.json</span>
-          <span class="description">Full catalog of 1,313 videos</span>
-        </a>
-        <a href="/llms.txt" class="endpoint-link">
-          <span class="method">GET</span>
-          <span class="path">/llms.txt</span>
-          <span class="description">Full API documentation</span>
-        </a>
-        <div class="topics-preview">
-          <strong>Top Topics:</strong>
-          <div>${top10Topics}</div>
-        </div>
+        <h2>📺 Browse by Channel</h2>
+        <p style="margin-bottom: 1rem; color: #666;">Click a channel to see all videos from it.</p>
+        ${channels
+          .sort((a, b) => b.count - a.count)
+          .map(
+            (c) =>
+              `<a href="/channels/${c.channel_slug}.html" style="display: block; padding: 0.75rem; background: #f7fafc; border-radius: 6px; margin-bottom: 0.5rem; text-decoration: none; color: #4299e1; border-left: 3px solid #805ad5; transition: all 0.2s;" onmouseover="this.style.background='#edf2f7'" onmouseout="this.style.background='#f7fafc'"><strong>${c.channel_name}</strong> <span style="float: right; color: #718096;">${c.count} videos</span></a>`
+          )
+          .join('')}
       </div>
     </div>
 
@@ -686,6 +697,243 @@ function buildHomepage(topics: TopicRow[]): string {
       alert('Copied: ' + text);
     }
   </script>
+</body>
+</html>`;
+}
+
+function buildTopicPage(topic: TopicRow, videos: VideoData[]): string {
+  const videosList = videos
+    .sort(
+      (a, b) =>
+        new Date(b.digest.publish_date).getTime() -
+        new Date(a.digest.publish_date).getTime()
+    )
+    .map(
+      (v) =>
+        `<tr>
+          <td><strong><a href="/videos/${v.digest.channel_slug}/${v.digest.video_id}.md" style="color: #4299e1; text-decoration: none;">${v.digest.title}</a></strong></td>
+          <td>${v.digest.channel_name}</td>
+          <td>${v.digest.publish_date}</td>
+          <td style="text-align: center;">${v.digest.audience_level}</td>
+          <td style="text-align: center;">${v.digest.enriched ? '✓' : '—'}</td>
+        </tr>`
+    )
+    .join('');
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>${topic.topic} — YouTube Transcripts KB</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f7fa; padding: 2rem; color: #333; }
+    .container { max-width: 1200px; margin: 0 auto; }
+    header { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-bottom: 2rem; }
+    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    .back-link { color: #4299e1; text-decoration: none; display: inline-block; margin-bottom: 1rem; }
+    .back-link:hover { text-decoration: underline; }
+    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 1rem; margin-top: 1rem; }
+    .stat { background: #f0f4f8; padding: 1rem; border-radius: 8px; text-align: center; }
+    .stat-num { font-size: 1.5rem; font-weight: bold; }
+    .stat-label { font-size: 0.8rem; color: #718096; }
+    table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+    th { background: #edf2f7; padding: 1rem; text-align: left; font-weight: 600; border-bottom: 1px solid #e2e8f0; }
+    td { padding: 1rem; border-bottom: 1px solid #e2e8f0; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover { background: #f7fafc; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="/" class="back-link">← Back to Home</a>
+      <h1>#${topic.topic}</h1>
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-num">${topic.count}</div>
+          <div class="stat-label">Videos</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">${topic.enriched_count}</div>
+          <div class="stat-label">Enriched</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">${topic.channels.length}</div>
+          <div class="stat-label">Channels</div>
+        </div>
+      </div>
+    </header>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Channel</th>
+          <th>Date</th>
+          <th style="text-align: center;">Level</th>
+          <th style="text-align: center;">Enriched</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${videosList}
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>`;
+}
+
+function buildEntityPage(entity: EntityRow, videos: VideoData[]): string {
+  const videosList = videos
+    .sort(
+      (a, b) =>
+        new Date(b.digest.publish_date).getTime() -
+        new Date(a.digest.publish_date).getTime()
+    )
+    .slice(0, 100)
+    .map(
+      (v) =>
+        `<tr>
+          <td><strong><a href="/videos/${v.digest.channel_slug}/${v.digest.video_id}.md" style="color: #4299e1; text-decoration: none;">${v.digest.title}</a></strong></td>
+          <td>${v.digest.channel_name}</td>
+          <td>${v.digest.publish_date}</td>
+        </tr>`
+    )
+    .join('');
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>${entity.name} — YouTube Transcripts KB</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f7fa; padding: 2rem; color: #333; }
+    .container { max-width: 1200px; margin: 0 auto; }
+    header { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-bottom: 2rem; }
+    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    .back-link { color: #4299e1; text-decoration: none; display: inline-block; margin-bottom: 1rem; }
+    .back-link:hover { text-decoration: underline; }
+    .meta { color: #718096; font-size: 0.9rem; margin-top: 0.5rem; }
+    table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+    th { background: #edf2f7; padding: 1rem; text-align: left; font-weight: 600; border-bottom: 1px solid #e2e8f0; }
+    td { padding: 1rem; border-bottom: 1px solid #e2e8f0; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover { background: #f7fafc; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="/" class="back-link">← Back to Home</a>
+      <h1>${entity.name}</h1>
+      <p class="meta">Type: ${entity.type} • Mentioned in ${entity.count} videos across ${entity.channels.length} channels</p>
+    </header>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Channel</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${videosList}
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>`;
+}
+
+function buildChannelPage(channel: ChannelRow, videos: VideoData[]): string {
+  const videosList = videos
+    .sort(
+      (a, b) =>
+        new Date(b.digest.publish_date).getTime() -
+        new Date(a.digest.publish_date).getTime()
+    )
+    .map(
+      (v) =>
+        `<tr>
+          <td><strong><a href="/videos/${v.digest.channel_slug}/${v.digest.video_id}.md" style="color: #4299e1; text-decoration: none;">${v.digest.title}</a></strong></td>
+          <td>${v.digest.publish_date}</td>
+          <td>${v.digest.topics.slice(0, 2).join(', ') || '—'}</td>
+          <td style="text-align: center;">${v.digest.audience_level}</td>
+        </tr>`
+    )
+    .join('');
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>${channel.channel_name} — YouTube Transcripts KB</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f7fa; padding: 2rem; color: #333; }
+    .container { max-width: 1200px; margin: 0 auto; }
+    header { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); margin-bottom: 2rem; }
+    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    .back-link { color: #4299e1; text-decoration: none; display: inline-block; margin-bottom: 1rem; }
+    .back-link:hover { text-decoration: underline; }
+    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 1rem; margin-top: 1rem; }
+    .stat { background: #f0f4f8; padding: 1rem; border-radius: 8px; text-align: center; }
+    .stat-num { font-size: 1.5rem; font-weight: bold; }
+    .stat-label { font-size: 0.8rem; color: #718096; }
+    .topics { margin-top: 1rem; }
+    .topic-badge { display: inline-block; background: #c6f6d5; color: #22543d; padding: 0.35rem 0.75rem; border-radius: 12px; font-size: 0.8rem; margin: 0.25rem; }
+    table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+    th { background: #edf2f7; padding: 1rem; text-align: left; font-weight: 600; border-bottom: 1px solid #e2e8f0; }
+    td { padding: 1rem; border-bottom: 1px solid #e2e8f0; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover { background: #f7fafc; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a href="/" class="back-link">← Back to Home</a>
+      <h1>${channel.channel_name}</h1>
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-num">${channel.count}</div>
+          <div class="stat-label">Videos</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">${channel.enriched_count}</div>
+          <div class="stat-label">Enriched</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">${Math.round((channel.enriched_count / channel.count) * 100)}%</div>
+          <div class="stat-label">Coverage</div>
+        </div>
+      </div>
+      <div class="topics">
+        <strong>Top Topics:</strong><br>
+        ${channel.top_topics.map((t) => `<span class="topic-badge">${t}</span>`).join('')}
+      </div>
+    </header>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Date</th>
+          <th>Topics</th>
+          <th style="text-align: center;">Level</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${videosList}
+      </tbody>
+    </table>
+  </div>
 </body>
 </html>`;
 }
