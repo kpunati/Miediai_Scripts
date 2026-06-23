@@ -342,6 +342,11 @@ async function main() {
     JSON.stringify(Array.from(entitiesIndex.values()))
   );
 
+  // Write index.html (homepage)
+  const homepage = buildHomepage(Array.from(topicsIndex.values()));
+  await fs.writeFile(path.join(PUBLIC, 'index.html'), homepage);
+  console.log(`✓ index.html`);
+
   // Write llms.txt
   const llmsTxt = buildLlmsTxt(digest, channels);
   await fs.writeFile(path.join(PUBLIC, 'llms.txt'), llmsTxt);
@@ -510,6 +515,179 @@ This is a static site generated from \`yt-transcripts/output/\`. Every push trig
 
 Base URL: (set by Vercel project)
 `;
+}
+
+function buildHomepage(topics: TopicRow[]): string {
+  const top10Topics = topics
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 10)
+    .map((t) => `<span class="topic-badge small">${t.topic} (${t.count})</span>`)
+    .join('');
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Transcripts KB — Topic-First Search</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); min-height: 100vh; padding: 2rem; color: #333; }
+    .container { max-width: 1200px; margin: 0 auto; }
+    header { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.07); margin-bottom: 2rem; }
+    h1 { font-size: 2.5rem; margin-bottom: 0.5rem; color: #1a202c; }
+    .subtitle { font-size: 1.1rem; color: #666; margin-bottom: 1rem; }
+    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+    .stat { background: #f0f4f8; padding: 1rem; border-radius: 8px; text-align: center; }
+    .stat-number { font-size: 1.8rem; font-weight: bold; color: #2d3748; }
+    .stat-label { font-size: 0.85rem; color: #718096; margin-top: 0.25rem; }
+    .main-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 2rem; }
+    .card { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.07); }
+    .card h2 { font-size: 1.5rem; margin-bottom: 1rem; color: #1a202c; border-bottom: 2px solid #e2e8f0; padding-bottom: 0.5rem; }
+    .example-prompt { background: #f7fafc; border-left: 4px solid #4299e1; padding: 1rem; margin-bottom: 1rem; border-radius: 4px; cursor: pointer; transition: all 0.2s; }
+    .example-prompt:hover { background: #edf2f7; transform: translateX(4px); }
+    .example-prompt code { display: block; background: #2d3748; color: #48bb78; padding: 0.75rem; border-radius: 4px; font-family: monospace; font-size: 0.85rem; margin-top: 0.5rem; overflow-x: auto; }
+    .endpoint-link { display: block; margin-bottom: 1rem; padding: 1rem; background: #f7fafc; border-radius: 8px; text-decoration: none; color: #4299e1; border: 1px solid #cbd5e0; transition: all 0.2s; }
+    .endpoint-link:hover { background: #edf2f7; border-color: #4299e1; transform: translateX(4px); }
+    .endpoint-link .method { display: inline-block; background: #2d3748; color: #48bb78; padding: 0.25rem 0.5rem; border-radius: 3px; font-family: monospace; font-size: 0.8rem; margin-right: 0.5rem; font-weight: bold; }
+    .endpoint-link .path { font-family: monospace; font-size: 0.9rem; }
+    .endpoint-link .description { display: block; font-size: 0.85rem; color: #718096; margin-top: 0.5rem; }
+    .topics-preview { margin-top: 1rem; padding-top: 1rem; border-top: 1px solid #e2e8f0; }
+    .topic-badge { display: inline-block; background: #c6f6d5; color: #22543d; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.85rem; margin: 0.25rem; }
+    .topic-badge.small { padding: 0.25rem 0.75rem; font-size: 0.75rem; }
+    @media (max-width: 768px) { .main-grid { grid-template-columns: 1fr; } h1 { font-size: 1.8rem; } }
+    .footer { text-align: center; margin-top: 3rem; padding: 2rem; background: white; border-radius: 12px; color: #718096; font-size: 0.9rem; }
+    .footer a { color: #4299e1; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📚 YouTube Transcripts KB</h1>
+      <p class="subtitle">Topic-first knowledge base for 1,300+ finance videos. Search by topic, entity, or claim.</p>
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-number">1,313</div>
+          <div class="stat-label">Videos</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">2,444</div>
+          <div class="stat-label">Topics</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">3,721</div>
+          <div class="stat-label">Entities</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">11</div>
+          <div class="stat-label">Channels</div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-grid">
+      <div class="card">
+        <h2>💡 Try These Queries</h2>
+        <div class="example-prompt" onclick="copyToClipboard('GET /api/topics')">
+          <strong>1. Discover Topics</strong><br>
+          See all available topics with video counts
+          <code>GET /api/topics</code>
+        </div>
+        <div class="example-prompt" onclick="copyToClipboard('GET /api/videos?topic=behavioral-finance&k=10')">
+          <strong>2. Find by Topic</strong><br>
+          Get 10 videos on behavioral finance
+          <code>GET /api/videos?topic=behavioral-finance&k=10</code>
+        </div>
+        <div class="example-prompt" onclick="copyToClipboard('GET /api/videos?topic=behavioral-finance&audience_level=intermediate&k=10')">
+          <strong>3. Filter by Level</strong><br>
+          Intermediate-level videos on behavioral finance
+          <code>GET /api/videos?topic=behavioral-finance&audience_level=intermediate&k=10</code>
+        </div>
+        <div class="example-prompt" onclick="copyToClipboard('GET /api/entities?q=vanguard&k=5')">
+          <strong>4. Search Entities</strong><br>
+          Find all mentions of "Vanguard"
+          <code>GET /api/entities?q=vanguard&k=5</code>
+        </div>
+        <div class="example-prompt" onclick="copyToClipboard('GET /api/search?q=private+credit&k=5')">
+          <strong>5. Keyword Search</strong><br>
+          BM25 search across all fields
+          <code>GET /api/search?q=private+credit&k=5</code>
+        </div>
+        <div class="example-prompt" onclick="copyToClipboard('GET /digest.json')">
+          <strong>6. Download Full Catalog</strong><br>
+          1,313 videos with all metadata (~200KB)
+          <code>GET /digest.json</code>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>🔗 API Endpoints</h2>
+        <a href="/api/topics" class="endpoint-link">
+          <span class="method">GET</span>
+          <span class="path">/api/topics</span>
+          <span class="description">Discover all topics with counts</span>
+        </a>
+        <a href="/api/entities?q=" class="endpoint-link">
+          <span class="method">GET</span>
+          <span class="path">/api/entities</span>
+          <span class="description">Search entities by name or type</span>
+        </a>
+        <a href="/api/search?q=index" class="endpoint-link">
+          <span class="method">GET</span>
+          <span class="path">/api/search?q=</span>
+          <span class="description">BM25 keyword search</span>
+        </a>
+        <a href="/api/videos?topic=" class="endpoint-link">
+          <span class="method">GET</span>
+          <span class="path">/api/videos</span>
+          <span class="description">Filter by topic, entity, channel, level, type</span>
+        </a>
+        <a href="/digest.json" class="endpoint-link">
+          <span class="method">GET</span>
+          <span class="path">/digest.json</span>
+          <span class="description">Full catalog of 1,313 videos</span>
+        </a>
+        <a href="/llms.txt" class="endpoint-link">
+          <span class="method">GET</span>
+          <span class="path">/llms.txt</span>
+          <span class="description">Full API documentation</span>
+        </a>
+        <div class="topics-preview">
+          <strong>Top Topics:</strong>
+          <div>${top10Topics}</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>📖 How to Use</h2>
+      <ol style="line-height: 1.8; margin-left: 1.5rem; color: #555;">
+        <li><strong>Start with /api/topics</strong> — see what topics are available</li>
+        <li><strong>Filter by topic</strong> — use /api/videos?topic=X to narrow down videos</li>
+        <li><strong>Search by keyword</strong> — /api/search?q=your+query across all fields</li>
+        <li><strong>Search entities</strong> — /api/entities?q=company+name to find mentions</li>
+        <li><strong>Fetch summary</strong> — Each result links to /videos/{channel}/{id}.md (5KB, no transcript). Includes key claims with timestamps</li>
+        <li><strong>Full transcript</strong> — Add _full.md for complete transcript (50-100KB)</li>
+        <li><strong>Batch</strong> — Download /digest.json to filter locally</li>
+      </ol>
+    </div>
+
+    <div class="footer">
+      <p>
+        Built with MiniSearch (BM25), Vercel static hosting.<br>
+        <a href="/llms.txt">Full Documentation</a> • Indexed: June 2026
+      </p>
+    </div>
+  </div>
+
+  <script>
+    function copyToClipboard(text) {
+      navigator.clipboard.writeText(text);
+      alert('Copied: ' + text);
+    }
+  </script>
+</body>
+</html>`;
 }
 
 main().catch((e) => {
