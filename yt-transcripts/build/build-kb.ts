@@ -640,6 +640,12 @@ function buildHomepage(topics: TopicRow[], channels: ChannelRow[]): string {
 <body>
   <div class="container">
     <header>
+      <div style="background: #fef3c7; border-left: 4px solid #f59e0b; padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem;">
+        <strong style="color: #92400e;">⚡ For AI Agents:</strong>
+        <p style="color: #78350f; margin-top: 0.5rem; margin-bottom: 0.75rem; font-size: 0.95rem;">Before querying this KB, read <code style="background: #fed7aa; padding: 0.25rem 0.5rem; border-radius: 3px;">/llms.txt</code> for complete navigation and API documentation. When drafting content about USWM, see: <a href="/BRAND.md" style="color: #d97706; font-weight: bold;">BRAND.md</a> · <a href="/VOICE.md" style="color: #d97706; font-weight: bold;">VOICE.md</a> · <a href="/OUR_THESIS.md" style="color: #d97706; font-weight: bold;">OUR_THESIS.md</a></p>
+        <small style="color: #92400e;"><strong>Quick start:</strong> Download <code style="background: #fed7aa; padding: 0.25rem 0.5rem; border-radius: 3px;">/digest.json</code> → filter locally by topic/channel → fetch individual video summaries. No API calls needed.</small>
+      </div>
+
       <h1>📚 YouTube Transcripts KB</h1>
       <p class="subtitle">Topic-first knowledge base for 1,300+ finance videos. Search by topic, entity, or claim.</p>
       <div class="stats">
