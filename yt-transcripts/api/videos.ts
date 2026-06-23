@@ -22,6 +22,8 @@ export default async (req: VercelRequest, res: VercelResponse) => {
     content_type: contentType,
     audience_level: audienceLevel,
     topic,
+    entity,
+    concept,
     q,
     k = '20',
     offset = '0',
@@ -54,12 +56,27 @@ export default async (req: VercelRequest, res: VercelResponse) => {
       );
     }
 
+    if (entity && typeof entity === 'string') {
+      const entityLower = entity.toLowerCase();
+      digest = digest.filter((d) =>
+        d.entity_names.some((e) => e.toLowerCase().includes(entityLower))
+      );
+    }
+
+    if (concept && typeof concept === 'string') {
+      const conceptLower = concept.toLowerCase();
+      digest = digest.filter((d) =>
+        d.concepts.some((c) => c.toLowerCase().includes(conceptLower))
+      );
+    }
+
     if (q && typeof q === 'string' && q.trim().length > 0) {
       const queryLower = q.toLowerCase();
       digest = digest.filter(
         (d) =>
           d.title.toLowerCase().includes(queryLower) ||
-          d.summary.toLowerCase().includes(queryLower)
+          d.summary.toLowerCase().includes(queryLower) ||
+          d.key_claims.some((kc) => kc.claim.toLowerCase().includes(queryLower))
       );
     }
 
@@ -80,6 +97,8 @@ export default async (req: VercelRequest, res: VercelResponse) => {
         content_type: contentType || null,
         audience_level: audienceLevel || null,
         topic: topic || null,
+        entity: entity || null,
+        concept: concept || null,
         q: q || null,
       },
       total,
@@ -101,6 +120,9 @@ export default async (req: VercelRequest, res: VercelResponse) => {
         url: d.url,
         path: d.path,
         enriched: d.enriched,
+        key_claims: d.key_claims.slice(0, 3),
+        entity_names: d.entity_names,
+        concepts: d.concepts,
       })),
     });
   } catch (e) {

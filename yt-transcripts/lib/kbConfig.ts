@@ -1,3 +1,9 @@
+export type KeyClaim = {
+  claim: string;
+  timestamp: string;
+  confidence: 'high' | 'medium' | 'low';
+};
+
 export type DigestRow = {
   video_id: string;
   channel_slug: string;
@@ -16,6 +22,9 @@ export type DigestRow = {
   full_path: string;
   enriched: boolean;
   flags: string[];
+  key_claims: KeyClaim[];
+  entity_names: string[];
+  concepts: string[];
 };
 
 export type ChannelRow = {
@@ -28,6 +37,20 @@ export type ChannelRow = {
     latest: string;
   };
   top_topics: string[];
+};
+
+export type TopicRow = {
+  topic: string;
+  count: number;
+  enriched_count: number;
+  channels: string[];
+};
+
+export type EntityRow = {
+  name: string;
+  type: 'person' | 'company' | 'concept' | 'product';
+  count: number;
+  channels: string[];
 };
 
 export type IndexRow = DigestRow & {
@@ -83,6 +106,16 @@ export function parseCSVRow(
     row[h] = values[i];
   });
 
+  const canonicalTopics = (row.topics || '')
+    .split(';')
+    .map((t: string) => t.trim())
+    .filter(Boolean);
+
+  const proposedTopics = (row.topics_proposed || '')
+    .split(';')
+    .map((t: string) => t.trim())
+    .filter(Boolean);
+
   return {
     video_id: row.video_id,
     channel_slug: row.channel_slug,
@@ -93,14 +126,8 @@ export function parseCSVRow(
     view_count_at_ingest: parseInt(row.view_count_at_ingest, 10),
     content_type: row.content_type,
     audience_level: row.audience_level,
-    topics: (row.topics || '')
-      .split(';')
-      .map((t: string) => t.trim())
-      .filter(Boolean),
-    topics_proposed: (row.topics_proposed || '')
-      .split(';')
-      .map((t: string) => t.trim())
-      .filter(Boolean),
+    topics: canonicalTopics.length > 0 ? canonicalTopics : proposedTopics,
+    topics_proposed: proposedTopics,
     summary: row.summary,
     url: row.url,
     enriched: row.enriched === 'True' || row.enriched === 'true',
@@ -108,6 +135,9 @@ export function parseCSVRow(
       .split(';')
       .map((f: string) => f.trim())
       .filter(Boolean),
+    key_claims: [],
+    entity_names: [],
+    concepts: [],
   };
 }
 

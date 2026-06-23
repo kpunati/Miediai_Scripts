@@ -39,7 +39,7 @@ export default async (req: VercelRequest, res: VercelResponse) => {
   try {
     const index = await loadSearchIndex();
     const allResults = index.search(q.trim(), {
-      boost: { title: 3, summary: 2, channel_name: 1 },
+      boost: { title: 3, topics_str: 2.5, summary: 2, channel_name: 1 },
       fuzzy: 0.2,
     });
 
