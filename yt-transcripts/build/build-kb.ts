@@ -410,6 +410,12 @@ async function main() {
   await fs.writeFile(path.join(PUBLIC, 'robots.txt'), 'User-agent: *\nDisallow: /');
   console.log(`✓ robots.txt`);
 
+  // Write brand reference files
+  await fs.writeFile(path.join(PUBLIC, 'BRAND.md'), buildBrandReference());
+  await fs.writeFile(path.join(PUBLIC, 'VOICE.md'), buildVoiceReference());
+  await fs.writeFile(path.join(PUBLIC, 'OUR_THESIS.md'), buildThesisReference());
+  console.log(`✓ Brand reference files (BRAND.md, VOICE.md, OUR_THESIS.md)`);
+
   console.log('\n✅ KB build complete!');
 }
 
@@ -456,6 +462,19 @@ A lean, agent-first knowledge base for ${totalVideos}+ YouTube videos from ${tot
 - **Enriched**: ${enrichedCount} (${Math.round((enrichedCount / totalVideos) * 100)}%)
 - **Topics**: ${uniqueTopics.size} distinct tags
 - **Coverage**: retirement planning, behavioral finance, investing, wealth management, financial advice
+
+## Quick Start
+
+**For querying data:** Browse static pages or download JSON (see Navigation section below).
+
+**For drafting content about USWM:** Read these companion documents:
+- **[BRAND.md](./BRAND.md)** — United Success brand voice, three convictions, terminology, tone rules
+- **[VOICE.md](./VOICE.md)** — What NOT to write: anti-patterns, clichés, tone traps to avoid
+- **[OUR_THESIS.md](./OUR_THESIS.md)** — Target segments, competitive positioning, what edge we have
+
+Link to these when you're producing output (not when querying data). Saves context.
+
+---
 
 ## Navigation Structure
 
@@ -848,6 +867,279 @@ function buildEntityPage(entity: EntityRow, videos: VideoData[]): string {
   </div>
 </body>
 </html>`;
+}
+
+function buildBrandReference(): string {
+  return `# United Success Wealth Management — Brand Voice
+
+*Reference this when drafting content about USWM. Agents should read this before producing marketing material, social content, or client-facing copy.*
+
+---
+
+## Who We Are
+
+**United Success Wealth Management** is an independent, fee-only fiduciary wealth management firm based in Chatham, NJ. We specialize in actively managed portfolios using trend-following, rules-based strategies with risk management at the core.
+
+**Leadership:**
+- **Kean Amaral** (MS Finance, CFA) — Senior Portfolio Manager. 20+ years at Merrill Lynch, JPMorgan Chase, Citi, UBS, AIG. Builds custom portfolios, uses option strategies for risk mitigation and yield enhancement.
+- **Beata Ligas** (EA, NATP) — Tax Specialist & Business Advisory Manager. Enrolled Agent (authorized to represent clients before the IRS). Handles tax strategy, accounting, bookkeeping.
+
+**Positioning:** "Two professionals. One firm." Small and deliberately independent.
+
+---
+
+## The Three Convictions
+
+### 01. The trend is your friend.
+We follow what the market is already doing. **Discipline beats intuition.**
+
+### 02. Risk first. Returns second.
+Capital preservation drives every position. Most clients are over-positioned for growth and under-positioned for downside.
+
+### 03. If we're not a fit, we'll tell you.
+Bad-fit clients hurt everyone. We'd rather turn away a prospect than charge them for years.
+
+---
+
+## Voice & Tone
+
+- **Confident, not boastful.** State things directly. Never "industry-leading."
+- **Honest broker.** Mention when we walk away. Acknowledge tradeoffs.
+- **Editorial, not corporate.** Closer to Bloomberg than a brochure.
+- **Specific over generic.** Use real names, credentials, claims.
+- **Quiet authority.** Like a senior partner in conversation.
+
+---
+
+## Investment Vocabulary
+
+- Trend following
+- Rules-based
+- Momentum
+- Options overlay
+- Position sizing
+- Risk management
+- Active management
+- Capital preservation
+- Fee-only
+- Fiduciary
+
+---
+
+## Signature Phrases
+
+- "Active investment management. Built around your life."
+- "The trend is your friend."
+- "Real work. Done well."
+- "A small firm. Real conviction."
+- "Two professionals. One firm."
+
+---
+
+## Words to Avoid
+
+- wealth-building
+- leveraging
+- world-class, top-tier, industry-leading
+- holistic
+- bespoke, white-glove
+- "our team of experts"
+- "we are passionate about"
+- "your trusted partner"
+
+---
+
+See VOICE.md for anti-patterns to avoid.`;
+}
+
+function buildVoiceReference(): string {
+  return `# United Success — What NOT to Write
+
+*Before drafting content about USWM, read this. It catalogs patterns, clichés, and tone traps that don't belong.*
+
+---
+
+## Empty Marketing Phrases We Avoid
+
+Never use these—they're generic:
+
+- "Industry-leading"
+- "World-class"
+- "Best-in-class"
+- "Top-tier"
+- "Premier"
+- "Cutting-edge"
+- "Innovative"
+- "Robust"
+- "Leverage" (as a verb)
+- "Synergy"
+- "Holistic"
+- "Solutions" (generic noun)
+- "Bespoke" / "white-glove"
+- "Boutique"
+
+---
+
+## Boastful Claims Without Substance
+
+Don't claim without backing it up:
+
+- "We have decades of combined experience" → Instead: name the person, credential, firm
+- "Our team of experts" → Instead: name them with credentials
+- "We are passionate about" → Delete it (filler)
+- "Your trusted partner" → Every firm says this. Drop it.
+- "Personalized service" → Assume yes. Show it, don't state it.
+- "Putting clients first" → Legally required. Saying it is meaningless.
+- "Custom-tailored to your needs" → Filler
+- "Going above and beyond" → Filler
+
+---
+
+## Generic Financial Advisor Copy
+
+Don't use these (90% of wealth firms do):
+
+- "Build wealth"
+- "Achieve your financial goals"
+- "Secure your future"
+- "Plan for tomorrow, today"
+- "Your journey to financial freedom"
+- "Take control of your financial future"
+- "Make your money work for you"
+- "Smart investing for smart investors"
+- "Financial peace of mind"
+
+---
+
+## Tone Traps
+
+**Don't sound like a startup:** "We're disrupting," "The future is here," quirky personality
+
+**Don't sound like a bank:** "We are pleased to inform you," corporate formality
+
+**Don't sound desperate:** "Call now!", "Limited time", "Don't miss out"
+
+**Don't overstate:** "Guaranteed returns," "Beat the market"
+
+---
+
+## CTA Language
+
+**Avoid:**
+- "Learn More"
+- "Click Here"
+- "Submit"
+- "Get Started"
+
+**Use:**
+- "Schedule a Consultation"
+- "Book Your Consultation"
+- "Let's Talk"
+- "Speak with Our Team"
+
+---
+
+## Self-Check
+
+Before publishing:
+
+1. Could this be copy-pasted onto any other RIA site? → Rewrite.
+2. Does it use specific names/credentials/locations? → Add them.
+3. Did I use "trusted partner"? → Delete.
+4. Does it sound like a real person wrote it? → Rewrite.
+5. Does it acknowledge any tradeoff? → Add one if relevant.
+
+---
+
+## One-Line Rule
+
+**If it sounds like every other wealth management firm—start over.**
+
+Our entire brand is built on NOT being generic.`;
+}
+
+function buildThesisReference(): string {
+  return `# United Success — Our Thesis & Positioning
+
+*Reference this when understanding how we position ourselves and who we serve.*
+
+---
+
+## Our Competitive Edge
+
+**Independent + Modern**
+
+We're an independent advisor (not tied to a broker's product shelf) who operates with modern tech and information systems. Few competitors credibly claim both.
+
+- **Independent:** No product sales, no commissions, fiduciary by structure.
+- **Modern:** Trend-following, rules-based, options overlay. Not passive buy-and-hold.
+
+---
+
+## Who We Serve
+
+### Segment 1: Early-stage professionals (first investment account)
+**Problem:** Choice paralysis, don't know diversification, see investing as "rich people stuff"
+
+**Our fit:** Remove paralysis, build the right foundation, explain the discipline upfront.
+
+**Messaging:** "From your first dollar," "Start small think big," "Discipline beats intuition"
+
+### Segment 2: Mid-career professionals (401k optimization)
+**Problem:** 401(k) not optimized, scattered accounts, complex taxes, uncertain about retirement readiness
+
+**Our fit:** Coordinate all accounts, optimize 401(k), integrate tax strategy, give real retirement number.
+
+**Messaging:** "Everything in one place," "Tax-aware investing," "20 years to retirement—let's be intentional"
+
+---
+
+## The Three Convictions as Positioning
+
+1. **"The trend is your friend."** — We don't try to outsmart the market. We follow what's working. Systematically.
+
+2. **"Risk first. Returns second."** — Most advisors lead with upside. We lead with "how much can we afford to lose?"
+
+3. **"If we're not a fit, we'll tell you."** — This is the conviction that wins deals. Prospects expect to be sold to. An advisor who turns away bad-fit business builds trust instantly.
+
+---
+
+## Competitive Positioning
+
+**vs. Wirehouses:** They have brand and scale. We have independence and fiduciary obligation. No product shelves.
+
+**vs. Passive-only RIAs:** They're cheap and automated. We're active and deliberate. We think there's value in discipline + options overlay + tax strategy.
+
+**vs. Robo-advisors:** They're cheaper and simpler. We're active and personal. For complicated 401(k) or tax situations, robo falls apart.
+
+**vs. Other Independent RIAs:** We've won on modern tooling and founder credibility (Kean's 20+ years at the largest banks). Tradeoff: we're smaller and selective.
+
+---
+
+## The 30-Second Pitch
+
+"We're an independent investment management firm for people who have some money but aren't sure if it's working hard enough. We use trend-following, rules-based strategy—discipline beats intuition. We're selective about clients because bad-fit clients hurt everyone. If you need us, we'll tell you. If we're not right for you, we'll tell you that too."
+
+---
+
+## Key Messaging Platforms
+
+**For early-stage professionals:**
+- "Start with discipline, not luck"
+- "Your first investment account should be boring"
+- "The trend is your friend"
+- "Everything you need to know is on one page"
+
+**For mid-career professionals:**
+- "Your 401(k) is working too hard (or not hard enough)"
+- "20 years to retirement—let's be intentional"
+- "Tax-aware investing means thousands back to you"
+- "One advisor, all your accounts—coordinated"
+
+**Universal:**
+- "Risk first. Returns second."
+- "Real work. Done well."
+- "Two professionals. One firm."`;
 }
 
 function buildChannelPage(channel: ChannelRow, videos: VideoData[]): string {
